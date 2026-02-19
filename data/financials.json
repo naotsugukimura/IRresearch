@@ -1,0 +1,462 @@
+[
+  {
+    "companyId": "litalico",
+    "currency": "JPY",
+    "unit": "million",
+    "fiscalYears": [
+      {
+        "year": "2021年3月期",
+        "revenue": 17028,
+        "operatingProfit": 1754,
+        "ordinaryProfit": 1780,
+        "netIncome": 1148,
+        "operatingMargin": 10.3,
+        "roe": 18.2,
+        "employees": 3050,
+        "facilities": 256,
+        "users": 16200,
+        "revenuePerEmployee": 5.58,
+        "segments": [
+          { "name": "就労支援サービス", "revenue": 8120, "profit": 1050 },
+          { "name": "児童支援サービス", "revenue": 7350, "profit": 680 },
+          { "name": "プラットフォーム", "revenue": 1558, "profit": 24 }
+        ]
+      },
+      {
+        "year": "2022年3月期",
+        "revenue": 19432,
+        "operatingProfit": 2186,
+        "ordinaryProfit": 2210,
+        "netIncome": 1430,
+        "operatingMargin": 11.2,
+        "roe": 20.1,
+        "employees": 3340,
+        "facilities": 278,
+        "users": 17800,
+        "revenuePerEmployee": 5.82,
+        "segments": [
+          { "name": "就労支援サービス", "revenue": 9050, "profit": 1230 },
+          { "name": "児童支援サービス", "revenue": 8180, "profit": 810 },
+          { "name": "プラットフォーム", "revenue": 2202, "profit": 146 }
+        ]
+      },
+      {
+        "year": "2023年3月期",
+        "revenue": 22270,
+        "operatingProfit": 2448,
+        "ordinaryProfit": 2490,
+        "netIncome": 1605,
+        "operatingMargin": 11.0,
+        "roe": 19.5,
+        "employees": 3620,
+        "facilities": 305,
+        "users": 19500,
+        "revenuePerEmployee": 6.15,
+        "segments": [
+          { "name": "就労支援サービス", "revenue": 10100, "profit": 1380 },
+          { "name": "児童支援サービス", "revenue": 9010, "profit": 870 },
+          { "name": "プラットフォーム", "revenue": 3160, "profit": 198 }
+        ]
+      },
+      {
+        "year": "2024年3月期",
+        "revenue": 25180,
+        "operatingProfit": 2920,
+        "ordinaryProfit": 2960,
+        "netIncome": 1910,
+        "operatingMargin": 11.6,
+        "roe": 21.0,
+        "employees": 3910,
+        "facilities": 328,
+        "users": 21200,
+        "revenuePerEmployee": 6.44,
+        "segments": [
+          { "name": "就労支援サービス", "revenue": 11200, "profit": 1580 },
+          { "name": "児童支援サービス", "revenue": 9900, "profit": 980 },
+          { "name": "プラットフォーム", "revenue": 4080, "profit": 360 }
+        ]
+      },
+      {
+        "year": "2025年3月期",
+        "revenue": 28530,
+        "operatingProfit": 3310,
+        "ordinaryProfit": 3360,
+        "netIncome": 2185,
+        "operatingMargin": 11.6,
+        "roe": 21.8,
+        "employees": 4200,
+        "facilities": 350,
+        "users": 23000,
+        "revenuePerEmployee": 6.79,
+        "segments": [
+          { "name": "就労支援サービス", "revenue": 12350, "profit": 1750 },
+          { "name": "児童支援サービス", "revenue": 10680, "profit": 1080 },
+          { "name": "プラットフォーム", "revenue": 5500, "profit": 480 }
+        ]
+      }
+    ]
+  },
+  {
+    "companyId": "welbe",
+    "currency": "JPY",
+    "unit": "million",
+    "fiscalYears": [
+      {
+        "year": "2021年3月期",
+        "revenue": 8120,
+        "operatingProfit": 730,
+        "ordinaryProfit": 740,
+        "netIncome": 470,
+        "operatingMargin": 9.0,
+        "roe": 14.5,
+        "employees": 1820,
+        "facilities": 82,
+        "users": 5400,
+        "revenuePerEmployee": 4.46,
+        "segments": [
+          { "name": "就労支援事業", "revenue": 6580, "profit": 620 },
+          { "name": "児童福祉事業", "revenue": 1540, "profit": 110 }
+        ]
+      },
+      {
+        "year": "2022年3月期",
+        "revenue": 9350,
+        "operatingProfit": 890,
+        "ordinaryProfit": 905,
+        "netIncome": 575,
+        "operatingMargin": 9.5,
+        "roe": 15.2,
+        "employees": 2050,
+        "facilities": 90,
+        "users": 6100,
+        "revenuePerEmployee": 4.56,
+        "segments": [
+          { "name": "就労支援事業", "revenue": 7510, "profit": 740 },
+          { "name": "児童福祉事業", "revenue": 1840, "profit": 150 }
+        ]
+      },
+      {
+        "year": "2023年3月期",
+        "revenue": 10580,
+        "operatingProfit": 1080,
+        "ordinaryProfit": 1095,
+        "netIncome": 700,
+        "operatingMargin": 10.2,
+        "roe": 16.0,
+        "employees": 2280,
+        "facilities": 98,
+        "users": 6900,
+        "revenuePerEmployee": 4.64,
+        "segments": [
+          { "name": "就労支援事業", "revenue": 8420, "profit": 890 },
+          { "name": "児童福祉事業", "revenue": 2160, "profit": 190 }
+        ]
+      },
+      {
+        "year": "2024年3月期",
+        "revenue": 11850,
+        "operatingProfit": 1280,
+        "ordinaryProfit": 1300,
+        "netIncome": 835,
+        "operatingMargin": 10.8,
+        "roe": 16.8,
+        "employees": 2540,
+        "facilities": 108,
+        "users": 7600,
+        "revenuePerEmployee": 4.67,
+        "segments": [
+          { "name": "就労支援事業", "revenue": 9350, "profit": 1050 },
+          { "name": "児童福祉事業", "revenue": 2500, "profit": 230 }
+        ]
+      },
+      {
+        "year": "2025年3月期",
+        "revenue": 13200,
+        "operatingProfit": 1425,
+        "ordinaryProfit": 1450,
+        "netIncome": 940,
+        "operatingMargin": 10.8,
+        "roe": 17.2,
+        "employees": 2800,
+        "facilities": 120,
+        "users": 8400,
+        "revenuePerEmployee": 4.71,
+        "segments": [
+          { "name": "就労支援事業", "revenue": 10350, "profit": 1160 },
+          { "name": "児童福祉事業", "revenue": 2850, "profit": 265 }
+        ]
+      }
+    ]
+  },
+  {
+    "companyId": "cocoruport",
+    "currency": "JPY",
+    "unit": "million",
+    "fiscalYears": [
+      {
+        "year": "2021年3月期",
+        "revenue": 2520,
+        "operatingProfit": 310,
+        "ordinaryProfit": 315,
+        "netIncome": 200,
+        "operatingMargin": 12.3,
+        "roe": 22.0,
+        "employees": 520,
+        "facilities": 32,
+        "users": 1800,
+        "revenuePerEmployee": 4.85,
+        "segments": [
+          { "name": "就労移行支援", "revenue": 2100, "profit": 280 },
+          { "name": "自立訓練", "revenue": 420, "profit": 30 }
+        ]
+      },
+      {
+        "year": "2022年3月期",
+        "revenue": 3180,
+        "operatingProfit": 430,
+        "ordinaryProfit": 435,
+        "netIncome": 280,
+        "operatingMargin": 13.5,
+        "roe": 24.5,
+        "employees": 650,
+        "facilities": 42,
+        "users": 2300,
+        "revenuePerEmployee": 4.89,
+        "segments": [
+          { "name": "就労移行支援", "revenue": 2600, "profit": 370 },
+          { "name": "自立訓練", "revenue": 580, "profit": 60 }
+        ]
+      },
+      {
+        "year": "2023年3月期",
+        "revenue": 4050,
+        "operatingProfit": 610,
+        "ordinaryProfit": 615,
+        "netIncome": 395,
+        "operatingMargin": 15.1,
+        "roe": 26.8,
+        "employees": 820,
+        "facilities": 52,
+        "users": 3000,
+        "revenuePerEmployee": 4.94,
+        "segments": [
+          { "name": "就労移行支援", "revenue": 3250, "profit": 510 },
+          { "name": "自立訓練", "revenue": 800, "profit": 100 }
+        ]
+      },
+      {
+        "year": "2024年3月期",
+        "revenue": 5100,
+        "operatingProfit": 790,
+        "ordinaryProfit": 800,
+        "netIncome": 515,
+        "operatingMargin": 15.5,
+        "roe": 27.5,
+        "employees": 1010,
+        "facilities": 64,
+        "users": 3800,
+        "revenuePerEmployee": 5.05,
+        "segments": [
+          { "name": "就労移行支援", "revenue": 4020, "profit": 650 },
+          { "name": "自立訓練", "revenue": 1080, "profit": 140 }
+        ]
+      },
+      {
+        "year": "2025年3月期",
+        "revenue": 6050,
+        "operatingProfit": 960,
+        "ordinaryProfit": 970,
+        "netIncome": 630,
+        "operatingMargin": 15.9,
+        "roe": 28.0,
+        "employees": 1200,
+        "facilities": 75,
+        "users": 4600,
+        "revenuePerEmployee": 5.04,
+        "segments": [
+          { "name": "就労移行支援", "revenue": 4700, "profit": 780 },
+          { "name": "自立訓練", "revenue": 1350, "profit": 180 }
+        ]
+      }
+    ]
+  },
+  {
+    "companyId": "spool",
+    "currency": "JPY",
+    "unit": "million",
+    "fiscalYears": [
+      {
+        "year": "2021年3月期",
+        "revenue": 15200,
+        "operatingProfit": 1290,
+        "ordinaryProfit": 1280,
+        "netIncome": 830,
+        "operatingMargin": 8.5,
+        "roe": 20.5,
+        "employees": 1220,
+        "facilities": 45,
+        "revenuePerEmployee": 12.46,
+        "segments": [
+          { "name": "障害者雇用支援", "revenue": 4800, "profit": 720 },
+          { "name": "人材ソリューション", "revenue": 6200, "profit": 380 },
+          { "name": "ロジスティクス", "revenue": 4200, "profit": 190 }
+        ]
+      },
+      {
+        "year": "2022年3月期",
+        "revenue": 17500,
+        "operatingProfit": 1540,
+        "ordinaryProfit": 1530,
+        "netIncome": 990,
+        "operatingMargin": 8.8,
+        "roe": 21.2,
+        "employees": 1350,
+        "facilities": 55,
+        "revenuePerEmployee": 12.96,
+        "segments": [
+          { "name": "障害者雇用支援", "revenue": 5900, "profit": 900 },
+          { "name": "人材ソリューション", "revenue": 6900, "profit": 420 },
+          { "name": "ロジスティクス", "revenue": 4700, "profit": 220 }
+        ]
+      },
+      {
+        "year": "2023年3月期",
+        "revenue": 20100,
+        "operatingProfit": 1870,
+        "ordinaryProfit": 1860,
+        "netIncome": 1210,
+        "operatingMargin": 9.3,
+        "roe": 22.0,
+        "employees": 1500,
+        "facilities": 68,
+        "revenuePerEmployee": 13.40,
+        "segments": [
+          { "name": "障害者雇用支援", "revenue": 7200, "profit": 1120 },
+          { "name": "人材ソリューション", "revenue": 7500, "profit": 480 },
+          { "name": "ロジスティクス", "revenue": 5400, "profit": 270 }
+        ]
+      },
+      {
+        "year": "2024年3月期",
+        "revenue": 22800,
+        "operatingProfit": 2190,
+        "ordinaryProfit": 2180,
+        "netIncome": 1420,
+        "operatingMargin": 9.6,
+        "roe": 22.8,
+        "employees": 1650,
+        "facilities": 82,
+        "revenuePerEmployee": 13.82,
+        "segments": [
+          { "name": "障害者雇用支援", "revenue": 8600, "profit": 1350 },
+          { "name": "人材ソリューション", "revenue": 8200, "profit": 540 },
+          { "name": "ロジスティクス", "revenue": 6000, "profit": 300 }
+        ]
+      },
+      {
+        "year": "2025年3月期",
+        "revenue": 25200,
+        "operatingProfit": 2470,
+        "ordinaryProfit": 2460,
+        "netIncome": 1600,
+        "operatingMargin": 9.8,
+        "roe": 23.5,
+        "employees": 1800,
+        "facilities": 95,
+        "revenuePerEmployee": 14.00,
+        "segments": [
+          { "name": "障害者雇用支援", "revenue": 9800, "profit": 1550 },
+          { "name": "人材ソリューション", "revenue": 8900, "profit": 590 },
+          { "name": "ロジスティクス", "revenue": 6500, "profit": 330 }
+        ]
+      }
+    ]
+  },
+  {
+    "companyId": "sms",
+    "currency": "JPY",
+    "unit": "million",
+    "fiscalYears": [
+      {
+        "year": "2021年3月期",
+        "revenue": 35850,
+        "operatingProfit": 4300,
+        "ordinaryProfit": 4350,
+        "netIncome": 2850,
+        "operatingMargin": 12.0,
+        "roe": 19.5,
+        "employees": 3050,
+        "revenuePerEmployee": 11.75,
+        "segments": [
+          { "name": "キャリア事業", "revenue": 19500, "profit": 2800 },
+          { "name": "介護・障害福祉SaaS", "revenue": 8200, "profit": 950 },
+          { "name": "ヘルスケア", "revenue": 8150, "profit": 550 }
+        ]
+      },
+      {
+        "year": "2022年3月期",
+        "revenue": 39800,
+        "operatingProfit": 5170,
+        "ordinaryProfit": 5230,
+        "netIncome": 3420,
+        "operatingMargin": 13.0,
+        "roe": 20.8,
+        "employees": 3280,
+        "revenuePerEmployee": 12.13,
+        "segments": [
+          { "name": "キャリア事業", "revenue": 21200, "profit": 3200 },
+          { "name": "介護・障害福祉SaaS", "revenue": 9800, "profit": 1250 },
+          { "name": "ヘルスケア", "revenue": 8800, "profit": 720 }
+        ]
+      },
+      {
+        "year": "2023年3月期",
+        "revenue": 44600,
+        "operatingProfit": 5800,
+        "ordinaryProfit": 5870,
+        "netIncome": 3830,
+        "operatingMargin": 13.0,
+        "roe": 21.5,
+        "employees": 3520,
+        "revenuePerEmployee": 12.67,
+        "segments": [
+          { "name": "キャリア事業", "revenue": 23100, "profit": 3550 },
+          { "name": "介護・障害福祉SaaS", "revenue": 11500, "profit": 1480 },
+          { "name": "ヘルスケア", "revenue": 10000, "profit": 770 }
+        ]
+      },
+      {
+        "year": "2024年3月期",
+        "revenue": 49500,
+        "operatingProfit": 5940,
+        "ordinaryProfit": 6020,
+        "netIncome": 3920,
+        "operatingMargin": 12.0,
+        "roe": 20.2,
+        "employees": 3750,
+        "revenuePerEmployee": 13.20,
+        "segments": [
+          { "name": "キャリア事業", "revenue": 24800, "profit": 3600 },
+          { "name": "介護・障害福祉SaaS", "revenue": 13500, "profit": 1550 },
+          { "name": "ヘルスケア", "revenue": 11200, "profit": 790 }
+        ]
+      },
+      {
+        "year": "2025年3月期",
+        "revenue": 55200,
+        "operatingProfit": 6350,
+        "ordinaryProfit": 6430,
+        "netIncome": 4190,
+        "operatingMargin": 11.5,
+        "roe": 19.8,
+        "employees": 4000,
+        "revenuePerEmployee": 13.80,
+        "segments": [
+          { "name": "キャリア事業", "revenue": 26800, "profit": 3750 },
+          { "name": "介護・障害福祉SaaS", "revenue": 15800, "profit": 1720 },
+          { "name": "ヘルスケア", "revenue": 12600, "profit": 880 }
+        ]
+      }
+    ]
+  }
+]

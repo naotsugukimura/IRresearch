@@ -1,0 +1,216 @@
+[
+  {
+    "companyId": "litalico",
+    "plans": [
+      {
+        "name": "中期経営計画 2026-2028",
+        "period": "2026/3 - 2028/3",
+        "targets": {
+          "revenue": 45000,
+          "operatingProfit": 7500,
+          "facilities": 400,
+          "description": "売上高450億円、営業利益75億円、拠点数400拠点を目指す。プラットフォーム事業の売上構成比を30%以上に引き上げる。"
+        },
+        "keyStrategies": [
+          {
+            "title": "LITALICOプラットフォーム事業の拡大",
+            "description": "LITALICO仕事ナビ・LITALICO発達ナビ等のプラットフォームを通じた集客・マッチング機能を強化し、事業所向けSaaS収益と送客手数料の両輪で成長を図る。",
+            "growthDriver": "platform"
+          },
+          {
+            "title": "テクノロジー投資の強化",
+            "description": "AIを活用した個別支援計画の自動生成、アセスメントツールのデジタル化、支援品質の可視化システムの開発に注力する。",
+            "growthDriver": "technology"
+          },
+          {
+            "title": "M&Aによる事業領域拡大",
+            "description": "障害児通所支援・就労支援に加え、グループホーム・相談支援等の隣接領域へM&Aを通じて進出し、利用者のライフステージ全体をカバーする。",
+            "growthDriver": "ma"
+          },
+          {
+            "title": "直営拠点の戦略的拡大",
+            "description": "都市部を中心にLITALICOワークス・LITALICOジュニアの新規出店を継続し、年間30拠点以上の純増を目指す。",
+            "growthDriver": "expansion"
+          }
+        ],
+        "previousPlanComparison": "前中計（2023-2025）では売上高350億円目標に対し概ね達成。プラットフォーム事業が想定以上に成長し、新中計ではプラットフォーム比率をさらに引き上げる方針に転換。"
+      }
+    ]
+  },
+  {
+    "companyId": "welbe",
+    "plans": [
+      {
+        "name": "中期経営計画 2025-2027",
+        "period": "2025/3 - 2027/3",
+        "targets": {
+          "revenue": 18000,
+          "operatingProfit": 2500,
+          "facilities": 120,
+          "description": "売上高180億円、営業利益25億円、全国120拠点体制を目標とする。就労移行支援のリーディングカンパニーとしての地位を確固たるものにする。"
+        },
+        "keyStrategies": [
+          {
+            "title": "全国拠点ネットワークの拡大",
+            "description": "地方中核都市への出店を加速し、年間15拠点以上の新規開設を計画。均一な支援品質を維持しながらスケールを追求する。",
+            "growthDriver": "expansion"
+          },
+          {
+            "title": "就労定着支援の強化",
+            "description": "就労移行後の定着支援サービスを体系化し、定着率の向上と長期的な収益基盤の構築を図る。企業側との関係構築も強化する。",
+            "growthDriver": "new_domain"
+          },
+          {
+            "title": "DX推進による業務効率化",
+            "description": "支援記録のデジタル化、AIによる適職マッチング、オンライン訓練プログラムの導入により、支援員一人当たりの生産性を20%向上させる。",
+            "growthDriver": "technology"
+          }
+        ],
+        "previousPlanComparison": "前中計（2022-2024）では売上高140億円・90拠点を達成。新中計では拠点拡大ペースを維持しつつ、定着支援やDXによる収益性改善を重点テーマに据えた。"
+      }
+    ]
+  },
+  {
+    "companyId": "cocoruport",
+    "plans": [
+      {
+        "name": "成長戦略 2025-2027",
+        "period": "2025/3 - 2027/3",
+        "targets": {
+          "revenue": 10000,
+          "operatingProfit": 1800,
+          "facilities": 100,
+          "description": "売上高100億円、営業利益18億円、100拠点達成を目指す。業界トップクラスの成長率と利益率の両立を図る。"
+        },
+        "keyStrategies": [
+          {
+            "title": "急速な拠点展開",
+            "description": "首都圏を中心に年間20拠点以上の新規開設を推進。出店ノウハウの標準化とスピード重視の物件選定で競合に先行する。",
+            "growthDriver": "expansion"
+          },
+          {
+            "title": "リワーク事業の拡大",
+            "description": "メンタルヘルス不調による休職者向けリワーク支援を新たな成長の柱として強化。企業向けEAP連携も推進する。",
+            "growthDriver": "new_domain"
+          },
+          {
+            "title": "独自プログラムの差別化",
+            "description": "600以上のオリジナル訓練プログラムを武器に、利用者個別のニーズに合わせた柔軟な支援を提供。口コミ・紹介による集客力を高める。",
+            "growthDriver": "efficiency"
+          }
+        ],
+        "previousPlanComparison": "2020年に約30拠点だった体制を急速に拡大中。100拠点達成は創業以来の最大マイルストーンとなり、スケールメリットによる利益率改善も期待される。"
+      }
+    ]
+  },
+  {
+    "companyId": "spool",
+    "plans": [
+      {
+        "name": "中期経営計画 2025-2027",
+        "period": "2025/3 - 2027/3",
+        "targets": {
+          "revenue": 35000,
+          "operatingProfit": 4500,
+          "facilities": 80,
+          "description": "売上高350億円、営業利益45億円を目標。わーくはぴねす農園を全国80拠点に拡大し、障害者雇用支援のデファクトスタンダードを目指す。"
+        },
+        "keyStrategies": [
+          {
+            "title": "わーくはぴねす農園の全国展開",
+            "description": "大都市圏に加え、地方主要都市への農園展開を加速。法定雇用率引き上げの追い風を受け、企業需要に応える拠点網を構築する。",
+            "growthDriver": "expansion"
+          },
+          {
+            "title": "新型支援モデルの開発",
+            "description": "農園型に加え、オフィス型・在宅型など多様な雇用モデルを開発し、企業ニーズの多様化に対応。障害種別に応じた支援プログラムも拡充する。",
+            "growthDriver": "new_domain"
+          },
+          {
+            "title": "BPO事業の強化",
+            "description": "人材派遣・BPO事業を安定収益基盤として強化。障害者雇用支援で培った企業ネットワークを活用したクロスセルを推進する。",
+            "growthDriver": "efficiency"
+          }
+        ],
+        "previousPlanComparison": "前中計ではわーくはぴねす農園の急成長が計画を大幅に上回り、障害者雇用支援が事業の柱に成長。新中計では農園モデルの深化と新モデル開発を両立する方針。"
+      },
+      {
+        "name": "長期ビジョン 2030",
+        "period": "2027/3 - 2030/3",
+        "targets": {
+          "revenue": 55000,
+          "description": "売上高550億円を長期目標として設定。障害者雇用支援で国内シェアNo.1を確立し、社会インフラとしてのポジションを確立する。"
+        },
+        "keyStrategies": [
+          {
+            "title": "障害者雇用プラットフォーム化",
+            "description": "農園運営に留まらず、障害者雇用に関する採用・定着・研修・コンサルティングをワンストップで提供するプラットフォームへ進化させる。",
+            "growthDriver": "platform"
+          },
+          {
+            "title": "テクノロジーによる支援品質向上",
+            "description": "IoT・AIを活用した農園管理・利用者状態モニタリングにより、支援品質の向上とオペレーションコストの削減を同時に実現する。",
+            "growthDriver": "technology"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "companyId": "sms",
+    "plans": [
+      {
+        "name": "中期経営計画 2026-2028",
+        "period": "2026/3 - 2028/3",
+        "targets": {
+          "revenue": 75000,
+          "operatingProfit": 12000,
+          "description": "売上高750億円、営業利益120億円を目標。AI BPOと障害福祉領域への本格参入により、介護・医療に次ぐ第三の収益柱を構築する。"
+        },
+        "keyStrategies": [
+          {
+            "title": "AI BPO戦略の推進",
+            "description": "AIとBPOを融合した独自のサービスモデルにより、福祉事業所の請求・記録・計画作成業務を包括的に代行。人手不足に悩む事業所の業務負荷を大幅に軽減する。",
+            "growthDriver": "technology"
+          },
+          {
+            "title": "カイポケ障害福祉対応の強化",
+            "description": "介護領域で実績のあるカイポケを障害福祉サービスに本格対応させ、請求・記録・運営管理のオールインワンSaaSとして展開する。",
+            "growthDriver": "platform"
+          },
+          {
+            "title": "障害福祉プラットフォームの構築",
+            "description": "カイポケを基盤に、人材紹介・研修・経営コンサルティング・M&A仲介など、障害福祉事業所向けの総合プラットフォームを構築する。",
+            "growthDriver": "platform"
+          },
+          {
+            "title": "データ駆動型の事業開発",
+            "description": "カイポケ経由で蓄積される膨大な事業所・利用者データを活用し、経営分析ツール・需要予測・最適配置提案など高付加価値サービスを開発する。",
+            "growthDriver": "technology"
+          }
+        ],
+        "previousPlanComparison": "前中計では介護領域のカイポケが堅調に成長。新中計では障害福祉領域への横展開とAI BPOの本格投入が最大の戦略転換ポイントとなる。"
+      },
+      {
+        "name": "長期ビジョン 2030",
+        "period": "2028/3 - 2030/3",
+        "targets": {
+          "revenue": 120000,
+          "description": "売上高1,200億円。医療・介護・障害福祉の三領域をカバーする社会インフラ企業として、テクノロジーとBPOで業界のDXを牽引する。"
+        },
+        "keyStrategies": [
+          {
+            "title": "三領域統合プラットフォーム",
+            "description": "医療・介護・障害福祉を横断するデータプラットフォームを構築し、利用者のライフステージ全体をカバーするサービス連携を実現する。",
+            "growthDriver": "platform"
+          },
+          {
+            "title": "AI自動化の深化",
+            "description": "請求・記録業務の完全自動化に加え、AIによる支援計画提案・サービス品質評価など、より高度な業務領域へのAI適用を拡大する。",
+            "growthDriver": "technology"
+          }
+        ]
+      }
+    ]
+  }
+]
