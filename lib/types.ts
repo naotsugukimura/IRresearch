@@ -225,6 +225,8 @@ export interface PlanSection {
 
 export interface CompanyBusinessPlan {
   companyId: string;
+  segmentId?: string;
+  segmentName?: string;
   sections: PlanSection[];
 }
 

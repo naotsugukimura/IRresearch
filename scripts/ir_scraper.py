@@ -10,7 +10,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from config import COMPANIES_PATH, REQUEST_DELAY
+from config import COMPANIES_PATH, REQUEST_DELAY, USER_AGENT
 
 # 決算説明資料を見つけるためのキーワードパターン
 PDF_KEYWORDS = [
@@ -33,13 +33,6 @@ EXCLUDE_KEYWORDS = [
     "有価証券報告書",
     "四半期報告書",
 ]
-
-USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/120.0.0.0 Safari/537.36"
-)
-
 
 def _fetch_page(url: str) -> Optional[str]:
     """ページのHTMLを取得する"""

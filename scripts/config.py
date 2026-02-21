@@ -44,3 +44,13 @@ COMPANY_MAP = {
 
 # 有価証券報告書の提出が多い月（3月決算→6月提出が多い）
 FILING_SEARCH_MONTHS = [6, 7, 8, 9]  # 6〜9月に集中
+
+# 共通HTTP設定
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/120.0.0.0 Safari/537.36"
+)
+
+# ダウンロードディレクトリ
+DOWNLOADS_DIR = PROJECT_ROOT / "scripts" / "downloads"

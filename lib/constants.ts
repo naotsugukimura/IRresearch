@@ -197,6 +197,26 @@ export const COMPANY_SECTIONS = [
 ] as const;
 
 // ============================================================
+// 用語集カテゴリ（学習サポートページ）
+// ============================================================
+
+export const GLOSSARY_CATEGORY_COLORS: Record<string, string> = {
+  common: "#6B7280",
+  retail: "#F59E0B",
+  saas: "#3B82F6",
+  recruitment: "#10B981",
+  media: "#8B5CF6",
+};
+
+export const GLOSSARY_CATEGORY_ICONS: Record<string, string> = {
+  common: "\u{1F6E1}\uFE0F",
+  retail: "\u{1F3EA}",
+  saas: "\u{1F4BB}",
+  recruitment: "\u{1F91D}",
+  media: "\u{1F310}",
+};
+
+// ============================================================
 // インパクトレベル
 // ============================================================
 

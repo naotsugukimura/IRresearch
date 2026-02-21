@@ -124,7 +124,13 @@ export function getAllBusinessPlans(): CompanyBusinessPlan[] {
 export function getBusinessPlanByCompanyId(
   companyId: string
 ): CompanyBusinessPlan | undefined {
-  return getAllBusinessPlans().find((bp) => bp.companyId === companyId);
+  return getAllBusinessPlans().find((bp) => bp.companyId === companyId && !bp.segmentId);
+}
+
+export function getBusinessPlansByCompanyId(
+  companyId: string
+): CompanyBusinessPlan[] {
+  return getAllBusinessPlans().filter((bp) => bp.companyId === companyId);
 }
 
 // ============================================================

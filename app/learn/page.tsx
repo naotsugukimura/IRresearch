@@ -2,6 +2,7 @@ import { Sidebar, MobileNav } from "@/components/layout/Sidebar";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { getGlossary } from "@/lib/data";
+import { GLOSSARY_CATEGORY_COLORS, GLOSSARY_CATEGORY_ICONS } from "@/lib/constants";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Accordion,
@@ -10,22 +11,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
-
-const CATEGORY_COLORS: Record<string, string> = {
-  common: "#6B7280",
-  retail: "#F59E0B",
-  saas: "#3B82F6",
-  recruitment: "#10B981",
-  media: "#8B5CF6",
-};
-
-const CATEGORY_ICONS: Record<string, string> = {
-  common: "\u{1F6E1}\uFE0F",
-  retail: "\u{1F3EA}",
-  saas: "\u{1F4BB}",
-  recruitment: "\u{1F91D}",
-  media: "\u{1F310}",
-};
 
 export default function LearnPage() {
   const glossary = getGlossary();
@@ -81,12 +66,12 @@ export default function LearnPage() {
             <Card key={key}>
               <CardHeader>
                 <CardTitle className="text-base flex items-center gap-2">
-                  <span>{CATEGORY_ICONS[key]}</span>
+                  <span>{GLOSSARY_CATEGORY_ICONS[key]}</span>
                   <span>{data.title}</span>
                   <Badge
                     variant="outline"
                     className="ml-2 text-xs"
-                    style={{ borderColor: CATEGORY_COLORS[key], color: CATEGORY_COLORS[key] }}
+                    style={{ borderColor: GLOSSARY_CATEGORY_COLORS[key], color: GLOSSARY_CATEGORY_COLORS[key] }}
                   >
                     {data.terms.length}項目
                   </Badge>
@@ -100,7 +85,7 @@ export default function LearnPage() {
                         <span className="flex items-center gap-2">
                           <span
                             className="w-2 h-2 rounded-full"
-                            style={{ backgroundColor: CATEGORY_COLORS[key] }}
+                            style={{ backgroundColor: GLOSSARY_CATEGORY_COLORS[key] }}
                           />
                           {term.term}
                         </span>

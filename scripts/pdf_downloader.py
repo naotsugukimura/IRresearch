@@ -1,7 +1,6 @@
 """
 決算説明資料PDFをダウンロードして保存する
 """
-import hashlib
 import os
 import re
 import time
@@ -11,15 +10,7 @@ from urllib.parse import urlparse
 
 import requests
 
-from config import PROJECT_ROOT, REQUEST_DELAY
-
-DOWNLOADS_DIR = PROJECT_ROOT / "scripts" / "downloads"
-
-USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/120.0.0.0 Safari/537.36"
-)
+from config import REQUEST_DELAY, USER_AGENT, DOWNLOADS_DIR
 
 
 def _safe_filename(url: str, title: str) -> str:
