@@ -1,0 +1,155 @@
+{
+  "companyId": "visional",
+  "analyzedAt": "2026-02-21T20:27:57.476967",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": "37.3億円（HRMOS採用/タレントマネジメント/社内版ビズリーチ by HRMOS合計、FY25/7 4Q）",
+        "mrr": null,
+        "churn_rate": "0.58%（直近12ヵ月平均、HRMOS関連サービス）",
+        "arpu": "12.8万円（HRMOS関連サービス、+8.1% YoY）",
+        "cac": null,
+        "ltv": null,
+        "user_count": "3.07百万人超（BizReachスカウト可能会員数）",
+        "facility_count": null,
+        "employee_count": "2,175人（FY25/7 4Q）",
+        "other_kpis": [
+          "BizReach累計導入企業数: 38,100+社",
+          "BizReach年次利用中企業数: 18,800+社",
+          "HRMOS利用中企業数: 2,421社",
+          "利用ヘッドハンター数: 9,000+"
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": "主要企業における中途採用計画の割合: 46.8%（2025年度）",
+        "market_notes": "転職等希望者が初めて1,000万人を超え、大転職時代の幕開け。プロフェッショナル人材の流動化が加速。"
+      },
+      "ma_info": [
+        {
+          "target": "Thinkings株式会社",
+          "date": "2025年10月1日付予定",
+          "amount": null,
+          "synergy": "採用管理クラウド市場での盤石な地位確立、人的資本データプラットフォーム実現の加速",
+          "status": "announced"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "BizReachの持続的成長と利益拡大",
+          "BizReachとHRMOSのデータ連携による人的資本データプラットフォームの構築",
+          "継続的な新規事業創出やM&Aの活用"
+        ]
+      },
+      "fiscal_period": "2025年7月期",
+      "summary": "ビジョナルはFY25/7通期売上高801.6億円（+21.2% YoY）、営業利益214.4億円（+20.2% YoY）を達成。BizReachが好調な市場環境を捉え堅調成長。HRMOSは売上高52.1億円（+35.6% YoY）で拡大継続。FY26/7は売上高992.0億円（+23.7% YoY）を見通し、Thinkings買収により人的資本データプラットフォーム構築を加速。",
+      "source_file": "FY25_FY_Financial_Release_JPN.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          "BizReach通期売上高成長率：+18.8% YoY",
+          "HRMOS通期売上高成長率：+35.6% YoY",
+          "社内版ビズリーチ by HRMOS：2025年1月末ローンチ"
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "日本のプロフェッショナル人材領域における雇用の流動化が進展。中途採用が全体の採用計画に占める割合が特に主要企業において顕著に伸長"
+      },
+      "ma_info": [
+        {
+          "target": "Thinkings株式会社",
+          "date": "2025年10月1日",
+          "amount": null,
+          "synergy": "採用管理「sonar ATS」によるHR Techセグメントの中期戦略上重要な位置づけ。人的資本データプラットフォームの拡充",
+          "status": "announced"
+        }
+      ],
+      "midterm_plan": {
+        "name": "HR Tech中期戦略",
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "社内版ビズリーチ by HRMOSの展開",
+          "人的資本データプラットフォームの構築",
+          "BizReachとHRMOSのデータ連携",
+          "生成AI技術の活用",
+          "M&Aを活用した成長"
+        ]
+      },
+      "fiscal_period": "2025年7月期",
+      "summary": "ビジョナル株式会社の2025年7月期通期決算。売上高801.6億円（+21.2% YoY）、営業利益214.4億円（+20.2% YoY）で好調。社内版ビズリーチ by HRMOSを1月にローンチし、HR Tech中期戦略を推進。Thinkings社を10月にグループ化予定で、人的資本データプラットフォームの拡充を目指す。",
+      "source_file": "FY25_FY_Transcript_JPN.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": "83.2億円（HRMOS、+178.4% YoY）",
+        "mrr": null,
+        "churn_rate": "0.43%（HRMOS、直近12ヶ月平均）",
+        "arpu": "7.1万円（HRMOS、-41.5% YoY）",
+        "cac": null,
+        "ltv": null,
+        "user_count": "9,692社（HRMOS利用中企業数、+375.3% YoY）",
+        "facility_count": null,
+        "employee_count": "2,467名（2025年10月末時点、Thinkings株式会社のグループイン含む）",
+        "other_kpis": [
+          "BizReachスカウト可能会員数: 319万人",
+          "BizReach累計導入企業数: 40,000社以上",
+          "BizReach年次利用中企業数: 18,800社以上",
+          "転職等希望者: 初の1,000万人超え（2023年）"
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "大転職時代の幕開け。就業者に占める転職等希望者が2023年に初めて1,000万人を超えた。プロフェッショナル人材の流動化が加速し、企業の人材獲得競争が激化している。"
+      },
+      "ma_info": [
+        {
+          "target": "Thinkings株式会社",
+          "date": "2025年10月1日",
+          "amount": null,
+          "synergy": "採用管理クラウド市場でのマーケットリーダーとしての地位強化、人的資本データプラットフォーム実現の加速、各サービス間の機能連携やクロスセルによる事業拡大",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "BizReachの持続的成長と利益拡大",
+          "BizReachとHRMOSのデータ連携による人的資本データプラットフォームの構築",
+          "継続的な新規事業創出やM&Aの活用",
+          "社内版ビズリーチ by HRMOSによる人材流出防止ソリューションの提供"
+        ]
+      },
+      "fiscal_period": "2026年7月期第1四半期",
+      "summary": "ビジョナル株式会社のFY2026/7第1四半期決算。売上高233.3億円（+24.8% YoY）、営業利益70.6億円（+29.6% YoY）と好調に推移。BizReachは196.5億円（+20.2% YoY）、HRMOSは17.8億円（+54.7% YoY）の成長。Thinkings株式会社を買収し、sonar ATS by HRMOSとしてリブランド。社内版ビズリーチ by HRMOSで人材流出防止ソリューションを展開。",
+      "source_file": "FY26_1Q_Financial_Release_JPN.pdf"
+    }
+  ]
+}

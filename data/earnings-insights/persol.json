@@ -1,0 +1,202 @@
+{
+  "companyId": "persol",
+  "analyzedAt": "2026-02-21T20:25:06.364384",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          "派遣就業者数の増加2.1%",
+          "請求単価の増加2.1%",
+          "稼働エンジニア数の増加",
+          "調整後EBITDA：68,078百万円（前年同期比5.0%増）",
+          "売上総利益率の改善"
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "日本国内における人材不足が続く中、顧客企業の堅調な求人意欲を背景とした事業環境"
+      },
+      "ma_info": [
+        {
+          "target": "Gojob SAS",
+          "date": "2025年10月1日",
+          "amount": "21,293百万円",
+          "synergy": "AIドリブンの人材派遣プラットフォームによるデジタルモデルへの転換加速、欧米市場への挑戦、テクノロジードリブンの人材サービス企業への進化",
+          "status": "completed"
+        },
+        {
+          "target": "パーソルコミュニケーションサービス株式会社（旧富士通コミュニケーションサービス株式会社）",
+          "date": "2025年2月",
+          "amount": null,
+          "synergy": "BPO事業の拡大",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "グループ中期経営計画2026",
+        "period": "2026年まで",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "テクノロジードリブンの人材サービス企業への進化",
+          "Career SBU、BPO SBU、Technology SBUを注力領域として推進",
+          "プロダクトとデジタル化を通じた非連続な成長の実現"
+        ]
+      },
+      "fiscal_period": "2026年3月期",
+      "summary": "パーソルホールディングスの2026年3月期第3四半期決算。売上収益は1,154,288百万円（前年同期比6.3%増）、営業利益は53,998百万円（同11.5%増）。全セグメントで増収を達成。Gojob SAS買収により欧米市場への挑戦とデジタル化を加速。グループ中期経営計画2026に基づきテクノロジードリブンの人材サービス企業への進化を推進中。",
+      "source_file": "FY2025Q3financialresults.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": 81362,
+        "other_kpis": [
+          {
+            "name": "就業者数",
+            "value": "133千人",
+            "unit": "千人",
+            "segment": "Staffing SBU"
+          },
+          {
+            "name": "請求単価",
+            "value": "2,455円",
+            "unit": "円",
+            "segment": "Staffing SBU"
+          },
+          {
+            "name": "doda会員数",
+            "value": "10,316,666人",
+            "unit": "人",
+            "segment": "Career SBU"
+          },
+          {
+            "name": "稼働エンジニア数",
+            "value": "7,596人月",
+            "unit": "人月",
+            "segment": "Technology SBU"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "転職市場は、ボリューム層（年収400-600万円）とハイクラス層（年収600万円以上）いずれも今後拡大見込み。ハイクラス層CAGR+10%、ボリューム層CAGR+6%。2030年には転職市場規模1,176.5億円を見込む。"
+      },
+      "ma_info": [
+        {
+          "target": "Gojob",
+          "date": "2025年10月",
+          "amount": "213億円",
+          "synergy": "欧州マーケットでの事業展開と欧州での人材サービス事業強化",
+          "status": "completed"
+        },
+        {
+          "target": "パーソルコミュニケーションサービス株式会社（CSL）",
+          "date": "2025年2月",
+          "amount": null,
+          "synergy": "BPO事業の拡充",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "中期経営計画2026",
+        "period": "2026年3月期まで",
+        "revenue_target": null,
+        "profit_target": "調整後EBITDA10%成長",
+        "key_strategies": [
+          "ハイクラス領域の成長",
+          "AI投資による生産性向上",
+          "収益性の向上",
+          "成長領域を伸ばしつつ収益性重視にシフト"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期累計",
+      "summary": "パーソルホールディングスのFY2025 Q3累計決算は売上収益・全段階利益で過去最高を更新し、全SBUで売上成長を実現。調整後EBITDAは680億円（+5.0%）で通期目標865億円に向け順調に進捗。足元の事業環境は企業のAI活用効果見極めにより雇用に慎重姿勢も見られるが、来期も安定成長継続の見通し。Career SBUではハイクラス層成長とAI投資による生産性向上を加速する戦略を推進。",
+      "source_file": "FY2025Q3presentation.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": {
+          "staffing_workers": "約133万人（就業者数、前年比+1.9%）",
+          "career_consultants": "約2,656人（人材紹介生産性+14.2%）",
+          "technology_engineers": "約7,596人（正社員稼働率89%）"
+        },
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          "調整後EBITDA: 680億円（+5.0%）",
+          "調整後EBITDAマージン: 5.9%",
+          "人材紹介生産性向上: +14.2%",
+          "請求単価上昇: Staffing +2.2%、Technology +2%強",
+          "稼働率: Technology SBU 89%（前年91%から-2%）"
+        ]
+      },
+      "market_sizing": {
+        "tam": "転職市場は継続的に拡大、人材需要は大きく成長する領域",
+        "sam": null,
+        "som": null,
+        "market_growth_rate": "人材紹介市場CAGR: ボリューム層約10%、ハイクラス層約30%",
+        "market_notes": "企業のAI活用による採用慎重化、ハイクラス層は活況継続、ボリューム層（年収400-600万円）は慎重採用姿勢が顕著"
+      },
+      "ma_info": [
+        {
+          "target": "CSL（BPO SBU）",
+          "date": "2024年度中",
+          "amount": null,
+          "synergy": "売上27%増、調整後EBITDA 39%増に寄与",
+          "status": "completed"
+        },
+        {
+          "target": "Gojob",
+          "date": "2025年10月",
+          "amount": null,
+          "synergy": "Q3売上寄与117億円、EBITDAプラス達成",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "次期中期経営計画",
+        "period": "2026年5月発表予定",
+        "revenue_target": null,
+        "profit_target": "調整後EBITDA 10%成長を目指す",
+        "key_strategies": [
+          "確実な売上成長の実現",
+          "収益性向上による調整後EBITDA 10%成長",
+          "Career SBUのハイクラス層強化",
+          "AI投資による生産性向上（工数削減40%、生産性1.4倍）"
+        ]
+      },
+      "fiscal_period": "2025年3月期第3四半期",
+      "summary": "パーソルホールディングスのFY2025 Q3決算は増収増益を達成。売上収益1,154億円（+6.3%）、調整後EBITDA 680億円（+5.0%）。全SBUで成長を実現し、通期目標達成見込み。マクロ環境の不透明さとAI活用による企業の採用慎重化が見られる中、Career SBUではハイクラス層強化とAI投資による生産性向上を推進。来期も調整後EBITDA 10%成長を目指す。",
+      "source_file": "FY2025Q3transcript.pdf"
+    }
+  ]
+}

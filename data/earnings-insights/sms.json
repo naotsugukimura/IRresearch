@@ -1,0 +1,125 @@
+{
+  "companyId": "sms",
+  "analyzedAt": "2026-02-21T20:23:28.689551",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": {
+          "value": 500827,
+          "unit": "円",
+          "period": "2024年",
+          "description": "カイポケのARPA（1法人当たりの平均売上高）"
+        },
+        "cac": null,
+        "ltv": null,
+        "user_count": {
+          "medical_members": 3650000,
+          "kaipoke_members": 59300,
+          "unit": "人/事業所",
+          "notes": "MIMSグループ約365万人、カイポケ59,300事業所（26,350法人）"
+        },
+        "facility_count": 59300,
+        "employee_count": 4731,
+        "other_kpis": [
+          {
+            "name": "看護師必要数",
+            "value": 320000,
+            "unit": "人",
+            "period": "2040年",
+            "description": "2018年比での追加必要数"
+          },
+          {
+            "name": "介護職必要数",
+            "value": 570000,
+            "unit": "人",
+            "period": "2040年",
+            "description": "2022年比での追加必要数"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": {
+          "nursing_care_market": 0.022,
+          "disability_welfare_market": 0.067,
+          "description": "介護事業所数年平均増加率2.2%、障害福祉サービス事業所数年平均増加率6.7%"
+        },
+        "market_notes": "2040年には医療・介護等社会保障費が188.5兆円に拡大予測。高齢化に伴い医療従事者の不足が深刻化。"
+      },
+      "ma_info": [
+        {
+          "target": "MIMSグループ",
+          "date": "2015年10月",
+          "amount": null,
+          "synergy": "APAC各国での医療関連事業者向けマーケティング支援とグローバルキャリア事業の展開",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "中期目標",
+        "period": "2031年3月期まで",
+        "revenue_target": null,
+        "profit_target": {
+          "eps_growth": 0.15,
+          "roe_target": 0.2,
+          "description": "EPS年平均成長率15%、ROE20%の達成を目指す"
+        },
+        "key_strategies": [
+          "共創型ポートフォリオ経営への変革",
+          "本質的価値の顕在化",
+          "事業ステージに応じた戦略的アプローチ",
+          "キャピタルアロケーション最適化"
+        ]
+      },
+      "fiscal_period": "2026年3月期 第3四半期",
+      "summary": "SMS（2175）の2026年3月期第3四半期決算。売上高47,346百万円（+5%）、営業利益3,905百万円（+9%）と増収増益を達成。キャリア、海外事業の回復遅延により計画対比でビハインド。新社長の髙畑氏のもと企業価値経営を追求し、ROE20%達成等の中期目標を設定。配当は29.5円に増配予定。",
+      "source_file": "FY25_Q3_presentation.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": "全国に約27万の介護事業所が存在",
+        "employee_count": null,
+        "other_kpis": [
+          "カイポケ会員数の増加",
+          "有料オプションサービス利用拡大",
+          "ファクタリング・M&Aマッチング・障害福祉人材紹介の成長"
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": "高齢化率2025年29%→2040年約35%",
+        "market_notes": "2040年には2018年と比較して看護師32万人、介護職57万人が追加で必要。社会保障費は2040年に2018年比約1.6倍の190兆円規模に増大見込み"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "医療・介護/障害福祉の人手不足と偏在の解消",
+          "医療・介護/障害福祉事業者の経営改善",
+          "健康な労働力人口の増加",
+          "多様な選択肢と質の高い意思決定情報の提供"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期",
+      "summary": "エス・エム・エスの2026年3月期第3四半期決算。売上高47,346百万円（前年同期比5.5%増）、営業利益3,905百万円（8.7%増）。キャリア関連事業とカイポケ事業が成長を牽引。高齢社会の3つの課題（医療・介護サービス提供困難化、現役世代負担増大、高齢社会の困りごと解決困難化）に対し、情報インフラ構築を通じた解決を目指す。",
+      "source_file": "FY25_Q3_tanshin.pdf"
+    }
+  ]
+}

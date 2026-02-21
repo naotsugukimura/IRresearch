@@ -1,5 +1,156 @@
 [
   {
+    "id": "ai_inside",
+    "name": "AI inside",
+    "stockCode": "4488",
+    "market": "グロース",
+    "category": "F",
+    "priorityRank": "B",
+    "description": "AI-OCR「DX Suite」を提供するAI企業。高精度な文字認識技術で業務自動化を支援し、福祉・介護分野の書類デジタル化にも活用される。",
+    "mainServices": [
+      "DX Suite（AI-OCR）",
+      "Learning Center",
+      "AnyData"
+    ],
+    "segments": [
+      {
+        "name": "AI-OCR",
+        "revenueShare": 75.0
+      },
+      {
+        "name": "AI基盤",
+        "revenueShare": 25.0
+      }
+    ],
+    "tags": [
+      "AI",
+      "OCR",
+      "DX",
+      "上場",
+      "テックベンチマーク"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "AI-OCR技術の直接的競合ベンチマーク。福祉書類のデジタル化・自動認識の技術動向を監視。",
+    "brandColor": "#000000",
+    "irUrl": "https://inside.ai/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "aidemy",
+    "name": "アイデミー",
+    "stockCode": "5765",
+    "market": "グロース",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "AI・DX人材育成プラットフォームを提供。法人向けAI研修・eラーニングに強みを持ち、リスキリング市場で成長中。",
+    "mainServices": [
+      "Aidemy Business（法人研修）",
+      "Aidemy Premium（個人向け）",
+      "AI活用コンサルティング"
+    ],
+    "segments": [
+      {
+        "name": "法人向けDX研修",
+        "revenueShare": 70.0
+      },
+      {
+        "name": "個人向け",
+        "revenueShare": 20.0
+      },
+      {
+        "name": "コンサルティング",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "EdTech",
+      "AI教育",
+      "リスキリング",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "AI・DX人材育成の動向。福祉DX人材育成の参考として監視。",
+    "brandColor": "#FF6B6B",
+    "irUrl": "https://aidemy.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "ami",
+    "name": "アミーダホールディングス",
+    "stockCode": "7350",
+    "market": "グロース",
+    "category": "D",
+    "priorityRank": "C",
+    "description": "溶岩ヨガスタジオ運営から福祉・介護事業にも進出。M&Aを通じて障害福祉事業所の取得を進めるダイバーシティ経営。",
+    "mainServices": [
+      "フィットネス事業",
+      "介護・福祉事業",
+      "不動産事業"
+    ],
+    "segments": [
+      {
+        "name": "フィットネス",
+        "revenueShare": 40.0
+      },
+      {
+        "name": "介護・福祉",
+        "revenueShare": 35.0
+      },
+      {
+        "name": "不動産",
+        "revenueShare": 25.0
+      }
+    ],
+    "tags": [
+      "異業種参入",
+      "M&A",
+      "福祉",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "異業種からの障害福祉M&A参入の事例。M&A後の事業統合とPMI動向を監視。",
+    "brandColor": "#FF7043",
+    "irUrl": "https://ami-da.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "atama_plus",
+    "name": "atama plus",
+    "market": "非上場",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "AI教材を開発するEdTechスタートアップ。生徒一人ひとりの理解度に合わせた学習最適化AIを提供し、個別最適化学習の先駆者。",
+    "mainServices": [
+      "AI教材（atama+）",
+      "学習最適化AI"
+    ],
+    "segments": [
+      {
+        "name": "AI教材",
+        "revenueShare": 90.0
+      },
+      {
+        "name": "その他",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "EdTech",
+      "AI",
+      "個別最適化",
+      "非上場",
+      "スタートアップ"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "AI個別最適化学習の先駆者。障害児の学習支援へのAI活用の参考モデルとして監視。",
+    "brandColor": "#FFC107",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
     "id": "atgp",
     "name": "ゼネラルパートナーズ（atGP）",
     "market": "非上場",
@@ -38,6 +189,122 @@
     "lastUpdated": "2025-05-15"
   },
   {
+    "id": "benefit_one",
+    "name": "ベネフィット・ワン",
+    "stockCode": "2412",
+    "market": "プライム",
+    "category": "E",
+    "priorityRank": "C",
+    "description": "福利厚生アウトソーシング大手。障害者雇用に関する企業向けソリューションも提供し、HR領域での幅広いサービスを展開。",
+    "mainServices": [
+      "福利厚生アウトソーシング",
+      "ヘルスケア",
+      "HR支援"
+    ],
+    "segments": [
+      {
+        "name": "福利厚生",
+        "revenueShare": 60.0
+      },
+      {
+        "name": "ヘルスケア",
+        "revenueShare": 25.0
+      },
+      {
+        "name": "HR支援",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "福利厚生",
+      "HR",
+      "アウトソーシング",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "企業向けHRソリューション大手。障害者雇用支援サービスへの展開可能性を監視。",
+    "brandColor": "#F39C12",
+    "irUrl": "https://corp.benefit-one.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "benesse",
+    "name": "ベネッセホールディングス",
+    "stockCode": "9783",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "B",
+    "description": "教育・介護の二本柱で事業展開する大手企業。進研ゼミ・こどもちゃれんじの教育事業と、介護施設運営（アリア）を展開。障害児教育への関心も。",
+    "mainServices": [
+      "進研ゼミ",
+      "こどもちゃれんじ",
+      "介護施設運営（アリア）",
+      "Udemy Japan"
+    ],
+    "segments": [
+      {
+        "name": "教育事業",
+        "revenueShare": 50.0
+      },
+      {
+        "name": "介護事業",
+        "revenueShare": 35.0
+      },
+      {
+        "name": "その他",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "教育",
+      "介護",
+      "EdTech",
+      "上場",
+      "大手"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "教育×介護の両事業を持つ大手。障害児教育・発達支援への参入可能性とEdTechの活用事例を監視。",
+    "brandColor": "#EE2737",
+    "irUrl": "https://www.benesse-hd.co.jp/ja/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "bright_vacation",
+    "name": "ブライトヴァケーションズ",
+    "market": "非上場",
+    "category": "A",
+    "priorityRank": "B",
+    "description": "障害者向けグループホームを全国でFC展開する新興企業。「日中サービス支援型」GHに強みを持ち、重度障害者の地域生活を支援。",
+    "mainServices": [
+      "障害者グループホーム（FC）",
+      "日中サービス支援型GH",
+      "短期入所"
+    ],
+    "segments": [
+      {
+        "name": "グループホームFC",
+        "revenueShare": 80.0
+      },
+      {
+        "name": "短期入所",
+        "revenueShare": 20.0
+      }
+    ],
+    "tags": [
+      "障害福祉",
+      "グループホーム",
+      "FC",
+      "非上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "障害者GHのFC展開モデル。日中サービス支援型GHの普及と制度改正の影響を監視。",
+    "brandColor": "#26C6DA",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
     "id": "care21",
     "name": "ケア21",
     "stockCode": "2373",
@@ -68,7 +335,84 @@
     ],
     "threatLevel": 2,
     "monitoringReason": "関西圏での障害福祉サービス展開動向。地域密着型のサービス展開戦略を監視。",
+    "irUrl": "https://www.care21.co.jp/ir/",
     "brandColor": "#C62828",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "care_net",
+    "name": "ケアネット",
+    "stockCode": "2150",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "医師向け動画プラットフォーム「CareNet.com」を運営。製薬企業向けのデジタルマーケティングと医療教育コンテンツを提供。",
+    "mainServices": [
+      "CareNet.com（医師向けプラットフォーム）",
+      "製薬企業向けマーケティング",
+      "医療教育動画"
+    ],
+    "segments": [
+      {
+        "name": "医薬営業支援",
+        "revenueShare": 60.0
+      },
+      {
+        "name": "医療教育",
+        "revenueShare": 25.0
+      },
+      {
+        "name": "海外",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "医療DX",
+      "動画プラットフォーム",
+      "eラーニング",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "医療教育プラットフォームのベンチマーク。福祉人材教育コンテンツ市場の参考として監視。",
+    "brandColor": "#2196F3",
+    "irUrl": "https://www.carenet.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "charm_care",
+    "name": "チャーム・ケア・コーポレーション",
+    "stockCode": "6062",
+    "market": "プライム",
+    "category": "D",
+    "priorityRank": "C",
+    "description": "近畿圏を中心に介護付きホーム・住宅型ホームを展開する介護事業者。高価格帯の施設運営に強みを持つ。",
+    "mainServices": [
+      "介護付きホーム",
+      "住宅型有料老人ホーム",
+      "在宅介護"
+    ],
+    "segments": [
+      {
+        "name": "施設介護",
+        "revenueShare": 85.0
+      },
+      {
+        "name": "在宅介護",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "介護",
+      "施設",
+      "近畿圏",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "介護施設運営のベンチマーク。高価格帯施設の運営戦略と人材確保施策の参考として監視。",
+    "brandColor": "#8E24AA",
+    "irUrl": "https://www.charmcc.co.jp/ir/",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
   },
@@ -151,6 +495,162 @@
     "lastUpdated": "2025-05-15"
   },
   {
+    "id": "crowd_works",
+    "name": "クラウドワークス",
+    "stockCode": "3900",
+    "market": "グロース",
+    "category": "E",
+    "priorityRank": "B",
+    "description": "クラウドソーシングプラットフォーム大手。在宅ワーク・フリーランスのマッチングを提供し、障害者のテレワーク就労の受け皿としても注目。",
+    "mainServices": [
+      "CrowdWorks（クラウドソーシング）",
+      "CrowdLinks（SaaS）",
+      "副業マッチング"
+    ],
+    "segments": [
+      {
+        "name": "クラウドソーシング",
+        "revenueShare": 50.0
+      },
+      {
+        "name": "SaaS",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "副業",
+        "revenueShare": 20.0
+      }
+    ],
+    "tags": [
+      "クラウドソーシング",
+      "テレワーク",
+      "フリーランス",
+      "上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "クラウドソーシングを通じた障害者テレワーク就労の動向。就労支援との連携可能性を監視。",
+    "brandColor": "#2C3E50",
+    "irUrl": "https://crowdworks.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "cuore",
+    "name": "クオレ・シー・キューブ",
+    "market": "非上場",
+    "category": "B",
+    "priorityRank": "C",
+    "description": "職場のハラスメント対策・ダイバーシティ推進コンサルティングを提供。障害者雇用に関する企業向け研修・コンサルも展開。",
+    "mainServices": [
+      "ハラスメント対策研修",
+      "ダイバーシティ推進",
+      "障害者雇用コンサルティング"
+    ],
+    "segments": [
+      {
+        "name": "コンサルティング",
+        "revenueShare": 60.0
+      },
+      {
+        "name": "研修",
+        "revenueShare": 40.0
+      }
+    ],
+    "tags": [
+      "コンサルティング",
+      "ダイバーシティ",
+      "障害者雇用",
+      "非上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "企業向け障害者雇用コンサルティング市場の動向。研修需要とコンプライアンス対応の変化を監視。",
+    "brandColor": "#5C6BC0",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "curebito",
+    "name": "CUCグループ",
+    "stockCode": "9158",
+    "market": "グロース",
+    "category": "D",
+    "priorityRank": "B",
+    "description": "医療機関の経営支援・在宅医療支援を手がけるヘルスケアベンチャー。訪問診療クリニックの運営支援と医療DXで成長中。",
+    "mainServices": [
+      "医療機関経営支援",
+      "訪問診療支援",
+      "ホスピス運営"
+    ],
+    "segments": [
+      {
+        "name": "医療機関支援",
+        "revenueShare": 50.0
+      },
+      {
+        "name": "訪問診療",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "ホスピス",
+        "revenueShare": 20.0
+      }
+    ],
+    "tags": [
+      "医療DX",
+      "訪問診療",
+      "経営支援",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "医療機関経営支援モデルの福祉分野への応用可能性。在宅医療と障害福祉の連携動向を監視。",
+    "brandColor": "#00695C",
+    "irUrl": "https://cuc-group.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "cybozu",
+    "name": "サイボウズ",
+    "stockCode": "4776",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "B",
+    "description": "kintone・サイボウズOffice等のグループウェア・業務プラットフォームを提供。障害福祉事業所でもkintoneベースの業務管理が普及しつつある。",
+    "mainServices": [
+      "kintone",
+      "サイボウズOffice",
+      "Garoon",
+      "メールワイズ"
+    ],
+    "segments": [
+      {
+        "name": "クラウド関連",
+        "revenueShare": 80.0
+      },
+      {
+        "name": "パッケージ",
+        "revenueShare": 15.0
+      },
+      {
+        "name": "その他",
+        "revenueShare": 5.0
+      }
+    ],
+    "tags": [
+      "SaaS",
+      "グループウェア",
+      "kintone",
+      "上場",
+      "ベンチマーク"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "kintoneが福祉事業所の業務管理ツールとして普及。ノーコードプラットフォームによる福祉SaaS代替の可能性を監視。",
+    "brandColor": "#002C6E",
+    "irUrl": "https://cybozu.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
     "id": "decoboco",
     "name": "デコボコベース",
     "market": "非上場",
@@ -179,6 +679,285 @@
     "threatLevel": 2,
     "monitoringReason": "FCモデルによる児童福祉事業の拡大動向。多ブランド戦略と拠点数の成長を監視。",
     "brandColor": "#00BCD4",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "dip",
+    "name": "ディップ",
+    "stockCode": "2379",
+    "market": "プライム",
+    "category": "E",
+    "priorityRank": "C",
+    "description": "バイトル・はたらこねっと等の求人サイトを運営。AI・DXを活用した求人マッチングと、介護・福祉分野の人材確保に注力。",
+    "mainServices": [
+      "バイトル",
+      "はたらこねっと",
+      "ナースではたらこ",
+      "AI・DX事業"
+    ],
+    "segments": [
+      {
+        "name": "人材サービス",
+        "revenueShare": 85.0
+      },
+      {
+        "name": "DX事業",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "HR",
+      "求人サイト",
+      "AI",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "求人プラットフォーム大手の介護・福祉人材領域への注力動向。AI活用の人材マッチング技術の参考として監視。",
+    "brandColor": "#FF6600",
+    "irUrl": "https://www.dip-net.co.jp/ir",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "en_japan",
+    "name": "エン・ジャパン",
+    "stockCode": "4849",
+    "market": "プライム",
+    "category": "E",
+    "priorityRank": "B",
+    "description": "総合HR企業。エン転職・engage等の求人プラットフォームと人材紹介サービスを展開。障害者雇用支援サービス「エンカレッジ」も運営。",
+    "mainServices": [
+      "エン転職",
+      "engage",
+      "エンエージェント",
+      "エンカレッジ（障害者支援）"
+    ],
+    "segments": [
+      {
+        "name": "メディア事業",
+        "revenueShare": 45.0
+      },
+      {
+        "name": "人材紹介",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "HR Tech",
+        "revenueShare": 15.0
+      },
+      {
+        "name": "海外",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "HR",
+      "求人プラットフォーム",
+      "障害者雇用",
+      "上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "HR大手の障害者雇用支援サービス「エンカレッジ」の動向。求人プラットフォームとの統合戦略を監視。",
+    "brandColor": "#FBC02D",
+    "irUrl": "https://corp.en-japan.com/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "ewell",
+    "name": "E-well（アイボウ）",
+    "stockCode": "5038",
+    "market": "グロース",
+    "category": "B",
+    "priorityRank": "A",
+    "description": "障害者雇用支援プラットフォーム「MEANINGFUL」を運営。企業と障害者のマッチング・定着支援を一気通貫で提供し、テレワーク型障害者雇用モデルにも注力。",
+    "mainServices": [
+      "障害者雇用支援プラットフォーム",
+      "テレワーク型雇用支援",
+      "定着支援サービス"
+    ],
+    "segments": [
+      {
+        "name": "障害者雇用支援",
+        "revenueShare": 70.0
+      },
+      {
+        "name": "テレワーク雇用",
+        "revenueShare": 20.0
+      },
+      {
+        "name": "コンサルティング",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "障害者雇用",
+      "テレワーク",
+      "マッチング",
+      "上場"
+    ],
+    "threatLevel": 3,
+    "monitoringReason": "テレワーク型障害者雇用モデルが独自ポジション。エスプール・スタートラインとの競合動向と新しい雇用形態の普及を監視。",
+    "brandColor": "#00B894",
+    "irUrl": "https://e-well.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "freee",
+    "name": "freee",
+    "stockCode": "4478",
+    "market": "グロース",
+    "category": "F",
+    "priorityRank": "B",
+    "description": "クラウド会計・人事労務SaaSを提供するフィンテック企業。中小企業バックオフィスDXのベンチマーク。障害福祉事業所の経理業務にも導入例あり。",
+    "mainServices": [
+      "freee会計",
+      "freee人事労務",
+      "freee申告",
+      "freeeサイン"
+    ],
+    "segments": [
+      {
+        "name": "会計SaaS",
+        "revenueShare": 55.0
+      },
+      {
+        "name": "人事労務SaaS",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "その他",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "SaaS",
+      "フィンテック",
+      "会計",
+      "上場",
+      "ベンチマーク"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "中小事業者向けSaaSのベンチマーク。福祉事業所の会計・労務管理へのクロスセル戦略の参考として監視。",
+    "brandColor": "#6920CE",
+    "irUrl": "https://corp.freee.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "genda",
+    "name": "GENDA",
+    "stockCode": "9166",
+    "market": "グロース",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "アミューズメント施設運営と飲食事業を展開。積極的なM&A戦略で急拡大するロールアップモデルのベンチマーク企業。",
+    "mainServices": [
+      "アミューズメント施設運営",
+      "飲食事業",
+      "映画配給"
+    ],
+    "segments": [
+      {
+        "name": "アミューズメント",
+        "revenueShare": 70.0
+      },
+      {
+        "name": "飲食",
+        "revenueShare": 20.0
+      },
+      {
+        "name": "映画・その他",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "M&A",
+      "ロールアップ",
+      "急成長",
+      "上場",
+      "ベンチマーク"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "M&Aロールアップモデルのベンチマーク。福祉業界でのM&A戦略の参考として監視。",
+    "brandColor": "#FF1744",
+    "irUrl": "https://genda.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "global_kids",
+    "name": "グローバルキッズCOMPANY",
+    "stockCode": "6189",
+    "market": "プライム",
+    "category": "A",
+    "priorityRank": "B",
+    "description": "保育園・児童発達支援事業所を首都圏中心に展開。保育事業から障害児支援への横展開を進め、児童福祉領域での存在感が拡大中。",
+    "mainServices": [
+      "保育園運営",
+      "児童発達支援",
+      "放課後等デイサービス"
+    ],
+    "segments": [
+      {
+        "name": "保育事業",
+        "revenueShare": 75.0
+      },
+      {
+        "name": "児童発達支援",
+        "revenueShare": 15.0
+      },
+      {
+        "name": "放課後等デイサービス",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "保育",
+      "児童発達支援",
+      "首都圏",
+      "上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "保育大手の児童福祉領域への展開。既存保育インフラを活用した障害児支援の拡大動向を監視。",
+    "brandColor": "#FDCB6E",
+    "irUrl": "https://www.gkids.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "goodwill",
+    "name": "グッドウィルパートナーズ",
+    "market": "非上場",
+    "category": "A",
+    "priorityRank": "B",
+    "description": "就労継続支援A型・B型事業所を全国で運営。工賃向上と企業連携に注力し、福祉的就労の質の向上を目指す。",
+    "mainServices": [
+      "就労継続支援A型",
+      "就労継続支援B型",
+      "企業連携型就労"
+    ],
+    "segments": [
+      {
+        "name": "就労継続支援A型",
+        "revenueShare": 55.0
+      },
+      {
+        "name": "就労継続支援B型",
+        "revenueShare": 45.0
+      }
+    ],
+    "tags": [
+      "就労継続支援",
+      "A型",
+      "B型",
+      "非上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "就労継続支援の多拠点展開モデル。工賃向上策と企業連携の動向を監視。",
+    "brandColor": "#6C5CE7",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
   },
@@ -213,6 +992,52 @@
     "threatLevel": 2,
     "monitoringReason": "放課後デイ向けSaaSでニッチなポジション。児童福祉SaaS市場での動向を監視。",
     "brandColor": "#E91E63",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "jmdc",
+    "name": "JMDC",
+    "stockCode": "4483",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "B",
+    "description": "医療ビッグデータを活用したヘルスケアプラットフォーム企業。レセプトデータ分析・健康経営支援を展開し、データ駆動型医療の先駆者。",
+    "mainServices": [
+      "医療データ分析",
+      "健康経営支援（Pep Up）",
+      "治験データサービス",
+      "保険者向けサービス"
+    ],
+    "segments": [
+      {
+        "name": "ヘルスビッグデータ",
+        "revenueShare": 45.0
+      },
+      {
+        "name": "製薬企業向け",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "遠隔医療",
+        "revenueShare": 15.0
+      },
+      {
+        "name": "調剤薬局",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "医療データ",
+      "ヘルスケア",
+      "ビッグデータ",
+      "上場",
+      "テックベンチマーク"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "医療ビッグデータ活用のベンチマーク。障害福祉分野でのデータ活用の参考として監視。",
+    "brandColor": "#00838F",
+    "irUrl": "https://www.jmdc.co.jp/ir/",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
   },
@@ -288,6 +1113,7 @@
     ],
     "threatLevel": 2,
     "monitoringReason": "介護・医療のクラウドプラットフォームから障害福祉への展開可能性を監視。",
+    "irUrl": "https://www.kanamic.net/ir/",
     "brandColor": "#1565C0",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
@@ -327,6 +1153,89 @@
     "lastUpdated": "2025-05-15"
   },
   {
+    "id": "kumon",
+    "name": "公文教育研究会",
+    "market": "非上場",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "公文式学習法で世界展開する教育企業。発達障害児向けの学習支援プログラムも開発・提供し、インクルーシブ教育に取り組む。",
+    "mainServices": [
+      "公文式教室",
+      "学習療法（認知症予防）",
+      "障害児向け学習支援"
+    ],
+    "segments": [
+      {
+        "name": "国内教室",
+        "revenueShare": 50.0
+      },
+      {
+        "name": "海外教室",
+        "revenueShare": 35.0
+      },
+      {
+        "name": "学習療法",
+        "revenueShare": 10.0
+      },
+      {
+        "name": "障害児教育",
+        "revenueShare": 5.0
+      }
+    ],
+    "tags": [
+      "教育",
+      "学習支援",
+      "障害児教育",
+      "非上場",
+      "グローバル"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "障害児向け学習支援の動向。インクルーシブ教育市場への影響を監視。",
+    "brandColor": "#0072BC",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "lancers",
+    "name": "ランサーズ",
+    "stockCode": "4484",
+    "market": "グロース",
+    "category": "E",
+    "priorityRank": "C",
+    "description": "フリーランス・クラウドソーシングプラットフォーム。障害者のフリーランス就労支援にも取り組み、新しい働き方のインフラを提供。",
+    "mainServices": [
+      "Lancers（クラウドソーシング）",
+      "Lancers Agent（人材紹介）",
+      "フリーランス支援"
+    ],
+    "segments": [
+      {
+        "name": "マーケットプレイス",
+        "revenueShare": 55.0
+      },
+      {
+        "name": "エージェント",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "その他",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "クラウドソーシング",
+      "フリーランス",
+      "テレワーク",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "フリーランスプラットフォームの障害者就労支援への展開可能性を監視。",
+    "brandColor": "#0089FF",
+    "irUrl": "https://www.lancers.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
     "id": "layerx",
     "name": "LayerX",
     "market": "非上場",
@@ -358,6 +1267,74 @@
     "threatLevel": 1,
     "monitoringReason": "AI/LLM活用SaaSのベンチマーク企業。AI-OCR技術・プロダクト開発速度の参考として監視。",
     "brandColor": "#2196F3",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "lifedrink",
+    "name": "ライフドリンクカンパニー",
+    "stockCode": "2585",
+    "market": "プライム",
+    "category": "A",
+    "priorityRank": "C",
+    "description": "飲料メーカーだが、障害者雇用に積極的な企業として注目。特例子会社を通じた障害者就労モデルを展開。",
+    "mainServices": [
+      "飲料製造",
+      "特例子会社運営"
+    ],
+    "segments": [
+      {
+        "name": "飲料事業",
+        "revenueShare": 95.0
+      },
+      {
+        "name": "その他",
+        "revenueShare": 5.0
+      }
+    ],
+    "tags": [
+      "障害者雇用モデル",
+      "特例子会社",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "障害者雇用先進企業の事例研究。特例子会社モデルの参考として監視。",
+    "brandColor": "#0097A7",
+    "irUrl": "https://lifedrink.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "lifemap",
+    "name": "ライフマップ",
+    "market": "非上場",
+    "category": "C",
+    "priorityRank": "B",
+    "description": "障害福祉事業所向けの支援記録・請求システムを提供。スマホアプリベースの使いやすさが特徴で、小規模事業所への普及が進む。",
+    "mainServices": [
+      "障害福祉記録システム",
+      "国保連請求",
+      "保護者連絡アプリ"
+    ],
+    "segments": [
+      {
+        "name": "福祉記録SaaS",
+        "revenueShare": 75.0
+      },
+      {
+        "name": "保守・サポート",
+        "revenueShare": 25.0
+      }
+    ],
+    "tags": [
+      "福祉SaaS",
+      "スマホアプリ",
+      "小規模向け",
+      "非上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "スマホファーストの福祉記録システムとして差別化。カイポケ障害福祉版との競合動向を監視。",
+    "brandColor": "#7E57C2",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
   },
@@ -408,6 +1385,52 @@
     "officialUrl": "https://litalico.co.jp/",
     "brandColor": "#00A5E3",
     "hasFullData": true,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "m3",
+    "name": "エムスリー",
+    "stockCode": "2413",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "B",
+    "description": "医師向けプラットフォーム「m3.com」を基盤に、MR君・治験支援・医療DXを展開。医療×テクノロジーのベンチマーク企業として、AI・データ活用のプロダクト戦略を参照。",
+    "mainServices": [
+      "m3.com（医師プラットフォーム）",
+      "MR君（製薬マーケティング）",
+      "治験支援",
+      "エムスリーキャリア（医療人材）"
+    ],
+    "segments": [
+      {
+        "name": "メディカルプラットフォーム",
+        "revenueShare": 40.0
+      },
+      {
+        "name": "エビデンスソリューション",
+        "revenueShare": 25.0
+      },
+      {
+        "name": "キャリアソリューション",
+        "revenueShare": 20.0
+      },
+      {
+        "name": "海外事業",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "医療DX",
+      "プラットフォーム",
+      "AI",
+      "上場",
+      "テックベンチマーク"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "医療×テクノロジーの最大手ベンチマーク。AI活用・プラットフォーム戦略・データドリブン経営の参考として監視。",
+    "brandColor": "#E50012",
+    "irUrl": "https://corporate.m3.com/ir",
+    "hasFullData": false,
     "lastUpdated": "2025-05-15"
   },
   {
@@ -484,7 +1507,161 @@
     ],
     "threatLevel": 2,
     "monitoringReason": "医療・介護DXのベンチマーク企業。プロダクト戦略・UI/UX・成長モデルの参考として監視。",
+    "irUrl": "https://www.medley.jp/ir/",
     "brandColor": "#1A237E",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "medpeer",
+    "name": "メドピア",
+    "stockCode": "6095",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "医師限定コミュニティ「MedPeer」を運営。医師の集合知プラットフォームと予防医療・ヘルスケアサービスを展開。",
+    "mainServices": [
+      "MedPeer（医師コミュニティ）",
+      "first call（オンライン医療相談）",
+      "Flixy（予防医療）"
+    ],
+    "segments": [
+      {
+        "name": "ドクタープラットフォーム",
+        "revenueShare": 50.0
+      },
+      {
+        "name": "ヘルスケアソリューション",
+        "revenueShare": 35.0
+      },
+      {
+        "name": "予防医療",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "医療DX",
+      "コミュニティ",
+      "ヘルスケア",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "医師コミュニティプラットフォームのモデル。福祉従事者向けコミュニティの参考として監視。",
+    "brandColor": "#43A047",
+    "irUrl": "https://medpeer.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "minnano_kaigo",
+    "name": "みんなの介護（クーリエ）",
+    "market": "非上場",
+    "category": "D",
+    "priorityRank": "B",
+    "description": "介護施設検索プラットフォーム「みんなの介護」を運営。介護施設のマッチングサービスと、障害福祉施設の検索機能も提供。",
+    "mainServices": [
+      "みんなの介護（施設検索）",
+      "介護施設マッチング",
+      "メディア事業"
+    ],
+    "segments": [
+      {
+        "name": "施設検索プラットフォーム",
+        "revenueShare": 70.0
+      },
+      {
+        "name": "メディア",
+        "revenueShare": 30.0
+      }
+    ],
+    "tags": [
+      "プラットフォーム",
+      "介護施設検索",
+      "マッチング",
+      "非上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "介護施設検索から障害福祉施設検索への展開動向。LITALICO仕事ナビとの競合可能性を監視。",
+    "brandColor": "#4CAF50",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "miraiz",
+    "name": "ミライズ",
+    "market": "非上場",
+    "category": "A",
+    "priorityRank": "B",
+    "description": "就労移行支援・就労継続支援B型を展開。IT・Web制作に特化した訓練プログラムが特徴で、高い就職率を実現。",
+    "mainServices": [
+      "就労移行支援",
+      "就労継続支援B型",
+      "IT訓練プログラム"
+    ],
+    "segments": [
+      {
+        "name": "就労移行支援",
+        "revenueShare": 70.0
+      },
+      {
+        "name": "就労継続支援B型",
+        "revenueShare": 30.0
+      }
+    ],
+    "tags": [
+      "就労移行支援",
+      "IT特化",
+      "非上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "IT特化の就労移行支援で差別化。専門領域での競合動向を監視。",
+    "brandColor": "#0984E3",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "money_forward",
+    "name": "マネーフォワード",
+    "stockCode": "3994",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "B",
+    "description": "クラウド会計・経費精算・請求書管理SaaSを提供。バックオフィスSaaSのベンチマーク企業として、プロダクト開発力とGo-to-Market戦略を参照。",
+    "mainServices": [
+      "マネーフォワードクラウド会計",
+      "マネーフォワードクラウド給与",
+      "マネーフォワードクラウド請求書",
+      "マネーフォワードME"
+    ],
+    "segments": [
+      {
+        "name": "Business SaaS",
+        "revenueShare": 65.0
+      },
+      {
+        "name": "Home",
+        "revenueShare": 15.0
+      },
+      {
+        "name": "X（金融機関向け）",
+        "revenueShare": 15.0
+      },
+      {
+        "name": "Finance",
+        "revenueShare": 5.0
+      }
+    ],
+    "tags": [
+      "SaaS",
+      "フィンテック",
+      "会計",
+      "上場",
+      "ベンチマーク"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "バックオフィスSaaSのベンチマーク。マルチプロダクト戦略・ARR成長モデルの参考として監視。",
+    "brandColor": "#5E35B1",
+    "irUrl": "https://corp.moneyforward.com/ir/",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
   },
@@ -528,6 +1705,170 @@
     "lastUpdated": "2025-05-15"
   },
   {
+    "id": "nichii",
+    "name": "ニチイ学館",
+    "market": "非上場",
+    "category": "D",
+    "priorityRank": "A",
+    "description": "介護サービス最大手の一つ。訪問介護・施設介護を全国展開し、障害福祉サービスにも参入。MBO上場廃止後も業界最大規模の事業基盤を維持。",
+    "mainServices": [
+      "訪問介護",
+      "施設介護",
+      "医療事務受託",
+      "障害福祉サービス"
+    ],
+    "segments": [
+      {
+        "name": "介護サービス",
+        "revenueShare": 55.0
+      },
+      {
+        "name": "医療事務受託",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "障害福祉サービス",
+        "revenueShare": 10.0
+      },
+      {
+        "name": "教育",
+        "revenueShare": 5.0
+      }
+    ],
+    "tags": [
+      "介護最大手",
+      "訪問介護",
+      "障害福祉",
+      "非上場"
+    ],
+    "threatLevel": 3,
+    "monitoringReason": "介護最大手の障害福祉参入動向。全国の事業基盤を活用した障害福祉サービス展開を監視。",
+    "brandColor": "#D32F2F",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "obic",
+    "name": "オービック",
+    "stockCode": "4684",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "統合業務ソフトウェア「OBIC7」を展開する国内SI大手。高い利益率を誇るSaaSモデルのベンチマーク。福祉分野への直接関与は限定的。",
+    "mainServices": [
+      "OBIC7（統合業務ソフト）",
+      "システムインテグレーション",
+      "クラウドサービス"
+    ],
+    "segments": [
+      {
+        "name": "システムインテグレーション",
+        "revenueShare": 55.0
+      },
+      {
+        "name": "システムサポート",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "オフィスオートメーション",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "SaaS",
+      "業務ソフト",
+      "高利益率",
+      "上場",
+      "ベンチマーク"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "高利益率SaaSビジネスのベンチマーク。業務ソフトの営業戦略・価格モデルの参考として監視。",
+    "brandColor": "#1B5E20",
+    "irUrl": "https://www.obic.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "onelife",
+    "name": "ワンライフ",
+    "market": "非上場",
+    "category": "A",
+    "priorityRank": "B",
+    "description": "放課後等デイサービス・児童発達支援を多ブランドで展開する新興福祉企業。プログラミング教育・運動療育など特色あるプログラムを提供。",
+    "mainServices": [
+      "放課後等デイサービス",
+      "児童発達支援",
+      "プログラミング療育"
+    ],
+    "segments": [
+      {
+        "name": "放課後等デイサービス",
+        "revenueShare": 60.0
+      },
+      {
+        "name": "児童発達支援",
+        "revenueShare": 40.0
+      }
+    ],
+    "tags": [
+      "障害福祉",
+      "放課後デイ",
+      "児童発達支援",
+      "プログラミング",
+      "非上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "特色ある療育プログラムによる放課後デイの差別化戦略。プログラミング教育×福祉の動向を監視。",
+    "brandColor": "#E040FB",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "outsourcing",
+    "name": "アウトソーシング",
+    "stockCode": "2427",
+    "market": "プライム",
+    "category": "E",
+    "priorityRank": "C",
+    "description": "技術者・製造派遣の大手。PEO（Professional Employer Organization）モデルで海外展開も。障害者雇用コンサルティング事業も展開。",
+    "mainServices": [
+      "技術者派遣",
+      "製造派遣",
+      "PEO",
+      "障害者雇用コンサル"
+    ],
+    "segments": [
+      {
+        "name": "国内技術",
+        "revenueShare": 35.0
+      },
+      {
+        "name": "国内製造",
+        "revenueShare": 25.0
+      },
+      {
+        "name": "海外",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "障害者雇用・他",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "人材派遣",
+      "グローバル",
+      "障害者雇用",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "大手人材派遣の障害者雇用コンサルティング事業の動向を監視。",
+    "brandColor": "#0277BD",
+    "irUrl": "https://www.outsourcing.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
     "id": "pasona",
     "name": "パソナグループ",
     "stockCode": "2168",
@@ -561,6 +1902,7 @@
     ],
     "threatLevel": 2,
     "monitoringReason": "パソナハートフルを通じた障害者雇用支援の動向。淡路島での障害者雇用モデル等の独自施策にも注目。",
+    "irUrl": "https://www.pasonagroup.co.jp/ir/",
     "brandColor": "#003399",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
@@ -599,7 +1941,208 @@
     ],
     "threatLevel": 2,
     "monitoringReason": "パーソルチャレンジを通じた障害者雇用支援の拡大動向を監視。大手人材企業の資本力による参入拡大リスク。",
+    "irUrl": "https://www.persol-group.co.jp/ir/",
     "brandColor": "#0066CC",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "phc",
+    "name": "PHCホールディングス",
+    "stockCode": "6523",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "医療機器・ヘルスケアIT企業。電子カルテ・調剤薬局システム・検体検査機器を展開し、医療ITインフラの大手プレイヤー。",
+    "mainServices": [
+      "電子カルテ（Medicom）",
+      "調剤薬局システム",
+      "検体検査機器",
+      "糖尿病管理機器"
+    ],
+    "segments": [
+      {
+        "name": "ヘルスケアソリューション",
+        "revenueShare": 40.0
+      },
+      {
+        "name": "診断・ライフサイエンス",
+        "revenueShare": 35.0
+      },
+      {
+        "name": "糖尿病マネジメント",
+        "revenueShare": 25.0
+      }
+    ],
+    "tags": [
+      "医療IT",
+      "電子カルテ",
+      "医療機器",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "医療ITインフラ大手。電子カルテと福祉系システムの連携動向の参考として監視。",
+    "brandColor": "#0D47A1",
+    "irUrl": "https://www.phchd.com/jp/ir",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "progrit",
+    "name": "プログリット",
+    "stockCode": "9560",
+    "market": "グロース",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "英語コーチングスクールを運営するEdTech企業。データドリブンな学習最適化とサブスクモデルが特徴で、教育×テクノロジーのベンチマーク。",
+    "mainServices": [
+      "英語コーチング（PROGRIT）",
+      "シャドテン（シャドーイング特化）",
+      "法人研修"
+    ],
+    "segments": [
+      {
+        "name": "コーチングサービス",
+        "revenueShare": 65.0
+      },
+      {
+        "name": "サブスクサービス",
+        "revenueShare": 25.0
+      },
+      {
+        "name": "法人",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "EdTech",
+      "コーチング",
+      "サブスク",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "教育×テクノロジーのコーチングモデルベンチマーク。個別支援のデータ活用の参考として監視。",
+    "brandColor": "#1A1A2E",
+    "irUrl": "https://about.progrit.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "proto",
+    "name": "プロトコーポレーション",
+    "stockCode": "4298",
+    "market": "プライム",
+    "category": "E",
+    "priorityRank": "C",
+    "description": "グーネット（中古車情報）を基盤に、介護・福祉分野の求人メディア事業にも進出。ブルーオーシャン市場への展開に注力。",
+    "mainServices": [
+      "グーネット（中古車情報）",
+      "福祉求人メディア",
+      "DX支援"
+    ],
+    "segments": [
+      {
+        "name": "自動車関連",
+        "revenueShare": 70.0
+      },
+      {
+        "name": "生活関連（福祉含む）",
+        "revenueShare": 20.0
+      },
+      {
+        "name": "DX",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "メディア",
+      "求人",
+      "福祉",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "異業種メディアからの福祉求人市場への参入動向。ニッチ求人メディアの戦略の参考として監視。",
+    "brandColor": "#E53935",
+    "irUrl": "https://www.proto-g.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "qubell",
+    "name": "クベル",
+    "stockCode": "9446",
+    "market": "グロース",
+    "category": "A",
+    "priorityRank": "A",
+    "description": "児童発達支援・放課後等デイサービスを中心に、障害福祉事業を全国展開。直営事業所の拡大と支援品質の標準化に注力する成長企業。",
+    "mainServices": [
+      "児童発達支援",
+      "放課後等デイサービス",
+      "就労移行支援"
+    ],
+    "segments": [
+      {
+        "name": "児童発達支援",
+        "revenueShare": 50.0
+      },
+      {
+        "name": "放課後等デイサービス",
+        "revenueShare": 35.0
+      },
+      {
+        "name": "就労移行支援",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "障害福祉",
+      "児童発達支援",
+      "放課後デイ",
+      "上場",
+      "成長企業"
+    ],
+    "threatLevel": 3,
+    "monitoringReason": "障害福祉事業の直接競合。児童福祉領域での拠点拡大戦略と支援品質の動向を監視。",
+    "brandColor": "#6C5CE7",
+    "irUrl": "https://qubell.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "rakus",
+    "name": "ラクス",
+    "stockCode": "3923",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "B",
+    "description": "楽楽精算・楽楽明細などのBtoB SaaSを展開。中小企業向けSaaSの成長戦略・高い顧客継続率のベンチマーク企業。",
+    "mainServices": [
+      "楽楽精算",
+      "楽楽明細",
+      "楽楽販売",
+      "メールディーラー"
+    ],
+    "segments": [
+      {
+        "name": "クラウド事業",
+        "revenueShare": 80.0
+      },
+      {
+        "name": "IT人材事業",
+        "revenueShare": 20.0
+      }
+    ],
+    "tags": [
+      "SaaS",
+      "経費精算",
+      "中小企業向け",
+      "上場",
+      "ベンチマーク"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "中小企業向けSaaSの高成長ベンチマーク。営業戦略・チャーンレート管理の参考として監視。",
+    "brandColor": "#1565C0",
+    "irUrl": "https://www.rakus.co.jp/ir/",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
   },
@@ -640,7 +2183,43 @@
     ],
     "threatLevel": 2,
     "monitoringReason": "HR・SaaS領域の最大手ベンチマーク。プラットフォーム戦略・AI活用・M&A動向の参考として監視。",
+    "irUrl": "https://recruit-holdings.com/ja/ir/",
     "brandColor": "#FF0000",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "reha_cloud",
+    "name": "リハプラン（Rehab for JAPAN）",
+    "market": "非上場",
+    "category": "C",
+    "priorityRank": "B",
+    "description": "デイサービス向けリハビリ支援AIクラウドを提供。計画書自動作成・アウトカム評価をAIで支援し、LIFE対応にも注力。",
+    "mainServices": [
+      "リハプラン（リハビリ支援AI）",
+      "計画書自動作成",
+      "LIFE対応支援"
+    ],
+    "segments": [
+      {
+        "name": "リハビリ支援SaaS",
+        "revenueShare": 80.0
+      },
+      {
+        "name": "コンサルティング",
+        "revenueShare": 20.0
+      }
+    ],
+    "tags": [
+      "福祉SaaS",
+      "AI",
+      "リハビリ",
+      "LIFE",
+      "非上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "介護・福祉向けAI活用SaaSの新興勢力。LIFE対応SaaSの動向と障害福祉領域への展開可能性を監視。",
+    "brandColor": "#FF7043",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
   },
@@ -679,7 +2258,169 @@
     ],
     "threatLevel": 2,
     "monitoringReason": "在宅介護大手の障害福祉参入動向。居宅介護・重度訪問介護での事業拡大を監視。",
+    "irUrl": "https://www.saint-care.com/ir/",
     "brandColor": "#00695C",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "sakura_cs",
+    "name": "さくらケーシーエス",
+    "stockCode": "4761",
+    "market": "スタンダード",
+    "category": "C",
+    "priorityRank": "C",
+    "description": "三井住友銀行系のIT企業。自治体向け障害福祉システム・介護保険システムを提供し、公共分野でのITインフラを担う。",
+    "mainServices": [
+      "自治体向け障害福祉システム",
+      "介護保険システム",
+      "金融系SI"
+    ],
+    "segments": [
+      {
+        "name": "金融系SI",
+        "revenueShare": 50.0
+      },
+      {
+        "name": "公共・福祉システム",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "その他",
+        "revenueShare": 20.0
+      }
+    ],
+    "tags": [
+      "福祉システム",
+      "自治体向け",
+      "SI",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "自治体向け障害福祉システムのベンダー。行政システム側の変更が事業所ソフトに波及する可能性を監視。",
+    "brandColor": "#2D3436",
+    "irUrl": "https://www.sakura-kcs.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "sansan",
+    "name": "Sansan",
+    "stockCode": "4443",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "名刺管理SaaS「Sansan」と請求書管理「Bill One」を提供。BtoB SaaSの成功事例として、セカンドプロダクト戦略のベンチマーク。",
+    "mainServices": [
+      "Sansan（名刺管理）",
+      "Bill One（請求書受領）",
+      "Eight（名刺アプリ）",
+      "Contract One（契約管理）"
+    ],
+    "segments": [
+      {
+        "name": "Sansan事業",
+        "revenueShare": 55.0
+      },
+      {
+        "name": "Bill One事業",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "Eight事業",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "SaaS",
+      "名刺管理",
+      "請求書",
+      "上場",
+      "ベンチマーク"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "マルチプロダクトSaaS企業のベンチマーク。セカンドプロダクト「Bill One」の成長戦略の参考として監視。",
+    "brandColor": "#004E98",
+    "irUrl": "https://jp.corp-sansan.com/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "shift",
+    "name": "SHIFT",
+    "stockCode": "3697",
+    "market": "プライム",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "ソフトウェアテスト・品質保証の最大手。エンジニア人材の大量採用と育成モデルに強み。障害者のIT人材としての活躍の場を創出する取り組みも。",
+    "mainServices": [
+      "ソフトウェアテスト",
+      "品質保証コンサルティング",
+      "セキュリティ",
+      "DX支援"
+    ],
+    "segments": [
+      {
+        "name": "ソフトウェアテスト",
+        "revenueShare": 70.0
+      },
+      {
+        "name": "DX支援",
+        "revenueShare": 20.0
+      },
+      {
+        "name": "セキュリティ",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "IT",
+      "テスト",
+      "人材育成",
+      "上場",
+      "ベンチマーク"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "IT人材育成モデルのベンチマーク。障害者のIT就労における受入企業側の動向の参考として監視。",
+    "brandColor": "#D32F2F",
+    "irUrl": "https://www.shiftinc.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "silverii",
+    "name": "シルバーライフ",
+    "stockCode": "9262",
+    "market": "プライム",
+    "category": "D",
+    "priorityRank": "C",
+    "description": "高齢者向け配食サービス大手。FC展開による全国ネットワークと、障害者向け配食・見守りサービスへの横展開にも注力。",
+    "mainServices": [
+      "高齢者配食サービス",
+      "障害者向け配食",
+      "見守りサービス"
+    ],
+    "segments": [
+      {
+        "name": "配食サービス",
+        "revenueShare": 85.0
+      },
+      {
+        "name": "見守り・その他",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "配食",
+      "FC",
+      "高齢者",
+      "障害者",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "高齢者・障害者向け配食サービスのFC展開モデル。障害福祉サービス事業所との連携動向を監視。",
+    "brandColor": "#F57C00",
+    "irUrl": "https://www.silver-life.co.jp/ir/",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
   },
@@ -734,6 +2475,45 @@
     "lastUpdated": "2025-05-15"
   },
   {
+    "id": "sompo_care",
+    "name": "SOMPOケア",
+    "market": "非上場",
+    "category": "D",
+    "priorityRank": "A",
+    "description": "SOMPOグループの介護事業会社。施設介護・在宅介護を全国展開し、テクノロジー活用した介護DXを推進。障害福祉事業への横展開も視野に。",
+    "mainServices": [
+      "施設介護（ラヴィーレ）",
+      "在宅介護",
+      "介護DX"
+    ],
+    "segments": [
+      {
+        "name": "施設介護",
+        "revenueShare": 60.0
+      },
+      {
+        "name": "在宅介護",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "介護DX",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "介護大手",
+      "施設介護",
+      "DX",
+      "非上場",
+      "保険グループ"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "保険大手グループの介護DX戦略。テクノロジー活用の介護・福祉サービスモデルの参考として監視。",
+    "brandColor": "#00529B",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
     "id": "sorust",
     "name": "ソラスト",
     "stockCode": "6197",
@@ -769,6 +2549,7 @@
     ],
     "threatLevel": 3,
     "monitoringReason": "M&Aを活用した障害福祉事業の拡大動向。医療・介護からの領域拡張戦略を監視。",
+    "irUrl": "https://www.solasto.co.jp/ir/",
     "brandColor": "#7B1FA2",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
@@ -848,7 +2629,7 @@
     ],
     "threatLevel": 4,
     "monitoringReason": "農園型障害者雇用モデルで急成長。企業側の障害者雇用ニーズを取り込む独自のポジショニングで、就労支援市場と競合する可能性がある。",
-    "irUrl": "https://www.spool.co.jp/ir/",
+    "irUrl": "https://www.spool.co.jp/investor/",
     "officialUrl": "https://www.spool.co.jp/",
     "brandColor": "#FF6B35",
     "hasFullData": true,
@@ -883,6 +2664,204 @@
     "threatLevel": 3,
     "monitoringReason": "サテライトオフィス型障害者雇用で競合するエスプールとの競争動向。IPO可能性にも注目。",
     "brandColor": "#009688",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "sun_welfare",
+    "name": "サンウェルズ",
+    "stockCode": "9229",
+    "market": "グロース",
+    "category": "D",
+    "priorityRank": "B",
+    "description": "パーキンソン病専門住宅「PDハウス」を運営する新興企業。難病対応の福祉施設に特化し、ニッチ領域で急成長。",
+    "mainServices": [
+      "パーキンソン病専門住宅（PDハウス）",
+      "有料老人ホーム",
+      "訪問看護"
+    ],
+    "segments": [
+      {
+        "name": "PDハウス",
+        "revenueShare": 70.0
+      },
+      {
+        "name": "介護施設",
+        "revenueShare": 20.0
+      },
+      {
+        "name": "訪問看護",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "難病特化",
+      "パーキンソン病",
+      "施設",
+      "上場",
+      "急成長"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "難病特化型福祉施設の新興モデル。障害福祉領域での専門特化戦略の参考として監視。",
+    "brandColor": "#26A69A",
+    "irUrl": "https://sunwels.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "surala",
+    "name": "すららネット",
+    "stockCode": "3998",
+    "market": "グロース",
+    "category": "F",
+    "priorityRank": "B",
+    "description": "AI搭載のアダプティブラーニング教材「すらら」を提供。不登校児・発達障害児の学習支援に強みを持ち、放課後デイでの導入実績も豊富。",
+    "mainServices": [
+      "すらら（AI学習教材）",
+      "すららドリル",
+      "放課後デイ向け教材"
+    ],
+    "segments": [
+      {
+        "name": "学校・塾向け",
+        "revenueShare": 55.0
+      },
+      {
+        "name": "放課後デイ・福祉向け",
+        "revenueShare": 25.0
+      },
+      {
+        "name": "海外",
+        "revenueShare": 20.0
+      }
+    ],
+    "tags": [
+      "EdTech",
+      "AI",
+      "発達障害",
+      "放課後デイ",
+      "上場"
+    ],
+    "threatLevel": 3,
+    "monitoringReason": "放課後デイ・障害児支援向けAI教材で直接的な関連性。福祉事業所での導入拡大と教育×福祉の動向を監視。",
+    "brandColor": "#00BFA5",
+    "irUrl": "https://surala.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "totalmobile",
+    "name": "トータルモバイル",
+    "market": "非上場",
+    "category": "C",
+    "priorityRank": "C",
+    "description": "訪問系サービス向けのモバイルワークフォースマネジメントシステムを提供。訪問介護・訪問看護のスケジュール最適化が強み。",
+    "mainServices": [
+      "訪問系スケジュール管理",
+      "ワークフォース最適化",
+      "モバイルワーク支援"
+    ],
+    "segments": [
+      {
+        "name": "モバイル管理SaaS",
+        "revenueShare": 85.0
+      },
+      {
+        "name": "コンサルティング",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "福祉SaaS",
+      "訪問系",
+      "スケジュール管理",
+      "非上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "訪問系福祉サービスのDXツール。居宅介護・重度訪問介護の業務効率化動向の参考として監視。",
+    "brandColor": "#5D4037",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "tryt",
+    "name": "トライト",
+    "stockCode": "9164",
+    "market": "グロース",
+    "category": "E",
+    "priorityRank": "A",
+    "description": "介護・医療・保育分野に特化した人材紹介サービスを展開。障害福祉分野の人材紹介にも参入し、業界特化型HRプラットフォームとして成長中。",
+    "mainServices": [
+      "介護人材紹介",
+      "医療人材紹介",
+      "保育人材紹介",
+      "障害福祉人材紹介"
+    ],
+    "segments": [
+      {
+        "name": "介護人材",
+        "revenueShare": 45.0
+      },
+      {
+        "name": "医療人材",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "保育・福祉人材",
+        "revenueShare": 25.0
+      }
+    ],
+    "tags": [
+      "人材紹介",
+      "介護",
+      "医療",
+      "上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "福祉業界特化型人材紹介の動向。障害福祉分野への人材紹介参入拡大を監視。",
+    "brandColor": "#E17055",
+    "irUrl": "https://tryt-group.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "tsukui",
+    "name": "ツクイホールディングス",
+    "stockCode": "2398",
+    "market": "プライム",
+    "category": "D",
+    "priorityRank": "B",
+    "description": "デイサービスを中核に介護サービスを全国展開する大手。障害者デイサービスの運営にも進出し、介護と障害福祉の統合サービスを提供。",
+    "mainServices": [
+      "デイサービス",
+      "有料老人ホーム",
+      "訪問介護",
+      "障害者デイサービス"
+    ],
+    "segments": [
+      {
+        "name": "在宅介護",
+        "revenueShare": 50.0
+      },
+      {
+        "name": "施設介護",
+        "revenueShare": 35.0
+      },
+      {
+        "name": "障害福祉・その他",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "介護大手",
+      "デイサービス",
+      "障害福祉",
+      "上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "介護大手のデイサービスノウハウを活かした障害福祉領域への展開動向を監視。",
+    "brandColor": "#388E3C",
+    "irUrl": "https://www.tsukui.net/ir/",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
   },
@@ -922,6 +2901,158 @@
     "lastUpdated": "2025-05-15"
   },
   {
+    "id": "ut_group",
+    "name": "UTグループ",
+    "stockCode": "2146",
+    "market": "プライム",
+    "category": "E",
+    "priorityRank": "B",
+    "description": "製造業派遣大手。障害者雇用支援事業として就労移行支援事業所も運営し、製造業での障害者就労機会の創出を推進。",
+    "mainServices": [
+      "製造業派遣",
+      "技術者派遣",
+      "障害者就労支援"
+    ],
+    "segments": [
+      {
+        "name": "製造業務",
+        "revenueShare": 65.0
+      },
+      {
+        "name": "技術者派遣",
+        "revenueShare": 25.0
+      },
+      {
+        "name": "障害者就労支援",
+        "revenueShare": 10.0
+      }
+    ],
+    "tags": [
+      "人材派遣",
+      "製造業",
+      "障害者雇用",
+      "上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "製造業派遣大手の障害者就労支援事業の動向。製造業での障害者雇用モデルの拡大を監視。",
+    "brandColor": "#1E88E5",
+    "irUrl": "https://www.ut-g.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "uzabase",
+    "name": "ユーザベース",
+    "stockCode": "3966",
+    "market": "グロース",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "経済情報プラットフォーム「SPEEDA」「NewsPicks」を運営。企業分析・IR情報プラットフォームのベンチマーク企業。",
+    "mainServices": [
+      "SPEEDA（経済情報）",
+      "NewsPicks",
+      "FORCAS（BtoBマーケ）",
+      "INITIAL（スタートアップDB）"
+    ],
+    "segments": [
+      {
+        "name": "SaaS事業",
+        "revenueShare": 55.0
+      },
+      {
+        "name": "メディア事業",
+        "revenueShare": 30.0
+      },
+      {
+        "name": "その他",
+        "revenueShare": 15.0
+      }
+    ],
+    "tags": [
+      "SaaS",
+      "経済情報",
+      "プラットフォーム",
+      "上場",
+      "ベンチマーク"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "経済情報・企業分析プラットフォームのベンチマーク。IR分析ツールの参考として監視。",
+    "brandColor": "#FFCC00",
+    "irUrl": "https://www.uzabase.com/jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "valt",
+    "name": "VALT JAPAN",
+    "market": "非上場",
+    "category": "B",
+    "priorityRank": "A",
+    "description": "障害者のテレワーク就労を支援するBPO企業。就労継続支援B型事業所と連携し、企業のデータ入力・軽作業を障害者に委託するモデルを展開。",
+    "mainServices": [
+      "障害者テレワークBPO",
+      "就労支援連携",
+      "データ入力代行"
+    ],
+    "segments": [
+      {
+        "name": "BPO事業",
+        "revenueShare": 70.0
+      },
+      {
+        "name": "就労支援連携",
+        "revenueShare": 30.0
+      }
+    ],
+    "tags": [
+      "障害者雇用",
+      "BPO",
+      "テレワーク",
+      "非上場"
+    ],
+    "threatLevel": 2,
+    "monitoringReason": "障害者テレワーク就労のBPOモデル。就労支援事業所との連携による新しい工賃モデルを監視。",
+    "brandColor": "#3949AB",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "visasq",
+    "name": "ビザスク",
+    "stockCode": "4490",
+    "market": "グロース",
+    "category": "F",
+    "priorityRank": "C",
+    "description": "スポットコンサルプラットフォームを運営。専門家の知見マッチングで、福祉・医療分野の専門家ネットワークも構築。",
+    "mainServices": [
+      "ビザスク（スポットコンサル）",
+      "ビザスクlite",
+      "Coleman Research（海外）"
+    ],
+    "segments": [
+      {
+        "name": "国内",
+        "revenueShare": 45.0
+      },
+      {
+        "name": "海外",
+        "revenueShare": 55.0
+      }
+    ],
+    "tags": [
+      "コンサルプラットフォーム",
+      "マッチング",
+      "グローバル",
+      "上場"
+    ],
+    "threatLevel": 1,
+    "monitoringReason": "専門家マッチングプラットフォームのベンチマーク。福祉専門家ネットワークの参考として監視。",
+    "brandColor": "#2962FF",
+    "irUrl": "https://visasq.co.jp/ir/",
+    "hasFullData": false,
+    "lastUpdated": "2025-05-15"
+  },
+  {
     "id": "visional",
     "name": "ビジョナル",
     "stockCode": "4194",
@@ -953,6 +3084,7 @@
     ],
     "threatLevel": 1,
     "monitoringReason": "HR×SaaSのベンチマーク企業。プラットフォーム戦略・プロダクト開発手法の参考として監視。",
+    "irUrl": "https://www.visional.inc/ja/ir.html",
     "brandColor": "#212121",
     "hasFullData": false,
     "lastUpdated": "2025-05-15"
@@ -995,7 +3127,7 @@
     ],
     "threatLevel": 4,
     "monitoringReason": "就労移行支援で業界2位。LITALICOと並ぶ直接競合であり、出店戦略・M&A動向を継続的に監視する必要がある。",
-    "irUrl": "https://www.welbe.co.jp/ir/",
+    "irUrl": "https://corporate.welbe.co.jp/ir/",
     "officialUrl": "https://www.welbe.co.jp/",
     "brandColor": "#E85298",
     "hasFullData": true,

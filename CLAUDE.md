@@ -1,7 +1,7 @@
 # IRkun — 障害福祉業界 競合IR分析ダッシュボード
 
 ## 概要
-28社の障害福祉サービス競合企業のIR情報を分析するNext.js静的サイト。
+82社の障害福祉・介護・HR・医療DX・SaaS競合企業のIR情報を分析するNext.js静的サイト。
 Vercelにデプロイして使用（`output: "export"`）。
 
 ## 技術スタック
@@ -16,7 +16,7 @@ Vercelにデプロイして使用（`output: "export"`）。
 ```
 app/                    # ページ（7ページ）
   page.tsx              # ダッシュボード（/）
-  company/[id]/page.tsx # 企業詳細（28社分SSG）
+  company/[id]/page.tsx # 企業詳細（82社分SSG）
   compare/page.tsx      # 企業比較
   learn/page.tsx        # 学習サポート（用語集）
   trends/page.tsx       # 業界トレンド
@@ -54,7 +54,7 @@ CompanyFinancials { companyId, fiscalYears: FiscalYear[] }
 ```
 
 ## セグメント別PL
-- 全28社・71セグメントのPLを保持（business-plans.json: 99プラン）
+- 28社・71セグメントのPLを保持（business-plans.json: 99プラン）※82社中28社にPLデータあり
 - `getBusinessPlanByCompanyId()` → 全社合算PL（segmentIdなし）
 - `getBusinessPlansByCompanyId()` → 全プラン（全社合算 + セグメント別）
 - `BusinessPlanSection` がタブUIで切替
@@ -77,7 +77,7 @@ Pythonスクリプト → Supabase DB（単一ソースオブトゥルース）
 
 | テーブル | 対応JSON | レコード数 |
 |---------|----------|-----------|
-| `companies` | companies.json | 28 |
+| `companies` | companies.json | 82 |
 | `company_segments` | companies.json > segments | ~70 |
 | `fiscal_years` | financials.json | 140 |
 | `segment_financials` | financials.json > segments | ~200 |
@@ -92,8 +92,8 @@ Pythonスクリプト → Supabase DB（単一ソースオブトゥルース）
 | `trend_company_impacts` | → impactByCompany | ~40 |
 | `analysis_notes` | notes.json | 5 |
 | `glossary` | glossary.json（JSONB一括） | 1 |
-| `earnings_documents` | **新規**（PDF管理） | 0（未使用） |
-| `earnings_insights` | **新規**（AI分析結果） | 0（未使用） |
+| `earnings_documents` | earnings-insights/*.json | 12（5社分） |
+| `earnings_insights` | earnings-insights/*.json | ~50 |
 
 ### Pythonスクリプト（DB関連）
 - `scripts/db.py` — httpxでPostgREST API直接叩く（supabase SDK不使用 ← Python 3.14非対応のため）
@@ -128,12 +128,24 @@ ANTHROPIC_API_KEY=...
 
 共通: `--export-json` フラグでDB書き込み後にJSONエクスポートも可能
 
-### ★ 次にやること（Phase 4-5）
+## ★ Phase 4 進行中（2026-02-21）: IRクローリング + AI分析 + 82社拡大
 
-### Phase 4: 全28社IRクローリング + AI分析
-1. `fetch_earnings.py --all` で全社の決算説明資料PDFを取得
-2. `earnings_analyzer.py` の EXTRACTION_PROMPT 拡張（経営戦略分析を追加）
-3. 全社PDFをClaude APIで分析 → `earnings_insights` テーブルに保存
+### 完了
+- **企業数拡大**: 28社 → 82社（障害福祉/介護/HR/医療DX/SaaS/AI/EdTech）
+  - M3, クベル, E-well等のユーザー指定企業を含む
+  - `data/companies_additional_52.json` に追加分のバックアップ
+- **IR URL設定**: 14社に`irUrl`を設定（既存5社 + 新規9社）
+  - spool: `/ir/` → `/investor/`、recruit: `.co.jp` → `.com`、welbe: `corporate.welbe.co.jp`に修正
+- **ir_scraper.py改善**: SSL回避、サブページ探索強化（URLパス+テキストマッチ）、緩和キーワード
+- **AI分析**: 5社12件のPDF → Claude API分析 → DB + JSON保存完了
+  - litalico(3), sms(2), persol(3), pasona(1), visional(3)
+  - `data/earnings-insights/{company_id}.json` に出力
+
+### 課題
+- 多くのIRサイトがJS動的ロードのためBeautifulSoupでPDF取れない
+- Playwright等のブラウザ自動化が必要（未実装）
+
+### ★ 次にやること（Phase 5）
 
 ### Phase 5: Next.js UI — 決算インサイト表示
 1. `lib/types.ts` に `EarningsInsight` 型追加
@@ -161,7 +173,7 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `--phase-invest/growth/stable`: PLチャートフェーズ背景
 
 ## Pythonスクリプト（scripts/）
-- `config.py` — 設定・企業マッピング（IRkun ID → 証券コード、17社分）
+- `config.py` — 設定・企業マッピング（COMPANY_MAP: 17社の証券コード）
 - `db.py` — Supabase PostgREST httpxクライアント（upsert_* + export_*_json）
 - `edinet_client.py` — EDINET API v2クライアント（SSLリトライ付き）
 - `fetch_financials.py` — 有報から財務データ取得→DB投入 (`--export-json`)

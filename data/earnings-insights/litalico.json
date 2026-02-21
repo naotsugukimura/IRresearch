@@ -1,0 +1,207 @@
+{
+  "companyId": "litalico",
+  "analyzedAt": "2026-02-21T20:22:30.817881",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": 400,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "LITALICO Works施設数",
+            "value": 163,
+            "unit": "施設"
+          },
+          {
+            "name": "Child Welfare施設数",
+            "value": 185,
+            "unit": "施設"
+          },
+          {
+            "name": "基本的1株当たり四半期利益",
+            "value": 47.49,
+            "unit": "円"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "障害者雇用率は2024年4月時点で2.5%に引き上げられたが、日本企業の46.0%しか法定雇用率を満たしておらず、雇用支援サービスの拡大余地は大きい"
+      },
+      "ma_info": [
+        {
+          "target": "Residential Behavior Management Center of Nebraska, LLC",
+          "date": "2024年7月",
+          "amount": null,
+          "synergy": "重度障害者向けの海外サービス提供会社として事業統合",
+          "status": "completed"
+        },
+        {
+          "target": "Developmental Disability Center of Nebraska, LLC",
+          "date": null,
+          "amount": null,
+          "synergy": "米国での重度障害者向けサービス提供",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "職業福祉セグメントで2027年3月期に20施設以上の新規開設予定",
+          "児童福祉事業では短時間支援中心の運営形態で積極的な施設展開",
+          "プラットフォーム事業では積極投資を継続しながら収益と利益の同時成長",
+          "海外事業では安定的な拡大と成長投資を実施"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期（2025年4月1日～2025年12月31日）",
+      "summary": "LITALICO Inc.は障害者福祉分野で「障害のない社会をつくる」ビジョンの下、全国約400施設で学習・職業訓練・生活支援サービスを提供。2025年12月期第3四半期は売上282億円（前年同期比19.1%増）、営業利益32億円（同57.5%増）と好調。海外M&Aや新規施設展開により事業拡大を推進している。",
+      "source_file": "%5BSummary%5D%20Consolidated%20Financial%20Results%20for%20the%20Nine%20Months%20Ended%20December%2031%2C%202025%20%5BIFRS%5D.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": 13164,
+        "facility_count": 402,
+        "employee_count": 5075,
+        "other_kpis": [
+          {
+            "name": "就職者数",
+            "value": 1964,
+            "unit": "人"
+          },
+          {
+            "name": "契約事業所数",
+            "value": 33448,
+            "unit": "施設"
+          },
+          {
+            "name": "NPSスコア（LITALICOワークス）",
+            "value": 13.0,
+            "unit": "スコア"
+          },
+          {
+            "name": "NPSスコア（LITALICOジュニア）",
+            "value": 19.9,
+            "unit": "スコア"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": 8.0,
+        "market_notes": "障害福祉サービス利用者数と施設数は年々増加、障害福祉予算は年間4兆円で年率8%で増加。障害者数は直近で約1,160万人。"
+      },
+      "ma_info": [
+        {
+          "target": "DDCN",
+          "date": "2024年",
+          "amount": null,
+          "synergy": "米国での強度行動障害者向けサービス展開",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "障害者の支援で世界No.1",
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "企業文化の一貫性を再強化",
+          "中長期での価値最大化",
+          "積極的な事業投資と株主還元の両立",
+          "FY2026は20施設以上の開設を計画"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期",
+      "summary": "LITALICOのFY2025Q3決算は売上282億円（+19%）、営業利益31.8億円（+57%）と好調。就労支援は計画通り2施設開設、児童福祉は19施設開設予定。プラットフォーム事業は契約事業所数33,448施設まで拡大。中期方針として企業文化強化と中長期価値最大化を掲げ、積極投資と株主還元を両立。",
+      "source_file": "2026%E5%B9%B43%E6%9C%88%E6%9C%9F%E7%AC%AC3%E5%9B%9B%E5%8D%8A%E6%9C%9F%E6%B1%BA%E7%AE%97%E8%AA%AC%E6%98%8E%E8%B3%87%E6%96%99.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": 13164,
+        "facility_count": 402,
+        "employee_count": 5075,
+        "other_kpis": [
+          {
+            "name": "job_placements",
+            "value": 1964,
+            "description": "累計就職者数"
+          },
+          {
+            "name": "platform_contracts",
+            "value": 33448,
+            "description": "プラットフォーム契約事業所数"
+          },
+          {
+            "name": "nps_works",
+            "value": 13.0,
+            "description": "LITALICO WorksのNPSスコア"
+          },
+          {
+            "name": "nps_junior",
+            "value": 19.9,
+            "description": "LITALICO JuniorのNPSスコア"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": 8,
+        "market_notes": "障害福祉サービス関連予算は4兆円に達し、年8%で拡大継続。法定雇用率が2.5%から2.7%へ段階的引き上げ予定。障害者雇用は過去13年で精神障害者が10倍増加"
+      },
+      "ma_info": [
+        {
+          "target": "DDCN",
+          "date": "2024年",
+          "amount": null,
+          "synergy": "米国における重度行動障害者向けサービス提供強化",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "世界No.1の障害者支援企業への成長戦略",
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "企業文化の一貫性再強化",
+          "中長期的な企業価値最大化",
+          "積極的事業投資と株主還元のバランス",
+          "LITALICOブランドへの事業開発集約",
+          "新サービス・新事業への積極投資継続"
+        ]
+      },
+      "fiscal_period": "2025年3月期第3四半期",
+      "summary": "LITALICO Inc.は障害者支援サービスを展開する企業。2025年第3四半期は売上282億円（前年同期比19.1%増）、営業利益32億円（同57.5%増）と好調。就労支援、児童支援、プラットフォーム、海外事業を柱に成長。新たにグループホームや高等学院も開始し、障害者の生涯支援体制を構築中。",
+      "source_file": "FY2025Q3EarningsPresentation.pdf"
+    }
+  ]
+}

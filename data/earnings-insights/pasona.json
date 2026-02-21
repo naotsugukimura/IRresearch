@@ -1,0 +1,83 @@
+{
+  "companyId": "pasona",
+  "analyzedAt": "2026-02-21T20:25:58.077347",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": {
+          "パソナフォスター": 97,
+          "保育施設": 44,
+          "学童クラブ・児童センター": 53,
+          "パソナライフケア": 17,
+          "介護施設": 17
+        },
+        "employee_count": 22982,
+        "other_kpis": [
+          "派遣稼働者数：前年同期並み",
+          "登録者数：前年同期比2桁増加",
+          "万博来場者数：215万名",
+          "万博来場企業社数：3,017社",
+          "報道数：5,055件",
+          "報道効果：42億円超"
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": null
+      },
+      "ma_info": [
+        {
+          "target": "エイチ・ツー・オー リテイリング株式会社",
+          "date": "2025年",
+          "amount": null,
+          "synergy": "持続可能な未来社会の創造を目指す包括業務提携（人材育成・働き方改革、大阪・関西万博連携、富裕層向け観光開発、地域活性化等）",
+          "status": "announced"
+        },
+        {
+          "target": "エステー株式会社",
+          "date": "2025年",
+          "amount": null,
+          "synergy": "新たなWell-being産業の創出を目指す（「かおり」を核としたウェルネス事業共創）",
+          "status": "announced"
+        },
+        {
+          "target": "ヤンマーホールディングス株式会社",
+          "date": "2025年",
+          "amount": null,
+          "synergy": "人と自然が共生する持続可能な社会の実現を目指す（Wellness Farmer Award創設、新規就農者の教育・支援等）",
+          "status": "announced"
+        },
+        {
+          "target": "株式会社PASONA VIV JAPAN",
+          "date": "2025年",
+          "amount": null,
+          "synergy": "AI・XRを基盤としたウェルビーイング×エンターテインメント事業",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "PASONA GROUP VISION 2030",
+        "period": "2030年まで",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "人員の適正配置やコスト配分の見直し",
+          "コストコントロールの強化"
+        ]
+      },
+      "fiscal_period": "2026年5月期第2四半期",
+      "summary": "パソナグループの2026年5月期第2四半期決算。売上高は前年同期比0.4%増の1,545億円、営業損失は2億円。大阪・関西万博での協賛金収入や物販収入により経常利益は8億円。BPOソリューションは大型案件のピークアウトが継続、地方創生・観光ソリューションは人気キャラクターコンテンツで大幅増収。万博レガシーとして複数企業との包括業務提携を発表。",
+      "source_file": "FY2025Q2_presentation.pdf"
+    }
+  ]
+}
