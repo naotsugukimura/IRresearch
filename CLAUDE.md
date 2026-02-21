@@ -14,11 +14,28 @@ Vercelにデプロイして使用（`output: "export"`）。
 
 ## ディレクトリ構成
 ```
-app/                    # ページ（9ページ）
+app/                    # ページ（27ページ）
   page.tsx              # ダッシュボード（/）
   market/page.tsx       # 総合ダッシュボード（/market）
-  facility/page.tsx     # 事業所分析インデックス（/facility）
-  facility/houkago-day/ # 放課後デイ詳細（/facility/houkago-day）
+  facility/page.tsx     # 事業所分析インデックス（/facility） — 4カテゴリ19サービス
+  facility/houkago-day/ # 放課後等デイサービス
+  facility/jidou-hattatsu/ # 児童発達支援
+  facility/iryougata-jidou/ # 医療型児童発達支援
+  facility/kyotaku-houmon/ # 居宅訪問型児童発達支援
+  facility/hoikusho-houmon/ # 保育所等訪問支援
+  facility/group-home/  # 共同生活援助（GH）
+  facility/jiritsu-seikatsu/ # 自立生活援助
+  facility/kinou-kunren/ # 自立訓練（機能訓練）
+  facility/seikatsu-kunren/ # 自立訓練（生活訓練）
+  facility/shukuhaku-kunren/ # 宿泊型自立訓練
+  facility/shurou-ikou/ # 就労移行支援
+  facility/shurou-a/    # 就労継続支援A型
+  facility/shurou-b/    # 就労継続支援B型
+  facility/shurou-teichaku/ # 就労定着支援
+  facility/chiiki-ikou/ # 地域移行支援
+  facility/chiiki-teichaku/ # 地域定着支援
+  facility/keikaku-soudan/ # 計画相談支援
+  facility/shougaiji-soudan/ # 障害児相談支援
   company/[id]/page.tsx # 企業詳細（82社分SSG）
   compare/page.tsx      # 企業比較
   learn/page.tsx        # 学習サポート（用語集）
@@ -31,7 +48,7 @@ components/
   compare/              # 比較テーブル・チャート
   trends/               # トレンド表示
   market/               # 総合ダッシュボード（MarketKpiCards, PopulationChart, EmploymentChart等）
-  facility/             # 事業所分析（EntityDistribution, DailyTimeline, PLWaterfall等）
+  facility/             # 事業所分析（FacilityDetailPage, EntityDistribution, DailyTimeline, PLWaterfall, MonthlyPLTable等）
   layout/               # Sidebar, Breadcrumb, PageHeader
   shared/               # 再利用コンポーネント（Badge系）
   ui/                   # shadcn/ui基本部品
@@ -42,8 +59,13 @@ lib/
   constants.ts          # 全定数（カテゴリ色、脅威レベル、ナビ項目等）
 data/                   # 全データJSON（companies, financials, business-plans等）
   market-overview.json  # 障害者人口・雇用・事業所数時系列 + ニュース + 採用方法
-  facility-analysis/    # 事業所分析（サービス種別ごと）
-    houkago-day.json    # 放課後デイ: 法人分布・推移・PL・運営ストーリー
+  facility-analysis/    # 事業所分析（全18サービス種別のJSON）
+    houkago-day.json, jidou-hattatsu.json, iryougata-jidou.json,
+    kyotaku-houmon.json, hoikusho-houmon.json, group-home.json,
+    jiritsu-seikatsu.json, kinou-kunren.json, seikatsu-kunren.json,
+    shukuhaku-kunren.json, shurou-ikou.json, shurou-a.json,
+    shurou-b.json, shurou-teichaku.json, chiiki-ikou.json,
+    chiiki-teichaku.json, keikaku-soudan.json, shougaiji-soudan.json
 scripts/                # Python — DB管理 / EDINET / IRスクレイパー
 ```
 
@@ -203,14 +225,41 @@ ANTHROPIC_API_KEY=...
 - `ConversationCards.tsx` — 4シーン（保護者面談/スタッフMTG/関係機関連携/日次連絡）
 - `PLWaterfall.tsx` / `Inner` — 売上BarChart + コストPieChart（年間約2,256万円）
 - `BonusTable.tsx` — 主要加算10個テーブル（カテゴリフィルタ/難易度/売上寄与バッジ）
-- 型: `MarketOverviewData`, `FacilityAnalysisData` + 多数のサブ型
+- `MonthlyPLTable.tsx` — 12ヶ月月次PL表（折りたたみセクション/スパークライン/年次合計）
+- 型: `MarketOverviewData`, `FacilityAnalysisData`, `MonthlyPL` + 多数のサブ型
 
-### ★ 次にやること（Phase 7）
-- リタリコ深掘り続き: プラットフォーム事業の構造分析、セグメント収益時系列、一店舗あたりの事業計画
-- 他サービス種類の事業所分析追加（児童発達支援、就労B型 etc.）
-- WAMNETデータからの法人格自動分類（analyze_facility.py）
+## ★ Phase 7 完了（2026-02-21）: 企業一覧テーブル化 + 詳細ページ再編
+- 企業一覧: カードグリッド → ソート可能テーブル（セグメント/時価総額/売上/営業利益率/動向）
+- 詳細ページ: 概要→沿革→事業戦略→財務分析→経営分析→事業分析→SMSへの示唆
+- `SectionNav` 汎用化（props `sections?` で任意セクション受付可能）
+- `Company` 型拡張: `marketCap?`（億円）, `recentTrend?`（直近の動向）
+- `lib/data.ts`: `getLatestFiscalYear()` + `getFinancialsMap()` ヘルパー追加
+
+## ★ Phase 8 完了（2026-02-22）: 全19サービス事業所分析 + KPI改善
+
+### Phase 8a: 全サービス事業所分析展開
+- 障害福祉全19サービス種（18JSON + 放課後デイ既存）の事業所分析を一括生成
+  - **障害児通所系（5）**: 放課後デイ/児童発達支援/医療型/居宅訪問型/保育所等訪問
+  - **居住系（2）**: 共同生活援助(GH)/自立生活援助
+  - **訓練・就労系（7）**: 機能訓練/生活訓練/宿泊型/就労移行/A型/B型/就労定着
+  - **相談系（4）**: 地域移行/地域定着/計画相談/障害児相談
+- 各サービスに完備: 法人分布/事業規模/推移時系列/運営ストーリー/PL概要/月次PL/加算一覧
+- `FacilityDetailPage.tsx` — 共通レイアウトコンポーネント化（各ページ→7行に簡素化）
+- `app/facility/page.tsx` — カテゴリ別4セクション×19サービス全リンク（Coming Soonなし）
+- `lib/data.ts` — FACILITY_DATA に全18サービスコード登録
+- 生成スクリプト: `scripts/generate_facility_json.py`, `generate_facility_json_part2.py`, `generate_facility_pages.py`
+
+### Phase 8b: KPI改善（3つの提案を実装）
+1. **出典・更新日の明記**: MarketKpiCards, FacilityKpiCards のカード下部に出典と最終更新日を表示
+2. **スパークライン追加**: KPIカードの背景にSVGスパークライン（10年推移の薄い折れ線グラフ）
+3. **ドリルダウン導線**: MarketKpiCards「障害福祉事業所数」カードをクリック→`/facility`へ遷移
+
+### ★ 次にやること（Phase 9）
+- リタリコ深掘り: プラットフォーム事業構造、セグメント収益時系列、一店舗あたり事業計画
+- WAMNETスクリプト汎用化（他社対応）
+- キャッシュフロー/安全性データ整備 → EmptyState埋め
+- IRサイトJS動的ロード対策（Playwright検討）
 - e-Stat API自動取得の将来検討
-- IRサイトJS動的ロード対策（Playwright導入検討）
 
 ## recharts動的読み込みパターン
 recharts使用コンポーネントは全てSSR無効化済み:
@@ -255,6 +304,9 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `export_json.py` — DB→JSON出力（全テーブル + earnings-insights企業別）
 - `migrate_to_supabase.py` — 既存JSON→DB移行（冪等）
 - `analyze_wamnet.py` — WAMNETオープンデータから事業所分析（CSVダウンロード→リタリコ抽出→都道府県別シェア）
+- `generate_facility_json.py` — 6サービス分の事業所分析JSONを一括生成（Part 1: 障害児通所系 + 居住系）
+- `generate_facility_json_part2.py` — 11サービス分の事業所分析JSON一括生成（Part 2: 訓練・就労・相談系）
+- `generate_facility_pages.py` — 17サービス分のNext.jsページファイル一括生成
 
 ## ビルド & デプロイ
 ```bash
