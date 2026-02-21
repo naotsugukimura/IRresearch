@@ -13,12 +13,41 @@ import {
   Legend,
   ResponsiveContainer,
   ReferenceLine,
+  ReferenceArea,
+  Label,
 } from "recharts";
 
 interface PlChartInnerProps {
   plan: CompanyBusinessPlan;
   companyColor: string;
 }
+
+/** 営業利益データからフェーズ境界を算出 */
+function computePhases(opValues: number[]) {
+  let lastNegIdx = -1;
+  for (let i = 0; i < opValues.length; i++) {
+    if (opValues[i] <= 0) lastNegIdx = i;
+  }
+
+  let lastGrowthIdx = lastNegIdx;
+  if (lastNegIdx < opValues.length - 1) {
+    for (let i = lastNegIdx + 2; i < opValues.length; i++) {
+      const prev = opValues[i - 1];
+      const curr = opValues[i];
+      if (prev > 0 && Math.abs((curr - prev) / prev) > 0.1) {
+        lastGrowthIdx = i;
+      }
+    }
+  }
+
+  return { investEnd: lastNegIdx, growthEnd: lastGrowthIdx };
+}
+
+const PROFIT_COLOR = "#34d399";
+const BEP_COLOR = "#d4a847";
+const PHASE_INVEST = "rgba(96, 130, 200, 0.12)";
+const PHASE_GROWTH = "rgba(52, 211, 153, 0.10)";
+const PHASE_STABLE = "rgba(212, 168, 71, 0.08)";
 
 export default function PlChartInner({ plan, companyColor }: PlChartInnerProps) {
   let revenueValues: number[] = [];
@@ -51,6 +80,10 @@ export default function PlChartInner({ plan, companyColor }: PlChartInnerProps) 
     営業利益: operatingProfitValues[i] || 0,
   }));
 
+  const { investEnd, growthEnd } = computePhases(operatingProfitValues);
+  const bepIdx = operatingProfitValues.findIndex((v) => v > 0);
+  const bepMonth = bepIdx >= 0 ? MONTHS[bepIdx] : null;
+
   const formatYAxis = (value: number) => {
     if (Math.abs(value) >= 100000000) return `${(value / 100000000).toFixed(1)}億`;
     if (Math.abs(value) >= 10000) return `${(value / 10000).toFixed(0)}万`;
@@ -71,22 +104,52 @@ export default function PlChartInner({ plan, companyColor }: PlChartInnerProps) 
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="h-[350px]">
+        <div className="h-[380px]">
           <ResponsiveContainer width="100%" height="100%">
-            <AreaChart data={data} margin={{ top: 5, right: 20, left: 10, bottom: 5 }}>
+            <AreaChart data={data} margin={{ top: 20, right: 20, left: 10, bottom: 5 }}>
               <defs>
                 <linearGradient id={`rev-${plan.companyId}`} x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%" stopColor={companyColor} stopOpacity={0.3} />
                   <stop offset="95%" stopColor={companyColor} stopOpacity={0} />
                 </linearGradient>
                 <linearGradient id={`gp-${plan.companyId}`} x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="#10B981" stopOpacity={0.3} />
-                  <stop offset="95%" stopColor="#10B981" stopOpacity={0} />
+                  <stop offset="5%" stopColor={PROFIT_COLOR} stopOpacity={0.3} />
+                  <stop offset="95%" stopColor={PROFIT_COLOR} stopOpacity={0} />
                 </linearGradient>
               </defs>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
-              <XAxis dataKey="month" tick={{ fontSize: 11, fill: "#9CA3AF" }} />
-              <YAxis tickFormatter={formatYAxis} tick={{ fontSize: 11, fill: "#9CA3AF" }} />
+
+              {/* Phase background areas */}
+              {investEnd >= 0 && (
+                <ReferenceArea
+                  x1={MONTHS[0]}
+                  x2={MONTHS[investEnd]}
+                  fill={PHASE_INVEST}
+                  fillOpacity={1}
+                  label={{ value: "初期投資期", position: "insideTopLeft", fontSize: 10, fill: "#7890b0" }}
+                />
+              )}
+              {growthEnd > investEnd && (
+                <ReferenceArea
+                  x1={MONTHS[Math.max(0, investEnd + 1)]}
+                  x2={MONTHS[growthEnd]}
+                  fill={PHASE_GROWTH}
+                  fillOpacity={1}
+                  label={{ value: "成長加速期", position: "insideTopLeft", fontSize: 10, fill: "#6ec5a0" }}
+                />
+              )}
+              {growthEnd < 11 && (
+                <ReferenceArea
+                  x1={MONTHS[growthEnd + 1]}
+                  x2={MONTHS[11]}
+                  fill={PHASE_STABLE}
+                  fillOpacity={1}
+                  label={{ value: "安定期", position: "insideTopLeft", fontSize: 10, fill: "#b8a050" }}
+                />
+              )}
+
+              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.07)" />
+              <XAxis dataKey="month" tick={{ fontSize: 11, fill: "#9CA3AF", fontFamily: "var(--font-jetbrains-mono)" }} />
+              <YAxis tickFormatter={formatYAxis} tick={{ fontSize: 11, fill: "#9CA3AF", fontFamily: "var(--font-jetbrains-mono)" }} />
               <Tooltip
                 formatter={formatTooltip}
                 contentStyle={{
@@ -94,11 +157,24 @@ export default function PlChartInner({ plan, companyColor }: PlChartInnerProps) 
                   border: "1px solid rgba(255,255,255,0.1)",
                   borderRadius: "8px",
                   fontSize: "12px",
+                  fontFamily: "var(--font-jetbrains-mono)",
                 }}
                 labelStyle={{ color: "#9CA3AF" }}
               />
               <Legend wrapperStyle={{ fontSize: "12px" }} />
-              <ReferenceLine y={0} stroke="rgba(255,255,255,0.3)" strokeDasharray="3 3" />
+
+              {/* BEP Line */}
+              <ReferenceLine y={0} stroke={BEP_COLOR} strokeWidth={2} strokeDasharray="6 3">
+                <Label value="損益分岐点" position="right" fontSize={10} fill={BEP_COLOR} />
+              </ReferenceLine>
+
+              {/* Win Condition label at BEP breakthrough */}
+              {bepMonth && (
+                <ReferenceLine x={bepMonth} stroke={BEP_COLOR} strokeWidth={1} strokeDasharray="3 3">
+                  <Label value="Win Condition 達成" position="top" fontSize={10} fill={BEP_COLOR} offset={5} />
+                </ReferenceLine>
+              )}
+
               <Area
                 type="monotone"
                 dataKey="売上高"
@@ -109,7 +185,7 @@ export default function PlChartInner({ plan, companyColor }: PlChartInnerProps) 
               <Area
                 type="monotone"
                 dataKey="粗利"
-                stroke="#10B981"
+                stroke={PROFIT_COLOR}
                 fill={`url(#gp-${plan.companyId})`}
                 strokeWidth={2}
               />

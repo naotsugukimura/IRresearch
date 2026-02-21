@@ -237,6 +237,7 @@ export interface GlossaryTerm {
   description: string;
   formula: string;
   benchmark: string;
+  actionTip?: string;
 }
 
 export interface GlossaryCategory {

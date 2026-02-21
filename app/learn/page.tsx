@@ -19,6 +19,13 @@ const CATEGORY_COLORS: Record<string, string> = {
   media: "#8B5CF6",
 };
 
+const CATEGORY_ICONS: Record<string, string> = {
+  common: "\u{1F6E1}\uFE0F",
+  retail: "\u{1F3EA}",
+  saas: "\u{1F4BB}",
+  recruitment: "\u{1F91D}",
+  media: "\u{1F310}",
+};
 
 export default function LearnPage() {
   const glossary = getGlossary();
@@ -42,7 +49,7 @@ export default function LearnPage() {
               <Breadcrumb />
               <PageHeader
                 title="学習サポート"
-                description="業種別 用語・KPI・PLの読み方ガイド"
+                description="業種別KPI・PLの戦略的読み解き方 ── 勝つための知識を装備せよ"
               />
             </div>
           </div>
@@ -51,15 +58,15 @@ export default function LearnPage() {
           {/* Usage Steps */}
           <Card>
             <CardHeader>
-              <CardTitle className="text-base">
-                {glossary.steps.title}
+              <CardTitle className="text-base flex items-center gap-2">
+                {"\u{1F3AE}"} {glossary.steps.title}
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-3">
                 {glossary.steps.items.map((item) => (
                   <div key={item.step} className="flex items-start gap-3">
-                    <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center text-xs font-bold shrink-0">
+                    <div className="w-7 h-7 rounded-full bg-bep/20 flex items-center justify-center text-xs font-bold font-mono shrink-0 text-bep">
                       {item.step}
                     </div>
                     <p className="text-sm pt-1">{item.text}</p>
@@ -74,6 +81,7 @@ export default function LearnPage() {
             <Card key={key}>
               <CardHeader>
                 <CardTitle className="text-base flex items-center gap-2">
+                  <span>{CATEGORY_ICONS[key]}</span>
                   <span>{data.title}</span>
                   <Badge
                     variant="outline"
@@ -105,17 +113,25 @@ export default function LearnPage() {
                           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <div className="bg-muted/30 rounded-lg p-3">
                               <p className="text-xs text-muted-foreground mb-1 font-medium">
-                                計算式 / 見るべきポイント
+                                {"\u{1F5FA}\uFE0F"} 戦略メモ
                               </p>
                               <p className="text-sm">{term.formula}</p>
                             </div>
                             <div className="bg-muted/30 rounded-lg p-3">
                               <p className="text-xs text-muted-foreground mb-1 font-medium">
-                                良い状態の目安
+                                {"\u{1F3C6}"} クリア条件
                               </p>
                               <p className="text-sm">{term.benchmark}</p>
                             </div>
                           </div>
+                          {term.actionTip && (
+                            <div className="bg-bep/10 border border-bep/20 rounded-lg p-3">
+                              <p className="text-xs text-bep mb-1 font-medium">
+                                {"\u26A1"} ピンチの時の一手
+                              </p>
+                              <p className="text-sm">{term.actionTip}</p>
+                            </div>
+                          )}
                         </div>
                       </AccordionContent>
                     </AccordionItem>
