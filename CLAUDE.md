@@ -128,7 +128,7 @@ ANTHROPIC_API_KEY=...
 
 共通: `--export-json` フラグでDB書き込み後にJSONエクスポートも可能
 
-## ★ Phase 4 進行中（2026-02-21）: IRクローリング + AI分析 + 82社拡大
+## ★ Phase 4 完了（2026-02-21）: IRクローリング + AI分析 + 82社拡大
 
 ### 完了
 - **企業数拡大**: 28社 → 82社（障害福祉/介護/HR/医療DX/SaaS/AI/EdTech）
@@ -145,13 +145,37 @@ ANTHROPIC_API_KEY=...
 - 多くのIRサイトがJS動的ロードのためBeautifulSoupでPDF取れない
 - Playwright等のブラウザ自動化が必要（未実装）
 
-### ★ 次にやること（Phase 5）
+## ★ Phase 5 完了（2026-02-21）: 決算インサイトUI + 収益構造分析 + エリア分析
 
-### Phase 5: Next.js UI — 決算インサイト表示
-1. `lib/types.ts` に `EarningsInsight` 型追加
-2. `lib/data.ts` に `getEarningsInsights()` 追加
-3. 企業詳細ページに「決算資料インサイト」セクション追加
-4. KPI/市場規模/M&A情報のカード表示
+### Phase 5a: 決算インサイトUI
+- `EarningsInsightsSection.tsx` — アコーディオンUIでKPI/市場規模/M&A/中計を表示
+- `data/earnings-insights.json` — 5社分の決算分析結果を統合
+- 型: `CompanyEarningsInsights`, `EarningsDocument` 等
+
+### Phase 5b: 収益構造分析（3チャート）
+- `ProfitStructureSection.tsx` / `ProfitStructureInner.tsx` — dynamic import
+  1. **コスト構造ウォーターフォール**: 売上→原価→粗利→人件費→広告費→その他→営業利益
+  2. **セグメント収益性比較**: 横棒グラフで売上・粗利率・営業利益率
+  3. **収益ドライバー分析**: KPI×単価テーブル（売上÷KPIで単価算出）
+- ヘルパー: `extractPLMetrics(plan)`, `extractRevenueDrivers(plan)`
+
+### Phase 5c: WAMNETエリア分析
+- `scripts/analyze_wamnet.py` — WAMNETオープンデータ(2025年9月版)からCSVダウンロード＆分析
+  - 就労移行支援/児童発達支援/放課後等デイサービスの3サービス
+  - リタリコの都道府県別施設数・市場シェアを算出
+  - **339施設を23都道府県で検出**
+- `data/litalico-area-analysis.json` — 分析結果JSON
+- `AreaAnalysisSection.tsx` / `AreaAnalysisInner.tsx` — dynamic import
+  1. **サマリーカード**: 全サービス合計+サービス別施設数・シェア
+  2. **都道府県別棒グラフ**: サービスフィルタ切替、スタック棒、シェアランキング
+  3. **サービス別内訳**: 都道府県×サービス積み上げ棒
+  4. **事業所一覧テーブル**: サービス・都道府県フィルタ付き、339件スクロール
+- 型: `CompanyAreaAnalysis`, `AreaServiceData`, `AreaPrefectureData`, `AreaFacility`
+
+### ★ 次にやること（Phase 6）
+- リタリコ深掘り続き: プラットフォーム事業の構造分析、セグメント収益時系列、一店舗あたりの事業計画
+- 他社のWAMNETデータ分析拡張（analyze_wamnet.pyの汎用化）
+- IRサイトJS動的ロード対策（Playwright導入検討）
 
 ## recharts動的読み込みパターン
 recharts使用コンポーネントは全てSSR無効化済み:
@@ -160,6 +184,8 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `PlChart` → `PlChartInner`
 - `KpiComparisonChart` → `KpiComparisonChartInner`
 - `MarketSizeChart` → `MarketSizeChartInner`
+- `ProfitStructureSection` → `ProfitStructureInner`
+- `AreaAnalysisSection` → `AreaAnalysisInner`
 
 ## 金額フォーマッタの使い分け
 - `formatCurrency(value, "million")` — 財務データ用（百万円単位）
@@ -185,6 +211,7 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `fetch_earnings.py` — 決算説明資料パイプラインオーケストレータ
 - `export_json.py` — DB→JSON出力（全テーブル + earnings-insights企業別）
 - `migrate_to_supabase.py` — 既存JSON→DB移行（冪等）
+- `analyze_wamnet.py` — WAMNETオープンデータから事業所分析（CSVダウンロード→リタリコ抽出→都道府県別シェア）
 
 ## ビルド & デプロイ
 ```bash
