@@ -10,6 +10,7 @@ const PATH_LABELS: Record<string, string> = {
   compare: "企業比較",
   trends: "業界トレンド",
   notes: "分析ノート",
+  learn: "学習サポート",
 };
 
 export function Breadcrumb() {

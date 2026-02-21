@@ -18,6 +18,7 @@ export const NAV_ITEMS = [
   { href: "/compare", label: "企業比較", icon: "GitCompareArrows" as const },
   { href: "/trends", label: "業界トレンド", icon: "TrendingUp" as const },
   { href: "/notes", label: "分析ノート", icon: "StickyNote" as const },
+  { href: "/learn", label: "学習サポート", icon: "GraduationCap" as const },
 ];
 
 // ============================================================

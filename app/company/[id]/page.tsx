@@ -7,6 +7,7 @@ import { SegmentPieChart } from "@/components/company/SegmentPieChart";
 import { HistoryTimeline } from "@/components/company/HistoryTimeline";
 import { StrategySection } from "@/components/company/StrategySection";
 import { FinancialCharts } from "@/components/company/FinancialCharts";
+import { BusinessPlanSection } from "@/components/company/BusinessPlanSection";
 import { CompetitiveAdvantage } from "@/components/company/CompetitiveAdvantage";
 import { SmsInsights } from "@/components/company/SmsInsights";
 import { EmptyState } from "@/components/shared/EmptyState";
@@ -17,6 +18,7 @@ import {
   getHistoryByCompanyId,
   getStrategyByCompanyId,
   getAdvantageByCompanyId,
+  getBusinessPlanByCompanyId,
 } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -53,6 +55,7 @@ export default async function CompanyDetailPage({
   const history = getHistoryByCompanyId(id);
   const strategy = getStrategyByCompanyId(id);
   const advantage = getAdvantageByCompanyId(id);
+  const businessPlan = getBusinessPlanByCompanyId(id);
 
   return (
     <div className="flex h-screen">
@@ -115,6 +118,14 @@ export default async function CompanyDetailPage({
                   />
                 ) : (
                   <EmptyState title="財務データなし" />
+                )}
+                {businessPlan && (
+                  <div className="mt-4">
+                    <BusinessPlanSection
+                      plan={businessPlan}
+                      companyColor={company.brandColor}
+                    />
+                  </div>
                 )}
               </section>
 

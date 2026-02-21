@@ -202,3 +202,61 @@ export interface AnalysisNote {
   content: string;
   keyTakeaways: string[];
 }
+
+// ============================================================
+// 事業計画PL
+// ============================================================
+
+export interface PlanRow {
+  label: string;
+  values: number[];
+  annual: number | null;
+  note?: string;
+  unit?: string;
+  isMonetary?: boolean;
+  isPercent?: boolean;
+  isBold?: boolean;
+}
+
+export interface PlanSection {
+  title: string;
+  rows: PlanRow[];
+}
+
+export interface CompanyBusinessPlan {
+  companyId: string;
+  sections: PlanSection[];
+}
+
+// ============================================================
+// 用語集
+// ============================================================
+
+export interface GlossaryTerm {
+  term: string;
+  description: string;
+  formula: string;
+  benchmark: string;
+}
+
+export interface GlossaryCategory {
+  title: string;
+  terms: GlossaryTerm[];
+}
+
+export interface UsageStep {
+  step: number;
+  text: string;
+}
+
+export interface Glossary {
+  common: GlossaryCategory;
+  retail: GlossaryCategory;
+  saas: GlossaryCategory;
+  recruitment: GlossaryCategory;
+  media: GlossaryCategory;
+  steps: {
+    title: string;
+    items: UsageStep[];
+  };
+}

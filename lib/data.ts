@@ -5,6 +5,8 @@ import strategiesData from "@/data/strategies.json";
 import advantagesData from "@/data/competitive-advantages.json";
 import trendsData from "@/data/trends.json";
 import notesData from "@/data/notes.json";
+import businessPlansData from "@/data/business-plans.json";
+import glossaryData from "@/data/glossary.json";
 
 import type {
   Company,
@@ -15,6 +17,8 @@ import type {
   IndustryTrend,
   AnalysisNote,
   CompanyCategory,
+  CompanyBusinessPlan,
+  Glossary,
 } from "./types";
 
 // ============================================================
@@ -107,4 +111,26 @@ export function getAllTrends(): IndustryTrend[] {
 
 export function getAllNotes(): AnalysisNote[] {
   return notesData as unknown as AnalysisNote[];
+}
+
+// ============================================================
+// 事業計画PL
+// ============================================================
+
+export function getAllBusinessPlans(): CompanyBusinessPlan[] {
+  return businessPlansData as unknown as CompanyBusinessPlan[];
+}
+
+export function getBusinessPlanByCompanyId(
+  companyId: string
+): CompanyBusinessPlan | undefined {
+  return getAllBusinessPlans().find((bp) => bp.companyId === companyId);
+}
+
+// ============================================================
+// 用語集
+// ============================================================
+
+export function getGlossary(): Glossary {
+  return glossaryData as unknown as Glossary;
 }

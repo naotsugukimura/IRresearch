@@ -90,3 +90,29 @@ export function calcYoY(current: number, previous: number): number | null {
   if (previous === 0) return null;
   return ((current - previous) / previous) * 100;
 }
+
+// ============================================================
+// 事業計画用フォーマッタ
+// ============================================================
+
+/** 金額フォーマット（円単位 — 事業計画用） */
+export function formatPlanCurrency(value: number): string {
+  if (Math.abs(value) >= 100000000) {
+    return `${(value / 100000000).toFixed(1)}億`;
+  }
+  if (Math.abs(value) >= 10000) {
+    return `${Math.round(value / 10000).toLocaleString()}万`;
+  }
+  return value.toLocaleString();
+}
+
+/** 金額フォーマット（詳細・円表記 — 事業計画用） */
+export function formatCurrencyDetail(value: number): string {
+  return `¥${value.toLocaleString()}`;
+}
+
+/** 月ラベル配列 */
+export const MONTHS = [
+  "1月", "2月", "3月", "4月", "5月", "6月",
+  "7月", "8月", "9月", "10月", "11月", "12月",
+];

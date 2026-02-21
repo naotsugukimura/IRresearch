@@ -8,6 +8,7 @@ import {
   GitCompareArrows,
   TrendingUp,
   StickyNote,
+  GraduationCap,
   Menu,
 } from "lucide-react";
 import { useState } from "react";
@@ -24,6 +25,7 @@ const ICON_MAP = {
   GitCompareArrows,
   TrendingUp,
   StickyNote,
+  GraduationCap,
 } as const;
 
 function NavContent({ onNavigate }: { onNavigate?: () => void }) {
