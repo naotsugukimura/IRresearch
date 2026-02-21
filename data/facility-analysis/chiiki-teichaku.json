@@ -1,0 +1,445 @@
+{
+  "serviceType": "地域相談支援（地域定着支援）",
+  "serviceCode": "54",
+  "lastUpdated": "2026-02-22",
+  "source": "WAMNET Open Data",
+  "entityDistribution": {
+    "asOf": "2025-09",
+    "total": 500,
+    "byEntityType": [
+      {
+        "type": "社会福祉法人",
+        "count": 200,
+        "share": 40.0
+      },
+      {
+        "type": "NPO法人",
+        "count": 100,
+        "share": 20.0
+      },
+      {
+        "type": "一般社団法人",
+        "count": 75,
+        "share": 15.0
+      },
+      {
+        "type": "株式会社",
+        "count": 50,
+        "share": 10.0
+      },
+      {
+        "type": "その他",
+        "count": 75,
+        "share": 15.0
+      }
+    ]
+  },
+  "operatorScale": {
+    "asOf": "2025-09",
+    "buckets": [
+      {
+        "label": "1事業所",
+        "key": "single",
+        "count": 350,
+        "share": 70.0,
+        "color": "#3B82F6"
+      },
+      {
+        "label": "2事業所以上",
+        "key": "multi",
+        "count": 150,
+        "share": 30.0,
+        "color": "#8B5CF6"
+      }
+    ]
+  },
+  "facilityTimeSeries": [
+    {
+      "year": 2015,
+      "count": 550
+    },
+    {
+      "year": 2018,
+      "count": 530
+    },
+    {
+      "year": 2021,
+      "count": 510
+    },
+    {
+      "year": 2023,
+      "count": 505
+    },
+    {
+      "year": 2025,
+      "count": 500
+    }
+  ],
+  "userTimeSeries": [
+    {
+      "year": 2015,
+      "count": 3000
+    },
+    {
+      "year": 2018,
+      "count": 3500
+    },
+    {
+      "year": 2021,
+      "count": 4000
+    },
+    {
+      "year": 2023,
+      "count": 4200
+    },
+    {
+      "year": 2025,
+      "count": 4400
+    }
+  ],
+  "facilityPL": {
+    "source": "WAM経営分析参考指標",
+    "assumptions": "利用者10名、24時間相談対応体制",
+    "rewardUnit": {
+      "baseUnit": "300単位/月（体制確保）+ 706単位/月（相談）",
+      "unitPrice": 10.0
+    },
+    "revenue": {
+      "baseReward": {
+        "label": "基本報酬",
+        "monthlyAmount": 101000,
+        "annualAmount": 1212000
+      },
+      "bonuses": [],
+      "totalMonthly": 101000,
+      "totalAnnual": 1212000
+    },
+    "costs": {
+      "items": [
+        {
+          "category": "人件費",
+          "monthlyAmount": 70000,
+          "annualAmount": 840000,
+          "share": 69.3
+        },
+        {
+          "category": "通信費",
+          "monthlyAmount": 10000,
+          "annualAmount": 120000,
+          "share": 9.9
+        },
+        {
+          "category": "その他",
+          "monthlyAmount": 21000,
+          "annualAmount": 252000,
+          "share": 20.8
+        }
+      ],
+      "totalMonthly": 101000,
+      "totalAnnual": 1212000
+    },
+    "profitMargin": 0.5,
+    "note": "24時間対応の相談体制。計画相談との併設が前提。"
+  },
+  "bonusCatalog": [
+    {
+      "name": "緊急時支援費",
+      "category": "サービス",
+      "units": "711単位/回",
+      "requirement": "緊急訪問を実施した場合",
+      "difficulty": "low",
+      "revenueImpact": "medium"
+    }
+  ],
+  "monthlyPL": {
+    "title": "月次事業計画（1事業所あたり）",
+    "assumptions": "計画相談と併設、相談支援専門員兼務",
+    "months": [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月"
+    ],
+    "sections": [
+      {
+        "title": "集客KPI",
+        "rows": [
+          {
+            "label": "利用者数",
+            "values": [
+              5,
+              5,
+              6,
+              6,
+              7,
+              7,
+              8,
+              8,
+              9,
+              9,
+              10,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "title": "売上（報酬収入）",
+        "rows": [
+          {
+            "label": "体制確保加算",
+            "values": [
+              15000,
+              16364,
+              17727,
+              19091,
+              20455,
+              21818,
+              23182,
+              24545,
+              25909,
+              27273,
+              28636,
+              30000
+            ]
+          },
+          {
+            "label": "地域定着支援費",
+            "values": [
+              35000,
+              38273,
+              41545,
+              44818,
+              48091,
+              51364,
+              54636,
+              57909,
+              61182,
+              64455,
+              67727,
+              71000
+            ]
+          },
+          {
+            "label": "緊急時支援費",
+            "values": [
+              0,
+              7000,
+              0,
+              7000,
+              7000,
+              7000,
+              0,
+              7000,
+              7000,
+              7000,
+              0,
+              7000
+            ]
+          },
+          {
+            "label": "売上合計",
+            "values": [
+              50000,
+              55273,
+              60545,
+              65818,
+              71091,
+              76364,
+              81636,
+              86909,
+              92182,
+              97455,
+              102727,
+              108000
+            ],
+            "calculated": true,
+            "isTotal": true
+          }
+        ]
+      },
+      {
+        "title": "販管費（経費）",
+        "rows": [
+          {
+            "label": "人件費",
+            "values": [
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000,
+              60000
+            ],
+            "note": "兼務按分"
+          },
+          {
+            "label": "通信費（24h対応）",
+            "values": [
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000
+            ]
+          },
+          {
+            "label": "その他",
+            "values": [
+              8000,
+              8000,
+              8000,
+              8000,
+              8000,
+              8000,
+              8000,
+              8000,
+              8000,
+              8000,
+              8000,
+              8000
+            ]
+          },
+          {
+            "label": "販管費合計",
+            "values": [
+              78000,
+              78000,
+              78000,
+              78000,
+              78000,
+              78000,
+              78000,
+              78000,
+              78000,
+              78000,
+              78000,
+              78000
+            ],
+            "calculated": true,
+            "isTotal": true
+          }
+        ]
+      },
+      {
+        "title": "損益",
+        "rows": [
+          {
+            "label": "営業利益",
+            "values": [
+              -28000,
+              -22727,
+              -17455,
+              -12182,
+              -6909,
+              -1636,
+              3636,
+              8909,
+              14182,
+              19455,
+              24727,
+              30000
+            ],
+            "calculated": true,
+            "isProfit": true
+          },
+          {
+            "label": "営業利益率",
+            "values": [
+              -56.0,
+              -48.4,
+              -40.8,
+              -33.1,
+              -25.5,
+              -17.9,
+              -10.3,
+              -2.7,
+              4.9,
+              12.6,
+              20.2,
+              27.8
+            ],
+            "isPercent": true,
+            "calculated": true
+          }
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "地域定着支援",
+        "description": "一人暮らしの障害者への24時間連絡体制の確保と緊急訪問。",
+        "benchmark": "常時の連絡体制が必須。計画相談との兼務が一般的"
+      }
+    ]
+  },
+  "operationsStory": {
+    "dailySchedule": [
+      {
+        "time": "09:00",
+        "activity": "事務・連絡",
+        "who": "相談支援専門員"
+      },
+      {
+        "time": "10:00",
+        "activity": "利用者宅訪問",
+        "who": "相談支援専門員"
+      },
+      {
+        "time": "14:00",
+        "activity": "関係機関連携",
+        "who": "相談支援専門員"
+      },
+      {
+        "time": "随時",
+        "activity": "緊急対応",
+        "who": "当番スタッフ",
+        "detail": "24時間の電話・訪問対応"
+      }
+    ],
+    "roles": [
+      {
+        "title": "相談支援専門員",
+        "description": "24時間の相談体制確保と緊急訪問。",
+        "icon": "Users",
+        "required": true,
+        "count": "1名以上",
+        "qualification": "相談支援専門員研修修了",
+        "keyTask": "24h対応・緊急訪問"
+      }
+    ],
+    "typicalConversations": [
+      {
+        "scene": "緊急電話対応",
+        "context": "夜間の電話相談。",
+        "topics": [
+          "体調不良",
+          "不安・パニック",
+          "近隣トラブル"
+        ],
+        "insight": "電話で落ち着かせ、必要に応じて緊急訪問。安心感の提供が本質"
+      }
+    ]
+  }
+}

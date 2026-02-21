@@ -1,0 +1,486 @@
+{
+  "serviceType": "就労定着支援",
+  "serviceCode": "33",
+  "lastUpdated": "2026-02-22",
+  "source": "WAMNET Open Data",
+  "entityDistribution": {
+    "asOf": "2025-09",
+    "total": 1600,
+    "byEntityType": [
+      {
+        "type": "株式会社",
+        "count": 640,
+        "share": 40.0
+      },
+      {
+        "type": "NPO法人",
+        "count": 288,
+        "share": 18.0
+      },
+      {
+        "type": "社会福祉法人",
+        "count": 256,
+        "share": 16.0
+      },
+      {
+        "type": "一般社団法人",
+        "count": 224,
+        "share": 14.0
+      },
+      {
+        "type": "その他",
+        "count": 192,
+        "share": 12.0
+      }
+    ]
+  },
+  "operatorScale": {
+    "asOf": "2025-09",
+    "buckets": [
+      {
+        "label": "1事業所",
+        "key": "single",
+        "count": 800,
+        "share": 50.0,
+        "color": "#3B82F6"
+      },
+      {
+        "label": "2〜5事業所",
+        "key": "multi_2_5",
+        "count": 560,
+        "share": 35.0,
+        "color": "#8B5CF6"
+      },
+      {
+        "label": "6事業所以上",
+        "key": "multi_6_plus",
+        "count": 240,
+        "share": 15.0,
+        "color": "#F59E0B"
+      }
+    ]
+  },
+  "facilityTimeSeries": [
+    {
+      "year": 2018,
+      "count": 400
+    },
+    {
+      "year": 2019,
+      "count": 700
+    },
+    {
+      "year": 2020,
+      "count": 950
+    },
+    {
+      "year": 2021,
+      "count": 1150
+    },
+    {
+      "year": 2022,
+      "count": 1300
+    },
+    {
+      "year": 2023,
+      "count": 1430
+    },
+    {
+      "year": 2024,
+      "count": 1520
+    },
+    {
+      "year": 2025,
+      "count": 1600
+    }
+  ],
+  "userTimeSeries": [
+    {
+      "year": 2018,
+      "count": 3000
+    },
+    {
+      "year": 2019,
+      "count": 7000
+    },
+    {
+      "year": 2020,
+      "count": 12000
+    },
+    {
+      "year": 2021,
+      "count": 17000
+    },
+    {
+      "year": 2022,
+      "count": 22000
+    },
+    {
+      "year": 2023,
+      "count": 26000
+    },
+    {
+      "year": 2024,
+      "count": 29000
+    },
+    {
+      "year": 2025,
+      "count": 32000
+    }
+  ],
+  "facilityPL": {
+    "source": "WAM経営分析参考指標",
+    "assumptions": "利用者20名、月1回訪問・随時相談",
+    "rewardUnit": {
+      "baseUnit": "1128単位/月（定着率9割以上）",
+      "unitPrice": 10.0
+    },
+    "revenue": {
+      "baseReward": {
+        "label": "基本報酬",
+        "monthlyAmount": 226000,
+        "annualAmount": 2712000
+      },
+      "bonuses": [
+        {
+          "name": "処遇改善加算",
+          "monthlyAmount": 28000,
+          "annualAmount": 336000
+        }
+      ],
+      "totalMonthly": 254000,
+      "totalAnnual": 3048000
+    },
+    "costs": {
+      "items": [
+        {
+          "category": "人件費",
+          "monthlyAmount": 200000,
+          "annualAmount": 2400000,
+          "share": 78.7
+        },
+        {
+          "category": "交通費",
+          "monthlyAmount": 25000,
+          "annualAmount": 300000,
+          "share": 9.8
+        },
+        {
+          "category": "その他",
+          "monthlyAmount": 29000,
+          "annualAmount": 348000,
+          "share": 11.4
+        }
+      ],
+      "totalMonthly": 254000,
+      "totalAnnual": 3048000
+    },
+    "profitMargin": 1.5,
+    "note": "就労移行支援等との併設が前提。単独では採算が取りにくい。"
+  },
+  "bonusCatalog": [
+    {
+      "name": "処遇改善加算（I）",
+      "category": "処遇改善",
+      "units": "総報酬の8.6%",
+      "requirement": "キャリアパス要件等",
+      "difficulty": "medium",
+      "revenueImpact": "high"
+    }
+  ],
+  "monthlyPL": {
+    "title": "月次事業計画（1事業所あたり）",
+    "assumptions": "利用者15-20名、就労移行支援と併設運営",
+    "months": [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月"
+    ],
+    "sections": [
+      {
+        "title": "集客KPI",
+        "rows": [
+          {
+            "label": "利用者数",
+            "values": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ]
+          },
+          {
+            "label": "定着率",
+            "values": [
+              90,
+              90,
+              90,
+              90,
+              90,
+              90,
+              90,
+              90,
+              90,
+              90,
+              90,
+              90
+            ],
+            "isPercent": true
+          }
+        ]
+      },
+      {
+        "title": "売上（報酬収入）",
+        "rows": [
+          {
+            "label": "基本報酬",
+            "values": [
+              113000,
+              123273,
+              133545,
+              143818,
+              154091,
+              164364,
+              174636,
+              184909,
+              195182,
+              205455,
+              215727,
+              226000
+            ]
+          },
+          {
+            "label": "処遇改善加算",
+            "values": [
+              14000,
+              15273,
+              16545,
+              17818,
+              19091,
+              20364,
+              21636,
+              22909,
+              24182,
+              25455,
+              26727,
+              28000
+            ]
+          },
+          {
+            "label": "売上合計",
+            "values": [
+              127000,
+              138545,
+              150091,
+              161636,
+              173182,
+              184727,
+              196273,
+              207818,
+              219364,
+              230909,
+              242455,
+              254000
+            ],
+            "calculated": true,
+            "isTotal": true
+          }
+        ]
+      },
+      {
+        "title": "販管費（経費）",
+        "rows": [
+          {
+            "label": "人件費（定着支援員）",
+            "values": [
+              180000,
+              180000,
+              180000,
+              180000,
+              180000,
+              180000,
+              180000,
+              180000,
+              180000,
+              180000,
+              180000,
+              180000
+            ],
+            "note": "兼務"
+          },
+          {
+            "label": "交通費",
+            "values": [
+              15000,
+              15909,
+              16818,
+              17727,
+              18636,
+              19545,
+              20455,
+              21364,
+              22273,
+              23182,
+              24091,
+              25000
+            ]
+          },
+          {
+            "label": "その他",
+            "values": [
+              15000,
+              15000,
+              15000,
+              15000,
+              15000,
+              15000,
+              15000,
+              15000,
+              15000,
+              15000,
+              15000,
+              15000
+            ]
+          },
+          {
+            "label": "販管費合計",
+            "values": [
+              210000,
+              210909,
+              211818,
+              212727,
+              213636,
+              214545,
+              215455,
+              216364,
+              217273,
+              218182,
+              219091,
+              220000
+            ],
+            "calculated": true,
+            "isTotal": true
+          }
+        ]
+      },
+      {
+        "title": "損益",
+        "rows": [
+          {
+            "label": "営業利益",
+            "values": [
+              -83000,
+              -72364,
+              -61727,
+              -51091,
+              -40455,
+              -29818,
+              -19182,
+              -8545,
+              2091,
+              12727,
+              23364,
+              34000
+            ],
+            "calculated": true,
+            "isProfit": true
+          },
+          {
+            "label": "営業利益率",
+            "values": [
+              -65.4,
+              -58.2,
+              -51.1,
+              -43.9,
+              -36.7,
+              -29.6,
+              -22.4,
+              -15.3,
+              -8.1,
+              -0.9,
+              6.2,
+              13.4
+            ],
+            "isPercent": true,
+            "calculated": true
+          }
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "就労定着支援",
+        "description": "一般就労後6ヶ月経過した障害者への定着支援。利用期間3年。",
+        "benchmark": "2018年新設。就労移行とのセット運営が基本"
+      }
+    ]
+  },
+  "operationsStory": {
+    "dailySchedule": [
+      {
+        "time": "09:00",
+        "activity": "事務・連絡調整",
+        "who": "定着支援員"
+      },
+      {
+        "time": "10:00",
+        "activity": "企業訪問",
+        "who": "定着支援員",
+        "detail": "利用者の職場を訪問、上司との面談"
+      },
+      {
+        "time": "13:00",
+        "activity": "利用者面談",
+        "who": "定着支援員",
+        "detail": "就労上の悩み、生活面の相談"
+      },
+      {
+        "time": "15:00",
+        "activity": "関係機関連携",
+        "who": "定着支援員",
+        "detail": "医療機関、障害者就業・生活支援センター等"
+      }
+    ],
+    "roles": [
+      {
+        "title": "就労定着支援員",
+        "description": "利用者と企業の橋渡し。定着支援の実施。",
+        "icon": "Users",
+        "required": true,
+        "count": "1名以上",
+        "qualification": "就労支援経験者",
+        "keyTask": "企業訪問・利用者面談"
+      }
+    ],
+    "typicalConversations": [
+      {
+        "scene": "企業との連携",
+        "context": "利用者の職場を訪問。",
+        "topics": [
+          "仕事ぶり",
+          "人間関係",
+          "配慮事項の調整",
+          "業務量の見直し"
+        ],
+        "insight": "企業と利用者の間に立つ調整力が求められる"
+      }
+    ]
+  }
+}

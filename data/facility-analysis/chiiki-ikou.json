@@ -1,0 +1,430 @@
+{
+  "serviceType": "地域相談支援（地域移行支援）",
+  "serviceCode": "53",
+  "lastUpdated": "2026-02-22",
+  "source": "WAMNET Open Data",
+  "entityDistribution": {
+    "asOf": "2025-09",
+    "total": 550,
+    "byEntityType": [
+      {
+        "type": "社会福祉法人",
+        "count": 220,
+        "share": 40.0
+      },
+      {
+        "type": "NPO法人",
+        "count": 110,
+        "share": 20.0
+      },
+      {
+        "type": "一般社団法人",
+        "count": 83,
+        "share": 15.0
+      },
+      {
+        "type": "株式会社",
+        "count": 55,
+        "share": 10.0
+      },
+      {
+        "type": "その他",
+        "count": 82,
+        "share": 15.0
+      }
+    ]
+  },
+  "operatorScale": {
+    "asOf": "2025-09",
+    "buckets": [
+      {
+        "label": "1事業所",
+        "key": "single",
+        "count": 385,
+        "share": 70.0,
+        "color": "#3B82F6"
+      },
+      {
+        "label": "2事業所以上",
+        "key": "multi",
+        "count": 165,
+        "share": 30.0,
+        "color": "#8B5CF6"
+      }
+    ]
+  },
+  "facilityTimeSeries": [
+    {
+      "year": 2015,
+      "count": 600
+    },
+    {
+      "year": 2018,
+      "count": 580
+    },
+    {
+      "year": 2021,
+      "count": 560
+    },
+    {
+      "year": 2023,
+      "count": 555
+    },
+    {
+      "year": 2025,
+      "count": 550
+    }
+  ],
+  "userTimeSeries": [
+    {
+      "year": 2015,
+      "count": 2000
+    },
+    {
+      "year": 2018,
+      "count": 2500
+    },
+    {
+      "year": 2021,
+      "count": 3000
+    },
+    {
+      "year": 2023,
+      "count": 3200
+    },
+    {
+      "year": 2025,
+      "count": 3400
+    }
+  ],
+  "facilityPL": {
+    "source": "WAM経営分析参考指標",
+    "assumptions": "月5件程度の支援、計画相談と併設",
+    "rewardUnit": {
+      "baseUnit": "2,260単位/月",
+      "unitPrice": 10.0
+    },
+    "revenue": {
+      "baseReward": {
+        "label": "基本報酬",
+        "monthlyAmount": 113000,
+        "annualAmount": 1356000
+      },
+      "bonuses": [],
+      "totalMonthly": 113000,
+      "totalAnnual": 1356000
+    },
+    "costs": {
+      "items": [
+        {
+          "category": "人件費",
+          "monthlyAmount": 80000,
+          "annualAmount": 960000,
+          "share": 70.8
+        },
+        {
+          "category": "交通費",
+          "monthlyAmount": 15000,
+          "annualAmount": 180000,
+          "share": 13.3
+        },
+        {
+          "category": "その他",
+          "monthlyAmount": 18000,
+          "annualAmount": 216000,
+          "share": 15.9
+        }
+      ],
+      "totalMonthly": 113000,
+      "totalAnnual": 1356000
+    },
+    "profitMargin": 0.5,
+    "note": "施設から地域生活への移行を支援。計画相談との併設が前提。利用は減少傾向。"
+  },
+  "bonusCatalog": [
+    {
+      "name": "退院・退所月加算",
+      "category": "実績",
+      "units": "2,700単位/月",
+      "requirement": "退院・退所した月に算定",
+      "difficulty": "low",
+      "revenueImpact": "high"
+    }
+  ],
+  "monthlyPL": {
+    "title": "月次事業計画（1事業所あたり）",
+    "assumptions": "相談支援専門員1名（他事業と兼務）",
+    "months": [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月"
+    ],
+    "sections": [
+      {
+        "title": "集客KPI",
+        "rows": [
+          {
+            "label": "支援件数",
+            "values": [
+              3,
+              3,
+              4,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "title": "売上（報酬収入）",
+        "rows": [
+          {
+            "label": "基本報酬",
+            "values": [
+              68000,
+              72091,
+              76182,
+              80273,
+              84364,
+              88455,
+              92545,
+              96636,
+              100727,
+              104818,
+              108909,
+              113000
+            ]
+          },
+          {
+            "label": "退院退所月加算",
+            "values": [
+              0,
+              27000,
+              0,
+              27000,
+              0,
+              27000,
+              0,
+              27000,
+              0,
+              27000,
+              0,
+              27000
+            ]
+          },
+          {
+            "label": "売上合計",
+            "values": [
+              68000,
+              74545,
+              81091,
+              87636,
+              94182,
+              100727,
+              107273,
+              113818,
+              120364,
+              126909,
+              133455,
+              140000
+            ],
+            "calculated": true,
+            "isTotal": true
+          }
+        ]
+      },
+      {
+        "title": "販管費（経費）",
+        "rows": [
+          {
+            "label": "人件費",
+            "values": [
+              70000,
+              70000,
+              70000,
+              70000,
+              70000,
+              70000,
+              70000,
+              70000,
+              70000,
+              70000,
+              70000,
+              70000
+            ],
+            "note": "兼務按分"
+          },
+          {
+            "label": "交通費",
+            "values": [
+              10000,
+              10455,
+              10909,
+              11364,
+              11818,
+              12273,
+              12727,
+              13182,
+              13636,
+              14091,
+              14545,
+              15000
+            ]
+          },
+          {
+            "label": "その他",
+            "values": [
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000,
+              10000
+            ]
+          },
+          {
+            "label": "販管費合計",
+            "values": [
+              90000,
+              90455,
+              90909,
+              91364,
+              91818,
+              92273,
+              92727,
+              93182,
+              93636,
+              94091,
+              94545,
+              95000
+            ],
+            "calculated": true,
+            "isTotal": true
+          }
+        ]
+      },
+      {
+        "title": "損益",
+        "rows": [
+          {
+            "label": "営業利益",
+            "values": [
+              -22000,
+              -15909,
+              -9818,
+              -3727,
+              2364,
+              8455,
+              14545,
+              20636,
+              26727,
+              32818,
+              38909,
+              45000
+            ],
+            "calculated": true,
+            "isProfit": true
+          },
+          {
+            "label": "営業利益率",
+            "values": [
+              -32.4,
+              -26.5,
+              -20.7,
+              -14.8,
+              -8.9,
+              -3.1,
+              2.8,
+              8.6,
+              14.5,
+              20.4,
+              26.2,
+              32.1
+            ],
+            "isPercent": true,
+            "calculated": true
+          }
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "地域移行支援",
+        "description": "入所施設・精神科病院から地域生活への移行を支援。住居確保・同行支援等。",
+        "benchmark": "利用期間6ヶ月（延長可）"
+      }
+    ]
+  },
+  "operationsStory": {
+    "dailySchedule": [
+      {
+        "time": "09:00",
+        "activity": "事務・連絡",
+        "who": "相談支援専門員"
+      },
+      {
+        "time": "10:00",
+        "activity": "施設・病院訪問",
+        "who": "相談支援専門員",
+        "detail": "入所者・入院患者との面談"
+      },
+      {
+        "time": "14:00",
+        "activity": "住居探し同行",
+        "who": "相談支援専門員",
+        "detail": "不動産業者への同行"
+      },
+      {
+        "time": "16:00",
+        "activity": "記録・関係機関連絡",
+        "who": "相談支援専門員"
+      }
+    ],
+    "roles": [
+      {
+        "title": "相談支援専門員",
+        "description": "地域移行支援計画の作成と実施。",
+        "icon": "Users",
+        "required": true,
+        "count": "1名以上",
+        "qualification": "相談支援専門員研修修了",
+        "keyTask": "移行計画作成・同行支援"
+      }
+    ],
+    "typicalConversations": [
+      {
+        "scene": "移行計画面談",
+        "context": "施設・病院での面談。",
+        "topics": [
+          "地域生活への希望",
+          "住居",
+          "日中活動",
+          "不安の聴取"
+        ],
+        "insight": "長期入所者ほど地域生活への不安が大きい。段階的な体験利用が効果的"
+      }
+    ]
+  }
+}

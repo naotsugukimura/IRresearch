@@ -10,7 +10,24 @@ import glossaryData from "@/data/glossary.json";
 import earningsInsightsData from "@/data/earnings-insights.json";
 import areaAnalysisData from "@/data/litalico-area-analysis.json";
 import marketOverviewData from "@/data/market-overview.json";
+import jidouHattatsuData from "@/data/facility-analysis/jidou-hattatsu.json";
+import iryougataJidouData from "@/data/facility-analysis/iryougata-jidou.json";
 import houkagoDayData from "@/data/facility-analysis/houkago-day.json";
+import kyotakuHoumonData from "@/data/facility-analysis/kyotaku-houmon.json";
+import hoikushoHoumonData from "@/data/facility-analysis/hoikusho-houmon.json";
+import groupHomeData from "@/data/facility-analysis/group-home.json";
+import jiritsuSeikatsuData from "@/data/facility-analysis/jiritsu-seikatsu.json";
+import kinouKunrenData from "@/data/facility-analysis/kinou-kunren.json";
+import seikatsuKunrenData from "@/data/facility-analysis/seikatsu-kunren.json";
+import shukuhakuKunrenData from "@/data/facility-analysis/shukuhaku-kunren.json";
+import shurouIkouData from "@/data/facility-analysis/shurou-ikou.json";
+import shurouAData from "@/data/facility-analysis/shurou-a.json";
+import shurouBData from "@/data/facility-analysis/shurou-b.json";
+import shurouTeichakuData from "@/data/facility-analysis/shurou-teichaku.json";
+import chiikiIkouData from "@/data/facility-analysis/chiiki-ikou.json";
+import chiikiTeichakuData from "@/data/facility-analysis/chiiki-teichaku.json";
+import keikakuSoudanData from "@/data/facility-analysis/keikaku-soudan.json";
+import shougaijiSoudanData from "@/data/facility-analysis/shougaiji-soudan.json";
 
 import type {
   Company,
@@ -209,7 +226,24 @@ export function getMarketOverview(): MarketOverviewData {
 // ============================================================
 
 const FACILITY_DATA: Record<string, unknown> = {
+  "23": kinouKunrenData,
+  "24": seikatsuKunrenData,
+  "25": shukuhakuKunrenData,
+  "27": shurouIkouData,
+  "31": shurouAData,
+  "32": shurouBData,
+  "33": shurouTeichakuData,
+  "35": groupHomeData,
+  "36": jiritsuSeikatsuData,
+  "46": keikakuSoudanData,
+  "47": shougaijiSoudanData,
+  "53": chiikiIkouData,
+  "54": chiikiTeichakuData,
+  "63": jidouHattatsuData,
+  "64": iryougataJidouData,
   "65": houkagoDayData,
+  "66": kyotakuHoumonData,
+  "67": hoikushoHoumonData,
 };
 
 export function getFacilityAnalysis(serviceCode: string): FacilityAnalysisData | undefined {
