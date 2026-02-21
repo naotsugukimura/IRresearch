@@ -7,6 +7,7 @@ import trendsData from "@/data/trends.json";
 import notesData from "@/data/notes.json";
 import businessPlansData from "@/data/business-plans.json";
 import glossaryData from "@/data/glossary.json";
+import earningsInsightsData from "@/data/earnings-insights.json";
 
 import type {
   Company,
@@ -19,6 +20,7 @@ import type {
   CompanyCategory,
   CompanyBusinessPlan,
   Glossary,
+  CompanyEarningsInsights,
 } from "./types";
 
 // ============================================================
@@ -139,4 +141,18 @@ export function getBusinessPlansByCompanyId(
 
 export function getGlossary(): Glossary {
   return glossaryData as unknown as Glossary;
+}
+
+// ============================================================
+// 決算インサイト
+// ============================================================
+
+export function getAllEarningsInsights(): CompanyEarningsInsights[] {
+  return earningsInsightsData as unknown as CompanyEarningsInsights[];
+}
+
+export function getEarningsInsightsByCompanyId(
+  companyId: string
+): CompanyEarningsInsights | undefined {
+  return getAllEarningsInsights().find((e) => e.companyId === companyId);
 }

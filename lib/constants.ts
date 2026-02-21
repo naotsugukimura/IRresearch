@@ -93,6 +93,7 @@ export const PRIORITY_RANK_CONFIG: Record<
   S: { label: "S", description: "最重点監視（四半期ごと）", color: "#EF4444" },
   A: { label: "A", description: "重点監視（半期ごと）", color: "#F59E0B" },
   B: { label: "B", description: "定期チェック（年次）", color: "#6B7280" },
+  C: { label: "C", description: "参考モニタリング", color: "#4B5563" },
 };
 
 // ============================================================
@@ -192,6 +193,7 @@ export const COMPANY_SECTIONS = [
   { id: "history", label: "沿革" },
   { id: "strategy", label: "事業戦略" },
   { id: "financials", label: "財務分析" },
+  { id: "earnings", label: "決算インサイト" },
   { id: "advantage", label: "競争優位性" },
   { id: "insights", label: "SMSへの示唆" },
 ] as const;

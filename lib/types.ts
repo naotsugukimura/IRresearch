@@ -5,7 +5,7 @@
 export type CompanyCategory = "A" | "B" | "C" | "D" | "E" | "F";
 export type ThreatLevel = 1 | 2 | 3 | 4 | 5;
 export type MarketType = "プライム" | "スタンダード" | "グロース" | "非上場";
-export type PriorityRank = "S" | "A" | "B";
+export type PriorityRank = "S" | "A" | "B" | "C";
 
 // ============================================================
 // companies.json
@@ -250,6 +250,67 @@ export interface GlossaryCategory {
 export interface UsageStep {
   step: number;
   text: string;
+}
+
+// ============================================================
+// earnings-insights/*.json（決算インサイト）
+// ============================================================
+
+// KPIフィールドはAI抽出のため値が多様（number | string | object | null）
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type EarningsFieldValue = any;
+
+export interface EarningsBusinessKpis {
+  arr: EarningsFieldValue;
+  mrr: EarningsFieldValue;
+  churn_rate: EarningsFieldValue;
+  arpu: EarningsFieldValue;
+  cac: EarningsFieldValue;
+  ltv: EarningsFieldValue;
+  user_count: EarningsFieldValue;
+  facility_count: EarningsFieldValue;
+  employee_count: EarningsFieldValue;
+  other_kpis: EarningsFieldValue[];
+}
+
+export interface EarningsMarketSizing {
+  tam: EarningsFieldValue;
+  sam: EarningsFieldValue;
+  som: EarningsFieldValue;
+  market_growth_rate: EarningsFieldValue;
+  market_notes: string | null;
+}
+
+export interface EarningsMaInfo {
+  target: string;
+  date: string | null;
+  amount: EarningsFieldValue;
+  synergy: string | null;
+  status: string;
+}
+
+export interface EarningsMidtermPlan {
+  name: string | null;
+  period: string | null;
+  revenue_target: EarningsFieldValue;
+  profit_target: EarningsFieldValue;
+  key_strategies: string[];
+}
+
+export interface EarningsDocument {
+  fiscal_period: string;
+  summary: string;
+  source_file: string;
+  business_kpis: EarningsBusinessKpis;
+  market_sizing: EarningsMarketSizing;
+  ma_info: EarningsMaInfo[];
+  midterm_plan: EarningsMidtermPlan;
+}
+
+export interface CompanyEarningsInsights {
+  companyId: string;
+  analyzedAt: string;
+  documents: EarningsDocument[];
 }
 
 export interface Glossary {

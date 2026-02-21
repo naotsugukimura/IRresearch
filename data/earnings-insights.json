@@ -1,0 +1,774 @@
+[
+  {
+    "companyId": "litalico",
+    "analyzedAt": "2026-02-21T20:22:30.817881",
+    "documents": [
+      {
+        "business_kpis": {
+          "arr": null,
+          "mrr": null,
+          "churn_rate": null,
+          "arpu": null,
+          "cac": null,
+          "ltv": null,
+          "user_count": null,
+          "facility_count": 400,
+          "employee_count": null,
+          "other_kpis": [
+            {
+              "name": "LITALICO Works施設数",
+              "value": 163,
+              "unit": "施設"
+            },
+            {
+              "name": "Child Welfare施設数",
+              "value": 185,
+              "unit": "施設"
+            },
+            {
+              "name": "基本的1株当たり四半期利益",
+              "value": 47.49,
+              "unit": "円"
+            }
+          ]
+        },
+        "market_sizing": {
+          "tam": null,
+          "sam": null,
+          "som": null,
+          "market_growth_rate": null,
+          "market_notes": "障害者雇用率は2024年4月時点で2.5%に引き上げられたが、日本企業の46.0%しか法定雇用率を満たしておらず、雇用支援サービスの拡大余地は大きい"
+        },
+        "ma_info": [
+          {
+            "target": "Residential Behavior Management Center of Nebraska, LLC",
+            "date": "2024年7月",
+            "amount": null,
+            "synergy": "重度障害者向けの海外サービス提供会社として事業統合",
+            "status": "completed"
+          },
+          {
+            "target": "Developmental Disability Center of Nebraska, LLC",
+            "date": null,
+            "amount": null,
+            "synergy": "米国での重度障害者向けサービス提供",
+            "status": "completed"
+          }
+        ],
+        "midterm_plan": {
+          "name": null,
+          "period": null,
+          "revenue_target": null,
+          "profit_target": null,
+          "key_strategies": [
+            "職業福祉セグメントで2027年3月期に20施設以上の新規開設予定",
+            "児童福祉事業では短時間支援中心の運営形態で積極的な施設展開",
+            "プラットフォーム事業では積極投資を継続しながら収益と利益の同時成長",
+            "海外事業では安定的な拡大と成長投資を実施"
+          ]
+        },
+        "fiscal_period": "2026年3月期第3四半期（2025年4月1日～2025年12月31日）",
+        "summary": "LITALICO Inc.は障害者福祉分野で「障害のない社会をつくる」ビジョンの下、全国約400施設で学習・職業訓練・生活支援サービスを提供。2025年12月期第3四半期は売上282億円（前年同期比19.1%増）、営業利益32億円（同57.5%増）と好調。海外M&Aや新規施設展開により事業拡大を推進している。",
+        "source_file": "%5BSummary%5D%20Consolidated%20Financial%20Results%20for%20the%20Nine%20Months%20Ended%20December%2031%2C%202025%20%5BIFRS%5D.pdf"
+      },
+      {
+        "business_kpis": {
+          "arr": null,
+          "mrr": null,
+          "churn_rate": null,
+          "arpu": null,
+          "cac": null,
+          "ltv": null,
+          "user_count": 13164,
+          "facility_count": 402,
+          "employee_count": 5075,
+          "other_kpis": [
+            {
+              "name": "就職者数",
+              "value": 1964,
+              "unit": "人"
+            },
+            {
+              "name": "契約事業所数",
+              "value": 33448,
+              "unit": "施設"
+            },
+            {
+              "name": "NPSスコア（LITALICOワークス）",
+              "value": 13.0,
+              "unit": "スコア"
+            },
+            {
+              "name": "NPSスコア（LITALICOジュニア）",
+              "value": 19.9,
+              "unit": "スコア"
+            }
+          ]
+        },
+        "market_sizing": {
+          "tam": null,
+          "sam": null,
+          "som": null,
+          "market_growth_rate": 8.0,
+          "market_notes": "障害福祉サービス利用者数と施設数は年々増加、障害福祉予算は年間4兆円で年率8%で増加。障害者数は直近で約1,160万人。"
+        },
+        "ma_info": [
+          {
+            "target": "DDCN",
+            "date": "2024年",
+            "amount": null,
+            "synergy": "米国での強度行動障害者向けサービス展開",
+            "status": "completed"
+          }
+        ],
+        "midterm_plan": {
+          "name": "障害者の支援で世界No.1",
+          "period": null,
+          "revenue_target": null,
+          "profit_target": null,
+          "key_strategies": [
+            "企業文化の一貫性を再強化",
+            "中長期での価値最大化",
+            "積極的な事業投資と株主還元の両立",
+            "FY2026は20施設以上の開設を計画"
+          ]
+        },
+        "fiscal_period": "2026年3月期第3四半期",
+        "summary": "LITALICOのFY2025Q3決算は売上282億円（+19%）、営業利益31.8億円（+57%）と好調。就労支援は計画通り2施設開設、児童福祉は19施設開設予定。プラットフォーム事業は契約事業所数33,448施設まで拡大。中期方針として企業文化強化と中長期価値最大化を掲げ、積極投資と株主還元を両立。",
+        "source_file": "2026%E5%B9%B43%E6%9C%88%E6%9C%9F%E7%AC%AC3%E5%9B%9B%E5%8D%8A%E6%9C%9F%E6%B1%BA%E7%AE%97%E8%AA%AC%E6%98%8E%E8%B3%87%E6%96%99.pdf"
+      },
+      {
+        "business_kpis": {
+          "arr": null,
+          "mrr": null,
+          "churn_rate": null,
+          "arpu": null,
+          "cac": null,
+          "ltv": null,
+          "user_count": 13164,
+          "facility_count": 402,
+          "employee_count": 5075,
+          "other_kpis": [
+            {
+              "name": "job_placements",
+              "value": 1964,
+              "description": "累計就職者数"
+            },
+            {
+              "name": "platform_contracts",
+              "value": 33448,
+              "description": "プラットフォーム契約事業所数"
+            },
+            {
+              "name": "nps_works",
+              "value": 13.0,
+              "description": "LITALICO WorksのNPSスコア"
+            },
+            {
+              "name": "nps_junior",
+              "value": 19.9,
+              "description": "LITALICO JuniorのNPSスコア"
+            }
+          ]
+        },
+        "market_sizing": {
+          "tam": null,
+          "sam": null,
+          "som": null,
+          "market_growth_rate": 8,
+          "market_notes": "障害福祉サービス関連予算は4兆円に達し、年8%で拡大継続。法定雇用率が2.5%から2.7%へ段階的引き上げ予定。障害者雇用は過去13年で精神障害者が10倍増加"
+        },
+        "ma_info": [
+          {
+            "target": "DDCN",
+            "date": "2024年",
+            "amount": null,
+            "synergy": "米国における重度行動障害者向けサービス提供強化",
+            "status": "completed"
+          }
+        ],
+        "midterm_plan": {
+          "name": "世界No.1の障害者支援企業への成長戦略",
+          "period": null,
+          "revenue_target": null,
+          "profit_target": null,
+          "key_strategies": [
+            "企業文化の一貫性再強化",
+            "中長期的な企業価値最大化",
+            "積極的事業投資と株主還元のバランス",
+            "LITALICOブランドへの事業開発集約",
+            "新サービス・新事業への積極投資継続"
+          ]
+        },
+        "fiscal_period": "2025年3月期第3四半期",
+        "summary": "LITALICO Inc.は障害者支援サービスを展開する企業。2025年第3四半期は売上282億円（前年同期比19.1%増）、営業利益32億円（同57.5%増）と好調。就労支援、児童支援、プラットフォーム、海外事業を柱に成長。新たにグループホームや高等学院も開始し、障害者の生涯支援体制を構築中。",
+        "source_file": "FY2025Q3EarningsPresentation.pdf"
+      }
+    ]
+  },
+  {
+    "companyId": "pasona",
+    "analyzedAt": "2026-02-21T20:25:58.077347",
+    "documents": [
+      {
+        "business_kpis": {
+          "arr": null,
+          "mrr": null,
+          "churn_rate": null,
+          "arpu": null,
+          "cac": null,
+          "ltv": null,
+          "user_count": null,
+          "facility_count": {
+            "パソナフォスター": 97,
+            "保育施設": 44,
+            "学童クラブ・児童センター": 53,
+            "パソナライフケア": 17,
+            "介護施設": 17
+          },
+          "employee_count": 22982,
+          "other_kpis": [
+            "派遣稼働者数：前年同期並み",
+            "登録者数：前年同期比2桁増加",
+            "万博来場者数：215万名",
+            "万博来場企業社数：3,017社",
+            "報道数：5,055件",
+            "報道効果：42億円超"
+          ]
+        },
+        "market_sizing": {
+          "tam": null,
+          "sam": null,
+          "som": null,
+          "market_growth_rate": null,
+          "market_notes": null
+        },
+        "ma_info": [
+          {
+            "target": "エイチ・ツー・オー リテイリング株式会社",
+            "date": "2025年",
+            "amount": null,
+            "synergy": "持続可能な未来社会の創造を目指す包括業務提携（人材育成・働き方改革、大阪・関西万博連携、富裕層向け観光開発、地域活性化等）",
+            "status": "announced"
+          },
+          {
+            "target": "エステー株式会社",
+            "date": "2025年",
+            "amount": null,
+            "synergy": "新たなWell-being産業の創出を目指す（「かおり」を核としたウェルネス事業共創）",
+            "status": "announced"
+          },
+          {
+            "target": "ヤンマーホールディングス株式会社",
+            "date": "2025年",
+            "amount": null,
+            "synergy": "人と自然が共生する持続可能な社会の実現を目指す（Wellness Farmer Award創設、新規就農者の教育・支援等）",
+            "status": "announced"
+          },
+          {
+            "target": "株式会社PASONA VIV JAPAN",
+            "date": "2025年",
+            "amount": null,
+            "synergy": "AI・XRを基盤としたウェルビーイング×エンターテインメント事業",
+            "status": "completed"
+          }
+        ],
+        "midterm_plan": {
+          "name": "PASONA GROUP VISION 2030",
+          "period": "2030年まで",
+          "revenue_target": null,
+          "profit_target": null,
+          "key_strategies": [
+            "人員の適正配置やコスト配分の見直し",
+            "コストコントロールの強化"
+          ]
+        },
+        "fiscal_period": "2026年5月期第2四半期",
+        "summary": "パソナグループの2026年5月期第2四半期決算。売上高は前年同期比0.4%増の1,545億円、営業損失は2億円。大阪・関西万博での協賛金収入や物販収入により経常利益は8億円。BPOソリューションは大型案件のピークアウトが継続、地方創生・観光ソリューションは人気キャラクターコンテンツで大幅増収。万博レガシーとして複数企業との包括業務提携を発表。",
+        "source_file": "FY2025Q2_presentation.pdf"
+      }
+    ]
+  },
+  {
+    "companyId": "persol",
+    "analyzedAt": "2026-02-21T20:25:06.364384",
+    "documents": [
+      {
+        "business_kpis": {
+          "arr": null,
+          "mrr": null,
+          "churn_rate": null,
+          "arpu": null,
+          "cac": null,
+          "ltv": null,
+          "user_count": null,
+          "facility_count": null,
+          "employee_count": null,
+          "other_kpis": [
+            "派遣就業者数の増加2.1%",
+            "請求単価の増加2.1%",
+            "稼働エンジニア数の増加",
+            "調整後EBITDA：68,078百万円（前年同期比5.0%増）",
+            "売上総利益率の改善"
+          ]
+        },
+        "market_sizing": {
+          "tam": null,
+          "sam": null,
+          "som": null,
+          "market_growth_rate": null,
+          "market_notes": "日本国内における人材不足が続く中、顧客企業の堅調な求人意欲を背景とした事業環境"
+        },
+        "ma_info": [
+          {
+            "target": "Gojob SAS",
+            "date": "2025年10月1日",
+            "amount": "21,293百万円",
+            "synergy": "AIドリブンの人材派遣プラットフォームによるデジタルモデルへの転換加速、欧米市場への挑戦、テクノロジードリブンの人材サービス企業への進化",
+            "status": "completed"
+          },
+          {
+            "target": "パーソルコミュニケーションサービス株式会社（旧富士通コミュニケーションサービス株式会社）",
+            "date": "2025年2月",
+            "amount": null,
+            "synergy": "BPO事業の拡大",
+            "status": "completed"
+          }
+        ],
+        "midterm_plan": {
+          "name": "グループ中期経営計画2026",
+          "period": "2026年まで",
+          "revenue_target": null,
+          "profit_target": null,
+          "key_strategies": [
+            "テクノロジードリブンの人材サービス企業への進化",
+            "Career SBU、BPO SBU、Technology SBUを注力領域として推進",
+            "プロダクトとデジタル化を通じた非連続な成長の実現"
+          ]
+        },
+        "fiscal_period": "2026年3月期",
+        "summary": "パーソルホールディングスの2026年3月期第3四半期決算。売上収益は1,154,288百万円（前年同期比6.3%増）、営業利益は53,998百万円（同11.5%増）。全セグメントで増収を達成。Gojob SAS買収により欧米市場への挑戦とデジタル化を加速。グループ中期経営計画2026に基づきテクノロジードリブンの人材サービス企業への進化を推進中。",
+        "source_file": "FY2025Q3financialresults.pdf"
+      },
+      {
+        "business_kpis": {
+          "arr": null,
+          "mrr": null,
+          "churn_rate": null,
+          "arpu": null,
+          "cac": null,
+          "ltv": null,
+          "user_count": null,
+          "facility_count": null,
+          "employee_count": 81362,
+          "other_kpis": [
+            {
+              "name": "就業者数",
+              "value": "133千人",
+              "unit": "千人",
+              "segment": "Staffing SBU"
+            },
+            {
+              "name": "請求単価",
+              "value": "2,455円",
+              "unit": "円",
+              "segment": "Staffing SBU"
+            },
+            {
+              "name": "doda会員数",
+              "value": "10,316,666人",
+              "unit": "人",
+              "segment": "Career SBU"
+            },
+            {
+              "name": "稼働エンジニア数",
+              "value": "7,596人月",
+              "unit": "人月",
+              "segment": "Technology SBU"
+            }
+          ]
+        },
+        "market_sizing": {
+          "tam": null,
+          "sam": null,
+          "som": null,
+          "market_growth_rate": null,
+          "market_notes": "転職市場は、ボリューム層（年収400-600万円）とハイクラス層（年収600万円以上）いずれも今後拡大見込み。ハイクラス層CAGR+10%、ボリューム層CAGR+6%。2030年には転職市場規模1,176.5億円を見込む。"
+        },
+        "ma_info": [
+          {
+            "target": "Gojob",
+            "date": "2025年10月",
+            "amount": "213億円",
+            "synergy": "欧州マーケットでの事業展開と欧州での人材サービス事業強化",
+            "status": "completed"
+          },
+          {
+            "target": "パーソルコミュニケーションサービス株式会社（CSL）",
+            "date": "2025年2月",
+            "amount": null,
+            "synergy": "BPO事業の拡充",
+            "status": "completed"
+          }
+        ],
+        "midterm_plan": {
+          "name": "中期経営計画2026",
+          "period": "2026年3月期まで",
+          "revenue_target": null,
+          "profit_target": "調整後EBITDA10%成長",
+          "key_strategies": [
+            "ハイクラス領域の成長",
+            "AI投資による生産性向上",
+            "収益性の向上",
+            "成長領域を伸ばしつつ収益性重視にシフト"
+          ]
+        },
+        "fiscal_period": "2026年3月期第3四半期累計",
+        "summary": "パーソルホールディングスのFY2025 Q3累計決算は売上収益・全段階利益で過去最高を更新し、全SBUで売上成長を実現。調整後EBITDAは680億円（+5.0%）で通期目標865億円に向け順調に進捗。足元の事業環境は企業のAI活用効果見極めにより雇用に慎重姿勢も見られるが、来期も安定成長継続の見通し。Career SBUではハイクラス層成長とAI投資による生産性向上を加速する戦略を推進。",
+        "source_file": "FY2025Q3presentation.pdf"
+      },
+      {
+        "business_kpis": {
+          "arr": null,
+          "mrr": null,
+          "churn_rate": null,
+          "arpu": null,
+          "cac": null,
+          "ltv": null,
+          "user_count": {
+            "staffing_workers": "約133万人（就業者数、前年比+1.9%）",
+            "career_consultants": "約2,656人（人材紹介生産性+14.2%）",
+            "technology_engineers": "約7,596人（正社員稼働率89%）"
+          },
+          "facility_count": null,
+          "employee_count": null,
+          "other_kpis": [
+            "調整後EBITDA: 680億円（+5.0%）",
+            "調整後EBITDAマージン: 5.9%",
+            "人材紹介生産性向上: +14.2%",
+            "請求単価上昇: Staffing +2.2%、Technology +2%強",
+            "稼働率: Technology SBU 89%（前年91%から-2%）"
+          ]
+        },
+        "market_sizing": {
+          "tam": "転職市場は継続的に拡大、人材需要は大きく成長する領域",
+          "sam": null,
+          "som": null,
+          "market_growth_rate": "人材紹介市場CAGR: ボリューム層約10%、ハイクラス層約30%",
+          "market_notes": "企業のAI活用による採用慎重化、ハイクラス層は活況継続、ボリューム層（年収400-600万円）は慎重採用姿勢が顕著"
+        },
+        "ma_info": [
+          {
+            "target": "CSL（BPO SBU）",
+            "date": "2024年度中",
+            "amount": null,
+            "synergy": "売上27%増、調整後EBITDA 39%増に寄与",
+            "status": "completed"
+          },
+          {
+            "target": "Gojob",
+            "date": "2025年10月",
+            "amount": null,
+            "synergy": "Q3売上寄与117億円、EBITDAプラス達成",
+            "status": "completed"
+          }
+        ],
+        "midterm_plan": {
+          "name": "次期中期経営計画",
+          "period": "2026年5月発表予定",
+          "revenue_target": null,
+          "profit_target": "調整後EBITDA 10%成長を目指す",
+          "key_strategies": [
+            "確実な売上成長の実現",
+            "収益性向上による調整後EBITDA 10%成長",
+            "Career SBUのハイクラス層強化",
+            "AI投資による生産性向上（工数削減40%、生産性1.4倍）"
+          ]
+        },
+        "fiscal_period": "2025年3月期第3四半期",
+        "summary": "パーソルホールディングスのFY2025 Q3決算は増収増益を達成。売上収益1,154億円（+6.3%）、調整後EBITDA 680億円（+5.0%）。全SBUで成長を実現し、通期目標達成見込み。マクロ環境の不透明さとAI活用による企業の採用慎重化が見られる中、Career SBUではハイクラス層強化とAI投資による生産性向上を推進。来期も調整後EBITDA 10%成長を目指す。",
+        "source_file": "FY2025Q3transcript.pdf"
+      }
+    ]
+  },
+  {
+    "companyId": "sms",
+    "analyzedAt": "2026-02-21T20:23:28.689551",
+    "documents": [
+      {
+        "business_kpis": {
+          "arr": null,
+          "mrr": null,
+          "churn_rate": null,
+          "arpu": {
+            "value": 500827,
+            "unit": "円",
+            "period": "2024年",
+            "description": "カイポケのARPA（1法人当たりの平均売上高）"
+          },
+          "cac": null,
+          "ltv": null,
+          "user_count": {
+            "medical_members": 3650000,
+            "kaipoke_members": 59300,
+            "unit": "人/事業所",
+            "notes": "MIMSグループ約365万人、カイポケ59,300事業所（26,350法人）"
+          },
+          "facility_count": 59300,
+          "employee_count": 4731,
+          "other_kpis": [
+            {
+              "name": "看護師必要数",
+              "value": 320000,
+              "unit": "人",
+              "period": "2040年",
+              "description": "2018年比での追加必要数"
+            },
+            {
+              "name": "介護職必要数",
+              "value": 570000,
+              "unit": "人",
+              "period": "2040年",
+              "description": "2022年比での追加必要数"
+            }
+          ]
+        },
+        "market_sizing": {
+          "tam": null,
+          "sam": null,
+          "som": null,
+          "market_growth_rate": {
+            "nursing_care_market": 0.022,
+            "disability_welfare_market": 0.067,
+            "description": "介護事業所数年平均増加率2.2%、障害福祉サービス事業所数年平均増加率6.7%"
+          },
+          "market_notes": "2040年には医療・介護等社会保障費が188.5兆円に拡大予測。高齢化に伴い医療従事者の不足が深刻化。"
+        },
+        "ma_info": [
+          {
+            "target": "MIMSグループ",
+            "date": "2015年10月",
+            "amount": null,
+            "synergy": "APAC各国での医療関連事業者向けマーケティング支援とグローバルキャリア事業の展開",
+            "status": "completed"
+          }
+        ],
+        "midterm_plan": {
+          "name": "中期目標",
+          "period": "2031年3月期まで",
+          "revenue_target": null,
+          "profit_target": {
+            "eps_growth": 0.15,
+            "roe_target": 0.2,
+            "description": "EPS年平均成長率15%、ROE20%の達成を目指す"
+          },
+          "key_strategies": [
+            "共創型ポートフォリオ経営への変革",
+            "本質的価値の顕在化",
+            "事業ステージに応じた戦略的アプローチ",
+            "キャピタルアロケーション最適化"
+          ]
+        },
+        "fiscal_period": "2026年3月期 第3四半期",
+        "summary": "SMS（2175）の2026年3月期第3四半期決算。売上高47,346百万円（+5%）、営業利益3,905百万円（+9%）と増収増益を達成。キャリア、海外事業の回復遅延により計画対比でビハインド。新社長の髙畑氏のもと企業価値経営を追求し、ROE20%達成等の中期目標を設定。配当は29.5円に増配予定。",
+        "source_file": "FY25_Q3_presentation.pdf"
+      },
+      {
+        "business_kpis": {
+          "arr": null,
+          "mrr": null,
+          "churn_rate": null,
+          "arpu": null,
+          "cac": null,
+          "ltv": null,
+          "user_count": null,
+          "facility_count": "全国に約27万の介護事業所が存在",
+          "employee_count": null,
+          "other_kpis": [
+            "カイポケ会員数の増加",
+            "有料オプションサービス利用拡大",
+            "ファクタリング・M&Aマッチング・障害福祉人材紹介の成長"
+          ]
+        },
+        "market_sizing": {
+          "tam": null,
+          "sam": null,
+          "som": null,
+          "market_growth_rate": "高齢化率2025年29%→2040年約35%",
+          "market_notes": "2040年には2018年と比較して看護師32万人、介護職57万人が追加で必要。社会保障費は2040年に2018年比約1.6倍の190兆円規模に増大見込み"
+        },
+        "ma_info": [],
+        "midterm_plan": {
+          "name": null,
+          "period": null,
+          "revenue_target": null,
+          "profit_target": null,
+          "key_strategies": [
+            "医療・介護/障害福祉の人手不足と偏在の解消",
+            "医療・介護/障害福祉事業者の経営改善",
+            "健康な労働力人口の増加",
+            "多様な選択肢と質の高い意思決定情報の提供"
+          ]
+        },
+        "fiscal_period": "2026年3月期第3四半期",
+        "summary": "エス・エム・エスの2026年3月期第3四半期決算。売上高47,346百万円（前年同期比5.5%増）、営業利益3,905百万円（8.7%増）。キャリア関連事業とカイポケ事業が成長を牽引。高齢社会の3つの課題（医療・介護サービス提供困難化、現役世代負担増大、高齢社会の困りごと解決困難化）に対し、情報インフラ構築を通じた解決を目指す。",
+        "source_file": "FY25_Q3_tanshin.pdf"
+      }
+    ]
+  },
+  {
+    "companyId": "visional",
+    "analyzedAt": "2026-02-21T20:27:57.476967",
+    "documents": [
+      {
+        "business_kpis": {
+          "arr": "37.3億円（HRMOS採用/タレントマネジメント/社内版ビズリーチ by HRMOS合計、FY25/7 4Q）",
+          "mrr": null,
+          "churn_rate": "0.58%（直近12ヵ月平均、HRMOS関連サービス）",
+          "arpu": "12.8万円（HRMOS関連サービス、+8.1% YoY）",
+          "cac": null,
+          "ltv": null,
+          "user_count": "3.07百万人超（BizReachスカウト可能会員数）",
+          "facility_count": null,
+          "employee_count": "2,175人（FY25/7 4Q）",
+          "other_kpis": [
+            "BizReach累計導入企業数: 38,100+社",
+            "BizReach年次利用中企業数: 18,800+社",
+            "HRMOS利用中企業数: 2,421社",
+            "利用ヘッドハンター数: 9,000+"
+          ]
+        },
+        "market_sizing": {
+          "tam": null,
+          "sam": null,
+          "som": null,
+          "market_growth_rate": "主要企業における中途採用計画の割合: 46.8%（2025年度）",
+          "market_notes": "転職等希望者が初めて1,000万人を超え、大転職時代の幕開け。プロフェッショナル人材の流動化が加速。"
+        },
+        "ma_info": [
+          {
+            "target": "Thinkings株式会社",
+            "date": "2025年10月1日付予定",
+            "amount": null,
+            "synergy": "採用管理クラウド市場での盤石な地位確立、人的資本データプラットフォーム実現の加速",
+            "status": "announced"
+          }
+        ],
+        "midterm_plan": {
+          "name": null,
+          "period": null,
+          "revenue_target": null,
+          "profit_target": null,
+          "key_strategies": [
+            "BizReachの持続的成長と利益拡大",
+            "BizReachとHRMOSのデータ連携による人的資本データプラットフォームの構築",
+            "継続的な新規事業創出やM&Aの活用"
+          ]
+        },
+        "fiscal_period": "2025年7月期",
+        "summary": "ビジョナルはFY25/7通期売上高801.6億円（+21.2% YoY）、営業利益214.4億円（+20.2% YoY）を達成。BizReachが好調な市場環境を捉え堅調成長。HRMOSは売上高52.1億円（+35.6% YoY）で拡大継続。FY26/7は売上高992.0億円（+23.7% YoY）を見通し、Thinkings買収により人的資本データプラットフォーム構築を加速。",
+        "source_file": "FY25_FY_Financial_Release_JPN.pdf"
+      },
+      {
+        "business_kpis": {
+          "arr": null,
+          "mrr": null,
+          "churn_rate": null,
+          "arpu": null,
+          "cac": null,
+          "ltv": null,
+          "user_count": null,
+          "facility_count": null,
+          "employee_count": null,
+          "other_kpis": [
+            "BizReach通期売上高成長率：+18.8% YoY",
+            "HRMOS通期売上高成長率：+35.6% YoY",
+            "社内版ビズリーチ by HRMOS：2025年1月末ローンチ"
+          ]
+        },
+        "market_sizing": {
+          "tam": null,
+          "sam": null,
+          "som": null,
+          "market_growth_rate": null,
+          "market_notes": "日本のプロフェッショナル人材領域における雇用の流動化が進展。中途採用が全体の採用計画に占める割合が特に主要企業において顕著に伸長"
+        },
+        "ma_info": [
+          {
+            "target": "Thinkings株式会社",
+            "date": "2025年10月1日",
+            "amount": null,
+            "synergy": "採用管理「sonar ATS」によるHR Techセグメントの中期戦略上重要な位置づけ。人的資本データプラットフォームの拡充",
+            "status": "announced"
+          }
+        ],
+        "midterm_plan": {
+          "name": "HR Tech中期戦略",
+          "period": null,
+          "revenue_target": null,
+          "profit_target": null,
+          "key_strategies": [
+            "社内版ビズリーチ by HRMOSの展開",
+            "人的資本データプラットフォームの構築",
+            "BizReachとHRMOSのデータ連携",
+            "生成AI技術の活用",
+            "M&Aを活用した成長"
+          ]
+        },
+        "fiscal_period": "2025年7月期",
+        "summary": "ビジョナル株式会社の2025年7月期通期決算。売上高801.6億円（+21.2% YoY）、営業利益214.4億円（+20.2% YoY）で好調。社内版ビズリーチ by HRMOSを1月にローンチし、HR Tech中期戦略を推進。Thinkings社を10月にグループ化予定で、人的資本データプラットフォームの拡充を目指す。",
+        "source_file": "FY25_FY_Transcript_JPN.pdf"
+      },
+      {
+        "business_kpis": {
+          "arr": "83.2億円（HRMOS、+178.4% YoY）",
+          "mrr": null,
+          "churn_rate": "0.43%（HRMOS、直近12ヶ月平均）",
+          "arpu": "7.1万円（HRMOS、-41.5% YoY）",
+          "cac": null,
+          "ltv": null,
+          "user_count": "9,692社（HRMOS利用中企業数、+375.3% YoY）",
+          "facility_count": null,
+          "employee_count": "2,467名（2025年10月末時点、Thinkings株式会社のグループイン含む）",
+          "other_kpis": [
+            "BizReachスカウト可能会員数: 319万人",
+            "BizReach累計導入企業数: 40,000社以上",
+            "BizReach年次利用中企業数: 18,800社以上",
+            "転職等希望者: 初の1,000万人超え（2023年）"
+          ]
+        },
+        "market_sizing": {
+          "tam": null,
+          "sam": null,
+          "som": null,
+          "market_growth_rate": null,
+          "market_notes": "大転職時代の幕開け。就業者に占める転職等希望者が2023年に初めて1,000万人を超えた。プロフェッショナル人材の流動化が加速し、企業の人材獲得競争が激化している。"
+        },
+        "ma_info": [
+          {
+            "target": "Thinkings株式会社",
+            "date": "2025年10月1日",
+            "amount": null,
+            "synergy": "採用管理クラウド市場でのマーケットリーダーとしての地位強化、人的資本データプラットフォーム実現の加速、各サービス間の機能連携やクロスセルによる事業拡大",
+            "status": "completed"
+          }
+        ],
+        "midterm_plan": {
+          "name": null,
+          "period": null,
+          "revenue_target": null,
+          "profit_target": null,
+          "key_strategies": [
+            "BizReachの持続的成長と利益拡大",
+            "BizReachとHRMOSのデータ連携による人的資本データプラットフォームの構築",
+            "継続的な新規事業創出やM&Aの活用",
+            "社内版ビズリーチ by HRMOSによる人材流出防止ソリューションの提供"
+          ]
+        },
+        "fiscal_period": "2026年7月期第1四半期",
+        "summary": "ビジョナル株式会社のFY2026/7第1四半期決算。売上高233.3億円（+24.8% YoY）、営業利益70.6億円（+29.6% YoY）と好調に推移。BizReachは196.5億円（+20.2% YoY）、HRMOSは17.8億円（+54.7% YoY）の成長。Thinkings株式会社を買収し、sonar ATS by HRMOSとしてリブランド。社内版ビズリーチ by HRMOSで人材流出防止ソリューションを展開。",
+        "source_file": "FY26_1Q_Financial_Release_JPN.pdf"
+      }
+    ]
+  }
+]

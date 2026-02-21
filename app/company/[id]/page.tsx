@@ -10,6 +10,7 @@ import { FinancialCharts } from "@/components/company/FinancialCharts";
 import { BusinessPlanSection } from "@/components/company/BusinessPlanSection";
 import { CompetitiveAdvantage } from "@/components/company/CompetitiveAdvantage";
 import { SmsInsights } from "@/components/company/SmsInsights";
+import { EarningsInsightsSection } from "@/components/company/EarningsInsightsSection";
 import { EmptyState } from "@/components/shared/EmptyState";
 import {
   getCompanies,
@@ -20,6 +21,7 @@ import {
   getAdvantageByCompanyId,
   getBusinessPlanByCompanyId,
   getBusinessPlansByCompanyId,
+  getEarningsInsightsByCompanyId,
 } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -58,6 +60,7 @@ export default async function CompanyDetailPage({
   const advantage = getAdvantageByCompanyId(id);
   const businessPlan = getBusinessPlanByCompanyId(id);
   const allBusinessPlans = getBusinessPlansByCompanyId(id);
+  const earningsInsights = getEarningsInsightsByCompanyId(id);
 
   return (
     <div className="flex h-screen">
@@ -131,6 +134,15 @@ export default async function CompanyDetailPage({
                   </div>
                 )}
               </section>
+
+              {earningsInsights && (
+                <section id="earnings">
+                  <EarningsInsightsSection
+                    data={earningsInsights}
+                    companyName={company.name}
+                  />
+                </section>
+              )}
 
               <section id="advantage">
                 {advantage ? (
