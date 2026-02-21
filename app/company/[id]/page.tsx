@@ -89,6 +89,7 @@ export default async function CompanyDetailPage({
           <>
             <SectionNav />
             <div className="space-y-6 p-4 md:p-6">
+              {/* ===== 概要 ===== */}
               <section id="overview">
                 <div className="grid gap-4 lg:grid-cols-3">
                   <div className="lg:col-span-2">
@@ -100,6 +101,7 @@ export default async function CompanyDetailPage({
                 </div>
               </section>
 
+              {/* ===== 沿革 ===== */}
               <section id="history">
                 {history ? (
                   <HistoryTimeline
@@ -111,6 +113,7 @@ export default async function CompanyDetailPage({
                 )}
               </section>
 
+              {/* ===== 事業戦略 ===== */}
               <section id="strategy">
                 {strategy ? (
                   <StrategySection plans={strategy.plans} />
@@ -119,7 +122,8 @@ export default async function CompanyDetailPage({
                 )}
               </section>
 
-              <section id="financials">
+              {/* ===== 財務分析（安全性・収益性・CF） ===== */}
+              <section id="financial">
                 {financials ? (
                   <FinancialCharts
                     financials={financials}
@@ -128,53 +132,73 @@ export default async function CompanyDetailPage({
                 ) : (
                   <EmptyState title="財務データなし" />
                 )}
+                <div className="mt-4 grid gap-4 lg:grid-cols-2">
+                  <EmptyState
+                    title="安全性分析"
+                    description="自己資本比率・流動比率・固定比率等の安全性指標 — データ準備中"
+                  />
+                  <EmptyState
+                    title="キャッシュフロー分析"
+                    description="営業CF・投資CF・財務CF・フリーCFの推移 — データ準備中"
+                  />
+                </div>
+              </section>
+
+              {/* ===== 経営分析（PL・CF・FCF） ===== */}
+              <section id="management">
+                {businessPlan && (
+                  <BusinessPlanSection
+                    plan={businessPlan}
+                    allPlans={allBusinessPlans}
+                    companyColor={company.brandColor}
+                  />
+                )}
                 {businessPlan && (
                   <div className="mt-4">
-                    <BusinessPlanSection
+                    <ProfitStructureSection
                       plan={businessPlan}
                       allPlans={allBusinessPlans}
                       companyColor={company.brandColor}
                     />
                   </div>
                 )}
+                {!businessPlan && (
+                  <EmptyState title="事業計画データなし" />
+                )}
+                <div className="mt-4">
+                  <EmptyState
+                    title="CF・FCF分析"
+                    description="キャッシュフロー計算書に基づく経営分析 — データ準備中"
+                  />
+                </div>
               </section>
 
-              {earningsInsights && (
-                <section id="earnings">
+              {/* ===== 事業分析（決算インサイト・エリア・競争優位性） ===== */}
+              <section id="business">
+                {earningsInsights && (
                   <EarningsInsightsSection
                     data={earningsInsights}
                     companyName={company.name}
                   />
-                </section>
-              )}
-
-              {businessPlan && (
-                <section id="profitStructure">
-                  <ProfitStructureSection
-                    plan={businessPlan}
-                    allPlans={allBusinessPlans}
-                    companyColor={company.brandColor}
-                  />
-                </section>
-              )}
-
-              {areaAnalysis && (
-                <section id="areaAnalysis">
-                  <AreaAnalysisSection
-                    data={areaAnalysis}
-                    companyColor={company.brandColor}
-                  />
-                </section>
-              )}
-
-              <section id="advantage">
-                {advantage ? (
-                  <CompetitiveAdvantage data={advantage} />
-                ) : (
-                  <EmptyState title="競争優位性データなし" />
                 )}
+                {areaAnalysis && (
+                  <div className="mt-4">
+                    <AreaAnalysisSection
+                      data={areaAnalysis}
+                      companyColor={company.brandColor}
+                    />
+                  </div>
+                )}
+                <div className="mt-4">
+                  {advantage ? (
+                    <CompetitiveAdvantage data={advantage} />
+                  ) : (
+                    <EmptyState title="競争優位性データなし" />
+                  )}
+                </div>
               </section>
 
+              {/* ===== SMSへの示唆 ===== */}
               <section id="insights">
                 {advantage ? (
                   <SmsInsights

@@ -458,7 +458,9 @@
     "officialUrl": "https://www.cocorport.co.jp/",
     "brandColor": "#4CAF50",
     "hasFullData": true,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "marketCap": 150,
+    "recentTrend": "就労移行支援を中心に全国拡大中。2025年度は新規10拠点開設"
   },
   {
     "id": "copel",
@@ -1385,7 +1387,9 @@
     "officialUrl": "https://litalico.co.jp/",
     "brandColor": "#00A5E3",
     "hasFullData": true,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "marketCap": 2800,
+    "recentTrend": "プラットフォーム事業が成長ドライバー。LITALICOワークス/仕事ナビが好調"
   },
   {
     "id": "m3",
@@ -2472,7 +2476,9 @@
     "officialUrl": "https://www.bm-sms.co.jp/",
     "brandColor": "#1E3A5F",
     "hasFullData": true,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "marketCap": 3200,
+    "recentTrend": "カイポケの解約率改善。介護DXと海外事業が成長牽引"
   },
   {
     "id": "sompo_care",
@@ -2633,7 +2639,9 @@
     "officialUrl": "https://www.spool.co.jp/",
     "brandColor": "#FF6B35",
     "hasFullData": true,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "marketCap": 450,
+    "recentTrend": "障害者雇用支援（わーくはぴねす農園）が主力。ESG需要で安定成長"
   },
   {
     "id": "startline",
@@ -3131,7 +3139,9 @@
     "officialUrl": "https://www.welbe.co.jp/",
     "brandColor": "#E85298",
     "hasFullData": true,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "marketCap": 350,
+    "recentTrend": "就労移行支援の最大手。M&Aで児童発達支援にも進出"
   },
   {
     "id": "wiseman",

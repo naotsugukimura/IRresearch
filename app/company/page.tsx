@@ -2,10 +2,11 @@ import { Sidebar, MobileNav } from "@/components/layout/Sidebar";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { CompanyList } from "@/components/company/CompanyList";
-import { getCompanies } from "@/lib/data";
+import { getCompanies, getFinancialsMap } from "@/lib/data";
 
 export default function CompanyIndexPage() {
   const companies = getCompanies();
+  const financialsMap = getFinancialsMap();
 
   return (
     <div className="flex h-screen">
@@ -18,13 +19,13 @@ export default function CompanyIndexPage() {
               <Breadcrumb />
               <PageHeader
                 title="企業分析"
-                description="監視対象28社の一覧 - カテゴリA〜F"
+                description={`監視対象${companies.length}社の一覧 - カテゴリA〜F`}
               />
             </div>
           </div>
         </div>
         <div className="p-4 md:p-6">
-          <CompanyList companies={companies} />
+          <CompanyList companies={companies} financialsMap={financialsMap} />
         </div>
       </main>
     </div>
