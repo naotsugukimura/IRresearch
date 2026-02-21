@@ -32,6 +32,8 @@ yarn-error.log*
 .env*.local
 scripts/.env
 scripts/downloads/
+__pycache__/
+*.pyc
 
 # vercel
 .vercel
