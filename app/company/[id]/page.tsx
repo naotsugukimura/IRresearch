@@ -11,6 +11,7 @@ import { BusinessPlanSection } from "@/components/company/BusinessPlanSection";
 import { CompetitiveAdvantage } from "@/components/company/CompetitiveAdvantage";
 import { SmsInsights } from "@/components/company/SmsInsights";
 import { EarningsInsightsSection } from "@/components/company/EarningsInsightsSection";
+import { ProfitStructureSection } from "@/components/company/ProfitStructureSection";
 import { EmptyState } from "@/components/shared/EmptyState";
 import {
   getCompanies,
@@ -140,6 +141,16 @@ export default async function CompanyDetailPage({
                   <EarningsInsightsSection
                     data={earningsInsights}
                     companyName={company.name}
+                  />
+                </section>
+              )}
+
+              {businessPlan && (
+                <section id="profitStructure">
+                  <ProfitStructureSection
+                    plan={businessPlan}
+                    allPlans={allBusinessPlans}
+                    companyColor={company.brandColor}
                   />
                 </section>
               )}
