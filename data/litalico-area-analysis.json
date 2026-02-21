@@ -1,0 +1,2581 @@
+{
+  "companyId": "litalico",
+  "source": "WAMNET Open Data (2025年9月版)",
+  "services": {
+    "就労移行支援": {
+      "serviceName": "就労移行支援",
+      "totalFacilities": 3389,
+      "litalicoFacilities": 157,
+      "marketShare": 4.63,
+      "byPrefecture": [
+        {
+          "prefecture": "北海道",
+          "totalFacilities": 154,
+          "litalicoFacilities": 8,
+          "marketShare": 5.2
+        },
+        {
+          "prefecture": "青森県",
+          "totalFacilities": 25,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "岩手県",
+          "totalFacilities": 25,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "宮城県",
+          "totalFacilities": 66,
+          "litalicoFacilities": 3,
+          "marketShare": 4.5
+        },
+        {
+          "prefecture": "秋田県",
+          "totalFacilities": 9,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "山形県",
+          "totalFacilities": 29,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "福島県",
+          "totalFacilities": 36,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "茨城県",
+          "totalFacilities": 150,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "栃木県",
+          "totalFacilities": 35,
+          "litalicoFacilities": 2,
+          "marketShare": 5.7
+        },
+        {
+          "prefecture": "群馬県",
+          "totalFacilities": 35,
+          "litalicoFacilities": 1,
+          "marketShare": 2.9
+        },
+        {
+          "prefecture": "埼玉県",
+          "totalFacilities": 222,
+          "litalicoFacilities": 11,
+          "marketShare": 5.0
+        },
+        {
+          "prefecture": "千葉県",
+          "totalFacilities": 170,
+          "litalicoFacilities": 11,
+          "marketShare": 6.5
+        },
+        {
+          "prefecture": "東京都",
+          "totalFacilities": 353,
+          "litalicoFacilities": 19,
+          "marketShare": 5.4
+        },
+        {
+          "prefecture": "神奈川県",
+          "totalFacilities": 231,
+          "litalicoFacilities": 22,
+          "marketShare": 9.5
+        },
+        {
+          "prefecture": "新潟県",
+          "totalFacilities": 83,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "富山県",
+          "totalFacilities": 22,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "石川県",
+          "totalFacilities": 29,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "福井県",
+          "totalFacilities": 29,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "山梨県",
+          "totalFacilities": 34,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "長野県",
+          "totalFacilities": 51,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "岐阜県",
+          "totalFacilities": 41,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "静岡県",
+          "totalFacilities": 83,
+          "litalicoFacilities": 6,
+          "marketShare": 7.2
+        },
+        {
+          "prefecture": "愛知県",
+          "totalFacilities": 189,
+          "litalicoFacilities": 18,
+          "marketShare": 9.5
+        },
+        {
+          "prefecture": "三重県",
+          "totalFacilities": 30,
+          "litalicoFacilities": 1,
+          "marketShare": 3.3
+        },
+        {
+          "prefecture": "滋賀県",
+          "totalFacilities": 40,
+          "litalicoFacilities": 1,
+          "marketShare": 2.5
+        },
+        {
+          "prefecture": "京都府",
+          "totalFacilities": 61,
+          "litalicoFacilities": 8,
+          "marketShare": 13.1
+        },
+        {
+          "prefecture": "大阪府",
+          "totalFacilities": 326,
+          "litalicoFacilities": 16,
+          "marketShare": 4.9
+        },
+        {
+          "prefecture": "兵庫県",
+          "totalFacilities": 109,
+          "litalicoFacilities": 9,
+          "marketShare": 8.3
+        },
+        {
+          "prefecture": "奈良県",
+          "totalFacilities": 33,
+          "litalicoFacilities": 1,
+          "marketShare": 3.0
+        },
+        {
+          "prefecture": "和歌山県",
+          "totalFacilities": 21,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "鳥取県",
+          "totalFacilities": 8,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "島根県",
+          "totalFacilities": 11,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "岡山県",
+          "totalFacilities": 40,
+          "litalicoFacilities": 3,
+          "marketShare": 7.5
+        },
+        {
+          "prefecture": "広島県",
+          "totalFacilities": 63,
+          "litalicoFacilities": 6,
+          "marketShare": 9.5
+        },
+        {
+          "prefecture": "山口県",
+          "totalFacilities": 33,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "徳島県",
+          "totalFacilities": 19,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "香川県",
+          "totalFacilities": 16,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "愛媛県",
+          "totalFacilities": 28,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "高知県",
+          "totalFacilities": 8,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "福岡県",
+          "totalFacilities": 176,
+          "litalicoFacilities": 7,
+          "marketShare": 4.0
+        },
+        {
+          "prefecture": "佐賀県",
+          "totalFacilities": 14,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "長崎県",
+          "totalFacilities": 33,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "熊本県",
+          "totalFacilities": 48,
+          "litalicoFacilities": 1,
+          "marketShare": 2.1
+        },
+        {
+          "prefecture": "大分県",
+          "totalFacilities": 30,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "宮崎県",
+          "totalFacilities": 54,
+          "litalicoFacilities": 2,
+          "marketShare": 3.7
+        },
+        {
+          "prefecture": "鹿児島県",
+          "totalFacilities": 36,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "沖縄県",
+          "totalFacilities": 51,
+          "litalicoFacilities": 1,
+          "marketShare": 2.0
+        }
+      ],
+      "litalicoFacilityList": [
+        {
+          "name": "LITALICOワークス浜松",
+          "prefecture": "静岡県",
+          "address": "静岡県浜松市中央区板屋町111-2アクトタワー 6F"
+        },
+        {
+          "name": "LITALICOワークス新浜松",
+          "prefecture": "静岡県",
+          "address": "静岡県浜松市中央区鍛冶町124マルＨビル2F"
+        },
+        {
+          "name": "LITALICOワークス浜松市役所前",
+          "prefecture": "静岡県",
+          "address": "静岡県浜松市中央区元城町216-1浜松城公園南ビル２Ｆ"
+        },
+        {
+          "name": "LITALICOワークス堺東",
+          "prefecture": "大阪府",
+          "address": "大阪府堺市堺区中瓦町一丁4-24堺東EH第三ビル8F"
+        },
+        {
+          "name": "LITALICOワークス南海堺",
+          "prefecture": "大阪府",
+          "address": "大阪府堺市堺区戎島町四丁45−1ポルタスセンタービル2階"
+        },
+        {
+          "name": "LITALICOワークス四日市",
+          "prefecture": "三重県",
+          "address": "三重県四日市市諏訪町4番５号四日市諏訪町ビル 2F"
+        },
+        {
+          "name": "LITALICOワークス明石",
+          "prefecture": "兵庫県",
+          "address": "兵庫県明石市本町2-2-20朝日生命明石ビル5階"
+        },
+        {
+          "name": "LITALICOワークス川越",
+          "prefecture": "埼玉県",
+          "address": "埼玉県川越市脇田本町14-38YKB川越 4F"
+        },
+        {
+          "name": "LITALICOワークス大和西大寺",
+          "prefecture": "奈良県",
+          "address": "奈良県奈良市西大寺栄町3番27号泉谷ビル6階"
+        },
+        {
+          "name": "LITALICOワークス筑紫野二日市",
+          "prefecture": "福岡県",
+          "address": "福岡県筑紫野市二日市北1丁目3-8スパシオコモド１階101号室"
+        },
+        {
+          "name": "LITALICOワークス高崎",
+          "prefecture": "群馬県",
+          "address": "群馬県高崎市旭町46番地2高砂ビル高崎西口3階"
+        },
+        {
+          "name": "LITALICOワークス宇都宮西口",
+          "prefecture": "栃木県",
+          "address": "栃木県宇都宮市大通り2-2-3明治安田生命宇都宮大工町ビル　1F"
+        },
+        {
+          "name": "LITALICOワークス熊本",
+          "prefecture": "熊本県",
+          "address": "熊本県熊本市中央区水道町8番6号朝日生命熊本ビル２階"
+        },
+        {
+          "name": "LITALICOワークス草津",
+          "prefecture": "滋賀県",
+          "address": "滋賀県草津市野村1丁目19A・S野村ビルⅡ1F"
+        },
+        {
+          "name": "LITALICOワークス宇治",
+          "prefecture": "京都府",
+          "address": "京都府宇治市宇治壱番134-1宇治荒川ビル2F"
+        },
+        {
+          "name": "LITALICOワークス東岡崎",
+          "prefecture": "愛知県",
+          "address": "愛知県岡崎市明大寺町川端19−14山七ビルANNEX　2F"
+        },
+        {
+          "name": "LITALICOワークス倉敷",
+          "prefecture": "岡山県",
+          "address": "岡山県倉敷市阿知1丁目7番2　くらしきシティプラザ西ビル2階　213-1"
+        },
+        {
+          "name": "LITALICOワークス広島海田市",
+          "prefecture": "広島県",
+          "address": "広島県安芸郡海田町窪町2-14　ハンドウビル２F"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯワークス沼津",
+          "prefecture": "静岡県",
+          "address": "静岡県沼津市大手町１丁目１番３号沼津産業ビル７Ｆ"
+        },
+        {
+          "name": "LITALICOワークス札幌大通東",
+          "prefecture": "北海道",
+          "address": "北海道札幌市中央区北一条東２−５−８創成パークビル２階"
+        },
+        {
+          "name": "LITALICOワークスすすきの",
+          "prefecture": "北海道",
+          "address": "北海道札幌市中央区南三条西１丁目１−１南３西１ビル　３階"
+        },
+        {
+          "name": "LITALICOワークス琴似",
+          "prefecture": "北海道",
+          "address": "北海道札幌市西区琴似１条２丁目５−６番ダイヤパレス琴似１階"
+        },
+        {
+          "name": "LITALICOワークス札幌駅南",
+          "prefecture": "北海道",
+          "address": "北海道札幌市中央区北３条西２丁目１０−２札幌HSビル７F"
+        },
+        {
+          "name": "LITALICOワークス新さっぽろ第２",
+          "prefecture": "北海道",
+          "address": "北海道札幌市厚別区厚別中央二条５丁目３番３１号新札幌第一生命ビルディング4F"
+        },
+        {
+          "name": "LITALICOワークス札幌大通",
+          "prefecture": "北海道",
+          "address": "北海道札幌市中央区南１条西５丁目２０福祉郵政札幌第一ビル６Ｆ"
+        },
+        {
+          "name": "LITALICOワークス札幌",
+          "prefecture": "北海道",
+          "address": "北海道札幌市北区北六条西４丁目２−７Ｊ１札幌北口ビル８階"
+        },
+        {
+          "name": "LITALICOワークス新さっぽろ",
+          "prefecture": "北海道",
+          "address": "北海道札幌市厚別区厚別中央１条６−２−１５新札幌センタービル４階"
+        },
+        {
+          "name": "LITALICOワークス仙台みやぎの",
+          "prefecture": "宮城県",
+          "address": "宮城県仙台市宮城野区榴岡二丁目2番23号名掛丁パルス熊林ビル3階"
+        },
+        {
+          "name": "LITALICOワークス仙台青葉",
+          "prefecture": "宮城県",
+          "address": "宮城県仙台市青葉区中央4-10-3JMFビル仙台01　8階"
+        },
+        {
+          "name": "LITALICOワークス仙台東口",
+          "prefecture": "宮城県",
+          "address": "宮城県仙台市宮城野区榴岡二丁目３番１５号花本ビル２階"
+        },
+        {
+          "name": "LITALICOワークス那須塩原",
+          "prefecture": "栃木県",
+          "address": "栃木県那須塩原市高砂町1-5"
+        },
+        {
+          "name": "LITALICOワークス和光",
+          "prefecture": "埼玉県",
+          "address": "埼玉県和光市本町1-17齋藤ビル３階"
+        },
+        {
+          "name": "LITALICOワークス春日部",
+          "prefecture": "埼玉県",
+          "address": "埼玉県春日部市中央一丁目３番地３アーバンビル1階"
+        },
+        {
+          "name": "LITALICOワークス草加",
+          "prefecture": "埼玉県",
+          "address": "埼玉県草加市高砂2丁目9−2アコス北館Nビル5F"
+        },
+        {
+          "name": "LITALICOワークス所沢",
+          "prefecture": "埼玉県",
+          "address": "埼玉県所沢市宮本町２−１１−１１ＭＯＡ５　１階"
+        },
+        {
+          "name": "LITALICOワークス大宮西口",
+          "prefecture": "埼玉県",
+          "address": "埼玉県さいたま市大宮区桜木町2-474グランファースト大宮１F"
+        },
+        {
+          "name": "LITALICOワークス武蔵浦和",
+          "prefecture": "埼玉県",
+          "address": "埼玉県さいたま市南区沼影1-10-1ラムザ4Ｆ"
+        },
+        {
+          "name": "LITALICOワークスさいたま浦和",
+          "prefecture": "埼玉県",
+          "address": "埼玉県さいたま市中央区１−３−３埼大通りメディカルビル４階"
+        },
+        {
+          "name": "LITALICOワークス大宮",
+          "prefecture": "埼玉県",
+          "address": "埼玉県さいたま市大宮区下町１−４２−２TS-5BLDG. 5F"
+        },
+        {
+          "name": "LITALICOワークス川口",
+          "prefecture": "埼玉県",
+          "address": "埼玉県川口市栄町３−１−１４川口三栄ビル６Ｆ　Ｄ号室"
+        },
+        {
+          "name": "LITALICOワークス南越谷",
+          "prefecture": "埼玉県",
+          "address": "埼玉県越谷市南越谷1-2875-2南越谷ローヤルコーポ1F"
+        },
+        {
+          "name": "LITALICOワークス松戸西口中通",
+          "prefecture": "千葉県",
+          "address": "千葉県松戸市松戸１８３４−１５キュービック松戸ビル１Ｆ"
+        },
+        {
+          "name": "LITALICOワークス京成津田沼",
+          "prefecture": "千葉県",
+          "address": "千葉県習志野市津田沼4−10−35ガレッド京成津田沼駅前ビル3階"
+        },
+        {
+          "name": "LITALICOワークス行徳",
+          "prefecture": "千葉県",
+          "address": "千葉県市川市行徳駅前2-1-10行徳トシオビル4階"
+        },
+        {
+          "name": "LITALICOワークス松戸",
+          "prefecture": "千葉県",
+          "address": "千葉県松戸市松戸１３０７の１松戸ビル５Ｆ"
+        },
+        {
+          "name": "LITALICOワークス千葉中央公園",
+          "prefecture": "千葉県",
+          "address": "千葉県千葉市中央区富士見1-15-8RC千葉ビル９階Ｅ室"
+        },
+        {
+          "name": "LITALICOワークス千葉駅前",
+          "prefecture": "千葉県",
+          "address": "千葉県千葉市中央区富士見2-7-7　　富士見ハイネスビル４階"
+        },
+        {
+          "name": "LITALICOワークス千葉",
+          "prefecture": "千葉県",
+          "address": "千葉県千葉市中央区富士見2-15-11IMI千葉富士見ビル 2F"
+        },
+        {
+          "name": "LITALICOワークス船橋",
+          "prefecture": "千葉県",
+          "address": "千葉県船橋市東船橋3-33-3ストーンフィールドビル1Ｆ"
+        },
+        {
+          "name": "LITALICOワークス西船橋",
+          "prefecture": "千葉県",
+          "address": "千葉県船橋市本郷町475-1石井ビル4階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯワークス柏西口",
+          "prefecture": "千葉県",
+          "address": "千葉県柏市旭町１−２−１第１１関口ビル４F"
+        },
+        {
+          "name": "LITALICOワークス柏",
+          "prefecture": "千葉県",
+          "address": "千葉県柏市柏4-8-1柏東口金子ビル4F"
+        },
+        {
+          "name": "LITALICOワークス立川",
+          "prefecture": "東京都",
+          "address": "東京都立川市柴崎町３−５−９なとりビル５Ｆ"
+        },
+        {
+          "name": "LITALICOワークス秋葉原",
+          "prefecture": "東京都",
+          "address": "東京都千代田区神田佐久間河岸４６−３ＵＦビル５　６階"
+        },
+        {
+          "name": "LITALICOワークス新橋",
+          "prefecture": "東京都",
+          "address": "東京都港区新橋2-3-6中沢建物新橋ビル4階"
+        },
+        {
+          "name": "LITALICOワークス立川北",
+          "prefecture": "東京都",
+          "address": "東京都立川市曙町１−２１−１いちご立川ビル２階"
+        },
+        {
+          "name": "LITALICOワークス　高田馬場",
+          "prefecture": "東京都",
+          "address": "東京都新宿区高田馬場１−２５−３２１０８ビル４階"
+        },
+        {
+          "name": "LITALICOワークス日暮里",
+          "prefecture": "東京都",
+          "address": "東京都荒川区西日暮里２−２６−９STビル５階"
+        },
+        {
+          "name": "LITALICOワークス新宿三丁目",
+          "prefecture": "東京都",
+          "address": "東京都新宿区新宿新宿１−３６−１２サンカテリーナ４０２"
+        },
+        {
+          "name": "LITALICOワークス中目黒",
+          "prefecture": "東京都",
+          "address": "東京都目黒区中目黒1-3-8渡辺ビル4F"
+        },
+        {
+          "name": "LITALICOワークス三鷹",
+          "prefecture": "東京都",
+          "address": "東京都武蔵野市中町１−２４−１５メディパーク中町１階"
+        },
+        {
+          "name": "LITALICOワークス蒲田",
+          "prefecture": "東京都",
+          "address": "東京都大田区蒲田５−４４−５蒲田プライム２階"
+        },
+        {
+          "name": "LITALICOワークス錦糸町",
+          "prefecture": "東京都",
+          "address": "東京都墨田区錦糸１−１−５Ａビル４階"
+        },
+        {
+          "name": "LITALICOワークス五反田",
+          "prefecture": "東京都",
+          "address": "東京都品川区西五反田３−６−２０いちご西五反田ビル４Ｆ"
+        },
+        {
+          "name": "LITALICOワークス新宿南口",
+          "prefecture": "東京都",
+          "address": "東京都渋谷区代々木２−１３−８エスト新宿ビル７Ｆ"
+        },
+        {
+          "name": "LITALICOワークス大塚",
+          "prefecture": "東京都",
+          "address": "東京都豊島区東池袋２−１３−１４マルヤス機械ビル４Ｆ−Ｂ"
+        },
+        {
+          "name": "LITALICOワークス赤羽",
+          "prefecture": "東京都",
+          "address": "東京都北区赤羽西1-7-1パルロード３　８階"
+        },
+        {
+          "name": "LITALICOワークス水道橋",
+          "prefecture": "東京都",
+          "address": "東京都千代田区神田三崎町２−１７−２日宝水道橋ビル５Ｆ"
+        },
+        {
+          "name": "LITALICOワークス府中",
+          "prefecture": "東京都",
+          "address": "東京都府中市宮町１−４０ＫＤＸ府中ビル５Ｆ−Ｅ"
+        },
+        {
+          "name": "LITALICOワークス京王八王子",
+          "prefecture": "東京都",
+          "address": "東京都八王子市明神町４−７−１４八王子ONビル　４F"
+        },
+        {
+          "name": "LITALICOワークス八王子",
+          "prefecture": "東京都",
+          "address": "東京都八王子市旭町１２−４日本生命八王子ビル７Ｆ"
+        },
+        {
+          "name": "LITALICOワークス藤沢",
+          "prefecture": "神奈川県",
+          "address": "神奈川県藤沢市南藤沢5−9朝日生命藤沢ビル4階"
+        },
+        {
+          "name": "LITALICOワークス本厚木",
+          "prefecture": "神奈川県",
+          "address": "神奈川県厚木市中町２−２−２０オーイズミビル５階"
+        },
+        {
+          "name": "LITALICOワークス湘南藤沢",
+          "prefecture": "神奈川県",
+          "address": "神奈川県藤沢市鵠沼東１−１玉半ビル３階　３０２−１号室"
+        },
+        {
+          "name": "LITALICOワークス平塚",
+          "prefecture": "神奈川県",
+          "address": "神奈川県平塚市宮の前１−４パーレン平塚ビル４Ｆ"
+        },
+        {
+          "name": "LITALICOワークス海老名",
+          "prefecture": "神奈川県",
+          "address": "神奈川県海老名市中央３丁目１番地５号スカイビル・エビナ４Ｆ"
+        },
+        {
+          "name": "LITALICOワークス新横浜",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市港北区新横浜3-9-5新横浜第三東昇ビル4Ｆ"
+        },
+        {
+          "name": "LITALICOワークス横浜戸塚第２",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市戸塚区戸塚町118番地中山NSビル3階"
+        },
+        {
+          "name": "LITALICOワークス横浜西口第２",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市西区南幸2-11-7横浜西口藤澤ビル2F"
+        },
+        {
+          "name": "LITALICOワークス横浜西口第３",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市神奈川区台町17番地１マストビル５階"
+        },
+        {
+          "name": "LITALICOワークス二俣川",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市旭区二俣川2-57-2浜ビル1F"
+        },
+        {
+          "name": "LITALICOワークス横浜東口",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市神奈川区栄町２−９東部横浜ビル２Ｆ"
+        },
+        {
+          "name": "LITALICOワークス横浜西口",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市西区南幸２−２０−５KDX横浜リバーサイド４Ｆ"
+        },
+        {
+          "name": "LITALICOワークス横浜桜木町",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市中区桜木町１丁目１番地ぴおシティ 4F"
+        },
+        {
+          "name": "LITALICOワークス横浜関内",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市中区尾上町２−１８−１ＹＳビル５Ｆ"
+        },
+        {
+          "name": "LITALICOワークス横浜戸塚",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市戸塚区戸塚町６００３−５ＺＡ　　ＹＡＭＡＧＵＣＨＩ　Ｂ３"
+        },
+        {
+          "name": "LITALICOワークス横浜都筑",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市都筑区茅ケ崎中央４４−１１センター南駅前ビル１Ｆ"
+        },
+        {
+          "name": "LITALICOワークス新百合ヶ丘",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市麻生区万福寺1-2-3農住ビルアーシス2F　201号室"
+        },
+        {
+          "name": "LITALICOワークス登戸",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市多摩区登戸2498ウインドワード登戸1階"
+        },
+        {
+          "name": "LITALICOワークス川崎",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市川崎区東田町６−２ミヤダイビル８Ｆ"
+        },
+        {
+          "name": "LITALICOワークス川崎駅前南",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市川崎区小川町２−７昼間ビルＩＶＹＴＯＷＥＲ８Ｆ"
+        },
+        {
+          "name": "LITALICOワークス橋本",
+          "prefecture": "神奈川県",
+          "address": "神奈川県相模原市緑区橋本５丁目１３番３号ラーバン橋本１階"
+        },
+        {
+          "name": "LITALICOワークス相模大野",
+          "prefecture": "神奈川県",
+          "address": "神奈川県相模原市南区南区相模大野３−１７−２１川井ビル５Ｆ"
+        },
+        {
+          "name": "LITALICOワークス静岡第２",
+          "prefecture": "静岡県",
+          "address": "静岡県静岡市葵区御幸町4番2号ポワソンビル6Ｆ"
+        },
+        {
+          "name": "LITALICOワークス静岡",
+          "prefecture": "静岡県",
+          "address": "静岡県静岡市葵区御幸町３−２１ペガサート３階"
+        },
+        {
+          "name": "LITALICOワークス刈谷",
+          "prefecture": "愛知県",
+          "address": "愛知県刈谷市相生町1丁目30番地3第3セントラルビル2階201号"
+        },
+        {
+          "name": "LITALICOワークス高蔵寺",
+          "prefecture": "愛知県",
+          "address": "愛知県春日井市高蔵寺町四丁目８番６号ピボット高蔵寺駅前ビル４階"
+        },
+        {
+          "name": "LITALICOワークス金山新尾頭",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市熱田区新尾頭三丁目1番18号WIZ金山3F"
+        },
+        {
+          "name": "LITALICOワークス藤が丘",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市名東区小池町60番地　三和マンション1階"
+        },
+        {
+          "name": "LITALICOワークス大曽根",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市北区平安二丁目13番5号グランドメゾン平安通Ⅱ 1階"
+        },
+        {
+          "name": "LITALICOワークス名古屋栄",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市中区錦三丁目7番12号　錦クリスタルビル3Ｆ"
+        },
+        {
+          "name": "LITALICOワークス金山伏見通",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市熱田区新尾頭一丁目6番13号第19金山フクマルビル3階"
+        },
+        {
+          "name": "LITALICOワークス八事",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市昭和区広路町字北石坂102番地の54八事グランドビル7Ｆ"
+        },
+        {
+          "name": "LITALICOワークス名古屋岩塚",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市中村区岩塚本通2丁目1番地の2　ＭＳインテリジェンスビル1階東"
+        },
+        {
+          "name": "LITALICOワークス名古屋駅前",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市中村区椿町18番22号ロータスビル4Ｆ"
+        },
+        {
+          "name": "LITALICOワークス名古屋駅南",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市中村区名駅南一丁目17番25号アスタービル6階"
+        },
+        {
+          "name": "LITALICOワークス名古屋丸の内",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市中区丸の内二丁目16番3号丸の内A・Tビル1F"
+        },
+        {
+          "name": "LITALICOワークス名古屋金山",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市中区正木4-8-13金山ﾌｸﾏﾙﾋﾞﾙ2F"
+        },
+        {
+          "name": "LITALICOワークス名古屋千種",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市千種区内山三丁目10番17号今池ｾﾝﾄﾗﾙﾋﾞﾙ９階Ｅ号室"
+        },
+        {
+          "name": "LITALICOワークス名古屋野並",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市緑区鳴海町字小森8番地の6サンハウス野並1F"
+        },
+        {
+          "name": "LITALICOワークス豊橋",
+          "prefecture": "愛知県",
+          "address": "愛知県豊橋市中郷町118番地1豊橋サウスビル3階"
+        },
+        {
+          "name": "LITALICOワークス尾張一宮",
+          "prefecture": "愛知県",
+          "address": "愛知県一宮市栄3-6-14栄ﾋﾞﾙﾃﾞｲﾝｸﾞ8F"
+        },
+        {
+          "name": "LITALICOワークス烏丸御池",
+          "prefecture": "京都府",
+          "address": "京都府京都市中京区三条通烏丸西入御倉町64番地KBアネックスビル２F"
+        },
+        {
+          "name": "LITALICOワークス四条大宮",
+          "prefecture": "京都府",
+          "address": "京都府京都市下京区四条大宮東入ル立中町502四条ファーストビル8階"
+        },
+        {
+          "name": "LITALICOワークス伏見桃山",
+          "prefecture": "京都府",
+          "address": "京都府京都市伏見区御香宮門前町１８４−３蔵響館１階"
+        },
+        {
+          "name": "LITALICOワークス京都駅南",
+          "prefecture": "京都府",
+          "address": "京都府京都市南区東九条西山町２４−１−２メゾンクレール１Ｆ"
+        },
+        {
+          "name": "LITALICOワークス山科醍醐",
+          "prefecture": "京都府",
+          "address": "京都府京都市山科区椥辻草海道町３８−１９−２晃耀ビル１F"
+        },
+        {
+          "name": "LITALICOワークス四条河原町",
+          "prefecture": "京都府",
+          "address": "京都府京都市下京区河原町通松原上ル２丁目富永町３３８番地京阪四条河原町ビル２Ｆ"
+        },
+        {
+          "name": "LITALICOワークス京都駅前",
+          "prefecture": "京都府",
+          "address": "京都府京都市下京区七条油小路東入る大黒町２２７第２キョートビル１階"
+        },
+        {
+          "name": "LITALICOワークス石橋阪大前",
+          "prefecture": "大阪府",
+          "address": "大阪府池田市石橋２-１-１石橋リヴァーサイドビル１F"
+        },
+        {
+          "name": "LITALICOワークス住道",
+          "prefecture": "大阪府",
+          "address": "大阪府大東市赤井一丁目３-14こにしビル４F"
+        },
+        {
+          "name": "LITALICOワークス大阪梅田西",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市北区梅田二丁目５番１０号　学情梅田コンパス７階"
+        },
+        {
+          "name": "LITALICOワークス新大阪",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市淀川区西中島七丁目１番８号WINビル１階"
+        },
+        {
+          "name": "LITALICOワークス大阪あべの",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市阿倍野区阿倍野筋二丁目１番３７号東陽ビル６Ｆ"
+        },
+        {
+          "name": "LITALICOワークス大阪天王寺",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市阿倍野区阿倍野筋一丁目５番１号あべのルシアス１１Ｆ"
+        },
+        {
+          "name": "LITALICOワークス大阪梅田",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市北区梅田一丁目１番３号大阪駅前第３ビル２階３７号Ａ"
+        },
+        {
+          "name": "LITALICOワークス大阪梅田北",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市北区芝田一丁目１０番１０号芝田グランドビル４Ｆ"
+        },
+        {
+          "name": "LITALICOワークス大阪なんば",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市浪速区元町一丁目５番７号ナンバプラザビル８階８０４号室"
+        },
+        {
+          "name": "LITALICOワークス大阪京橋",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市都島区東野田町二丁目９番７号Ｋ２ビル６階"
+        },
+        {
+          "name": "LITALICOワークス大阪心斎橋",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市中央区南船場二丁目５番１２号クリスタファイブ９階"
+        },
+        {
+          "name": "LITALICOワークス高槻",
+          "prefecture": "大阪府",
+          "address": "大阪府高槻市高槻町１５−８ダイエツビル６階"
+        },
+        {
+          "name": "LITALICOワークス枚方第２",
+          "prefecture": "大阪府",
+          "address": "大阪府枚方市岡東町１８−１５キューブ枚方駅前２Ｆ"
+        },
+        {
+          "name": "LITALICOワークス枚方",
+          "prefecture": "大阪府",
+          "address": "大阪府枚方市岡東町１２番１号ひらかたサンプラザ１号館５階５０５・５０６号室"
+        },
+        {
+          "name": "LITALICOワークス芦屋",
+          "prefecture": "兵庫県",
+          "address": "兵庫県芦屋市松ノ内町１−１０ラリーブ芦屋１０５号室"
+        },
+        {
+          "name": "LITALICOワークス三宮",
+          "prefecture": "兵庫県",
+          "address": "兵庫県神戸市中央区八幡通４-１-11松竹ビル２F"
+        },
+        {
+          "name": "LITALICOワークス神戸",
+          "prefecture": "兵庫県",
+          "address": "兵庫県神戸市中央区中町通2-3-2三共神戸ツインビル2階"
+        },
+        {
+          "name": "LITALICOワークス姫路",
+          "prefecture": "兵庫県",
+          "address": "兵庫県姫路市南駅前町96-1サウスワンビル２Ｆ"
+        },
+        {
+          "name": "LITALICOワークス尼崎立花",
+          "prefecture": "兵庫県",
+          "address": "兵庫県尼崎市七松町1−2−1フェスタ立花北館7階　701Ｃ号室"
+        },
+        {
+          "name": "LITALICOワークス尼崎",
+          "prefecture": "兵庫県",
+          "address": "兵庫県尼崎市潮江1-3-35尼崎エピタ尼崎3階"
+        },
+        {
+          "name": "LITALICOワークス西宮",
+          "prefecture": "兵庫県",
+          "address": "兵庫県西宮市今在家町1-8　ケープヒルズ阪神西宮501号室"
+        },
+        {
+          "name": "LITALICOワークス西宮北口",
+          "prefecture": "兵庫県",
+          "address": "兵庫県西宮市甲風園１丁目９−８　陸ビル２F"
+        },
+        {
+          "name": "LITALICOワークス岡山駅南",
+          "prefecture": "岡山県",
+          "address": "岡山県岡山市北区柳町1丁目1番1号　住友生命岡山ビル1階"
+        },
+        {
+          "name": "LITALICOワークス岡山",
+          "prefecture": "岡山県",
+          "address": "岡山県岡山市北区野田屋町1-7-17野田屋町JN５Ｆ"
+        },
+        {
+          "name": "LITALICOワークス広島駅南",
+          "prefecture": "広島県",
+          "address": "広島県広島市南区金屋町２番１５号ＫＤＸ広島ビル１０Ｆ"
+        },
+        {
+          "name": "LITALICOワークス広島五日市",
+          "prefecture": "広島県",
+          "address": "広島県広島市佐伯区旭園3-33アルティメイトｂｕｉｌｄｉｎｇ五日市駅前２０１"
+        },
+        {
+          "name": "LITALICOワークス広島",
+          "prefecture": "広島県",
+          "address": "広島県広島市東区光町一丁目１０番１９号日本生命広島光町ビル１階"
+        },
+        {
+          "name": "LITALICOワークス広島紙屋町",
+          "prefecture": "広島県",
+          "address": "広島県広島市中区基町12番3号COI広島紙屋町ビル9階"
+        },
+        {
+          "name": "LITALICOワークス広島横川",
+          "prefecture": "広島県",
+          "address": "広島県広島市西区横川町三丁目１２番１０号村上ビル３Ｆ"
+        },
+        {
+          "name": "LITALICOワークス小倉",
+          "prefecture": "福岡県",
+          "address": "福岡県北九州市小倉北区米町一丁目１番１号　小倉駅前ひびきビル５Ｆ"
+        },
+        {
+          "name": "LITALICOワークス北九州",
+          "prefecture": "福岡県",
+          "address": "福岡県北九州市戸畑区中本町８番１４号ＦＡＲＯ戸畑駅前ビル４Ｆ"
+        },
+        {
+          "name": "LITALICOワークス中洲川端",
+          "prefecture": "福岡県",
+          "address": "福岡県福岡市博多区中洲5丁目1-2　ＭＡ中洲川端5Ｆ"
+        },
+        {
+          "name": "LITALICOワークス博多",
+          "prefecture": "福岡県",
+          "address": "福岡県福岡市博多区祇園町４−６１ＦＯＲＥＣＡＳＴ博多祗園２Ｆ"
+        },
+        {
+          "name": "LITALICOワークス天神",
+          "prefecture": "福岡県",
+          "address": "福岡県福岡市中央区舞鶴１−１−３リクルート天神ビル２階"
+        },
+        {
+          "name": "LITALICOワークス福岡中央",
+          "prefecture": "福岡県",
+          "address": "福岡県福岡市中央区高砂1-24-20ちくぎん福岡ビル７F"
+        },
+        {
+          "name": "LITALICOワークス高千穂通",
+          "prefecture": "宮崎県",
+          "address": "宮崎県宮崎市広島一丁目18-13宮崎第一生命ビルディング新館1F"
+        },
+        {
+          "name": "LITALICOワークス宮崎",
+          "prefecture": "宮崎県",
+          "address": "宮崎県宮崎市柳丸町１５３番地１パティオ柳丸　Ａ棟２−３"
+        },
+        {
+          "name": "(リタリコ)　LITALICO　ワークス沖縄",
+          "prefecture": "沖縄県",
+          "address": "沖縄県沖縄市中央2-28-1沖縄市雇用促進等施設3階3-03（BCコザ）"
+        }
+      ]
+    },
+    "児童発達支援": {
+      "serviceName": "児童発達支援",
+      "totalFacilities": 16247,
+      "litalicoFacilities": 132,
+      "marketShare": 0.81,
+      "byPrefecture": [
+        {
+          "prefecture": "北海道",
+          "totalFacilities": 1183,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "青森県",
+          "totalFacilities": 123,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "岩手県",
+          "totalFacilities": 94,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "宮城県",
+          "totalFacilities": 184,
+          "litalicoFacilities": 1,
+          "marketShare": 0.5
+        },
+        {
+          "prefecture": "秋田県",
+          "totalFacilities": 47,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "山形県",
+          "totalFacilities": 84,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "福島県",
+          "totalFacilities": 209,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "茨城県",
+          "totalFacilities": 342,
+          "litalicoFacilities": 2,
+          "marketShare": 0.6
+        },
+        {
+          "prefecture": "栃木県",
+          "totalFacilities": 245,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "群馬県",
+          "totalFacilities": 194,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "埼玉県",
+          "totalFacilities": 843,
+          "litalicoFacilities": 19,
+          "marketShare": 2.3
+        },
+        {
+          "prefecture": "千葉県",
+          "totalFacilities": 880,
+          "litalicoFacilities": 8,
+          "marketShare": 0.9
+        },
+        {
+          "prefecture": "東京都",
+          "totalFacilities": 934,
+          "litalicoFacilities": 24,
+          "marketShare": 2.6
+        },
+        {
+          "prefecture": "神奈川県",
+          "totalFacilities": 933,
+          "litalicoFacilities": 36,
+          "marketShare": 3.9
+        },
+        {
+          "prefecture": "新潟県",
+          "totalFacilities": 133,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "富山県",
+          "totalFacilities": 88,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "石川県",
+          "totalFacilities": 137,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "福井県",
+          "totalFacilities": 57,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "山梨県",
+          "totalFacilities": 76,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "長野県",
+          "totalFacilities": 159,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "岐阜県",
+          "totalFacilities": 234,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "静岡県",
+          "totalFacilities": 331,
+          "litalicoFacilities": 1,
+          "marketShare": 0.3
+        },
+        {
+          "prefecture": "愛知県",
+          "totalFacilities": 1159,
+          "litalicoFacilities": 6,
+          "marketShare": 0.5
+        },
+        {
+          "prefecture": "三重県",
+          "totalFacilities": 253,
+          "litalicoFacilities": 1,
+          "marketShare": 0.4
+        },
+        {
+          "prefecture": "滋賀県",
+          "totalFacilities": 111,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "京都府",
+          "totalFacilities": 161,
+          "litalicoFacilities": 2,
+          "marketShare": 1.2
+        },
+        {
+          "prefecture": "大阪府",
+          "totalFacilities": 2106,
+          "litalicoFacilities": 18,
+          "marketShare": 0.9
+        },
+        {
+          "prefecture": "兵庫県",
+          "totalFacilities": 719,
+          "litalicoFacilities": 5,
+          "marketShare": 0.7
+        },
+        {
+          "prefecture": "奈良県",
+          "totalFacilities": 263,
+          "litalicoFacilities": 2,
+          "marketShare": 0.8
+        },
+        {
+          "prefecture": "和歌山県",
+          "totalFacilities": 114,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "鳥取県",
+          "totalFacilities": 50,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "島根県",
+          "totalFacilities": 48,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "岡山県",
+          "totalFacilities": 272,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "広島県",
+          "totalFacilities": 319,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "山口県",
+          "totalFacilities": 135,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "徳島県",
+          "totalFacilities": 164,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "香川県",
+          "totalFacilities": 121,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "愛媛県",
+          "totalFacilities": 138,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "高知県",
+          "totalFacilities": 65,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "福岡県",
+          "totalFacilities": 683,
+          "litalicoFacilities": 7,
+          "marketShare": 1.0
+        },
+        {
+          "prefecture": "佐賀県",
+          "totalFacilities": 162,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "長崎県",
+          "totalFacilities": 199,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "熊本県",
+          "totalFacilities": 260,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "大分県",
+          "totalFacilities": 187,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "宮崎県",
+          "totalFacilities": 121,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "鹿児島県",
+          "totalFacilities": 461,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "沖縄県",
+          "totalFacilities": 466,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        }
+      ],
+      "litalicoFacilityList": [
+        {
+          "name": "LITALICOジュニアなかもず教室",
+          "prefecture": "大阪府",
+          "address": "大阪府堺市北区中百舌鳥町二丁８３キラリ8-1ビル３階"
+        },
+        {
+          "name": "LITALICOジュニア堺東教室",
+          "prefecture": "大阪府",
+          "address": "大阪府堺市堺区翁橋町１丁１−１ミナルコビル１階"
+        },
+        {
+          "name": "LITALICOジュニアおおとり教室",
+          "prefecture": "大阪府",
+          "address": "大阪府堺市西区鳳中町3丁62‐30鳳ツインビルA棟101号室"
+        },
+        {
+          "name": "LITALICOジュニア四日市教室",
+          "prefecture": "三重県",
+          "address": "三重県四日市市諏訪栄町15-4新諏訪ビル4階"
+        },
+        {
+          "name": "LITALICOジュニアつくば教室",
+          "prefecture": "茨城県",
+          "address": "茨城県つくば市竹園2丁目8-16第一小竹園ビル1階"
+        },
+        {
+          "name": "LITALICOジュニアつくば桜教室",
+          "prefecture": "茨城県",
+          "address": "茨城県つくば市桜2丁目39-1ヴィラ・サンパティーク101"
+        },
+        {
+          "name": "LITALICOジュニア奈良王寺教室",
+          "prefecture": "奈良県",
+          "address": "奈良県北葛城郡王寺町王寺2-7-1王寺ピアザビル4階"
+        },
+        {
+          "name": "LITALICOジュニア新大宮教室",
+          "prefecture": "奈良県",
+          "address": "奈良県奈良市大宮町4丁目266−1三和大宮ビル201"
+        },
+        {
+          "name": "LITALICOジュニア春日原教室",
+          "prefecture": "福岡県",
+          "address": "福岡県春日市春日原北町4丁目20-2シヤンボール春日原1F　D号室"
+        },
+        {
+          "name": "LITALICOジュニア太宰府教室",
+          "prefecture": "福岡県",
+          "address": "福岡県太宰府市通古賀1丁目12-10オフィスパレア太宰府Ⅳ　B棟1号室"
+        },
+        {
+          "name": "LITATICOジュニア寝屋川教室",
+          "prefecture": "大阪府",
+          "address": "大阪府寝屋川市八坂町15−10　第一八坂ビル６階601号室"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア仙台五橋教室",
+          "prefecture": "宮城県",
+          "address": "宮城県仙台市青葉区五橋一丁目6番2号ＫＪビルディング7Ｆ"
+        },
+        {
+          "name": "LITALICOジュニア志木教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県志木市本町５−２５−２０ムクロジュビル６階"
+        },
+        {
+          "name": "LITALICOジュニア新所沢教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県所沢市松葉町11-1マルハビル３階"
+        },
+        {
+          "name": "LITALICOジュニア所沢教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県所沢市くすのき台3-18-10新明ビル南館６階"
+        },
+        {
+          "name": "LITALICOジュニアわらび教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県蕨市中央1-16-38森ビル1F"
+        },
+        {
+          "name": "LITALICOジュニアふじみ野教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県富士見市ふじみ野西３−１２−１ふじみ野リゾートビル３F　Ｂ室"
+        },
+        {
+          "name": "LITALICOジュニア春日部教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県春日部市中央１−５２−８昭和ビル第6 2階"
+        },
+        {
+          "name": "LITALICOジュニア戸田公園教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県戸田市下戸田1-18-2パティオ戸田公園102"
+        },
+        {
+          "name": "LITALICOジュニア新座教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県新座市野火止5丁目3番62号ジャルダンデグリシーヌ3階"
+        },
+        {
+          "name": "LITALICOジュニア三郷教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県三郷市三郷１丁目３番１号ＢＬＡＮＤＥ　ＭＩＳＡＴＯ１階"
+        },
+        {
+          "name": "LITALICOジュニア北朝霞教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県朝霞市西原１−２−２リーヴ北朝霞３階Ａ区画"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニアさいたま宮原教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県さいたま市北区宮原町２−１９−１加瀬ビル１９９　４階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア中浦和教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県さいたま市南区関１−１−１２ヤマギシ第２ビル２Ｆ"
+        },
+        {
+          "name": "LITALICOジュニア東浦和教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県さいたま市緑区東浦和５−９−７利根ビル1F 101号室"
+        },
+        {
+          "name": "LITALICOジュニア　与野教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県さいたま市浦和区上木崎２−２−１３　工藤ビル２階"
+        },
+        {
+          "name": "LITALICOジュニア大宮教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県さいたま市大宮区桜木町2-8-2第2金子ビル5階"
+        },
+        {
+          "name": "LITALICOジュニア川口教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県川口市栄町３−５−１　川口ミツワビル５F"
+        },
+        {
+          "name": "LITALICOジュニア鳩ヶ谷教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県川口市坂下町２−１−１０川田ビル２F"
+        },
+        {
+          "name": "LITALICOジュニア越谷教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県越谷市弥生町３丁目４３番エヌビル越谷３F"
+        },
+        {
+          "name": "LITALICOジュニア南越谷教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県越谷市南越谷一丁目１９番２号アバンセ南越谷３F"
+        },
+        {
+          "name": "LITALICOジュニア流山おおたかの森教室",
+          "prefecture": "千葉県",
+          "address": "千葉県流山市おおたかの森東１−５−１おおたかの森ファーストビル５階"
+        },
+        {
+          "name": "LITALICOジュニア行徳教室",
+          "prefecture": "千葉県",
+          "address": "千葉県市川市行徳駅前１丁目１３−４小林ビル２F"
+        },
+        {
+          "name": "LITALICOジュニア八千代台教室",
+          "prefecture": "千葉県",
+          "address": "千葉県八千代市八千代台東１−２−１５オリオンビル４F"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア松戸教室",
+          "prefecture": "千葉県",
+          "address": "千葉県松戸市本町２３−５土屋ビル６Ｆ"
+        },
+        {
+          "name": "LITALICOジュニア本八幡教室",
+          "prefecture": "千葉県",
+          "address": "千葉県市川市南八幡４−７−１２京成南八幡ビル９Ｆ"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア幕張本郷教室",
+          "prefecture": "千葉県",
+          "address": "千葉県千葉市花見川区幕張本郷１−２−２０ビレッジ１０５ビル　３Ｆ"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア　千葉教室",
+          "prefecture": "千葉県",
+          "address": "千葉県千葉市中央区弁天１−２−１０　千葉北口第一ビル5F"
+        },
+        {
+          "name": "LITALICOジュニア南船橋教室",
+          "prefecture": "千葉県",
+          "address": "千葉県船橋市若松2-2-11　パークホームズ南船橋1F"
+        },
+        {
+          "name": "LITALICOジュニア西武柳沢教室",
+          "prefecture": "東京都",
+          "address": "東京都西東京市保谷町５−８−１３カーサビアンカ2020　102-B"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア江戸川橋教室",
+          "prefecture": "東京都",
+          "address": "東京都新宿区山吹町３３７江戸川橋東誠ビル２階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア浮間舟渡教室",
+          "prefecture": "東京都",
+          "address": "東京都北区浮間２−２５−４グランパルク２号室"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア銀座新富町教室",
+          "prefecture": "東京都",
+          "address": "東京都中央区新富１−８−６２階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア尾久教室",
+          "prefecture": "東京都",
+          "address": "東京都北区昭和町１−４−７ファインフィールド東館１階１０１号室"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア六町教室",
+          "prefecture": "東京都",
+          "address": "東京都足立区六町２−３−３３カトルマーレ２０１号室"
+        },
+        {
+          "name": "LITALICOジュニアお茶の水教室",
+          "prefecture": "東京都",
+          "address": "東京都千代田区外神田２−２−１８東信御茶ノ水ビル２階"
+        },
+        {
+          "name": "LITALICOジュニア門前仲町教室",
+          "prefecture": "東京都",
+          "address": "東京都江東区福住１−１７−８　東亜門前仲町ビル４階"
+        },
+        {
+          "name": "LITALICOジュニア中目黒教室",
+          "prefecture": "東京都",
+          "address": "東京都目黒区上目黒１−３−７　ＶＯＲＴ代官山ビル１階"
+        },
+        {
+          "name": "LITALICOジュニア蒲田教室",
+          "prefecture": "東京都",
+          "address": "東京都大田区南蒲田１丁目１−１７　川口ビル３階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア高円寺教室",
+          "prefecture": "東京都",
+          "address": "東京都杉並区高円寺南２−７−１拓都ビル３Ｆ"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア東武練馬教室",
+          "prefecture": "東京都",
+          "address": "東京都練馬区北町2-14-6オーキッドレジデンス練馬北町1F"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア石神井公園教室",
+          "prefecture": "東京都",
+          "address": "東京都練馬区石神井町３−１９−１４ＭＳＰビル４階"
+        },
+        {
+          "name": "LITALICOジュニア立川南口教室",
+          "prefecture": "東京都",
+          "address": "東京都立川市柴崎町2-3-13エイティエイト立川デュオ2階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア大井町東口教室",
+          "prefecture": "東京都",
+          "address": "東京都品川区東大井５−１１−４栄隆ビル３階"
+        },
+        {
+          "name": "LITALICOジュニア自由が丘教室",
+          "prefecture": "東京都",
+          "address": "東京都世田谷区奥沢４−９−９　第二小幡ビル３階第二小幡ビル３階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア駒沢教室",
+          "prefecture": "東京都",
+          "address": "東京都世田谷区野沢２−３４−２　エマーレ駒沢大学２Ｆ"
+        },
+        {
+          "name": "LITALICOジュニア成城教室",
+          "prefecture": "東京都",
+          "address": "東京都世田谷区成城６−１３−２１　フェニックス成城２０１"
+        },
+        {
+          "name": "LITALICOジュニア巣鴨教室",
+          "prefecture": "東京都",
+          "address": "東京都豊島区巣鴨1-14-5第一松岡ビル2Ｆ"
+        },
+        {
+          "name": "LITALICOジュニア池袋西口教室",
+          "prefecture": "東京都",
+          "address": "東京都豊島区池袋２−４６−３CIMA１００ビル　2階"
+        },
+        {
+          "name": "LITALICOジュニア西日暮里教室",
+          "prefecture": "東京都",
+          "address": "東京都荒川区西日暮里５−２−１９　リレント第２西日暮里６階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア板橋教室",
+          "prefecture": "東京都",
+          "address": "東京都板橋区板橋１−４９−１　板橋センタービル３階板橋センタービル３階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア八王子北教室",
+          "prefecture": "東京都",
+          "address": "東京都八王子市明神町４−１４−１レジティ八王子２０２"
+        },
+        {
+          "name": "LITALICOジュニア八王子教室",
+          "prefecture": "東京都",
+          "address": "東京都八王子市東町３−１１　プレイム八王子ビル６階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア大船教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県鎌倉市大船一丁目１３番１０ヘリオドール大船２階２０１号室"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア茅ヶ崎教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県茅ヶ崎市幸町３丁目１OCEAN’S１１　４F"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア高座渋谷教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県大和市渋谷５−２２高座渋谷駅前複合ビルIKOZA ４Ｆ"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア大和教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県大和市中央５−２−２２中央５丁目ＫＳビル ２Ｆ ２０１号室"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア本厚木教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県厚木市中町三丁目６番１７号オーイズミホールディングス厚木ビル４階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア藤沢教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県藤沢市南藤沢２０−１８長塚第１ビル３Ｆ"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア海老名教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県海老名市中央２-１-１６センチュリー八芳4階"
+        },
+        {
+          "name": "LITALICOジュニア横浜東口教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市神奈川区金港町６−１８アーバンスクエアⅡ　６階"
+        },
+        {
+          "name": "LITALICOジュニア横浜西口教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市西区南幸二丁目１１番７号横浜西口藤澤ビル３階"
+        },
+        {
+          "name": "LITALICOジュニア綱島教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市港北区綱島東２−１２−１９福島ビル２階"
+        },
+        {
+          "name": "LITALICOジュニアたまプラーザ教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市青葉区美しが丘２−１６−８ベルビューたまプラーザ４階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア東戸塚教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市戸塚区品濃町542-6東戸塚東口ビルディング　４階"
+        },
+        {
+          "name": "LITALICOジュニア二俣川教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市旭区二俣川２−５７−４二俣川２５７ビル　３階"
+        },
+        {
+          "name": "LITALICOジュニアセンター南教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市都筑区茅ケ崎中央３−１センター南ビル１階"
+        },
+        {
+          "name": "LITALICOジュニア新横浜教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市港北区新横浜２−２−３新横浜第１竹生ビル２階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア桜木町教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市中区野毛町３−１１８蓮華堂ビル４階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア関内教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市中区尾上町２−１８ＹＳビル３階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア金沢文庫教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市金沢区泥亀１−１−１大京ビルディング４階"
+        },
+        {
+          "name": "LITALICOジュニア中山教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市緑区台村町292ユニオンビル3階"
+        },
+        {
+          "name": "LITALICOジュニア新杉田教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市磯子区新杉田町8-8ハマシップモール3F 6号室"
+        },
+        {
+          "name": "LITALICOジュニア反町教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市神奈川区泉町1-8タガミ・サンビューティービル２階"
+        },
+        {
+          "name": "LITALICOジュニア東戸塚駅前教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市戸塚区品濃町５３８-１０岡島ビル４階"
+        },
+        {
+          "name": "LITALICOジュニア鶴見教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市鶴見区鶴見中央２−４−１６WELL COURT TURUMI ２０２号室"
+        },
+        {
+          "name": "LITALICOジュニア戸塚教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市戸塚区戸塚町１１８番地中山ＮＳビル４F"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア大倉山教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市港北区大倉山３−５−５大倉山飯田ビル２階２０３号室"
+        },
+        {
+          "name": "LITALICOジュニア川崎教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市川崎区小川町１１−１０第10平沼ビル3階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア溝の口教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市高津区二子４−４−７TSビルディング３階"
+        },
+        {
+          "name": "LITALICOジュニア川崎駅前教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市川崎区小川町2-7アイヴィタワー4階"
+        },
+        {
+          "name": "LITALICOジュニア武蔵溝ノ口教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市高津区久本3丁目3番3号ザ・344ビル201"
+        },
+        {
+          "name": "LITALICOジュニア中野島教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市多摩区中野島６−１１−１エクラージュ1階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア武蔵新城教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市中原区新城1002古澤店舗1階"
+        },
+        {
+          "name": "LITALICOジュニア武蔵小杉教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市中原区小杉御殿町2-69-1インテック小杉コーポビル２階"
+        },
+        {
+          "name": "LITALICOジュニア橋本教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県相模原市緑区西橋本５丁目１番１号ラ・フロールＳＣ４階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア相模原駅前教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県相模原市中央区相模原１丁目２番１７号クリスタルサガミハラ６階"
+        },
+        {
+          "name": "LITALICOジュニア相模大野教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県相模原市南区相模大野３丁目１４番７号　ＳｏｆｔＢＬＤ．５Ｆ"
+        },
+        {
+          "name": "LITALICOジュニア相模大野北口教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県相模原市南区相模大野３丁目１４番１６号　第一足立ビル５階"
+        },
+        {
+          "name": "LITALICOジュニア静岡教室",
+          "prefecture": "静岡県",
+          "address": "静岡県静岡市駿河区南町５−２１濱一ビル４F"
+        },
+        {
+          "name": "LITALICOジュニア名駅教室",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市中村区竹橋町28番地5号シーズンコート名駅西1F"
+        },
+        {
+          "name": "LITALICOジュニア新瑞橋教室",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市瑞穂区洲山町2丁目32番地の１新瑞の杜ビル　２F"
+        },
+        {
+          "name": "LITALICOジュニア一社教室",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市名東区一社二丁目170番地グランメール一社1階3号室"
+        },
+        {
+          "name": "LITALICOジュニア平安通教室",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市北区平安二丁目１番10号第五水光ビル　502号室"
+        },
+        {
+          "name": "LITALICOジュニア有松教室",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市緑区鳴海町字有松裏200番地イオンタウン有松2階"
+        },
+        {
+          "name": "LITALICOジュニア名古屋伏見教室",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市中区錦二丁目17番28号CK15伏見ビル４F"
+        },
+        {
+          "name": "LITALICOジュニア烏丸教室",
+          "prefecture": "京都府",
+          "address": "京都府京都市下京区童侍者町161綾小路スクエア９階"
+        },
+        {
+          "name": "LITALICOジュニア三条教室",
+          "prefecture": "京都府",
+          "address": "京都府京都市東山区二町目７３−２京都三条大橋ビル２階"
+        },
+        {
+          "name": "LITALICOジュニア茨木教室",
+          "prefecture": "大阪府",
+          "address": "大阪府茨木市春日二丁目２番１２号茨木セントラルビル３０１"
+        },
+        {
+          "name": "LITALICOジュニア大日教室",
+          "prefecture": "大阪府",
+          "address": "大阪府門真市向島町３番35号ベアーズB棟1階　区画番号7"
+        },
+        {
+          "name": "ＬＩＴＡＬＩCＯジュニア池田教室",
+          "prefecture": "大阪府",
+          "address": "大阪府池田市姫室町８番７号広瀬ハイツ１階"
+        },
+        {
+          "name": "LITALICOジュニア心斎橋教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市中央区南船場三丁目２番２２号　おおきに南船場ビル９０３号室"
+        },
+        {
+          "name": "LITALICOジュニア此花教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市此花区四貫島一丁目５番１１号セントビル４階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニアあびこ教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市住吉区我孫子東二丁目６番２９号　サンシャイン寿３０３号"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア平野教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市平野区背戸口五丁目３番６号フウキレジデンス平野１階"
+        },
+        {
+          "name": "LITALICOジュニア天王寺教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市阿倍野区阿倍野筋一丁目３番１５号　阿倍野共同ビル　５階"
+        },
+        {
+          "name": "LITALICOジュニア新大阪教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市東淀川区東中島一丁目６番１４号新大阪第２日大ビル４階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア梅田教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市北区堂島2丁目3番9号　SURE堂島ビル５Ｆ"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア京橋教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市都島区東野田町二丁目９番７号　Ｋ２ビル　８Ｆ"
+        },
+        {
+          "name": "LITALICOジュニアなんば・日本橋教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市中央区日本橋一丁目１７番１７号ピカソ日本一ビル４階"
+        },
+        {
+          "name": "LITALICOジュニア高槻教室",
+          "prefecture": "大阪府",
+          "address": "大阪府高槻市城北町2-3-2　クロダビル4F"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア枚方教室",
+          "prefecture": "大阪府",
+          "address": "大阪府枚方市西禁野2-5-50サニーカーサ1階101号"
+        },
+        {
+          "name": "LITALICOジュニア新長田教室",
+          "prefecture": "兵庫県",
+          "address": "兵庫県神戸市長田区西尻池町1丁目2-23暁星あかつきビル4F"
+        },
+        {
+          "name": "LITALICOジュニア摂津本山教室",
+          "prefecture": "兵庫県",
+          "address": "兵庫県神戸市東灘区本山南町8-6-26東神戸センタービルWEST2階SD号室"
+        },
+        {
+          "name": "LITALICOジュニア三宮教室",
+          "prefecture": "兵庫県",
+          "address": "兵庫県神戸市中央区磯上通４丁目１−１４　三宮スカイビル３Ｆ"
+        },
+        {
+          "name": "LITALICOジュニア姫路教室",
+          "prefecture": "兵庫県",
+          "address": "兵庫県姫路市南駅前町96番地1サウスワンビル6階"
+        },
+        {
+          "name": "LITALICOジュニア西宮教室",
+          "prefecture": "兵庫県",
+          "address": "兵庫県西宮市西福町５−１６ＮＯＭＵＲＡビル３階Ｈ号室"
+        },
+        {
+          "name": "LITALICOジュニア香春口三萩野教室",
+          "prefecture": "福岡県",
+          "address": "福岡県北九州市小倉北区黄金一丁目６番１３号　アルバース三萩野１Ｆ"
+        },
+        {
+          "name": "LITALICOジュニア福岡中央教室",
+          "prefecture": "福岡県",
+          "address": "福岡県福岡市中央区高砂１丁目２−４　２階２０１号室"
+        },
+        {
+          "name": "LITALICOジュニア姪浜教室",
+          "prefecture": "福岡県",
+          "address": "福岡県福岡市西区愛宕浜1丁目3-1梅薬局201号室"
+        },
+        {
+          "name": "LITALICOジュニア福岡別府教室",
+          "prefecture": "福岡県",
+          "address": "福岡県福岡市城南区鳥飼5丁目2-38Ragsquare鳥飼1階"
+        },
+        {
+          "name": "LITALICOジュニア香椎教室",
+          "prefecture": "福岡県",
+          "address": "福岡県福岡市東区香椎駅前1丁目18-5フロスター香椎1階101号室"
+        }
+      ]
+    },
+    "放課後等デイサービス": {
+      "serviceName": "放課後等デイサービス",
+      "totalFacilities": 24156,
+      "litalicoFacilities": 50,
+      "marketShare": 0.21,
+      "byPrefecture": [
+        {
+          "prefecture": "北海道",
+          "totalFacilities": 1422,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "青森県",
+          "totalFacilities": 225,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "岩手県",
+          "totalFacilities": 173,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "宮城県",
+          "totalFacilities": 383,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "秋田県",
+          "totalFacilities": 110,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "山形県",
+          "totalFacilities": 147,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "福島県",
+          "totalFacilities": 318,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "茨城県",
+          "totalFacilities": 535,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "栃木県",
+          "totalFacilities": 410,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "群馬県",
+          "totalFacilities": 387,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "埼玉県",
+          "totalFacilities": 1147,
+          "litalicoFacilities": 8,
+          "marketShare": 0.7
+        },
+        {
+          "prefecture": "千葉県",
+          "totalFacilities": 1101,
+          "litalicoFacilities": 3,
+          "marketShare": 0.3
+        },
+        {
+          "prefecture": "東京都",
+          "totalFacilities": 1330,
+          "litalicoFacilities": 5,
+          "marketShare": 0.4
+        },
+        {
+          "prefecture": "神奈川県",
+          "totalFacilities": 1343,
+          "litalicoFacilities": 16,
+          "marketShare": 1.2
+        },
+        {
+          "prefecture": "新潟県",
+          "totalFacilities": 260,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "富山県",
+          "totalFacilities": 169,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "石川県",
+          "totalFacilities": 173,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "福井県",
+          "totalFacilities": 130,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "山梨県",
+          "totalFacilities": 149,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "長野県",
+          "totalFacilities": 298,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "岐阜県",
+          "totalFacilities": 385,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "静岡県",
+          "totalFacilities": 709,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "愛知県",
+          "totalFacilities": 1585,
+          "litalicoFacilities": 1,
+          "marketShare": 0.1
+        },
+        {
+          "prefecture": "三重県",
+          "totalFacilities": 348,
+          "litalicoFacilities": 1,
+          "marketShare": 0.3
+        },
+        {
+          "prefecture": "滋賀県",
+          "totalFacilities": 250,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "京都府",
+          "totalFacilities": 372,
+          "litalicoFacilities": 1,
+          "marketShare": 0.3
+        },
+        {
+          "prefecture": "大阪府",
+          "totalFacilities": 2332,
+          "litalicoFacilities": 9,
+          "marketShare": 0.4
+        },
+        {
+          "prefecture": "兵庫県",
+          "totalFacilities": 1179,
+          "litalicoFacilities": 2,
+          "marketShare": 0.2
+        },
+        {
+          "prefecture": "奈良県",
+          "totalFacilities": 334,
+          "litalicoFacilities": 1,
+          "marketShare": 0.3
+        },
+        {
+          "prefecture": "和歌山県",
+          "totalFacilities": 152,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "鳥取県",
+          "totalFacilities": 91,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "島根県",
+          "totalFacilities": 135,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "岡山県",
+          "totalFacilities": 342,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "広島県",
+          "totalFacilities": 703,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "山口県",
+          "totalFacilities": 214,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "徳島県",
+          "totalFacilities": 176,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "香川県",
+          "totalFacilities": 131,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "愛媛県",
+          "totalFacilities": 269,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "高知県",
+          "totalFacilities": 117,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "福岡県",
+          "totalFacilities": 1329,
+          "litalicoFacilities": 3,
+          "marketShare": 0.2
+        },
+        {
+          "prefecture": "佐賀県",
+          "totalFacilities": 245,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "長崎県",
+          "totalFacilities": 342,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "熊本県",
+          "totalFacilities": 464,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "大分県",
+          "totalFacilities": 290,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "宮崎県",
+          "totalFacilities": 248,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "鹿児島県",
+          "totalFacilities": 610,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        },
+        {
+          "prefecture": "沖縄県",
+          "totalFacilities": 594,
+          "litalicoFacilities": 0,
+          "marketShare": 0.0
+        }
+      ],
+      "litalicoFacilityList": [
+        {
+          "name": "LITALICOジュニアおおとり教室",
+          "prefecture": "大阪府",
+          "address": "大阪府堺市西区鳳中町3丁62‐30鳳ツインビルA棟101号室"
+        },
+        {
+          "name": "LITALICOジュニア四日市教室",
+          "prefecture": "三重県",
+          "address": "三重県四日市市諏訪栄町15-4新諏訪ビル4階"
+        },
+        {
+          "name": "LITALICOジュニア新大宮教室",
+          "prefecture": "奈良県",
+          "address": "奈良県奈良市大宮町四丁目266-1三和大宮ビル201"
+        },
+        {
+          "name": "LITALICOジュニア太宰府教室",
+          "prefecture": "福岡県",
+          "address": "福岡県太宰府市通古賀1丁目12-10オフィスパレア太宰府ⅠⅤB棟1号室"
+        },
+        {
+          "name": "LITALICOジュニア新所沢教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県所沢市松葉町11-1マルハビル３階"
+        },
+        {
+          "name": "LITALICOジュニア所沢教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県所沢市くすのき台3-18-10新明ビル南館６階"
+        },
+        {
+          "name": "LITALICOジュニア戸田公園教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県戸田市下戸田1-18-2　パティオ戸田公園102"
+        },
+        {
+          "name": "LITALICOジュニア新座教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県新座市野火止5丁目3番62号ジャルダンデグリシーヌ3階"
+        },
+        {
+          "name": "LITALICOジュニア三郷教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県三郷市三郷１丁目３番１号ＢＬＡＮＤＥ　ＭＩＳＡＴＯ１階"
+        },
+        {
+          "name": "LITALICOジュニア大宮教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県さいたま市大宮区桜木町2-8-2第2金子ビル5階"
+        },
+        {
+          "name": "LITALICOジュニア越谷教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県越谷市弥生町３丁目４３番エヌビル越谷３F"
+        },
+        {
+          "name": "LITALICOジュニア南越谷教室",
+          "prefecture": "埼玉県",
+          "address": "埼玉県越谷市南越谷一丁目１９番２号アバンセ南越谷３F"
+        },
+        {
+          "name": "LITALICOジュニア八千代台教室",
+          "prefecture": "千葉県",
+          "address": "千葉県八千代市八千代台東１−２−１５オリオンビル3F"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア幕張本郷教室",
+          "prefecture": "千葉県",
+          "address": "千葉県千葉市花見川区幕張本郷１−２−２０ビレッジ１０５ビル　３Ｆ"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア　千葉教室",
+          "prefecture": "千葉県",
+          "address": "千葉県千葉市中央区弁天１−２−１０　千葉北口第一ビル５階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア浮間舟渡教室",
+          "prefecture": "東京都",
+          "address": "東京都北区浮間２−２５−４グランパルク２号室"
+        },
+        {
+          "name": "LITALICOジュニアお茶の水教室",
+          "prefecture": "東京都",
+          "address": "東京都千代田区外神田２−２−１８東信御茶の水ビル２階"
+        },
+        {
+          "name": "LITALICOジュニア立川南口教室",
+          "prefecture": "東京都",
+          "address": "東京都立川市柴崎町2-3-13エイティエイト立川デュオ2階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア駒沢教室",
+          "prefecture": "東京都",
+          "address": "東京都世田谷区野沢２−３４−２　エマーレ駒沢大学２Ｆ"
+        },
+        {
+          "name": "LITALICOジュニア池袋西口教室",
+          "prefecture": "東京都",
+          "address": "東京都豊島区池袋２−４６−３CIMA１００ビル　2階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア高座渋谷教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県大和市渋谷５−２２高座渋谷駅前複合ビルIKOZA ４Ｆ"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア本厚木教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県厚木市中町三丁目６番１７号オーイズミホールディングス厚木ビル４階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア茅ヶ崎教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県茅ヶ崎市幸町３丁目１ＯＣＥＡＮ’Ｓ１１　４Ｆ"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア藤沢教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県藤沢市南藤沢２０−１８長塚第一ビル3F"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア海老名教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県海老名市中央２−１−１６センチュリー八芳4階"
+        },
+        {
+          "name": "LITALICOジュニア横浜東口教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市神奈川区金港町６−１８アーバンスクエアⅡ　６階"
+        },
+        {
+          "name": "LITALICOジュニア綱島教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市港北区綱島東２−１２−１９福島ビル２階"
+        },
+        {
+          "name": "LITALICOジュニアセンター南教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市都筑区茅ケ崎中央３−１センター南ビル１階"
+        },
+        {
+          "name": "LITALICOジュニア新横浜教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市港北区新横浜２−２−３新横浜第１竹生ビル２階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア桜木町教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市中区野毛町３−１１８蓮華堂ビル４階"
+        },
+        {
+          "name": "LITALICOジュニア二俣川教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市旭区二俣川２−５７−４二俣川２５７ビル　３階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア関内教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市中区尾上町２−１８ＹＳビル３階"
+        },
+        {
+          "name": "LITALICOジュニア鶴見教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県横浜市鶴見区鶴見中央２−４−１６WELL COURT TURUMI ２０２号室"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア川崎駅前教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市川崎区小川町2-7アイヴィタワー4階"
+        },
+        {
+          "name": "LITALICOジュニア武蔵小杉教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県川崎市中原区小杉御殿町２−６９−１　インテック小杉コーポビル２階"
+        },
+        {
+          "name": "LITALICOジュニア相模大野北口教室",
+          "prefecture": "神奈川県",
+          "address": "神奈川県相模原市南区南区相模大野３丁目１４番１６号　第一足立ビル５階"
+        },
+        {
+          "name": "LITALICOジュニア名古屋伏見教室",
+          "prefecture": "愛知県",
+          "address": "愛知県名古屋市中区錦二丁目17番28号CK15伏見ビル４F"
+        },
+        {
+          "name": "LITALICOジュニア三条教室",
+          "prefecture": "京都府",
+          "address": "京都府京都市東山区二町目７３−２　京都三条大橋ビル２階"
+        },
+        {
+          "name": "LITALICOジュニア心斎橋教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市中央区南船場三丁目２番２２号　おおきに南船場ビル９０３号室"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニアあびこ教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市住吉区我孫子東二丁目６番２９号　サンシャイン寿３０３号"
+        },
+        {
+          "name": "LITALICOジュニア天王寺教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市阿倍野区阿倍野筋一丁目３番１５号　阿倍野共同ビル　5階"
+        },
+        {
+          "name": "LITALICOジュニア新大阪教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市東淀川区東中島一丁目６番１４号新大阪第２日大ビル４階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア梅田教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市北区堂島二丁目３番９号　ＳＵＲＥ堂島ビル５Ｆ"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア京橋教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市都島区東野田町二丁目９番７号　Ｋ２ビル　８Ｆ"
+        },
+        {
+          "name": "LITALICOジュニアなんば・日本橋教室",
+          "prefecture": "大阪府",
+          "address": "大阪府大阪市中央区日本橋一丁目１７番１７号ピカソ日本一ビル４階"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア枚方教室",
+          "prefecture": "大阪府",
+          "address": "大阪府枚方市西禁野2-5-50サニーカーサ1階101号"
+        },
+        {
+          "name": "LITALICOジュニア三宮教室",
+          "prefecture": "兵庫県",
+          "address": "兵庫県神戸市中央区磯上通４丁目１−１４　三宮スカイビル３Ｆ"
+        },
+        {
+          "name": "LITALICOジュニア西宮教室",
+          "prefecture": "兵庫県",
+          "address": "兵庫県西宮市西福町５−１６ＮＯＭＵＲＡビル３階Ｈ号室"
+        },
+        {
+          "name": "LITALICOジュニア香春口三萩野教室",
+          "prefecture": "福岡県",
+          "address": "福岡県北九州市小倉北区黄金一丁目６番１３号アルバース三萩野１F"
+        },
+        {
+          "name": "ＬＩＴＡＬＩＣＯジュニア博多千代教室",
+          "prefecture": "福岡県",
+          "address": "福岡県福岡市博多区千代３丁目４８−４アバンダント２１　２Ｆ"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "totalLitalicoFacilities": 339,
+    "prefecturesWithPresence": 23
+  }
+}

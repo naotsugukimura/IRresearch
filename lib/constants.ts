@@ -195,6 +195,7 @@ export const COMPANY_SECTIONS = [
   { id: "financials", label: "財務分析" },
   { id: "earnings", label: "決算インサイト" },
   { id: "profitStructure", label: "収益構造" },
+  { id: "areaAnalysis", label: "エリア分析" },
   { id: "advantage", label: "競争優位性" },
   { id: "insights", label: "SMSへの示唆" },
 ] as const;

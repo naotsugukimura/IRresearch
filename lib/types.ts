@@ -313,6 +313,42 @@ export interface CompanyEarningsInsights {
   documents: EarningsDocument[];
 }
 
+// ============================================================
+// エリア分析（WAMNETデータ）
+// ============================================================
+
+export interface AreaPrefectureData {
+  prefecture: string;
+  totalFacilities: number;
+  litalicoFacilities: number;
+  marketShare: number;
+}
+
+export interface AreaFacility {
+  name: string;
+  prefecture: string;
+  address: string;
+}
+
+export interface AreaServiceData {
+  serviceName: string;
+  totalFacilities: number;
+  litalicoFacilities: number;
+  marketShare: number;
+  byPrefecture: AreaPrefectureData[];
+  litalicoFacilityList: AreaFacility[];
+}
+
+export interface CompanyAreaAnalysis {
+  companyId: string;
+  source: string;
+  services: Record<string, AreaServiceData>;
+  summary: {
+    totalLitalicoFacilities: number;
+    prefecturesWithPresence: number;
+  };
+}
+
 export interface Glossary {
   common: GlossaryCategory;
   retail: GlossaryCategory;

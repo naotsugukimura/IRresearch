@@ -8,6 +8,7 @@ import notesData from "@/data/notes.json";
 import businessPlansData from "@/data/business-plans.json";
 import glossaryData from "@/data/glossary.json";
 import earningsInsightsData from "@/data/earnings-insights.json";
+import areaAnalysisData from "@/data/litalico-area-analysis.json";
 
 import type {
   Company,
@@ -21,6 +22,7 @@ import type {
   CompanyBusinessPlan,
   Glossary,
   CompanyEarningsInsights,
+  CompanyAreaAnalysis,
 } from "./types";
 
 // ============================================================
@@ -155,4 +157,19 @@ export function getEarningsInsightsByCompanyId(
   companyId: string
 ): CompanyEarningsInsights | undefined {
   return getAllEarningsInsights().find((e) => e.companyId === companyId);
+}
+
+// ============================================================
+// エリア分析（WAMNETデータ）
+// ============================================================
+
+export function getAreaAnalysis(): CompanyAreaAnalysis {
+  return areaAnalysisData as unknown as CompanyAreaAnalysis;
+}
+
+export function getAreaAnalysisByCompanyId(
+  companyId: string
+): CompanyAreaAnalysis | undefined {
+  const data = getAreaAnalysis();
+  return data.companyId === companyId ? data : undefined;
 }

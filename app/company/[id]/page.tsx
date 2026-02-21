@@ -12,6 +12,7 @@ import { CompetitiveAdvantage } from "@/components/company/CompetitiveAdvantage"
 import { SmsInsights } from "@/components/company/SmsInsights";
 import { EarningsInsightsSection } from "@/components/company/EarningsInsightsSection";
 import { ProfitStructureSection } from "@/components/company/ProfitStructureSection";
+import { AreaAnalysisSection } from "@/components/company/AreaAnalysisSection";
 import { EmptyState } from "@/components/shared/EmptyState";
 import {
   getCompanies,
@@ -23,6 +24,7 @@ import {
   getBusinessPlanByCompanyId,
   getBusinessPlansByCompanyId,
   getEarningsInsightsByCompanyId,
+  getAreaAnalysisByCompanyId,
 } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -62,6 +64,7 @@ export default async function CompanyDetailPage({
   const businessPlan = getBusinessPlanByCompanyId(id);
   const allBusinessPlans = getBusinessPlansByCompanyId(id);
   const earningsInsights = getEarningsInsightsByCompanyId(id);
+  const areaAnalysis = getAreaAnalysisByCompanyId(id);
 
   return (
     <div className="flex h-screen">
@@ -150,6 +153,15 @@ export default async function CompanyDetailPage({
                   <ProfitStructureSection
                     plan={businessPlan}
                     allPlans={allBusinessPlans}
+                    companyColor={company.brandColor}
+                  />
+                </section>
+              )}
+
+              {areaAnalysis && (
+                <section id="areaAnalysis">
+                  <AreaAnalysisSection
+                    data={areaAnalysis}
                     companyColor={company.brandColor}
                   />
                 </section>
