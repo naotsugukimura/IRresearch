@@ -4,6 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   LayoutDashboard,
+  Globe,
+  Building,
   Building2,
   GitCompareArrows,
   TrendingUp,
@@ -21,6 +23,8 @@ import { Separator } from "@/components/ui/separator";
 
 const ICON_MAP = {
   LayoutDashboard,
+  Globe,
+  Building,
   Building2,
   GitCompareArrows,
   TrendingUp,

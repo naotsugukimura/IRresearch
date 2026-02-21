@@ -40,6 +40,8 @@ export interface Company {
   brandColor: string;
   hasFullData: boolean;
   lastUpdated: string;
+  marketCap?: number; // 時価総額（億円）
+  recentTrend?: string; // 直近の動向
 }
 
 // ============================================================
@@ -359,4 +361,190 @@ export interface Glossary {
     title: string;
     items: UsageStep[];
   };
+}
+
+// ============================================================
+// 総合ダッシュボード（Market Overview）
+// ============================================================
+
+export interface DisabilityPopulationYear {
+  year: number;
+  physical: number;
+  intellectual: number;
+  mental: number;
+  total: number;
+  populationRatio: number;
+}
+
+export interface DisabilityEmploymentYear {
+  year: number;
+  employedCount: number;
+  actualRate: number;
+  legalRate: number;
+  complianceRate: number;
+  companyCount: number | null;
+  zeroEmploymentCompanies: number | null;
+}
+
+export interface ServiceFacilityCount {
+  year: number;
+  services: Record<string, number>;
+}
+
+export type NewsCategory = "policy" | "market" | "technology" | "regulation";
+
+export interface MarketNews {
+  id: string;
+  date: string;
+  title: string;
+  category: NewsCategory;
+  summary: string;
+  source?: string;
+}
+
+export interface RecruitmentMethod {
+  method: string;
+  abbreviation: string;
+  share: number;
+  trend: "increasing" | "stable" | "decreasing";
+  description: string;
+}
+
+export interface MarketOverviewData {
+  lastUpdated: string;
+  sources: string[];
+  disabilityPopulation: DisabilityPopulationYear[];
+  disabilityEmployment: DisabilityEmploymentYear[];
+  facilityCountsByType: ServiceFacilityCount[];
+  news: MarketNews[];
+  recruitmentMethods: RecruitmentMethod[];
+}
+
+// ============================================================
+// 事業所分析（Facility Analysis）
+// ============================================================
+
+export interface EntityTypeCount {
+  type: string;
+  count: number;
+  share: number;
+}
+
+export interface EntityDistribution {
+  asOf: string;
+  total: number;
+  byEntityType: EntityTypeCount[];
+}
+
+export interface OperatorScaleBucket {
+  label: string;
+  key: string;
+  count: number;
+  share: number;
+  color: string;
+}
+
+export interface OperatorScale {
+  asOf: string;
+  buckets: OperatorScaleBucket[];
+}
+
+export interface YearCount {
+  year: number;
+  count: number;
+}
+
+export interface FacilityRevenueItem {
+  label?: string;
+  name?: string;
+  monthlyAmount: number;
+  annualAmount: number;
+  note?: string;
+}
+
+export interface FacilityCostItem {
+  category: string;
+  monthlyAmount: number;
+  annualAmount: number;
+  share: number;
+  detail?: string;
+}
+
+export interface FacilityPL {
+  source: string;
+  assumptions: string;
+  rewardUnit: {
+    baseUnit: string;
+    unitPrice: number;
+    note: string;
+  };
+  revenue: {
+    baseReward: FacilityRevenueItem;
+    bonuses: { name: string; monthlyAmount: number; annualAmount: number }[];
+    totalMonthly: number;
+    totalAnnual: number;
+  };
+  costs: {
+    items: FacilityCostItem[];
+    totalMonthly: number;
+    totalAnnual: number;
+  };
+  profitMargin: number;
+  note: string;
+}
+
+export type DifficultyLevel = "low" | "medium" | "high";
+export type RevenueImpactLevel = "low" | "medium" | "high";
+
+export interface BonusCatalogItem {
+  name: string;
+  category: string;
+  units: string;
+  requirement: string;
+  difficulty: DifficultyLevel;
+  revenueImpact: RevenueImpactLevel;
+}
+
+export interface DailyScheduleItem {
+  time: string;
+  activity: string;
+  who: string;
+  detail: string;
+}
+
+export interface RoleInfo {
+  title: string;
+  description: string;
+  icon: string;
+  required: boolean;
+  count: string;
+  qualification: string;
+  keyTask: string;
+}
+
+export interface ConversationExample {
+  scene: string;
+  context: string;
+  topics: string[];
+  insight: string;
+}
+
+export interface OperationsStory {
+  dailySchedule: DailyScheduleItem[];
+  roles: RoleInfo[];
+  typicalConversations: ConversationExample[];
+}
+
+export interface FacilityAnalysisData {
+  serviceType: string;
+  serviceCode: string;
+  lastUpdated: string;
+  source: string;
+  entityDistribution: EntityDistribution;
+  operatorScale: OperatorScale;
+  facilityTimeSeries: YearCount[];
+  userTimeSeries: YearCount[];
+  facilityPL: FacilityPL;
+  bonusCatalog: BonusCatalogItem[];
+  operationsStory: OperationsStory;
 }

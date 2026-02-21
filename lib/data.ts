@@ -9,10 +9,13 @@ import businessPlansData from "@/data/business-plans.json";
 import glossaryData from "@/data/glossary.json";
 import earningsInsightsData from "@/data/earnings-insights.json";
 import areaAnalysisData from "@/data/litalico-area-analysis.json";
+import marketOverviewData from "@/data/market-overview.json";
+import houkagoDayData from "@/data/facility-analysis/houkago-day.json";
 
 import type {
   Company,
   CompanyFinancials,
+  FiscalYear,
   CompanyHistory,
   CompanyStrategy,
   CompetitiveAdvantage,
@@ -23,6 +26,8 @@ import type {
   Glossary,
   CompanyEarningsInsights,
   CompanyAreaAnalysis,
+  MarketOverviewData,
+  FacilityAnalysisData,
 } from "./types";
 
 // ============================================================
@@ -57,6 +62,23 @@ export function getFinancialsByCompanyId(
   companyId: string
 ): CompanyFinancials | undefined {
   return getAllFinancials().find((f) => f.companyId === companyId);
+}
+
+export function getLatestFiscalYear(
+  companyId: string
+): FiscalYear | null {
+  const financials = getFinancialsByCompanyId(companyId);
+  if (!financials || financials.fiscalYears.length === 0) return null;
+  return financials.fiscalYears[financials.fiscalYears.length - 1];
+}
+
+export function getFinancialsMap(): Record<string, FiscalYear | null> {
+  const companies = getCompanies();
+  const map: Record<string, FiscalYear | null> = {};
+  for (const c of companies) {
+    map[c.id] = getLatestFiscalYear(c.id);
+  }
+  return map;
 }
 
 // ============================================================
@@ -172,4 +194,29 @@ export function getAreaAnalysisByCompanyId(
 ): CompanyAreaAnalysis | undefined {
   const data = getAreaAnalysis();
   return data.companyId === companyId ? data : undefined;
+}
+
+// ============================================================
+// 総合ダッシュボード（Market Overview）
+// ============================================================
+
+export function getMarketOverview(): MarketOverviewData {
+  return marketOverviewData as unknown as MarketOverviewData;
+}
+
+// ============================================================
+// 事業所分析（Facility Analysis）
+// ============================================================
+
+const FACILITY_DATA: Record<string, unknown> = {
+  "65": houkagoDayData,
+};
+
+export function getFacilityAnalysis(serviceCode: string): FacilityAnalysisData | undefined {
+  const data = FACILITY_DATA[serviceCode];
+  return data ? (data as unknown as FacilityAnalysisData) : undefined;
+}
+
+export function getHoukagoDayAnalysis(): FacilityAnalysisData {
+  return houkagoDayData as unknown as FacilityAnalysisData;
 }

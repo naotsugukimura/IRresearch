@@ -14,6 +14,8 @@ import type {
 
 export const NAV_ITEMS = [
   { href: "/", label: "ダッシュボード", icon: "LayoutDashboard" as const },
+  { href: "/market", label: "総合ダッシュボード", icon: "Globe" as const },
+  { href: "/facility", label: "事業所分析", icon: "Building" as const },
   { href: "/company", label: "企業分析", icon: "Building2" as const },
   { href: "/compare", label: "企業比較", icon: "GitCompareArrows" as const },
   { href: "/trends", label: "業界トレンド", icon: "TrendingUp" as const },
@@ -188,15 +190,34 @@ export const NOTE_TEMPLATE_CONFIG: Record<
 // 企業詳細ページセクション
 // ============================================================
 
+export const MARKET_SECTIONS = [
+  { id: "summary", label: "概要" },
+  { id: "demand", label: "障害者人口" },
+  { id: "employment", label: "障害者雇用" },
+  { id: "facilities", label: "事業所数" },
+  { id: "recruitment", label: "採用方法" },
+  { id: "news", label: "ニュース" },
+] as const;
+
+export const FACILITY_SECTIONS = [
+  { id: "overview", label: "概要" },
+  { id: "entities", label: "参入法人" },
+  { id: "scale", label: "事業規模" },
+  { id: "timeseries", label: "推移" },
+  { id: "operations", label: "事業所運営" },
+  { id: "roles", label: "登場人物" },
+  { id: "conversations", label: "現場の声" },
+  { id: "pl", label: "収支構造" },
+  { id: "bonuses", label: "加算一覧" },
+] as const;
+
 export const COMPANY_SECTIONS = [
   { id: "overview", label: "概要" },
   { id: "history", label: "沿革" },
   { id: "strategy", label: "事業戦略" },
-  { id: "financials", label: "財務分析" },
-  { id: "earnings", label: "決算インサイト" },
-  { id: "profitStructure", label: "収益構造" },
-  { id: "areaAnalysis", label: "エリア分析" },
-  { id: "advantage", label: "競争優位性" },
+  { id: "financial", label: "財務分析" },
+  { id: "management", label: "経営分析" },
+  { id: "business", label: "事業分析" },
   { id: "insights", label: "SMSへの示唆" },
 ] as const;
 

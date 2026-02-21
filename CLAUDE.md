@@ -14,8 +14,11 @@ Vercelにデプロイして使用（`output: "export"`）。
 
 ## ディレクトリ構成
 ```
-app/                    # ページ（7ページ）
+app/                    # ページ（9ページ）
   page.tsx              # ダッシュボード（/）
+  market/page.tsx       # 総合ダッシュボード（/market）
+  facility/page.tsx     # 事業所分析インデックス（/facility）
+  facility/houkago-day/ # 放課後デイ詳細（/facility/houkago-day）
   company/[id]/page.tsx # 企業詳細（82社分SSG）
   compare/page.tsx      # 企業比較
   learn/page.tsx        # 学習サポート（用語集）
@@ -27,6 +30,8 @@ components/
   dashboard/            # ダッシュボードKPI
   compare/              # 比較テーブル・チャート
   trends/               # トレンド表示
+  market/               # 総合ダッシュボード（MarketKpiCards, PopulationChart, EmploymentChart等）
+  facility/             # 事業所分析（EntityDistribution, DailyTimeline, PLWaterfall等）
   layout/               # Sidebar, Breadcrumb, PageHeader
   shared/               # 再利用コンポーネント（Badge系）
   ui/                   # shadcn/ui基本部品
@@ -36,6 +41,9 @@ lib/
   utils.ts              # フォーマッタ（formatCurrency/formatPlanCurrency）
   constants.ts          # 全定数（カテゴリ色、脅威レベル、ナビ項目等）
 data/                   # 全データJSON（companies, financials, business-plans等）
+  market-overview.json  # 障害者人口・雇用・事業所数時系列 + ニュース + 採用方法
+  facility-analysis/    # 事業所分析（サービス種別ごと）
+    houkago-day.json    # 放課後デイ: 法人分布・推移・PL・運営ストーリー
 scripts/                # Python — DB管理 / EDINET / IRスクレイパー
 ```
 
@@ -172,9 +180,36 @@ ANTHROPIC_API_KEY=...
   4. **事業所一覧テーブル**: サービス・都道府県フィルタ付き、339件スクロール
 - 型: `CompanyAreaAnalysis`, `AreaServiceData`, `AreaPrefectureData`, `AreaFacility`
 
-### ★ 次にやること（Phase 6）
+## ★ Phase 6 完了（2026-02-21）: 総合ダッシュボード + 事業所分析
+
+### Phase 6a: 総合ダッシュボード `/market`
+- `data/market-overview.json` — 障害者人口（身体/知的/精神）・雇用状況・事業所数時系列・ニュース・採用方法
+- `MarketKpiCards.tsx` — 4枚KPIカード（障害者数/雇用数/事業所数/法定雇用率）
+- `DisabilityPopulationChart.tsx` / `Inner` — LineChart 3線（身体/知的/精神障害）
+- `EmploymentTrendsChart.tsx` / `Inner` — ComposedChart（棒: 雇用者数 + 線: 実雇用率/法定雇用率）
+- `FacilityCountChart.tsx` / `Inner` — StackedBarChart（9サービス種類別、フィルタ切替）
+- `RecruitmentBreakdown.tsx` / `Inner` — PieChart + 説明カード（AGT/HW/移行/農園 etc.）
+- `MarketNewsFeed.tsx` — ニュースカードリスト（カテゴリフィルタ）
+
+### Phase 6b: 事業所分析 `/facility/houkago-day`
+- `data/facility-analysis/houkago-day.json` — 放課後デイ: 法人分布・推移・PL・加算・運営ストーリー
+- `app/facility/page.tsx` — サービス種類インデックス（6種類、放課後デイのみactive）
+- `FacilityKpiCards.tsx` — 4枚KPI（事業所数/成長率/利用者数/民間比率）
+- `EntityDistributionChart.tsx` / `Inner` — BarChart + PieChart（法人格別: 株式会社54.9%が最多）
+- `OperatorScaleChart.tsx` / `Inner` — BarChart（単体65.9%/2-5/6-10/11+）
+- `FacilityGrowthChart.tsx` / `Inner` — ComposedChart（事業所数Line + 利用者数Area, 2012-2025）
+- `DailyTimeline.tsx` — CSS timeline（9:00-18:30の一日の流れ）
+- `RoleDiagram.tsx` — カードグリッド（管理者/児発管/指導員/保育士/ドライバー）
+- `ConversationCards.tsx` — 4シーン（保護者面談/スタッフMTG/関係機関連携/日次連絡）
+- `PLWaterfall.tsx` / `Inner` — 売上BarChart + コストPieChart（年間約2,256万円）
+- `BonusTable.tsx` — 主要加算10個テーブル（カテゴリフィルタ/難易度/売上寄与バッジ）
+- 型: `MarketOverviewData`, `FacilityAnalysisData` + 多数のサブ型
+
+### ★ 次にやること（Phase 7）
 - リタリコ深掘り続き: プラットフォーム事業の構造分析、セグメント収益時系列、一店舗あたりの事業計画
-- 他社のWAMNETデータ分析拡張（analyze_wamnet.pyの汎用化）
+- 他サービス種類の事業所分析追加（児童発達支援、就労B型 etc.）
+- WAMNETデータからの法人格自動分類（analyze_facility.py）
+- e-Stat API自動取得の将来検討
 - IRサイトJS動的ロード対策（Playwright導入検討）
 
 ## recharts動的読み込みパターン
@@ -186,6 +221,14 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `MarketSizeChart` → `MarketSizeChartInner`
 - `ProfitStructureSection` → `ProfitStructureInner`
 - `AreaAnalysisSection` → `AreaAnalysisInner`
+- `DisabilityPopulationChart` → `DisabilityPopulationChartInner`（market/）
+- `EmploymentTrendsChart` → `EmploymentTrendsChartInner`（market/）
+- `FacilityCountChart` → `FacilityCountChartInner`（market/）
+- `RecruitmentBreakdown` → `RecruitmentBreakdownInner`（market/）
+- `EntityDistributionChart` → `EntityDistributionChartInner`（facility/）
+- `OperatorScaleChart` → `OperatorScaleChartInner`（facility/）
+- `FacilityGrowthChart` → `FacilityGrowthChartInner`（facility/）
+- `PLWaterfall` → `PLWaterfallInner`（facility/）
 
 ## 金額フォーマッタの使い分け
 - `formatCurrency(value, "million")` — 財務データ用（百万円単位）

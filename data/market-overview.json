@@ -1,0 +1,220 @@
+{
+  "lastUpdated": "2026-02-21",
+  "sources": [
+    "内閣府 障害者白書（令和7年版）",
+    "厚生労働省 障害者雇用状況の集計結果",
+    "e-Stat 社会福祉施設等調査",
+    "厚生労働省 障害福祉サービス等の利用状況"
+  ],
+  "disabilityPopulation": [
+    { "year": 2016, "physical": 3937000, "intellectual": 741000, "mental": 3924000, "total": 8602000, "populationRatio": 6.7 },
+    { "year": 2017, "physical": 3936000, "intellectual": 962000, "mental": 3892000, "total": 8790000, "populationRatio": 6.9 },
+    { "year": 2018, "physical": 4360000, "intellectual": 1082000, "mental": 4193000, "total": 9635000, "populationRatio": 7.6 },
+    { "year": 2019, "physical": 4360000, "intellectual": 1094000, "mental": 4193000, "total": 9647000, "populationRatio": 7.6 },
+    { "year": 2020, "physical": 4357000, "intellectual": 1095000, "mental": 6148000, "total": 11600000, "populationRatio": 9.2 },
+    { "year": 2021, "physical": 4360000, "intellectual": 1100000, "mental": 6148000, "total": 11608000, "populationRatio": 9.2 },
+    { "year": 2022, "physical": 4350000, "intellectual": 1200000, "mental": 6148000, "total": 11698000, "populationRatio": 9.3 },
+    { "year": 2023, "physical": 4360000, "intellectual": 1094000, "mental": 6148000, "total": 11602000, "populationRatio": 9.2 },
+    { "year": 2024, "physical": 4280000, "intellectual": 1200000, "mental": 6148000, "total": 11628000, "populationRatio": 9.3 },
+    { "year": 2025, "physical": 4230000, "intellectual": 1268000, "mental": 6030000, "total": 11528000, "populationRatio": 9.3 }
+  ],
+  "disabilityEmployment": [
+    { "year": 2016, "employedCount": 474374, "actualRate": 1.92, "legalRate": 2.0, "complianceRate": 48.8, "companyCount": 88107, "zeroEmploymentCompanies": null },
+    { "year": 2017, "employedCount": 495795, "actualRate": 1.97, "legalRate": 2.0, "complianceRate": 50.0, "companyCount": 91024, "zeroEmploymentCompanies": null },
+    { "year": 2018, "employedCount": 534769, "actualRate": 2.05, "legalRate": 2.2, "complianceRate": 45.9, "companyCount": 99179, "zeroEmploymentCompanies": null },
+    { "year": 2019, "employedCount": 560608, "actualRate": 2.11, "legalRate": 2.2, "complianceRate": 48.0, "companyCount": 101889, "zeroEmploymentCompanies": null },
+    { "year": 2020, "employedCount": 578292, "actualRate": 2.15, "legalRate": 2.2, "complianceRate": 48.6, "companyCount": 103105, "zeroEmploymentCompanies": null },
+    { "year": 2021, "employedCount": 597786, "actualRate": 2.20, "legalRate": 2.3, "complianceRate": 47.0, "companyCount": 105104, "zeroEmploymentCompanies": 33278 },
+    { "year": 2022, "employedCount": 613958, "actualRate": 2.25, "legalRate": 2.3, "complianceRate": 48.3, "companyCount": 107198, "zeroEmploymentCompanies": 33495 },
+    { "year": 2023, "employedCount": 642178, "actualRate": 2.33, "legalRate": 2.3, "complianceRate": 50.1, "companyCount": 110656, "zeroEmploymentCompanies": 33157 },
+    { "year": 2024, "employedCount": 677461, "actualRate": 2.41, "legalRate": 2.5, "complianceRate": 46.0, "companyCount": 113288, "zeroEmploymentCompanies": 36485 },
+    { "year": 2025, "employedCount": 704610, "actualRate": 2.47, "legalRate": 2.5, "complianceRate": 46.0, "companyCount": 115000, "zeroEmploymentCompanies": 36500 }
+  ],
+  "facilityCountsByType": [
+    {
+      "year": 2016,
+      "services": {
+        "放課後等デイサービス": 10613,
+        "児童発達支援": 4851,
+        "就労継続支援B型": 10531,
+        "就労継続支援A型": 3449,
+        "就労移行支援": 3311,
+        "生活介護": 7794,
+        "共同生活援助": 7488,
+        "計画相談支援": 8739,
+        "居宅介護": 21839
+      }
+    },
+    {
+      "year": 2017,
+      "services": {
+        "放課後等デイサービス": 12286,
+        "児童発達支援": 5541,
+        "就労継続支援B型": 11447,
+        "就労継続支援A型": 3685,
+        "就労移行支援": 3389,
+        "生活介護": 8284,
+        "共同生活援助": 8207,
+        "計画相談支援": 9504,
+        "居宅介護": 22007
+      }
+    },
+    {
+      "year": 2018,
+      "services": {
+        "放課後等デイサービス": 13724,
+        "児童発達支援": 6557,
+        "就労継続支援B型": 12434,
+        "就労継続支援A型": 3815,
+        "就労移行支援": 3432,
+        "生活介護": 8726,
+        "共同生活援助": 9004,
+        "計画相談支援": 10178,
+        "居宅介護": 21937
+      }
+    },
+    {
+      "year": 2019,
+      "services": {
+        "放課後等デイサービス": 14920,
+        "児童発達支援": 7476,
+        "就労継続支援B型": 13249,
+        "就労継続支援A型": 3850,
+        "就労移行支援": 3464,
+        "生活介護": 9126,
+        "共同生活援助": 9778,
+        "計画相談支援": 10818,
+        "居宅介護": 21807
+      }
+    },
+    {
+      "year": 2020,
+      "services": {
+        "放課後等デイサービス": 16379,
+        "児童発達支援": 8452,
+        "就労継続支援B型": 14143,
+        "就労継続支援A型": 3891,
+        "就労移行支援": 3435,
+        "生活介護": 9427,
+        "共同生活援助": 10625,
+        "計画相談支援": 11373,
+        "居宅介護": 21609
+      }
+    },
+    {
+      "year": 2021,
+      "services": {
+        "放課後等デイサービス": 17672,
+        "児童発達支援": 9367,
+        "就労継続支援B型": 14869,
+        "就労継続支援A型": 4002,
+        "就労移行支援": 3418,
+        "生活介護": 9789,
+        "共同生活援助": 11433,
+        "計画相談支援": 12071,
+        "居宅介護": 21453
+      }
+    },
+    {
+      "year": 2022,
+      "services": {
+        "放課後等デイサービス": 19125,
+        "児童発達支援": 10360,
+        "就労継続支援B型": 15471,
+        "就労継続支援A型": 4096,
+        "就労移行支援": 3373,
+        "生活介護": 10063,
+        "共同生活援助": 12293,
+        "計画相談支援": 12587,
+        "居宅介護": 21256
+      }
+    },
+    {
+      "year": 2023,
+      "services": {
+        "放課後等デイサービス": 21122,
+        "児童発達支援": 11345,
+        "就労継続支援B型": 16109,
+        "就労継続支援A型": 4235,
+        "就労移行支援": 3301,
+        "生活介護": 10281,
+        "共同生活援助": 13312,
+        "計画相談支援": 13112,
+        "居宅介護": 21089
+      }
+    },
+    {
+      "year": 2024,
+      "services": {
+        "放課後等デイサービス": 21925,
+        "児童発達支援": 12100,
+        "就労継続支援B型": 16600,
+        "就労継続支援A型": 4300,
+        "就労移行支援": 3250,
+        "生活介護": 10450,
+        "共同生活援助": 14100,
+        "計画相談支援": 13500,
+        "居宅介護": 20900
+      }
+    },
+    {
+      "year": 2025,
+      "services": {
+        "放課後等デイサービス": 22748,
+        "児童発達支援": 12800,
+        "就労継続支援B型": 17000,
+        "就労継続支援A型": 4350,
+        "就労移行支援": 3200,
+        "生活介護": 10600,
+        "共同生活援助": 14800,
+        "計画相談支援": 13800,
+        "居宅介護": 20750
+      }
+    }
+  ],
+  "news": [
+    {
+      "id": "news-001",
+      "date": "2025-04-01",
+      "title": "令和6年度障害福祉サービス等報酬改定施行",
+      "category": "policy",
+      "summary": "基本報酬の見直し、処遇改善加算の一本化、医療的ケア児支援の強化が実施。放課後デイでは総合支援型と特定プログラム特化型の類型が導入。"
+    },
+    {
+      "id": "news-002",
+      "date": "2025-06-01",
+      "title": "法定雇用率2.5%に引き上げ",
+      "category": "regulation",
+      "summary": "民間企業の法定障害者雇用率が2.3%から2.5%に引き上げ。2026年7月からは2.7%への段階的引き上げが予定。"
+    },
+    {
+      "id": "news-003",
+      "date": "2025-09-15",
+      "title": "障害福祉サービス市場 15兆円突破",
+      "category": "market",
+      "summary": "障害福祉サービスの総費用が15.5兆円に到達。特に精神障害者の利用増加が牽引。放課後デイ・児童発達支援が引き続き高成長。"
+    },
+    {
+      "id": "news-004",
+      "date": "2025-11-01",
+      "title": "ADHD治療薬の新薬承認・発達障害の社会認知拡大",
+      "category": "market",
+      "summary": "新たなADHD治療薬が承認。発達障害の早期発見・早期療育の社会的意識が高まり、児童系サービスの利用者増加に寄与。"
+    },
+    {
+      "id": "news-005",
+      "date": "2026-01-15",
+      "title": "障害者年金の支給要件見直し検討",
+      "category": "policy",
+      "summary": "厚生労働省が障害年金の等級判定ガイドラインの見直しを検討。精神障害者の認定基準の明確化が議論されている。"
+    }
+  ],
+  "recruitmentMethods": [
+    { "method": "人材紹介エージェント", "abbreviation": "AGT", "share": 30, "trend": "increasing", "description": "障害者専門の人材紹介会社経由。マッチング精度が高いが手数料が高額（年収の20-35%）" },
+    { "method": "ハローワーク", "abbreviation": "HW", "share": 25, "trend": "stable", "description": "公共職業安定所の障害者窓口。無料だがマッチング精度にばらつき" },
+    { "method": "就労移行支援事業所", "abbreviation": "移行", "share": 20, "trend": "increasing", "description": "リタリコワークス等の就労移行支援から直接紹介。訓練済みで定着率が高い" },
+    { "method": "農園型（サテライト）", "abbreviation": "農園", "share": 12, "trend": "increasing", "description": "企業が農園を借り、障害者が農作業に従事。法定雇用率対策として急拡大中" },
+    { "method": "特別支援学校", "abbreviation": "特支", "share": 8, "trend": "stable", "description": "特別支援学校の卒業生を新卒採用。企業実習からの移行が主流" },
+    { "method": "その他（求人媒体等）", "abbreviation": "他", "share": 5, "trend": "stable", "description": "一般求人サイト・障害者専門求人サイト（BABナビ、クローバーナビ等）" }
+  ]
+}
