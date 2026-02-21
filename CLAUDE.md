@@ -118,20 +118,28 @@ ANTHROPIC_API_KEY=...
 - **httpx直接**: supabase Python SDKはPython 3.14でpyicebergビルド失敗 → httpxでPostgREST直接
 - **Next.js側変更なし**: `lib/data.ts` はJSON importのまま
 
-## ★ 次にやること（Phase 3-4）
+## ★ Phase 3 完了（2026-02-21）: 既存スクリプトのDB書き込み対応
 
-### Phase 3: 既存スクリプトのDB書き込み対応 + 全社クローリング
-1. `fetch_financials.py` — JSON書き込み → `db.upsert_fiscal_year()` に変更
-2. `earnings_analyzer.py` — 分析結果を `earnings_documents` / `earnings_insights` テーブルに保存
-3. `fetch_earnings.py` — PDF情報をDBに記録
-4. `generate_segment_plans.py`, `generate_all_company_data.py` — DB読み書きに変更
-5. **全28社のIRクローリング実行**: `fetch_earnings.py --all` で全社の決算説明資料を取得
+全4スクリプトをJSON直接書き込みからSupabase DB経由に変更済み:
+- `fetch_financials.py` — `upsert_fiscal_year()` + `update_company_has_full_data()`
+- `generate_all_company_data.py` — `upsert_company_segments()` + `upsert_fiscal_year()` + `upsert_business_plan()`
+- `generate_segment_plans.py` — `upsert_business_plan()`
+- `earnings_analyzer.py` — `insert_earnings_document()` + `insert_earnings_insight()`
 
-### Phase 4: 決算説明資料AI分析 + Next.js UI
-1. `earnings_analyzer.py` の EXTRACTION_PROMPT 拡張（経営戦略分析を追加）
-2. 全社PDFをClaude APIで分析 → `earnings_insights` テーブルに保存
-3. `export_json.py` に `earnings-insights.json` 出力を追加
-4. Next.jsの企業詳細ページに「決算資料インサイト」セクションを追加
+共通: `--export-json` フラグでDB書き込み後にJSONエクスポートも可能
+
+### ★ 次にやること（Phase 4-5）
+
+### Phase 4: 全28社IRクローリング + AI分析
+1. `fetch_earnings.py --all` で全社の決算説明資料PDFを取得
+2. `earnings_analyzer.py` の EXTRACTION_PROMPT 拡張（経営戦略分析を追加）
+3. 全社PDFをClaude APIで分析 → `earnings_insights` テーブルに保存
+
+### Phase 5: Next.js UI — 決算インサイト表示
+1. `lib/types.ts` に `EarningsInsight` 型追加
+2. `lib/data.ts` に `getEarningsInsights()` 追加
+3. 企業詳細ページに「決算資料インサイト」セクション追加
+4. KPI/市場規模/M&A情報のカード表示
 
 ## recharts動的読み込みパターン
 recharts使用コンポーネントは全てSSR無効化済み:
@@ -154,12 +162,17 @@ recharts使用コンポーネントは全てSSR無効化済み:
 
 ## Pythonスクリプト（scripts/）
 - `config.py` — 設定・企業マッピング（IRkun ID → 証券コード、17社分）
+- `db.py` — Supabase PostgREST httpxクライアント（upsert_* + export_*_json）
 - `edinet_client.py` — EDINET API v2クライアント（SSLリトライ付き）
-- `fetch_financials.py` — 有報から財務データ取得→financials.json更新
+- `fetch_financials.py` — 有報から財務データ取得→DB投入 (`--export-json`)
+- `generate_all_company_data.py` — 23社データ一括生成→DB投入 (`--export-json`)
+- `generate_segment_plans.py` — セグメント別PL生成→DB投入 (`--export-json`)
 - `ir_scraper.py` — IRページから決算説明資料PDFリンク抽出
 - `pdf_downloader.py` — PDFダウンロード管理
-- `earnings_analyzer.py` — Claude APIでPDF分析（KPI/TAM/M&A抽出）
-- `fetch_earnings.py` — パイプラインオーケストレータ
+- `earnings_analyzer.py` — Claude APIでPDF分析→DB投入（KPI/TAM/M&A抽出）
+- `fetch_earnings.py` — 決算説明資料パイプラインオーケストレータ
+- `export_json.py` — DB→JSON出力（全テーブル + earnings-insights企業別）
+- `migrate_to_supabase.py` — 既存JSON→DB移行（冪等）
 
 ## ビルド & デプロイ
 ```bash
@@ -167,8 +180,11 @@ npm run dev      # ローカル開発（Turbopack）
 npm run build    # 静的エクスポート（out/）
 # Vercelにpushでデプロイ
 
-# DB操作
-python scripts/migrate_to_supabase.py   # JSON→DB移行（冪等）
-python scripts/export_json.py           # DB→JSON出力
-python scripts/export_json.py --only companies  # 特定テーブルのみ
+# DB操作（全スクリプトがDB経由）
+python scripts/generate_all_company_data.py --export-json   # 23社データ生成
+python scripts/generate_segment_plans.py --export-json      # セグメントPL生成
+python scripts/fetch_financials.py --export-json            # EDINET財務データ取得
+python scripts/fetch_earnings.py --all                      # 決算説明資料 取得→分析
+python scripts/export_json.py                               # DB→JSON全出力
+python scripts/export_json.py --only companies              # 特定テーブルのみ
 ```

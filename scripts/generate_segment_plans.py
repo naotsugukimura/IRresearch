@@ -7,12 +7,26 @@ companies.json のセグメント定義 + financials.json のセグメント別�
 - LITALICOは手動作成済みのためスキップ
 - 財務データにセグメント別revenue/profitがある場合: 実績比率で按分
 - 財務データがない場合: companies.jsonのrevenueShare比率で按分
+
+Usage:
+    python generate_segment_plans.py                 # DB書き込みのみ
+    python generate_segment_plans.py --export-json   # DB書き込み + JSON出力
 """
 
+import argparse
 import json
 import re
 import copy
+from pathlib import Path
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).resolve().parent / ".env")
+except ImportError:
+    pass
+
 from config import DATA_DIR, COMPANIES_PATH, FINANCIALS_PATH, BUSINESS_PLANS_PATH
+from db import upsert_business_plan, export_business_plans_json, _write_json
 
 SKIP_COMPANIES = {"litalico"}  # 手動作成済み
 
@@ -318,7 +332,7 @@ def _recalculate_ratios(plan):
             )
 
 
-def generate_segment_plans():
+def generate_segment_plans(export_json: bool = False):
     companies = load_json(COMPANIES_PATH)
     financials = load_json(FINANCIALS_PATH)
     plans = load_json(BUSINESS_PLANS_PATH)
@@ -328,13 +342,6 @@ def generate_segment_plans():
     for p in plans:
         if not p.get("segmentId"):
             consolidated[p["companyId"]] = p
-
-    # 既存のsegment planを削除（SKIP_COMPANIES以外）
-    new_plans = []
-    for p in plans:
-        if p.get("segmentId") and p["companyId"] not in SKIP_COMPANIES:
-            continue  # 再生成するので除外
-        new_plans.append(p)
 
     generated_count = 0
 
@@ -388,13 +395,26 @@ def generate_segment_plans():
                         if not row.get("note"):
                             row["note"] = f"{seg_name}セグメント"
 
-            new_plans.append(seg_plan)
+            # DB投入
+            upsert_business_plan(seg_plan)
             generated_count += 1
             print(f"  生成: {cid} / {seg_name} (rev_share={rev_share:.1%}, seg_id={seg_id})")
 
-    save_json(BUSINESS_PLANS_PATH, new_plans)
-    print(f"\n合計 {generated_count} セグメントPLを生成しました。")
+    print(f"\n合計 {generated_count} セグメントPLをDBに投入しました。")
+
+    if export_json:
+        print("\n--- JSONエクスポート ---")
+        _write_json(DATA_DIR / "business-plans.json", export_business_plans_json())
+        print("JSONエクスポート完了")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="セグメント別PL生成 → Supabase DB")
+    parser.add_argument("--export-json", action="store_true", help="DB書き込み後にJSONもエクスポート")
+    args = parser.parse_args()
+
+    generate_segment_plans(export_json=args.export_json)
 
 
 if __name__ == "__main__":
-    generate_segment_plans()
+    main()

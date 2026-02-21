@@ -409,6 +409,16 @@ def insert_earnings_insight(document_id: int, insight_type: str, data: dict) -> 
     _post("earnings_insights", row)
 
 
+def update_company_has_full_data(company_id: str, has_full_data: bool = True) -> None:
+    """企業の hasFullData フラグを更新"""
+    h = _get_http()
+    resp = h.patch(
+        f"/companies?id=eq.{company_id}",
+        json={"has_full_data": has_full_data},
+    )
+    resp.raise_for_status()
+
+
 # ============================================================
 # エクスポート: DB → JSON（/data/*.json）
 # ============================================================
@@ -742,6 +752,48 @@ def export_glossary_json() -> dict:
     return _parse_jsonb(rows[0]["data"])
 
 
+def export_earnings_insights_json() -> dict[str, dict]:
+    """earnings-insights/*.json をエクスポート（企業別）"""
+    docs = _select("earnings_documents", params={"order": "company_id,id"})
+    insights = _select("earnings_insights", params={"order": "document_id"})
+
+    insight_map: dict[int, list] = {}
+    for ins in insights:
+        insight_map.setdefault(ins["document_id"], []).append(ins)
+
+    company_docs: dict[str, list] = {}
+    for doc in docs:
+        company_docs.setdefault(doc["company_id"], []).append(doc)
+
+    results = {}
+    insights_dir = DATA_DIR / "earnings-insights"
+    insights_dir.mkdir(parents=True, exist_ok=True)
+
+    for company_id, doc_list in company_docs.items():
+        documents = []
+        for doc in doc_list:
+            doc_obj: dict = {}
+            if doc.get("fiscal_period"):
+                doc_obj["fiscal_period"] = doc["fiscal_period"]
+            if doc.get("summary"):
+                doc_obj["summary"] = doc["summary"]
+            doc_obj["source_file"] = doc["file_name"]
+
+            for ins in insight_map.get(doc["id"], []):
+                doc_obj[ins["insight_type"]] = _parse_jsonb(ins["data"])
+
+            documents.append(doc_obj)
+
+        output = {
+            "companyId": company_id,
+            "analyzedAt": doc_list[-1].get("analyzed_at") or doc_list[-1].get("created_at", ""),
+            "documents": documents,
+        }
+        results[company_id] = output
+
+    return results
+
+
 def export_all_json() -> None:
     """全テーブルを /data/*.json にエクスポート"""
     print("=== Supabase → JSON エクスポート ===")
@@ -755,6 +807,14 @@ def export_all_json() -> None:
     _write_json(DATA_DIR / "trends.json", export_trends_json())
     _write_json(DATA_DIR / "notes.json", export_notes_json())
     _write_json(DATA_DIR / "glossary.json", export_glossary_json())
+
+    # Earnings insights（企業別ファイル）
+    ei_data = export_earnings_insights_json()
+    if ei_data:
+        insights_dir = DATA_DIR / "earnings-insights"
+        insights_dir.mkdir(parents=True, exist_ok=True)
+        for company_id, data in ei_data.items():
+            _write_json(insights_dir / f"{company_id}.json", data)
 
     print("\n=== エクスポート完了 ===")
 

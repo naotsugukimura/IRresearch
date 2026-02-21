@@ -10,6 +10,7 @@ from typing import Optional
 import anthropic
 
 from config import DATA_DIR
+from db import insert_earnings_document, insert_earnings_insight
 
 INSIGHTS_DIR = DATA_DIR / "earnings-insights"
 
@@ -136,13 +137,14 @@ def analyze_pdf(pdf_path: Path) -> Optional[dict]:
         return None
 
 
-def analyze_company(company_id: str, pdf_paths: list[Path]) -> Optional[dict]:
+def analyze_company(company_id: str, pdf_paths: list[Path], save_json: bool = True) -> Optional[dict]:
     """
-    1社分の全PDFを分析し、結果を統合して保存する。
+    1社分の全PDFを分析し、結果をDBとJSONに保存する。
 
     Args:
         company_id: 企業ID
         pdf_paths: PDFファイルパスのリスト
+        save_json: JSONファイルも出力するか（デフォルトTrue）
 
     Returns:
         統合結果のdict。
@@ -158,23 +160,42 @@ def analyze_company(company_id: str, pdf_paths: list[Path]) -> Optional[dict]:
         result = analyze_pdf(pdf_path)
         if result:
             result["source_file"] = pdf_path.name
+
+            # DB投入
+            pdf_size_mb = pdf_path.stat().st_size / (1024 * 1024)
+            doc_id = insert_earnings_document(
+                company_id=company_id,
+                file_name=pdf_path.name,
+                fiscal_period=result.get("fiscal_period"),
+                file_size_mb=round(pdf_size_mb, 2),
+            )
+            # 各insight_typeをDB投入
+            insight_types = ["business_kpis", "market_sizing", "ma_info", "midterm_plan"]
+            for itype in insight_types:
+                if result.get(itype):
+                    insert_earnings_insight(doc_id, itype, result[itype])
+            if result.get("summary"):
+                insert_earnings_insight(doc_id, "summary", {"text": result["summary"]})
+
+            print(f"  [OK] DB投入完了 (doc_id={doc_id})")
             all_results.append(result)
 
     if not all_results:
         return None
 
-    # 結果をJSONファイルに保存
     output = {
         "companyId": company_id,
         "analyzedAt": __import__("datetime").datetime.now().isoformat(),
         "documents": all_results,
     }
 
-    output_path = INSIGHTS_DIR / f"{company_id}.json"
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+    # JSONファイルにも保存
+    if save_json:
+        output_path = INSIGHTS_DIR / f"{company_id}.json"
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(output, f, ensure_ascii=False, indent=2)
+        print(f"  [OK] Saved to {output_path}")
 
-    print(f"  [OK] Saved to {output_path}")
     return output
 
 

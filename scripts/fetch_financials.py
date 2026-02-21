@@ -2,10 +2,11 @@
 IRkun EDINET 財務データ自動取得スクリプト
 
 Usage:
-    python fetch_financials.py                        # 全17社・直近5年分
+    python fetch_financials.py                        # 全17社・直近5年分 → DB
     python fetch_financials.py --company litalico     # 1社だけ
     python fetch_financials.py --years 3              # 直近3年分
-    python fetch_financials.py --dry-run              # JSONに書き込まない
+    python fetch_financials.py --dry-run              # DB/JSONに書き込まない
+    python fetch_financials.py --export-json          # DB書き込み + JSON出力
 """
 import argparse
 import json
@@ -24,6 +25,7 @@ from config import (
     COMPANY_MAP,
     FINANCIALS_PATH,
     COMPANIES_PATH,
+    DATA_DIR,
     DEFAULT_YEARS,
     EDINET_API_KEY,
     FILING_SEARCH_MONTHS,
@@ -34,6 +36,13 @@ from edinet_client import (
     extract_xbrl_from_zip,
 )
 from xbrl_parser import parse_xbrl
+from db import (
+    upsert_fiscal_year,
+    update_company_has_full_data,
+    export_financials_json,
+    export_companies_json,
+    _write_json,
+)
 
 
 def to_million(value: float | None) -> int | None:
@@ -201,10 +210,11 @@ def process_company(company_id: str, info: dict, num_years: int, dry_run: bool) 
 
 
 def main():
-    parser = argparse.ArgumentParser(description="EDINET 財務データ取得")
+    parser = argparse.ArgumentParser(description="EDINET 財務データ取得 → Supabase DB")
     parser.add_argument("--company", type=str, help="特定企業のみ取得（IRkun ID）")
     parser.add_argument("--years", type=int, default=DEFAULT_YEARS, help=f"取得年数（デフォルト: {DEFAULT_YEARS}）")
-    parser.add_argument("--dry-run", action="store_true", help="JSONファイルに書き込まない")
+    parser.add_argument("--dry-run", action="store_true", help="DB/JSONに書き込まない")
+    parser.add_argument("--export-json", action="store_true", help="DB書き込み後にJSONもエクスポート")
     args = parser.parse_args()
 
     if not EDINET_API_KEY:
@@ -270,28 +280,22 @@ def main():
         print("更新対象なし。終了します。")
         return
 
-    # financials.json を書き出し
-    output = list(financials_map.values())
-    with open(FINANCIALS_PATH, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-    print(f"\n✓ {FINANCIALS_PATH} を更新しました（{len(output)}社分）")
+    # Supabase DB に書き込み
+    print(f"\n--- Supabase DB投入 ---")
+    for company_id in updated_ids:
+        result = financials_map[company_id]
+        for fy in result["fiscalYears"]:
+            upsert_fiscal_year(company_id, fy)
+        update_company_has_full_data(company_id)
+        print(f"  ✓ {company_id}: {len(result['fiscalYears'])}期分をDB投入")
 
-    # companies.json の hasFullData を更新
-    if COMPANIES_PATH.exists():
-        with open(COMPANIES_PATH, "r", encoding="utf-8") as f:
-            companies = json.load(f)
+    print(f"✓ {len(updated_ids)}社分のDB投入完了")
 
-        updated_flags = 0
-        for company in companies:
-            cid = company.get("id")
-            if cid in financials_map and not company.get("hasFullData"):
-                company["hasFullData"] = True
-                updated_flags += 1
-
-        if updated_flags > 0:
-            with open(COMPANIES_PATH, "w", encoding="utf-8") as f:
-                json.dump(companies, f, ensure_ascii=False, indent=2)
-            print(f"✓ {COMPANIES_PATH} の hasFullData を {updated_flags}社分更新しました")
+    if args.export_json:
+        print("\n--- JSONエクスポート ---")
+        _write_json(DATA_DIR / "financials.json", export_financials_json())
+        _write_json(DATA_DIR / "companies.json", export_companies_json())
+        print("JSONエクスポート完了")
 
     print("\n完了！ `npm run build` でサイトをリビルドしてください。")
 

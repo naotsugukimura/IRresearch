@@ -23,6 +23,7 @@ from db import (
     export_trends_json,
     export_notes_json,
     export_glossary_json,
+    export_earnings_insights_json,
     _write_json,
 )
 
@@ -37,15 +38,29 @@ EXPORT_STEPS = {
     "trends": ("trends.json", export_trends_json),
     "notes": ("notes.json", export_notes_json),
     "glossary": ("glossary.json", export_glossary_json),
+    "earnings-insights": (None, export_earnings_insights_json),  # 企業別ファイル
 }
 
 
+def _export_earnings_insights(data: dict) -> None:
+    """earnings-insights を企業別JSONファイルとして出力"""
+    if not data:
+        print("  [OK] earnings-insights/ (0社)")
+        return
+    insights_dir = DATA_DIR / "earnings-insights"
+    insights_dir.mkdir(parents=True, exist_ok=True)
+    for company_id, company_data in data.items():
+        _write_json(insights_dir / f"{company_id}.json", company_data)
+    print(f"  [OK] earnings-insights/ ({len(data)}社)")
+
+
 def main():
+    all_keys = list(EXPORT_STEPS.keys())
     parser = argparse.ArgumentParser(description="Supabase → JSON エクスポート")
     parser.add_argument(
         "--only",
         type=str,
-        help=f"特定テーブルのみ: {', '.join(EXPORT_STEPS.keys())}",
+        help=f"特定テーブルのみ: {', '.join(all_keys)}",
     )
     args = parser.parse_args()
 
@@ -54,15 +69,21 @@ def main():
     if args.only:
         if args.only not in EXPORT_STEPS:
             print(f"[ERROR] Unknown: {args.only}")
-            print(f"Available: {', '.join(EXPORT_STEPS.keys())}")
+            print(f"Available: {', '.join(all_keys)}")
             sys.exit(1)
         filename, export_fn = EXPORT_STEPS[args.only]
         data = export_fn()
-        _write_json(DATA_DIR / filename, data)
+        if args.only == "earnings-insights":
+            _export_earnings_insights(data)
+        else:
+            _write_json(DATA_DIR / filename, data)
     else:
         for step_name, (filename, export_fn) in EXPORT_STEPS.items():
             data = export_fn()
-            _write_json(DATA_DIR / filename, data)
+            if step_name == "earnings-insights":
+                _export_earnings_insights(data)
+            else:
+                _write_json(DATA_DIR / filename, data)
 
     print("\n=== エクスポート完了 ===")
 

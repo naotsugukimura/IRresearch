@@ -3,16 +3,38 @@
 
 既存5社（LITALICO, Welbe, Cocoruport, S-Pool, SMS）はスキップし、
 残り23社について以下を生成する:
-1. companies.json にセグメント定義を追加
-2. financials.json に財務データ（推計）を追加
-3. business-plans.json にconsolidated PLを追加
+1. Supabase DB にセグメント定義を投入
+2. Supabase DB に財務データ（推計）を投入
+3. Supabase DB にconsolidated PLを投入
 
 各社のビジネスモデル・公開情報に基づいた推計値を使用。
+
+Usage:
+    python generate_all_company_data.py                 # DB書き込みのみ
+    python generate_all_company_data.py --export-json   # DB書き込み + JSON出力
 """
 
+import argparse
 import json
 import copy
+from pathlib import Path
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).resolve().parent / ".env")
+except ImportError:
+    pass
+
 from config import DATA_DIR, COMPANIES_PATH, FINANCIALS_PATH, BUSINESS_PLANS_PATH
+from db import (
+    upsert_company_segments,
+    upsert_fiscal_year,
+    upsert_business_plan,
+    export_companies_json,
+    export_financials_json,
+    export_business_plans_json,
+    _write_json,
+)
 
 EXISTING_COMPANIES = {"litalico", "welbe", "cocoruport", "spool", "sms"}
 
@@ -500,6 +522,10 @@ def generate_consolidated_pl(company_id, financials_entry, company_data):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="23社データ一括生成 → Supabase DB")
+    parser.add_argument("--export-json", action="store_true", help="DB書き込み後にJSONもエクスポート")
+    args = parser.parse_args()
+
     companies = load_json(COMPANIES_PATH)
     financials = load_json(FINANCIALS_PATH)
     plans = load_json(BUSINESS_PLANS_PATH)
@@ -519,27 +545,34 @@ def main():
         if cid in EXISTING_COMPANIES:
             continue
 
-        # 1. セグメント定義追加
-        if not company.get("segments") and cid in SEGMENT_DEFINITIONS:
-            company["segments"] = SEGMENT_DEFINITIONS[cid]
-            added_segments += 1
-            print(f"  + segment: {cid} ({len(company['segments'])}セグメント)")
+        # 1. セグメント定義追加 → DB
+        if cid in SEGMENT_DEFINITIONS:
+            segments = SEGMENT_DEFINITIONS[cid]
+            if not company.get("segments"):
+                company["segments"] = segments
+                added_segments += 1
+                print(f"  + segment: {cid} ({len(segments)}セグメント)")
+            upsert_company_segments(cid, segments)
 
-        # 2. 財務データ追加
-        if cid not in existing_financial_ids and cid in FINANCIAL_DATA:
+        # 2. 財務データ追加 → DB
+        if cid in FINANCIAL_DATA:
             fin_entry = {
                 "companyId": cid,
                 "currency": "JPY",
                 "unit": "million",
                 "fiscalYears": FINANCIAL_DATA[cid]["fiscalYears"],
             }
-            financials.append(fin_entry)
-            existing_financial_ids.add(cid)
-            added_financials += 1
-            print(f"  + financials: {cid} ({len(fin_entry['fiscalYears'])}期)")
+            if cid not in existing_financial_ids:
+                financials.append(fin_entry)
+                existing_financial_ids.add(cid)
+                added_financials += 1
+                print(f"  + financials: {cid} ({len(fin_entry['fiscalYears'])}期)")
 
-        # 3. Consolidated PL追加
-        if cid not in existing_plan_ids and cid in FINANCIAL_DATA:
+            for fy in FINANCIAL_DATA[cid]["fiscalYears"]:
+                upsert_fiscal_year(cid, fy)
+
+        # 3. Consolidated PL追加 → DB
+        if cid in FINANCIAL_DATA:
             fin_entry = None
             for f in financials:
                 if f["companyId"] == cid:
@@ -547,16 +580,21 @@ def main():
                     break
             if fin_entry:
                 plan = generate_consolidated_pl(cid, fin_entry, company)
-                plans.append(plan)
-                existing_plan_ids.add(cid)
-                added_plans += 1
-                print(f"  + plan: {cid}")
-
-    save_json(COMPANIES_PATH, companies)
-    save_json(FINANCIALS_PATH, financials)
-    save_json(BUSINESS_PLANS_PATH, plans)
+                if cid not in existing_plan_ids:
+                    plans.append(plan)
+                    existing_plan_ids.add(cid)
+                    added_plans += 1
+                    print(f"  + plan: {cid}")
+                upsert_business_plan(plan)
 
     print(f"\n完了: セグメント定義 +{added_segments}, 財務データ +{added_financials}, PL +{added_plans}")
+
+    if args.export_json:
+        print("\n--- JSONエクスポート ---")
+        _write_json(DATA_DIR / "companies.json", export_companies_json())
+        _write_json(DATA_DIR / "financials.json", export_financials_json())
+        _write_json(DATA_DIR / "business-plans.json", export_business_plans_json())
+        print("JSONエクスポート完了")
 
 
 if __name__ == "__main__":
