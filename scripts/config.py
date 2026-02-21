@@ -9,6 +9,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 FINANCIALS_PATH = DATA_DIR / "financials.json"
 COMPANIES_PATH = DATA_DIR / "companies.json"
+BUSINESS_PLANS_PATH = DATA_DIR / "business-plans.json"
 
 # EDINET API
 EDINET_API_BASE = "https://api.edinet-fsa.go.jp/api/v2"
