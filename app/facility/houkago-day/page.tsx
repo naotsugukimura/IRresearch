@@ -10,6 +10,7 @@ import { RoleDiagram } from "@/components/facility/RoleDiagram";
 import { ConversationCards } from "@/components/facility/ConversationCards";
 import { PLWaterfall } from "@/components/facility/PLWaterfall";
 import { BonusTable } from "@/components/facility/BonusTable";
+import { MonthlyPLTable } from "@/components/facility/MonthlyPLTable";
 import { getHoukagoDayAnalysis } from "@/lib/data";
 
 export default function HoukagoDayPage() {
@@ -70,10 +71,17 @@ export default function HoukagoDayPage() {
             <ConversationCards conversations={data.operationsStory.typicalConversations} />
           </section>
 
-          {/* 収支構造 */}
+          {/* 収支構造（概要） */}
           <section id="pl">
             <PLWaterfall data={data.facilityPL} />
           </section>
+
+          {/* 月次事業計画テーブル */}
+          {data.monthlyPL && (
+            <section id="monthlyPL">
+              <MonthlyPLTable data={data.monthlyPL} />
+            </section>
+          )}
 
           {/* 加算一覧 */}
           <section id="bonuses">

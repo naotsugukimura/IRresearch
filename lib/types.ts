@@ -535,6 +535,37 @@ export interface OperationsStory {
   typicalConversations: ConversationExample[];
 }
 
+// 月次事業計画テーブル
+export interface MonthlyPLRow {
+  label: string;
+  values: number[];
+  unit?: string;
+  note?: string;
+  calculated?: boolean;
+  isPercent?: boolean;
+  isTotal?: boolean;
+  isProfit?: boolean;
+}
+
+export interface MonthlyPLSection {
+  title: string;
+  rows: MonthlyPLRow[];
+}
+
+export interface MonthlyPLGlossary {
+  term: string;
+  description: string;
+  benchmark?: string;
+}
+
+export interface MonthlyPL {
+  title: string;
+  assumptions: string;
+  months: string[];
+  sections: MonthlyPLSection[];
+  glossary: MonthlyPLGlossary[];
+}
+
 export interface FacilityAnalysisData {
   serviceType: string;
   serviceCode: string;
@@ -546,5 +577,6 @@ export interface FacilityAnalysisData {
   userTimeSeries: YearCount[];
   facilityPL: FacilityPL;
   bonusCatalog: BonusCatalogItem[];
+  monthlyPL?: MonthlyPL;
   operationsStory: OperationsStory;
 }
