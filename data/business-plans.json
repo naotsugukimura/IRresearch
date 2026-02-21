@@ -83,9 +83,9 @@
               2530000000
             ],
             "annual": 28830000000,
+            "note": "就労支援+児童支援+プラットフォーム",
             "isMonetary": true,
-            "isBold": true,
-            "note": "就労支援+児童支援+プラットフォーム"
+            "isBold": true
           },
           {
             "label": "売上原価",
@@ -104,8 +104,8 @@
               1771000000
             ],
             "annual": 20181000000,
-            "isMonetary": true,
-            "note": "原価率70%"
+            "note": "原価率70%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -143,7 +143,7 @@
               30.0,
               30.0
             ],
-            "annual": 30.0,
+            "annual": 30,
             "isPercent": true
           }
         ]
@@ -381,9 +381,9 @@
               885500000
             ],
             "annual": 10090500000,
+            "note": "全社売上の約35%",
             "isMonetary": true,
-            "isBold": true,
-            "note": "全社売上の約35%"
+            "isBold": true
           },
           {
             "label": "売上原価",
@@ -402,8 +402,8 @@
               637560000
             ],
             "annual": 7265160000,
-            "isMonetary": true,
-            "note": "原価率72%（人件費比率高）"
+            "note": "原価率72%（人件費比率高）",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -441,7 +441,7 @@
               28.0,
               28.0
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -466,8 +466,8 @@
               148000000
             ],
             "annual": 1756000000,
-            "isMonetary": true,
-            "note": "支援スタッフ・管理者"
+            "note": "支援スタッフ・管理者",
+            "isMonetary": true
           },
           {
             "label": "広告宣伝費",
@@ -505,8 +505,8 @@
               25000000
             ],
             "annual": 300000000,
-            "isMonetary": true,
-            "note": "賃料・光熱費等"
+            "note": "賃料・光熱費等",
+            "isMonetary": true
           },
           {
             "label": "その他管理費",
@@ -681,9 +681,9 @@
               632500000
             ],
             "annual": 7207500000,
+            "note": "全社売上の約25%",
             "isMonetary": true,
-            "isBold": true,
-            "note": "全社売上の約25%"
+            "isBold": true
           },
           {
             "label": "売上原価",
@@ -702,8 +702,8 @@
               430100000
             ],
             "annual": 4901100000,
-            "isMonetary": true,
-            "note": "原価率68%（療育スタッフ人件費）"
+            "note": "原価率68%（療育スタッフ人件費）",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -741,7 +741,7 @@
               32.0,
               32.0
             ],
-            "annual": 32.0,
+            "annual": 32,
             "isPercent": true
           }
         ]
@@ -766,8 +766,8 @@
               112000000
             ],
             "annual": 1327000000,
-            "isMonetary": true,
-            "note": "管理・営業スタッフ"
+            "note": "管理・営業スタッフ",
+            "isMonetary": true
           },
           {
             "label": "広告宣伝費",
@@ -786,8 +786,8 @@
               24000000
             ],
             "annual": 285000000,
-            "isMonetary": true,
-            "note": "保護者向け広告"
+            "note": "保護者向け広告",
+            "isMonetary": true
           },
           {
             "label": "施設維持費",
@@ -888,7 +888,7 @@
               4.8,
               5.1
             ],
-            "annual": 4.0,
+            "annual": 4,
             "isPercent": true
           }
         ]
@@ -982,9 +982,9 @@
               1012000000
             ],
             "annual": 11532000000,
+            "note": "全社売上の約40%（メディア+SaaS）",
             "isMonetary": true,
-            "isBold": true,
-            "note": "全社売上の約40%（メディア+SaaS）"
+            "isBold": true
           },
           {
             "label": "売上原価",
@@ -1003,8 +1003,8 @@
               657800000
             ],
             "annual": 7495800000,
-            "isMonetary": true,
-            "note": "原価率65%（サーバー・開発費）"
+            "note": "原価率65%（サーバー・開発費）",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -1042,7 +1042,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -1067,8 +1067,8 @@
               110000000
             ],
             "annual": 1307000000,
-            "isMonetary": true,
-            "note": "エンジニア・マーケ"
+            "note": "エンジニア・マーケ",
+            "isMonetary": true
           },
           {
             "label": "広告宣伝費",
@@ -1087,8 +1087,8 @@
               46000000
             ],
             "annual": 543000000,
-            "isMonetary": true,
-            "note": "デジタル広告・SEO"
+            "note": "デジタル広告・SEO",
+            "isMonetary": true
           },
           {
             "label": "システム開発費",
@@ -1107,8 +1107,8 @@
               55000000
             ],
             "annual": 650000000,
-            "isMonetary": true,
-            "note": "SaaS開発・インフラ"
+            "note": "SaaS開発・インフラ",
+            "isMonetary": true
           },
           {
             "label": "その他管理費",
@@ -1300,8 +1300,8 @@
               468000000
             ],
             "annual": 5343000000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -1339,7 +1339,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -1575,8 +1575,8 @@
               376200000
             ],
             "annual": 4230600000,
-            "isMonetary": true,
-            "note": "原価率66%"
+            "note": "原価率66%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -1614,7 +1614,7 @@
               34.0,
               34.0
             ],
-            "annual": 34.0,
+            "annual": 34,
             "isPercent": true
           }
         ]
@@ -1850,8 +1850,8 @@
               120250000
             ],
             "annual": 1283750000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -1889,7 +1889,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -2106,9 +2106,9 @@
               5600000000
             ],
             "annual": 60600000000,
+            "note": "介護SaaS+人材紹介+海外",
             "isMonetary": true,
-            "isBold": true,
-            "note": "介護SaaS+人材紹介+海外"
+            "isBold": true
           },
           {
             "label": "売上原価",
@@ -2127,8 +2127,8 @@
               3360000000
             ],
             "annual": 36360000000,
-            "isMonetary": true,
-            "note": "原価率60%"
+            "note": "原価率60%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -2166,7 +2166,7 @@
               40.0,
               40.0
             ],
-            "annual": 40.0,
+            "annual": 40,
             "isPercent": true
           }
         ]
@@ -2402,8 +2402,8 @@
               73585416666
             ],
             "annual": 846056250000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -2441,7 +2441,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -2567,7 +2567,7 @@
               5.8,
               6.0
             ],
-            "annual": 5.0,
+            "annual": 5,
             "isPercent": true
           }
         ]
@@ -2658,8 +2658,8 @@
               22641666666
             ],
             "annual": 260325000000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -2697,7 +2697,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -2823,7 +2823,7 @@
               7.8,
               7.9
             ],
-            "annual": 7.0,
+            "annual": 7,
             "isPercent": true
           }
         ]
@@ -2932,8 +2932,8 @@
               339625000
             ],
             "annual": 3904875000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -2971,7 +2971,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -3097,7 +3097,7 @@
               12.6,
               12.7
             ],
-            "annual": 12.0,
+            "annual": 12,
             "isPercent": true
           }
         ]
@@ -3188,8 +3188,8 @@
               311322916
             ],
             "annual": 3579468750,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -3227,7 +3227,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -3444,8 +3444,8 @@
               450656250
             ],
             "annual": 5181468750,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -3483,7 +3483,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -3700,8 +3700,8 @@
               180262500
             ],
             "annual": 2072587500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -3739,7 +3739,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -3956,8 +3956,8 @@
               548625000
             ],
             "annual": 6307875000,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -3995,7 +3995,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -4212,8 +4212,8 @@
               70537500
             ],
             "annual": 811012500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -4251,7 +4251,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -4468,8 +4468,8 @@
               58781250
             ],
             "annual": 675843750,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -4507,7 +4507,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -4724,8 +4724,8 @@
               39187500
             ],
             "annual": 450562500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -4763,7 +4763,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -4889,7 +4889,7 @@
               12.2,
               12.4
             ],
-            "annual": 11.0,
+            "annual": 11,
             "isPercent": true
           }
         ]
@@ -4962,8 +4962,8 @@
               8464500000
             ],
             "annual": 97321500000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -5001,7 +5001,7 @@
               28.0,
               28.0
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -5127,7 +5127,7 @@
               8.6,
               8.7
             ],
-            "annual": 8.0,
+            "annual": 8,
             "isPercent": true
           }
         ]
@@ -5200,8 +5200,8 @@
               1755600000
             ],
             "annual": 20185200000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -5239,7 +5239,7 @@
               28.0,
               28.0
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -5438,8 +5438,8 @@
               3323100000
             ],
             "annual": 38207700000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -5477,7 +5477,7 @@
               28.0,
               28.0
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -5603,7 +5603,7 @@
               7.6,
               7.7
             ],
-            "annual": 7.0,
+            "annual": 7,
             "isPercent": true
           }
         ]
@@ -5676,8 +5676,8 @@
               3197700000
             ],
             "annual": 36765900000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -5715,7 +5715,7 @@
               28.0,
               28.0
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -5950,8 +5950,8 @@
               226416666
             ],
             "annual": 2603250000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -5989,7 +5989,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -6115,7 +6115,7 @@
               10.7,
               10.8
             ],
-            "annual": 10.0,
+            "annual": 10,
             "isPercent": true
           }
         ]
@@ -6224,8 +6224,8 @@
               215095834
             ],
             "annual": 2473087500,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -6263,7 +6263,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -6480,8 +6480,8 @@
               283020834
             ],
             "annual": 3254062500,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -6519,7 +6519,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -6645,7 +6645,7 @@
               9.7,
               9.8
             ],
-            "annual": 9.0,
+            "annual": 9,
             "isPercent": true
           }
         ]
@@ -6736,8 +6736,8 @@
               12452916666
             ],
             "annual": 143178750000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -6775,7 +6775,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -6992,8 +6992,8 @@
               56604166
             ],
             "annual": 650812500,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -7031,7 +7031,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -7157,7 +7157,7 @@
               9.7,
               9.8
             ],
-            "annual": 9.0,
+            "annual": 9,
             "isPercent": true
           }
         ]
@@ -7248,8 +7248,8 @@
               1097250000
             ],
             "annual": 12615750000,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -7287,7 +7287,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -7413,7 +7413,7 @@
               22.9,
               23.1
             ],
-            "annual": 22.0,
+            "annual": 22,
             "isPercent": true
           }
         ]
@@ -7504,8 +7504,8 @@
               2547187500
             ],
             "annual": 29286562500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -7543,7 +7543,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -7669,7 +7669,7 @@
               21.0,
               21.1
             ],
-            "annual": 20.0,
+            "annual": 20,
             "isPercent": true
           }
         ]
@@ -7760,8 +7760,8 @@
               141075000000
             ],
             "annual": 1622025000000,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -7799,7 +7799,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -7925,7 +7925,7 @@
               15.1,
               15.3
             ],
-            "annual": 14.0,
+            "annual": 14,
             "isPercent": true
           }
         ]
@@ -8016,8 +8016,8 @@
               470250000
             ],
             "annual": 5406750000,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -8055,7 +8055,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -8181,7 +8181,7 @@
               11.3,
               11.5
             ],
-            "annual": 10.0,
+            "annual": 10,
             "isPercent": true
           }
         ]
@@ -8190,6 +8190,8 @@
   },
   {
     "companyId": "welbe",
+    "segmentId": "employment_support",
+    "segmentName": "就労支援事業",
     "sections": [
       {
         "title": "集客KPI",
@@ -8293,8 +8295,8 @@
               326645145
             ],
             "annual": 4189397727,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -8332,7 +8334,7 @@
               42.1,
               42.1
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -8463,12 +8465,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "employment_support",
-    "segmentName": "就労支援事業"
+    ]
   },
   {
     "companyId": "welbe",
+    "segmentId": "child_welfare",
+    "segmentName": "児童福祉事業",
     "sections": [
       {
         "title": "集客KPI",
@@ -8572,8 +8574,8 @@
               25408574
             ],
             "annual": 1153602273,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -8611,7 +8613,7 @@
               83.7,
               83.7
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -8742,12 +8744,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "child_welfare",
-    "segmentName": "児童福祉事業"
+    ]
   },
   {
     "companyId": "cocoruport",
+    "segmentId": "employment_transition",
+    "segmentName": "就労移行支援",
     "sections": [
       {
         "title": "集客KPI",
@@ -8851,8 +8853,8 @@
               235311385
             ],
             "annual": 3286581818,
-            "isMonetary": true,
-            "note": "原価率66%"
+            "note": "原価率66%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -8890,7 +8892,7 @@
               46.9,
               46.9
             ],
-            "annual": 34.0,
+            "annual": 34,
             "isPercent": true
           }
         ]
@@ -9021,12 +9023,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "employment_transition",
-    "segmentName": "就労移行支援"
+    ]
   },
   {
     "companyId": "cocoruport",
+    "segmentId": "independence_training",
+    "segmentName": "自立訓練",
     "sections": [
       {
         "title": "集客KPI",
@@ -9130,8 +9132,8 @@
               20339902
             ],
             "annual": 944018182,
-            "isMonetary": true,
-            "note": "原価率66%"
+            "note": "原価率66%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -9169,7 +9171,7 @@
               84.0,
               84.0
             ],
-            "annual": 34.0,
+            "annual": 34,
             "isPercent": true
           }
         ]
@@ -9300,12 +9302,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "independence_training",
-    "segmentName": "自立訓練"
+    ]
   },
   {
     "companyId": "spool",
+    "segmentId": "disability_employment",
+    "segmentName": "障害者雇用支援",
     "sections": [
       {
         "title": "集客KPI",
@@ -9409,8 +9411,8 @@
               19356482
             ],
             "annual": 499236111,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -9448,7 +9450,7 @@
               73.1,
               73.1
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -9579,12 +9581,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "disability_employment",
-    "segmentName": "障害者雇用支援"
+    ]
   },
   {
     "companyId": "spool",
+    "segmentId": "hr_solution",
+    "segmentName": "人材ソリューション",
     "sections": [
       {
         "title": "集客KPI",
@@ -9688,8 +9690,8 @@
               18084432
             ],
             "annual": 453387897,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -9727,7 +9729,7 @@
               72.3,
               72.3
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -9858,12 +9860,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "hr_solution",
-    "segmentName": "人材ソリューション"
+    ]
   },
   {
     "companyId": "spool",
+    "segmentId": "logistics",
+    "segmentName": "ロジスティクス",
     "sections": [
       {
         "title": "集客KPI",
@@ -9967,8 +9969,8 @@
               9837156
             ],
             "annual": 331125992,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -10006,7 +10008,7 @@
               79.4,
               79.4
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -10137,12 +10139,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "logistics",
-    "segmentName": "ロジスティクス"
+    ]
   },
   {
     "companyId": "persol",
+    "segmentId": "staffing",
+    "segmentName": "人材派遣",
     "sections": [
       {
         "title": "集客KPI",
@@ -10227,8 +10229,8 @@
               27863401042
             ],
             "annual": 465330937500,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -10266,7 +10268,7 @@
               55.3,
               55.2
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -10392,17 +10394,17 @@
               26.1,
               26.2
             ],
-            "annual": 5.0,
+            "annual": 5,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "staffing",
-    "segmentName": "人材派遣"
+    ]
   },
   {
     "companyId": "persol",
+    "segmentId": "disability_employment",
+    "segmentName": "障害者雇用支援",
     "sections": [
       {
         "title": "集客KPI",
@@ -10487,8 +10489,8 @@
               1949578125
             ],
             "annual": 126908437500,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -10526,7 +10528,7 @@
               88.5,
               88.5
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -10652,17 +10654,17 @@
               59.4,
               59.5
             ],
-            "annual": 5.0,
+            "annual": 5,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "disability_employment",
-    "segmentName": "障害者雇用支援"
+    ]
   },
   {
     "companyId": "persol",
+    "segmentId": "recruitment",
+    "segmentName": "人材紹介",
     "sections": [
       {
         "title": "集客KPI",
@@ -10747,8 +10749,8 @@
               8072625000
             ],
             "annual": 253816875000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -10786,7 +10788,7 @@
               76.2,
               76.2
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -10912,17 +10914,17 @@
               47.1,
               47.2
             ],
-            "annual": 5.0,
+            "annual": 5,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "recruitment",
-    "segmentName": "人材紹介"
+    ]
   },
   {
     "companyId": "pasona",
+    "segmentId": "staffing",
+    "segmentName": "人材派遣",
     "sections": [
       {
         "title": "集客KPI",
@@ -11007,8 +11009,8 @@
               9979750000
             ],
             "annual": 156195000000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -11046,7 +11048,7 @@
               52.2,
               52.2
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -11172,17 +11174,17 @@
               25.0,
               25.2
             ],
-            "annual": 7.0,
+            "annual": 7,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "staffing",
-    "segmentName": "人材派遣"
+    ]
   },
   {
     "companyId": "pasona",
+    "segmentId": "disability_employment",
+    "segmentName": "障害者雇用支援",
     "sections": [
       {
         "title": "集客KPI",
@@ -11267,8 +11269,8 @@
               252541667
             ],
             "annual": 26032500000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -11306,7 +11308,7 @@
               92.8,
               92.7
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -11432,17 +11434,17 @@
               65.5,
               65.7
             ],
-            "annual": 7.0,
+            "annual": 7,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "disability_employment",
-    "segmentName": "障害者雇用支援"
+    ]
   },
   {
     "companyId": "pasona",
+    "segmentId": "recruitment",
+    "segmentName": "人材紹介",
     "sections": [
       {
         "title": "集客KPI",
@@ -11527,8 +11529,8 @@
               2403500000
             ],
             "annual": 78097500000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -11566,7 +11568,7 @@
               77.0,
               77.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -11692,17 +11694,17 @@
               49.8,
               49.9
             ],
-            "annual": 7.0,
+            "annual": 7,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "recruitment",
-    "segmentName": "人材紹介"
+    ]
   },
   {
     "companyId": "copel",
+    "segmentId": "child_development",
+    "segmentName": "児童発達支援",
     "sections": [
       {
         "title": "集客KPI",
@@ -11806,8 +11808,8 @@
               135850000
             ],
             "annual": 2342925000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -11845,7 +11847,7 @@
               56.7,
               56.7
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -11971,17 +11973,17 @@
               34.3,
               34.4
             ],
-            "annual": 12.0,
+            "annual": 12,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "child_development",
-    "segmentName": "児童発達支援"
+    ]
   },
   {
     "companyId": "copel",
+    "segmentId": "after_school",
+    "segmentName": "放課後等デイサービス",
     "sections": [
       {
         "title": "集客KPI",
@@ -12085,8 +12087,8 @@
               62003333
             ],
             "annual": 1561950000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -12124,7 +12126,7 @@
               70.3,
               70.3
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -12250,17 +12252,17 @@
               48.0,
               48.1
             ],
-            "annual": 12.0,
+            "annual": 12,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "after_school",
-    "segmentName": "放課後等デイサービス"
+    ]
   },
   {
     "companyId": "startline",
+    "segmentId": "disability_consulting",
+    "segmentName": "障害者雇用コンサルティング",
     "sections": [
       {
         "title": "集客KPI",
@@ -12345,8 +12347,8 @@
               186793750
             ],
             "annual": 2147681250,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -12384,7 +12386,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -12515,12 +12517,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "disability_consulting",
-    "segmentName": "障害者雇用コンサルティング"
+    ]
   },
   {
     "companyId": "startline",
+    "segmentId": "satellite_office",
+    "segmentName": "サテライトオフィス",
     "sections": [
       {
         "title": "集客KPI",
@@ -12605,8 +12607,8 @@
               124529166
             ],
             "annual": 1431787500,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -12644,7 +12646,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -12775,12 +12777,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "satellite_office",
-    "segmentName": "サテライトオフィス"
+    ]
   },
   {
     "companyId": "nd_software",
+    "segmentId": "care_software",
+    "segmentName": "介護ソフト",
     "sections": [
       {
         "title": "事業KPI",
@@ -12865,8 +12867,8 @@
               210562057
             ],
             "annual": 2849807812,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -12904,7 +12906,7 @@
               61.8,
               61.8
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -13035,12 +13037,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "care_software",
-    "segmentName": "介護ソフト"
+    ]
   },
   {
     "companyId": "nd_software",
+    "segmentId": "disability_welfare_soft",
+    "segmentName": "障害福祉ソフト",
     "sections": [
       {
         "title": "事業KPI",
@@ -13125,8 +13127,8 @@
               87208515
             ],
             "annual": 1813514062,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -13164,7 +13166,7 @@
               75.1,
               75.1
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -13295,12 +13297,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "disability_welfare_soft",
-    "segmentName": "障害福祉ソフト"
+    ]
   },
   {
     "companyId": "nd_software",
+    "segmentId": "cloud_service",
+    "segmentName": "クラウドサービス",
     "sections": [
       {
         "title": "事業KPI",
@@ -13385,8 +13387,8 @@
               7119062
             ],
             "annual": 518146875,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -13424,7 +13426,7 @@
               92.9,
               92.9
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -13555,12 +13557,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "cloud_service",
-    "segmentName": "クラウドサービス"
+    ]
   },
   {
     "companyId": "kanamic",
+    "segmentId": "care_cloud",
+    "segmentName": "介護クラウド",
     "sections": [
       {
         "title": "事業KPI",
@@ -13645,8 +13647,8 @@
               108157500
             ],
             "annual": 1243552500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -13684,7 +13686,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -13815,12 +13817,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "care_cloud",
-    "segmentName": "介護クラウド"
+    ]
   },
   {
     "companyId": "kanamic",
+    "segmentId": "multi_profession",
+    "segmentName": "多職種連携システム",
     "sections": [
       {
         "title": "事業KPI",
@@ -13905,8 +13907,8 @@
               45065625
             ],
             "annual": 518146875,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -13944,7 +13946,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -14075,12 +14077,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "multi_profession",
-    "segmentName": "多職種連携システム"
+    ]
   },
   {
     "companyId": "kanamic",
+    "segmentId": "disability_welfare_sys",
+    "segmentName": "障害福祉システム",
     "sections": [
       {
         "title": "事業KPI",
@@ -14165,8 +14167,8 @@
               27039375
             ],
             "annual": 310888125,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -14204,7 +14206,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -14335,12 +14337,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "disability_welfare_sys",
-    "segmentName": "障害福祉システム"
+    ]
   },
   {
     "companyId": "wiseman",
+    "segmentId": "care_software",
+    "segmentName": "介護ソフト",
     "sections": [
       {
         "title": "事業KPI",
@@ -14425,8 +14427,8 @@
               301743750
             ],
             "annual": 3469331250,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -14464,7 +14466,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -14595,12 +14597,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "care_software",
-    "segmentName": "介護ソフト"
+    ]
   },
   {
     "companyId": "wiseman",
+    "segmentId": "disability_welfare_soft",
+    "segmentName": "障害福祉ソフト",
     "sections": [
       {
         "title": "事業KPI",
@@ -14685,8 +14687,8 @@
               192018750
             ],
             "annual": 2207756250,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -14724,7 +14726,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -14855,12 +14857,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "disability_welfare_soft",
-    "segmentName": "障害福祉ソフト"
+    ]
   },
   {
     "companyId": "wiseman",
+    "segmentId": "maintenance",
+    "segmentName": "保守・サポート",
     "sections": [
       {
         "title": "事業KPI",
@@ -14945,8 +14947,8 @@
               54862500
             ],
             "annual": 630787500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -14984,7 +14986,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -15115,12 +15117,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "maintenance",
-    "segmentName": "保守・サポート"
+    ]
   },
   {
     "companyId": "hug",
+    "segmentId": "afterschool_saas",
+    "segmentName": "放デイ向けSaaS",
     "sections": [
       {
         "title": "事業KPI",
@@ -15205,8 +15207,8 @@
               56430000
             ],
             "annual": 648810000,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -15244,7 +15246,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -15375,12 +15377,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "afterschool_saas",
-    "segmentName": "放デイ向けSaaS"
+    ]
   },
   {
     "companyId": "hug",
+    "segmentId": "maintenance",
+    "segmentName": "保守・サポート",
     "sections": [
       {
         "title": "事業KPI",
@@ -15465,8 +15467,8 @@
               14107500
             ],
             "annual": 162202500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -15504,7 +15506,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -15635,12 +15637,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "maintenance",
-    "segmentName": "保守・サポート"
+    ]
   },
   {
     "companyId": "knowbe",
+    "segmentId": "employment_saas",
+    "segmentName": "就労支援向けSaaS",
     "sections": [
       {
         "title": "事業KPI",
@@ -15725,8 +15727,8 @@
               49964062
             ],
             "annual": 574467188,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -15764,7 +15766,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -15895,12 +15897,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "employment_saas",
-    "segmentName": "就労支援向けSaaS"
+    ]
   },
   {
     "companyId": "knowbe",
+    "segmentId": "maintenance",
+    "segmentName": "保守・サポート",
     "sections": [
       {
         "title": "事業KPI",
@@ -15985,8 +15987,8 @@
               8817188
             ],
             "annual": 101376562,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -16024,7 +16026,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -16155,12 +16157,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "maintenance",
-    "segmentName": "保守・サポート"
+    ]
   },
   {
     "companyId": "zyras",
+    "segmentId": "disability_welfare_soft",
+    "segmentName": "障害福祉ソフト",
     "sections": [
       {
         "title": "事業KPI",
@@ -16245,8 +16247,8 @@
               29390625
             ],
             "annual": 337921875,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -16284,7 +16286,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -16410,17 +16412,17 @@
               12.2,
               12.4
             ],
-            "annual": 11.0,
+            "annual": 11,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "disability_welfare_soft",
-    "segmentName": "障害福祉ソフト"
+    ]
   },
   {
     "companyId": "zyras",
+    "segmentId": "maintenance",
+    "segmentName": "保守・サポート",
     "sections": [
       {
         "title": "事業KPI",
@@ -16505,8 +16507,8 @@
               9796875
             ],
             "annual": 112640625,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -16544,7 +16546,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -16670,17 +16672,17 @@
               12.2,
               12.4
             ],
-            "annual": 11.0,
+            "annual": 11,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "maintenance",
-    "segmentName": "保守・サポート"
+    ]
   },
   {
     "companyId": "sms",
+    "segmentId": "career",
+    "segmentName": "キャリア事業",
     "sections": [
       {
         "title": "事業KPI",
@@ -16764,9 +16766,9 @@
               2718840580
             ],
             "annual": 29421739130,
+            "note": "介護SaaS+人材紹介+海外",
             "isMonetary": true,
-            "isBold": true,
-            "note": "介護SaaS+人材紹介+海外"
+            "isBold": true
           },
           {
             "label": "売上原価",
@@ -16785,8 +16787,8 @@
               937310439
             ],
             "annual": 17653043478,
-            "isMonetary": true,
-            "note": "原価率60%"
+            "note": "原価率60%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -16824,7 +16826,7 @@
               65.5,
               65.5
             ],
-            "annual": 40.0,
+            "annual": 40,
             "isPercent": true
           }
         ]
@@ -16974,12 +16976,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "career",
-    "segmentName": "キャリア事業"
+    ]
   },
   {
     "companyId": "sms",
+    "segmentId": "care_saas",
+    "segmentName": "介護・障害福祉SaaS",
     "sections": [
       {
         "title": "事業KPI",
@@ -17063,9 +17065,9 @@
               1602898551
             ],
             "annual": 17345652174,
+            "note": "介護SaaS+人材紹介+海外",
             "isMonetary": true,
-            "isBold": true,
-            "note": "介護SaaS+人材紹介+海外"
+            "isBold": true
           },
           {
             "label": "売上原価",
@@ -17084,8 +17086,8 @@
               340035182
             ],
             "annual": 10407391304,
-            "isMonetary": true,
-            "note": "原価率60%"
+            "note": "原価率60%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -17123,7 +17125,7 @@
               78.8,
               78.8
             ],
-            "annual": 40.0,
+            "annual": 40,
             "isPercent": true
           }
         ]
@@ -17273,12 +17275,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "care_saas",
-    "segmentName": "介護・障害福祉SaaS"
+    ]
   },
   {
     "companyId": "sms",
+    "segmentId": "healthcare",
+    "segmentName": "ヘルスケア",
     "sections": [
       {
         "title": "事業KPI",
@@ -17362,9 +17364,9 @@
               1278260870
             ],
             "annual": 13832608696,
+            "note": "介護SaaS+人材紹介+海外",
             "isMonetary": true,
-            "isBold": true,
-            "note": "介護SaaS+人材紹介+海外"
+            "isBold": true
           },
           {
             "label": "売上原価",
@@ -17383,8 +17385,8 @@
               227632325
             ],
             "annual": 8299565217,
-            "isMonetary": true,
-            "note": "原価率60%"
+            "note": "原価率60%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -17422,7 +17424,7 @@
               82.2,
               82.2
             ],
-            "annual": 40.0,
+            "annual": 40,
             "isPercent": true
           }
         ]
@@ -17572,12 +17574,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "healthcare",
-    "segmentName": "ヘルスケア"
+    ]
   },
   {
     "companyId": "sorust",
+    "segmentId": "medical_office",
+    "segmentName": "医療事務受託",
     "sections": [
       {
         "title": "集客KPI",
@@ -17643,8 +17645,8 @@
               1431650000
             ],
             "annual": 38928600000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -17682,7 +17684,7 @@
               69.6,
               69.6
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -17808,17 +17810,17 @@
               50.1,
               50.2
             ],
-            "annual": 8.0,
+            "annual": 8,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "medical_office",
-    "segmentName": "医療事務受託"
+    ]
   },
   {
     "companyId": "sorust",
+    "segmentId": "care_service",
+    "segmentName": "介護サービス",
     "sections": [
       {
         "title": "集客KPI",
@@ -17884,8 +17886,8 @@
               1459516667
             ],
             "annual": 38928600000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -17923,7 +17925,7 @@
               69.0,
               69.0
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -18049,17 +18051,17 @@
               49.5,
               49.6
             ],
-            "annual": 8.0,
+            "annual": 8,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "care_service",
-    "segmentName": "介護サービス"
+    ]
   },
   {
     "companyId": "sorust",
+    "segmentId": "disability_welfare",
+    "segmentName": "障害福祉サービス",
     "sections": [
       {
         "title": "集客KPI",
@@ -18125,8 +18127,8 @@
               364879167
             ],
             "annual": 19464300000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -18164,7 +18166,7 @@
               84.5,
               84.5
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -18290,17 +18292,17 @@
               65.0,
               65.1
             ],
-            "annual": 8.0,
+            "annual": 8,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "disability_welfare",
-    "segmentName": "障害福祉サービス"
+    ]
   },
   {
     "companyId": "care21",
+    "segmentId": "care_service",
+    "segmentName": "介護サービス",
     "sections": [
       {
         "title": "集客KPI",
@@ -18366,8 +18368,8 @@
               949730833
             ],
             "annual": 14129640000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -18405,7 +18407,7 @@
               44.4,
               44.4
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -18536,12 +18538,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "care_service",
-    "segmentName": "介護サービス"
+    ]
   },
   {
     "companyId": "care21",
+    "segmentId": "disability_welfare",
+    "segmentName": "障害福祉サービス",
     "sections": [
       {
         "title": "集客KPI",
@@ -18607,8 +18609,8 @@
               176866250
             ],
             "annual": 6055560000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -18646,7 +18648,7 @@
               75.8,
               75.8
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -18777,12 +18779,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "disability_welfare",
-    "segmentName": "障害福祉サービス"
+    ]
   },
   {
     "companyId": "saint_care",
+    "segmentId": "home_care",
+    "segmentName": "訪問介護",
     "sections": [
       {
         "title": "集客KPI",
@@ -18848,8 +18850,8 @@
               721931719
             ],
             "annual": 17193465000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -18887,7 +18889,7 @@
               65.2,
               65.2
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -19013,17 +19015,17 @@
               44.8,
               44.9
             ],
-            "annual": 7.0,
+            "annual": 7,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "home_care",
-    "segmentName": "訪問介護"
+    ]
   },
   {
     "companyId": "saint_care",
+    "segmentId": "home_nursing",
+    "segmentName": "訪問看護",
     "sections": [
       {
         "title": "集客KPI",
@@ -19089,8 +19091,8 @@
               441262135
             ],
             "annual": 13372695000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -19128,7 +19130,7 @@
               72.7,
               72.7
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -19254,17 +19256,17 @@
               52.3,
               52.4
             ],
-            "annual": 7.0,
+            "annual": 7,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "home_nursing",
-    "segmentName": "訪問看護"
+    ]
   },
   {
     "companyId": "saint_care",
+    "segmentId": "disability_welfare",
+    "segmentName": "障害福祉サービス",
     "sections": [
       {
         "title": "集客KPI",
@@ -19330,8 +19332,8 @@
               147170833
             ],
             "annual": 7641540000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -19369,7 +19371,7 @@
               84.1,
               84.1
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -19495,17 +19497,17 @@
               63.6,
               63.7
             ],
-            "annual": 7.0,
+            "annual": 7,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "disability_welfare",
-    "segmentName": "障害福祉サービス"
+    ]
   },
   {
     "companyId": "unimat",
+    "segmentId": "care_facility",
+    "segmentName": "介護施設",
     "sections": [
       {
         "title": "集客KPI",
@@ -19571,8 +19573,8 @@
               1963457031
             ],
             "annual": 27574425000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -19610,7 +19612,7 @@
               41.1,
               41.1
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -19741,12 +19743,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "care_facility",
-    "segmentName": "介護施設"
+    ]
   },
   {
     "companyId": "unimat",
+    "segmentId": "disability_group_home",
+    "segmentName": "障害者グループホーム",
     "sections": [
       {
         "title": "集客KPI",
@@ -19812,8 +19814,8 @@
               221790364
             ],
             "annual": 9191475000,
-            "isMonetary": true,
-            "note": "原価率72%"
+            "note": "原価率72%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -19851,7 +19853,7 @@
               80.0,
               80.0
             ],
-            "annual": 28.0,
+            "annual": 28,
             "isPercent": true
           }
         ]
@@ -19982,12 +19984,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "disability_group_home",
-    "segmentName": "障害者グループホーム"
+    ]
   },
   {
     "companyId": "kaien",
+    "segmentId": "employment_transition",
+    "segmentName": "就労移行支援",
     "sections": [
       {
         "title": "集客KPI",
@@ -20091,8 +20093,8 @@
               147170833
             ],
             "annual": 1692112500,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -20130,7 +20132,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -20256,17 +20258,17 @@
               10.7,
               10.8
             ],
-            "annual": 10.0,
+            "annual": 10,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "employment_transition",
-    "segmentName": "就労移行支援"
+    ]
   },
   {
     "companyId": "kaien",
+    "segmentId": "independence_training",
+    "segmentName": "自立訓練",
     "sections": [
       {
         "title": "集客KPI",
@@ -20370,8 +20372,8 @@
               45283333
             ],
             "annual": 520650000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -20409,7 +20411,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -20535,17 +20537,17 @@
               10.7,
               10.8
             ],
-            "annual": 10.0,
+            "annual": 10,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "independence_training",
-    "segmentName": "自立訓練"
+    ]
   },
   {
     "companyId": "kaien",
+    "segmentId": "disability_consulting",
+    "segmentName": "障害者雇用コンサルティング",
     "sections": [
       {
         "title": "集客KPI",
@@ -20649,8 +20651,8 @@
               33962500
             ],
             "annual": 390487500,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -20688,7 +20690,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -20814,17 +20816,17 @@
               10.7,
               10.8
             ],
-            "annual": 10.0,
+            "annual": 10,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "disability_consulting",
-    "segmentName": "障害者雇用コンサルティング"
+    ]
   },
   {
     "companyId": "decoboco",
+    "segmentId": "child_dev_fc",
+    "segmentName": "児童発達支援FC",
     "sections": [
       {
         "title": "集客KPI",
@@ -20928,8 +20930,8 @@
               118302709
             ],
             "annual": 1360198125,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -20967,7 +20969,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -21098,12 +21100,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "child_dev_fc",
-    "segmentName": "児童発達支援FC"
+    ]
   },
   {
     "companyId": "decoboco",
+    "segmentId": "afterschool_fc",
+    "segmentName": "放課後等デイサービスFC",
     "sections": [
       {
         "title": "集客KPI",
@@ -21207,8 +21209,8 @@
               96793125
             ],
             "annual": 1112889375,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -21246,7 +21248,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -21377,12 +21379,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "afterschool_fc",
-    "segmentName": "放課後等デイサービスFC"
+    ]
   },
   {
     "companyId": "atgp",
+    "segmentId": "job_platform",
+    "segmentName": "求人プラットフォーム",
     "sections": [
       {
         "title": "集客KPI",
@@ -21467,8 +21469,8 @@
               141510417
             ],
             "annual": 1627031250,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -21506,7 +21508,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -21632,17 +21634,17 @@
               9.7,
               9.8
             ],
-            "annual": 9.0,
+            "annual": 9,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "job_platform",
-    "segmentName": "求人プラットフォーム"
+    ]
   },
   {
     "companyId": "atgp",
+    "segmentId": "employment_transition",
+    "segmentName": "就労移行支援",
     "sections": [
       {
         "title": "集客KPI",
@@ -21727,8 +21729,8 @@
               84906250
             ],
             "annual": 976218750,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -21766,7 +21768,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -21892,17 +21894,17 @@
               9.7,
               9.8
             ],
-            "annual": 9.0,
+            "annual": 9,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "employment_transition",
-    "segmentName": "就労移行支援"
+    ]
   },
   {
     "companyId": "atgp",
+    "segmentId": "recruitment",
+    "segmentName": "人材紹介",
     "sections": [
       {
         "title": "集客KPI",
@@ -21987,8 +21989,8 @@
               56604167
             ],
             "annual": 650812500,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -22026,7 +22028,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -22152,17 +22154,17 @@
               9.7,
               9.8
             ],
-            "annual": 9.0,
+            "annual": 9,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "recruitment",
-    "segmentName": "人材紹介"
+    ]
   },
   {
     "companyId": "manpower",
+    "segmentId": "staffing",
+    "segmentName": "人材派遣",
     "sections": [
       {
         "title": "集客KPI",
@@ -22247,8 +22249,8 @@
               7471750000
             ],
             "annual": 85907250000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -22286,7 +22288,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -22417,272 +22419,12 @@
           }
         ]
       }
-    ],
-    "segmentId": "staffing",
-    "segmentName": "人材派遣"
+    ]
   },
   {
     "companyId": "manpower",
-    "sections": [
-      {
-        "title": "集客KPI",
-        "rows": [
-          {
-            "label": "月間利用者数",
-            "values": [
-              22230,
-              22347,
-              22464,
-              22581,
-              22698,
-              22815,
-              22932,
-              23049,
-              23166,
-              23283,
-              23400,
-              23517
-            ],
-            "annual": null,
-            "note": "障害者人材紹介セグメント"
-          },
-          {
-            "label": "従業員数",
-            "values": [
-              7790,
-              7791,
-              7792,
-              7793,
-              7794,
-              7795,
-              7795,
-              7796,
-              7797,
-              7798,
-              7799,
-              7800
-            ],
-            "annual": null,
-            "note": "障害者人材紹介セグメント"
-          }
-        ]
-      },
-      {
-        "title": "損益計算書",
-        "rows": [
-          {
-            "label": "売上高",
-            "values": [
-              3373333333,
-              3446666667,
-              3520000000,
-              3593333333,
-              3666666667,
-              3740000000,
-              3740000000,
-              3758333333,
-              3776666667,
-              3795000000,
-              3813333333,
-              3831666667
-            ],
-            "annual": 44055000000,
-            "isMonetary": true,
-            "isBold": true
-          },
-          {
-            "label": "売上原価",
-            "values": [
-              2192666667,
-              2240333333,
-              2288000000,
-              2335666667,
-              2383333333,
-              2431000000,
-              2431000000,
-              2442916667,
-              2454833333,
-              2466750000,
-              2478666667,
-              2490583333
-            ],
-            "annual": 28635750000,
-            "isMonetary": true,
-            "note": "原価率65%"
-          },
-          {
-            "label": "粗利",
-            "values": [
-              1180666666,
-              1206333334,
-              1232000000,
-              1257666666,
-              1283333334,
-              1309000000,
-              1309000000,
-              1315416666,
-              1321833334,
-              1328250000,
-              1334666666,
-              1341083334
-            ],
-            "annual": 15419250000,
-            "isMonetary": true,
-            "isBold": true
-          },
-          {
-            "label": "粗利率",
-            "values": [
-              35.0,
-              35.0,
-              35.0,
-              35.0,
-              35.0,
-              35.0,
-              35.0,
-              35.0,
-              35.0,
-              35.0,
-              35.0,
-              35.0
-            ],
-            "annual": 35.0,
-            "isPercent": true
-          }
-        ]
-      },
-      {
-        "title": "販管費",
-        "rows": [
-          {
-            "label": "人件費",
-            "values": [
-              603487500,
-              613016250,
-              622545000,
-              632073750,
-              641602500,
-              651131250,
-              647955000,
-              647955000,
-              647955000,
-              647955000,
-              647955000,
-              647955000
-            ],
-            "annual": 7651586250,
-            "isMonetary": true
-          },
-          {
-            "label": "広告宣伝費",
-            "values": [
-              173250000,
-              173250000,
-              173250000,
-              173250000,
-              173250000,
-              173250000,
-              173250000,
-              173250000,
-              173250000,
-              173250000,
-              173250000,
-              173250000
-            ],
-            "annual": 2079000000,
-            "isMonetary": true
-          },
-          {
-            "label": "その他管理費",
-            "values": [
-              346500000,
-              346500000,
-              346500000,
-              346500000,
-              346500000,
-              346500000,
-              346500000,
-              346500000,
-              346500000,
-              346500000,
-              346500000,
-              346500000
-            ],
-            "annual": 4158000000,
-            "isMonetary": true
-          },
-          {
-            "label": "販管費合計",
-            "values": [
-              1123237500,
-              1132766250,
-              1142295000,
-              1151823750,
-              1161352500,
-              1170881250,
-              1167705000,
-              1167705000,
-              1167705000,
-              1167705000,
-              1167705000,
-              1167705000
-            ],
-            "annual": 13888586250,
-            "isMonetary": true,
-            "isBold": true
-          }
-        ]
-      },
-      {
-        "title": "利益",
-        "rows": [
-          {
-            "label": "営業利益",
-            "values": [
-              57429166,
-              73567084,
-              89705000,
-              105842916,
-              121980834,
-              138118750,
-              141295000,
-              147711666,
-              154128334,
-              160545000,
-              166961666,
-              173378334
-            ],
-            "annual": 1530663750,
-            "isMonetary": true,
-            "isBold": true
-          },
-          {
-            "label": "営業利益率",
-            "values": [
-              1.7,
-              2.1,
-              2.5,
-              2.9,
-              3.3,
-              3.7,
-              3.8,
-              3.9,
-              4.1,
-              4.2,
-              4.4,
-              4.5
-            ],
-            "annual": 3.5,
-            "isPercent": true
-          }
-        ]
-      }
-    ],
     "segmentId": "disability_recruitment",
-    "segmentName": "障害者人材紹介"
-  },
-  {
-    "companyId": "manpower",
+    "segmentName": "障害者人材紹介",
     "sections": [
       {
         "title": "集客KPI",
@@ -22704,7 +22446,7 @@
               23517
             ],
             "annual": null,
-            "note": "就労支援セグメント"
+            "note": "障害者人材紹介セグメント"
           },
           {
             "label": "従業員数",
@@ -22723,7 +22465,7 @@
               7800
             ],
             "annual": null,
-            "note": "就労支援セグメント"
+            "note": "障害者人材紹介セグメント"
           }
         ]
       },
@@ -22767,8 +22509,8 @@
               2490583333
             ],
             "annual": 28635750000,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -22806,7 +22548,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -22937,12 +22679,272 @@
           }
         ]
       }
-    ],
+    ]
+  },
+  {
+    "companyId": "manpower",
     "segmentId": "employment_support_gen",
-    "segmentName": "就労支援"
+    "segmentName": "就労支援",
+    "sections": [
+      {
+        "title": "集客KPI",
+        "rows": [
+          {
+            "label": "月間利用者数",
+            "values": [
+              22230,
+              22347,
+              22464,
+              22581,
+              22698,
+              22815,
+              22932,
+              23049,
+              23166,
+              23283,
+              23400,
+              23517
+            ],
+            "annual": null,
+            "note": "就労支援セグメント"
+          },
+          {
+            "label": "従業員数",
+            "values": [
+              7790,
+              7791,
+              7792,
+              7793,
+              7794,
+              7795,
+              7795,
+              7796,
+              7797,
+              7798,
+              7799,
+              7800
+            ],
+            "annual": null,
+            "note": "就労支援セグメント"
+          }
+        ]
+      },
+      {
+        "title": "損益計算書",
+        "rows": [
+          {
+            "label": "売上高",
+            "values": [
+              3373333333,
+              3446666667,
+              3520000000,
+              3593333333,
+              3666666667,
+              3740000000,
+              3740000000,
+              3758333333,
+              3776666667,
+              3795000000,
+              3813333333,
+              3831666667
+            ],
+            "annual": 44055000000,
+            "isMonetary": true,
+            "isBold": true
+          },
+          {
+            "label": "売上原価",
+            "values": [
+              2192666667,
+              2240333333,
+              2288000000,
+              2335666667,
+              2383333333,
+              2431000000,
+              2431000000,
+              2442916667,
+              2454833333,
+              2466750000,
+              2478666667,
+              2490583333
+            ],
+            "annual": 28635750000,
+            "note": "原価率65%",
+            "isMonetary": true
+          },
+          {
+            "label": "粗利",
+            "values": [
+              1180666666,
+              1206333334,
+              1232000000,
+              1257666666,
+              1283333334,
+              1309000000,
+              1309000000,
+              1315416666,
+              1321833334,
+              1328250000,
+              1334666666,
+              1341083334
+            ],
+            "annual": 15419250000,
+            "isMonetary": true,
+            "isBold": true
+          },
+          {
+            "label": "粗利率",
+            "values": [
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0
+            ],
+            "annual": 35,
+            "isPercent": true
+          }
+        ]
+      },
+      {
+        "title": "販管費",
+        "rows": [
+          {
+            "label": "人件費",
+            "values": [
+              603487500,
+              613016250,
+              622545000,
+              632073750,
+              641602500,
+              651131250,
+              647955000,
+              647955000,
+              647955000,
+              647955000,
+              647955000,
+              647955000
+            ],
+            "annual": 7651586250,
+            "isMonetary": true
+          },
+          {
+            "label": "広告宣伝費",
+            "values": [
+              173250000,
+              173250000,
+              173250000,
+              173250000,
+              173250000,
+              173250000,
+              173250000,
+              173250000,
+              173250000,
+              173250000,
+              173250000,
+              173250000
+            ],
+            "annual": 2079000000,
+            "isMonetary": true
+          },
+          {
+            "label": "その他管理費",
+            "values": [
+              346500000,
+              346500000,
+              346500000,
+              346500000,
+              346500000,
+              346500000,
+              346500000,
+              346500000,
+              346500000,
+              346500000,
+              346500000,
+              346500000
+            ],
+            "annual": 4158000000,
+            "isMonetary": true
+          },
+          {
+            "label": "販管費合計",
+            "values": [
+              1123237500,
+              1132766250,
+              1142295000,
+              1151823750,
+              1161352500,
+              1170881250,
+              1167705000,
+              1167705000,
+              1167705000,
+              1167705000,
+              1167705000,
+              1167705000
+            ],
+            "annual": 13888586250,
+            "isMonetary": true,
+            "isBold": true
+          }
+        ]
+      },
+      {
+        "title": "利益",
+        "rows": [
+          {
+            "label": "営業利益",
+            "values": [
+              57429166,
+              73567084,
+              89705000,
+              105842916,
+              121980834,
+              138118750,
+              141295000,
+              147711666,
+              154128334,
+              160545000,
+              166961666,
+              173378334
+            ],
+            "annual": 1530663750,
+            "isMonetary": true,
+            "isBold": true
+          },
+          {
+            "label": "営業利益率",
+            "values": [
+              1.7,
+              2.1,
+              2.5,
+              2.9,
+              3.3,
+              3.7,
+              3.8,
+              3.9,
+              4.1,
+              4.2,
+              4.4,
+              4.5
+            ],
+            "annual": 3.5,
+            "isPercent": true
+          }
+        ]
+      }
+    ]
   },
   {
     "companyId": "special_learning",
+    "segmentId": "e_learning",
+    "segmentName": "eラーニング",
     "sections": [
       {
         "title": "集客KPI",
@@ -23027,8 +23029,8 @@
               39622916
             ],
             "annual": 455568750,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -23066,7 +23068,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -23192,17 +23194,17 @@
               9.7,
               9.8
             ],
-            "annual": 9.0,
+            "annual": 9,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "e_learning",
-    "segmentName": "eラーニング"
+    ]
   },
   {
     "companyId": "special_learning",
+    "segmentId": "training_service",
+    "segmentName": "研修サービス",
     "sections": [
       {
         "title": "集客KPI",
@@ -23287,8 +23289,8 @@
               16981250
             ],
             "annual": 195243750,
-            "isMonetary": true,
-            "note": "原価率65%"
+            "note": "原価率65%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -23326,7 +23328,7 @@
               35.0,
               35.0
             ],
-            "annual": 35.0,
+            "annual": 35,
             "isPercent": true
           }
         ]
@@ -23452,17 +23454,17 @@
               9.7,
               9.8
             ],
-            "annual": 9.0,
+            "annual": 9,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "training_service",
-    "segmentName": "研修サービス"
+    ]
   },
   {
     "companyId": "medley",
+    "segmentId": "recruitment",
+    "segmentName": "人材紹介",
     "sections": [
       {
         "title": "事業KPI",
@@ -23547,8 +23549,8 @@
               535562500
             ],
             "annual": 7569450000,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -23586,7 +23588,7 @@
               63.4,
               63.4
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -23712,17 +23714,17 @@
               31.3,
               31.5
             ],
-            "annual": 22.0,
+            "annual": 22,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "recruitment",
-    "segmentName": "人材紹介"
+    ]
   },
   {
     "companyId": "medley",
+    "segmentId": "media",
+    "segmentName": "メディア",
     "sections": [
       {
         "title": "事業KPI",
@@ -23807,8 +23809,8 @@
               34615625
             ],
             "annual": 1892362500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -23846,7 +23848,7 @@
               90.5,
               90.5
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -23972,17 +23974,17 @@
               58.5,
               58.6
             ],
-            "annual": 22.0,
+            "annual": 22,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "media",
-    "segmentName": "メディア"
+    ]
   },
   {
     "companyId": "medley",
+    "segmentId": "saas",
+    "segmentName": "SaaS",
     "sections": [
       {
         "title": "事業KPI",
@@ -24067,8 +24069,8 @@
               103193750
             ],
             "annual": 3153937500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -24106,7 +24108,7 @@
               83.1,
               83.1
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -24232,17 +24234,17 @@
               51.0,
               51.1
             ],
-            "annual": 22.0,
+            "annual": 22,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "saas",
-    "segmentName": "SaaS"
+    ]
   },
   {
     "companyId": "visional",
+    "segmentId": "hr_tech",
+    "segmentName": "HR Tech",
     "sections": [
       {
         "title": "事業KPI",
@@ -24327,8 +24329,8 @@
               2318506667
             ],
             "annual": 23429250000,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -24366,7 +24368,7 @@
               48.8,
               48.8
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -24492,17 +24494,17 @@
               14.8,
               14.9
             ],
-            "annual": 20.0,
+            "annual": 20,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "hr_tech",
-    "segmentName": "HR Tech"
+    ]
   },
   {
     "companyId": "visional",
+    "segmentId": "saas",
+    "segmentName": "SaaS",
     "sections": [
       {
         "title": "事業KPI",
@@ -24587,8 +24589,8 @@
               156227500
             ],
             "annual": 5857312500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -24626,7 +24628,7 @@
               86.2,
               86.2
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -24752,17 +24754,17 @@
               52.2,
               52.3
             ],
-            "annual": 20.0,
+            "annual": 20,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "saas",
-    "segmentName": "SaaS"
+    ]
   },
   {
     "companyId": "recruit",
+    "segmentId": "recruitment",
+    "segmentName": "人材紹介",
     "sections": [
       {
         "title": "事業KPI",
@@ -24847,8 +24849,8 @@
               33579333333
             ],
             "annual": 648810000000,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -24886,7 +24888,7 @@
               73.2,
               73.2
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -25012,17 +25014,17 @@
               33.4,
               33.6
             ],
-            "annual": 14.0,
+            "annual": 14,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "recruitment",
-    "segmentName": "人材紹介"
+    ]
   },
   {
     "companyId": "recruit",
+    "segmentId": "media",
+    "segmentName": "メディア",
     "sections": [
       {
         "title": "事業KPI",
@@ -25107,8 +25109,8 @@
               27400770833
             ],
             "annual": 567708750000,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -25146,7 +25148,7 @@
               75.0,
               75.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -25272,17 +25274,17 @@
               35.2,
               35.4
             ],
-            "annual": 14.0,
+            "annual": 14,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "media",
-    "segmentName": "メディア"
+    ]
   },
   {
     "companyId": "recruit",
+    "segmentId": "saas",
+    "segmentName": "SaaS",
     "sections": [
       {
         "title": "事業KPI",
@@ -25367,8 +25369,8 @@
               15087187500
             ],
             "annual": 405506250000,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -25406,7 +25408,7 @@
               80.8,
               80.8
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -25532,17 +25534,17 @@
               40.9,
               41.1
             ],
-            "annual": 14.0,
+            "annual": 14,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "saas",
-    "segmentName": "SaaS"
+    ]
   },
   {
     "companyId": "layerx",
+    "segmentId": "saas",
+    "segmentName": "SaaS",
     "sections": [
       {
         "title": "事業KPI",
@@ -25627,8 +25629,8 @@
               399712500
             ],
             "annual": 4595737500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -25666,7 +25668,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -25792,17 +25794,17 @@
               11.3,
               11.5
             ],
-            "annual": 10.0,
+            "annual": 10,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "saas",
-    "segmentName": "SaaS"
+    ]
   },
   {
     "companyId": "layerx",
+    "segmentId": "ai_ocr",
+    "segmentName": "AI-OCR",
     "sections": [
       {
         "title": "事業KPI",
@@ -25887,8 +25889,8 @@
               70537500
             ],
             "annual": 811012500,
-            "isMonetary": true,
-            "note": "原価率45%"
+            "note": "原価率45%",
+            "isMonetary": true
           },
           {
             "label": "粗利",
@@ -25926,7 +25928,7 @@
               55.0,
               55.0
             ],
-            "annual": 55.0,
+            "annual": 55,
             "isPercent": true
           }
         ]
@@ -26052,13 +26054,11 @@
               11.3,
               11.5
             ],
-            "annual": 10.0,
+            "annual": 10,
             "isPercent": true
           }
         ]
       }
-    ],
-    "segmentId": "ai_ocr",
-    "segmentName": "AI-OCR"
+    ]
   }
 ]

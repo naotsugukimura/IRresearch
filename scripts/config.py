@@ -4,6 +4,12 @@ IRkun EDINET データ取得 — 設定・企業マッピング
 import os
 from pathlib import Path
 
+# ============================================================
+# Supabase
+# ============================================================
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
+SUPABASE_SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "")
+
 # プロジェクトルート
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"

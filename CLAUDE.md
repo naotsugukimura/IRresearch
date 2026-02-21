@@ -1,7 +1,7 @@
 # IRkun — 障害福祉業界 競合IR分析ダッシュボード
 
 ## 概要
-35社の障害福祉サービス競合企業のIR情報を分析するNext.js静的サイト。
+28社の障害福祉サービス競合企業のIR情報を分析するNext.js静的サイト。
 Vercelにデプロイして使用（`output: "export"`）。
 
 ## 技術スタック
@@ -9,13 +9,14 @@ Vercelにデプロイして使用（`output: "export"`）。
 - **UI**: shadcn/ui (Radix UI) + recharts
 - **フォント**: Noto Sans JP + JetBrains Mono（数値表示用）
 - **カラー**: OKLch色空間、ダークモード固定（`html.dark`）
-- **Python**: EDINET API / IR PDFスクレイピング（`scripts/`）
+- **Python**: EDINET API / IR PDFスクレイピング / Supabase DB（`scripts/`）
+- **DB**: Supabase（PostgreSQL）— DBファースト、静的エクスポート維持
 
 ## ディレクトリ構成
 ```
 app/                    # ページ（7ページ）
   page.tsx              # ダッシュボード（/）
-  company/[id]/page.tsx # 企業詳細（35社分SSG）
+  company/[id]/page.tsx # 企業詳細（28社分SSG）
   compare/page.tsx      # 企業比較
   learn/page.tsx        # 学習サポート（用語集）
   trends/page.tsx       # 業界トレンド
@@ -35,7 +36,7 @@ lib/
   utils.ts              # フォーマッタ（formatCurrency/formatPlanCurrency）
   constants.ts          # 全定数（カテゴリ色、脅威レベル、ナビ項目等）
 data/                   # 全データJSON（companies, financials, business-plans等）
-scripts/                # Python EDINET / IRスクレイパー
+scripts/                # Python — DB管理 / EDINET / IRスクレイパー
 ```
 
 ## 重要な型
@@ -53,10 +54,84 @@ CompanyFinancials { companyId, fiscalYears: FiscalYear[] }
 ```
 
 ## セグメント別PL
-- LITALICOは3セグメント（就労支援/児童支援/プラットフォーム）のPLを持つ
+- 全28社・71セグメントのPLを保持（business-plans.json: 99プラン）
 - `getBusinessPlanByCompanyId()` → 全社合算PL（segmentIdなし）
 - `getBusinessPlansByCompanyId()` → 全プラン（全社合算 + セグメント別）
 - `BusinessPlanSection` がタブUIで切替
+
+## Supabase DB（2026-02-21導入）
+
+### アーキテクチャ
+```
+Pythonスクリプト → Supabase DB（単一ソースオブトゥルース）
+                       ↓
+                 export_json.py
+                       ↓
+                 /data/*.json（既存と同一形式）
+                       ↓
+                 next build → Vercel
+```
+
+### スキーマ（18テーブル）
+`scripts/schema.sql` — Supabase SQL Editorで実行済み
+
+| テーブル | 対応JSON | レコード数 |
+|---------|----------|-----------|
+| `companies` | companies.json | 28 |
+| `company_segments` | companies.json > segments | ~70 |
+| `fiscal_years` | financials.json | 140 |
+| `segment_financials` | financials.json > segments | ~200 |
+| `business_plans` | business-plans.json | 99 |
+| `plan_sections` | → sections | ~200 |
+| `plan_rows` | → rows | ~3000 |
+| `history_events` | histories.json | 52 |
+| `midterm_plans` | strategies.json | 7 |
+| `key_strategies` | → keyStrategies | ~20 |
+| `competitive_advantages` | competitive-advantages.json | 5 |
+| `industry_trends` | trends.json | 10 |
+| `trend_company_impacts` | → impactByCompany | ~40 |
+| `analysis_notes` | notes.json | 5 |
+| `glossary` | glossary.json（JSONB一括） | 1 |
+| `earnings_documents` | **新規**（PDF管理） | 0（未使用） |
+| `earnings_insights` | **新規**（AI分析結果） | 0（未使用） |
+
+### Pythonスクリプト（DB関連）
+- `scripts/db.py` — httpxでPostgREST API直接叩く（supabase SDK不使用 ← Python 3.14非対応のため）
+  - `upsert_*()` 関数群 + `export_*_json()` 関数群 + `_write_json()`
+  - バッチINSERT対応済み（plan_rows, history_events等）
+- `scripts/migrate_to_supabase.py` — 既存JSON→DB移行（冪等、実行済み）
+- `scripts/export_json.py` — DB→JSON出力（`python export_json.py` / `--only companies`）
+- `scripts/schema.sql` — テーブル定義（Supabase SQL Editorで実行済み）
+- `scripts/config.py` — `SUPABASE_URL`, `SUPABASE_SERVICE_KEY` を環境変数から読み込み
+
+### 環境変数（scripts/.env）
+```
+SUPABASE_URL=https://xxxxx.supabase.co
+SUPABASE_SERVICE_KEY=eyJ...（service_role key）
+EDINET_API_KEY=...
+ANTHROPIC_API_KEY=...
+```
+
+### 重要な設計判断
+- **business_plans**: partial unique index（segment_id NULLとnon-NULLで別制約）
+- **JSONBフィールド**: main_services, tags, strengths等は `json.dumps()` で格納
+- **httpx直接**: supabase Python SDKはPython 3.14でpyicebergビルド失敗 → httpxでPostgREST直接
+- **Next.js側変更なし**: `lib/data.ts` はJSON importのまま
+
+## ★ 次にやること（Phase 3-4）
+
+### Phase 3: 既存スクリプトのDB書き込み対応 + 全社クローリング
+1. `fetch_financials.py` — JSON書き込み → `db.upsert_fiscal_year()` に変更
+2. `earnings_analyzer.py` — 分析結果を `earnings_documents` / `earnings_insights` テーブルに保存
+3. `fetch_earnings.py` — PDF情報をDBに記録
+4. `generate_segment_plans.py`, `generate_all_company_data.py` — DB読み書きに変更
+5. **全28社のIRクローリング実行**: `fetch_earnings.py --all` で全社の決算説明資料を取得
+
+### Phase 4: 決算説明資料AI分析 + Next.js UI
+1. `earnings_analyzer.py` の EXTRACTION_PROMPT 拡張（経営戦略分析を追加）
+2. 全社PDFをClaude APIで分析 → `earnings_insights` テーブルに保存
+3. `export_json.py` に `earnings-insights.json` 出力を追加
+4. Next.jsの企業詳細ページに「決算資料インサイト」セクションを追加
 
 ## recharts動的読み込みパターン
 recharts使用コンポーネントは全てSSR無効化済み:
@@ -78,18 +153,22 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `--phase-invest/growth/stable`: PLチャートフェーズ背景
 
 ## Pythonスクリプト（scripts/）
-- `config.py` — 設定・企業マッピング（IRkun ID → 証券コード）
+- `config.py` — 設定・企業マッピング（IRkun ID → 証券コード、17社分）
 - `edinet_client.py` — EDINET API v2クライアント（SSLリトライ付き）
 - `fetch_financials.py` — 有報から財務データ取得→financials.json更新
 - `ir_scraper.py` — IRページから決算説明資料PDFリンク抽出
 - `pdf_downloader.py` — PDFダウンロード管理
 - `earnings_analyzer.py` — Claude APIでPDF分析（KPI/TAM/M&A抽出）
 - `fetch_earnings.py` — パイプラインオーケストレータ
-- 環境変数: `EDINET_API_KEY`, `ANTHROPIC_API_KEY`
 
 ## ビルド & デプロイ
 ```bash
 npm run dev      # ローカル開発（Turbopack）
 npm run build    # 静的エクスポート（out/）
 # Vercelにpushでデプロイ
+
+# DB操作
+python scripts/migrate_to_supabase.py   # JSON→DB移行（冪等）
+python scripts/export_json.py           # DB→JSON出力
+python scripts/export_json.py --only companies  # 特定テーブルのみ
 ```

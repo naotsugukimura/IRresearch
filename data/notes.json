@@ -4,8 +4,14 @@
     "date": "2025-05-15",
     "title": "LITALICO 2025年3月期決算分析",
     "template": "earnings_analysis",
-    "relatedCompanies": ["litalico"],
-    "relatedTrends": ["market-growth-2025", "platform-competition", "ai-welfare-2024"],
+    "relatedCompanies": [
+      "litalico"
+    ],
+    "relatedTrends": [
+      "market-growth-2025",
+      "platform-competition",
+      "ai-welfare-2024"
+    ],
     "content": "LITALICOの2025年3月期決算は、就労移行支援事業の堅調な成長とプラットフォーム事業の収益化が進み、売上高・営業利益ともに過去最高を更新した。特にLITALICO仕事ナビの送客収益が前年比40%増と大きく伸長し、ストック型収益の基盤が強化されている。一方で、新規拠点開設に伴う先行投資コストが利益率を一時的に押し下げており、投資回収フェーズへの移行時期が注目される。",
     "keyTakeaways": [
       "売上高は前年比18%増、営業利益は前年比22%増で過去最高を更新",
@@ -15,42 +21,20 @@
     ]
   },
   {
-    "id": "note-welbe-vs-cocoruport",
-    "date": "2025-04-20",
-    "title": "ウェルビー vs ココルポート 就労移行支援比較",
-    "template": "competitor_comparison",
-    "relatedCompanies": ["welbe", "cocoruport"],
-    "relatedTrends": ["employment-rate-2024", "workforce-shortage", "reward-revision-2024"],
-    "content": "就労移行支援の主要プレイヤーであるウェルビーとココルポートを比較分析した。ウェルビーは上場企業としての信用力と標準化されたカリキュラムが強みであり、全国展開を進めている。ココルポートは関東圏に集中した拠点展開と、個別最適化された支援プログラムで差別化を図っている。両社とも報酬改定による定着率重視の報酬体系への対応が経営課題となっている。",
-    "keyTakeaways": [
-      "ウェルビーは全国100拠点超の規模で展開、ココルポートは関東中心に70拠点程度と地域集中型",
-      "就職率はウェルビーが若干上回るが、定着率ではココルポートが高い傾向",
-      "ウェルビーは標準化カリキュラムによるスケーラビリティ、ココルポートは個別対応による利用者満足度で競争",
-      "両社とも人材確保が成長のボトルネックであり、処遇改善と採用戦略の巧拙が今後の成長を左右する"
-    ]
-  },
-  {
-    "id": "note-spool-midterm",
-    "date": "2025-06-10",
-    "title": "エスプール 中期経営計画分析",
-    "template": "midterm_plan_analysis",
-    "relatedCompanies": ["spool"],
-    "relatedTrends": ["employment-rate-2024", "employment-rate-2026", "market-growth-2025"],
-    "content": "エスプールの中期経営計画では、農園型障害者雇用支援事業を成長の柱と位置づけ、全国展開の加速を掲げている。法定雇用率の段階的引き上げを追い風に、2027年3月期までに農園数を現在の2倍に拡大する計画である。一方で、農園型モデルに対する「雇用の質」への批判的な世論にも配慮し、利用者のキャリアアップ支援プログラムの充実を打ち出している。",
-    "keyTakeaways": [
-      "2027年3月期に売上高500億円、営業利益率15%を目標とする中期計画を発表",
-      "農園型障害者雇用支援の全国展開を加速し、2027年3月期までに農園数を倍増させる計画",
-      "法定雇用率2.7%への引き上げ（2026年7月）が最大の成長ドライバーと位置づけ",
-      "「雇用の質」への批判に対応するため、農園利用者のスキルアップ・キャリア形成プログラムを強化"
-    ]
-  },
-  {
     "id": "note-reward-impact",
     "date": "2025-03-10",
     "title": "報酬改定が各社に与える影響",
     "template": "free_form",
-    "relatedCompanies": ["litalico", "welbe", "cocoruport", "spool"],
-    "relatedTrends": ["reward-revision-2024", "self-reliance-support"],
+    "relatedCompanies": [
+      "litalico",
+      "welbe",
+      "cocoruport",
+      "spool"
+    ],
+    "relatedTrends": [
+      "reward-revision-2024",
+      "self-reliance-support"
+    ],
     "content": "令和6年度の障害福祉サービス報酬改定は、就労系サービスにおいて成果主義的な報酬体系を一層強化するものとなった。就職後の定着率や工賃水準に連動した報酬区分の見直しにより、質の高いサービスを提供する事業者が報われる構造への転換が進んでいる。各社の対応状況を比較すると、定着支援の体制が充実しているLITALICOやウェルビーが相対的に有利な一方、小規模事業者は対応コストの増大に苦しんでおり、業界再編の契機となる可能性がある。",
     "keyTakeaways": [
       "成果主義的報酬体系の強化により、定着率の高い上位事業者と低位事業者の収益格差が拡大",
@@ -63,14 +47,64 @@
     "date": "2025-07-01",
     "title": "SMS AI BPO戦略の競合優位性検討",
     "template": "free_form",
-    "relatedCompanies": ["sms", "litalico"],
-    "relatedTrends": ["ai-welfare-2024", "digital-transformation", "workforce-shortage"],
+    "relatedCompanies": [
+      "sms",
+      "litalico"
+    ],
+    "relatedTrends": [
+      "ai-welfare-2024",
+      "digital-transformation",
+      "workforce-shortage"
+    ],
     "content": "SMSが展開するAI活用型BPOサービスは、障害福祉事業所の深刻な人材不足と業務負担増大を背景に、急速に市場浸透が進んでいる。請求業務代行、記録業務のAI支援、行政手続きの代行など、バックオフィス業務の包括的な外部委託を可能にするサービスモデルは、特に中小規模の事業所から高い支持を得ている。競合となるLITALICOのプラットフォーム戦略とは異なるアプローチであり、市場の棲み分けが進む可能性がある。",
     "keyTakeaways": [
       "AI活用により従来のBPOサービスと比較して30-50%のコスト削減を実現し、中小事業所でも導入可能な価格帯を実現",
       "介護分野で培ったBPOノウハウと顧客基盤を障害福祉分野に横展開するクロスセル戦略が有効",
       "LITALICOがプラットフォーム型でエコシステム構築を目指すのに対し、SMSはBPO型で直接的な業務代行に強みを持ち、棲み分けが可能",
       "人材不足の深刻化により、BPO需要は構造的に拡大傾向にあり、中長期的な成長が見込まれる"
+    ]
+  },
+  {
+    "id": "note-spool-midterm",
+    "date": "2025-06-10",
+    "title": "エスプール 中期経営計画分析",
+    "template": "midterm_plan_analysis",
+    "relatedCompanies": [
+      "spool"
+    ],
+    "relatedTrends": [
+      "employment-rate-2024",
+      "employment-rate-2026",
+      "market-growth-2025"
+    ],
+    "content": "エスプールの中期経営計画では、農園型障害者雇用支援事業を成長の柱と位置づけ、全国展開の加速を掲げている。法定雇用率の段階的引き上げを追い風に、2027年3月期までに農園数を現在の2倍に拡大する計画である。一方で、農園型モデルに対する「雇用の質」への批判的な世論にも配慮し、利用者のキャリアアップ支援プログラムの充実を打ち出している。",
+    "keyTakeaways": [
+      "2027年3月期に売上高500億円、営業利益率15%を目標とする中期計画を発表",
+      "農園型障害者雇用支援の全国展開を加速し、2027年3月期までに農園数を倍増させる計画",
+      "法定雇用率2.7%への引き上げ（2026年7月）が最大の成長ドライバーと位置づけ",
+      "「雇用の質」への批判に対応するため、農園利用者のスキルアップ・キャリア形成プログラムを強化"
+    ]
+  },
+  {
+    "id": "note-welbe-vs-cocoruport",
+    "date": "2025-04-20",
+    "title": "ウェルビー vs ココルポート 就労移行支援比較",
+    "template": "competitor_comparison",
+    "relatedCompanies": [
+      "welbe",
+      "cocoruport"
+    ],
+    "relatedTrends": [
+      "employment-rate-2024",
+      "workforce-shortage",
+      "reward-revision-2024"
+    ],
+    "content": "就労移行支援の主要プレイヤーであるウェルビーとココルポートを比較分析した。ウェルビーは上場企業としての信用力と標準化されたカリキュラムが強みであり、全国展開を進めている。ココルポートは関東圏に集中した拠点展開と、個別最適化された支援プログラムで差別化を図っている。両社とも報酬改定による定着率重視の報酬体系への対応が経営課題となっている。",
+    "keyTakeaways": [
+      "ウェルビーは全国100拠点超の規模で展開、ココルポートは関東中心に70拠点程度と地域集中型",
+      "就職率はウェルビーが若干上回るが、定着率ではココルポートが高い傾向",
+      "ウェルビーは標準化カリキュラムによるスケーラビリティ、ココルポートは個別対応による利用者満足度で競争",
+      "両社とも人材確保が成長のボトルネックであり、処遇改善と採用戦略の巧拙が今後の成長を左右する"
     ]
   }
 ]
