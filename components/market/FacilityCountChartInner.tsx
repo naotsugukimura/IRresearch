@@ -11,10 +11,12 @@ import {
   Tooltip,
   Legend,
 } from "recharts";
-import type { ServiceFacilityCount } from "@/lib/types";
+import type { ServiceFacilityCount, ContextAnnotation } from "@/lib/types";
+import { ContextAnnotations } from "./ContextAnnotations";
 
 interface Props {
   data: ServiceFacilityCount[];
+  annotations?: ContextAnnotation[];
 }
 
 const SERVICE_COLORS: Record<string, string> = {
@@ -29,7 +31,7 @@ const SERVICE_COLORS: Record<string, string> = {
   "居宅介護": "#78716C",
 };
 
-export default function FacilityCountChartInner({ data }: Props) {
+export default function FacilityCountChartInner({ data, annotations }: Props) {
   const services = Object.keys(data[0]?.services ?? {});
   const [activeServices, setActiveServices] = useState<Set<string>>(new Set(services));
 
@@ -121,6 +123,9 @@ export default function FacilityCountChartInner({ data }: Props) {
             ))}
         </BarChart>
       </ResponsiveContainer>
+      {annotations && annotations.length > 0 && (
+        <ContextAnnotations annotations={annotations} />
+      )}
     </div>
   );
 }

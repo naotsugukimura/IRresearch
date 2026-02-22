@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import type { ServiceFacilityCount } from "@/lib/types";
+import type { ServiceFacilityCount, ContextAnnotation } from "@/lib/types";
 
 const FacilityCountChartInner = dynamic(
   () => import("./FacilityCountChartInner"),
@@ -15,6 +15,7 @@ const FacilityCountChartInner = dynamic(
 
 interface Props {
   data: ServiceFacilityCount[];
+  annotations?: ContextAnnotation[];
 }
 
 export function FacilityCountChart(props: Props) {

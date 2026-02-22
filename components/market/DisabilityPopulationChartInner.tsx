@@ -10,10 +10,12 @@ import {
   Tooltip,
   Legend,
 } from "recharts";
-import type { DisabilityPopulationYear } from "@/lib/types";
+import type { DisabilityPopulationYear, ContextAnnotation } from "@/lib/types";
+import { ContextAnnotations } from "./ContextAnnotations";
 
 interface Props {
   data: DisabilityPopulationYear[];
+  annotations?: ContextAnnotation[];
 }
 
 const LINES = [
@@ -26,7 +28,7 @@ function formatManNin(value: number) {
   return `${(value / 10000).toFixed(0)}万`;
 }
 
-export default function DisabilityPopulationChartInner({ data }: Props) {
+export default function DisabilityPopulationChartInner({ data, annotations }: Props) {
   const chartData = data.map((d) => ({
     year: `${d.year}`,
     physical: d.physical,
@@ -88,6 +90,9 @@ export default function DisabilityPopulationChartInner({ data }: Props) {
           人口比: <span className="font-mono font-medium text-foreground">{data[data.length - 1].populationRatio}%</span>
         </span>
       </div>
+      {annotations && annotations.length > 0 && (
+        <ContextAnnotations annotations={annotations} />
+      )}
     </div>
   );
 }

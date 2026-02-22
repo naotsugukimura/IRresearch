@@ -466,6 +466,14 @@ export interface RecentPolicyChange {
   impact: string;
 }
 
+export interface ContextAnnotation {
+  chartId: "population" | "employment" | "facilities";
+  yearRange: string;
+  government: string;
+  provider: string;
+  user: string;
+}
+
 export interface MarketOverviewData {
   lastUpdated: string;
   sources: string[];
@@ -479,6 +487,7 @@ export interface MarketOverviewData {
   internationalCases?: InternationalCase[];
   employmentRateHistory?: EmploymentRateHistory[];
   recentPolicyChanges?: RecentPolicyChange[];
+  contextAnnotations?: ContextAnnotation[];
 }
 
 // ============================================================

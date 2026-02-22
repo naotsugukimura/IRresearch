@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import type { DisabilityPopulationYear } from "@/lib/types";
+import type { DisabilityPopulationYear, ContextAnnotation } from "@/lib/types";
 
 const DisabilityPopulationChartInner = dynamic(
   () => import("./DisabilityPopulationChartInner"),
@@ -15,6 +15,7 @@ const DisabilityPopulationChartInner = dynamic(
 
 interface Props {
   data: DisabilityPopulationYear[];
+  annotations?: ContextAnnotation[];
 }
 
 export function DisabilityPopulationChart(props: Props) {

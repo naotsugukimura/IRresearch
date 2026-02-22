@@ -11,17 +11,19 @@ import {
   Tooltip,
   Legend,
 } from "recharts";
-import type { DisabilityEmploymentYear } from "@/lib/types";
+import type { DisabilityEmploymentYear, ContextAnnotation } from "@/lib/types";
+import { ContextAnnotations } from "./ContextAnnotations";
 
 interface Props {
   data: DisabilityEmploymentYear[];
+  annotations?: ContextAnnotation[];
 }
 
 function formatManNin(value: number) {
   return `${(value / 10000).toFixed(0)}万`;
 }
 
-export default function EmploymentTrendsChartInner({ data }: Props) {
+export default function EmploymentTrendsChartInner({ data, annotations }: Props) {
   const chartData = data.map((d) => ({
     year: `${d.year}`,
     employedCount: d.employedCount,
@@ -108,6 +110,9 @@ export default function EmploymentTrendsChartInner({ data }: Props) {
           達成企業率: <span className="font-mono font-medium text-foreground">{data[data.length - 1].complianceRate}%</span>
         </span>
       </div>
+      {annotations && annotations.length > 0 && (
+        <ContextAnnotations annotations={annotations} />
+      )}
     </div>
   );
 }

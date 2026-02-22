@@ -43,13 +43,19 @@ export default function MarketPage() {
 
           {/* 需要側: 障害者人口 */}
           <section id="demand">
-            <DisabilityPopulationChart data={data.disabilityPopulation} />
+            <DisabilityPopulationChart
+              data={data.disabilityPopulation}
+              annotations={data.contextAnnotations?.filter((a) => a.chartId === "population")}
+            />
           </section>
 
           {/* 供給側: 雇用 + 事業所 */}
           <div className="grid gap-4 lg:grid-cols-2">
             <section id="employment">
-              <EmploymentTrendsChart data={data.disabilityEmployment} />
+              <EmploymentTrendsChart
+                data={data.disabilityEmployment}
+                annotations={data.contextAnnotations?.filter((a) => a.chartId === "employment")}
+              />
             </section>
             <section id="recruitment">
               <RecruitmentBreakdown data={data.recruitmentMethods} />
@@ -58,7 +64,10 @@ export default function MarketPage() {
 
           {/* 事業所数 */}
           <section id="facilities">
-            <FacilityCountChart data={data.facilityCountsByType} />
+            <FacilityCountChart
+              data={data.facilityCountsByType}
+              annotations={data.contextAnnotations?.filter((a) => a.chartId === "facilities")}
+            />
           </section>
 
           {/* ④-D: 法定雇用率と近年の制度改正 */}
