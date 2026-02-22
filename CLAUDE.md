@@ -392,13 +392,43 @@ TAVILY_API_KEY=tvly-...
 ### Phase 12c: 情報鮮度バッジ
 - `DataFreshnessBadge.tsx` 新規: lastUpdated/source/sourceUrl/confidence を統一表示する共通コンポーネント
 
-### ★ 次にやること（Phase 13以降）
-- **Phase 13: 事業所分析深堀り**（放課後デイで先行）
-  - 13a 利用者フロー図（UserJourneyFlow.tsx）
-  - 13b 開業フロー図（StartupFlow.tsx）
-  - 13c ステークホルダー図式化（SVG関係図）
-  - 13d 加算取得フロー深堀り（BonusFlowChart.tsx）
-  - 13e 全19サービス横展開
+## ★ Phase 13 完了（2026-02-22）: 事業所分析深堀り（放課後デイ先行→全19サービス横展開）
+
+### Phase 13a: 利用者フロー図
+- `UserJourneyFlow.tsx` — 2タブ（日次フロー/ライフサイクル）の縦タイムライン
+  - 日次フロー: 7ステップ（送迎→集団活動→個別支援→記録）
+  - ライフサイクル: 8ステップ（初回相談→見学→契約→支援→モニタリング→卒業）
+  - 番号付きカラーノード、展開可能キーアクション
+- 型: `UserJourney`, `UserJourneyStep`
+
+### Phase 13b: 開業フロー図
+- `StartupFlow.tsx` — 総費用/期間ヘッダー + 8ステップ縦タイムライン
+  - 各ステップ: 期間/費用/必要書類/ポイント/注意事項
+  - プログレスバー + 展開可能詳細パネル
+- 型: `StartupGuide`, `StartupStep`
+
+### Phase 13c: ステークホルダー図式化
+- `StakeholderMap.tsx` 全面リライト — テキストカード→SVG放射状関係図
+  - 中央ノード「事業所」、7関係者を円周上に配置
+  - 接続線の太さ/スタイルが頻度に連動（毎日=実線太/年数回=破線細）
+  - クリックで詳細パネル表示（本音・関わり方）
+  - モバイルはアコーディオンリストにフォールバック
+
+### Phase 13d: 加算取得フロー
+- `BonusFlowChart.tsx` — 処遇改善加算4段階の段階的取得フローチャート
+  - 処遇改善加算(I)→特定処遇改善加算(I)→ベースアップ等→新処遇改善加算
+  - 各ノード: 難易度バッジ(易/中/難)、単位数、前提条件展開
+  - 難易度推移バー（サマリー）
+  - 相談支援は処遇改善対象外のため特定事業所加算等に差し替え
+- 型: `BonusFlowNode`, `BonusAcquisitionFlow`
+
+### Phase 13e: 全19サービス横展開
+- `scripts/add_phase13_all_services.py` で全17サービス（houkago-day除く）に一括追加
+- サービス類型別テンプレート: 障害児通所/居住/通所/訪問/相談の5パターン
+- 障害児/成人で加算率を変更、相談支援は別の加算体系に差し替え
+- `FACILITY_SECTIONS` に利用者フロー/開業フロー/関係者マップ/加算フローを追加
+
+### ★ 次にやること（Phase 14以降）
 - **Phase 14: 企業分析強化**（リタリコで先行）
   - 14a BS/PL/CF時系列（EDINET追加取得 + FinancialCharts拡張）
   - 14b セグメント管理会計ビュー
@@ -461,6 +491,9 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `enrich_operations_batch1.py` — 事業所operationsStory横展開: 障害児通所4+居住系2（6サービス）
 - `enrich_operations_batch2.py` — 事業所operationsStory横展開: 訓練・就労系7サービス
 - `enrich_operations_batch3.py` — 事業所operationsStory横展開: 相談系4サービス
+- `add_phase13_data.py` — Phase 13データ追加: houkago-dayにuserJourney/startupGuide
+- `add_bonus_flow_data.py` — Phase 13d: bonusAcquisitionFlow追加（houkago-day）
+- `add_phase13_all_services.py` — Phase 13e: 全18サービスにuserJourney/startupGuide/bonusAcquisitionFlow横展開
 
 ## ビルド & デプロイ
 ```bash
