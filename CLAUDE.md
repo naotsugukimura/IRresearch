@@ -4,6 +4,14 @@
 82社の障害福祉・介護・HR・医療DX・SaaS競合企業のIR情報を分析するNext.js静的サイト。
 Vercelにデプロイして使用（`output: "export"`）。
 
+## 開発方針（★重要）
+- **「まず1つ作って → フィードバック → 良かったら横展開」の流れ**
+  - 事業所分析: まず**放課後デイ**で先行実装 → フィードバック → 全19サービスに展開
+  - 企業分析（上場）: まず**リタリコ**で深掘り → フィードバック → 他社に展開
+  - 企業分析（非上場）: まず**Kaien**で作成 → フィードバック → 他24社に展開
+- ダッシュボードは「事業所」「利用者」「企業」の3軸で構成
+- 新機能は必ず代表的な1つで先行実装し、OKが出てから横展開する
+
 ## 技術スタック
 - **Next.js 15** (App Router) + TypeScript + Tailwind CSS v4
 - **UI**: shadcn/ui (Radix UI) + recharts
@@ -359,6 +367,16 @@ TAVILY_API_KEY=tvly-...
   - StakeholderMapセクション追加（ConversationCardsの前）
   - `serviceType` を DailyTimeline / RoleDiagram に伝搬
 
+### Phase 11f: 全18サービスへ横展開
+- 放課後デイで先行実装したoperationsStory（会話・雰囲気・年収・キャリアパス・ステークホルダー等）を全18サービスに展開
+- Pythonバッチスクリプト3本で一括更新:
+  - `scripts/enrich_operations_batch1.py` — 障害児通所4 + 居住系2（6サービス）
+  - `scripts/enrich_operations_batch2.py` — 訓練・就労系7サービス
+  - `scripts/enrich_operations_batch3.py` — 相談系4サービス
+- 各サービス固有のデータ: dailySchedule（会話・雰囲気）、roles（年収・求人倍率・キャリアパス・想い・悩み）、typicalConversations（6シーン+会話サンプル）、stakeholders（6-7関係者）
+- `make_stakeholders()` 共通ヘルパーで基本7関係者生成 + `custom_overrides` でサービス固有カスタマイズ
+- 全19サービス × 111ページのビルド成功確認済み
+
 ### ★ 次にやること（Phase 12以降）
 - 全25社Tavilyリサーチ再実行（DNSエラー解消後）: `--all-private --no-db`
 - Supabase SQL Editorで `company_web_research` テーブル作成（DB永続化）
@@ -416,6 +434,9 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `generate_facility_json_part2.py` — 11サービス分の事業所分析JSON一括生成（Part 2: 訓練・就労・相談系）
 - `generate_facility_pages.py` — 17サービス分のNext.jsページファイル一括生成
 - `tavily_research.py` — Tavily Search API→Claude分析→非上場企業Webリサーチ (`--company X`, `--all-private`, `--no-db`)
+- `enrich_operations_batch1.py` — 事業所operationsStory横展開: 障害児通所4+居住系2（6サービス）
+- `enrich_operations_batch2.py` — 事業所operationsStory横展開: 訓練・就労系7サービス
+- `enrich_operations_batch3.py` — 事業所operationsStory横展開: 相談系4サービス
 
 ## ビルド & デプロイ
 ```bash
