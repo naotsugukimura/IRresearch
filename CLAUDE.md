@@ -473,10 +473,60 @@ TAVILY_API_KEY=tvly-...
 - プロダクションURL: `i-rapp.vercel.app`
 
 ### ★ 次にやること
-- **事業ライフサイクル横展開**: 残り18サービスにPythonバッチで `businessLifecycle` データ追加
 - **企業データ横展開**: 他社BS/CFデータ追加、Tavily全25社リサーチ
 - Phase 15: マーケット文脈アノテーション（3プレイヤー「なぜ増えたか」）
 - Supabase `company_web_research` テーブル作成
+- IR分析パイプラインのオブジェクト指向リファクタリング（下記設計方針参照）
+
+## システム設計方針（★重要 — IR分析パイプラインに適用）
+
+### 背景
+82社のIR分析を進めるにあたり、会社ごとにデータ取得方法が異なる（PDF/EDINET/Tavily/手動）。
+現状はスクリプトごとにロジックがバラバラで、新しい分析手法を追加するたびに全体に影響が出る。
+オブジェクト指向の設計原則を導入し、拡張性と保守性を確保する。
+
+### 設計原則
+
+#### 1. ベースクラス（共通インターフェース）
+どんな企業のアナライザーでも必ず以下の3メソッドを持つ:
+```python
+class BaseIRAnalyzer:
+    def fetch_data(self) -> RawData:           # 情報を集める
+    def analyze(self, data) -> StructuredData:  # Claude等で構造化・分析
+    def save(self, result) -> None:             # Supabaseに保存
+    def run(self):                              # fetch -> analyze -> save パイプライン
+```
+
+#### 2. サブクラス（会社・手法ごとの専用実装）
+```python
+class PdfIRAnalyzer(BaseIRAnalyzer):     # 上場企業: PDFダウンロード -> Claude分析
+class EdinetAnalyzer(BaseIRAnalyzer):    # 上場企業: EDINET APIから財務データ取得
+class TavilyAnalyzer(BaseIRAnalyzer):    # 非上場企業: Tavily Web検索 -> Claude分析
+class ManualAnalyzer(BaseIRAnalyzer):    # 手動入力データの構造化
+```
+
+#### 3. ポリモーフィズム（多態性）
+メインスクリプトは相手がPDFだろうがTavilyだろうが気にしない:
+```python
+for company in companies:
+    analyzer = get_analyzer(company)  # 会社の属性に応じて適切なサブクラスを返す
+    analyzer.run()                    # 各自の方法で fetch -> analyze -> save
+```
+
+#### 4. 出力の規格化（カプセル化）
+Python側の取得・分析ロジックがどれだけ複雑でも、Next.js に渡すデータは統一フォーマット:
+- `CompanyFinancials` / `EarningsInsights` / `WebResearchData` 等の既存型に収束
+- 新しい分析手法を追加しても、フロント側のコード変更が不要
+
+#### 5. 段階的導入
+- **現状のスクリプトを壊さない**: 既存スクリプトは動くまま、新規開発分から適用
+- **まずベースクラスを作り、1つのアナライザー（例: TavilyAnalyzer）で実証**
+- **うまくいったら既存スクリプトを順次リファクタリング**
+
+### 適用スコープ
+- `scripts/` 配下のPythonスクリプト（IR取得・分析パイプライン）
+- Next.js側（`lib/types.ts`, `lib/data.ts`）は既に統一型で設計されているため変更不要
+- Supabase DB スキーマも既存テーブル設計を維持
 
 ## 大量展開プロトコル（★次回セッション向け）
 横展開・大量ファイル生成時は以下のプロトコルに従う:

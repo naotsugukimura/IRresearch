@@ -199,8 +199,8 @@ function ServicesGrid({ services }: { services: ExternalServiceNeed[] }) {
       </h4>
       <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
         {services.map((svc, idx) => {
-          const cat = SERVICE_CATEGORY_CONFIG[svc.category];
-          const rel = RELEVANCE_CONFIG[svc.relevance];
+          const cat = SERVICE_CATEGORY_CONFIG[svc.category] ?? SERVICE_CATEGORY_CONFIG.other;
+          const rel = RELEVANCE_CONFIG[svc.relevance] ?? RELEVANCE_CONFIG.recommended;
           const Icon = cat.icon;
           const isOpen = expanded === idx;
 
