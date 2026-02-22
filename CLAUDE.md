@@ -428,16 +428,35 @@ TAVILY_API_KEY=tvly-...
 - 障害児/成人で加算率を変更、相談支援は別の加算体系に差し替え
 - `FACILITY_SECTIONS` に利用者フロー/開業フロー/関係者マップ/加算フローを追加
 
-### ★ 次にやること（Phase 14以降）
-- **Phase 14: 企業分析強化**（リタリコで先行）
-  - 14a BS/PL/CF時系列（EDINET追加取得 + FinancialCharts拡張）
-  - 14b セグメント管理会計ビュー
-  - 14c 収支シミュレーション（PLSimulator.tsx）
+## ★ Phase 14 完了（2026-02-22）: 企業分析強化（リタリコで先行）
+
+### Phase 14a: BS/PL/CF時系列チャート
+- FiscalYear型拡張: BS(totalAssets/netAssets/equity/equityRatio/currentRatio) + CF(operatingCF/investingCF/financingCF/freeCF/cashAndEquivalents)
+- FinancialChartsInner: PLタブ（既存）+ BSタブ（総資産・純資産BarChart + 自己資本比率・流動比率ComposedChart）+ CFタブ（3CF棒グラフ + FCF・現金ComposedChart）
+- BSデータがある企業でタブ自動表示、ない企業はPLのみ
+- EmptyState条件化: BS/CFデータがある企業ではプレースホルダー非表示
+- リタリコ5年分のBS/CFデータ手動追加（scripts/add_bs_cf_data.py）
+
+### Phase 14b: セグメント管理会計ビュー
+- SegmentMonthlyTrend: セグメント別月次売上推移LineChart（12ヶ月時系列）
+- SegmentCostStructure: セグメント別コスト構造StackedBarChart（原価/人件費/広告/その他）
+- ProfitStructureInnerに2チャート追加（セグメントデータがある企業のみ表示）
+
+### Phase 14c: PLシミュレーション
+- PLSimulator/PLSimulatorInner: BusinessPlanの主要パラメータをスライダーで調整
+  - 売上高/売上原価/人件費/広告宣伝費/その他販管費の±30%
+  - リアルタイム営業利益・営業利益率再計算
+  - 楽観/悲観プリセット + リセット
+  - 感度分析: 各項目+10%時の営業利益変動を棒グラフ表示
+- dynamic import (ssr: false) パターン
+- 企業詳細ページ経営分析セクションに配置
+
+### ★ 次にやること（Phase 15以降）
 - **Phase 15: マーケット補強**
   - 15a 3プレイヤー文脈アノテーション
 - 全25社Tavilyリサーチ再実行
 - Supabase SQL Editorで `company_web_research` テーブル作成
-- キャッシュフロー/安全性データ整備 → EmptyState埋め
+- 他社へのBS/CFデータ横展開（EDINET API自動取得 or 手動追加）
 - 詳細な設計計画: `.claude/plans/cuddly-sprouting-dream.md` 参照
 
 ## recharts動的読み込みパターン
@@ -458,6 +477,7 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `FacilityGrowthChart` → `FacilityGrowthChartInner`（facility/）
 - `PLWaterfall` → `PLWaterfallInner`（facility/）
 - `EmploymentPolicySection` → `EmploymentPolicySectionInner`（market/）
+- `PLSimulator` → `PLSimulatorInner`（plan/）
 
 ## 金額フォーマッタの使い分け
 - `formatCurrency(value, "million")` — 財務データ用（百万円単位）
