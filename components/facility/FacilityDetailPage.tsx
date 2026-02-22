@@ -17,6 +17,7 @@ import { StartupFlow } from "@/components/facility/StartupFlow";
 import { BusinessLifecycle } from "@/components/facility/BusinessLifecycle";
 import { BonusFlowChart } from "@/components/facility/BonusFlowChart";
 import { ServiceBlueprintSection } from "@/components/facility/ServiceBlueprintSection";
+import { RewardUnitTable } from "@/components/facility/RewardUnitTable";
 import { SectionNav } from "@/components/layout/SectionNav";
 import { FACILITY_SECTIONS } from "@/lib/constants";
 import type { FacilityAnalysisData } from "@/lib/types";
@@ -31,6 +32,7 @@ const OPTIONAL_SECTION_CHECKS: Record<string, (d: FacilityAnalysisData) => boole
   lifecycle: (d) => !!d.businessLifecycle || !!d.startupGuide,
   blueprint: (d) => !!d.serviceBlueprint,
   stakeholders: (d) => (d.operationsStory.stakeholders?.length ?? 0) > 0,
+  rewardTable: (d) => !!d.rewardUnitTable,
   monthlyPL: (d) => !!d.monthlyPL,
   bonusFlow: (d) => !!d.bonusAcquisitionFlow,
 };
@@ -143,6 +145,12 @@ export function FacilityDetailPage({ data, title }: Props) {
           <section id="pl">
             <PLWaterfall data={data.facilityPL} />
           </section>
+
+          {data.rewardUnitTable && (
+            <section id="rewardTable">
+              <RewardUnitTable data={data.rewardUnitTable} />
+            </section>
+          )}
 
           {data.monthlyPL && (
             <section id="monthlyPL">

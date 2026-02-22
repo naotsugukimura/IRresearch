@@ -252,6 +252,7 @@ export const FACILITY_SECTIONS = [
   { id: "stakeholders", label: "関係者マップ" },
   { id: "conversations", label: "現場の声" },
   { id: "pl", label: "収支構造" },
+  { id: "rewardTable", label: "報酬単位" },
   { id: "monthlyPL", label: "月次収支" },
   { id: "bonusFlow", label: "加算フロー" },
   { id: "bonuses", label: "加算一覧" },

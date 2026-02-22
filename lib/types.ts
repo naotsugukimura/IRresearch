@@ -815,6 +815,35 @@ export interface ServiceBlueprint {
   phases: BlueprintPhase[];
 }
 
+// ============================================================
+// 報酬単位表（RewardUnitTable）
+// ============================================================
+
+export interface RewardUnitRow {
+  category: string;
+  capacity: string;
+  duration?: string;
+  units: number;
+  note?: string;
+}
+
+export interface RewardBonusRow {
+  name: string;
+  units: string;
+  target: string;
+  requirement: string;
+}
+
+export interface RewardUnitTableData {
+  serviceType: string;
+  revisionYear: number;
+  unitPrice: number;
+  areaMultipliers: { area: string; multiplier: number }[];
+  baseRewards: RewardUnitRow[];
+  mainBonuses: RewardBonusRow[];
+  notes: string[];
+}
+
 export interface FacilityAnalysisData {
   serviceType: string;
   serviceCode: string;
@@ -834,6 +863,7 @@ export interface FacilityAnalysisData {
   startupGuide?: StartupGuide;
   businessLifecycle?: BusinessLifecycle;
   serviceBlueprint?: ServiceBlueprint;
+  rewardUnitTable?: RewardUnitTableData;
 }
 
 // ============================================================

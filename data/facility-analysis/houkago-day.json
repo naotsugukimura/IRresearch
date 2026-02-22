@@ -3254,5 +3254,61 @@
         ]
       }
     ]
+  },
+  "rewardUnitTable": {
+    "serviceType": "放課後等デイサービス",
+    "revisionYear": 2024,
+    "unitPrice": 10.0,
+    "areaMultipliers": [
+      { "area": "1級地（東京特別区）", "multiplier": 11.10 },
+      { "area": "2級地（東京都特別区隣接市等）", "multiplier": 10.88 },
+      { "area": "3級地（政令指定都市等）", "multiplier": 10.83 },
+      { "area": "4級地（中核市等）", "multiplier": 10.66 },
+      { "area": "5級地", "multiplier": 10.55 },
+      { "area": "6級地", "multiplier": 10.33 },
+      { "area": "7級地", "multiplier": 10.17 },
+      { "area": "その他", "multiplier": 10.00 }
+    ],
+    "baseRewards": [
+      { "category": "総合支援型・区分1", "capacity": "10名以下", "duration": "授業終了後", "units": 604, "note": "指標該当児50%以上" },
+      { "category": "総合支援型・区分1", "capacity": "11〜20名", "duration": "授業終了後", "units": 566, "note": "指標該当児50%以上" },
+      { "category": "総合支援型・区分1", "capacity": "21名以上", "duration": "授業終了後", "units": 523, "note": "指標該当児50%以上" },
+      { "category": "総合支援型・区分2", "capacity": "10名以下", "duration": "授業終了後", "units": 453, "note": "指標該当児50%未満" },
+      { "category": "総合支援型・区分2", "capacity": "11〜20名", "duration": "授業終了後", "units": 424, "note": "指標該当児50%未満" },
+      { "category": "総合支援型・区分2", "capacity": "21名以上", "duration": "授業終了後", "units": 392, "note": "指標該当児50%未満" },
+      { "category": "総合支援型・区分1", "capacity": "10名以下", "duration": "休業日", "units": 721, "note": "土曜・長期休暇等" },
+      { "category": "総合支援型・区分1", "capacity": "11〜20名", "duration": "休業日", "units": 676, "note": "土曜・長期休暇等" },
+      { "category": "総合支援型・区分1", "capacity": "21名以上", "duration": "休業日", "units": 625, "note": "土曜・長期休暇等" },
+      { "category": "総合支援型・区分2", "capacity": "10名以下", "duration": "休業日", "units": 541, "note": "土曜・長期休暇等" },
+      { "category": "総合支援型・区分2", "capacity": "11〜20名", "duration": "休業日", "units": 507, "note": "土曜・長期休暇等" },
+      { "category": "総合支援型・区分2", "capacity": "21名以上", "duration": "休業日", "units": 469, "note": "土曜・長期休暇等" },
+      { "category": "特定プログラム特化型・区分1", "capacity": "10名以下", "duration": "授業終了後", "units": 604, "note": "特定領域のプログラムに特化" },
+      { "category": "特定プログラム特化型・区分1", "capacity": "11〜20名", "duration": "授業終了後", "units": 566, "note": "特定領域のプログラムに特化" },
+      { "category": "特定プログラム特化型・区分1", "capacity": "21名以上", "duration": "授業終了後", "units": 523, "note": "特定領域のプログラムに特化" },
+      { "category": "特定プログラム特化型・区分2", "capacity": "10名以下", "duration": "授業終了後", "units": 453 },
+      { "category": "特定プログラム特化型・区分2", "capacity": "11〜20名", "duration": "授業終了後", "units": 424 },
+      { "category": "特定プログラム特化型・区分2", "capacity": "21名以上", "duration": "授業終了後", "units": 392 }
+    ],
+    "mainBonuses": [
+      { "name": "児童指導員等加配加算（I）", "units": "187単位/日", "target": "1日あたり", "requirement": "児童指導員・保育士を基準以上に加配（常勤換算1名以上）" },
+      { "name": "児童指導員等加配加算（II）", "units": "123単位/日", "target": "1日あたり", "requirement": "障害福祉サービス経験者を加配" },
+      { "name": "専門的支援体制加算", "units": "150単位/日", "target": "1日あたり", "requirement": "理学療法士・作業療法士・言語聴覚士・心理指導担当職員等を配置" },
+      { "name": "個別サポート加算（I）", "units": "100単位/日", "target": "1日あたり", "requirement": "ケアニーズの高い児童（著しい行動障害・重症心身障害等）に個別支援" },
+      { "name": "個別サポート加算（II）", "units": "125単位/日", "target": "1日あたり", "requirement": "虐待等により保護を要する児童への支援" },
+      { "name": "送迎加算", "units": "54単位/回", "target": "片道1回", "requirement": "自宅・学校等と事業所間の送迎を実施" },
+      { "name": "処遇改善加算（I）", "units": "総報酬の8.6%", "target": "月額算定", "requirement": "キャリアパス要件・職場環境等要件を満たす" },
+      { "name": "処遇改善加算（II）", "units": "総報酬の5.5%", "target": "月額算定", "requirement": "キャリアパス要件（一部）・職場環境等要件を満たす" },
+      { "name": "家庭連携加算", "units": "187単位/回", "target": "月4回まで", "requirement": "保護者の居宅を訪問し、障害児の養育に関する相談援助を実施" },
+      { "name": "医療連携体制加算（I）", "units": "32単位/日", "target": "1日あたり", "requirement": "看護職員が事業所を訪問し医療的ケアを実施" },
+      { "name": "事業所内相談支援加算", "units": "35単位/回", "target": "月1回まで", "requirement": "保護者に対する相談援助を計画的に実施" },
+      { "name": "関係機関連携加算（I）", "units": "200単位/回", "target": "月1回まで", "requirement": "学校・医療機関等と情報共有・連携のための会議を実施" }
+    ],
+    "notes": [
+      "1単位の単価は地域区分により異なる（10.00〜11.10円）",
+      "区分1/2は「指標該当児」（食事・排泄・入浴・移動で全介助を要する児童等）の割合で判定",
+      "休業日（土曜・祝日・長期休暇等）は授業終了後より単位数が高い（提供時間が長いため）",
+      "処遇改善加算は基本報酬＋各加算の合計に対する割合で算定",
+      "令和6年度改定で「総合支援型」と「特定プログラム特化型」の2類型に再編"
+    ]
   }
 }
