@@ -245,6 +245,7 @@ export const FACILITY_SECTIONS = [
   { id: "timeseries", label: "推移" },
   { id: "userJourney", label: "利用者フロー" },
   { id: "lifecycle", label: "事業ライフサイクル" },
+  { id: "blueprint", label: "業務プロセス" },
   { id: "operations", label: "事業所運営" },
   { id: "roles", label: "登場人物" },
   { id: "stakeholders", label: "関係者マップ" },

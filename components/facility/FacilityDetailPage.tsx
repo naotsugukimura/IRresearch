@@ -16,6 +16,7 @@ import { UserJourneyFlow } from "@/components/facility/UserJourneyFlow";
 import { StartupFlow } from "@/components/facility/StartupFlow";
 import { BusinessLifecycle } from "@/components/facility/BusinessLifecycle";
 import { BonusFlowChart } from "@/components/facility/BonusFlowChart";
+import { ServiceBlueprintSection } from "@/components/facility/ServiceBlueprintSection";
 import { SectionNav } from "@/components/layout/SectionNav";
 import { FACILITY_SECTIONS } from "@/lib/constants";
 import type { FacilityAnalysisData } from "@/lib/types";
@@ -28,6 +29,7 @@ interface Props {
 const OPTIONAL_SECTION_CHECKS: Record<string, (d: FacilityAnalysisData) => boolean> = {
   userJourney: (d) => !!d.userJourney,
   lifecycle: (d) => !!d.businessLifecycle || !!d.startupGuide,
+  blueprint: (d) => !!d.serviceBlueprint,
   stakeholders: (d) => (d.operationsStory.stakeholders?.length ?? 0) > 0,
   monthlyPL: (d) => !!d.monthlyPL,
   bonusFlow: (d) => !!d.bonusAcquisitionFlow,
@@ -100,6 +102,16 @@ export function FacilityDetailPage({ data, title }: Props) {
               <StartupFlow startupGuide={data.startupGuide} serviceType={data.serviceType} />
             </section>
           ) : null}
+
+          {/* Service Blueprint */}
+          {data.serviceBlueprint && (
+            <section id="blueprint">
+              <ServiceBlueprintSection
+                blueprint={data.serviceBlueprint}
+                serviceType={data.serviceType}
+              />
+            </section>
+          )}
 
           {/* Operations: Daily timeline (full width) */}
           <section id="operations">

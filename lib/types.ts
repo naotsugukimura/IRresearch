@@ -784,6 +784,28 @@ export interface BusinessLifecycle {
   phases: LifecyclePhase[];
 }
 
+// ============================================================
+// ServiceBlueprint（業務プロセスと課題の可視化）
+// ============================================================
+
+export interface BlueprintTask {
+  name: string;
+  actors: string[];
+  description?: string;
+  challenge?: string;
+}
+
+export interface BlueprintPhase {
+  id: string;
+  name: string;
+  tasks: BlueprintTask[];
+}
+
+export interface ServiceBlueprint {
+  goal: string;
+  phases: BlueprintPhase[];
+}
+
 export interface FacilityAnalysisData {
   serviceType: string;
   serviceCode: string;
@@ -802,6 +824,7 @@ export interface FacilityAnalysisData {
   userJourney?: UserJourney;
   startupGuide?: StartupGuide;
   businessLifecycle?: BusinessLifecycle;
+  serviceBlueprint?: ServiceBlueprint;
 }
 
 // ============================================================
