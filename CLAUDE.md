@@ -208,7 +208,7 @@ ANTHROPIC_API_KEY=...
 ## ★ Phase 6 完了（2026-02-21）: 総合ダッシュボード + 事業所分析
 
 ### Phase 6a: 総合ダッシュボード `/market`
-- `data/market-overview.json` — 障害者人口（身体/知的/精神）・雇用状況・事業所数時系列・ニュース・採用方法
+- `data/market-overview.json` — 障害者人口・雇用・事業所数時系列・ニュース・採用方法・福祉史・介護比較・海外事例・法定雇用率推移・政策変更
 - `MarketKpiCards.tsx` — 4枚KPIカード（障害者数/雇用数/事業所数/法定雇用率）
 - `DisabilityPopulationChart.tsx` / `Inner` — LineChart 3線（身体/知的/精神障害）
 - `EmploymentTrendsChart.tsx` / `Inner` — ComposedChart（棒: 雇用者数 + 線: 実雇用率/法定雇用率）
@@ -222,12 +222,12 @@ ANTHROPIC_API_KEY=...
 - `FacilityKpiCards.tsx` — 4枚KPI（事業所数/成長率/利用者数/民間比率）
 - `EntityDistributionChart.tsx` / `Inner` — BarChart + PieChart（法人格別: 株式会社54.9%が最多）
 - `OperatorScaleChart.tsx` / `Inner` — BarChart（単体65.9%/2-5/6-10/11+）
-- `FacilityGrowthChart.tsx` / `Inner` — ComposedChart（事業所数Line + 利用者数Area, 2012-2025）
+- `FacilityGrowthChart.tsx` / `Inner` — 2タブ: 法人格別StackedArea + 事業所数×利用者数ComposedChart + 報酬改定ReferenceLine
 - `DailyTimeline.tsx` — CSS timeline（9:00-18:30の一日の流れ）
 - `RoleDiagram.tsx` — カードグリッド（管理者/児発管/指導員/保育士/ドライバー）
 - `ConversationCards.tsx` — 4シーン（保護者面談/スタッフMTG/関係機関連携/日次連絡）
 - `PLWaterfall.tsx` / `Inner` — 売上BarChart + コストPieChart（年間約2,256万円）
-- `BonusTable.tsx` — 主要加算10個テーブル（カテゴリフィルタ/難易度/売上寄与バッジ）
+- `BonusTable.tsx` — 主要加算10個アコーディオン（カテゴリフィルタ/難易度/売上寄与バッジ/取得要件ガイド展開）
 - `MonthlyPLTable.tsx` — 12ヶ月月次PL表（折りたたみセクション/スパークライン/年次合計）
 - 型: `MarketOverviewData`, `FacilityAnalysisData`, `MonthlyPL` + 多数のサブ型
 
@@ -291,8 +291,43 @@ TAVILY_API_KEY=tvly-...
 ### API利用量
 - 25社 × 4タイプ = 100検索 × 2クレジット = 200クレジット/月（無料枠1,000内）
 
-### ★ 次にやること（Phase 9b以降）
-- 全25社の非上場企業リサーチ実行: `--all-private`
+## ★ Phase 10 完了（2026-02-22）: 市場ダッシュボード大幅改善 + 放デイ時系列刷新 + 企業ロゴ + 加算ガイド
+
+### Phase 10a: 放課後デイ時系列刷新
+- `FacilityGrowthChartInner.tsx` を全面リライト
+  - **法人格別StackedAreaChart**: 7法人格（株式会社/合同/NPO/一般社団/社福/医療/その他）で積上げ
+  - **報酬改定ReferenceLine**: 2012/2015/2018/2021/2024の5改定を黄色破線で表示
+  - **改定タイムラインアコーディオン**: チャート下部に展開可能な改定詳細（影響/背景/新加算）
+  - 2タブ切替: 「法人格別」(StackedArea) / 「事業所数×利用者数」(ComposedChart)
+- `houkago-day.json` 更新: `facilityTimeSeries[].byEntity` + `rewardRevisions[]`
+- `lib/types.ts`: `RewardRevision` 型 + `YearCount.byEntity` 追加
+
+### Phase 10b: 市場ダッシュボード4新セクション
+1. **WelfareHistoryTimeline** — 障害福祉の歴史（1946年〜2025年、18イベント）
+   - カテゴリフィルタ（法制定/制度改革/転換点/国際）、8件→全件展開
+2. **CareComparisonTable** — 介護保険との制度比較（9次元: 根拠法/対象者/認定方法/財源...）
+   - 3列テーブル（障害福祉/介護保険/示唆）+ カテゴリ別色分け
+3. **InternationalCasesSection** — 海外5カ国事例（米/デンマーク/スウェーデン/英/独）
+   - 展開可能カード（制度概要/特徴/強み/弱み/日本への示唆）
+4. **EmploymentPolicySection** → **EmploymentPolicySectionInner** — dynamic import
+   - 法定雇用率推移チャート (1976-2026): ComposedChart (Bar=法定率 + Line=実雇用率)
+   - 政策タイムライン (7件): 2024-2026の雇用/報酬/制度カテゴリ別
+- `market-overview.json` に5新フィールド追加: `welfareHistory`, `careComparison`, `internationalCases`, `employmentRateHistory`, `recentPolicyChanges`
+- `lib/types.ts`: `WelfareHistoryEvent`, `CareComparisonItem`, `InternationalCase`, `EmploymentRateHistory`, `RecentPolicyChange` 型追加
+
+### Phase 10c: 企業ロゴ表示
+- `CompanyList.tsx` — Google Favicon API（`google.com/s2/favicons?domain=...&sz=32`）
+- officialUrl/irUrlからドメイン抽出、URL無い企業はbrandColor初期文字バッジにフォールバック
+
+### Phase 10d: 加算取得要件ガイド
+- `BonusTable.tsx` — テーブル→アコーディオンUIにリライト
+  - 展開可能カード: 概要 / 取得手順 / ポイント / よくあるミス
+  - アイコン: CheckCircle(手順), Lightbulb(ポイント), AlertTriangle(ミス)
+- `houkago-day.json` — 全10加算に `requirementGuide` 追加（overview/steps[]/tips[]/commonMistakes[]）
+- `lib/types.ts`: `BonusRequirementStep` 型 + `BonusCatalogItem.requirementGuide` 追加
+
+### ★ 次にやること（Phase 11以降）
+- 全25社Tavilyリサーチ再実行（DNSエラー解消後）: `--all-private --no-db`
 - Supabase SQL Editorで `company_web_research` テーブル作成（DB永続化）
 - リタリコ深掘り: プラットフォーム事業構造、セグメント収益時系列、一店舗あたり事業計画
 - WAMNETスクリプト汎用化（他社対応）
@@ -317,6 +352,7 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `OperatorScaleChart` → `OperatorScaleChartInner`（facility/）
 - `FacilityGrowthChart` → `FacilityGrowthChartInner`（facility/）
 - `PLWaterfall` → `PLWaterfallInner`（facility/）
+- `EmploymentPolicySection` → `EmploymentPolicySectionInner`（market/）
 
 ## 金額フォーマッタの使い分け
 - `formatCurrency(value, "million")` — 財務データ用（百万円単位）
