@@ -15,6 +15,7 @@ import { ProfitStructureSection } from "@/components/company/ProfitStructureSect
 import { AreaAnalysisSection } from "@/components/company/AreaAnalysisSection";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { WebResearchSection } from "@/components/company/WebResearchSection";
+import { PLSimulator } from "@/components/plan/PLSimulator";
 import {
   getCompanies,
   getCompanyById,
@@ -167,6 +168,14 @@ export default async function CompanyDetailPage({
                     <ProfitStructureSection
                       plan={businessPlan}
                       allPlans={allBusinessPlans}
+                      companyColor={company.brandColor}
+                    />
+                  </div>
+                )}
+                {businessPlan && (
+                  <div className="mt-4">
+                    <PLSimulator
+                      plan={businessPlan}
                       companyColor={company.brandColor}
                     />
                   </div>
