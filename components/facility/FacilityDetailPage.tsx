@@ -16,6 +16,8 @@ import { UserJourneyFlow } from "@/components/facility/UserJourneyFlow";
 import { StartupFlow } from "@/components/facility/StartupFlow";
 import { BusinessLifecycle } from "@/components/facility/BusinessLifecycle";
 import { BonusFlowChart } from "@/components/facility/BonusFlowChart";
+import { SectionNav } from "@/components/layout/SectionNav";
+import { FACILITY_SECTIONS } from "@/lib/constants";
 import type { FacilityAnalysisData } from "@/lib/types";
 
 interface Props {
@@ -23,12 +25,25 @@ interface Props {
   title: string;
 }
 
+const OPTIONAL_SECTION_CHECKS: Record<string, (d: FacilityAnalysisData) => boolean> = {
+  userJourney: (d) => !!d.userJourney,
+  lifecycle: (d) => !!d.businessLifecycle || !!d.startupGuide,
+  stakeholders: (d) => (d.operationsStory.stakeholders?.length ?? 0) > 0,
+  monthlyPL: (d) => !!d.monthlyPL,
+  bonusFlow: (d) => !!d.bonusAcquisitionFlow,
+};
+
 export function FacilityDetailPage({ data, title }: Props) {
+  const activeSections = FACILITY_SECTIONS.filter((s) => {
+    const check = OPTIONAL_SECTION_CHECKS[s.id];
+    return check ? check(data) : true;
+  });
+
   return (
     <div className="flex h-screen">
       <Sidebar />
       <main className="flex-1 overflow-y-auto">
-        <div className="sticky top-0 z-20 border-b border-border bg-background/95 px-4 py-3 backdrop-blur md:px-6">
+        <div className="sticky top-0 z-20 border-b-0 bg-background/95 px-4 py-3 backdrop-blur md:px-6">
           <div className="flex items-center gap-3">
             <MobileNav />
             <div>
@@ -40,6 +55,7 @@ export function FacilityDetailPage({ data, title }: Props) {
             </div>
           </div>
         </div>
+        <SectionNav sections={activeSections} />
         <div className="space-y-4 p-4 md:p-6">
           <section id="overview">
             <FacilityKpiCards data={data} />

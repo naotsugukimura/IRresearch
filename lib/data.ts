@@ -253,10 +253,6 @@ export function getFacilityAnalysis(serviceCode: string): FacilityAnalysisData |
   return data ? (data as unknown as FacilityAnalysisData) : undefined;
 }
 
-export function getHoukagoDayAnalysis(): FacilityAnalysisData {
-  return houkagoDayData as unknown as FacilityAnalysisData;
-}
-
 // ============================================================
 // Webリサーチ（Tavily Search API）
 // ============================================================

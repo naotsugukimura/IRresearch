@@ -42,14 +42,17 @@ function Sparkline({ values, color }: { values: number[]; color: string }) {
 }
 
 export function FacilityKpiCards({ data }: Props) {
+  if (data.facilityTimeSeries.length < 2 || data.userTimeSeries.length < 1) {
+    return <p className="text-sm text-muted-foreground">KPIデータが不足しています</p>;
+  }
+
   const latestFacility = data.facilityTimeSeries[data.facilityTimeSeries.length - 1];
   const prevFacility = data.facilityTimeSeries[data.facilityTimeSeries.length - 2];
   const latestUser = data.userTimeSeries[data.userTimeSeries.length - 1];
 
-  const facilityGrowth = (
-    ((latestFacility.count - prevFacility.count) / prevFacility.count) *
-    100
-  ).toFixed(1);
+  const facilityGrowth = prevFacility.count > 0
+    ? (((latestFacility.count - prevFacility.count) / prevFacility.count) * 100).toFixed(1)
+    : "N/A";
 
   const facSpark = data.facilityTimeSeries.map((d) => d.count);
   const userSpark = data.userTimeSeries.map((d) => d.count);
