@@ -2195,5 +2195,379 @@
         ]
       }
     ]
+  },
+  "rewardUnitTable": {
+    "serviceType": "就労継続支援A型",
+    "revisionYear": 2024,
+    "unitPrice": 10.0,
+    "areaMultipliers": [
+      {
+        "area": "1級地（東京特別区）",
+        "multiplier": 11.1
+      },
+      {
+        "area": "2級地（東京都特別区隣接市等）",
+        "multiplier": 10.88
+      },
+      {
+        "area": "3級地（政令指定都市等）",
+        "multiplier": 10.83
+      },
+      {
+        "area": "4級地（中核市等）",
+        "multiplier": 10.66
+      },
+      {
+        "area": "5級地",
+        "multiplier": 10.55
+      },
+      {
+        "area": "6級地",
+        "multiplier": 10.33
+      },
+      {
+        "area": "7級地",
+        "multiplier": 10.17
+      },
+      {
+        "area": "その他",
+        "multiplier": 10.0
+      }
+    ],
+    "baseRewards": [
+      {
+        "category": "スコア区分I",
+        "capacity": "20名以下",
+        "duration": "1日あたり",
+        "units": 754,
+        "note": "スコア29点以上"
+      },
+      {
+        "category": "スコア区分II",
+        "capacity": "20名以下",
+        "duration": "1日あたり",
+        "units": 720,
+        "note": "スコア24〜28点"
+      },
+      {
+        "category": "スコア区分III",
+        "capacity": "20名以下",
+        "duration": "1日あたり",
+        "units": 685,
+        "note": "スコア19〜23点"
+      },
+      {
+        "category": "スコア区分IV",
+        "capacity": "20名以下",
+        "duration": "1日あたり",
+        "units": 651,
+        "note": "スコア14〜18点"
+      },
+      {
+        "category": "スコア区分V",
+        "capacity": "20名以下",
+        "duration": "1日あたり",
+        "units": 617,
+        "note": "スコア9〜13点"
+      },
+      {
+        "category": "スコア区分VI",
+        "capacity": "20名以下",
+        "duration": "1日あたり",
+        "units": 582,
+        "note": "スコア5〜8点"
+      },
+      {
+        "category": "スコア区分VII",
+        "capacity": "20名以下",
+        "duration": "1日あたり",
+        "units": 548,
+        "note": "スコア0〜4点"
+      },
+      {
+        "category": "スコア区分I",
+        "capacity": "21〜40名",
+        "duration": "1日あたり",
+        "units": 736,
+        "note": "スコア29点以上"
+      },
+      {
+        "category": "スコア区分II",
+        "capacity": "21〜40名",
+        "duration": "1日あたり",
+        "units": 702,
+        "note": "スコア24〜28点"
+      },
+      {
+        "category": "スコア区分III",
+        "capacity": "21〜40名",
+        "duration": "1日あたり",
+        "units": 667,
+        "note": "スコア19〜23点"
+      },
+      {
+        "category": "スコア区分IV",
+        "capacity": "21〜40名",
+        "duration": "1日あたり",
+        "units": 633,
+        "note": "スコア14〜18点"
+      },
+      {
+        "category": "スコア区分V",
+        "capacity": "21〜40名",
+        "duration": "1日あたり",
+        "units": 599,
+        "note": "スコア9〜13点"
+      },
+      {
+        "category": "スコア区分VI",
+        "capacity": "21〜40名",
+        "duration": "1日あたり",
+        "units": 564,
+        "note": "スコア5〜8点"
+      },
+      {
+        "category": "スコア区分VII",
+        "capacity": "21〜40名",
+        "duration": "1日あたり",
+        "units": 530,
+        "note": "スコア0〜4点"
+      },
+      {
+        "category": "スコア区分I",
+        "capacity": "41〜60名",
+        "duration": "1日あたり",
+        "units": 722,
+        "note": "スコア29点以上"
+      },
+      {
+        "category": "スコア区分II",
+        "capacity": "41〜60名",
+        "duration": "1日あたり",
+        "units": 687,
+        "note": "スコア24〜28点"
+      },
+      {
+        "category": "スコア区分III",
+        "capacity": "41〜60名",
+        "duration": "1日あたり",
+        "units": 653,
+        "note": "スコア19〜23点"
+      },
+      {
+        "category": "スコア区分IV",
+        "capacity": "41〜60名",
+        "duration": "1日あたり",
+        "units": 619,
+        "note": "スコア14〜18点"
+      },
+      {
+        "category": "スコア区分V",
+        "capacity": "41〜60名",
+        "duration": "1日あたり",
+        "units": 584,
+        "note": "スコア9〜13点"
+      },
+      {
+        "category": "スコア区分VI",
+        "capacity": "41〜60名",
+        "duration": "1日あたり",
+        "units": 550,
+        "note": "スコア5〜8点"
+      },
+      {
+        "category": "スコア区分VII",
+        "capacity": "41〜60名",
+        "duration": "1日あたり",
+        "units": 516,
+        "note": "スコア0〜4点"
+      },
+      {
+        "category": "スコア区分I",
+        "capacity": "61〜80名",
+        "duration": "1日あたり",
+        "units": 711,
+        "note": "スコア29点以上"
+      },
+      {
+        "category": "スコア区分II",
+        "capacity": "61〜80名",
+        "duration": "1日あたり",
+        "units": 677,
+        "note": "スコア24〜28点"
+      },
+      {
+        "category": "スコア区分III",
+        "capacity": "61〜80名",
+        "duration": "1日あたり",
+        "units": 642,
+        "note": "スコア19〜23点"
+      },
+      {
+        "category": "スコア区分IV",
+        "capacity": "61〜80名",
+        "duration": "1日あたり",
+        "units": 608,
+        "note": "スコア14〜18点"
+      },
+      {
+        "category": "スコア区分V",
+        "capacity": "61〜80名",
+        "duration": "1日あたり",
+        "units": 574,
+        "note": "スコア9〜13点"
+      },
+      {
+        "category": "スコア区分VI",
+        "capacity": "61〜80名",
+        "duration": "1日あたり",
+        "units": 539,
+        "note": "スコア5〜8点"
+      },
+      {
+        "category": "スコア区分VII",
+        "capacity": "61〜80名",
+        "duration": "1日あたり",
+        "units": 505,
+        "note": "スコア0〜4点"
+      },
+      {
+        "category": "スコア区分I",
+        "capacity": "81名以上",
+        "duration": "1日あたり",
+        "units": 703,
+        "note": "スコア29点以上"
+      },
+      {
+        "category": "スコア区分II",
+        "capacity": "81名以上",
+        "duration": "1日あたり",
+        "units": 669,
+        "note": "スコア24〜28点"
+      },
+      {
+        "category": "スコア区分III",
+        "capacity": "81名以上",
+        "duration": "1日あたり",
+        "units": 634,
+        "note": "スコア19〜23点"
+      },
+      {
+        "category": "スコア区分IV",
+        "capacity": "81名以上",
+        "duration": "1日あたり",
+        "units": 600,
+        "note": "スコア14〜18点"
+      },
+      {
+        "category": "スコア区分V",
+        "capacity": "81名以上",
+        "duration": "1日あたり",
+        "units": 566,
+        "note": "スコア9〜13点"
+      },
+      {
+        "category": "スコア区分VI",
+        "capacity": "81名以上",
+        "duration": "1日あたり",
+        "units": 531,
+        "note": "スコア5〜8点"
+      },
+      {
+        "category": "スコア区分VII",
+        "capacity": "81名以上",
+        "duration": "1日あたり",
+        "units": 497,
+        "note": "スコア0〜4点"
+      }
+    ],
+    "mainBonuses": [
+      {
+        "name": "賃金向上達成指導員配置加算（I）",
+        "units": "13単位/日",
+        "target": "1日あたり",
+        "requirement": "平均賃金月額3.5万円以上且つ賃金向上指導員配置"
+      },
+      {
+        "name": "賃金向上達成指導員配置加算（II）",
+        "units": "9単位/日",
+        "target": "1日あたり",
+        "requirement": "平均賃金月額2.5万円以上且つ賃金向上指導員配置"
+      },
+      {
+        "name": "処遇改善加算（I）",
+        "units": "総報酬の8.6%",
+        "target": "月額算定",
+        "requirement": "キャリアパス要件・職場環境等要件を満たす"
+      },
+      {
+        "name": "処遇改善加算（II）",
+        "units": "総報酬の5.5%",
+        "target": "月額算定",
+        "requirement": "キャリアパス要件（一部）・職場環境等要件を満たす"
+      },
+      {
+        "name": "施設外就労加算",
+        "units": "100単位/日",
+        "target": "施設外就労を行う利用者1人1日",
+        "requirement": "企業内での就労機会の提供"
+      },
+      {
+        "name": "施設外支援加算",
+        "units": "184単位/日",
+        "target": "1日あたり",
+        "requirement": "利用者数の100分の10以上が施設外就労を実施"
+      },
+      {
+        "name": "就労移行支援体制加算（I）",
+        "units": "41単位/日",
+        "target": "1日あたり",
+        "requirement": "前年度の一般就労移行者が7名以上且つ移行率が50%以上"
+      },
+      {
+        "name": "就労移行支援体制加算（II）",
+        "units": "21単位/日",
+        "target": "1日あたり",
+        "requirement": "前年度の一般就労移行者が5名以上且つ移行率が30%以上"
+      },
+      {
+        "name": "重度者支援体制加算",
+        "units": "28単位/日",
+        "target": "障害支援区分4以上の利用者1日",
+        "requirement": "障害支援区分4以上の利用者に対する支援体制"
+      },
+      {
+        "name": "医療連携体制加算（I）",
+        "units": "32単位/日",
+        "target": "医療的ケアが必要な利用者1日",
+        "requirement": "看護職員による医療的ケアの実施"
+      },
+      {
+        "name": "医療連携体制加算（II）",
+        "units": "48単位/日",
+        "target": "医療的ケアが必要な利用者1日",
+        "requirement": "看護職員による医療的ケアの実施（重度の場合）"
+      },
+      {
+        "name": "福祉・介護職員等特定処遇改善加算（I）",
+        "units": "総報酬の2.4%",
+        "target": "月額算定",
+        "requirement": "経験・技能のある職員への処遇改善"
+      },
+      {
+        "name": "福祉・介護職員等ベースアップ等支援加算",
+        "units": "総報酬の2.0%",
+        "target": "月額算定",
+        "requirement": "職員の収入の3%程度の改善または月額9,000円の賃金改善"
+      }
+    ],
+    "notes": [
+      "1単位の単価は地域区分により異なる（10.00〜11.10円）",
+      "令和3年度から5項目のスコア評価（労働時間・生産活動・多様な働き方・支援力向上・地域連携活動）によりI〜VII区分を決定",
+      "最低賃金以上の賃金支払いが義務付けられており、平均賃金実績により加算が設定される",
+      "処遇改善加算は基本報酬と各種加算の合計額に対する割合で算定",
+      "施設外就労は企業等の事業所で行う就労であり、一般就労への移行促進が評価される",
+      "スコア評価により事業所の経営努力・支援の質が報酬に反映される仕組み"
+    ]
   }
 }

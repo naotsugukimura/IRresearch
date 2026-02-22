@@ -2302,5 +2302,296 @@
         ]
       }
     ]
+  },
+  "rewardUnitTable": {
+    "serviceType": "就労継続支援B型",
+    "revisionYear": 2024,
+    "unitPrice": 10.0,
+    "areaMultipliers": [
+      {
+        "area": "1級地（東京特別区）",
+        "multiplier": 11.1
+      },
+      {
+        "area": "2級地（東京都特別区隣接市等）",
+        "multiplier": 10.88
+      },
+      {
+        "area": "3級地（政令指定都市等）",
+        "multiplier": 10.83
+      },
+      {
+        "area": "4級地（中核市等）",
+        "multiplier": 10.66
+      },
+      {
+        "area": "5級地",
+        "multiplier": 10.55
+      },
+      {
+        "area": "6級地",
+        "multiplier": 10.33
+      },
+      {
+        "area": "7級地",
+        "multiplier": 10.17
+      },
+      {
+        "area": "その他",
+        "multiplier": 10.0
+      }
+    ],
+    "baseRewards": [
+      {
+        "category": "平均工賃月額4.5万円以上",
+        "capacity": "20名以下",
+        "duration": "1日",
+        "units": 624,
+        "note": "最高工賃区分"
+      },
+      {
+        "category": "平均工賃月額4.5万円以上",
+        "capacity": "21～40名",
+        "duration": "1日",
+        "units": 567,
+        "note": "最高工賃区分"
+      },
+      {
+        "category": "平均工賃月額4.5万円以上",
+        "capacity": "41～60名",
+        "duration": "1日",
+        "units": 543,
+        "note": "最高工賃区分"
+      },
+      {
+        "category": "平均工賃月額4.5万円以上",
+        "capacity": "61～80名",
+        "duration": "1日",
+        "units": 523,
+        "note": "最高工賃区分"
+      },
+      {
+        "category": "平均工賃月額4.5万円以上",
+        "capacity": "81名以上",
+        "duration": "1日",
+        "units": 506,
+        "note": "最高工賃区分"
+      },
+      {
+        "category": "平均工賃月額3万円～4.5万円未満",
+        "capacity": "20名以下",
+        "duration": "1日",
+        "units": 597,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額3万円～4.5万円未満",
+        "capacity": "21～40名",
+        "duration": "1日",
+        "units": 544,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額3万円～4.5万円未満",
+        "capacity": "41～60名",
+        "duration": "1日",
+        "units": 521,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額3万円～4.5万円未満",
+        "capacity": "61～80名",
+        "duration": "1日",
+        "units": 502,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額3万円～4.5万円未満",
+        "capacity": "81名以上",
+        "duration": "1日",
+        "units": 485,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額2万円～3万円未満",
+        "capacity": "20名以下",
+        "duration": "1日",
+        "units": 570,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額2万円～3万円未満",
+        "capacity": "21～40名",
+        "duration": "1日",
+        "units": 520,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額2万円～3万円未満",
+        "capacity": "41～60名",
+        "duration": "1日",
+        "units": 498,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額2万円～3万円未満",
+        "capacity": "61～80名",
+        "duration": "1日",
+        "units": 480,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額2万円～3万円未満",
+        "capacity": "81名以上",
+        "duration": "1日",
+        "units": 464,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額1.5万円～2万円未満",
+        "capacity": "20名以下",
+        "duration": "1日",
+        "units": 543,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額1.5万円～2万円未満",
+        "capacity": "21～40名",
+        "duration": "1日",
+        "units": 497,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額1.5万円～2万円未満",
+        "capacity": "41～60名",
+        "duration": "1日",
+        "units": 476,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額1万円～1.5万円未満",
+        "capacity": "20名以下",
+        "duration": "1日",
+        "units": 516,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額1万円～1.5万円未満",
+        "capacity": "21～40名",
+        "duration": "1日",
+        "units": 473,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額5千円～1万円未満",
+        "capacity": "20名以下",
+        "duration": "1日",
+        "units": 489,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額5千円～1万円未満",
+        "capacity": "21～40名",
+        "duration": "1日",
+        "units": 448,
+        "note": ""
+      },
+      {
+        "category": "平均工賃月額5千円未満",
+        "capacity": "20名以下",
+        "duration": "1日",
+        "units": 462,
+        "note": "最低工賃区分"
+      },
+      {
+        "category": "平均工賃月額5千円未満",
+        "capacity": "21～40名",
+        "duration": "1日",
+        "units": 423,
+        "note": "最低工賃区分"
+      }
+    ],
+    "mainBonuses": [
+      {
+        "name": "目標工賃達成指導員配置加算",
+        "units": "41単位/日",
+        "target": "1日あたり",
+        "requirement": "目標工賃達成指導員を配置し工賃向上計画を策定・実行"
+      },
+      {
+        "name": "施設外就労加算",
+        "units": "100単位/日",
+        "target": "1日あたり",
+        "requirement": "企業等に労働者を派遣し施設外で就労を実施"
+      },
+      {
+        "name": "施設外支援加算",
+        "units": "180単位/日",
+        "target": "1日あたり",
+        "requirement": "職員が施設外就労先に同行し支援を実施"
+      },
+      {
+        "name": "就労移行支援体制加算（I）",
+        "units": "41単位/日",
+        "target": "1日あたり",
+        "requirement": "前年度の一般就労移行率が30%以上50%未満"
+      },
+      {
+        "name": "就労移行支援体制加算（II）",
+        "units": "62単位/日",
+        "target": "1日あたり",
+        "requirement": "前年度の一般就労移行率が50%以上"
+      },
+      {
+        "name": "重度者支援体制加算",
+        "units": "28単位/日",
+        "target": "1日あたり",
+        "requirement": "障害支援区分4以上の者が50%以上"
+      },
+      {
+        "name": "処遇改善加算（I）",
+        "units": "総報酬の8.3%",
+        "target": "月額算定",
+        "requirement": "キャリアパス要件・職場環境等要件を満たす"
+      },
+      {
+        "name": "処遇改善加算（II）",
+        "units": "総報酬の5.5%",
+        "target": "月額算定",
+        "requirement": "キャリアパス要件（一部）・職場環境等要件を満たす"
+      },
+      {
+        "name": "ピアサポート実施加算",
+        "units": "20単位/日",
+        "target": "1日あたり",
+        "requirement": "ピアサポーター（障害当事者）による相談支援を実施"
+      },
+      {
+        "name": "訪問支援特別加算",
+        "units": "187単位/日",
+        "target": "月2回まで",
+        "requirement": "居宅等を訪問して相談援助を実施"
+      },
+      {
+        "name": "欠席時対応加算",
+        "units": "94単位/日",
+        "target": "月4回まで",
+        "requirement": "利用予定日に欠席した利用者に連絡・相談支援を実施"
+      },
+      {
+        "name": "工賃向上計画支援加算",
+        "units": "20単位/日",
+        "target": "1日あたり",
+        "requirement": "工賃向上計画を策定し県に提出"
+      }
+    ],
+    "notes": [
+      "基本報酬は平均工賃月額に連動する成果連動型報酬体系（工賃が高いほど基本報酬も高い）",
+      "平均工賃月額は前年度実績に基づき、年1回（4月）に区分を見直し",
+      "施設外就労は企業等との請負・委託契約により実施し、一般就労への移行を促進",
+      "処遇改善加算は基本報酬＋各加算の合計に対する割合で算定",
+      "雇用契約を結ばない非雇用型のサービスで、就労移行支援と異なり利用期間制限なし",
+      "令和6年度改定で工賃向上に向けた取組みの評価が一層強化"
+    ]
   }
 }

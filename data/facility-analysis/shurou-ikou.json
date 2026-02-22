@@ -2244,5 +2244,335 @@
         ]
       }
     ]
+  },
+  "rewardUnitTable": {
+    "serviceType": "就労移行支援",
+    "revisionYear": 2024,
+    "unitPrice": 10.0,
+    "areaMultipliers": [
+      {
+        "area": "1級地（東京特別区）",
+        "multiplier": 11.1
+      },
+      {
+        "area": "2級地（東京都特別区隣接市等）",
+        "multiplier": 10.88
+      },
+      {
+        "area": "3級地（政令指定都市等）",
+        "multiplier": 10.83
+      },
+      {
+        "area": "4級地（中核市等）",
+        "multiplier": 10.66
+      },
+      {
+        "area": "5級地",
+        "multiplier": 10.55
+      },
+      {
+        "area": "6級地",
+        "multiplier": 10.33
+      },
+      {
+        "area": "7級地",
+        "multiplier": 10.17
+      },
+      {
+        "area": "その他",
+        "multiplier": 10.0
+      }
+    ],
+    "baseRewards": [
+      {
+        "category": "定員20名以下",
+        "capacity": "就職後定着率50%以上",
+        "duration": "1日",
+        "units": 876,
+        "note": "最高ランク"
+      },
+      {
+        "category": "定員20名以下",
+        "capacity": "就職後定着率40%以上50%未満",
+        "duration": "1日",
+        "units": 817,
+        "note": ""
+      },
+      {
+        "category": "定員20名以下",
+        "capacity": "就職後定着率30%以上40%未満",
+        "duration": "1日",
+        "units": 758,
+        "note": ""
+      },
+      {
+        "category": "定員20名以下",
+        "capacity": "就職後定着率25%以上30%未満",
+        "duration": "1日",
+        "units": 699,
+        "note": ""
+      },
+      {
+        "category": "定員20名以下",
+        "capacity": "就職後定着率15%以上25%未満",
+        "duration": "1日",
+        "units": 640,
+        "note": ""
+      },
+      {
+        "category": "定員20名以下",
+        "capacity": "就職後定着率5%以上15%未満",
+        "duration": "1日",
+        "units": 581,
+        "note": ""
+      },
+      {
+        "category": "定員20名以下",
+        "capacity": "就職後定着率5%未満",
+        "duration": "1日",
+        "units": 522,
+        "note": "最低ランク"
+      },
+      {
+        "category": "定員21〜40名",
+        "capacity": "就職後定着率50%以上",
+        "duration": "1日",
+        "units": 821,
+        "note": "最高ランク"
+      },
+      {
+        "category": "定員21〜40名",
+        "capacity": "就職後定着率40%以上50%未満",
+        "duration": "1日",
+        "units": 765,
+        "note": ""
+      },
+      {
+        "category": "定員21〜40名",
+        "capacity": "就職後定着率30%以上40%未満",
+        "duration": "1日",
+        "units": 710,
+        "note": ""
+      },
+      {
+        "category": "定員21〜40名",
+        "capacity": "就職後定着率25%以上30%未満",
+        "duration": "1日",
+        "units": 654,
+        "note": ""
+      },
+      {
+        "category": "定員21〜40名",
+        "capacity": "就職後定着率15%以上25%未満",
+        "duration": "1日",
+        "units": 599,
+        "note": ""
+      },
+      {
+        "category": "定員21〜40名",
+        "capacity": "就職後定着率5%以上15%未満",
+        "duration": "1日",
+        "units": 544,
+        "note": ""
+      },
+      {
+        "category": "定員21〜40名",
+        "capacity": "就職後定着率5%未満",
+        "duration": "1日",
+        "units": 488,
+        "note": "最低ランク"
+      },
+      {
+        "category": "定員41〜60名",
+        "capacity": "就職後定着率50%以上",
+        "duration": "1日",
+        "units": 805,
+        "note": "最高ランク"
+      },
+      {
+        "category": "定員41〜60名",
+        "capacity": "就職後定着率40%以上50%未満",
+        "duration": "1日",
+        "units": 750,
+        "note": ""
+      },
+      {
+        "category": "定員41〜60名",
+        "capacity": "就職後定着率30%以上40%未満",
+        "duration": "1日",
+        "units": 696,
+        "note": ""
+      },
+      {
+        "category": "定員41〜60名",
+        "capacity": "就職後定着率25%以上30%未満",
+        "duration": "1日",
+        "units": 641,
+        "note": ""
+      },
+      {
+        "category": "定員41〜60名",
+        "capacity": "就職後定着率15%以上25%未満",
+        "duration": "1日",
+        "units": 587,
+        "note": ""
+      },
+      {
+        "category": "定員41〜60名",
+        "capacity": "就職後定着率5%以上15%未満",
+        "duration": "1日",
+        "units": 533,
+        "note": ""
+      },
+      {
+        "category": "定員41〜60名",
+        "capacity": "就職後定着率5%未満",
+        "duration": "1日",
+        "units": 478,
+        "note": "最低ランク"
+      },
+      {
+        "category": "定員61名以上",
+        "capacity": "就職後定着率50%以上",
+        "duration": "1日",
+        "units": 776,
+        "note": "最高ランク"
+      },
+      {
+        "category": "定員61名以上",
+        "capacity": "就職後定着率40%以上50%未満",
+        "duration": "1日",
+        "units": 723,
+        "note": ""
+      },
+      {
+        "category": "定員61名以上",
+        "capacity": "就職後定着率30%以上40%未満",
+        "duration": "1日",
+        "units": 670,
+        "note": ""
+      },
+      {
+        "category": "定員61名以上",
+        "capacity": "就職後定着率25%以上30%未満",
+        "duration": "1日",
+        "units": 618,
+        "note": ""
+      },
+      {
+        "category": "定員61名以上",
+        "capacity": "就職後定着率15%以上25%未満",
+        "duration": "1日",
+        "units": 565,
+        "note": ""
+      },
+      {
+        "category": "定員61名以上",
+        "capacity": "就職後定着率5%以上15%未満",
+        "duration": "1日",
+        "units": 513,
+        "note": ""
+      },
+      {
+        "category": "定員61名以上",
+        "capacity": "就職後定着率5%未満",
+        "duration": "1日",
+        "units": 460,
+        "note": "最低ランク"
+      }
+    ],
+    "mainBonuses": [
+      {
+        "name": "就労移行支援体制加算（I）",
+        "units": "41単位/日",
+        "target": "1日あたり",
+        "requirement": "就労支援員を標準以上配置（常勤1名以上）し、就職率30%以上"
+      },
+      {
+        "name": "就労移行支援体制加算（II）",
+        "units": "28単位/日",
+        "target": "1日あたり",
+        "requirement": "就労支援員を標準以上配置（常勤1名以上）し、就職率25%以上"
+      },
+      {
+        "name": "就労移行支援体制加算（III）",
+        "units": "14単位/日",
+        "target": "1日あたり",
+        "requirement": "就労支援員を標準以上配置（常勤1名以上）し、就職率20%以上"
+      },
+      {
+        "name": "就労支援関係研修修了加算",
+        "units": "6単位/日",
+        "target": "1日あたり",
+        "requirement": "就労支援員が所定の研修を修了している"
+      },
+      {
+        "name": "通勤訓練加算",
+        "units": "100単位/日",
+        "target": "連続する14日まで",
+        "requirement": "公共交通機関等を利用した通勤訓練を実施"
+      },
+      {
+        "name": "移行準備支援体制加算（I）",
+        "units": "42単位/日",
+        "target": "1日あたり",
+        "requirement": "職場実習の実施・職場開拓の実施・求職活動支援の実施"
+      },
+      {
+        "name": "移行準備支援体制加算（II）",
+        "units": "25単位/日",
+        "target": "1日あたり",
+        "requirement": "職場実習の実施・職場開拓の実施のいずれかを実施"
+      },
+      {
+        "name": "社会生活支援特別加算",
+        "units": "43単位/日",
+        "target": "1日あたり",
+        "requirement": "精神障害者等への専門的な支援体制を整備"
+      },
+      {
+        "name": "処遇改善加算（I）",
+        "units": "総報酬の8.6%",
+        "target": "月額算定",
+        "requirement": "キャリアパス要件・職場環境等要件を満たす"
+      },
+      {
+        "name": "処遇改善加算（II）",
+        "units": "総報酬の5.5%",
+        "target": "月額算定",
+        "requirement": "キャリアパス要件（一部）・職場環境等要件を満たす"
+      },
+      {
+        "name": "医療連携体制加算（I）",
+        "units": "32単位/日",
+        "target": "1日あたり",
+        "requirement": "看護職員が事業所を訪問し医療的ケアを実施"
+      },
+      {
+        "name": "医療連携体制加算（II）",
+        "units": "12単位/日",
+        "target": "1日あたり",
+        "requirement": "看護職員を配置し健康管理等を実施"
+      },
+      {
+        "name": "福祉専門職員配置等加算（I）",
+        "units": "15単位/日",
+        "target": "1日あたり",
+        "requirement": "常勤のサービス管理責任者を配置"
+      },
+      {
+        "name": "視覚・聴覚言語障害者支援体制加算",
+        "units": "41単位/日",
+        "target": "1日あたり",
+        "requirement": "視覚・聴覚・言語機能に重度障害がある者への専門的支援"
+      }
+    ],
+    "notes": [
+      "基本報酬は就職後6ヶ月以上定着した者の割合により7段階に区分（5%未満から50%以上まで）",
+      "定員規模は20名以下、21〜40名、41〜60名、61名以上の4区分で基本報酬が設定",
+      "利用期間は原則2年間（1年間延長可能）で、就労に向けた訓練を実施",
+      "成果連動型の報酬体系により、就職実績・定着実績が報酬に直接反映される仕組み",
+      "令和6年度改定で定着実績による報酬メリハリを強化し、質の高いサービス提供を促進"
+    ]
   }
 }
