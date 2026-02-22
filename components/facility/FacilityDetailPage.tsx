@@ -14,6 +14,7 @@ import { BonusTable } from "@/components/facility/BonusTable";
 import { MonthlyPLTable } from "@/components/facility/MonthlyPLTable";
 import { UserJourneyFlow } from "@/components/facility/UserJourneyFlow";
 import { StartupFlow } from "@/components/facility/StartupFlow";
+import { BusinessLifecycle } from "@/components/facility/BusinessLifecycle";
 import { BonusFlowChart } from "@/components/facility/BonusFlowChart";
 import type { FacilityAnalysisData } from "@/lib/types";
 
@@ -68,12 +69,20 @@ export function FacilityDetailPage({ data, title }: Props) {
             </section>
           )}
 
-          {/* Startup Flow */}
-          {data.startupGuide && (
-            <section id="startup">
+          {/* Business Lifecycle / Startup Flow */}
+          {data.businessLifecycle ? (
+            <section id="lifecycle">
+              <BusinessLifecycle
+                lifecycle={data.businessLifecycle}
+                startupGuide={data.startupGuide}
+                serviceType={data.serviceType}
+              />
+            </section>
+          ) : data.startupGuide ? (
+            <section id="lifecycle">
               <StartupFlow startupGuide={data.startupGuide} serviceType={data.serviceType} />
             </section>
-          )}
+          ) : null}
 
           {/* Operations: Daily timeline (full width) */}
           <section id="operations">

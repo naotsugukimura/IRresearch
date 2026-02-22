@@ -714,6 +714,76 @@ export interface StartupGuide {
   steps: StartupStep[];
 }
 
+// 事業ライフサイクル（Phase 15）
+export type LifecyclePhaseId = "pre-opening" | "year-1" | "year-2-3" | "growth";
+
+export type ExternalServiceCategory =
+  | "training"
+  | "staffing"
+  | "job_listing"
+  | "consulting"
+  | "software"
+  | "marketing"
+  | "billing"
+  | "retention"
+  | "other";
+
+export interface LifecycleChallenge {
+  title: string;
+  description: string;
+  severity: "high" | "medium" | "low";
+  tips?: string[];
+}
+
+export interface SuccessFailureScenario {
+  dimension: string;
+  successPattern: string;
+  failurePattern: string;
+  divergencePoint: string;
+  insight?: string;
+}
+
+export interface ExternalServiceNeed {
+  category: ExternalServiceCategory;
+  name: string;
+  relevance: "essential" | "recommended" | "optional";
+  description: string;
+  examples?: string[];
+  timing?: string;
+}
+
+export interface EntityTypeConsideration {
+  entityType: "民間" | "社福";
+  description: string;
+  advantages: string[];
+  disadvantages: string[];
+}
+
+export interface FranchiseConsideration {
+  applicable: boolean;
+  description?: string;
+  pros?: string[];
+  cons?: string[];
+  notes?: string[];
+}
+
+export interface LifecyclePhase {
+  id: LifecyclePhaseId;
+  label: string;
+  period: string;
+  summary: string;
+  challenges: LifecycleChallenge[];
+  successFailure?: SuccessFailureScenario[];
+  externalServices: ExternalServiceNeed[];
+  entityTypes?: EntityTypeConsideration[];
+  franchise?: FranchiseConsideration;
+}
+
+export interface BusinessLifecycle {
+  serviceType: string;
+  phases: LifecyclePhase[];
+}
+
 export interface FacilityAnalysisData {
   serviceType: string;
   serviceCode: string;
@@ -731,6 +801,7 @@ export interface FacilityAnalysisData {
   operationsStory: OperationsStory;
   userJourney?: UserJourney;
   startupGuide?: StartupGuide;
+  businessLifecycle?: BusinessLifecycle;
 }
 
 // ============================================================

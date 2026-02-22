@@ -240,7 +240,7 @@ export const FACILITY_SECTIONS = [
   { id: "scale", label: "事業規模" },
   { id: "timeseries", label: "推移" },
   { id: "userJourney", label: "利用者フロー" },
-  { id: "startup", label: "開業フロー" },
+  { id: "lifecycle", label: "事業ライフサイクル" },
   { id: "operations", label: "事業所運営" },
   { id: "roles", label: "登場人物" },
   { id: "stakeholders", label: "関係者マップ" },
