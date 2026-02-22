@@ -948,3 +948,21 @@ export interface DisabilityKnowledgeData {
   source: string;
   categories: DisabilityCategory[];
 }
+
+// ============================================================
+// 報酬改定タイムライン
+// ============================================================
+
+export interface ServiceRevisionEntry {
+  serviceType: string;
+  serviceCode: string;
+  serviceSlug: string;
+  category: "child" | "residential" | "employment" | "consultation" | "visit";
+  revisions: RewardRevision[];
+}
+
+export interface RewardRevisionPageData {
+  lastUpdated: string;
+  source: string;
+  services: ServiceRevisionEntry[];
+}

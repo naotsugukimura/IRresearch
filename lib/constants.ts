@@ -28,6 +28,7 @@ export const NAV_ITEMS: NavItem[] = [
     children: [
       { href: "/market", label: "市場ダッシュボード" },
       { href: "/trends", label: "業界トレンド" },
+      { href: "/reward-revision", label: "報酬改定" },
     ],
   },
   {

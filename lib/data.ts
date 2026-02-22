@@ -49,6 +49,7 @@ import type {
   FacilityAnalysisData,
   WebResearchData,
   DisabilityKnowledgeData,
+  RewardRevisionPageData,
 } from "./types";
 
 // ============================================================
@@ -270,4 +271,14 @@ export function getWebResearch(companyId: string): WebResearchData | undefined {
 
 export function getDisabilityKnowledge(): DisabilityKnowledgeData {
   return disabilityKnowledgeData as unknown as DisabilityKnowledgeData;
+}
+
+// ============================================================
+// 報酬改定タイムライン
+// ============================================================
+
+import rewardRevisionsData from "@/data/reward-revisions.json";
+
+export function getRewardRevisions(): RewardRevisionPageData {
+  return rewardRevisionsData as unknown as RewardRevisionPageData;
 }
