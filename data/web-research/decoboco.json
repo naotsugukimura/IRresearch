@@ -7,14 +7,14 @@
       "data": {
         "business_overview": {
           "founded": "2014年7月",
-          "employees": "140人",
-          "headquarters": "東京都港区芝浦4-12-31 VORT芝浦 Water F",
-          "description": "発達障害のある児童から成人までの社会的自立支援を行う福祉×ITのソーシャルベンチャー企業",
+          "employees": null,
+          "headquarters": "東京都港区芝浦4-12-31 VORT芝浦 Water Front6F",
+          "description": "障害児通所支援、就労移行支援、自立訓練事業を全国約300事業所で展開するソーシャルベンチャー企業",
           "main_services": [
-            "児童発達支援・放課後等デイサービス",
-            "就労移行支援・自立訓練",
-            "福祉事業所検索サイト「凸凹ガイド」",
-            "福祉事業所向けシステム「凸凹システム」"
+            "ハッピーテラス（放課後等デイサービス）",
+            "ディーキャリア（就労移行支援）",
+            "ハッピーテラスキッズ（児童発達支援）",
+            "ディーエンカレッジ（自立訓練）"
           ]
         },
         "funding": {
@@ -25,135 +25,134 @@
         },
         "recent_news": [
           {
-            "title": "障害者が働くハンバーガー店「BURGER TERRACE」事業開始",
-            "date": "2025-12-XX",
-            "summary": "新規事業としてハンバーガー飲食事業を追加",
-            "source_url": "https://note.com/decobocobase/n/n7987fff26207"
+            "title": "全国1,000拠点開所を目指すと発表",
+            "date": "2024-04-01",
+            "summary": "特別支援学校とほぼ同数となる1,000拠点の全国展開を目標に設定",
+            "source_url": null
           }
         ],
         "competitive_position": {
           "strengths": [
-            "フランチャイズモデルによる全国300事業所展開",
-            "児童から成人まで切れ目ない支援体制",
-            "福祉×ITによるDX化推進",
-            "利用者数10,000人超の実績"
+            "全国カバー率約90%で業界1位",
+            "約300事業所のフランチャイズ展開",
+            "児童から就労まで切れ目のない支援体制",
+            "福祉DX事業も展開"
           ],
-          "market_position": "発達障害者支援分野で全国最大規模のフランチャイズ展開を実現",
-          "threat_to_sms": "2段階 - 障害福祉分野に特化しており、SMSの事業領域との直接競合は限定的"
+          "market_position": "障害福祉サービス業界でトップクラスの事業所数と全国カバー率を誇る",
+          "threat_to_sms": null
         },
-        "confidence": "high",
-        "data_freshness": "2025-12-22"
+        "confidence": "medium",
+        "data_freshness": "2025-02-20"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T09:17:56.758880"
+      "searchedAt": "2026-02-22T23:15:17.951011"
     },
     {
       "type": "funding",
       "queryTerms": "\"デコボコベース\" 資金調達 出資 投資 ラウンド 評価額",
       "data": {
         "business_overview": {
-          "founded": "2014年7月",
-          "employees": 137,
-          "headquarters": "東京都港区芝浦4-12-31 VORT芝浦 WaterFront6階",
-          "description": "発達障害のある子どもと大人の社会参加を支援する障害福祉サービスを提供。インパクト測定・マネジメントを活用した事業展開。",
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "障害福祉をリードする全国カバー率業界No.1のソーシャルベンチャー。凸凹のある子どもから大人までのライフステージをトータルサポート。",
           "main_services": [
-            "バーガーテラス（就労継続支援A型）",
-            "凸凹エージェント",
-            "凸凹システム",
-            "凸凹ガイド"
+            "障害福祉サービス",
+            "ソーシャルフランチャイズ展開"
           ]
         },
         "funding": {
-          "total_raised": "1億円以上（推定）",
-          "latest_round": "シリーズA（推定）",
-          "investors": null,
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "B Corp認証を障害福祉業界で初取得",
-            "date": "2025-08-01",
-            "summary": "持続可能で公正な社会実現に向けた国際認証を取得",
-            "source_url": "https://decoboco-base.com/information/information_20250801/"
+            "title": "D&Iアワードアドバンス認定",
+            "date": "2024-12-XX",
+            "summary": "ダイバーシティ&インクルージョン分野での認定を取得",
+            "source_url": "https://www.wantedly.com/companies/decoboco-base"
           },
           {
-            "title": "バーガーテラス大宮店がグランドオープン",
-            "date": "2025-12-10",
-            "summary": "福祉×本格バーガーで就労支援サービスを開始",
+            "title": "WELLBEING AWARDS 2025 GOLD受賞",
+            "date": "2025-03-XX",
+            "summary": "ウェルビーイング分野での最高位賞を受賞",
             "source_url": "https://www.wantedly.com/companies/decoboco-base"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "障害福祉業界でのDX推進",
-            "B Corp認証取得による社会的信頼性",
-            "インパクト測定・マネジメントの活用"
+            "全国カバー率業界No.1",
+            "ソーシャルフランチャイズモデル",
+            "送迎なしの革新的サービス",
+            "ティール組織への取り組み"
           ],
-          "market_position": "障害福祉業界において革新的なサービスを提供するリーディング企業",
+          "market_position": "障害福祉業界でフランチャイズモデルを導入し全国シェア率業界1位を樹立したリーディングカンパニー",
           "threat_to_sms": null
         },
-        "confidence": "medium",
-        "data_freshness": "2025-12-10"
+        "confidence": "low",
+        "data_freshness": "2025-XX-XX"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T09:17:56.758952"
+      "searchedAt": "2026-02-22T23:15:17.951023"
     },
     {
       "type": "news",
       "queryTerms": "\"デコボコベース\" 最新 ニュース 2025 2026 動向",
       "data": {
         "business_overview": {
-          "founded": "2014年7月",
-          "employees": "推定300名以上",
-          "headquarters": "東京都港区芝浦4-12-31 VORT芝浦 Water Front 6F",
-          "description": "発達障害や障害者向けの支援施設を全国展開するソーシャルフランチャイズ事業。教育と福祉でゆたかさを広める理念を掲げる。",
+          "founded": null,
+          "employees": null,
+          "headquarters": "東京都港区",
+          "description": "発達障害者支援を中心とした障害福祉事業をソーシャルフランチャイズモデルで全国展開する企業",
           "main_services": [
-            "ハッピーテラス（放課後等デイサービス）",
-            "ディーキャリア（就労移行支援）",
-            "凸凹ガイド（施設検索サイト）",
-            "バーガーテラス（就労継続支援A型）"
+            "就労移行支援",
+            "障害者就職支援サービス「デコボコエージェント」",
+            "就労継続支援A型「バーガーテラス」"
           ]
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": null,
+          "investors": [],
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "バーガーテラス大宮店オープン - 障がい者就労支援×地域共生の世界初チェーンモデル",
+            "title": "朝日新聞SDGs ACTION!に代表松井のインタビューが掲載",
+            "date": "2025-12-16",
+            "summary": "「凸凹が活きる社会」をめざす取り組みについて代表が語る",
+            "source_url": "https://www.asahi.com/sdgs/article/16117637"
+          },
+          {
+            "title": "就労継続支援A型「バーガーテラス」がグランドオープン",
             "date": "2025-12-10",
-            "summary": "就労継続支援A型事業所として一般顧客向け高品質バーガー店を開業",
-            "source_url": "https://fukushijinji.com/disabilitynews/"
+            "summary": "新しい就労支援モデルとして和牛バーガー店を開設",
+            "source_url": null
           },
           {
-            "title": "B Corp認証を障害福祉業界で初取得",
-            "date": "2025-07-29",
-            "summary": "社会貢献企業としての第三者認証を業界初で獲得",
-            "source_url": "https://decoboco-base.com/category/information/"
-          },
-          {
-            "title": "Passion Leaders AWARD 2025準大賞を受賞",
-            "date": "2025-08-20",
-            "summary": "社会起業家表彰制度で準大賞を受賞",
-            "source_url": "https://decoboco-base.com/category/information/"
+            "title": "D&Iと障害福祉事業運営効率化で営業連携",
+            "date": "2026-01-01",
+            "summary": "テレワーク型障害者雇用サービス運営会社と提携",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000115.000049508.html"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "全国371事業所・カバー率91%の圧倒的規模",
-            "ソーシャルフランチャイズによる迅速な展開力",
-            "B Corp認証など社会的信頼性"
+            "全国385事業所展開（2026年1月現在）",
+            "ソーシャルフランチャイズモデル",
+            "AIを活用した人材紹介システム",
+            "B Corp™認証取得"
           ],
-          "market_position": "障害福祉業界のリーディングカンパニー。2026年7月の法定雇用率2.7%引き上げを控え成長期待大。2026年度500事業所・全国100%カバー目標",
-          "threat_to_sms": "3段階 - 直接競合ではないが、障害者雇用支援分野で強力なプラットフォームを構築しており、企業の人事・雇用関連ニーズで間接的に競合する可能性"
+          "market_position": "障害者支援分野で全国カバー率業界No.1を謳い、SDGsやウェルビーイングの観点から社会的インパクトを重視",
+          "threat_to_sms": "1段階 - 障害者支援という特化した福祉分野での事業展開のため、SMSの事業領域とは直接的な競合関係にない"
         },
-        "confidence": "high",
-        "data_freshness": "2025-12-10"
+        "confidence": "medium",
+        "data_freshness": "2025-12-16"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T09:17:56.758963"
+      "searchedAt": "2026-02-22T23:15:17.951026"
     },
     {
       "type": "competitive",
@@ -182,7 +181,7 @@
         "data_freshness": null
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T09:17:56.758970"
+      "searchedAt": "2026-02-22T23:15:17.951029"
     }
   ]
 }

@@ -7,13 +7,13 @@
       "data": {
         "business_overview": {
           "founded": "2001年3月",
-          "employees": "76名（パート・アルバイト含む）",
-          "headquarters": "愛知県名古屋市中区金山一丁目14番18号 A-PLACE金山 8F",
-          "description": "障がい福祉事業所向けクラウドサービス「HUG」の開発・販売、Webサイト制作、福祉事業所運営を行う",
+          "employees": "78名（2025年5月時点）",
+          "headquarters": "愛知県名古屋市中区金山一丁目14番18号A-PLACE金山8F",
+          "description": "障害児通所支援事業所向けクラウドサービス「HUG」の開発・販売、及び就労移行支援・就労継続支援B型事業所・放課後等デイサービスの運営",
           "main_services": [
-            "施設運営システムHUG",
-            "Webサイト制作・システム開発",
-            "放課後等デイサービス・就労支援事業所運営"
+            "施設運営システムHUGの開発・販売",
+            "放課後等デイサービス・児童発達支援事業",
+            "相談支援事業"
           ]
         },
         "funding": {
@@ -24,26 +24,32 @@
         },
         "recent_news": [
           {
-            "title": "「HUG」が計画相談支援・障害児相談支援に対応",
+            "title": "HUGが計画相談支援・障害児相談支援に対応",
             "date": null,
-            "summary": "相談支援事業への対応アップデートを実施、国保連請求やアセスメント作成に対応",
+            "summary": "相談支援事業への対応アップデートを実施",
             "source_url": "https://prtimes.jp/main/html/rd/p/000000008.000057730.html"
+          },
+          {
+            "title": "HUGがCareTEX東京'26に出展",
+            "date": "2026-01-20",
+            "summary": "就労移行・就労継続支援B型向けHUGを先行公開",
+            "source_url": null
           }
         ],
         "competitive_position": {
           "strengths": [
-            "全国9,000施設以上の導入実績",
-            "自社での福祉事業所運営による現場ノウハウの蓄積",
-            "テクノロジーと福祉の融合"
+            "全国9000施設以上の導入実績",
+            "自社での福祉事業所運営による現場ノウハウ",
+            "請求業務から療育記録まで一元管理可能"
           ],
-          "market_position": "障がい福祉事業所向け施設運営システムの業界リーダー",
-          "threat_to_sms": "2段階 - ニッチな福祉分野特化のため直接競合しないが、システム開発力は評価すべき"
+          "market_position": "障害児通所支援システム業界において導入施設数9000以上の業界トップシェア",
+          "threat_to_sms": "3段階 - 福祉DX特化で異なる市場だが、クラウドサービス展開力は参考になる競合"
         },
         "confidence": "high",
-        "data_freshness": "2024年推定"
+        "data_freshness": "2026-01-20"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:13:08.528887"
+      "searchedAt": "2026-02-22T23:17:15.518464"
     },
     {
       "type": "funding",
@@ -52,14 +58,9 @@
         "business_overview": {
           "founded": null,
           "employees": null,
-          "headquarters": "ジュネーブ、スイス",
-          "description": "ジュネーブ大学病院群。医療サービス、研究、教育を提供する公的医療機関",
-          "main_services": [
-            "医療サービス",
-            "臨床研究",
-            "医学教育",
-            "救急医療"
-          ]
+          "headquarters": null,
+          "description": null,
+          "main_services": null
         },
         "funding": {
           "total_raised": null,
@@ -67,34 +68,17 @@
           "investors": null,
           "valuation_estimate": null
         },
-        "recent_news": [
-          {
-            "title": "HUGが第5世代ダヴィンチ手術ロボット2台を導入",
-            "date": "2026-02-10",
-            "summary": "最新の外科手術ロボット技術を導入し医療の最前線に",
-            "source_url": "https://www.hug.ch/"
-          },
-          {
-            "title": "画像診断技術による治療と診断の向上",
-            "date": "2026-01-30",
-            "summary": "画像技術を活用した医療診断の革新について",
-            "source_url": "https://www.hug.ch/"
-          }
-        ],
+        "recent_news": null,
         "competitive_position": {
-          "strengths": [
-            "大学病院としての研究力",
-            "最新医療技術の導入",
-            "包括的医療サービス"
-          ],
-          "market_position": "スイス・ジュネーブ地域の主要公的医療機関",
-          "threat_to_sms": "1段階 - 公的医療機関であり、民間IT企業とは異なる事業領域"
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
         },
         "confidence": "low",
-        "data_freshness": "2026-02-10"
+        "data_freshness": "2025-02-14"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:13:08.528898"
+      "searchedAt": "2026-02-22T23:17:15.518490"
     },
     {
       "type": "news",
@@ -103,11 +87,12 @@
         "business_overview": {
           "founded": null,
           "employees": null,
-          "headquarters": "愛知県名古屋市",
-          "description": "障がい福祉施設向けのシステム「HUG」を提供し、児童発達支援や放課後等デイサービス等の施設運営を支援する事業を展開",
+          "headquarters": "愛知県名古屋市（推定）",
+          "description": "障がい福祉専用システム「HUG」を提供し、放課後等デイサービスや児童発達支援事業所の運営を支援",
           "main_services": [
-            "施設運営システム「HUG」",
-            "障がい福祉施設運営"
+            "障がい福祉専用システムHUG",
+            "放課後等デイサービス運営",
+            "就労継続支援B型事業所運営"
           ]
         },
         "funding": {
@@ -118,38 +103,82 @@
         },
         "recent_news": [
           {
-            "title": "HUGがCareTEX東京'26に出展、就労移行・就労継続支援B型向けHUGを先行公開",
-            "date": "2026-01-20",
-            "summary": "CareTEX東京'26に出展し、4月リリース予定の就労支援向け新機能を先行デモ",
-            "source_url": "https://www.hugmate.net/index/t/HUG/1/"
+            "title": "HUGがCareTEX東京'26に出展、就労支援向け新機能を先行公開",
+            "date": "2026-01-28",
+            "summary": "4月リリース予定の就労支援向け新機能を展示会で先行公開",
+            "source_url": "https://www.atpress.ne.jp/news/5779118"
           },
           {
             "title": "愛知県西尾市に農福連携の新拠点「ココトモワークス西尾」が開設",
             "date": "2026-01-28",
-            "summary": "就労継続支援B型事業所として農福連携の新拠点を2026年2月に開所",
+            "summary": "就労継続支援B型事業所として農福連携の新拠点を開所",
             "source_url": "https://www.atpress.ne.jp/news/5779118"
           },
           {
-            "title": "全国の放課後等デイサービスを対象とした経営実態調査2025実施",
-            "date": "2025-12-11",
-            "summary": "放課後等デイサービス事業者向けの経営実態調査を実施",
-            "source_url": "https://www.atpress.ne.jp/news/5779118"
+            "title": "成長療育支援システム「HUG」に「テックタッチ」が採用",
+            "date": "2025-02-12",
+            "summary": "システムの使いやすさ向上のため新技術を導入",
+            "source_url": "https://ict-enews.net/2025/02/12techtouch-2/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "全国9,000施設以上への導入実績",
-            "自社でも福祉施設を運営する当事者視点",
+            "全国9,000施設が導入する圧倒的なシェア",
+            "福祉当事者としての現場視点",
             "児童発達支援から就労支援まで幅広いサービス対応"
           ],
-          "market_position": "障がい福祉施設向けシステムの大手プロバイダーとして全国47都道府県に展開",
-          "threat_to_sms": null
+          "market_position": "障がい福祉専用システム分野でのリーディングカンパニー",
+          "threat_to_sms": "2段階 - 障がい福祉という特化分野でのシステム提供のため、SMSの一般的なビジネス領域とは異なる"
         },
         "confidence": "medium",
-        "data_freshness": "2026-02-09"
+        "data_freshness": "2026-02-20"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:13:08.528900"
+      "searchedAt": "2026-02-22T23:17:15.518498"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"HUG（ネットアーツ）\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "放課後等デイサービスや児童発達支援業務を一元管理できるSaaS型運営支援システムを開発・販売",
+          "main_services": [
+            "HUG（療育支援システム）",
+            "施設運営管理システム"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "成長療育支援システム「HUG」に「テックタッチ」を採用",
+            "date": null,
+            "summary": "ユーザーの自己解決率向上のためテックタッチを導入",
+            "source_url": "https://saleszine.jp/news/detail/6854"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "全国導入施設数10,000施設以上の高い市場シェア",
+            "放課後等デイサービス・児童発達支援に特化した専門性",
+            "個別支援計画から請求まで業務を一元管理",
+            "SaaS型クラウドサービスによる利便性"
+          ],
+          "market_position": "障がい児通所支援施設向けシステムでトップシェア（推定）",
+          "threat_to_sms": "中程度（3/5）- 特定分野に特化しており直接競合ではないが、療育分野でのシステム化ノウハウを蓄積"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025年頃"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:17:15.518503"
     }
   ]
 }

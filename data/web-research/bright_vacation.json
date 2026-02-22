@@ -9,7 +9,7 @@
           "founded": null,
           "employees": null,
           "headquarters": null,
-          "description": null,
+          "description": "検索結果に「ブライトヴァケーションズ」という企業の情報は見つかりませんでした。",
           "main_services": null
         },
         "funding": {
@@ -18,7 +18,7 @@
           "investors": null,
           "valuation_estimate": null
         },
-        "recent_news": [],
+        "recent_news": null,
         "competitive_position": {
           "strengths": null,
           "market_position": null,
@@ -28,7 +28,7 @@
         "data_freshness": null
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:07:30.815884"
+      "searchedAt": "2026-02-22T23:13:24.428691"
     },
     {
       "type": "funding",
@@ -57,7 +57,7 @@
         "data_freshness": null
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:07:30.815917"
+      "searchedAt": "2026-02-22T23:13:24.428712"
     },
     {
       "type": "news",
@@ -66,13 +66,9 @@
         "business_overview": {
           "founded": null,
           "employees": null,
-          "headquarters": "東京都港区南青山2-27-25 ヒューリック南青山ビル5F",
-          "description": "高級リゾート施設の開発・運営を手がける企業。温泉リゾートからラグジュアリーホテルまで幅広く展開。",
-          "main_services": [
-            "高級リゾート運営",
-            "温泉郷開発",
-            "シェア別荘事業"
-          ]
+          "headquarters": null,
+          "description": null,
+          "main_services": null
         },
         "funding": {
           "total_raised": null,
@@ -82,44 +78,22 @@
         },
         "recent_news": [
           {
-            "title": "伊豆赤沢温泉郷が2026年春に「プレジャーリゾート 伊豆赤沢温泉」へ改称",
-            "date": "2025-12-16",
-            "summary": "伊豆の温泉リゾートのリブランディングを実施",
-            "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
-          },
-          {
-            "title": "「GLAMDAY STYLE HOTEL SUITE 山ノ麓」がシェア別荘として分譲開始",
-            "date": "2025-12-05",
-            "summary": "新たなシェア別荘事業の展開を開始",
-            "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
-          },
-          {
-            "title": "「ふふ 東京 銀座」が開業",
-            "date": "2025-11-16",
-            "summary": "銀座に新しいラグジュアリーホテルをオープン",
-            "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
-          },
-          {
-            "title": "2026年春、シリーズ5棟目となる「GLAMDAY STYLE TEITAKU 海ノ波音」が誕生",
-            "date": "2025-10-10",
-            "summary": "GLAMDAYシリーズの新施設を2026年春に開業予定",
-            "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
+            "title": "ブライト・ホライズンズの株価、2026年ガイダンス失望で急落",
+            "date": null,
+            "summary": "2026年のガイダンスが市場の期待を下回り株価が急落",
+            "source_url": "https://jp.investing.com/news/earnings/article-93CH-1422484"
           }
         ],
         "competitive_position": {
-          "strengths": [
-            "高級リゾート運営ノウハウ",
-            "多様な宿泊施設ブランド展開",
-            "健康経営への取り組み"
-          ],
-          "market_position": "国内高級リゾート市場において複数ブランドを展開する中規模事業者",
+          "strengths": null,
+          "market_position": null,
           "threat_to_sms": null
         },
-        "confidence": "medium",
-        "data_freshness": "2025-12-16"
+        "confidence": "low",
+        "data_freshness": "2025年"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:07:30.815925"
+      "searchedAt": "2026-02-22T23:13:24.428718"
     },
     {
       "type": "competitive",
@@ -138,21 +112,21 @@
           "investors": null,
           "valuation_estimate": null
         },
-        "recent_news": [],
+        "recent_news": null,
         "competitive_position": {
           "strengths": [
-            "個別化された体験の提供",
-            "顧客サービス",
-            "広範囲なグローバルネットワーク"
+            "顧客満足度",
+            "革新的なサービス提供",
+            "強固なブランドロイヤルティ"
           ],
-          "market_position": "独自の旅行パッケージと顧客サービスにより強い市場シェアを持つ",
-          "threat_to_sms": null
+          "market_position": "独自の旅行体験を通じて差別化を図り、競争力のある市場シェアを維持",
+          "threat_to_sms": "2 - 高付加価値サービスに特化しており、SMSとは異なる事業領域のため脅威は限定的"
         },
         "confidence": "low",
         "data_freshness": null
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:07:30.815936"
+      "searchedAt": "2026-02-22T23:13:24.428724"
     }
   ]
 }

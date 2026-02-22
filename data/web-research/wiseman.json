@@ -8,13 +8,14 @@
         "business_overview": {
           "founded": "1983年",
           "employees": null,
-          "headquarters": "岩手県盛岡市盛岡駅西通2丁目",
-          "description": "医療・介護・福祉のICTシステム開発・販売を行うIT企業。業界トップクラスの導入実績を持つ。",
+          "headquarters": "岩手県盛岡市盛岡駅西通2丁目11番1号",
+          "description": "介護・福祉事業所、医療施設、地方自治体向けシステムの開発・販売・サポートを行うICT企業。医療・介護連携の支援や地域包括ケアシステムの実現に取り組む。",
           "main_services": [
-            "医療・介護・福祉向けシステム開発・販売",
-            "地域医療介護連携ソリューション",
+            "ワイズマンシステムSP（介護・福祉業務支援システム）",
+            "電子カルテシステムER",
+            "AIケアプラン",
             "人材サービス",
-            "介護情報提供サイト運営"
+            "介護情報サイト「ケアリポ」"
           ]
         },
         "funding": {
@@ -26,20 +27,19 @@
         "recent_news": null,
         "competitive_position": {
           "strengths": [
-            "61,200事業所超の導入実績（業界トップクラス）",
-            "介護保険制度施行以来の豊富なノウハウ",
-            "医療・介護・福祉の全サービスをカバーする包括的ソリューション",
-            "AIやIoT等最新技術の活用",
-            "地域包括ケアシステム対応"
+            "介護・福祉分野で61,200事業所への導入実績",
+            "医療から介護まで幅広いサービス対応",
+            "AIやIoTなど最新技術の導入",
+            "40年以上の業界経験とノウハウ"
           ],
-          "market_position": "医療・介護・福祉ICTシステム分野の業界リーダー企業",
-          "threat_to_sms": "3 - 同じヘルスケアIT分野で豊富な実績を持つが、対象市場が異なる（中小病院・介護事業所 vs 大規模病院）"
+          "market_position": "介護・福祉システム分野でトップクラスのシェア率を持つリーディングカンパニー",
+          "threat_to_sms": null
         },
         "confidence": "high",
-        "data_freshness": "2023年6月"
+        "data_freshness": null
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:30:10.042643"
+      "searchedAt": "2026-02-22T23:34:35.894834"
     },
     {
       "type": "funding",
@@ -49,41 +49,11 @@
           "founded": null,
           "employees": null,
           "headquarters": null,
-          "description": null,
-          "main_services": null
-        },
-        "funding": {
-          "total_raised": null,
-          "latest_round": null,
-          "investors": null,
-          "valuation_estimate": null
-        },
-        "recent_news": null,
-        "competitive_position": {
-          "strengths": null,
-          "market_position": null,
-          "threat_to_sms": null
-        },
-        "confidence": "low",
-        "data_freshness": "2025年版"
-      },
-      "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:30:10.042663"
-    },
-    {
-      "type": "news",
-      "queryTerms": "\"ワイズマン\" 最新 ニュース 2025 2026 動向",
-      "data": {
-        "business_overview": {
-          "founded": null,
-          "employees": null,
-          "headquarters": "岩手県（盛岡名物の記載から推定）",
-          "description": "医療・介護・福祉分野向けの電子カルテシステムや介護ソフトの開発・販売を行う企業",
+          "description": "在宅医療・介護業界向けのシステムやソリューションを提供する企業",
           "main_services": [
-            "電子カルテシステムER",
-            "介護・福祉向けソフト",
-            "AIソリューション",
-            "保険代理店事業"
+            "ワイズマンシステムSP",
+            "Care-wing",
+            "医療・介護システム"
           ]
         },
         "funding": {
@@ -94,38 +64,81 @@
         },
         "recent_news": [
           {
-            "title": "音声記録AIが介護現場の記録業務とケアの質、両方の課題を解決",
-            "date": "2025-12-22",
-            "summary": "2026年3月リリース予定の音声記録AIを発表",
-            "source_url": "https://www.wiseman.co.jp/news/welfare/voicerecordingai/"
-          },
+            "title": "ワイズマンとZESTがデータ連携を開始",
+            "date": "2025-01-17",
+            "summary": "株式会社ゼストとワイズマンシステムSP・Care-wingとの連携決定",
+            "source_url": "https://zest.jp/corporate/news/20250129"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "在宅医療・介護分野での実績",
+            "他社システムとの連携機能"
+          ],
+          "market_position": "在宅医療・介護業界のシステム提供企業として事業展開",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2025-01-29"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:34:35.894854"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"ワイズマン\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "岩手県盛岡市（推定）",
+          "description": "医療・介護分野向けのICTソリューション（電子カルテ、AI活用システム等）を提供する企業",
+          "main_services": [
+            "電子カルテシステムER",
+            "介護DXソリューション",
+            "AIを活用した業務効率化システム"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
           {
-            "title": "H.C.R.2025 出展のご案内",
-            "date": "2025年",
-            "summary": "介護現場にAI革命をもたらす最新ソリューションを展示",
+            "title": "H.C.R.2025出展でAI革命による介護ソリューションを紹介",
+            "date": "2025-XX-XX",
+            "summary": "国際福祉機器展に出展し、AI活用による介護DX実現のソリューションを展示",
             "source_url": "https://www.wiseman.co.jp/news/welfare/news_hcr2025/"
           },
           {
-            "title": "電子カルテ情報共有サービス（HL7 FHIR実装）への対応",
-            "date": "2025-03-01",
-            "summary": "電子カルテシステムERが医療DX施策に対応開始",
+            "title": "法務責任者が約1300万円相当の株式を売却",
+            "date": "2026-02-11",
+            "summary": "ワイズマン法務責任者による株式売却が報告される",
+            "source_url": "https://jp.investing.com/news/insider-trading-news/article-93CH-1174760"
+          },
+          {
+            "title": "電子カルテシステムERの2026年更新版リリース",
+            "date": "2026-XX-XX",
+            "summary": "電子カルテ情報共有サービスに対応した最新版システムを提供",
             "source_url": "https://www.wiseman.co.jp/news/medical/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "全国61200以上の介護・福祉施設での導入実績",
-            "AI技術の積極的な導入",
-            "医療・介護・福祉の包括的なソリューション提供"
+            "医療・介護分野での専門性",
+            "AI技術の導入",
+            "電子カルテ情報共有サービス対応"
           ],
-          "market_position": "介護・福祉業界向けソフトウェア分野で高いシェアを持つ確立された企業",
-          "threat_to_sms": "3 - 介護・福祉分野でのAI活用とクラウドサービスの実績があり、類似分野での競合可能性がある"
+          "market_position": "医療・介護ICT分野でのソリューション提供企業として確立された地位",
+          "threat_to_sms": "2段階 - 医療・介護特化のため直接的な脅威は限定的だが、AIソリューション領域での競合の可能性"
         },
         "confidence": "medium",
-        "data_freshness": "2025-12-22"
+        "data_freshness": "2026-02-11"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:30:10.042668"
+      "searchedAt": "2026-02-22T23:34:35.894858"
     },
     {
       "type": "competitive",
@@ -134,11 +147,11 @@
         "business_overview": {
           "founded": "1983年",
           "employees": null,
-          "headquarters": "岩手県盛岡市",
-          "description": "医療・介護・福祉分野に特化したソフトウェアの企画から開発、販売、サポートまでワンストップで展開する企業",
+          "headquarters": "岩手県",
+          "description": "医療・介護・福祉分野に特化したソフトウェアの企画・開発・販売・サポートを一貫して提供する企業",
           "main_services": [
             "ワイズマンシステムSP",
-            "すぐろくHome",
+            "すぐろくホーム",
             "メルタス"
           ]
         },
@@ -150,28 +163,27 @@
         },
         "recent_news": [
           {
-            "title": "New Relicを活用したオブザーバビリティプラットフォーム導入",
+            "title": "リモート機能訓練支援サービスとの連携機能提供",
             "date": null,
-            "summary": "サービス品質と顧客満足度向上のためのシステム監視強化",
-            "source_url": "https://prtimes.jp/main/html/rd/p/000000096.000109343.html"
+            "summary": "SPシステムと連携し、デイサービスの個別機能訓練を支援",
+            "source_url": "https://www.wiseman.co.jp/assets/old-news/news/uploads/f0f0a82ff7842325439bfc160eb8839bd06fa45a.pdf"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "介護施設業界トップクラスのシェア（61,200事業所導入）",
-            "医療・介護・福祉の垂直統合型ソリューション",
-            "全国20拠点のサポート体制",
-            "老健施設の約4割導入実績",
-            "現場密着型の機能開発"
+            "医療・介護・福祉の包括的アプローチ",
+            "全国20ヶ所のサポート拠点による地域密着型サポート",
+            "現場の課題に寄り添った機能開発",
+            "クラウド技術への早期取り組み"
           ],
-          "market_position": "介護ソフト市場で第2位（シェア22.4%）、NDソフトウェアと競合状態",
-          "threat_to_sms": "脅威度4 - 介護業界でのトップクラスシェアと包括的ソリューションによりSMSカイポケの強力な競合"
+          "market_position": "介護ソフト市場で第2位のシェア（22.4%）、61,200事業所が利用、老健施設の約4割に導入",
+          "threat_to_sms": "4段階 - 介護ソフト市場で高いシェアを持ち、包括的ソリューションと強固なサポート体制でSMSのカイポケ（第3位、8.4%シェア）に対して優位性を維持している"
         },
         "confidence": "high",
         "data_freshness": "2026年"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:30:10.042673"
+      "searchedAt": "2026-02-22T23:34:35.894863"
     }
   ]
 }

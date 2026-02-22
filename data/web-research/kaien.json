@@ -6,59 +6,15 @@
       "queryTerms": "\"Kaien\" 事業内容 サービス 特徴 会社概要",
       "data": {
         "business_overview": {
-          "founded": "2009年9月",
+          "founded": "2009年",
           "employees": 445,
           "headquarters": "東京都新宿区西新宿6-2-3 新宿アイランドアネックス2階",
-          "description": "発達障害者に特化した就労支援事業を運営。障害・特性を強みに変える人材マッチングサービスを提供し、企業向け・個人向け両方のサービスを展開。",
+          "description": "発達障害・精神障害者向けの就労移行支援、自立訓練、放課後等デイサービス等を提供し、特性を強みに変える支援を行う",
           "main_services": [
             "就労移行支援事業",
-            "人材紹介事業",
             "放課後等デイサービス「ティーンズ」",
-            "障害者雇用コンサルティング"
-          ]
-        },
-        "funding": {
-          "total_raised": null,
-          "latest_round": null,
-          "investors": null,
-          "valuation_estimate": null
-        },
-        "recent_news": [
-          {
-            "title": "起業10年で累計13億5,552万円 障害支援事業の社会的価値を測り続ける",
-            "date": "2020-06-26",
-            "summary": "創業以来10年で13億円を超える社会的価値を提供したと発表",
-            "source_url": "https://prtimes.jp/story/detail/ArYpldc14xG"
-          }
-        ],
-        "competitive_position": {
-          "strengths": [
-            "発達障害者支援の専門性",
-            "ユニバーサル管理法による企業支援",
-            "首都圏・全国展開（直営20拠点、パートナー20超拠点）",
-            "対等な立場での就労支援アプローチ"
-          ],
-          "market_position": "発達障害者就労支援分野のリーディング企業として首都圏を中心に展開",
-          "threat_to_sms": "1 - 障害者就労支援という特定分野に特化しており、SMSの主力事業領域との直接競合は限定的"
-        },
-        "confidence": "high",
-        "data_freshness": "2025-04-01"
-      },
-      "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:14:19.303186"
-    },
-    {
-      "type": "funding",
-      "queryTerms": "\"Kaien\" 資金調達 出資 投資 ラウンド 評価額",
-      "data": {
-        "business_overview": {
-          "founded": "2009年",
-          "employees": "1000人未満",
-          "headquarters": "東京都新宿区西新宿６丁目２番３号新宿アイランドアネックス２０７号室",
-          "description": "障害者向けの就労支援サービス「Kaien」「ガクプロ」などを運営する企業。",
-          "main_services": [
-            "Kaien",
-            "ガクプロ"
+            "人材紹介事業",
+            "自立訓練（生活訓練）事業"
           ]
         },
         "funding": {
@@ -70,17 +26,48 @@
         "recent_news": null,
         "competitive_position": {
           "strengths": [
-            "障害者就労支援事業での専門性",
-            "17年の事業実績"
+            "障害・特性を強みに変える独自アプローチ",
+            "首都圏29拠点・関西5拠点の広範囲展開",
+            "企業向けから子ども向けまでの包括的サービス",
+            "特許取得済みの就労支援装置"
           ],
-          "market_position": "障害者就労支援サービス分野での専門企業",
+          "market_position": "発達障害者向け就労支援分野でのパイオニア的存在として15年の実績を持つ",
+          "threat_to_sms": "3段階 - ニッチな障害者支援分野での専門性は高いが、一般的なSMS事業への直接的脅威は限定的"
+        },
+        "confidence": "high",
+        "data_freshness": "2025年4月"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:18:21.572471"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"Kaien\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [],
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
           "threat_to_sms": null
         },
         "confidence": "low",
-        "data_freshness": "2020-11-26"
+        "data_freshness": null
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:14:19.303208"
+      "searchedAt": "2026-02-22T23:18:21.572493"
     },
     {
       "type": "news",
@@ -90,9 +77,10 @@
           "founded": null,
           "employees": null,
           "headquarters": null,
-          "description": "発達障害・精神障害のある方の就労支援、自立訓練、復職支援等を行う障害者支援事業",
+          "description": "発達障害・精神障害のある方の就労支援、自立訓練、復職支援などを行うプロフェッショナルファーム",
           "main_services": [
-            "就労移行支援・自立訓練",
+            "就労移行支援",
+            "自立訓練（生活訓練）",
             "復職支援（こころのリワークセンター）",
             "求人サイト「マイナーリーグ」",
             "学生向け「ガクプロ」",
@@ -109,42 +97,43 @@
           {
             "title": "2026年4月に東京神田にリワークセンターがオープン予定",
             "date": "2026-01-28",
-            "summary": "東京神田での新拠点開設発表",
+            "summary": "東京神田に新しいリワークセンター開設を発表",
             "source_url": "https://www.kaien-lab.com/information/"
           },
           {
             "title": "2026年4月に埼玉川越に自立訓練（生活訓練）の事業所がオープン予定",
             "date": "2026-01-28",
-            "summary": "埼玉川越での新拠点開設発表",
+            "summary": "埼玉川越に新しい自立訓練事業所開設を発表",
             "source_url": "https://www.kaien-lab.com/information/"
           },
           {
-            "title": "Kaien公式キャラクター、黒猫の「エンちゃん」が誕生",
+            "title": "Kaien公式キャラクター「エンちゃん」が誕生",
             "date": "2026-01-23",
-            "summary": "創業以来初の公式キャラクター誕生",
+            "summary": "創業以来初の公式キャラクター黒猫の「エンちゃん」誕生",
             "source_url": "https://www.kaien-lab.com/information/"
           },
           {
-            "title": "2026年6月に名古屋事業所の開所計画",
+            "title": "2026年に名古屋事業所開所予定",
             "date": "2025-12-30",
-            "summary": "名古屋への事業拡大を計画中",
+            "summary": "2026年6月に名古屋事業所の開所を計画中",
             "source_url": "https://www.facebook.com/KaienJp/videos/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "ニューロダイバーシティ分野での専門性",
-            "多様なサービス展開（就労支援から復職支援まで）",
-            "積極的な事業拡大"
+            "ニューロダイバーシティの推進",
+            "障害者の強み特性を活かした就労支援",
+            "多様なサービス展開（就労移行から小中高生向けまで）",
+            "全国展開による規模感"
           ],
-          "market_position": "障害者就労支援分野での専門事業者として全国展開中",
+          "market_position": "障害者就労支援分野でのリーディングカンパニー。ニューロダイバーシティの概念を日本に浸透させる先駆者的存在",
           "threat_to_sms": null
         },
         "confidence": "medium",
         "data_freshness": "2026-02-10"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:14:19.303213"
+      "searchedAt": "2026-02-22T23:18:21.572498"
     },
     {
       "type": "competitive",
@@ -154,40 +143,40 @@
           "founded": null,
           "employees": null,
           "headquarters": null,
-          "description": "ポルシェの高級SUVブランド「カイエン」。走行性能とブランド力を強みとする。",
+          "description": "ポルシェのSUVモデル。911のエレメントを取り入れた走り重視のSUVとして展開",
           "main_services": [
-            "高級SUV販売",
+            "高性能SUV",
             "クーペタイプSUV"
           ]
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": [],
+          "investors": null,
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "ポルシェが2030年までに新車販売の8割をEV化へ",
+            "title": "ポルシェが描くスポーツカーの未来",
             "date": null,
-            "summary": "カーボンニュートラル実現とEV化戦略を発表",
+            "summary": "カイエンの差別化戦略と走り重視のSUVとしての魅力について",
             "source_url": "https://www.beyondmag.jp/posts/421"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "911のエレメントを取り入れた走行性能",
-            "強力なブランド力による差別化",
-            "クーペタイプも展開し走りへのこだわり"
+            "ポルシェブランド力による差別化",
+            "911のエレメントを取り入れた走り重視設計",
+            "クーペタイプの展開による多様性"
           ],
-          "market_position": "競合ひしめくSUVマーケットでポルシェブランド力により差別化を実現。SUVより販売台数の多いクーペタイプも展開",
+          "market_position": "競合がひしめき合うSUVマーケットでポルシェブランド力を活かした差別化を図る高級SUVポジション",
           "threat_to_sms": null
         },
-        "confidence": "medium",
+        "confidence": "low",
         "data_freshness": null
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:14:19.303219"
+      "searchedAt": "2026-02-22T23:18:21.572503"
     }
   ]
 }

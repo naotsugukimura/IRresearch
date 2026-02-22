@@ -6,114 +6,107 @@
       "queryTerms": "\"VALT JAPAN\" 事業内容 サービス 特徴 会社概要",
       "data": {
         "business_overview": {
-          "founded": "2014年8月1日",
-          "employees": 45,
-          "headquarters": "東京都千代田区丸の内2-2-1 岸本ビル7F",
-          "description": "就労困難者特化型BPOプラットフォーム「NEXT HERO」を運営し、障がい者雇用支援とデジタル就労支援を提供する企業",
+          "founded": "2014年",
+          "employees": 39,
+          "headquarters": "東京都千代田区丸の内二丁目2番1号 岸本ビル7階",
+          "description": "就労困難者特化型BPOプラットフォーム「NEXT HERO」を運営し、全国の就労継続支援事業所と企業をつなぐ事業を展開",
           "main_services": [
-            "NEXT HERO（障がい者特化型BPO事業）",
-            "障がい者雇用支援事業"
+            "NEXT HERO（BPOプラットフォーム）",
+            "NEXT HERO DIC（障害福祉サービス）"
           ]
         },
         "funding": {
-          "total_raised": "7.4億円",
+          "total_raised": "13.4億円",
           "latest_round": null,
-          "investors": [],
-          "valuation_estimate": null
+          "investors": null,
+          "valuation_estimate": "35.4億円"
         },
         "recent_news": [
           {
-            "title": "鎌倉市の就労困難者特化型BPO事業を受託し、新たなデジタル就労支援を開始",
+            "title": "三菱地所との連携によりDIC丸の内を設立",
             "date": null,
-            "summary": "「デジタル就労支援センターKAMAKURA」を鎌倉市内に開設",
-            "source_url": "https://prtimes.jp/main/html/rd/p/000000020.000013618.html"
-          },
-          {
-            "title": "「落とし物クラウドfind」と就労困難者特化型BPOプラットフォームのVALT JAPAN、落とし物対応業務で連携",
-            "date": "2025-06-25",
-            "summary": "株式会社findと落とし物対応業務で連携開始",
-            "source_url": "https://www.finds.co.jp/news/detail/202506261000"
-          },
-          {
-            "title": "三菱地所と「デジタルイノベーションセンター丸の内 supported by 三菱地所」を開設",
-            "date": null,
-            "summary": "東京都千代田区新大手町ビルに新センターを開設",
-            "source_url": null
+            "summary": "大丸有エリアの企業・スタートアップとの接続強化",
+            "source_url": "https://xtech.mec.co.jp/articles/11757"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "全国15,000の就労継続支援事業所との連携",
-            "独自のクオリティコントロールチーム",
-            "多拠点展開（東京・仙台・大阪・福岡）"
+            "全国2万箇所の就労継続支援事業所ネットワーク",
+            "独自のQCチームによる品質管理",
+            "専任ディレクターによるフルサポート体制"
           ],
-          "market_position": "就労困難者特化型BPO市場におけるリーディングプレイヤー",
-          "threat_to_sms": "1（脅威度低） - 障がい者雇用支援という特化分野であり、SMS事業とは異なる領域"
+          "market_position": "就労困難者特化型BPO市場のパイオニア的存在として、社会課題解決と経済性を両立するビジネスモデルを確立",
+          "threat_to_sms": "2（低-中程度）: BPO領域での競合可能性はあるが、就労困難者支援という社会的使命に特化した差別化されたビジネスモデル"
         },
         "confidence": "high",
-        "data_freshness": "2025-06-25"
+        "data_freshness": null
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:29:11.180785"
+      "searchedAt": "2026-02-22T23:33:33.147476"
     },
     {
       "type": "funding",
       "queryTerms": "\"VALT JAPAN\" 資金調達 出資 投資 ラウンド 評価額",
       "data": {
         "business_overview": {
-          "founded": "2014年（推定）",
-          "employees": null,
-          "headquarters": "東京都千代田区",
-          "description": "就労困難者特化型DXプラットフォーム「NEXT HERO」を運営し、障がい者や難病患者等の就労機会を提供する社会課題解決型企業",
+          "founded": "2014年8月",
+          "employees": "50人未満",
+          "headquarters": "東京都千代田区丸の内２丁目２番１号",
+          "description": "障がいや難病等のある就労困難者に特化したDXプラットフォーム「NEXT HERO」を運営し、就労困難者ゼロ社会の実現を目指す",
           "main_services": [
-            "NEXT HERO",
-            "就労継続支援事業"
+            "NEXT HERO（就労困難者特化型DXプラットフォーム）",
+            "自治体・大企業との連携事業"
           ]
         },
         "funding": {
           "total_raised": "約14億円",
           "latest_round": "プレシリーズB 2ndラウンド",
           "investors": [
-            "Spiral Innovation Partners",
-            "ゆうちょ Spiral Regional Innovation Fund",
-            "T&D Innovation Fund",
-            "Value Chain Innovation Fund",
             "三井住友海上キャピタル",
             "BRICKS FUND TOKYO",
             "エムスリー",
-            "NOBUNAGAキャピタルビレッジ"
+            "NOBUNAGAキャピタルビレッジ",
+            "ゆうちょ Spiral Regional Innovation Fund",
+            "T&D Innovation Fund",
+            "Value Chain Innovation Fund"
           ],
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "プレシリーズBで2ndラウンド3億円の資金調達が決定",
-            "date": "2024年4月頃（推定）",
-            "summary": "累積調達額約14億円に到達、就労困難者ゼロ社会実現に向けた事業拡大",
-            "source_url": "https://www.valt-japan.com/news/3448/"
+            "title": "「ごうぎんスタートアップフェス 2025」ピッチコンテストにて初代優勝企業に選出",
+            "date": "2025-03-31",
+            "summary": "島根県の金融機関主催のピッチコンテストで優勝",
+            "source_url": null
           },
           {
-            "title": "プレシリーズBで1stラウンド3.6億円を資金調達",
-            "date": "2024年1月頃（推定）",
-            "summary": "累積調達額約11億円、新規事業投資と採用強化に活用",
-            "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000013618.html"
+            "title": "元厚生労働省・福岡労働局長小野寺徳子氏がVALT JAPANの顧問に就任",
+            "date": "2025-06-13",
+            "summary": "労働行政の専門家が顧問として参画",
+            "source_url": null
+          },
+          {
+            "title": "プレシリーズBで2ndラウンド3億円の資金調達が決定",
+            "date": "2024-01-10",
+            "summary": "累積調達額14億円に到達",
+            "source_url": "https://www.valt-japan.com/news/3448/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "就労困難者特化という明確なニッチ市場",
-            "取引社数累計370社、就労継続支援事業所ネットワーク2,000超",
-            "平均工賃200%以上向上の実績",
-            "全国6自治体との連携事業"
+            "就労困難者という特定市場への特化",
+            "全国6自治体との連携実績",
+            "平均工賃200%以上の改善実績",
+            "累計2,000を超える就労継続支援事業所ネットワーク"
           ],
-          "market_position": "就労困難者支援のDXプラットフォーム領域でのリーディングポジション",
-          "threat_to_sms": "2段階 - ニッチ市場に特化した社会課題解決型事業であり、SMSの主力事業領域とは重複が少ない"
+          "market_position": "就労困難者支援分野のリーディングカンパニーとして、約1,500万人の潜在市場に対応",
+          "threat_to_sms": "2段階：障がい者雇用支援という専門分野での事業展開であり、SMSの主力事業とは市場が異なるため直接的な競合関係は低い"
         },
         "confidence": "high",
-        "data_freshness": "2024年4月"
+        "data_freshness": "2025-09-30"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:29:11.180796"
+      "searchedAt": "2026-02-22T23:33:33.147505"
     },
     {
       "type": "news",
@@ -121,60 +114,54 @@
       "data": {
         "business_overview": {
           "founded": null,
-          "employees": "50人未満（推定）",
-          "headquarters": null,
-          "description": "就労困難者特化型DXプラットフォーム「NEXT HERO」を運営し、就労支援事業所と企業をマッチングするBPOプラットフォーム事業",
+          "employees": null,
+          "headquarters": "東京都千代田区",
+          "description": "障がい者特化型DXプラットフォーム「NEXT HERO」事業を手掛け、就労困難者の社会参加支援とデジタル人材育成を行う企業",
           "main_services": [
-            "NEXT HERO（就労困難者特化型DXプラットフォーム）",
-            "就労困難者向けBPOサービス"
+            "NEXT HERO（障がい者特化型DXプラットフォーム）",
+            "デジタル業務特化就労継続支援A型事業所運営"
           ]
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": [],
+          "investors": null,
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "日経BP「ヒューマンキャピタル Online」にて代表小野貴也のインタビュー記事が掲載",
-            "date": "2026-02-19",
-            "summary": "代表のインタビュー記事がメディアに掲載された",
+            "title": "VALT JAPAN 能登半島デジタル人材育成プロジェクト始動",
+            "date": "2025-09-30",
+            "summary": "能登半島でのデジタル人材育成プロジェクトを開始",
             "source_url": "https://www.valt-japan.com/news/"
           },
           {
-            "title": "代表小野が東京都主催「TCiN DEMO DAY」に登壇",
-            "date": "2026-02-16",
-            "summary": "東京都主催のイベントに代表が登壇した",
-            "source_url": "https://www.valt-japan.com/news/"
+            "title": "VALT JAPAN、延岡市にデジタル業務特化の就労継続支援A型事業所を開設",
+            "date": "2025-02-18",
+            "summary": "延岡市にデジタル業務に特化した障がい者向け事業所を開設",
+            "source_url": "https://prtimes.jp/main/html/searchrlp/company_id/13618"
           },
           {
-            "title": "日経ビジネス特集「AIファースト経営」にてVALT JAPANが取材",
-            "date": "2025-12-26",
-            "summary": "日経ビジネスのAI特集で同社の取り組みが紹介された",
-            "source_url": "https://www.valt-japan.com/news/"
-          },
-          {
-            "title": "パーソルビジネスプロセスデザインとの業務可視化アプリ開発",
-            "date": null,
-            "summary": "愛媛県の就労支援事業所向けアプリ開発で協業",
-            "source_url": "https://prtimes.jp/main/html/rd/p/000000150.000124841.html"
+            "title": "三菱地所と「デジタルイノベーションセンター丸の内」を開設",
+            "date": "2025-02-21",
+            "summary": "23区初のデジタル業務特化障がい者就労支援事業所を丸の内に開設",
+            "source_url": "https://www.nikkei.com/nkd/company/article/?DisplayType=11&ng=DGXZRSP687354_R20C25A2000000&scode=8802&ba=1"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "就労困難者支援という社会課題解決への特化",
-            "全国の就労継続支援事業所との連携ネットワーク",
-            "データを活用した最適な仕事分配システム"
+            "障がい者向けDXプラットフォームの専門性",
+            "地方創生と社会課題解決の実績",
+            "大企業との連携実績"
           ],
-          "market_position": "就労困難者支援のDX化分野でのパイオニア的存在",
-          "threat_to_sms": "2段階：ニッチ市場に特化しており直接的競合ではないが、BPO領域での新たなアプローチとして注目される存在"
+          "market_position": "障がい者就労支援とデジタル人材育成分野でのニッチリーダー",
+          "threat_to_sms": "1 - SMSとは異なる専門領域（障がい者支援）に特化しており直接的競合ではない"
         },
         "confidence": "medium",
-        "data_freshness": "2026-02-19"
+        "data_freshness": "2025-09-30"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:29:11.180799"
+      "searchedAt": "2026-02-22T23:33:33.147510"
     },
     {
       "type": "competitive",
@@ -184,7 +171,7 @@
           "founded": null,
           "employees": null,
           "headquarters": "東京都中央区",
-          "description": "障がい者等の就労困難者に特化した仕事受発注プラットフォーム「NEXT HERO」を運営し、企業のサステナビリティ経営と障がい者の就労支援を両立",
+          "description": "障がい者等の就労困難者に特化した仕事受発注プラットフォーム「NEXT HERO」を運営し、全国の就労継続支援事業所と企業を繋ぐBPO事業を展開",
           "main_services": [
             "NEXT HERO（仕事受発注プラットフォーム）",
             "NEXT HERO DIC（就労継続支援A型事業所）"
@@ -201,34 +188,40 @@
             "三菱UFJキャピタル",
             "みずほキャピタル",
             "SMBCベンチャーキャピタル",
-            "村上誠典氏（シニフィアン共同代表）"
+            "村上誠典氏（シニフィアン）"
           ],
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "VALT JAPAN株式会社 第11期決算分析",
+            "title": "VALT JAPAN株式会社 第11期決算 当期純利益分析",
             "date": "2026-01-25",
-            "summary": "SWOT分析による競争優位性と課題の整理が公開",
+            "summary": "第11期決算のSWOT分析による事業環境の整理",
             "source_url": "https://ryo-nakamura1.hatenablog.jp/entry/2026/01/25/120000_1"
+          },
+          {
+            "title": "4.4億円の資金調達を実施、累計調達額は7.4億円に",
+            "date": null,
+            "summary": "大手VCから資金調達、DX・SX推進プラットフォームへ発展",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000019.000013618.html"
           }
         ],
         "competitive_position": {
           "strengths": [
             "15,000箇所の事業所ネットワーク",
             "業務切り出しのノウハウ",
-            "三菱地所やエムスリー、メガバンク系VCなど強力な株主・パートナー陣",
-            "全国2000以上の就労継続支援所との連携",
-            "蓄積データに基づく最適な業務受発注システム"
+            "三菱地所やエムスリー等の強力な株主・パートナー陣",
+            "全国1000以上の事業所をフル活用できる体制",
+            "webの運用・ロジスティック・清掃の3つのジャンルへの集中"
           ],
-          "market_position": "障がい者特化型の仕事受発注プラットフォーム領域でのリーディングプレイヤー。2024年問題による人手不足を商機として、AI開発のアノテーション業務やECバックエンド業務などデジタル業務需要の拡大を背景に成長",
-          "threat_to_sms": null
+          "market_position": "障がい者就労支援分野で独自のBPOプラットフォームを構築し、2024年問題による人手不足を商機として成長中",
+          "threat_to_sms": "3 - 労働集約的BPO事業で異なる事業領域のため直接競合ではないが、企業の業務効率化ニーズでは一部競合可能性あり"
         },
         "confidence": "medium",
         "data_freshness": "2026-01-25"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:29:11.180801"
+      "searchedAt": "2026-02-22T23:33:33.147514"
     }
   ]
 }

@@ -7,18 +7,18 @@
       "data": {
         "business_overview": {
           "founded": "2017年4月",
-          "employees": "約170名（推定）",
-          "headquarters": "東京都文京区後楽2-1-2 住友不動産飯田橋ビル5号館 1階",
-          "description": "AI教材「atama＋」を開発・提供し、一人ひとりに最適化された学習を全国の塾・予備校に提供する教育テック企業。",
+          "employees": null,
+          "headquarters": "東京都文京区後楽2-1-2 住友不動産飯田橋ビル5号館1階",
+          "description": "AI教材「atama+」を開発・提供し、一人ひとりに最適化された学習カリキュラムで教育の個別最適化を実現する教育テック企業",
           "main_services": [
-            "AI教材「atama＋」",
-            "進学個別 atama＋塾",
-            "atama＋ オンライン塾",
-            "大学向け高大接続プログラム"
+            "AI教材「atama+」の開発・提供",
+            "進学個別atama+塾のフランチャイズ展開",
+            "atama+オンライン塾の運営",
+            "高大接続プログラム"
           ]
         },
         "funding": {
-          "total_raised": "累計82億円",
+          "total_raised": null,
           "latest_round": null,
           "investors": null,
           "valuation_estimate": null
@@ -27,25 +27,25 @@
           {
             "title": "atama plus、新プロダクトを学習塾向けに提供開始",
             "date": null,
-            "summary": "生成AIを活用した新機能の開発・提供を開始",
+            "summary": "生成AIなどのテクノロジーを活用した新プロダクトを学習塾向けに提供開始",
             "source_url": "https://prtimes.jp/main/html/rd/p/000000117.000037602.html"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "全国4,500教室以上への導入実績",
-            "AIによる個別最適化学習",
-            "累積解答数7億件のデータ蓄積",
-            "業界Top100塾の3割以上が導入"
+            "業界Top100の塾・予備校の3割以上に導入",
+            "全国4500教室以上での導入実績",
+            "AI技術による個別最適化学習",
+            "BtoB、BtoC、フランチャイズと多角的事業展開"
           ],
-          "market_position": "国内教育テック市場のリーダー企業として、塾・予備校向けAI教材で圧倒的シェア",
-          "threat_to_sms": "3段階 - 教育領域に特化しており直接的脅威は低いが、AI技術の応用力と急成長は注視が必要"
+          "market_position": "教育業界におけるAI活用のリーディングカンパニーとして、塾・予備校向けSaaS事業で高い市場シェアを獲得",
+          "threat_to_sms": "3段階 - 教育分野に特化したAI技術とデータ蓄積により、学習効果測定や個別最適化において競合優位性を持つが、SMSの幅広いコミュニケーション領域とは異なる"
         },
         "confidence": "high",
-        "data_freshness": "2026-01-29"
+        "data_freshness": "2026年1月"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:05:28.285666"
+      "searchedAt": "2026-02-22T23:11:38.188667"
     },
     {
       "type": "funding",
@@ -55,51 +55,51 @@
           "founded": "2017年4月",
           "employees": null,
           "headquarters": "東京都文京区後楽2-1-2 住友不動産飯田橋ビル5号館1階",
-          "description": "AIがつまずきの根本原因を特定し、一人ひとりに合わせた学習塾向けAI教材「atama+」を展開する教育テック企業",
+          "description": "AIで学習を個別最適化する教材「atama＋」を全国の塾・予備校に提供するEdTechスタートアップ",
           "main_services": [
-            "atama+（学習塾向けAI教材）",
-            "atama+オンライン塾"
+            "atama＋（アタマプラス）",
+            "atama＋オンライン塾"
           ]
         },
         "funding": {
-          "total_raised": "約82億円（累計）",
+          "total_raised": "約82億円（金融機関からの融資含む）",
           "latest_round": "シリーズB",
           "investors": [
-            "DCM",
+            "DCMベンチャーズ",
             "ジャフコグループ",
             "Pavilion Capital",
             "T. Rowe Price"
           ],
-          "valuation_estimate": "約522億円（調達後評価額）"
+          "valuation_estimate": "52,198百万円（約521億円）"
         },
         "recent_news": [
           {
             "title": "atama plus、駿河台学園と提携 「atama＋オンライン塾」を本格展開",
             "date": "2024-04-07",
-            "summary": "駿台と提携してオンライン塾サービスを本格展開",
-            "source_url": null
+            "summary": "駿台との提携によりオンライン塾サービスを本格展開",
+            "source_url": "https://initial.inc/companies/A-30113"
           },
           {
             "title": "atama plus、シリーズBラウンドで約51億円の資金調達",
             "date": "2021-07-21",
-            "summary": "シリーズBで約51億円調達、グローバル展開を目指す",
+            "summary": "グローバル機関投資家を含むシリーズBで51億円を調達",
             "source_url": "https://corp.atama.plus/news/2075/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "AI技術による個別最適化学習",
-            "学習塾との強いパートナーシップ",
-            "海外大手投資家からの資金調達実績"
+            "AI技術による学習個別最適化",
+            "駿台・Z会など大手との提携実績",
+            "2500以上の導入教室数"
           ],
-          "market_position": "国内EdTech領域の有力企業として評価額ランキング20位にランクイン",
-          "threat_to_sms": "3（中程度）- 教育分野での個別最適化技術は異なる領域だが、AI活用によるパーソナライゼーション技術は参考になる可能性"
+          "market_position": "国内EdTech市場のリーディング企業として急成長中、海外展開も視野",
+          "threat_to_sms": "3段階 - 教育分野でのAI活用という共通点があるが、atama plusは塾・予備校向けB2B、SMSは企業向けソリューションで市場が異なる"
         },
         "confidence": "high",
-        "data_freshness": "2024-04-08"
+        "data_freshness": "2025-12-09"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:05:28.285679"
+      "searchedAt": "2026-02-22T23:11:38.188692"
     },
     {
       "type": "news",
@@ -108,93 +108,94 @@
         "business_overview": {
           "founded": null,
           "employees": null,
-          "headquarters": "東京都文京区後楽2丁目1",
-          "description": "AI教材「atama＋」を提供し、生成AIを活用した質問対応プロダクトを学習塾向けに展開",
+          "headquarters": "東京都文京区",
+          "description": "AI教材「atama＋」を全国4,500教室以上の学習塾に提供し、個別最適化された学習体験を実現するEdTech企業",
           "main_services": [
             "AI教材「atama＋」",
+            "進学個別 atama＋塾",
             "atama＋ オンライン塾",
-            "生成AI質問対応プロダクト"
+            "生成AIを活用した質問対応プロダクト"
           ]
         },
         "funding": {
           "total_raised": null,
-          "latest_round": null,
-          "investors": [],
-          "valuation_estimate": null
-        },
-        "recent_news": [
-          {
-            "title": "atama plus、生成AIを活用した質問対応プロダクトを2026年3月提供開始",
-            "date": "2026-01-27",
-            "summary": "中高生向け11教科対応の生成AI質問対応サービスを学習塾向けに提供",
-            "source_url": "https://corp.atama.plus/news/3171/"
-          },
-          {
-            "title": "「atama＋ オンライン塾」で緊急支援を開始",
-            "date": "2026-02-15",
-            "summary": "メガスタ運営会社破産を受け、中高生向けに特別支援プログラムを提供",
-            "source_url": "https://prtimes.jp/main/html/rd/p/000000118.000037602.html"
-          }
-        ],
-        "competitive_position": {
-          "strengths": [
-            "全国4,500教室以上への導入実績",
-            "生成AIと教育ノウハウの融合",
-            "11教科対応の幅広いカバレッジ"
-          ],
-          "market_position": "AI教材分野で確固たる地位を築き、生成AI活用で先行",
-          "threat_to_sms": "3段階 - 教育業界でのAI活用が加速しており、個別最適化学習の普及が進む可能性"
-        },
-        "confidence": "medium",
-        "data_freshness": "2026-02-20"
-      },
-      "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:05:28.285682"
-    },
-    {
-      "type": "competitive",
-      "queryTerms": "\"atama plus\" 競合 市場シェア 強み 差別化",
-      "data": {
-        "business_overview": {
-          "founded": "2017年",
-          "employees": null,
-          "headquarters": null,
-          "description": "AI技術を活用した個別最適化学習システム「atama+」を全国の塾・予備校に提供するEdTechスタートアップ",
-          "main_services": [
-            "atama+（AI教材）",
-            "atama+Web版",
-            "atama+オンライン塾"
-          ]
-        },
-        "funding": {
-          "total_raised": "累計約51億円（2021年時点）",
           "latest_round": null,
           "investors": null,
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "学校法人駿河台学園と資本業務提携、オンライン塾展開開始",
-            "date": "2024-04-XX",
-            "summary": "駿台との提携によりAI個別オンライン塾サービスを開始",
-            "source_url": "https://thebridge.jp/2024/06/atama-plus-has-struggled-launching-new-business-for-2-years"
+            "title": "「大学入試学会」賛助団体加入のお知らせ",
+            "date": "2026-02-20",
+            "summary": "大学入試学会の賛助団体として加入",
+            "source_url": "https://corp.atama.plus/news/"
+          },
+          {
+            "title": "「メガスタ」運営会社の破産報道を受け、「atama＋ オンライン塾」で緊急支援を開始",
+            "date": "2026-02-15",
+            "summary": "メガスタ利用中高生向けに入塾金と月額利用料1.5カ月分を免除する緊急支援を実施",
+            "source_url": "https://edu.watch.impress.co.jp/docs/news/2086026.html"
+          },
+          {
+            "title": "atama plus、新プロダクトを学習塾向けに提供開始",
+            "date": "2026-01-27",
+            "summary": "生成AIを活用した質問対応プロダクトを2026年3月より学習塾向けに提供開始",
+            "source_url": "https://adv.tokyo-np.co.jp/prtimes/article113665/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "独自のAI教育メソッド",
-            "プロダクト・アルゴリズム技術力",
-            "塾向けB2B市場での実績",
-            "教育に特化したカルチャー"
+            "全国4,500教室以上への導入実績",
+            "AI技術を活用した個別最適化学習",
+            "大学入試でのAI教材活用実績",
+            "緊急時の迅速な顧客サポート対応"
           ],
-          "market_position": "全国約4,000教室に導入済み（5万教室中）、AI教材分野でのリーディングプレイヤー",
-          "threat_to_sms": "3段階 - 教育分野での技術革新とB2B展開実績があるが、SMS事業との直接競合は限定的"
+          "market_position": "学習塾向けAI教材分野でのリーディングカンパニーとして、教育のデジタル化を推進",
+          "threat_to_sms": "3段階 - AI技術による教育の個別最適化が進展し、従来の一斉教育モデルに影響を与える可能性があるが、対象領域が基礎学力に集中している"
         },
         "confidence": "medium",
-        "data_freshness": "2024-06-XX"
+        "data_freshness": "2026-02-20"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:05:28.285684"
+      "searchedAt": "2026-02-22T23:11:38.188698"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"atama plus\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "学習を一人ひとりに最適化するタブレット型AI教材「atama＋」を全国の塾・予備校に提供するEdTechスタートアップ",
+          "main_services": [
+            "atama＋（タブレット型AI教材）",
+            "atama＋ Web版"
+          ]
+        },
+        "funding": {
+          "total_raised": "82億円",
+          "latest_round": "51億円調達",
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": [
+            "プロダクト・アルゴリズム技術",
+            "顧客基盤（全国2600以上の塾・予備校に導入）",
+            "強い企業カルチャー",
+            "全国トップ100の塾の約3割で活用",
+            "AI×人のベストミックスによる差別化"
+          ],
+          "market_position": "国内EdTech市場をリードするスタートアップ企業。わずか4年で全国2600以上の塾・予備校に導入し、業界標準となる可能性が高い",
+          "threat_to_sms": "4段階 - 学習塾業界でのAI教材導入が急速に進んでおり、従来の学習方法を変革する可能性が高い。個別最適化学習という強力な差別化要因を持つ"
+        },
+        "confidence": "medium",
+        "data_freshness": "2021年9月末"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:11:38.188703"
     }
   ]
 }

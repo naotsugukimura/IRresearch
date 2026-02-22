@@ -6,15 +6,16 @@
       "queryTerms": "\"ニチイ学館\" 事業内容 サービス 特徴 会社概要",
       "data": {
         "business_overview": {
-          "founded": "1973年",
-          "employees": 37185,
+          "founded": "1968年",
+          "employees": 87237,
           "headquarters": "東京都千代田区神田駿河台4-6 御茶ノ水ソラシティ",
-          "description": "医療関連サービス、介護サービス、保育サービス、教育事業を展開する総合生活支援企業。全国規模で医療機関や介護施設の運営支援を行う。",
+          "description": "医療関連、介護、保育、教育事業を全国展開する総合生活支援企業。日本生命グループの中核会社として社会課題解決に貢献。",
           "main_services": [
-            "医療関連サービス",
+            "医療関連事業",
             "介護サービス",
             "保育サービス",
-            "資格系講座"
+            "資格系講座",
+            "ヘルスケア事業"
           ]
         },
         "funding": {
@@ -25,22 +26,29 @@
           ],
           "valuation_estimate": null
         },
-        "recent_news": [],
+        "recent_news": [
+          {
+            "title": "上場廃止",
+            "date": null,
+            "summary": "証券コード9792で上場廃止",
+            "source_url": "https://www.buffett-code.com/company/9792/"
+          }
+        ],
         "competitive_position": {
           "strengths": [
-            "全国約6000件の契約医療機関",
-            "約12万人の介護サービス利用者",
-            "全国約350カ所の保育サービス展開",
-            "医療・介護・保育の総合サービス提供"
+            "全国約1,900拠点の幅広いネットワーク",
+            "医療・介護・保育の総合サービス提供",
+            "50年以上の事業実績",
+            "日本生命グループの安定基盤"
           ],
-          "market_position": "医療関連事業と介護事業で業界大手、日本生命グループとして安定基盤を持つ総合生活支援企業",
+          "market_position": "医療・介護・保育分野における国内最大級の総合サービス事業者",
           "threat_to_sms": null
         },
         "confidence": "high",
         "data_freshness": "2024-03-31"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:22:42.602096"
+      "searchedAt": "2026-02-22T23:26:28.985888"
     },
     {
       "type": "funding",
@@ -49,48 +57,50 @@
         "business_overview": {
           "founded": null,
           "employees": null,
-          "headquarters": "東京都千代田区",
-          "description": "医療事務教育、介護サービス、ヘルスケア関連事業を展開する総合サービス企業",
+          "headquarters": null,
+          "description": "医療事務、介護、保育、ヘルスケア、教育サービスを全国展開する大手サービス企業",
           "main_services": [
-            "医療事務教育",
+            "医療事務",
             "介護サービス",
-            "ヘルスケア関連サービス"
+            "保育サービス",
+            "ヘルスケア",
+            "教育サービス"
           ]
         },
         "funding": {
-          "total_raised": "約990億円（MBO資金）",
-          "latest_round": "マネジメント・バイアウト（MBO）",
+          "total_raised": "1000億円超（MBO）",
+          "latest_round": "MBO（マネジメントバイアウト）",
           "investors": [
-            "Bain Capital Private Equity",
-            "三菱UFJ銀行",
+            "ベインキャピタル",
             "みずほ銀行",
+            "三菱UFJ銀行",
             "三井住友銀行",
-            "野村キャピタル・インベストメント"
+            "野村キャピタル"
           ],
-          "valuation_estimate": null
+          "valuation_estimate": "1000億円規模"
         },
         "recent_news": [
           {
-            "title": "ベインキャピタルによるMBO実施・上場廃止",
-            "date": "2020-11-05",
-            "summary": "ベインキャピタルスポンサーのMBOにより上場廃止",
-            "source_url": "https://www.nichiigakkan.co.jp/topics/assets/d0cbbd7781eb0465e04b32936d0186d7c891eb13.pdf"
+            "title": "ニチイ学館がMBOへ、総額1000億円超 米ベインと協力",
+            "date": "2020-05-08",
+            "summary": "ベインキャピタルと協力し、総額1000億円超のMBOを実施",
+            "source_url": "https://www.nikkei.com/article/DGXMZO58866980Y0A500C2000000/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "医療事務教育での実績",
-            "介護サービス事業の展開",
-            "海外展開（香港、中国等）"
+            "全国規模のサービス展開",
+            "多角化事業ポートフォリオ",
+            "介護保険制度施行時から770拠点を設置"
           ],
-          "market_position": "ヘルスケア・教育分野の老舗企業として確立された地位",
+          "market_position": "医療事務・介護分野での大手企業として確固たる地位を築いている",
           "threat_to_sms": null
         },
         "confidence": "medium",
-        "data_freshness": "2020-11-05"
+        "data_freshness": "2020-05-08"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:22:42.602120"
+      "searchedAt": "2026-02-22T23:26:28.985912"
     },
     {
       "type": "news",
@@ -99,71 +109,13 @@
         "business_overview": {
           "founded": null,
           "employees": null,
-          "headquarters": null,
-          "description": "医療・介護・保育・資格講座など幅広いヘルスケア関連事業を展開する総合サービス企業",
+          "headquarters": "東京都千代田区",
+          "description": "医療、介護、保育サービスなどを全国で提供する総合ヘルスケア企業",
           "main_services": [
-            "医療事務",
+            "医療事務サービス",
             "介護サービス",
-            "保育事業",
-            "資格系講座",
-            "在宅医療支援"
-          ]
-        },
-        "funding": {
-          "total_raised": null,
-          "latest_round": null,
-          "investors": null,
-          "valuation_estimate": null
-        },
-        "recent_news": [
-          {
-            "title": "2025年度 ニチイグループQCサークル活動本社事例発表会開催",
-            "date": "2026-02-18",
-            "summary": "延べ参加数8,700超で医療機関・自治体の課題解決事例を全国に波及",
-            "source_url": "https://www.nichiigakkan.co.jp/topics/"
-          },
-          {
-            "title": "介護職の合同就職イベント「介護のお仕事マッチングフェア」熊本・岡山で初開催",
-            "date": "2026-02-05",
-            "summary": "介護業界5社が集結する就職イベントを2026年3月に開催",
-            "source_url": "https://prtimes.jp/main/html/rd/p/000000118.000080749.html"
-          },
-          {
-            "title": "令和8年度診療報酬改定リーディングセッション開催",
-            "date": "2025-11-17",
-            "summary": "2026年度診療報酬改定に向けた在宅医療領域のセミナーを開催",
-            "source_url": "https://medi.nichiigakkan.co.jp/news/2025/11_17_85c186834872ee78ce52525534ad2e49b5fb8c27/"
-          }
-        ],
-        "competitive_position": {
-          "strengths": [
-            "医療・介護分野での豊富な実績",
-            "QCサークル活動による継続的改善",
-            "資格講座から実務まで一貫したサービス提供"
-          ],
-          "market_position": "医療・介護業界の老舗企業として確固たる地位を築いている",
-          "threat_to_sms": "2（医療・介護特化のため直接的競合ではないが、ヘルスケア分野での影響力は大きい）"
-        },
-        "confidence": "medium",
-        "data_freshness": "2026-02-18"
-      },
-      "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:22:42.602126"
-    },
-    {
-      "type": "competitive",
-      "queryTerms": "\"ニチイ学館\" 競合 市場シェア 強み 差別化",
-      "data": {
-        "business_overview": {
-          "founded": null,
-          "employees": null,
-          "headquarters": null,
-          "description": "在宅介護サービスを中心とした介護事業を展開。訪問介護からデイサービス、有料老人ホームまで幅広いサービスを提供。",
-          "main_services": [
-            "在宅介護サービス",
-            "訪問介護",
-            "デイサービス",
-            "有料老人ホーム"
+            "保育サービス",
+            "医療機関向けDXソリューション"
           ]
         },
         "funding": {
@@ -172,23 +124,82 @@
           "investors": [],
           "valuation_estimate": null
         },
-        "recent_news": [],
+        "recent_news": [
+          {
+            "title": "ニチイ学館とUSEN-ALMEXが「医事DX」実現に向けた共同トライアルを開始",
+            "date": "2025-12-25",
+            "summary": "病院外来窓口業務の人手不足をDXで解決する取り組み",
+            "source_url": "https://medi.nichiigakkan.co.jp/news/2025/"
+          },
+          {
+            "title": "2025年度接遇コンテストを開催",
+            "date": "2025-11-14",
+            "summary": "医療関連事業でお客様感動を実現する接遇力向上を目指す",
+            "source_url": "https://medi.nichiigakkan.co.jp/news/2025/"
+          },
+          {
+            "title": "2025年度ニチイグループQCサークル活動本社事例発表会開催",
+            "date": "2025-01-19",
+            "summary": "延べ参加数8,700超、医療機関・自治体の課題解決事例を共有",
+            "source_url": "https://www.jiji.com/jc/article?k=000000120.000080749&g=prt"
+          }
+        ],
         "competitive_position": {
           "strengths": [
-            "豊富な人材と拠点網",
-            "幅広いサービスラインナップ",
-            "在宅介護サービスに特化",
-            "早期参入による知名度",
-            "大手ならではの信頼性とサービス品質の安定"
+            "全国規模の医療・介護サービス網",
+            "2026年診療報酬改定への対応力",
+            "DX推進による業務効率化",
+            "QCサークル活動による品質向上"
           ],
-          "market_position": "介護事業売上高約1,538億円（推定）で業界第3位、営業利益率約10.3%（推定）。小規模事業者が乱立する分散市場において、SOMPO、ベネッセと競合する大手企業の一角",
-          "threat_to_sms": null
+          "market_position": "医療事務・介護サービス業界の大手企業として、全国展開と高い専門性を持つ",
+          "threat_to_sms": "3段階 - 医療機関向けDXソリューションでデジタル化を推進しており、間接的な競合要素がある"
         },
         "confidence": "medium",
-        "data_freshness": "2015"
+        "data_freshness": "2025-12-25"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:22:42.602135"
+      "searchedAt": "2026-02-22T23:26:28.985920"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"ニチイ学館\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": "約40,000人",
+          "headquarters": null,
+          "description": "医療事務受託、介護サービス、教育事業を手掛ける大手企業。在宅介護サービスを主力に全国展開",
+          "main_services": [
+            "医療事務受託",
+            "在宅介護サービス",
+            "教育事業",
+            "訪問介護",
+            "デイサービス"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": [
+            "介護部門で業界首位の市場シェア",
+            "全国64カ所の支店展開によるスケールメリット",
+            "在宅介護サービスの専門性",
+            "教育から就業までの一貫したビジネスモデル",
+            "契約医療機関数約7,000件の実績"
+          ],
+          "market_position": "介護事業売上高で業界3位（推定153,788百万円）、在宅介護サービスで業界トップを維持",
+          "threat_to_sms": "3 - 介護・医療分野で強固なポジションを持つが、人材不足や介護報酬制度に業績が左右されやすい構造的課題を抱える"
+        },
+        "confidence": "medium",
+        "data_freshness": "2024-09-01"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:26:28.985926"
     }
   ]
 }

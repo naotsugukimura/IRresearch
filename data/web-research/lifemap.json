@@ -7,14 +7,13 @@
       "data": {
         "business_overview": {
           "founded": "2007年12月25日",
-          "employees": "42名（2024年11月）",
-          "headquarters": "東京都港区芝大門2-12-9 HF浜松町ビルディング 3階",
-          "description": "高校生の進路選択を支援する進学情報サービス「コレカラ進路.JP」を運営し、教育機関の学生募集広報をサポートする企業。",
+          "employees": null,
+          "headquarters": "東京都港区芝大門2-12-9 HF浜松町ビルディング3階",
+          "description": "進学情報サービス「コレカラ進路.JP」を運営し、高校生の進路選択支援と教育機関の広報支援を行う企業",
           "main_services": [
-            "コレカラ進路.JP（進学情報サイト）",
-            "LINEマーケティング事業",
-            "教育機関パートナー事業",
-            "プロモーション企画事業"
+            "コレカラ進路.JP",
+            "教育機関向け広報支援サービス",
+            "LINEマーケティング事業"
           ]
         },
         "funding": {
@@ -25,33 +24,32 @@
         },
         "recent_news": [
           {
-            "title": "株式会社ライフマップが経営体制を刷新。代表取締役社長に佐藤孝昭が就任",
-            "date": "2024年",
-            "summary": "経営体制を刷新し、代表取締役社長に佐藤孝昭が就任",
-            "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000059889.html"
+            "title": "ライフマップ、学校広報支援の新たな展開を目指し「LINEマーケティング事業」「教育機関パートナー事業」を新規立ち上げ",
+            "date": "2024-11-01",
+            "summary": "Z世代へのアプローチ強化を目的とした新規事業を開始",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000016.000059889.html"
           },
           {
-            "title": "ライフマップ、学校広報支援の新たな展開を目指し「LINEマーケティング事業」と「教育機関パートナー事業」を開始",
-            "date": "2024年11月",
-            "summary": "新規事業として2つの新事業を開始し、学校広報支援を拡大",
-            "source_url": "https://prtimes.jp/main/html/rd/p/000000016.000059889.html"
+            "title": "株式会社ライフマップが経営体制を刷新。代表取締役社長に佐藤孝昭が就任",
+            "date": "2026-02-01",
+            "summary": "代表取締役社長の交代により経営体制を刷新",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000059889.html"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "20年以上の高校生進路支援ノウハウ",
-            "年間300万以上のページビューを誇るコレカラ進路.JP",
-            "全国5拠点（東京、大阪、名古屋、福岡、沖縄）の展開",
-            "徹底的な高校生目線のサービス設計"
+            "20年以上の進路支援ノウハウ",
+            "全国5拠点展開",
+            "高校生目線を徹底した企画力"
           ],
-          "market_position": "高校生向け進路情報サービスの専門企業として、大学・短大・専門学校の学生募集広報支援で地位確立",
-          "threat_to_sms": "1段階（低脅威）- 教育機関の学生募集支援に特化した企業で、SMSの事業領域とは異なる分野"
+          "market_position": "進学情報サービス市場で高校生と教育機関を結ぶ中間事業者として位置",
+          "threat_to_sms": "1段階（低） - 進学情報サービス特化のため、SMSサービスとは事業領域が異なり直接的な競合にはならない"
         },
         "confidence": "high",
-        "data_freshness": "2024年11月"
+        "data_freshness": "2024-11-01"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:18:08.172032"
+      "searchedAt": "2026-02-22T23:22:23.400333"
     },
     {
       "type": "funding",
@@ -61,8 +59,61 @@
           "founded": null,
           "employees": null,
           "headquarters": null,
-          "description": null,
-          "main_services": null
+          "description": "子育て特化のマップ型プラットフォーム「iiba」の開発・運営。街中の子連れに優しい場所が瞬時にわかり、おでかけするたびにポイントが貯まる子育て支援アプリ。",
+          "main_services": [
+            "子育てマップアプリ「iiba」",
+            "子育て支援プラットフォーム"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": "プレシリーズA",
+          "investors": [
+            "ANRI",
+            "ユナイテッド株式会社",
+            "日本ベンチャーキャピタル株式会社",
+            "イーストベンチャーズ株式会社",
+            "OASIS FUND有限責任事業組合"
+          ],
+          "valuation_estimate": "648百万円（推定）"
+        },
+        "recent_news": [
+          {
+            "title": "株式会社iiba、プレシリーズAラウンドにて1.5億円の資金調達を実施",
+            "date": null,
+            "summary": "プレシリーズAラウンドで1.5億円の資金調達を完了",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000023.000109530.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "子育てニーズに特化したマップサービス",
+            "ポイントシステムによるユーザー促進",
+            "地域・民間・行政との連携体制"
+          ],
+          "market_position": "子育て支援アプリ市場において、マップ機能とポイントシステムを組み合わせた差別化されたサービスを提供",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-04-04"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:22:23.400359"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"ライフマップ\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": "2007年（推定）",
+          "employees": null,
+          "headquarters": "東京都港区",
+          "description": "高校生向け進学情報サイト「コレカラ進路.JP」を運営し、高校生の進路支援事業を展開している。",
+          "main_services": [
+            "コレカラ進路.JP",
+            "高校生向け進路支援サービス",
+            "教育機関向けブランディング支援"
+          ]
         },
         "funding": {
           "total_raised": null,
@@ -70,67 +121,40 @@
           "investors": null,
           "valuation_estimate": null
         },
-        "recent_news": null,
-        "competitive_position": {
-          "strengths": null,
-          "market_position": null,
-          "threat_to_sms": null
-        },
-        "confidence": "low",
-        "data_freshness": "2025-02-12"
-      },
-      "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:18:08.172054"
-    },
-    {
-      "type": "news",
-      "queryTerms": "\"ライフマップ\" 最新 ニュース 2025 2026 動向",
-      "data": {
-        "business_overview": {
-          "founded": "2004年（前身のアップデイト時）",
-          "employees": null,
-          "headquarters": "東京都港区",
-          "description": "高校生向け進学情報サイト「コレカラ進路.JP」を運営し、専門学校・大学検索やオンライン・オフラインでの進路選択支援を提供",
-          "main_services": [
-            "コレカラ進路.JP",
-            "すけぶ交流会",
-            "出張講座 放課後Manna be"
-          ]
-        },
-        "funding": {
-          "total_raised": null,
-          "latest_round": null,
-          "investors": [],
-          "valuation_estimate": null
-        },
         "recent_news": [
           {
             "title": "株式会社ライフマップが経営体制を刷新。代表取締役社長に佐藤孝昭が就任",
             "date": "2026-02-02",
-            "summary": "佐藤孝昭が新代表取締役社長に就任、石川太一郎は退任しグループ会社で新会社設立予定",
+            "summary": "石川太一郎から佐藤孝昭への社長交代を実施",
             "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000059889.html"
           },
           {
             "title": "高校生の約9割が日常では「自分らしくいられている」と回答するも、約5割が進路選択では「安定や周りの期待」を優先",
-            "date": null,
-            "summary": "ライフマップが実施した高校生の進路選択に関する調査結果",
+            "date": "2025-12-26",
+            "summary": "全国高校生146名を対象とした自分らしさに関する意識調査結果を発表",
             "source_url": "https://edtechzine.jp/article/detail/13414"
+          },
+          {
+            "title": "高校生の約9割が「多様な性を受け入れる」と回答／一方で8割以上が「性別の不公平を実感」",
+            "date": "2025-10-02",
+            "summary": "全国高校生155人を対象としたジェンダー意識調査結果を発表",
+            "source_url": "https://lifemap.jp/news/1065/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "20年間の高校生向けサービス運営実績",
             "徹底的な高校生目線でのサービス開発",
-            "オンライン・オフライン両面での進路支援"
+            "継続的な高校生実態調査の実施",
+            "20年の事業実績"
           ],
-          "market_position": "高校生向け進学情報サービス市場において専門学校・大学横断的なサービスを提供",
-          "threat_to_sms": "1段階 - 教育分野の特化型サービスでありSMSとの直接的な競合関係は低い"
+          "market_position": "高校生向け進路支援分野での専門企業として位置づけ",
+          "threat_to_sms": "1段階：教育・進路支援領域に特化しており、SMS事業との直接的競合関係は低い"
         },
         "confidence": "medium",
-        "data_freshness": "2026-02-02"
+        "data_freshness": "2026-02-20"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:18:08.172059"
+      "searchedAt": "2026-02-22T23:22:23.400365"
     },
     {
       "type": "competitive",
@@ -140,12 +164,11 @@
           "founded": null,
           "employees": null,
           "headquarters": null,
-          "description": "高校生向け進路支援サービスを提供。大学・専門学校の募集広報支援、進路情報サイト運営、AIによる進路相談を展開。",
+          "description": "競合分析や差別化戦略の構築支援を通じて、市場での優位性確立をサポートするビジネス戦略サービス",
           "main_services": [
-            "コレカラ進路.JP",
-            "ドリームマップ",
-            "AI進路サポーターβ",
-            "募集広報支援"
+            "競合分析",
+            "市場ポジショニング",
+            "差別化戦略立案"
           ]
         },
         "funding": {
@@ -154,29 +177,22 @@
           "investors": null,
           "valuation_estimate": null
         },
-        "recent_news": [
-          {
-            "title": "HubSpotとLINE連携でマーケティング強化",
-            "date": null,
-            "summary": "LITTLE HELP CONNECTを導入し、開封率20%から58%に改善、資料請求が月3件に増加",
-            "source_url": "https://www.littlehelp.co.jp/casestudy/lifemap"
-          }
-        ],
+        "recent_news": null,
         "competitive_position": {
           "strengths": [
-            "AIチャットボットによる24時間進路相談",
-            "高校生特化の進路支援ノウハウ",
-            "LINE活用による高いエンゲージメント",
-            "教育機関との強いパートナーシップ"
+            "3C分析フレームワークの活用",
+            "SWOT分析による戦略立案",
+            "ポジショニングマップによる視覚化",
+            "市場シェア分析手法"
           ],
-          "market_position": "高校生向け進路支援市場において、AI技術とLINE活用で差別化を図る専門企業",
-          "threat_to_sms": "2段階 - 教育分野に特化しており、SMSの汎用的なコミュニケーション市場とは異なる領域で事業展開"
+          "market_position": "競合分析とビジネス戦略立案の分野で、フレームワークを活用した体系的なアプローチを提供する企業",
+          "threat_to_sms": "3（中程度） - 戦略コンサルティング領域での競合となる可能性があるが、直接的な脅威は限定的"
         },
-        "confidence": "medium",
-        "data_freshness": "2025-12-17"
+        "confidence": "low",
+        "data_freshness": null
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:18:08.172063"
+      "searchedAt": "2026-02-22T23:22:23.400371"
     }
   ]
 }

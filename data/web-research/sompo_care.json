@@ -6,48 +6,40 @@
       "queryTerms": "\"SOMPOケア\" 事業内容 サービス 特徴 会社概要",
       "data": {
         "business_overview": {
-          "founded": "1997年",
-          "employees": 25225,
-          "headquarters": "東京都品川区東品川四丁目12番8号",
-          "description": "有料老人ホーム・サービス付き高齢者向け住宅・グループホームの運営、居宅サービス事業を展開する介護総合ブランド",
+          "founded": null,
+          "employees": "25,089名（連結、パート社員含む）",
+          "headquarters": "東京都品川区東品川4-12-8 品川シーサイドイーストタワー",
+          "description": "在宅介護から施設介護まで幅広く展開する介護サービス企業。有料老人ホーム・グループホーム運営、居宅サービス事業を提供。",
           "main_services": [
-            "有料老人ホーム運営",
-            "居宅サービス事業",
+            "介護付有料老人ホーム運営",
+            "在宅介護サービス",
             "グループホーム運営",
-            "サービス付き高齢者向け住宅"
+            "フードサービス事業",
+            "ITサポート事業"
           ]
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": [
-            "SOMPOホールディングス（100%子会社）"
-          ],
+          "investors": null,
           "valuation_estimate": null
         },
-        "recent_news": [
-          {
-            "title": null,
-            "date": null,
-            "summary": null,
-            "source_url": null
-          }
-        ],
+        "recent_news": null,
         "competitive_position": {
           "strengths": [
-            "業界トップクラスの規模",
-            "SOMPOグループの支援",
-            "在宅から施設まで総合的なサービス展開",
-            "DX推進による効率化"
+            "業界最長6ヶ月の新卒研修制度",
+            "SOMPOグループの総合力",
+            "DX推進による働きやすい環境",
+            "フルラインナップの介護サービス"
           ],
-          "market_position": "介護業界のフロントランナーとして業界最大手クラスの地位",
+          "market_position": "介護業界のフロントランナーとして在宅から施設まで総合的にサービスを展開",
           "threat_to_sms": null
         },
         "confidence": "high",
-        "data_freshness": "2024年3月31日"
+        "data_freshness": "2025年3月"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:25:31.690746"
+      "searchedAt": "2026-02-22T23:29:39.546669"
     },
     {
       "type": "funding",
@@ -57,10 +49,66 @@
           "founded": null,
           "employees": null,
           "headquarters": null,
-          "description": "SOMPOホールディングス傘下の介護・ヘルスケアサービス事業会社",
+          "description": "介護・ヘルスケアサービスを提供するSOMPOホールディングスグループの中核事業会社",
           "main_services": [
             "介護サービス",
             "ヘルスケアサービス"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "五常・アンド・カンパニー、シリーズEラウンドで70億円を調達",
+            "date": "2022-11-09",
+            "summary": "SOMPOホールディングスが既存株主として追加出資参加",
+            "source_url": "https://gojo.co/gojo-raises-usd-47-6-million-in-series-e-financing-and-its-asset-under-management-reaches-usd-702-8-million"
+          },
+          {
+            "title": "SOMPOホールディングスから出資を受け、シニア向け共同研究開発開始",
+            "date": null,
+            "summary": "ニューロスペースがSOMPOから出資、シリーズA完了で総額5.1億円調達",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000047.000020114.html"
+          },
+          {
+            "title": "グランドグリーンへ追加出資",
+            "date": "2020-03-31",
+            "summary": "SOMPOホールディングスがグランドグリーンに総額2.5億円の資金調達に参加",
+            "source_url": "https://beyondnextventures.com/jp/news/646/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "SOMPOグループの資本力",
+            "スタートアップ投資による新技術獲得"
+          ],
+          "market_position": "大手保険グループの介護事業子会社として安定的なポジション",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2022-11-09"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:29:39.546682"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"SOMPOケア\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "東京都品川区",
+          "description": "介護サービス業界最大手。介護付きホーム、住宅型有料老人ホーム等の運営を行い、AIやテクノロジーを活用した次世代介護サービスを展開。",
+          "main_services": [
+            "介護付きホーム運営",
+            "住宅型有料老人ホーム運営",
+            "訪問介護サービス",
+            "AI活用介護サービス"
           ]
         },
         "funding": {
@@ -73,25 +121,39 @@
         },
         "recent_news": [
           {
-            "title": "SOMPOホールディングス第15回定時株主総会招集通知",
-            "date": "2025-05-23",
-            "summary": "株主総会での事業報告と取締役選任に関する通知",
-            "source_url": "https://www.sompo-hd.com/-/media/hd/files/ir/stock/meeting/pdf/sompo-hd20250523_1.pdf?la=ja-JP"
+            "title": "全ての介護職に「AI一時金」を支給",
+            "date": "2026-01-08",
+            "summary": "正社員1万円、パート職員5千円を支給。AI共創元年として現場モチベーション向上を図る",
+            "source_url": "https://www.joint-kaigo.com/articles/43150/"
+          },
+          {
+            "title": "介護付きホーム『ラヴィーレ平和大通り』2026年3月オープン予定",
+            "date": "2026-02-13",
+            "summary": "広島県広島市に新施設開設。完成披露内覧会を開催中",
+            "source_url": "https://www.sompocare.com/newsrelease/press/"
+          },
+          {
+            "title": "人材育成プログラム『スキル ドライブ』提供開始",
+            "date": "2026-02-04",
+            "summary": "学びと成長の可視化で介護人材を育成するプログラムを開始",
+            "source_url": "https://www.sompocare.com/newsrelease/press/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "SOMPOグループの資本力",
-            "保険事業とのシナジー"
+            "業界最大手の規模",
+            "AI・テクノロジー活用による差別化",
+            "全国展開による安定性",
+            "人材育成プログラムの充実"
           ],
-          "market_position": "大手保険グループ傘下の介護事業者として安定した事業基盤を持つ",
-          "threat_to_sms": null
+          "market_position": "介護サービス業界において最大手のポジション。AIやテクノロジーを活用した次世代介護サービスで業界をリードしている。",
+          "threat_to_sms": "2段階 - 介護業界に特化しており、SMSの主力であるコミュニケーションプラットフォーム事業との直接競合はない。ただし、介護現場でのコミュニケーションツール需要において間接的な関係性は存在する可能性。"
         },
-        "confidence": "low",
-        "data_freshness": "2025-05-23"
+        "confidence": "high",
+        "data_freshness": "2026-02-17"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:25:31.690768"
+      "searchedAt": "2026-02-22T23:29:39.546685"
     },
     {
       "type": "competitive",
@@ -101,11 +163,11 @@
           "founded": null,
           "employees": null,
           "headquarters": null,
-          "description": "SOMPOホールディングス傘下の介護事業会社。国内トップシェアを誇る介護サービスを提供",
+          "description": "SOMPOホールディングスの介護・シニア事業部門。有料老人ホーム、在宅介護サービスを提供し、業界トップクラスのシェア",
           "main_services": [
-            "介護サービス",
-            "デイサービス",
-            "訪問介護"
+            "有料老人ホーム運営",
+            "在宅介護サービス",
+            "データ活用による介護品質向上"
           ]
         },
         "funding": {
@@ -114,23 +176,30 @@
           "investors": null,
           "valuation_estimate": null
         },
-        "recent_news": [],
+        "recent_news": [
+          {
+            "title": "新会社「SOMPOウェルビーイング」設立",
+            "date": null,
+            "summary": "保険金を介護費用に直接充当するブリッジ機能を提供",
+            "source_url": "https://note.com/seodoa_academy/n/ncc60fead2a17"
+          }
+        ],
         "competitive_position": {
           "strengths": [
-            "国内トップシェアの介護事業",
-            "質・量ともに圧倒的なリアルデータを保有",
-            "AIやIoTを活用したデータドリブン戦略",
-            "異種データ統合による独自のリスク指標導出",
-            "Palantirの強力なデータ統合・解析基盤の活用"
+            "国内介護事業でトップシェア",
+            "リアルデータプラットフォーム（RDP）による差別化",
+            "AIとIoTを活用したデータドリブンなケア品質向上",
+            "グループ内での保険・介護サービス統合提供",
+            "職員の経験格差を埋めるデータ可視化技術"
           ],
-          "market_position": "国内介護サービス業界でトップシェア。データとAI技術を組み合わせた独自の競争優位性を確立",
-          "threat_to_sms": "3段階 - 介護業界特化だがデータ活用とAI技術の応用力は他業界への展開可能性あり"
+          "market_position": "介護市場約11.5兆円でトップクラス、売上高149,800百万円で業界1位",
+          "threat_to_sms": "4段階 - 介護業界でのトップシェアと独自のデータ活用技術により、デジタルヘルスケア領域での競争力が高い"
         },
         "confidence": "medium",
         "data_freshness": "2025年"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:25:31.690773"
+      "searchedAt": "2026-02-22T23:29:39.546687"
     }
   ]
 }

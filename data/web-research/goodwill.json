@@ -2,17 +2,19 @@
   "companyId": "goodwill",
   "research": [
     {
-      "type": "funding",
-      "queryTerms": "\"グッドウィルパートナーズ\" 資金調達 出資 投資 ラウンド 評価額",
+      "type": "business_overview",
+      "queryTerms": "\"グッドウィルパートナーズ\" 事業内容 サービス 特徴 会社概要",
       "data": {
         "business_overview": {
-          "founded": null,
+          "founded": "2015年頃（推定）",
           "employees": null,
-          "headquarters": null,
-          "description": "ベンチャーキャピタルとして複数の企業への投資を実施し、グッドウィルグループなどへの投資実績を持つ",
+          "headquarters": "東京都港区虎ノ門３丁目１９番１０－１２０５号",
+          "description": "経営戦略、企業ガバナンス、事業継承、ブランドマーケティング等の経営コンサルティングサービスを提供",
           "main_services": [
-            "ベンチャー投資",
-            "事業運営支援"
+            "経営戦略コンサルティング",
+            "企業ガバナンス支援",
+            "事業継承サポート",
+            "ブランドマーケティング"
           ]
         },
         "funding": {
@@ -21,20 +23,50 @@
           "investors": null,
           "valuation_estimate": null
         },
-        "recent_news": [],
+        "recent_news": null,
         "competitive_position": {
           "strengths": [
-            "17社の株式上場実績",
-            "200億円超のキャピタルゲイン実績"
+            "大手企業での豊富な経営企画経験",
+            "ADKホールディングス等での実績",
+            "経営戦略から実行まで幅広い専門領域"
           ],
-          "market_position": "主要企業への投資実績を持つベンチャーキャピタルとしての地位",
+          "market_position": "経営コンサルティング業界における専門特化型の小規模事業者",
+          "threat_to_sms": "2段階 - ニッチな経営コンサルティング分野で限定的な競合関係"
+        },
+        "confidence": "low",
+        "data_freshness": "2025年頃"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:16:07.454057"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"グッドウィルパートナーズ\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
           "threat_to_sms": null
         },
         "confidence": "low",
-        "data_freshness": "2023-12-01"
+        "data_freshness": "2023-12-XX"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:09:41.812159"
+      "searchedAt": "2026-02-22T23:16:07.454083"
     },
     {
       "type": "news",
@@ -43,40 +75,41 @@
         "business_overview": {
           "founded": null,
           "employees": null,
-          "headquarters": "広島県",
-          "description": "飲食料品製造業分野・外食業分野での登録支援機関として外国人労働者の支援事業を展開",
+          "headquarters": "広島県（推定）",
+          "description": "飲食料品製造業分野・外食業分野における登録支援機関として事業を展開",
           "main_services": [
-            "外国人労働者支援",
-            "登録支援機関サービス"
+            "外国人技能実習生支援",
+            "飲食料品製造業分野サポート",
+            "外食業分野サポート"
           ]
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": [],
+          "investors": null,
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "グッドパートナーズ協同組合が登録支援機関として登録",
+            "title": "グッドパートナーズ協同組合が登録支援機関として新規加入",
             "date": "2025-08-28",
-            "summary": "農林水産省の登録支援機関として正式登録され、外国人労働者支援事業を開始",
+            "summary": "協議会構成員として登録支援機関に加入、構成員番号3004524を取得",
             "source_url": "https://www.maff.go.jp/j/shokusan/sanki/soumu/attach/pdf/kyougikai-185.pdf"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "政府認可の登録支援機関",
-            "飲食料品・外食業界特化"
+            "外国人技能実習生支援の専門性",
+            "飲食料品・外食業界への特化"
           ],
-          "market_position": "外国人労働者支援分野の新規参入事業者",
+          "market_position": "外国人技能実習生支援市場における協同組合として活動",
           "threat_to_sms": null
         },
         "confidence": "low",
         "data_freshness": "2026-01-31"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:09:41.812172"
+      "searchedAt": "2026-02-22T23:16:07.454088"
     },
     {
       "type": "competitive",
@@ -86,41 +119,36 @@
           "founded": null,
           "employees": null,
           "headquarters": null,
-          "description": "人材派遣・人材サービス業界で事業展開する企業",
-          "main_services": [
-            "人材派遣サービス",
-            "人材紹介サービス"
-          ]
+          "description": "東北地方を中心に事業展開を行う企業で、起業サポート・メンタリング事業に関与",
+          "main_services": null
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": [],
+          "investors": null,
           "valuation_estimate": null
         },
         "recent_news": [
           {
             "title": "TUAD2025アントレプレナー認定の審査員・メンターに参画",
             "date": null,
-            "summary": "東北芸術工科大学の起業支援プログラムで審査員・メンターを担当",
+            "summary": "東北芸術工科大学の起業サポート体制において審査員・メンターとして参加",
             "source_url": "https://www.tuad-icl.jp/post-1001/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "フィールドサポーター（現場管理者）による現場管理能力",
-            "顧客との強固な関係構築",
-            "高品質なサービス提供",
-            "コンプライアンス体制"
+            "東北地方での地域密着型事業展開",
+            "起業サポート・メンタリング分野での実績"
           ],
-          "market_position": "人材派遣業界において現場密着型のサービスで差別化を図る企業",
-          "threat_to_sms": "2段階 - 人材サービス業界での競合だが、事業規模や市場シェアの詳細が不明のため限定的な脅威と推定"
+          "market_position": "東北地方を代表する起業サポート体制の一翼を担う企業",
+          "threat_to_sms": null
         },
         "confidence": "low",
-        "data_freshness": null
+        "data_freshness": "2025年"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:09:41.812175"
+      "searchedAt": "2026-02-22T23:16:07.454093"
     }
   ]
 }

@@ -6,82 +6,15 @@
       "queryTerms": "\"ワンライフ\" 事業内容 サービス 特徴 会社概要",
       "data": {
         "business_overview": {
-          "founded": "2014年",
-          "employees": null,
-          "headquarters": "愛知県名古屋市",
-          "description": "障がい者支援事業を中心に、放課後等デイサービス、eスポーツ事業、保護動物支援等の福祉サービスを展開",
+          "founded": "2014年2月",
+          "employees": "172名",
+          "headquarters": "群馬県前橋市広瀬町3-18-15",
+          "description": "障がい福祉サービス全般を展開し、eスポーツや保護動物との組み合わせなど革新的なアプローチで障がい者の自立支援を行う企業",
           "main_services": [
-            "放課後等デイサービス",
-            "就労継続支援B型事業所",
-            "eスポーツ×障がい福祉",
-            "保護犬・猫×障がい福祉"
-          ]
-        },
-        "funding": {
-          "total_raised": null,
-          "latest_round": null,
-          "investors": [],
-          "valuation_estimate": null
-        },
-        "recent_news": [],
-        "competitive_position": {
-          "strengths": [
-            "eスポーツと障がい福祉の組み合わせという新しいビジネスモデル",
-            "公費収益とペット事業の二本柱による安定したストック型収益",
-            "フランチャイズ展開による事業拡大"
-          ],
-          "market_position": "障がい者支援業界で革新的なアプローチを取る成長企業",
-          "threat_to_sms": "1 - SMSとは全く異なる福祉・支援事業領域のため直接的な競合関係はない"
-        },
-        "confidence": "medium",
-        "data_freshness": null
-      },
-      "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:23:29.286366"
-    },
-    {
-      "type": "funding",
-      "queryTerms": "\"ワンライフ\" 資金調達 出資 投資 ラウンド 評価額",
-      "data": {
-        "business_overview": {
-          "founded": null,
-          "employees": null,
-          "headquarters": null,
-          "description": null,
-          "main_services": null
-        },
-        "funding": {
-          "total_raised": null,
-          "latest_round": null,
-          "investors": null,
-          "valuation_estimate": null
-        },
-        "recent_news": null,
-        "competitive_position": {
-          "strengths": null,
-          "market_position": null,
-          "threat_to_sms": null
-        },
-        "confidence": "low",
-        "data_freshness": "2024-10-24"
-      },
-      "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:23:29.286388"
-    },
-    {
-      "type": "news",
-      "queryTerms": "\"ワンライフ\" 最新 ニュース 2025 2026 動向",
-      "data": {
-        "business_overview": {
-          "founded": null,
-          "employees": null,
-          "headquarters": "〒371-0812　群馬県前橋市広瀬町3-18-15",
-          "description": "児童発達支援、就労継続支援B型、相談支援等の福祉サービスを提供する事業者",
-          "main_services": [
-            "児童発達支援",
-            "就労継続支援B型",
-            "就労移行支援",
-            "相談支援"
+            "障がい福祉サービス",
+            "みんなの障がい（情報検索サイト）",
+            "ONEGAME（eスポーツ×障がい福祉）",
+            "ONEPET（保護犬・猫×障がい福祉）"
           ]
         },
         "funding": {
@@ -92,37 +25,129 @@
         },
         "recent_news": [
           {
-            "title": "就労継続支援B型事業所「ONEGAME我孫子」2026年2月オープン",
-            "date": "2026-02-01",
-            "summary": "我孫子に新たな就労継続支援B型事業所を開設",
-            "source_url": "https://onelife-inc.com/news/"
-          },
-          {
-            "title": "就労継続支援B型事業所「ONEGAME名古屋昭和」2026年1月オープン",
-            "date": "2026-01-05",
-            "summary": "名古屋昭和区に新たな就労継続支援B型事業所を開設",
-            "source_url": "https://onelife-inc.com/news/"
-          },
-          {
-            "title": "女性活躍推進法に基づく公表",
-            "date": "2026-01-08",
-            "summary": "女性活躍推進法に基づく情報を公表",
-            "source_url": "https://onelife-inc.com/news/"
+            "title": "eスポーツと障がい福祉を掛け合わせた新しいカタチの施設",
+            "date": null,
+            "summary": "就労継続支援B型事業「ONEGAME」のフランチャイズ加盟募集開始",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000012.000113188.html"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "全国展開による事業所ネットワーク",
-            "児童から成人まで幅広い福祉サービス提供"
+            "eスポーツや保護動物など革新的なアプローチ",
+            "全国展開のフランチャイズモデル",
+            "障がい福祉施設の情報プラットフォーム運営"
           ],
-          "market_position": "福祉サービス業界での事業拡大を積極的に推進",
-          "threat_to_sms": "1段階 - SMSとは異なる福祉サービス業界のため直接的脅威はなし"
+          "market_position": "障がい福祉業界において革新的なサービス提供で差別化を図る成長企業",
+          "threat_to_sms": null
         },
         "confidence": "medium",
-        "data_freshness": "2026-02-09"
+        "data_freshness": "2023年6月"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:23:29.286394"
+      "searchedAt": "2026-02-22T23:27:24.309483"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"ワンライフ\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": "2014年2月",
+          "employees": null,
+          "headquarters": "群馬県前橋市広瀬町3-18-15",
+          "description": "障害者の社会参画を支援するeスポーツ事業や動画コンテンツ事業を展開するビジネスサービス企業",
+          "main_services": [
+            "ONEGAMEワンゲーム（eスポーツ事業）",
+            "ONEFRAME動画コンテスト",
+            "凸凹村チャンネル"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": "10億円（調達後評価額・推定）"
+        },
+        "recent_news": [
+          {
+            "title": "eスポーツで障がい者の社会参画の促進を目指す『ONEGAMEワンゲーム』、秋葉原にオープン。",
+            "date": "2025-01-28",
+            "summary": "障がい者向けeスポーツ施設を秋葉原に開設",
+            "source_url": null
+          },
+          {
+            "title": "第2回ONEFRAME動画コンテスト受賞者・作品が決定",
+            "date": "2024-11-19",
+            "summary": "障がい者による動画コンテストの受賞作品が決定",
+            "source_url": null
+          },
+          {
+            "title": "『凸凹村チャンネル』が本格始動",
+            "date": null,
+            "summary": "乙武洋匡氏が村長を務める障がい者向けメディアが開始",
+            "source_url": null
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "障がい者支援という社会的意義のある事業領域",
+            "eスポーツと動画コンテンツによる多角的アプローチ"
+          ],
+          "market_position": "障がい者の社会参画支援分野でのニッチプレイヤー",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2025-01-28"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:27:24.309508"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"ワンライフ\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "リズムアドベンチャーゲームやペット関連イベントなど、複数の「ワンライフ」ブランドが存在",
+          "main_services": [
+            "リズムゲーム開発",
+            "ペット関連イベント開催"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "『One Song, One Life』2026年にSteamにて配信決定",
+            "date": "2025-10-24",
+            "summary": "プレイヤーの演奏により音楽と物語が分岐する新感覚リズムゲーム",
+            "source_url": "https://news.denfaminicogamer.jp/news/251024y"
+          },
+          {
+            "title": "わんらいふフェスティバル in 福岡開催",
+            "date": "2026-03-28",
+            "summary": "愛犬と一緒に体験・学べるペット関連イベント",
+            "source_url": "https://getnews.jp/archives/3699879"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "ニッチなゲームジャンル",
+            "ペット愛好家コミュニティ"
+          ],
+          "market_position": "複数の小規模な事業領域での活動",
+          "threat_to_sms": "1段階 - 異なる事業領域での小規模な活動のため脅威は低い"
+        },
+        "confidence": "low",
+        "data_freshness": "2026-02-13"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:27:24.309514"
     },
     {
       "type": "competitive",
@@ -144,16 +169,17 @@
         "recent_news": null,
         "competitive_position": {
           "strengths": [
-            "市場シェア25%を超える強固なポジション"
+            "ニッチ市場での差別化戦略",
+            "ブランドポジショニングによる他社との差別化"
           ],
-          "market_position": "ZARA、H&Mなどが主要競合として位置する市場で展開",
-          "threat_to_sms": null
+          "market_position": "中位の市場シェアを持つ差別化重視企業",
+          "threat_to_sms": "2 - ニッチ市場に特化しており限定的な脅威（推定）"
         },
         "confidence": "low",
-        "data_freshness": null
+        "data_freshness": "2025-01-14"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:23:29.286398"
+      "searchedAt": "2026-02-22T23:27:24.309519"
     }
   ]
 }

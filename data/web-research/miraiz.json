@@ -6,93 +6,116 @@
       "queryTerms": "\"ミライズ\" 事業内容 サービス 特徴 会社概要",
       "data": {
         "business_overview": {
-          "founded": "2017年（推定）",
+          "founded": "2020年（株式会社MILIZE）",
           "employees": null,
-          "headquarters": "東京都港区芝浦4丁目12番38号",
-          "description": "AI・ビッグデータ技術を活用した金融サービス、個人資産形成支援、ライフプランシミュレーションを提供するフィンテック企業",
+          "headquarters": "詳細不明",
+          "description": "AI・フィンテック・ビッグデータを活用した金融サービスの再構築と民主化を目指す企業",
           "main_services": [
-            "ライフプランシミュレーションツール",
-            "ファイナンシャルコンサルティング",
-            "金融リテラシー判定サービス",
-            "フィンテックコンサルティング"
+            "AI・生成AIサービス",
+            "金融DXサービス",
+            "オルタナティブデータ活用分析"
           ]
         },
         "funding": {
-          "total_raised": "16億7130万円（推定・資本金ベース）",
-          "latest_round": null,
-          "investors": [],
+          "total_raised": null,
+          "latest_round": "第三者割当増資（2026年1月実施予定）",
+          "investors": [
+            "横浜フィナンシャルグループ",
+            "リヴァンプ"
+          ],
           "valuation_estimate": null
         },
-        "recent_news": [],
+        "recent_news": [
+          {
+            "title": "横浜フィナンシャルグループおよびリヴァンプと資本業務提携",
+            "date": "2026-01-30",
+            "summary": "第三者割当増資の実施による資本業務提携を発表",
+            "source_url": "https://milize.co.jp/"
+          },
+          {
+            "title": "ベトナムNamiTechと戦略的提携を締結",
+            "date": "2025-12-26",
+            "summary": "音声AI技術のリーディングカンパニーとの提携",
+            "source_url": "https://milize.co.jp/"
+          },
+          {
+            "title": "横浜銀行の投資信託新サービス「Goal Design Lab」を開発",
+            "date": "2025-12-15",
+            "summary": "投資信託の新サービス開発を支援",
+            "source_url": "https://milize.co.jp/"
+          }
+        ],
         "competitive_position": {
           "strengths": [
-            "AI・機械学習技術による金融データ解析",
-            "個人向けライフプランシミュレーション",
-            "フィンテック分野での総合的なコンサルティング能力",
-            "金融リテラシー教育事業"
+            "金融工学とAIの融合技術",
+            "大手金融機関との実績",
+            "生成AI・LLM活用サービス"
           ],
-          "market_position": "個人向け資産形成支援とフィンテックコンサルティングを軸とする成長段階の企業",
-          "threat_to_sms": "2段階 - 主に個人向け金融サービスに特化しており、企業向けコミュニケーション分野での直接的な競合関係は限定的"
+          "market_position": "金融DX・AI分野でのニッチポジション、大手金融機関向けサービス提供",
+          "threat_to_sms": "2段階：金融業界特化のため直接競合ではないが、AI技術活用の面で参考になる企業"
         },
         "confidence": "medium",
-        "data_freshness": "2025年1月"
+        "data_freshness": "2026-01-30"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:21:39.455378"
+      "searchedAt": "2026-02-22T23:25:30.059253"
     },
     {
       "type": "funding",
       "queryTerms": "\"ミライズ\" 資金調達 出資 投資 ラウンド 評価額",
       "data": {
         "business_overview": {
-          "founded": "2009年4月",
-          "employees": null,
-          "headquarters": "東京都港区芝浦4-12-38",
-          "description": "英語学習サービス「ミライズ英会話」を運営。AI活用による完全パーソナライズ語学教材自動生成技術を開発。",
+          "founded": "2009年",
+          "employees": "100人未満（推定）",
+          "headquarters": "東京都港区芝浦４丁目１２番３８号",
+          "description": "AI・ビッグデータ解析を活用した金融テクノロジーサービスを提供し、運用・マーケティング・商品開発・フィナンシャルプランニング等の分野でソリューションを展開",
           "main_services": [
-            "ミライズ英会話",
-            "AI語学教材自動生成技術"
+            "金融AI",
+            "ビッグデータ解析サービス"
           ]
         },
         "funding": {
-          "total_raised": "104百万円（推定）",
-          "latest_round": null,
-          "investors": [],
+          "total_raised": "14億1千万円（推定）",
+          "latest_round": "シリーズE",
+          "investors": [
+            "第一生命保険",
+            "日本郵政キャピタル",
+            "三井住友信託銀行",
+            "博報堂DYベンチャーズ",
+            "ディップ",
+            "K&Pパートナーズ",
+            "モーニングスター",
+            "SBI Ventures Two"
+          ],
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "ミライズ英会話、独自のAI活用「完全パーソナライズ語学教材自動生成技術」で特許取得",
-            "date": "2025-07-04",
-            "summary": "AI技術による語学教材自動生成で特許を取得",
-            "source_url": "https://initial.inc/companies/A-12968"
+            "title": "第三者割当増資の実施によりシリーズEラウンド累計調達額は６億８千万円に",
+            "date": "2022-02-01",
+            "summary": "第一生命保険を引受先とする第三者割当増資を実施",
+            "source_url": "https://milize.co.jp/news/20220201_2188"
           },
           {
-            "title": "MeRISE株式会社がNB.ACADEMYが主催するアジア地域初の＜アジア甲子園＞のオフィシャルサプライヤーに参画",
-            "date": "2024-08-09",
-            "summary": "アジア甲子園のオフィシャルサプライヤーとして参画",
-            "source_url": "https://initial.inc/companies/A-12968"
-          },
-          {
-            "title": "株式会社UZUZとMeRISE株式会社がコラボして新サービスを提供",
-            "date": "2024-01-13",
-            "summary": "UZUZとの協業により新サービスを提供開始",
-            "source_url": "https://initial.inc/companies/A-12968"
+            "title": "事業拡大のため第三者割当増資を実施、シリーズDラウンドでの累計調達額は約7億3千万円に",
+            "date": "2020-10-30",
+            "summary": "モーニングスター、SBI Ventures Twoを引受先とする増資実施",
+            "source_url": "https://milize.co.jp/news/20201030_690"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "AI活用による完全パーソナライズ語学教材自動生成技術の特許取得",
-            "英語学習市場での実績"
+            "金融AI技術",
+            "機械学習・AIと金融知識の融合"
           ],
-          "market_position": "AI技術を活用した語学教育サービス分野でのポジション確立",
-          "threat_to_sms": "2段階 - 語学教育分野に特化しており、SMSの主要事業領域との直接的な競合は限定的"
+          "market_position": "金融テクノロジー分野でAI・ビッグデータ活用に特化",
+          "threat_to_sms": null
         },
         "confidence": "medium",
-        "data_freshness": "2025-07-04"
+        "data_freshness": "2022-02-01"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:21:39.455405"
+      "searchedAt": "2026-02-22T23:25:30.059279"
     },
     {
       "type": "news",
@@ -101,66 +124,62 @@
         "business_overview": {
           "founded": null,
           "employees": null,
-          "headquarters": "愛知県名古屋市（推定）",
-          "description": "中部電力グループの電力小売事業会社。電気・ガス供給、脱炭素ソリューション、DXサービスを提供",
+          "headquarters": "愛知県名古屋市",
+          "description": "中部電力グループの小売電気事業者として、電力・ガス販売、エネルギーソリューション、脱炭素化支援事業を展開",
           "main_services": [
-            "電力小売",
-            "都市ガス供給",
-            "脱炭素ソリューション",
-            "PPAサービス",
-            "見守りサービス"
+            "電力・都市ガス販売",
+            "DXソリューション",
+            "再生可能エネルギー事業",
+            "省エネサービス"
           ]
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": [
-            "中部電力（親会社）"
-          ],
+          "investors": null,
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "2026年4月から特別高圧・高圧の標準メニューを見直し、米ヘンリーハブを燃料価格指標に導入",
-            "date": "2025-12-27",
-            "summary": "電源調達構造変化に対応し燃料費調整制度を変更",
-            "source_url": "https://www.denkishimbun.com/sp/398939"
+            "title": "2026年3月分電気料金の燃料費調整について",
+            "date": "2026-01-29",
+            "summary": "燃料費調整単価の実施と電気・ガス料金支援による値引きを発表",
+            "source_url": "https://miraiz.chuden.co.jp/info/press/1217365_1938.html"
           },
           {
-            "title": "省エネ大賞2025年度製品・ビジネスモデル部門で審査委員会特別賞を受賞",
-            "date": "2025-12-01",
-            "summary": "省エネ関連の取り組みが評価される",
+            "title": "中部電力ミライズに系統蓄電システムを初納入",
+            "date": "2026-02-20",
+            "summary": "系統蓄電システムの初納入により電力インフラの安定化を推進",
+            "source_url": "https://www.jiji.com/jc/article?k=000000221.000109041&g=prt"
+          },
+          {
+            "title": "省エネ大賞 製品・ビジネスモデル部門 審査委員会特別賞を受賞",
+            "date": "2025-12-XX",
+            "summary": "2025年度省エネ大賞で審査委員会特別賞を受賞",
             "source_url": "https://miraiz.chuden.co.jp/info/press/2025.html"
           },
           {
-            "title": "グリッドシェアジャパンへの出資により家庭用DRサービス拡大",
-            "date": "2025-12-01",
-            "summary": "デマンドレスポンス事業強化に向けた資本業務提携",
+            "title": "グリッドシェアジャパン株式会社への出資について",
+            "date": "2025-12-XX",
+            "summary": "家庭用DRサービス拡大に向けた資本業務提携を実施",
             "source_url": "https://miraiz.chuden.co.jp/info/press/2025.html"
-          },
-          {
-            "title": "子会社ミライズエネチェンジのEV補助金水増し申請疑惑",
-            "date": "2026-02-18",
-            "summary": "中部電力ミライズが51%出資する合弁会社の不正疑惑",
-            "source_url": "https://kaikeinews.hatenablog.com/entry/2026/02/18/133127"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "中部電力グループの信頼性",
-            "脱炭素ソリューション",
+            "中部電力グループの安定基盤",
+            "DX・脱炭素化技術",
             "地域密着型サービス",
-            "PPAサービス",
-            "高齢者見守り等の付加価値サービス"
+            "エネルギー総合ソリューション"
           ],
-          "market_position": "中部地方の主要電力小売事業者として、脱炭素・DX分野でのサービス拡充を進める",
-          "threat_to_sms": "2段階：電力小売が主力でSMS事業との直接競合は限定的だが、DXソリューション分野での展開に注視が必要"
+          "market_position": "中部地区の主要電力小売事業者として、従来の電力事業からDX・脱炭素化分野へ事業拡大中",
+          "threat_to_sms": "2段階 - 電力・エネルギー分野に特化しており、SMS事業との直接競合は限定的"
         },
         "confidence": "medium",
-        "data_freshness": "2026-02-18"
+        "data_freshness": "2026-02-20"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:21:39.455410"
+      "searchedAt": "2026-02-22T23:25:30.059284"
     },
     {
       "type": "competitive",
@@ -170,30 +189,47 @@
           "founded": null,
           "employees": null,
           "headquarters": null,
-          "description": null,
-          "main_services": null
+          "description": "複数の「ミライズ」が存在。文化会館運営、金融AI技術開発、人材開発支援等の事業を展開。",
+          "main_services": [
+            "文化会館・公共施設運営",
+            "AI予測ツール",
+            "人材開発・経営支援"
+          ]
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": null,
+          "investors": [],
           "valuation_estimate": null
         },
-        "recent_news": null,
+        "recent_news": [
+          {
+            "title": "美馬市地域交流センター ミライズの運営継続",
+            "date": null,
+            "summary": "徳島県美馬市の地域交流センターとして運営中",
+            "source_url": "https://www.anabuki.ne.jp/ir/library/pdf/20250925_62th_yuukasyoukenhoukokusyo.pdf"
+          },
+          {
+            "title": "ダイセルミライズ株式会社の樹脂事業継続",
+            "date": "2020-07",
+            "summary": "樹脂事業の再編により営業開始",
+            "source_url": "https://www.daicel.com/ir/pdf/yuho/yuho156.pdf"
+          }
+        ],
         "competitive_position": {
           "strengths": [
-            "差別化戦略による価格競争の回避",
-            "独自価値提案による高利益率の実現",
-            "市場シェア確保とブランディング確立"
+            "AI技術による高精度予測",
+            "公共施設運営の実績",
+            "差別化された専門サービス"
           ],
-          "market_position": "競合分析と差別化戦略を活用して競争優位性を構築する企業として位置づけられる",
-          "threat_to_sms": "情報不足のため評価不可"
+          "market_position": "各分野でニッチなポジションを確立。特にAI予測分野では従来手法より高精度を実現",
+          "threat_to_sms": "2 - 限定的な脅威。特定業界向けサービスのため直接競合の可能性は低い"
         },
         "confidence": "low",
-        "data_freshness": null
+        "data_freshness": "2025年9月（推定）"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:21:39.455415"
+      "searchedAt": "2026-02-22T23:25:30.059288"
     }
   ]
 }

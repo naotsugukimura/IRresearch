@@ -9,90 +9,90 @@
           "founded": "2025年8月",
           "employees": null,
           "headquarters": "東京都港区虎ノ門1-23-1（登記住所）、東京都千代田区内幸町2-1-6 日比谷パークフロント 17F（事業者住所）",
-          "description": "障害福祉に特化したクラウド型請求・記録業務支援サービスを提供。請求と記録を一気通貫で管理し、業務効率化を実現。",
+          "description": "障がい福祉に特化したクラウド型業務支援サービス。日々の記録から国保連請求まで一元管理し、業務負荷を大幅削減。",
           "main_services": [
-            "knowbe（障害福祉特化クラウドサービス）",
-            "請求・記録業務支援"
+            "knowbe（障がい福祉業務支援クラウドサービス）"
           ]
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": [
-            "株式会社リクルート"
-          ],
+          "investors": [],
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "障がい福祉事業所に特化した請求・記録クラウドサービス『knowbe』",
+            "title": "障がい福祉事業所に特化した請求・記録クラウドサービス『knowbe』 累計利用者数が14万人を突破",
+            "date": "2022-12-XX",
+            "summary": "前々年比200％増の成長を実現、業務を約90％削減",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000001968.000011414.html"
+          },
+          {
+            "title": "『knowbe』相談支援事業所向けの請求記録サービスを提供開始",
             "date": "2023-06-01",
-            "summary": "障がい福祉事業所向けクラウドサービスの調査レポート発表",
-            "source_url": "https://prtimes.jp/main/html/rd/p/000002528.000011414.html"
+            "summary": "相談支援事業所向けサービスを新たに開始",
+            "source_url": "https://www.recruit.co.jp/newsroom/pressrelease/2023/0601_12306.html"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "業務工数90％削減実績",
+            "業務負荷約90％削減実績",
             "利用継続率99％",
             "初期費用・サポート費用無料",
-            "全国47都道府県導入実績",
-            "累計利用者数220,000人突破"
+            "累計利用者数220,000人以上",
+            "全国47都道府県で利用"
           ],
-          "market_position": "障害福祉分野に特化したクラウド型業務支援サービスのリーディングカンパニー",
-          "threat_to_sms": "3段階 - 障害福祉という特化領域でのニッチ市場のため、SMSの主力事業への直接的脅威は限定的だが、クラウド型業務支援という点で競合の可能性"
+          "market_position": "障がい福祉分野に特化したクラウド業務支援サービスの主要プレイヤー。リクルート（現在は株式会社ノウビーが運営）の信頼性と実績で市場をリード。",
+          "threat_to_sms": "3 - 同じ福祉・介護分野でのクラウドサービスだが、障がい福祉に特化しており、SMSの介護事業とは対象領域が異なるため中程度の脅威"
         },
-        "confidence": "medium",
-        "data_freshness": "2023-06-01"
+        "confidence": "high",
+        "data_freshness": "2025-11-21"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:15:06.101064"
+      "searchedAt": "2026-02-22T23:19:27.610359"
     },
     {
       "type": "funding",
       "queryTerms": "\"knowbe（ノウビー）\" 資金調達 出資 投資 ラウンド 評価額",
       "data": {
         "business_overview": {
-          "founded": "2017年",
+          "founded": null,
           "employees": null,
-          "headquarters": "東京都千代田区",
-          "description": "障害福祉事業所向けの請求・記録業務を効率化するクラウドサービス。業務負荷を約90％削減し、利用継続率99％を実現。",
+          "headquarters": null,
+          "description": "障がい者福祉事業者向けの請求業務を支援するクラウドシステムを提供。エラーチェック機能や実績管理機能を搭載。",
           "main_services": [
-            "障害福祉請求・記録システム",
-            "業務支援ソフト"
+            "knowbe（障がい者福祉事業者向け請求管理システム）"
           ]
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": [
-            "株式会社リクルート"
-          ],
+          "investors": [],
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "累計利用者数が14万人を突破",
-            "date": "2022-12-XX",
-            "summary": "前々年比200％増の成長を実現",
-            "source_url": "https://prtimes.jp/main/html/rd/p/000001968.000011414.html"
+            "title": "knowbeが障がい者福祉事業者向けソフトとして比較サイトで紹介",
+            "date": null,
+            "summary": "介護・福祉事業者向けソフトウェア比較で他社製品と並んで掲載",
+            "source_url": "https://2ndlabo.com/article/199/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "利用継続率99％",
-            "業務負荷約90％削減",
-            "シンプルな操作画面",
-            "クラウド対応"
+            "クラウドベースで複数拠点からアクセス可能",
+            "エラーチェック・アラート機能でミス防止",
+            "報酬改定に無料対応",
+            "初期費用無料"
           ],
-          "market_position": "障害福祉ソフト市場において高い継続率を誇る主要プレイヤー",
-          "threat_to_sms": null
+          "market_position": "障がい者福祉事業者向け請求管理システム市場での競合他社と並ぶポジション",
+          "threat_to_sms": "2段階（推定） - 同じ福祉業界向けソフトウェアだが、障がい者福祉特化でSMSの介護事業者向けとは異なる市場セグメント"
         },
-        "confidence": "medium",
-        "data_freshness": "2025-XX-XX"
+        "confidence": "low",
+        "data_freshness": "2019-06"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:15:06.101086"
+      "searchedAt": "2026-02-22T23:19:27.610370"
     },
     {
       "type": "news",
@@ -101,52 +101,48 @@
         "business_overview": {
           "founded": null,
           "employees": null,
-          "headquarters": "Tampa Bay, FL（KnowBe4）、日本（knowbe）",
-          "description": "KnowBe4はサイバーセキュリティ教育プラットフォーム、knowbeは障害福祉に特化した運営支援ソフト",
+          "headquarters": "TAMPA BAY, FL（KnowBe4）、日本（knowbe）",
+          "description": "KnowBe4：セキュリティ意識向上訓練プラットフォーム、knowbe：障がい福祉事業所向け業務支援サービス",
           "main_services": [
-            "セキュリティ意識向上トレーニング",
+            "セキュリティ意識向上訓練",
             "フィッシング対策",
-            "インシデント対応",
-            "障害福祉運営支援"
+            "障がい福祉事業所向け業務支援"
           ]
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": [
-            "リクルート（knowbe事業推進部）"
-          ],
+          "investors": null,
           "valuation_estimate": null
         },
         "recent_news": [
           {
             "title": "KnowBe4 Predicts the Agentic AI Revolution Will Reshape Cybersecurity in 2026",
             "date": "2025-12-02",
-            "summary": "2026年のサイバーセキュリティ予測を発表、AI革命の影響を予想",
-            "source_url": "https://www.knowbe4.com/press/knowbe4-predicts-the-agentic-ai-revolution-will-reshape-cybersecurity-in-2026"
+            "summary": "KnowBe4が2026年のサイバーセキュリティ予測を発表",
+            "source_url": "https://www.prnewswire.com/news-releases/knowbe4-predicts-the-agentic-ai-revolution-will-reshape-cybersecurity-in-2026-302629747.html"
           },
           {
-            "title": "KnowBe4 Named Leader in G2 Grid Fall 2025 Report",
-            "date": "2025-XX-XX",
-            "summary": "G2レポートでセキュリティ意識トレーニング部門1位を6年連続維持",
-            "source_url": "https://www.knowbe4.com/press/knowbe4-named-leader-in-g2-grid-fall-2025-report-in-multiple-human-risk-management-categories"
+            "title": "KnowBe4 Academy更新情報",
+            "date": "2026-02-02",
+            "summary": "KnowBe4 101コースを廃止し、KnowBe4 Foundationsに置換",
+            "source_url": "https://support.knowbe4.com/hc/en-us/articles/40105165200275-KnowBe4-Academy-Change-Log"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "市場リーダーポジション（20四半期連続1位）",
-            "AI技術への先進的取り組み",
-            "包括的なヒューマンリスク管理",
-            "業務効率化（90%削減実績）"
+            "世界最大級のセキュリティ意識向上コンテンツライブラリ",
+            "AI技術を活用したリスク管理",
+            "包括的な人的・AI的リスク管理プラットフォーム"
           ],
-          "market_position": "セキュリティ意識トレーニング分野の世界的リーダー、障害福祉支援ソフト分野でも展開",
-          "threat_to_sms": null
+          "market_position": "セキュリティ意識向上訓練分野の世界的リーダー企業",
+          "threat_to_sms": "1段階：異なる事業領域（セキュリティ訓練 vs コミュニケーション）のため直接的脅威は低い"
         },
         "confidence": "medium",
-        "data_freshness": "2025-12-02"
+        "data_freshness": "2026-02-02"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:15:06.101092"
+      "searchedAt": "2026-02-22T23:19:27.610372"
     },
     {
       "type": "competitive",
@@ -155,13 +151,12 @@
         "business_overview": {
           "founded": null,
           "employees": null,
-          "headquarters": "日本（株式会社リクルート）",
-          "description": "障害福祉に特化した運営支援ソフト。記録、給付費請求、工賃・給与計算の業務効率化から就労支援まで事業所の運営・経営をサポート",
+          "headquarters": null,
+          "description": "リクルートが提供する障害福祉に特化した運営支援ソフト。記録・給付費請求・工賃給与計算の業務効率化から就労支援まで対応",
           "main_services": [
-            "障害福祉運営支援ソフト",
-            "給付費請求",
-            "工賃・給与計算",
-            "就労支援"
+            "障害福祉事業所向け運営支援ソフト",
+            "記録・給付費請求・工賃給与計算システム",
+            "就労支援機能"
           ]
         },
         "funding": {
@@ -174,25 +169,25 @@
           {
             "title": "累計利用者14万人を突破！障害福祉に特化した業務効率化サービス『knowbe』が生まれるまで",
             "date": "2023-07-16",
-            "summary": "累計利用者数14万人突破を達成",
+            "summary": "knowbeが累計利用者14万人を突破したニュース",
             "source_url": "https://fukushijinji.com/disabilitynews8/"
           }
         ],
         "competitive_position": {
           "strengths": [
             "利用継続率99％",
-            "累計利用者14万人",
-            "リクルートの運営による信頼性",
-            "障害福祉に特化した専門性"
+            "累計利用者14万人突破",
+            "リクルートブランドによる信頼性",
+            "障害福祉に特化した包括的な機能"
           ],
-          "market_position": "障害福祉業界の主要プレイヤーとして、HUGパス、ポチパス、ほのぼのmoreなどと競合",
-          "threat_to_sms": "3段階 - 障害福祉という特化領域での強みがあり、リクルートの資本力とブランド力を背景とした安定した競合他社"
+          "market_position": "障害福祉ソフト市場において高い利用継続率を持つ主要プレイヤーの一つ。HUGパス、ポチパス、ほのぼのmoreなどと競合",
+          "threat_to_sms": null
         },
         "confidence": "medium",
-        "data_freshness": "2023-07-16"
+        "data_freshness": "2025-05-12"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:15:06.101096"
+      "searchedAt": "2026-02-22T23:19:27.610374"
     }
   ]
 }

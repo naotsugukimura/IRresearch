@@ -9,43 +9,40 @@
           "founded": "2009年",
           "employees": null,
           "headquarters": null,
-          "description": "TDモバイルはトヨタグループのデンソーと豊田通商の携帯電話事業を統合した専門商社。モバイル機器販売とソリューション提供を行う。",
+          "description": "トヨタグループのデンソーと豊田通商の携帯電話事業を統合し設立。2023年にビックカメラグループに参画したモバイル専門商社。",
           "main_services": [
-            "モバイル機器販売",
+            "コンシューマ向けスマートフォン販売",
             "法人向けモバイルソリューション"
           ]
         },
         "funding": {
           "total_raised": null,
           "latest_round": null,
-          "investors": [
-            "株式会社デンソー",
-            "豊田通商株式会社"
-          ],
+          "investors": null,
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "ビックカメラグループに参画",
+            "title": "ビックカメラグループへの参画",
             "date": "2023-XX-XX",
-            "summary": "TDモバイルがビックカメラグループに参画し、さらなる躍進を続けている",
+            "summary": "2023年にビックカメラグループに参画し事業拡大",
             "source_url": "https://job.mynavi.jp/26/pc/search/corp100804/outline.html"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "高い安定性のあるモバイル事業",
-            "コンシューマと法人の両事業展開",
-            "トヨタグループの信頼性"
+            "トヨタグループとビックカメラグループの強固な基盤",
+            "コンシューマと法人の両市場対応",
+            "モバイル専門商社としての専門性"
           ],
-          "market_position": "モバイルコミュニケーションと情報通信サービスの専門商社として位置",
-          "threat_to_sms": "2段階 - モバイル機器販売が主体でSMS事業との直接競合は限定的"
+          "market_position": "モバイル機器販売とソリューション提供の両軸で事業展開する専門商社",
+          "threat_to_sms": "2段階 - モバイルソリューション提供企業だが、SMS特化サービスではないため直接的脅威は限定的"
         },
         "confidence": "medium",
-        "data_freshness": "2023年"
+        "data_freshness": "2025年"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:27:59.381481"
+      "searchedAt": "2026-02-22T23:32:23.570273"
     },
     {
       "type": "funding",
@@ -71,10 +68,10 @@
           "threat_to_sms": null
         },
         "confidence": "low",
-        "data_freshness": "2025-03-XX"
+        "data_freshness": "2024-09-30"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:27:59.381499"
+      "searchedAt": "2026-02-22T23:32:23.570293"
     },
     {
       "type": "news",
@@ -93,7 +90,7 @@
           "investors": null,
           "valuation_estimate": null
         },
-        "recent_news": null,
+        "recent_news": [],
         "competitive_position": {
           "strengths": null,
           "market_position": null,
@@ -103,7 +100,7 @@
         "data_freshness": "2026-02-13"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:27:59.381503"
+      "searchedAt": "2026-02-22T23:32:23.570298"
     },
     {
       "type": "competitive",
@@ -125,14 +122,14 @@
         "recent_news": null,
         "competitive_position": {
           "strengths": null,
-          "market_position": null,
+          "market_position": "検索結果に「トータルモバイル」という特定の企業に関する情報は見つかりませんでした。検索結果は主に一般的なモバイル・スマートフォン業界の市場分析や競合状況に関する内容でした。",
           "threat_to_sms": null
         },
         "confidence": "low",
-        "data_freshness": "2025年"
+        "data_freshness": "2024年"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:27:59.381507"
+      "searchedAt": "2026-02-22T23:32:23.570302"
     }
   ]
 }

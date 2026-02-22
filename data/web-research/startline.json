@@ -9,12 +9,12 @@
           "founded": "2009年",
           "employees": null,
           "headquarters": "東京都三鷹市上連雀1-12-17三鷹ビジネスパーク1号館3F",
-          "description": "障害者雇用支援のパイオニアとして企業向けコンサルティングや各種支援サービスを提供し、障害者の採用から定着までをサポート",
+          "description": "障害者雇用支援のパイオニア企業。企業向けの障害者雇用コンサルティングから個人向けの就労支援まで総合的なサービスを提供。",
           "main_services": [
             "障害者雇用総合コンサルティングサービス",
-            "サポート付きサテライトオフィスINCLU",
-            "屋内農園型障害者雇用支援サービスIBUKI",
-            "ロースタリー型障害者雇用支援サービスBYSN"
+            "サポート付きサテライトオフィス『INCLU』",
+            "屋内農園型障害者雇用支援サービス『IBUKI』",
+            "ロースタリー型障害者雇用支援サービス『BYSN』"
           ]
         },
         "funding": {
@@ -27,25 +27,26 @@
           {
             "title": "応対品質向上型障害者雇用支援サービスRESQWO開始",
             "date": "2025-04-XX",
-            "summary": "WOWOWコミュニケーションズと共同開発したサービスを開始",
-            "source_url": "https://holistic-r.org/c_info/477a/"
+            "summary": "WOWOWコミュニケーションズと共同開発したサービス",
+            "source_url": null
           }
         ],
         "competitive_position": {
           "strengths": [
-            "障害者雇用支援の先駆者として豊富な実績とノウハウ",
-            "東証グロース市場上場企業としての信頼性",
-            "コンサルティングから具体的な支援サービスまでワンストップ提供",
-            "全国展開によるカバレッジ"
+            "障害者雇用支援領域のパイオニア",
+            "15年以上の支援実績とノウハウ",
+            "多様なサービスラインナップ",
+            "東証グロース市場上場企業",
+            "全国展開対応"
           ],
-          "market_position": "障害者雇用支援市場のパイオニア企業として、法定雇用率引き上げの追い風を受けて成長中",
-          "threat_to_sms": "1段階 - 障害者雇用支援という特化した領域でSMSとは事業領域が大きく異なるため脅威は低い"
+          "market_position": "障害者雇用支援市場のリーディングカンパニー。法定雇用率引き上げによる需要拡大を背景に成長",
+          "threat_to_sms": "1 - 障害者雇用支援という特化分野でSMSとは直接競合しない"
         },
         "confidence": "high",
-        "data_freshness": "2025年頃"
+        "data_freshness": "2025年"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:27:21.827750"
+      "searchedAt": "2026-02-22T23:31:45.598089"
     },
     {
       "type": "funding",
@@ -71,84 +72,112 @@
           "threat_to_sms": null
         },
         "confidence": "low",
-        "data_freshness": "2025-12-19"
+        "data_freshness": null
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:27:21.827776"
+      "searchedAt": "2026-02-22T23:31:45.598111"
     },
     {
       "type": "news",
       "queryTerms": "\"スタートライン\" 最新 ニュース 2025 2026 動向",
       "data": {
         "business_overview": {
-          "founded": null,
+          "founded": "2009年",
           "employees": null,
           "headquarters": "東京都三鷹市",
-          "description": "障害者雇用支援サービスを提供。コーヒー焙煎や屋内農園などの付加価値業務を開発し、企業の障害者雇用を支援する。",
+          "description": "障害者雇用支援を通じてコーヒー焙煎や屋内農園型サービス等を提供し、企業の法定雇用率達成を支援する事業を展開",
           "main_services": [
-            "ロースタリー型障害者雇用支援サービス「BYSN」",
-            "屋内農園型障害者雇用支援サービス「IBUKI」",
-            "コンサルティングサービス"
+            "BYSN（ロースタリー型障害者雇用支援）",
+            "IBUKI（屋内農園型障害者雇用支援）",
+            "コンサルティングサービス",
+            "Diverse Village（複合型拠点）"
           ]
         },
         "funding": {
           "total_raised": null,
-          "latest_round": "IPO",
+          "latest_round": "IPO（東証グロース市場新規上場）",
           "investors": null,
           "valuation_estimate": null
         },
         "recent_news": [
           {
-            "title": "2025年4-12月期決算発表、税引き利益1億1100万円",
+            "title": "兵庫県伊丹市にDiverse Village KITAITAMI開設～約60名の障害者の雇用を創出～",
+            "date": "2026-01-19",
+            "summary": "新拠点開設により障害者雇用機会を拡大",
+            "source_url": "https://start-line.jp/news-category/pr/page/2/"
+          },
+          {
+            "title": "スタートLの25年4〜12月期、税引き利益1億1100万円　通期予想据え置き",
             "date": "2026-02-13",
-            "summary": "第3四半期累計で売上高39.91億円、営業利益2.47億円と堅調に推移",
+            "summary": "2025年4-12月期決算発表、通期予想は据え置き",
             "source_url": "https://www.nikkei.com/article/DGXZRST0561568T10C26A2000000/"
           },
           {
-            "title": "東京証券取引所グロース市場に上場",
-            "date": "2025-12-22",
-            "summary": "初値935円で上場、公開価格から94.79%上昇",
-            "source_url": "https://diamond.jp/zai/articles/-/1059471"
-          },
-          {
-            "title": "法定雇用率2.7%時代のイベント開催",
-            "date": "2026-02-12",
-            "summary": "雇用の質をテーマにした対話型イベント「コークリテラス2026 早春」を開催",
-            "source_url": "https://start-line.jp/news/cocr202602/"
+            "title": "【業界初！障害者雇用の新形態】複合型拠点『Diverse Village USHIKU』を開設",
+            "date": "2026-01-14",
+            "summary": "キャリア形成支援を目的とした複合型拠点を新設",
+            "source_url": "https://start-line.jp/news-category/pr/page/2/"
           }
         ],
         "competitive_position": {
           "strengths": [
+            "ストック収益型のビジネスモデル",
             "科学的根拠に基づく支援力",
-            "付加価値のある業務開発（コーヒー焙煎、屋内農園）",
-            "コンサルティングから実務まで包括的サービス"
+            "コーヒー焙煎・農園等付加価値の高い業務開発",
+            "法定雇用率引き上げによる市場拡大の追い風"
           ],
-          "market_position": "障害者雇用支援分野で独自の付加価値型サービスを展開する上場企業として市場をリード",
-          "threat_to_sms": null
+          "market_position": "障害者雇用支援市場のリーディングカンパニーとして、IPO達成により更なる成長ステージに",
+          "threat_to_sms": "3（中程度） - 障害者雇用という特化分野でのサービス提供のため、一般的なSMSサービスとは市場セグメントが異なるが、労働力確保の観点で間接的な競合関係にある可能性"
         },
-        "confidence": "medium",
-        "data_freshness": "2026-02-13"
+        "confidence": "high",
+        "data_freshness": "2026-02-20"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:27:21.827781"
+      "searchedAt": "2026-02-22T23:31:45.598116"
     },
     {
       "type": "competitive",
       "queryTerms": "\"スタートライン\" 競合 市場シェア 強み 差別化",
       "data": {
-        "business_overview": null,
-        "funding": null,
-        "recent_news": null,
-        "competitive_position": {
-          "strengths": null,
-          "market_position": "検索結果では「スタートライン」は競争戦略の文脈で、最低限の基準や前提条件として言及されている。競合との差別化においては、単なる品質や実績は選ばれる理由ではなく競争の土俵に立つための基準に過ぎないとされている。",
-          "threat_to_sms": null
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "障害者雇用支援を主力事業とするBtoB企業。民間企業の障害者雇用義務達成を支援し、科学的根拠に基づく支援技術を提供。",
+          "main_services": [
+            "障害者雇用支援（BtoB）",
+            "就労移行支援事業",
+            "就労継続支援B型事業"
+          ]
         },
-        "confidence": "low",
-        "data_freshness": null
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "スタートライン社が2025年12月22日にIPO！上場で障害者雇用の支援拡大",
+            "date": "2025-12-22",
+            "summary": "障害者雇用支援企業のスタートラインがIPOを予定",
+            "source_url": "https://ai-fukushi.net/start-line/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "科学的根拠に基づく支援力（応用行動分析学・ACT）",
+            "障害者雇用の多様なサービス提供",
+            "社内研究開発機関「CBSヒューマンサポート研究所」保有"
+          ],
+          "market_position": "障害者雇用支援市場でJSH、エスプールと競合する主要BtoB事業者の一角",
+          "threat_to_sms": "3段階 - 障害者雇用は特化領域だが、BtoB人材支援サービスとして一部競合の可能性"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-12-22"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:27:21.827786"
+      "searchedAt": "2026-02-22T23:31:45.598121"
     }
   ]
 }

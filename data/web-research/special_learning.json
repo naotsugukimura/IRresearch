@@ -7,14 +7,116 @@
       "data": {
         "business_overview": {
           "founded": "2014年",
-          "employees": "32名",
-          "headquarters": null,
-          "description": "障がい福祉支援者向けオンライン研修サービス「Special Learning」を提供し、障がい者への理解促進を目指す",
+          "employees": null,
+          "headquarters": "大阪府高槻市萩之庄5-1-1-502（高槻本社）、東京都千代田区大手町2-6-2 日本ビル12階（東京本社）",
+          "description": "障がい福祉に特化したeラーニング「Special Learning」を中心に、障がい者支援者向けの研修サービスや知的障がい者支援を展開。",
           "main_services": [
             "Special Learning",
             "Special Learning for business",
             "Special Shift",
-            "知的障がい支援士認定資格"
+            "知的障がい支援士"
+          ]
+        },
+        "funding": {
+          "total_raised": "3億1380万円（資本金）",
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "2025年日本国際博覧会協会とアドバイザリー契約締結",
+            "date": "2023年",
+            "summary": "大阪・関西万博の会場アクセシビリティ向上に協力",
+            "source_url": null
+          },
+          {
+            "title": "内閣府特命担当大臣表彰優良賞受賞",
+            "date": "2023年",
+            "summary": "バリアフリー・ユニバーサルデザイン推進功労者として表彰",
+            "source_url": null
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "障がい福祉特化のeラーニングで1,300本以上の動画コンテンツ",
+            "37,000人以上のユーザー基盤",
+            "37都道府県1,400以上の事業所で導入実績",
+            "障がい当事者出演の実践的コンテンツ"
+          ],
+          "market_position": "障がい福祉向けeラーニング分野でのリーディングポジション",
+          "threat_to_sms": "1段階 - 障がい福祉に特化した領域で、SMSの主力事業である一般的な連絡手段とは市場が異なる"
+        },
+        "confidence": "high",
+        "data_freshness": "2023年"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:30:47.651437"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"Special Learning\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": "50名以下（推定）",
+          "headquarters": null,
+          "description": "知的障がい者支援に必要な知識を習得するためのeラーニング「Special Learning」のサービス開発を行う",
+          "main_services": [
+            "Special Learning"
+          ]
+        },
+        "funding": {
+          "total_raised": "約3億円",
+          "latest_round": "シリーズAエクステンション",
+          "investors": [
+            "おおさか社会課題解決2号投資事業有限責任組合",
+            "京信イノベーションC2号投資事業有限責任組合",
+            "京銀輝く未来応援ファンド2号投資事業有限責任組合",
+            "三菱UFJキャピタル8号投資事業有限責任組合",
+            "Samurai Incubate Fund 6号投資事業有限責任組合",
+            "みずほ成長支援第3号投資事業有限責任組合",
+            "関西イノベーションネットワーク投資事業有限責任組合",
+            "SMBCベンチャーキャピタル6号投資事業有限責任組合"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "累計調達額約3億円の資金調達完了",
+            "date": null,
+            "summary": "シリーズAエクステンションで8,050万円を調達",
+            "source_url": "https://leanonme.co.jp/seriesaextension_finance/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "知的障がい者支援に特化したeラーニング",
+            "3分間の短い動画によるマイクロラーニング方式",
+            "200個以上の研修動画コンテンツ",
+            "権利擁護・虐待防止など体系的なコース設定"
+          ],
+          "market_position": "障がい福祉分野に特化したeラーニングプラットフォームとして社会課題解決型のニッチ市場でのリーダー的存在",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2024-07-05"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T23:30:47.651454"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"Special Learning\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "日本",
+          "description": "障がい福祉施設向けのオンライン研修サービス。3分程度の短いコンテンツ2,000本以上を提供し、専門知識を学習できる。",
+          "main_services": [
+            "障がい福祉特化型オンライン研修",
+            "専門家監修コンテンツ配信"
           ]
         },
         "funding": {
@@ -25,119 +127,27 @@
         },
         "recent_news": [
           {
-            "title": "障がい福祉に特化したeラーニング「Special Learning」に研修の提供・受講をサポートする新機能が登場！",
-            "date": null,
-            "summary": "研修計画機能で支援の質を高める人材育成を実現",
-            "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000038466.html"
-          }
-        ],
-        "competitive_position": {
-          "strengths": [
-            "障がい福祉に特化したマイクロラーニング形式",
-            "1,300本以上の専門家監修動画コンテンツ",
-            "7,300以上の組織が利用",
-            "3分程度の短時間学習でスキマ時間活用可能"
-          ],
-          "market_position": "障がい福祉業界特化のeラーニング市場でのリーディングポジション",
-          "threat_to_sms": null
-        },
-        "confidence": "medium",
-        "data_freshness": null
-      },
-      "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:26:27.724245"
-    },
-    {
-      "type": "funding",
-      "queryTerms": "\"Special Learning\" 資金調達 出資 投資 ラウンド 評価額",
-      "data": {
-        "business_overview": {
-          "founded": null,
-          "employees": null,
-          "headquarters": null,
-          "description": "知的障がい者支援に必要な知識を3分動画で学べるeラーニング「Special Learning」を開発・提供",
-          "main_services": [
-            "Special Learning"
-          ]
-        },
-        "funding": {
-          "total_raised": "約3億円",
-          "latest_round": "シリーズA",
-          "investors": [
-            "おおさか社会課題解決2号投資事業有限責任組合",
-            "京信イノベーションC2号投資事業有限責任組合",
-            "京銀輝く未来応援ファンド2号投資事業有限責任組合",
-            "三菱UFJキャピタル8号投資事業有限責任組合",
-            "松尾義清氏（株式会社農業総合研究所取締役）"
-          ],
-          "valuation_estimate": null
-        },
-        "recent_news": [
-          {
-            "title": "累計調達額約3億円の資金調達完了",
-            "date": null,
-            "summary": "シリーズAラウンドで8,050万円を調達、累計約3億円に",
-            "source_url": "https://leanonme.co.jp/seriesaextension_finance/"
-          }
-        ],
-        "competitive_position": {
-          "strengths": [
-            "障がい福祉分野に特化したeラーニング",
-            "マイクロラーニング方式採用",
-            "200個以上の研修動画コンテンツ"
-          ],
-          "market_position": "障がい福祉分野のeラーニング市場でニーズが高まっている",
-          "threat_to_sms": null
-        },
-        "confidence": "medium",
-        "data_freshness": null
-      },
-      "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:26:27.724262"
-    },
-    {
-      "type": "news",
-      "queryTerms": "\"Special Learning\" 最新 ニュース 2025 2026 動向",
-      "data": {
-        "business_overview": {
-          "founded": null,
-          "employees": null,
-          "headquarters": "日本（推定）",
-          "description": "障がい福祉施設向けのオンライン研修サービス。3分程度の短いコンテンツを2,000本以上配信し、専門知識を提供。",
-          "main_services": [
-            "障がい福祉特化オンライン研修",
-            "専門家監修プログラム配信"
-          ]
-        },
-        "funding": {
-          "total_raised": null,
-          "latest_round": null,
-          "investors": [],
-          "valuation_estimate": null
-        },
-        "recent_news": [
-          {
             "title": "Special Learning利用実績更新",
             "date": "2025-12-31",
-            "summary": "累計利用者13.3万人、利用事業所7,300事業所、継続率98%達成",
+            "summary": "累計利用者13.3万人、利用事業所7,300事業所、継続率98%を達成",
             "source_url": "https://special-learning.jp/"
           }
         ],
         "competitive_position": {
           "strengths": [
-            "障がい福祉特化の専門性",
+            "障がい福祉に特化した専門性",
             "高い継続率98%",
-            "豊富なコンテンツ数2,000本以上",
-            "著名専門家との共同開発"
+            "豊富なコンテンツ2,000本以上",
+            "月額8,000円からの低価格"
           ],
-          "market_position": "障がい福祉分野でのオンライン研修におけるリーディングポジション（推定）",
-          "threat_to_sms": "2段階 - 特定業界特化のため直接的脅威は限定的だが、オンライン研修市場での成功モデルとして参考になる"
+          "market_position": "障がい福祉施設向けオンライン研修の専門プレイヤーとして確立",
+          "threat_to_sms": null
         },
         "confidence": "medium",
         "data_freshness": "2025-12-31"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:26:27.724267"
+      "searchedAt": "2026-02-22T23:30:47.651458"
     },
     {
       "type": "competitive",
@@ -147,8 +157,11 @@
           "founded": null,
           "employees": null,
           "headquarters": null,
-          "description": null,
-          "main_services": null
+          "description": "特別支援教育ソフトウェア市場におけるプレイヤーとして、多様な学習ニーズに対応する包括的な教育ソリューションを提供",
+          "main_services": [
+            "特別支援教育ソフトウェア",
+            "パーソナライゼーション学習ソリューション"
+          ]
         },
         "funding": {
           "total_raised": null,
@@ -159,19 +172,19 @@
         "recent_news": null,
         "competitive_position": {
           "strengths": [
-            "価格競争の回避",
-            "高い利益率",
-            "差別化戦略による競争優位性",
-            "強いブランドポジショニング"
+            "包括性重視のアプローチ",
+            "多様な学習ニーズへの対応",
+            "先進技術の統合",
+            "パーソナライゼーション機能"
           ],
-          "market_position": "独自の価値提案により市場シェアを確保し、価格以外の理由で顧客に選ばれるポジション",
-          "threat_to_sms": null
+          "market_position": "特別支援教育ソフトウェア市場は2024年の212.6億ドルから2035年には700億ドル（CAGR 11%）へ成長予測される中で、包括性とパーソナライゼーションに特化したポジショニング",
+          "threat_to_sms": "3段階 - 特別支援教育という専門性の高いニッチ市場に特化しており、一般的なSMSとは異なる顧客セグメントを対象としているため、直接的な脅威は中程度"
         },
         "confidence": "low",
-        "data_freshness": null
+        "data_freshness": "2024-2025"
       },
       "sourceUrls": [],
-      "searchedAt": "2026-02-22T20:26:27.724270"
+      "searchedAt": "2026-02-22T23:30:47.651462"
     }
   ]
 }

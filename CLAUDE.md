@@ -22,9 +22,10 @@ Vercelにデプロイして使用（`output: "export"`）。
 
 ## ディレクトリ構成
 ```
-app/                    # ページ（27ページ）
+app/                    # ページ（28ページ）
   page.tsx              # ダッシュボード（/）
   market/page.tsx       # 総合ダッシュボード（/market）
+  reward-revision/page.tsx # 報酬改定タイムライン（/reward-revision）
   facility/page.tsx     # 事業所分析インデックス（/facility） — 4カテゴリ19サービス
   facility/houkago-day/ # 放課後等デイサービス
   facility/jidou-hattatsu/ # 児童発達支援
@@ -55,8 +56,9 @@ components/
   dashboard/            # ダッシュボードKPI
   compare/              # 比較テーブル・チャート
   trends/               # トレンド表示
-  market/               # 総合ダッシュボード（MarketKpiCards, PopulationChart, EmploymentChart等）
-  facility/             # 事業所分析（FacilityDetailPage, EntityDistribution, DailyTimeline, PLWaterfall, MonthlyPLTable等）
+  market/               # 総合ダッシュボード（MarketKpiCards, PopulationChart, EmploymentChart, ContextAnnotations等）
+  facility/             # 事業所分析（FacilityDetailPage, EntityDistribution, DailyTimeline, PLWaterfall, MonthlyPLTable, RewardUnitTable等）
+  reward/               # 報酬改定（CrossServiceTimeline, ServiceRevisionDetail）
   layout/               # Sidebar, Breadcrumb, PageHeader
   shared/               # 再利用コンポーネント（Badge系）
   ui/                   # shadcn/ui基本部品
@@ -67,6 +69,7 @@ lib/
   constants.ts          # 全定数（カテゴリ色、脅威レベル、ナビ項目等）
 data/                   # 全データJSON（companies, financials, business-plans等）
   market-overview.json  # 障害者人口・雇用・事業所数時系列 + ニュース + 採用方法
+  reward-revisions.json # 報酬改定タイムライン（18サービス×101件）
   facility-analysis/    # 事業所分析（全18サービス種別のJSON）
     houkago-day.json, jidou-hattatsu.json, iryougata-jidou.json,
     kyotaku-houmon.json, hoikusho-houmon.json, group-home.json,
@@ -494,12 +497,61 @@ TAVILY_API_KEY=tvly-...
 - **報酬改定 常時展開**: アコーディオン廃止、全内容を常時表示
 - **FacilityGrowthChartInner動的化**: serviceType prop追加、ハードコード統計（倍率/シェア）を動的計算に変更
 
+## ★ Phase 15 完了（2026-02-22）: マーケット文脈アノテーション + 企業BS/CFデータ横展開
+
+### Phase 15a: マーケット文脈アノテーション（3プレイヤー）
+- `ContextAnnotation` 型追加: chartId + government/provider/user の3プレイヤー視点
+- `data/market-overview.json` に `contextAnnotations` 配列追加（6エントリ: 障害者人口/雇用/事業所数 × 各2件）
+- `components/market/ContextAnnotations.tsx` — 展開可能カードUI（Landmark/Building2/Users アイコン）
+- 3チャートWrapper + Inner に annotations prop追加（DisabilityPopulation/EmploymentTrends/FacilityCount）
+- `/market` ページで chartId でフィルターして各チャートに渡す
+
+### Phase 15b: 企業BS/CFデータ横展開
+- `scripts/add_bscf_data.py` 実行: Tavily + Claude APIで16社のBS/CFデータをWeb検索→抽出
+- 14社成功（recruit:38, saint_care:35, medley:30, care21:24 等）、2社(cocoruport/spool)はデータ不足
+- `data/financials.json` に反映済み
+
+## ★ Phase 16 完了（2026-02-22）: 報酬単位表 全19サービス
+
+### Phase 16a: 放課後デイ先行実装
+- `RewardUnitTable.tsx` — 2タブUI（基本報酬 / 主要加算）
+  - 基本報酬テーブル: カテゴリ(rowSpan)×定員×利用時間×単位数×概算金額
+  - 主要加算テーブル: 加算名×単位数×算定単位×主な要件
+  - 折りたたみ地域区分別単価（8区分: 1級地11.10円〜その他10.00円）
+  - 注意事項ノート
+- 型: `RewardUnitRow`, `RewardBonusRow`, `RewardUnitTableData`
+- `FacilityAnalysisData` に `rewardUnitTable?` フィールド追加
+- `FACILITY_SECTIONS` に `{ id: "rewardTable", label: "報酬単位" }` 追加
+
+### Phase 16b: 全17サービス横展開
+- `scripts/generate_reward_tables.py` — Claude APIで17サービスの報酬単位データを並列生成
+- 各サービス令和6年度改定ベース: 基本報酬(8-35行) + 主要加算(10-14種) + 地域区分 + 注意事項
+- 合計4,619行のデータ追加
+
+## ★ Phase 17 完了（2026-02-22）: 報酬改定タイムラインページ
+
+### 新規ページ `/reward-revision`
+- `app/reward-revision/page.tsx` — 独立したトップレベルページ
+- **上部: 全サービス横断タイムライン** (`components/reward/CrossServiceTimeline.tsx`)
+  - 改定年ごと（2006〜2024年）にグルーピング表示
+  - カテゴリフィルター（障害児通所/居住/訓練就労/相談/訪問系）
+  - 各年の影響サービスをバッジ表示、クリックで詳細展開
+  - 新設=青、改定=amber のカラーコード
+- **下部: サービス別詳細タブ** (`components/reward/ServiceRevisionDetail.tsx`)
+  - 18サービスをカテゴリ別グルーピングしたタブUI
+  - 各サービスの全改定をカード型タイムラインで詳細表示（基本報酬額/変更点/市場影響）
+- `data/reward-revisions.json` — 18サービス×合計101件の改定データ
+- `scripts/generate_reward_revisions.py` — Claude APIでデータ生成
+- 型: `ServiceRevisionEntry`, `RewardRevisionPageData`
+- ナビ: NAV_ITEMSマクロ環境グループに「報酬改定」リンク追加
+
+## ★ 事業ライフサイクル横展開 完了（2026-02-22）
+- `scripts/generate_lifecycle.py` 実行済み: 全17サービスにbusinessLifecycleデータ追加済み
+
 ### ★ 次にやること
 - **全82社IR分析一括実行**: NEXT_SESSION_PROMPT.md参照（Step 1-5の手順あり、API費用~$32）
-- **事業ライフサイクル横展開**: 残り18サービスにbusinessLifecycleデータ追加
-- **企業データ横展開**: 他社BS/CFデータ追加、Tavily全25社リサーチ（`ir_pipeline.py --all-private --parallel 5 --no-db`）
-- Phase 15: マーケット文脈アノテーション（3プレイヤー「なぜ増えたか」）
-- Supabase `company_web_research` テーブル作成
+- **非上場企業Webリサーチ**: 残り17社分（tavily_research.py実行中 or 完了）
+- Supabase `company_web_research` テーブル作成（SQL Editor手動実行が必要）
 - OOPリファクタリング Phase 2: PdfEarningsAnalyzer + EdinetAnalyzer
 
 ## システム設計方針（★重要 — IR分析パイプラインに適用）
@@ -633,6 +685,10 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `add_bonus_flow_data.py` — Phase 13d: bonusAcquisitionFlow追加（houkago-day）
 - `add_phase13_all_services.py` — Phase 13e: 全18サービスにuserJourney/startupGuide/bonusAcquisitionFlow横展開
 - `add_lifecycle_data.py` — 事業ライフサイクル: houkago-dayにbusinessLifecycle追加（パイロット）
+- `generate_lifecycle.py` — 事業ライフサイクル: 全17サービスにbusinessLifecycle横展開（Claude API並列）
+- `generate_reward_tables.py` — 報酬単位表: 全17サービスにrewardUnitTable横展開（Claude API並列）
+- `generate_reward_revisions.py` — 報酬改定タイムライン: 全18サービスの改定履歴データ生成 → reward-revisions.json
+- `add_bscf_data.py` — 企業BS/CFデータ: Tavily+Claude APIで上場企業のBS/CFを検索→抽出→financials.json更新
 
 ## ビルド & デプロイ
 ```bash
@@ -649,4 +705,8 @@ python scripts/export_json.py                               # DB→JSON全出力
 python scripts/export_json.py --only companies              # 特定テーブルのみ
 python scripts/tavily_research.py --company kaien --no-db   # 非上場企業Webリサーチ（1社テスト）
 python scripts/tavily_research.py --all-private --no-db     # 全25社一括実行
+python scripts/generate_lifecycle.py                        # 事業ライフサイクル全17サービス横展開
+python scripts/generate_reward_tables.py                    # 報酬単位表全17サービス横展開
+python scripts/generate_reward_revisions.py                 # 報酬改定タイムラインデータ生成
+python scripts/add_bscf_data.py                             # 企業BS/CFデータ横展開
 ```
