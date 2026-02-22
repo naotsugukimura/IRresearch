@@ -30,6 +30,75 @@
 
 ## 次回やること
 
+### ★ 最優先: 全82社IR分析の一括実行
+
+**目的**: 上場52社の決算インサイト + 非上場17社のWebリサーチを一括実行し、全社のデータを揃える。
+
+#### 現状（2026-02-22時点）
+| 種別 | 対象 | 済 | 残 |
+|---|---|---|---|
+| 決算インサイト（上場PDF分析） | 57社 | 5社(litalico,sms,persol,pasona,visional) | **52社** |
+| Webリサーチ（非上場） | 25社 | 8社(atama_plus,atgp,bright_vacation,cuore,decoboco,goodwill,hug,kaien) | **17社** |
+| 事業計画PL | 82社 | 28社 | 54社 |
+
+#### コスト見積もり
+| 項目 | コスト | 時間 |
+|---|---|---|
+| 上場52社（決算PDF分析）| ~$28 | ~35分（並列3） |
+| 非上場17社（Webリサーチ）| ~$4 | ~15分 |
+| **合計API費用** | **~$32（約4,800円）** | |
+| PDF取得・URL修正 | $0 | 1〜3時間（最大ボトルネック） |
+
+#### 実行手順
+
+**Step 1: 非上場17社Webリサーチ（簡単・先にやる）**
+```bash
+cd C:\Users\81806\AIBPO\IRkun
+# 未実施の17社を一括実行（DB保存なし、JSON直接出力）
+python scripts/tavily_research.py --all-private --no-db
+```
+- Tavilyクレジット: 136消費（無料枠1,000内で余裕）
+- 出力先: `data/web-research/{company_id}.json`
+- 8社済みのものはスキップされる（冪等）
+
+**Step 2: 上場52社の決算PDF取得（ボトルネック）**
+```bash
+# まず既存のPDF取得スクリプトで試す
+python scripts/fetch_earnings.py --all
+```
+- IR URLが変更されている企業が多い → エラーになった企業のURLを手動修正
+- `scripts/earnings_urls.json` or スクリプト内のURL定義を確認・更新
+- 30MB超のPDFはスキップ（仕様）
+
+**Step 3: 上場52社の決算インサイト分析**
+```bash
+# PDF取得済みの企業を一括分析
+python scripts/analyze_earnings.py --all
+```
+- モデル: claude-sonnet-4-20250514 / max_tokens: 4,096
+- 1PDF = 1 API呼び出し、平均2PDF/社
+- 出力先: `data/earnings-insights/{company_id}.json`
+- 5社済みのものはスキップされる（冪等）
+
+**Step 4: ビルド検証**
+```bash
+npm run build
+```
+
+**Step 5: コミット**
+```bash
+git add data/web-research/ data/earnings-insights/
+git commit -m "feat: 全82社IR分析データ追加（上場52社決算 + 非上場17社Webリサーチ）"
+```
+
+#### 注意事項
+- `fetch_earnings.py` のURL修正が最も時間がかかる作業。エラーログを見て1社ずつ修正する
+- Tavily無料枠の残りクレジット数を事前に確認（https://app.tavily.com）
+- Claude APIの利用量上限に注意（Sonnetで$32程度）
+- 全スクリプトは冪等（再実行しても安全）なので、途中で止まっても再開可能
+
+---
+
 ### 1. 事業ライフサイクル横展開（18サービス）
 `scripts/add_lifecycle_all_services.py` を作成し、残り18サービスに `businessLifecycle` データを追加。
 - **テンプレート5パターン**: 障害児通所 / 居住 / 通所（日中活動） / 訪問 / 相談

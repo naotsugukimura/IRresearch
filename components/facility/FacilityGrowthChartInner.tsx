@@ -14,13 +14,13 @@ import {
   Legend,
   ReferenceLine,
 } from "recharts";
-import { ChevronDown, ChevronUp } from "lucide-react";
 import type { YearCount, RewardRevision } from "@/lib/types";
 
 interface Props {
   facilityData: YearCount[];
   userData: YearCount[];
   rewardRevisions?: RewardRevision[];
+  serviceType?: string;
 }
 
 const ENTITY_COLORS: Record<string, string> = {
@@ -35,10 +35,8 @@ const ENTITY_COLORS: Record<string, string> = {
 
 const ENTITY_KEYS = ["株式会社", "合同会社", "NPO法人", "一般社団法人", "社会福祉法人", "医療法人", "その他"];
 
-export default function FacilityGrowthChartInner({ facilityData, userData, rewardRevisions }: Props) {
+export default function FacilityGrowthChartInner({ facilityData, userData, rewardRevisions, serviceType }: Props) {
   const [view, setView] = useState<"stacked" | "line">("stacked");
-  const [expandedRevision, setExpandedRevision] = useState<number | null>(null);
-
   const hasEntityData = facilityData.some((f) => f.byEntity);
 
   const stackedData = facilityData.map((f) => {
@@ -68,7 +66,7 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
         <div>
           <h3 className="text-sm font-bold">事業所数・利用者数の推移</h3>
           <p className="text-xs text-muted-foreground">
-            放課後等デイサービスの時系列推移（2012年〜） — 報酬改定と市場変化
+            {serviceType ?? "放課後等デイサービス"}の時系列推移（{facilityData[0]?.year ?? ""}年〜）{rewardRevisions && rewardRevisions.length > 0 ? " — 報酬改定と市場変化" : ""}
           </p>
         </div>
         {hasEntityData && (
@@ -213,60 +211,69 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
       )}
 
       <div className="mt-3 flex flex-wrap gap-4 text-xs text-muted-foreground">
-        <span>2012年→2025年: 事業所数 <span className="font-mono font-medium text-foreground">約9倍</span></span>
-        <span>利用者数 <span className="font-mono font-medium text-foreground">約7.3倍</span></span>
-        {hasEntityData && (
-          <span>株式会社シェア <span className="font-mono font-medium text-foreground">35%→55%</span></span>
-        )}
+        {facilityData.length >= 2 && (() => {
+          const first = facilityData[0];
+          const last = facilityData[facilityData.length - 1];
+          const ratio = last.count / (first.count || 1);
+          return (
+            <span>{first.year}年→{last.year}年: 事業所数 <span className="font-mono font-medium text-foreground">約{ratio.toFixed(1)}倍</span></span>
+          );
+        })()}
+        {userData.length >= 2 && (() => {
+          const first = userData[0];
+          const last = userData[userData.length - 1];
+          const ratio = last.count / (first.count || 1);
+          return (
+            <span>利用者数 <span className="font-mono font-medium text-foreground">約{ratio.toFixed(1)}倍</span></span>
+          );
+        })()}
+        {hasEntityData && (() => {
+          const first = facilityData[0];
+          const last = facilityData[facilityData.length - 1];
+          if (!first?.byEntity?.["株式会社"] || !last?.byEntity?.["株式会社"]) return null;
+          const firstShare = Math.round((first.byEntity["株式会社"] / first.count) * 100);
+          const lastShare = Math.round((last.byEntity["株式会社"] / last.count) * 100);
+          return (
+            <span>株式会社シェア <span className="font-mono font-medium text-foreground">{firstShare}%→{lastShare}%</span></span>
+          );
+        })()}
       </div>
 
-      {/* 報酬改定タイムライン */}
+      {/* 報酬改定タイムライン — 常時展開 */}
       {rewardRevisions && rewardRevisions.length > 0 && (
         <div className="mt-5 border-t border-border pt-4">
           <h4 className="mb-3 text-xs font-bold text-muted-foreground">報酬改定の歴史と市場への影響</h4>
-          <div className="space-y-2">
+          <div className="space-y-3">
             {rewardRevisions.map((rev) => (
               <div
                 key={rev.year}
-                className="rounded-lg border border-border/50 bg-muted/10 transition-colors hover:bg-muted/20"
+                className="rounded-lg border border-border/50 bg-muted/10 p-4"
               >
-                <button
-                  onClick={() => setExpandedRevision(expandedRevision === rev.year ? null : rev.year)}
-                  className="flex w-full items-center gap-3 p-3 text-left"
-                >
+                <div className="flex items-center gap-3">
                   <span className="flex h-7 w-14 flex-shrink-0 items-center justify-center rounded-md bg-amber-500/20 font-mono text-[11px] font-bold text-amber-400">
                     {rev.year}
                   </span>
-                  <div className="flex-1">
+                  <div>
                     <span className="text-xs font-medium">{rev.title}</span>
                     <span className="ml-2 text-[10px] text-muted-foreground">{rev.baseReward}</span>
                   </div>
-                  {expandedRevision === rev.year ? (
-                    <ChevronUp className="h-3.5 w-3.5 text-muted-foreground" />
-                  ) : (
-                    <ChevronDown className="h-3.5 w-3.5 text-muted-foreground" />
-                  )}
-                </button>
-                {expandedRevision === rev.year && (
-                  <div className="border-t border-border/30 px-3 pb-3 pt-2">
-                    <p className="text-[11px] leading-relaxed text-muted-foreground">{rev.description}</p>
-                    <div className="mt-2 rounded-md bg-blue-500/10 p-2">
-                      <p className="text-[10px] font-medium text-blue-400">市場への影響</p>
-                      <p className="mt-0.5 text-[11px] leading-relaxed text-blue-300/80">{rev.impact}</p>
-                    </div>
-                    <div className="mt-2">
-                      <p className="text-[10px] font-medium text-muted-foreground">主な変更点</p>
-                      <ul className="mt-1 space-y-0.5">
-                        {rev.keyChanges.map((change, i) => (
-                          <li key={i} className="flex items-start gap-1.5 text-[10px] text-muted-foreground">
-                            <span className="mt-1 h-1 w-1 flex-shrink-0 rounded-full bg-amber-400" />
-                            {change}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                )}
+                </div>
+                <p className="mt-2 text-[11px] leading-relaxed text-muted-foreground">{rev.description}</p>
+                <div className="mt-2 rounded-md bg-blue-500/10 p-2">
+                  <p className="text-[10px] font-medium text-blue-400">市場への影響</p>
+                  <p className="mt-0.5 text-[11px] leading-relaxed text-blue-300/80">{rev.impact}</p>
+                </div>
+                <div className="mt-2">
+                  <p className="text-[10px] font-medium text-muted-foreground">主な変更点</p>
+                  <ul className="mt-1 space-y-0.5">
+                    {rev.keyChanges.map((change, i) => (
+                      <li key={i} className="flex items-start gap-1.5 text-[10px] text-muted-foreground">
+                        <span className="mt-1 h-1 w-1 flex-shrink-0 rounded-full bg-amber-400" />
+                        {change}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             ))}
           </div>

@@ -17,6 +17,7 @@ interface Props {
   facilityData: YearCount[];
   userData: YearCount[];
   rewardRevisions?: RewardRevision[];
+  serviceType?: string;
 }
 
 export function FacilityGrowthChart(props: Props) {

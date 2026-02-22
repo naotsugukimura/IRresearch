@@ -469,14 +469,38 @@ TAVILY_API_KEY=tvly-...
 - `FacilityAnalysisData` に `businessLifecycle?: BusinessLifecycle` 追加
 
 ### デプロイ
-- `feature/dashboard-macro` → `main` マージ（Phase 12-14 + ライフサイクル、計12コミット）
+- `main` ブランチ直接運用（feature/dashboard-macroは廃止）
 - プロダクションURL: `i-rapp.vercel.app`
 
+### 事業所分析リファクタリング 完了（2026-02-22）
+- FacilityKpiCards: 配列バウンドチェック + ゼロ除算ガード追加
+- houkago-day: `getFacilityAnalysis("65")` + `notFound()` に統一（特殊関数削除）
+- `app/facility/error.tsx`: Next.js Error Boundary追加（白画面防止）
+- FacilityDetailPage: SectionNav統合 + データ有無に基づく動的フィルタリング
+- FACILITY_SECTIONS: `monthlyPL` セクション追加
+
+### OOPリファクタリング Phase 1 完了（2026-02-22）
+- `scripts/analyzers/base.py`: BaseIRAnalyzer ABC + AnalysisResult dataclass
+- `scripts/analyzers/tavily.py`: TavilyAnalyzer（非上場企業Webリサーチ）
+- `scripts/analyzers/registry.py`: Company→Analyzer ファクトリ
+- `scripts/ir_pipeline.py`: 統一CLI（`--company`/`--all-private`/`--parallel`対応）
+- kaienテスト済み、既存スクリプト変更なし
+
+### ダッシュボードUI改善 完了（2026-02-22）
+- **ホーム刷新**: 企業モニタリング概況 → 3カードダイジェスト（マーケットハイライト/注目企業/ニュース）— `HomeDigest.tsx`新規
+- **/market SectionNav**: 10セクションへのページ内ナビ追加（MARKET_SECTIONS拡張）
+- **事業所分析テーブル化**: カードグリッド → カテゴリ別テーブル（特徴説明+規模+概要）
+- **全18サービス法人格別時系列**: `scripts/add_entity_timeseries.py`でbyEntityデータ生成（17JSON更新）
+- **報酬改定 常時展開**: アコーディオン廃止、全内容を常時表示
+- **FacilityGrowthChartInner動的化**: serviceType prop追加、ハードコード統計（倍率/シェア）を動的計算に変更
+
 ### ★ 次にやること
-- **企業データ横展開**: 他社BS/CFデータ追加、Tavily全25社リサーチ
+- **全82社IR分析一括実行**: NEXT_SESSION_PROMPT.md参照（Step 1-5の手順あり、API費用~$32）
+- **事業ライフサイクル横展開**: 残り18サービスにbusinessLifecycleデータ追加
+- **企業データ横展開**: 他社BS/CFデータ追加、Tavily全25社リサーチ（`ir_pipeline.py --all-private --parallel 5 --no-db`）
 - Phase 15: マーケット文脈アノテーション（3プレイヤー「なぜ増えたか」）
 - Supabase `company_web_research` テーブル作成
-- IR分析パイプラインのオブジェクト指向リファクタリング（下記設計方針参照）
+- OOPリファクタリング Phase 2: PdfEarningsAnalyzer + EdinetAnalyzer
 
 ## システム設計方針（★重要 — IR分析パイプラインに適用）
 

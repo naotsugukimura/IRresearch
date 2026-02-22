@@ -229,8 +229,12 @@ export const MARKET_SECTIONS = [
   { id: "summary", label: "概要" },
   { id: "demand", label: "障害者人口" },
   { id: "employment", label: "障害者雇用" },
-  { id: "facilities", label: "事業所数" },
   { id: "recruitment", label: "採用方法" },
+  { id: "facilities", label: "事業所数" },
+  { id: "employment-policy", label: "雇用政策" },
+  { id: "history", label: "制度沿革" },
+  { id: "care-comparison", label: "介護比較" },
+  { id: "international", label: "海外事例" },
   { id: "news", label: "ニュース" },
 ] as const;
 

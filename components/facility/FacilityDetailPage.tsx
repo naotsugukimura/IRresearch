@@ -75,6 +75,7 @@ export function FacilityDetailPage({ data, title }: Props) {
               facilityData={data.facilityTimeSeries}
               userData={data.userTimeSeries}
               rewardRevisions={data.rewardRevisions}
+              serviceType={data.serviceType}
             />
           </section>
 

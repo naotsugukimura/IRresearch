@@ -1,20 +1,17 @@
 import { Sidebar, MobileNav } from "@/components/layout/Sidebar";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { PerformanceCards } from "@/components/dashboard/PerformanceCards";
-import { KeywordCloud } from "@/components/dashboard/KeywordCloud";
-import { UpdateTimeline } from "@/components/dashboard/UpdateTimeline";
-import { KpiComparisonChart } from "@/components/dashboard/KpiComparisonChart";
 import { NavigationGuide } from "@/components/dashboard/NavigationGuide";
+import { HomeDigest } from "@/components/dashboard/HomeDigest";
 import {
   getCompanies,
   getAllFinancials,
-  getAllStrategies,
+  getMarketOverview,
 } from "@/lib/data";
 
 export default function DashboardPage() {
   const companies = getCompanies();
   const financials = getAllFinancials();
-  const strategies = getAllStrategies();
+  const market = getMarketOverview();
 
   return (
     <div className="flex h-screen">
@@ -31,27 +28,12 @@ export default function DashboardPage() {
           {/* マクロ→ミクロの導線ガイド */}
           <NavigationGuide />
 
-          {/* 企業KPIサマリー */}
-          <div>
-            <h2 className="mb-3 text-sm font-semibold text-muted-foreground">
-              企業モニタリング概況
-            </h2>
-            <PerformanceCards companies={companies} financials={financials} />
-          </div>
-
-          {/* チャート + サイドバー */}
-          <div className="grid gap-4 lg:grid-cols-3">
-            <div className="lg:col-span-2">
-              <KpiComparisonChart
-                companies={companies}
-                financials={financials}
-              />
-            </div>
-            <div className="space-y-4">
-              <KeywordCloud strategies={strategies} />
-              <UpdateTimeline companies={companies} />
-            </div>
-          </div>
+          {/* ダイジェスト: マーケット・注目企業・ニュース */}
+          <HomeDigest
+            companies={companies}
+            financials={financials}
+            market={market}
+          />
         </div>
       </main>
     </div>

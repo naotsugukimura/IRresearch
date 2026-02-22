@@ -11,6 +11,8 @@ import { WelfareHistoryTimeline } from "@/components/market/WelfareHistoryTimeli
 import { CareComparisonTable } from "@/components/market/CareComparisonTable";
 import { InternationalCasesSection } from "@/components/market/InternationalCasesSection";
 import { EmploymentPolicySection } from "@/components/market/EmploymentPolicySection";
+import { SectionNav } from "@/components/layout/SectionNav";
+import { MARKET_SECTIONS } from "@/lib/constants";
 import { getMarketOverview } from "@/lib/data";
 
 export default function MarketPage() {
@@ -20,7 +22,7 @@ export default function MarketPage() {
     <div className="flex h-screen">
       <Sidebar />
       <main className="flex-1 overflow-y-auto">
-        <div className="sticky top-0 z-20 border-b border-border bg-background/95 px-4 py-3 backdrop-blur md:px-6">
+        <div className="sticky top-0 z-20 border-b-0 bg-background/95 px-4 py-3 backdrop-blur md:px-6">
           <div className="flex items-center gap-3">
             <MobileNav />
             <div>
@@ -32,6 +34,7 @@ export default function MarketPage() {
             </div>
           </div>
         </div>
+        <SectionNav sections={MARKET_SECTIONS} />
         <div className="space-y-4 p-4 md:p-6">
           {/* KPIサマリー */}
           <section id="summary">
