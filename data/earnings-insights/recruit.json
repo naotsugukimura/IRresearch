@@ -1,0 +1,59 @@
+{
+  "companyId": "recruit",
+  "analyzedAt": "2026-02-22T21:12:23.552464",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "アクション数",
+            "value": 480000000,
+            "unit": "件"
+          },
+          {
+            "name": "SaaS累計利用アカウント数",
+            "value": 3770000,
+            "unit": "アカウント"
+          },
+          {
+            "name": "決済流通額",
+            "value": 1800000000000,
+            "unit": "円"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "美容、飲食、住宅分野を中心にコロナ禍後の市場が堅調に回復・成長している"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": "Help Businesses Work Smarter戦略",
+        "period": "継続中",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "マネタイゼーションの進化",
+          "事業の効率化",
+          "AIツールのサブスクリプション提供",
+          "日本国内エコシステムの構築"
+        ]
+      },
+      "fiscal_period": "2026年3月期",
+      "summary": "リクルートホールディングス（6098）は2026年3月期第2四半期累計で売上収益1兆7935億円（前年同期比-0.3%）、営業利益3135億円（+16.2%）を計上。通期業績予想を上方修正し、売上収益3兆5985億円（+1.2%）、営業利益5660億円（+15.4%）を見込む。AIツール導入など新戦略で収益性向上を図る。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "companyId": "startline",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"スタートライン\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2009年",
+          "employees": null,
+          "headquarters": "東京都三鷹市上連雀1-12-17三鷹ビジネスパーク1号館3F",
+          "description": "障害者雇用支援のパイオニアとして企業向けコンサルティングや各種支援サービスを提供し、障害者の採用から定着までをサポート",
+          "main_services": [
+            "障害者雇用総合コンサルティングサービス",
+            "サポート付きサテライトオフィスINCLU",
+            "屋内農園型障害者雇用支援サービスIBUKI",
+            "ロースタリー型障害者雇用支援サービスBYSN"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "応対品質向上型障害者雇用支援サービスRESQWO開始",
+            "date": "2025-04-XX",
+            "summary": "WOWOWコミュニケーションズと共同開発したサービスを開始",
+            "source_url": "https://holistic-r.org/c_info/477a/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "障害者雇用支援の先駆者として豊富な実績とノウハウ",
+            "東証グロース市場上場企業としての信頼性",
+            "コンサルティングから具体的な支援サービスまでワンストップ提供",
+            "全国展開によるカバレッジ"
+          ],
+          "market_position": "障害者雇用支援市場のパイオニア企業として、法定雇用率引き上げの追い風を受けて成長中",
+          "threat_to_sms": "1段階 - 障害者雇用支援という特化した領域でSMSとは事業領域が大きく異なるため脅威は低い"
+        },
+        "confidence": "high",
+        "data_freshness": "2025年頃"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:27:21.827750"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"スタートライン\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2025-12-19"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:27:21.827776"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"スタートライン\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "東京都三鷹市",
+          "description": "障害者雇用支援サービスを提供。コーヒー焙煎や屋内農園などの付加価値業務を開発し、企業の障害者雇用を支援する。",
+          "main_services": [
+            "ロースタリー型障害者雇用支援サービス「BYSN」",
+            "屋内農園型障害者雇用支援サービス「IBUKI」",
+            "コンサルティングサービス"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": "IPO",
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "2025年4-12月期決算発表、税引き利益1億1100万円",
+            "date": "2026-02-13",
+            "summary": "第3四半期累計で売上高39.91億円、営業利益2.47億円と堅調に推移",
+            "source_url": "https://www.nikkei.com/article/DGXZRST0561568T10C26A2000000/"
+          },
+          {
+            "title": "東京証券取引所グロース市場に上場",
+            "date": "2025-12-22",
+            "summary": "初値935円で上場、公開価格から94.79%上昇",
+            "source_url": "https://diamond.jp/zai/articles/-/1059471"
+          },
+          {
+            "title": "法定雇用率2.7%時代のイベント開催",
+            "date": "2026-02-12",
+            "summary": "雇用の質をテーマにした対話型イベント「コークリテラス2026 早春」を開催",
+            "source_url": "https://start-line.jp/news/cocr202602/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "科学的根拠に基づく支援力",
+            "付加価値のある業務開発（コーヒー焙煎、屋内農園）",
+            "コンサルティングから実務まで包括的サービス"
+          ],
+          "market_position": "障害者雇用支援分野で独自の付加価値型サービスを展開する上場企業として市場をリード",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2026-02-13"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:27:21.827781"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"スタートライン\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": null,
+        "funding": null,
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": null,
+          "market_position": "検索結果では「スタートライン」は競争戦略の文脈で、最低限の基準や前提条件として言及されている。競合との差別化においては、単なる品質や実績は選ばれる理由ではなく競争の土俵に立つための基準に過ぎないとされている。",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:27:21.827786"
+    }
+  ]
+}

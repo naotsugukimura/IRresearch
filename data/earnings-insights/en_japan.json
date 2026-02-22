@@ -1,0 +1,169 @@
+{
+  "companyId": "en_japan",
+  "analyzedAt": "2026-02-22T20:56:56.329164",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": {
+          "エン転職求職者会員数": "1,252万人",
+          "engage求職者会員数": "617万人",
+          "ミドルの転職・AMBI求職者会員数": "467万人"
+        },
+        "facility_count": {
+          "エン転職利用企業数": "5,227社",
+          "engage利用企業数": "15,460社",
+          "ミドルの転職・AMBI利用企業数": "10,739社"
+        },
+        "employee_count": {
+          "連結": "3,347名",
+          "単体": "2,148名"
+        },
+        "other_kpis": [
+          "エン転職売上前年比トレンド改善",
+          "engageコスト効率化進展",
+          "エン・エージェント「紹介求人の質」「30代」でオリコン第1位"
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "採用市場の競争環境が高度化、engageの中長期的な成長には継続的な大規模投資が必要"
+      },
+      "ma_info": [
+        {
+          "target": "back check",
+          "date": null,
+          "amount": null,
+          "synergy": "活躍・定着領域のサービス提供強化",
+          "status": "completed"
+        },
+        {
+          "target": "engage事業（カカクコム社への事業承継）",
+          "date": "2026年4月1日",
+          "amount": null,
+          "synergy": "求職者および求人企業との接点拡大やサービス提供価値の向上",
+          "status": "announced"
+        }
+      ],
+      "midterm_plan": {
+        "name": "構造改革",
+        "period": "2025-2026年（構造改革期）",
+        "revenue_target": null,
+        "profit_target": "創業30周年にあたる2030年に向け過去最高利益水準（116億円）を目指す",
+        "key_strategies": [
+          "エン転職の再強化とミドルの転職・AMBIの拡充",
+          "engageの早期収益改善",
+          "ミドルクラス・ハイクラスの人材紹介強化",
+          "広告宣伝費・人件費のコスト削減",
+          "教育・評価サービスで蓄積されたデータや口コミデータの優良資産活用"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期",
+      "summary": "エン株式会社の2026年3月期第3四半期決算。売上高437.2億円（前期比▲9.7%）、営業利益31.0億円（前期比▲17.8%）。構造改革を推進中で、engage事業をカカクコム社へ承継、エン転職の再強化に注力。50億円の自己株式取得を完了し、2030年に向け過去最高利益水準を目指す。",
+      "source_file": "2026.3_3Q_presentation_h1.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": []
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": null
+      },
+      "ma_info": [
+        {
+          "target": "back check株式会社",
+          "date": "2025年10月",
+          "amount": null,
+          "synergy": "リファレンスチェックサービス事業の新規連結により増収",
+          "status": "completed"
+        },
+        {
+          "target": "株式会社エンゲージ",
+          "date": "2026年4月1日",
+          "amount": null,
+          "synergy": "engage事業を株式会社カカクコムとの連携により継続的成長を図る",
+          "status": "planned"
+        }
+      ],
+      "midterm_plan": {
+        "name": "構造改革および戦略方針の転換期",
+        "period": "2026年3月期から2027年3月期",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "事業ポートフォリオの見直し",
+          "コスト削減",
+          "成長投資"
+        ]
+      },
+      "fiscal_period": "2026年3月期",
+      "summary": "エン株式会社の2026年3月期第3四半期決算は売上高43,726百万円（前年同期比9.7%減）、営業利益3,109百万円（17.8%減）となった。主力のエン転職の減収が影響し、engageでは費用効率化を進めるも減収。一方でエンワールド・ジャパンは増収。今後2年間を構造改革期間と位置づけ、事業ポートフォリオ見直し等を推進中。",
+      "source_file": "26.3_3Q_tanshin.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": []
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": null
+      },
+      "ma_info": [
+        {
+          "target": "back check株式会社",
+          "date": "2025年4月-9月期間中",
+          "amount": "1,930百万円",
+          "synergy": "のれんが1,621百万円計上",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "構造改革および戦略方針の転換",
+        "period": "今後2年間",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "事業ポートフォリオの見直し",
+          "コスト削減",
+          "成長投資"
+        ]
+      },
+      "fiscal_period": "2026年3月期第2四半期",
+      "summary": "エン株式会社の2026年3月期第2四半期決算。売上高29,618百万円（前年同期比8.9%減）、営業利益2,367百万円（同0.5%減）。構造改革期間中でエン転職は改善傾向も減収継続、engageは投資抑制により減収。back check株式会社を1,930百万円で買収完了。配当は期末24円予定。",
+      "source_file": "26.3_2Q_tanshin.pdf"
+    }
+  ]
+}

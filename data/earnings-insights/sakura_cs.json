@@ -1,0 +1,56 @@
+{
+  "companyId": "sakura_cs",
+  "analyzedAt": "2026-02-22T21:13:19.228976",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "システム構築案件",
+            "value": null,
+            "unit": "全セグメントで増加"
+          },
+          {
+            "name": "システム運用管理",
+            "value": null,
+            "unit": "金融関連部門で減少"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "SMBCグループ向け情報化投資、自治体情報システム標準化、ERPソリューションが主力事業"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "積極的な採用活動",
+          "教育研修の拡充",
+          "給与のベースアップ",
+          "生成AI投資",
+          "収益性の高い案件獲得",
+          "品質管理の強化による不採算案件抑制"
+        ]
+      },
+      "fiscal_period": "2026年3月期",
+      "summary": "2026年3月期第3四半期累計で売上高160.65億円（4.7%増）、営業利益5.39億円（7.2%減）、経常利益7.1億円（6.1%増）、純利益4.94億円（25.6%減）。全セグメントでシステム構築が増加する一方、人材投資や研究開発投資により営業利益は減少。通期は売上高229億円、営業利益14億円を予想。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

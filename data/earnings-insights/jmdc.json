@@ -1,0 +1,76 @@
+{
+  "companyId": "jmdc",
+  "analyzedAt": "2026-02-22T21:04:32.785944",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "Pep Up-ID数",
+            "value": 7520000,
+            "unit": "人"
+          },
+          {
+            "name": "JMDC母集団数",
+            "value": 19770000,
+            "unit": "人"
+          },
+          {
+            "name": "保険者数",
+            "value": 404,
+            "unit": "社"
+          },
+          {
+            "name": "EBITDAマージン",
+            "value": 26.5,
+            "unit": "%"
+          },
+          {
+            "name": "医療機関向けシステム提供数",
+            "value": 2300,
+            "unit": "病院（推定）"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "日本最大規模の医療データベースを保有し、健康保険組合における浸透率は約2.8人に1人（1,044万人/総数約2,900万人）"
+      },
+      "ma_info": [
+        {
+          "target": "ノアメディカルシステム株式会社",
+          "date": "2026年3月期第3四半期",
+          "amount": null,
+          "synergy": "調剤薬局支援事業の株式譲渡",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "健保向け事業の5年目標",
+        "period": "～2025年度",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "健保2,000万人規模の圧倒的なポジション確立",
+          "母集団の50％までユーザープラットフォーム拡大",
+          "ユーザー率10％達成"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期（2025年4月～12月）",
+      "summary": "JMDCは2026年3月期第3四半期で売上収益364.88億円（前年同期比23.2%増）、営業利益77.67億円（同37.1%増）と大幅な増収増益を達成。ヘルスビッグデータセグメントが26.4%増で成長を牽引し、医療データプラットフォーム事業で高い収益性を維持している。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

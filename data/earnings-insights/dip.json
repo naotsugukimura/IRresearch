@@ -1,0 +1,69 @@
+{
+  "companyId": "dip",
+  "analyzedAt": "2026-02-22T21:02:27.898219",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": 2000000,
+        "facility_count": null,
+        "employee_count": 2699,
+        "other_kpis": [
+          {
+            "name": "バイトルトーク利用社数",
+            "value": 800,
+            "unit": "社"
+          },
+          {
+            "name": "バイトルトークユーザー数",
+            "value": 13000,
+            "unit": "人"
+          },
+          {
+            "name": "キャリアアドバイザー人員数",
+            "value": 140,
+            "unit": "人（推定）"
+          },
+          {
+            "name": "女性管理職比率",
+            "value": 36.2,
+            "unit": "%"
+          },
+          {
+            "name": "男性育休取得率",
+            "value": 100,
+            "unit": "%"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": 11.8,
+        "market_notes": "国内AIビジネス市場のCAGR11.8%（2020-2025年）、AI画像認識市場はCAGR35.4%の急成長が見込まれる"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": "dip30th",
+        "period": "2027年2月期まで",
+        "revenue_target": 65000,
+        "profit_target": 17000,
+        "key_strategies": [
+          "スポットバイトルへの先行投資",
+          "AIエージェントサービスの展開",
+          "ソリューション営業体制への移行",
+          "DX事業の成長加速"
+        ]
+      },
+      "fiscal_period": "2026年2月期第3四半期",
+      "summary": "ディップの2026年2月期第3四半期は売上高423.8億円（前年同期比0.6%減）、営業利益80.9億円（同25.7%減）、純利益56.0億円（同23.9%減）となった。ソリューション営業体制移行による一時的な影響とスポットバイトルへの先行投資により減益となったが、通期予想は据え置いている。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

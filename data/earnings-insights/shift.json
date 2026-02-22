@@ -1,0 +1,67 @@
+{
+  "companyId": "shift",
+  "analyzedAt": "2026-02-22T21:14:13.805119",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": 5900,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "エンジニア数×エンジニア単価",
+            "value": null,
+            "unit": "売上高の構成要素"
+          },
+          {
+            "name": "顧客月額売上×月間取引顧客数",
+            "value": null,
+            "unit": "売上高の構成要素"
+          },
+          {
+            "name": "現金等保有額",
+            "value": 23600,
+            "unit": "百万円"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "ソフトウェアテスト関連サービスが主力事業。DX需要の高まりによりソフトウェア品質保証サービスの需要が継続的に拡大している市場"
+      },
+      "ma_info": [
+        {
+          "target": "詳細不明",
+          "date": "継続的に実施",
+          "amount": "大規模投資支出",
+          "synergy": "事業規模拡大と技術領域の拡張",
+          "status": "planned"
+        }
+      ],
+      "midterm_plan": {
+        "name": "成長戦略（採用・M&A依存型）",
+        "period": "2026年8月期以降",
+        "revenue_target": 150000,
+        "profit_target": 20000,
+        "key_strategies": [
+          "積極的な人材採用",
+          "M&A投資による事業拡大",
+          "ソフトウェアテスト関連サービスの深掘り",
+          "開発系・近接サービスの拡大"
+        ]
+      },
+      "fiscal_period": "2025年8月期",
+      "summary": "SHIFTは2025年8月期に売上高129,819百万円（前年比17.3%増）、営業利益15,600百万円（同48.3%増）を達成し16期連続増収。主力のソフトウェアテスト関連サービスが牽引し、M&A投資と積極採用により成長を継続。2026年8月期は売上高150,000百万円、調整後営業利益20,000百万円を予想。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

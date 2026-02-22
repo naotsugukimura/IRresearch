@@ -1,0 +1,59 @@
+{
+  "companyId": "progrit",
+  "analyzedAt": "2026-02-22T21:10:27.946218",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": 144,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "シャドテン有料会員数",
+            "value": 10000,
+            "unit": "名"
+          },
+          {
+            "name": "スピフル有料会員数",
+            "value": 10000,
+            "unit": "名"
+          },
+          {
+            "name": "売上総利益率",
+            "value": 75.4,
+            "unit": "%"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "英語学習市場において、短期集中英語コーチングサービスとサブスクリプション型英語学習サービスを展開"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": "2026年8月期業績予想",
+        "period": "2026年8月期",
+        "revenue_target": 7100,
+        "profit_target": 1420,
+        "key_strategies": [
+          "積極的なマーケティング活動による認知向上",
+          "法人向けプログリット導入拡大",
+          "中低価格帯サブスクリプション型サービス注力",
+          "無料ビジネス向け英単語アプリ提供"
+        ]
+      },
+      "fiscal_period": "2026年8月期第1四半期（2025年9月-11月）",
+      "summary": "プログリットは英語コーチングサービスを主力とし、2026年8月期第1四半期は売上高1676百万円（前年同期比17.9%増）、営業利益448百万円を達成。シャドテンとスピフルの有料会員数がそれぞれ1万名を突破し、サブスクリプション型サービスが成長を牽引している。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

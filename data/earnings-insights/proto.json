@@ -1,0 +1,68 @@
+{
+  "companyId": "proto",
+  "analyzedAt": "2026-02-22T21:10:56.707013",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": 1627,
+        "other_kpis": [
+          {
+            "name": "一株当たり利益",
+            "value": 121.91,
+            "unit": "円"
+          },
+          {
+            "name": "一株当たり純資産",
+            "value": 1232.16,
+            "unit": "円"
+          },
+          {
+            "name": "営業利益率",
+            "value": 7.1,
+            "unit": "%"
+          },
+          {
+            "name": "発行済株式数",
+            "value": 41925300,
+            "unit": "株"
+          },
+          {
+            "name": "デジタル高度利用作業所数",
+            "value": 324,
+            "unit": "作業所"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "自動車関連の情報メディア・サービス事業とコマース事業を展開。急速に変化する自動車関連市場への対応が課題"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "非公開化による経営体制の構築",
+          "プラットフォーム事業のDXサービス拡充",
+          "コマース事業の中古車輸出強化"
+        ]
+      },
+      "fiscal_period": "2025年3月期",
+      "summary": "プロトコーポレーションの2025年3月期は売上高121,325百万円（前年比4.9%増）、営業利益8,610百万円（同9.1%増）と増収増益。プラットフォーム事業とコマース事業が好調だが、特別調査費用により純利益は4,912百万円と11.5%減少。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

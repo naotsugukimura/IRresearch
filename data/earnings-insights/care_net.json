@@ -1,0 +1,110 @@
+{
+  "companyId": "care_net",
+  "analyzedAt": "2026-02-22T20:56:17.468734",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": null
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": null
+      },
+      "ma_info": [
+        {
+          "target": "ケアネット",
+          "date": "2025年8月14日開始",
+          "amount": null,
+          "synergy": "公開買付者の完全子会社化による企業価値向上",
+          "status": "announced"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": null
+      },
+      "fiscal_period": "2025年12月期第2四半期",
+      "summary": "ケアネットが、Curie 1株式会社による公開買付けに賛同し、完全子会社化と上場廃止を前提として、2025年8月20日予定の第2四半期決算説明会を中止することを発表。公開買付けは8月14日から開始予定。",
+      "source_file": "IR_20250814_01.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": null
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": null
+      },
+      "ma_info": null,
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": null
+      },
+      "fiscal_period": "2025年12月期第2四半期",
+      "summary": "株式会社ケアネットが2025年12月期第2四半期の決算発表を8月13日に、機関投資家・アナリスト向けの決算説明会を8月20日にZoomで開催することを発表。決算説明動画と資料は同社IRサイトで公開予定。医薬営業支援サービスと医療コンテンツサービスを主力事業とする。",
+      "source_file": "IR-20250801_1.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": []
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": null
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": []
+      },
+      "fiscal_period": "2024年12月期",
+      "summary": "株式会社ケアネットが2024年12月期の決算発表を2025年2月12日に実施することを発表。決算説明会は2月19日にZoomでのスモールミーティング形式で機関投資家・アナリスト向けに開催。製薬企業向け医薬営業支援サービスと医師・医療者向け医療コンテンツサービスを主力事業とする。",
+      "source_file": "ir_20250122.pdf"
+    }
+  ]
+}

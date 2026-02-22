@@ -1,0 +1,198 @@
+{
+  "companyId": "knowbe",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"knowbe（ノウビー）\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2025年8月",
+          "employees": null,
+          "headquarters": "東京都港区虎ノ門1-23-1（登記住所）、東京都千代田区内幸町2-1-6 日比谷パークフロント 17F（事業者住所）",
+          "description": "障害福祉に特化したクラウド型請求・記録業務支援サービスを提供。請求と記録を一気通貫で管理し、業務効率化を実現。",
+          "main_services": [
+            "knowbe（障害福祉特化クラウドサービス）",
+            "請求・記録業務支援"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "株式会社リクルート"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "障がい福祉事業所に特化した請求・記録クラウドサービス『knowbe』",
+            "date": "2023-06-01",
+            "summary": "障がい福祉事業所向けクラウドサービスの調査レポート発表",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000002528.000011414.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "業務工数90％削減実績",
+            "利用継続率99％",
+            "初期費用・サポート費用無料",
+            "全国47都道府県導入実績",
+            "累計利用者数220,000人突破"
+          ],
+          "market_position": "障害福祉分野に特化したクラウド型業務支援サービスのリーディングカンパニー",
+          "threat_to_sms": "3段階 - 障害福祉という特化領域でのニッチ市場のため、SMSの主力事業への直接的脅威は限定的だが、クラウド型業務支援という点で競合の可能性"
+        },
+        "confidence": "medium",
+        "data_freshness": "2023-06-01"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:15:06.101064"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"knowbe（ノウビー）\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": "2017年",
+          "employees": null,
+          "headquarters": "東京都千代田区",
+          "description": "障害福祉事業所向けの請求・記録業務を効率化するクラウドサービス。業務負荷を約90％削減し、利用継続率99％を実現。",
+          "main_services": [
+            "障害福祉請求・記録システム",
+            "業務支援ソフト"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "株式会社リクルート"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "累計利用者数が14万人を突破",
+            "date": "2022-12-XX",
+            "summary": "前々年比200％増の成長を実現",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000001968.000011414.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "利用継続率99％",
+            "業務負荷約90％削減",
+            "シンプルな操作画面",
+            "クラウド対応"
+          ],
+          "market_position": "障害福祉ソフト市場において高い継続率を誇る主要プレイヤー",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-XX-XX"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:15:06.101086"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"knowbe（ノウビー）\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "Tampa Bay, FL（KnowBe4）、日本（knowbe）",
+          "description": "KnowBe4はサイバーセキュリティ教育プラットフォーム、knowbeは障害福祉に特化した運営支援ソフト",
+          "main_services": [
+            "セキュリティ意識向上トレーニング",
+            "フィッシング対策",
+            "インシデント対応",
+            "障害福祉運営支援"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "リクルート（knowbe事業推進部）"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "KnowBe4 Predicts the Agentic AI Revolution Will Reshape Cybersecurity in 2026",
+            "date": "2025-12-02",
+            "summary": "2026年のサイバーセキュリティ予測を発表、AI革命の影響を予想",
+            "source_url": "https://www.knowbe4.com/press/knowbe4-predicts-the-agentic-ai-revolution-will-reshape-cybersecurity-in-2026"
+          },
+          {
+            "title": "KnowBe4 Named Leader in G2 Grid Fall 2025 Report",
+            "date": "2025-XX-XX",
+            "summary": "G2レポートでセキュリティ意識トレーニング部門1位を6年連続維持",
+            "source_url": "https://www.knowbe4.com/press/knowbe4-named-leader-in-g2-grid-fall-2025-report-in-multiple-human-risk-management-categories"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "市場リーダーポジション（20四半期連続1位）",
+            "AI技術への先進的取り組み",
+            "包括的なヒューマンリスク管理",
+            "業務効率化（90%削減実績）"
+          ],
+          "market_position": "セキュリティ意識トレーニング分野の世界的リーダー、障害福祉支援ソフト分野でも展開",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-12-02"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:15:06.101092"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"knowbe（ノウビー）\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "日本（株式会社リクルート）",
+          "description": "障害福祉に特化した運営支援ソフト。記録、給付費請求、工賃・給与計算の業務効率化から就労支援まで事業所の運営・経営をサポート",
+          "main_services": [
+            "障害福祉運営支援ソフト",
+            "給付費請求",
+            "工賃・給与計算",
+            "就労支援"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "累計利用者14万人を突破！障害福祉に特化した業務効率化サービス『knowbe』が生まれるまで",
+            "date": "2023-07-16",
+            "summary": "累計利用者数14万人突破を達成",
+            "source_url": "https://fukushijinji.com/disabilitynews8/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "利用継続率99％",
+            "累計利用者14万人",
+            "リクルートの運営による信頼性",
+            "障害福祉に特化した専門性"
+          ],
+          "market_position": "障害福祉業界の主要プレイヤーとして、HUGパス、ポチパス、ほのぼのmoreなどと競合",
+          "threat_to_sms": "3段階 - 障害福祉という特化領域での強みがあり、リクルートの資本力とブランド力を背景とした安定した競合他社"
+        },
+        "confidence": "medium",
+        "data_freshness": "2023-07-16"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:15:06.101096"
+    }
+  ]
+}

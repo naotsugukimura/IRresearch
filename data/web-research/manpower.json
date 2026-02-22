@@ -1,0 +1,202 @@
+{
+  "companyId": "manpower",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"マンパワーグループ\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "1966年11月30日",
+          "employees": 4392,
+          "headquarters": "東京都港区芝浦三丁目1番1号 田町ステーションタワーN 30階",
+          "description": "世界70カ国・地域に展開する人材サービスのグローバルカンパニー。日本初の人材派遣会社として設立され、総合人材サービスを提供。",
+          "main_services": [
+            "人材派遣・人材紹介",
+            "アウトソーシング",
+            "ITソリューション",
+            "人事コンサルティング",
+            "再就職支援"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "ManpowerGroup（米国）100%出資"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [],
+        "competitive_position": {
+          "strengths": [
+            "世界70カ国・地域のグローバルネットワーク",
+            "日本初の人材派遣会社としての50年超の実績",
+            "派遣登録スタッフ数68万人",
+            "全国158拠点のサービスネットワーク"
+          ],
+          "market_position": "日本の人材派遣・人材紹介業界のリーディングカンパニーとして圧倒的な地位を確立",
+          "threat_to_sms": "2段階 - 人材派遣・紹介が主力でSMSとは事業領域が異なるが、ITソリューション事業で一部競合の可能性"
+        },
+        "confidence": "high",
+        "data_freshness": "2025年4月現在"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:19:17.440184"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"マンパワーグループ\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "複数スタッフで複数店舗運営を可能にするシステム『RURA』を提供。受付業務の無人化・効率化サービス",
+          "main_services": [
+            "RURA（無人受付システム）"
+          ]
+        },
+        "funding": {
+          "total_raised": "1.8億円（推定）",
+          "latest_round": "シード",
+          "investors": [
+            "ジャフコ"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "シードラウンドで総額1.8億円の資金調達を実施",
+            "date": "2021-03-XX",
+            "summary": "タイムリープがジャフコ等から1.8億円をシード調達",
+            "source_url": "https://www.jafco.co.jp/andjafco-post/2021-08-12-000154/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "複数スタッフで複数店舗対応可能",
+            "20人で100店舗運営可能",
+            "4分の1の人数で運営実現"
+          ],
+          "market_position": "コワーキングスペース、ホテル、カラオケ等の受付業務効率化で実績",
+          "threat_to_sms": "2 - 受付業務に特化したニッチ領域での展開のため、SMSの主力事業への直接的影響は限定的"
+        },
+        "confidence": "medium",
+        "data_freshness": "2021-08-12"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:19:17.440195"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"マンパワーグループ\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "東京都港区",
+          "description": "世界最大級の総合人材サービス会社。人材派遣・紹介、アウトソーシング、キャリア開発支援等を提供。41カ国・地域で事業展開。",
+          "main_services": [
+            "人材派遣・人材紹介",
+            "業務委託・アウトソーシング",
+            "ITソリューション",
+            "人事コンサルティング",
+            "キャリア開発支援"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "2026年第1四半期雇用予測調査結果を発表 - 雇用意欲が前四半期比+5ポイント",
+            "date": "2025-12-09",
+            "summary": "純雇用予測+18％、前四半期比+5ポイント、前年同期比+4ポイントの結果",
+            "source_url": "https://www.manpowergroup.jp/company/press/2025/20251209.html"
+          },
+          {
+            "title": "労働白書「キャリアの新原則」を発表",
+            "date": "2025-12-26",
+            "summary": "世界8カ国約3,000人対象のキャリア開発における意識ギャップ調査",
+            "source_url": "https://mpg.rightmanagement.jp/news/newsrelease/251226.html"
+          },
+          {
+            "title": "日本の労働者意識：仕事におけるAIとの関わり方が今後の焦点に",
+            "date": "2026-01-20",
+            "summary": "世界19カ国の労働者13,918人を対象としたAI時代の働き方調査結果",
+            "source_url": "https://www.manpowergroup.jp/company/press/2026/20260120.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "60年以上の歴史がある世界的雇用予測調査",
+            "41カ国・地域での事業展開",
+            "英国銀行や米連邦準備銀行が指標として採用",
+            "AI時代の人材開発への先進的取り組み"
+          ],
+          "market_position": "世界最大級の総合人材サービス会社として、労働市場の動向予測と人材サービスの両面でリーダーシップを発揮",
+          "threat_to_sms": "1 - 人材サービス分野での活動が主であり、SMS事業への直接的な脅威は低い"
+        },
+        "confidence": "high",
+        "data_freshness": "2026-01-20"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:19:17.440201"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"マンパワーグループ\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "世界70ヵ国・地域で総合人材サービスを提供。採用、評価、育成、管理に関わる包括的なソリューションを展開",
+          "main_services": [
+            "人材派遣",
+            "人材紹介",
+            "人材育成・組織開発",
+            "採用ブランディング"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "2025年 労働市場動向に関するレポートを発表",
+            "date": null,
+            "summary": "労働市場の動向分析レポートを公表",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000266.000009974.html"
+          },
+          {
+            "title": "働く世界のグリーン化展望に関する労働白書発表",
+            "date": "2023-11-16",
+            "summary": "グリーンエコノミーと労働力に関する調査結果を公表",
+            "source_url": "https://mpg.rightmanagement.jp/news/newsrelease/231116.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "70年近い実績と世界70ヵ国での展開",
+            "専門性の高いデータベースとソリューション",
+            "2025年に16回目となる「世界で最も倫理的な企業」受賞",
+            "ダイバーシティ&インクルージョンの評価"
+          ],
+          "market_position": "大手総合人材サービス企業として、アデコ、リクルートスタッフィング、パソナなどと競合。専門性と広範なサービス展開で差別化を図る",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2025-10-22"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:19:17.440204"
+    }
+  ]
+}

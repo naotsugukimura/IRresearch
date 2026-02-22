@@ -1,0 +1,72 @@
+{
+  "companyId": "m3",
+  "analyzedAt": "2026-02-22T21:06:47.178466",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": 657520,
+        "facility_count": 9100,
+        "employee_count": 3007,
+        "other_kpis": [
+          {
+            "name": "M3デジカル導入施設数",
+            "value": 9100,
+            "unit": "件"
+          },
+          {
+            "name": "管理カルテ数",
+            "value": 430000000,
+            "unit": "枚"
+          },
+          {
+            "name": "デジスマ診療利用ユーザー数",
+            "value": 13200,
+            "unit": "人"
+          },
+          {
+            "name": "企業向けサービスカバー従業員数",
+            "value": 6900000,
+            "unit": "人"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "クラウド電子カルテ市場シェア圧倒的No.1を維持、医療DX化需要が拡大継続"
+      },
+      "ma_info": [
+        {
+          "target": "イーウェル社",
+          "date": "2025年4月",
+          "amount": null,
+          "synergy": "企業向けサービスカバレッジ拡大、約400万人の従業員へのコンタクト可能",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "製薬企業の本質的DX化推進",
+          "医療現場のDX化支援事業の成長",
+          "課題解決型提案への回帰・強化",
+          "データドリブンマーケティングの進展"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期",
+      "summary": "2026年3月期第3四半期は売上収益2,644億円（前年同期比29%増）、営業利益623億円（24%増）、純利益416億円（28%増）と大幅成長。製薬向け営業支援やペイシェントソリューションが急拡大し、通期予想も売上3,600億円、営業利益700億円の増収増益を見込む。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

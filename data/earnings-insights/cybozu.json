@@ -1,0 +1,91 @@
+{
+  "companyId": "cybozu",
+  "analyzedAt": "2026-02-22T21:01:57.890229",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": 606,
+        "other_kpis": [
+          {
+            "name": "kintone契約社数",
+            "value": 37000,
+            "unit": "社"
+          },
+          {
+            "name": "サイボウズOffice導入社数",
+            "value": 81000,
+            "unit": "社"
+          },
+          {
+            "name": "Garoon導入社数",
+            "value": 8000,
+            "unit": "社"
+          },
+          {
+            "name": "メールワイズ導入社数",
+            "value": 15000,
+            "unit": "社"
+          },
+          {
+            "name": "kintone売上高",
+            "value": 21689,
+            "unit": "百万円"
+          },
+          {
+            "name": "営業キャッシュフロー",
+            "value": 10676,
+            "unit": "百万円"
+          },
+          {
+            "name": "現金及び現金同等物",
+            "value": 11694,
+            "unit": "百万円"
+          },
+          {
+            "name": "1株当たり配当金",
+            "value": 40,
+            "unit": "円"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "クラウドサービス・グループウェア市場でkintoneを中心とした業務システム構築プラットフォーム事業を展開"
+      },
+      "ma_info": [
+        {
+          "target": "愛媛オレンジバイキングス",
+          "date": "2025年12月期",
+          "amount": null,
+          "synergy": "バスケットボールチームの子会社化",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "AI機能の拡充",
+          "人員採用への積極投資",
+          "データセンター運用費用への投資"
+        ]
+      },
+      "fiscal_period": "2025年12月期",
+      "summary": "サイボウズは2025年12月期に売上高374億円（前期比26.1%増）、営業利益101億円（同106.4%増）と大幅成長を達成。主力のkintone売上が217億円（33.9%増）と好調で、営業利益率は27%に向上。2026年12月期も売上422億円、営業利益105億円と成長継続予想。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

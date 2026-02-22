@@ -1,0 +1,67 @@
+{
+  "companyId": "sorust",
+  "analyzedAt": "2026-02-22T21:15:13.274404",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "医療事業売上高",
+            "value": 55208,
+            "unit": "百万円"
+          },
+          {
+            "name": "介護事業売上高",
+            "value": 42268,
+            "unit": "百万円"
+          },
+          {
+            "name": "こども事業売上高",
+            "value": 8114,
+            "unit": "百万円"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "医療事務受託、介護サービス、保育所運営を主力事業とする"
+      },
+      "ma_info": [
+        {
+          "target": "介護関連事業者",
+          "date": "FY2024-2025",
+          "amount": null,
+          "synergy": "厳選した介護M&A及び新規施設開設",
+          "status": "planned"
+        }
+      ],
+      "midterm_plan": {
+        "name": "新成長戦略",
+        "period": "FY2024以降",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "公的病院を中心とした総合ソリューション提供",
+          "厳選した介護M&A及び新規施設開設",
+          "スマートホスピタル事業の収益性向上",
+          "既存事業と高シナジー領域での外部パートナー連携"
+        ]
+      },
+      "fiscal_period": "2025年度第3四半期（2025年4月-12月期）",
+      "summary": "2025年度3Q累計で売上高1,056億円（前年同期比2.6%増）、営業利益55億円、経常利益55億円、純利益36億円（8.4%増）。医療事業が価格改定効果で好調、介護事業も堅調推移。通期予想は売上高1,407億円、営業利益67億円、経常利益67億円、純利益41億円を維持。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

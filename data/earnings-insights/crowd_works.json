@@ -1,0 +1,79 @@
+{
+  "companyId": "crowd_works",
+  "analyzedAt": "2026-02-22T21:01:00.997718",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": 690,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": 7438000,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "登録クライアント数",
+            "value": 1072000,
+            "unit": "社"
+          },
+          {
+            "name": "登録ワーカー数",
+            "value": 7438000,
+            "unit": "人"
+          },
+          {
+            "name": "新規登録クライアント数（年間）",
+            "value": 66000,
+            "unit": "社"
+          },
+          {
+            "name": "新規登録ワーカー数（年間）",
+            "value": 716000,
+            "unit": "人"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "フリーランス業界No.1プラットフォームとして、IT人材&コンサルティングサービスを展開"
+      },
+      "ma_info": [
+        {
+          "target": "株式会社ゼロフィールド",
+          "date": "2024年度",
+          "amount": null,
+          "synergy": "DXの知見獲得",
+          "status": "completed"
+        },
+        {
+          "target": "株式会社BEX",
+          "date": "2024年度",
+          "amount": null,
+          "synergy": "GPUリソース確保によるAI実装強化",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "YOSHIDA300",
+        "period": "2026年9月期まで",
+        "revenue_target": 30000,
+        "profit_target": 2500,
+        "key_strategies": [
+          "売上高300億円",
+          "EBITDA（Non-GAAP）25億円",
+          "営業利益成長率+10%以上",
+          "中長期的に売上1,000億円・営業利益100億円・営業利益率10%を目指す"
+        ]
+      },
+      "fiscal_period": "2025年9月期",
+      "summary": "2025年9月期は売上高22,657百万円（前年比32.4%増）、営業利益1,759百万円を達成。しかし2026年9月期は積極投資により売上高20,000百万円（11.7%減）、営業損失1,000百万円を予想。M&Aを通じてDX・AI領域を強化し、中期経営目標「YOSHIDA300」達成を目指す。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

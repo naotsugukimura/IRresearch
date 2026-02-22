@@ -1,0 +1,212 @@
+{
+  "companyId": "atgp",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"ゼネラルパートナーズ（atGP）\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2003年",
+          "employees": null,
+          "headquarters": "東京都千代田区内幸町2-1-1 飯野ビルディング9階",
+          "description": "障害者専門の就職・転職支援サービスを運営し、20年以上にわたり障害者雇用支援を専門とするソーシャルベンチャー企業",
+          "main_services": [
+            "atGPエージェント（人材紹介サービス）",
+            "atGPジョブトレ（就労移行支援サービス）",
+            "atGP転職（求人検索・スカウトサービス）"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "一般社団法人ソーシャルアントレプレナーズアソシエーション"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "人材紹介と求人媒体のハイブリッドサービス「atGPエージェント more+」",
+            "date": null,
+            "summary": "人材紹介と求人媒体の両方の強みを兼ね備えた新サービスを提供",
+            "source_url": "https://digitalpr.jp/r/107312"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "障害者転職サービス業界No.1の実績",
+            "15年以上の専門ノウハウ",
+            "障害別専門支援の提供",
+            "全国ネットワークによる幅広いカバー"
+          ],
+          "market_position": "障害者雇用支援サービスのパイオニアとして業界をリード",
+          "threat_to_sms": "1 - 障害者雇用という特化した分野でありSMSの主力である人材派遣・紹介とは市場が異なるため脅威度は低い"
+        },
+        "confidence": "high",
+        "data_freshness": "2024年頃（推定）"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:06:43.244193"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"ゼネラルパートナーズ（atGP）\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": "推定100-500人",
+          "headquarters": "東京都千代田区内幸町2-1-1 飯野ビルディング9階",
+          "description": "障害者雇用支援・福祉事業を展開する企業。atGPブランドで障害者向け転職支援サービスを提供。",
+          "main_services": [
+            "atGP（障害者転職支援サービス）",
+            "障害者雇用セミナー・研修事業"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "SEAソーシャルスタートアップファンド（LP参画として）"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "障害者雇用・福祉の未来を切り拓くスタートアップ支援を本格化",
+            "date": null,
+            "summary": "SEAソーシャルスタートアップファンドにLP参画し、社会実装を加速",
+            "source_url": "https://digitalpr.jp/r/119544"
+          },
+          {
+            "title": "障害者雇用の面接必勝法セミナーを3月4日に開催",
+            "date": "2025-03-04",
+            "summary": "atGPによるオンラインセミナー開催",
+            "source_url": "https://www.okinawatimes.co.jp/articles/-/1777591"
+          },
+          {
+            "title": "atGPサイト開設20周年記念「未来へつなげる面接会」を3月7日に開催",
+            "date": "2025-03-07",
+            "summary": "20周年記念イベントとして面接会を開催",
+            "source_url": null
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "障害者雇用分野での20年の実績",
+            "atGPブランドの認知度",
+            "企業向け研修事業の展開"
+          ],
+          "market_position": "障害者雇用支援分野のリーディングカンパニーとして確立",
+          "threat_to_sms": "1段階：SMSとは異なる社会課題解決領域に特化しており、直接的な競合関係にはない"
+        },
+        "confidence": "medium",
+        "data_freshness": "2026-02-20"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:06:43.244205"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"ゼネラルパートナーズ（atGP）\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": "2003年",
+          "employees": null,
+          "headquarters": "東京都千代田区内幸町 2-1-1 飯野ビルディング 9階",
+          "description": "障害者専門の人材紹介・就労支援事業を中心に、雇用コンサルティング、教育研修、農業生産事業などを展開するソーシャルビジネス企業",
+          "main_services": [
+            "atGP（障害者専門人材紹介）",
+            "就労移行支援事業",
+            "企業向け障害者雇用コンサルティング",
+            "atGPジョブトレIT・Web"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "atGPサイト開設20周年記念「未来へつなげる面接会」を3月7日に開催",
+            "date": "2026-01-30",
+            "summary": "書類では伝わらない「良さ」を見てくれる企業20社以上との面接会を開催",
+            "source_url": "https://digitalpr.jp/c/1439"
+          },
+          {
+            "title": "東京都「共生社会の理念に賛同する企業・団体」に登録",
+            "date": "2025-12-19",
+            "summary": "7年連続障害者雇用率1位の実績と取り組みが評価される",
+            "source_url": "https://www.generalpartners.co.jp/news/"
+          },
+          {
+            "title": "atGPアスタネモデル第1号拠点『アスタネ西浦和』オープニングイベント開催",
+            "date": "2025-12-22",
+            "summary": "2026年1月10日に新拠点のオープニングイベントを開催",
+            "source_url": "https://www.generalpartners.co.jp/news/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "累計登録者数18万人以上",
+            "20年以上の障害者雇用支援実績",
+            "1万人以上の就職・転職サポート実績",
+            "全国対応",
+            "包括的サービス（人材紹介・BPO・定着支援）"
+          ],
+          "market_position": "障害者雇用支援市場における老舗企業として確固たる地位を確立",
+          "threat_to_sms": "SMSとは異なる専門特化領域のため直接的な脅威は低い（1段階）。ただし人材紹介事業における顧客基盤拡大は注視が必要"
+        },
+        "confidence": "high",
+        "data_freshness": "2026-01-30"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:06:43.244207"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"ゼネラルパートナーズ（atGP）\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": "2003年",
+          "employees": null,
+          "headquarters": "東京都千代田区内幸町2-1-1 飯野ビルディング9階",
+          "description": "障害者向けの就職・転職支援サービスや就労移行支援サービスを一貫して提供する障害者雇用のパイオニア企業",
+          "main_services": [
+            "atGP転職支援サービス",
+            "就労移行支援事業所atGPジョブトレ"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "【障害者雇用の面接必勝法】選ばれる理由と採用担当者の本音",
+            "date": "2026-02-18",
+            "summary": "atGP主催のオンラインセミナー開催",
+            "source_url": "https://digitalpr.jp/r/121780"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "障害者転職業界No.1",
+            "20年以上の支援実績とノウハウ",
+            "求人紹介から就労移行支援まで一貫したサービス提供",
+            "就職率97%・定着率91.4%の高い実績"
+          ],
+          "market_position": "障害者雇用支援の市場リーダーとして、業界初の転職サイト開設や合同面接会開催など革新的サービスを提供",
+          "threat_to_sms": "3段階 - 障害者雇用という特定領域に特化しており、一般的なSMSとは市場が異なるため直接的脅威は限定的"
+        },
+        "confidence": "high",
+        "data_freshness": "2025-10-21"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:06:43.244210"
+    }
+  ]
+}

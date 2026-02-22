@@ -1,0 +1,188 @@
+{
+  "companyId": "decoboco",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"デコボコベース\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2014年7月",
+          "employees": "140人",
+          "headquarters": "東京都港区芝浦4-12-31 VORT芝浦 Water F",
+          "description": "発達障害のある児童から成人までの社会的自立支援を行う福祉×ITのソーシャルベンチャー企業",
+          "main_services": [
+            "児童発達支援・放課後等デイサービス",
+            "就労移行支援・自立訓練",
+            "福祉事業所検索サイト「凸凹ガイド」",
+            "福祉事業所向けシステム「凸凹システム」"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "障害者が働くハンバーガー店「BURGER TERRACE」事業開始",
+            "date": "2025-12-XX",
+            "summary": "新規事業としてハンバーガー飲食事業を追加",
+            "source_url": "https://note.com/decobocobase/n/n7987fff26207"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "フランチャイズモデルによる全国300事業所展開",
+            "児童から成人まで切れ目ない支援体制",
+            "福祉×ITによるDX化推進",
+            "利用者数10,000人超の実績"
+          ],
+          "market_position": "発達障害者支援分野で全国最大規模のフランチャイズ展開を実現",
+          "threat_to_sms": "2段階 - 障害福祉分野に特化しており、SMSの事業領域との直接競合は限定的"
+        },
+        "confidence": "high",
+        "data_freshness": "2025-12-22"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T09:17:56.758880"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"デコボコベース\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": "2014年7月",
+          "employees": 137,
+          "headquarters": "東京都港区芝浦4-12-31 VORT芝浦 WaterFront6階",
+          "description": "発達障害のある子どもと大人の社会参加を支援する障害福祉サービスを提供。インパクト測定・マネジメントを活用した事業展開。",
+          "main_services": [
+            "バーガーテラス（就労継続支援A型）",
+            "凸凹エージェント",
+            "凸凹システム",
+            "凸凹ガイド"
+          ]
+        },
+        "funding": {
+          "total_raised": "1億円以上（推定）",
+          "latest_round": "シリーズA（推定）",
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "B Corp認証を障害福祉業界で初取得",
+            "date": "2025-08-01",
+            "summary": "持続可能で公正な社会実現に向けた国際認証を取得",
+            "source_url": "https://decoboco-base.com/information/information_20250801/"
+          },
+          {
+            "title": "バーガーテラス大宮店がグランドオープン",
+            "date": "2025-12-10",
+            "summary": "福祉×本格バーガーで就労支援サービスを開始",
+            "source_url": "https://www.wantedly.com/companies/decoboco-base"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "障害福祉業界でのDX推進",
+            "B Corp認証取得による社会的信頼性",
+            "インパクト測定・マネジメントの活用"
+          ],
+          "market_position": "障害福祉業界において革新的なサービスを提供するリーディング企業",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-12-10"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T09:17:56.758952"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"デコボコベース\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": "2014年7月",
+          "employees": "推定300名以上",
+          "headquarters": "東京都港区芝浦4-12-31 VORT芝浦 Water Front 6F",
+          "description": "発達障害や障害者向けの支援施設を全国展開するソーシャルフランチャイズ事業。教育と福祉でゆたかさを広める理念を掲げる。",
+          "main_services": [
+            "ハッピーテラス（放課後等デイサービス）",
+            "ディーキャリア（就労移行支援）",
+            "凸凹ガイド（施設検索サイト）",
+            "バーガーテラス（就労継続支援A型）"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "バーガーテラス大宮店オープン - 障がい者就労支援×地域共生の世界初チェーンモデル",
+            "date": "2025-12-10",
+            "summary": "就労継続支援A型事業所として一般顧客向け高品質バーガー店を開業",
+            "source_url": "https://fukushijinji.com/disabilitynews/"
+          },
+          {
+            "title": "B Corp認証を障害福祉業界で初取得",
+            "date": "2025-07-29",
+            "summary": "社会貢献企業としての第三者認証を業界初で獲得",
+            "source_url": "https://decoboco-base.com/category/information/"
+          },
+          {
+            "title": "Passion Leaders AWARD 2025準大賞を受賞",
+            "date": "2025-08-20",
+            "summary": "社会起業家表彰制度で準大賞を受賞",
+            "source_url": "https://decoboco-base.com/category/information/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "全国371事業所・カバー率91%の圧倒的規模",
+            "ソーシャルフランチャイズによる迅速な展開力",
+            "B Corp認証など社会的信頼性"
+          ],
+          "market_position": "障害福祉業界のリーディングカンパニー。2026年7月の法定雇用率2.7%引き上げを控え成長期待大。2026年度500事業所・全国100%カバー目標",
+          "threat_to_sms": "3段階 - 直接競合ではないが、障害者雇用支援分野で強力なプラットフォームを構築しており、企業の人事・雇用関連ニーズで間接的に競合する可能性"
+        },
+        "confidence": "high",
+        "data_freshness": "2025-12-10"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T09:17:56.758963"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"デコボコベース\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T09:17:56.758970"
+    }
+  ]
+}

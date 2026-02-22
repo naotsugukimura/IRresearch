@@ -1,0 +1,74 @@
+{
+  "companyId": "medley",
+  "analyzedAt": "2026-02-22T21:07:18.246181",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": 22.8,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": 431000,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "顧客事業所数",
+            "value": 431000,
+            "unit": "事業所"
+          },
+          {
+            "name": "利用医療機関数",
+            "value": 18000,
+            "unit": "機関"
+          },
+          {
+            "name": "ジョブメドレースポット顧客事業所数",
+            "value": 2271,
+            "unit": "事業所"
+          },
+          {
+            "name": "医療PF成長率",
+            "value": 38,
+            "unit": "%"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": 50000,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "医療ヘルスケア領域の人材採用市場で約500億円の市場機会を想定"
+      },
+      "ma_info": [
+        {
+          "target": null,
+          "date": "2026年度予定",
+          "amount": null,
+          "synergy": "中期目標達成のための事業戦略上の重点領域でのM&A実行予定",
+          "status": "planned"
+        }
+      ],
+      "midterm_plan": {
+        "name": "中期目標",
+        "period": "FY29まで",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "売上高CAGR+29%",
+          "EBITDA CAGR+43%",
+          "AIを用いた構造改革",
+          "積極的な国内事業投資",
+          "医療PFのAI機能開発",
+          "US事業の立ち上げ"
+        ]
+      },
+      "fiscal_period": "2025年12月期",
+      "summary": "メドレーは2025年12月期に売上高36,786百万円（前年比25.5%増）を達成。顧客事業所数43.1万件、ARPU22.8千円と主要KPIは堅調に成長。営業利益2,150百万円、当期純利益975百万円。2026年12月期は売上高46,400百万円を予想し、AIを活用した新サービス開発と事業拡大を推進。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

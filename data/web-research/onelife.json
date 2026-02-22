@@ -1,0 +1,159 @@
+{
+  "companyId": "onelife",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"ワンライフ\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2014年",
+          "employees": null,
+          "headquarters": "愛知県名古屋市",
+          "description": "障がい者支援事業を中心に、放課後等デイサービス、eスポーツ事業、保護動物支援等の福祉サービスを展開",
+          "main_services": [
+            "放課後等デイサービス",
+            "就労継続支援B型事業所",
+            "eスポーツ×障がい福祉",
+            "保護犬・猫×障がい福祉"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [],
+        "competitive_position": {
+          "strengths": [
+            "eスポーツと障がい福祉の組み合わせという新しいビジネスモデル",
+            "公費収益とペット事業の二本柱による安定したストック型収益",
+            "フランチャイズ展開による事業拡大"
+          ],
+          "market_position": "障がい者支援業界で革新的なアプローチを取る成長企業",
+          "threat_to_sms": "1 - SMSとは全く異なる福祉・支援事業領域のため直接的な競合関係はない"
+        },
+        "confidence": "medium",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:23:29.286366"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"ワンライフ\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2024-10-24"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:23:29.286388"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"ワンライフ\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "〒371-0812　群馬県前橋市広瀬町3-18-15",
+          "description": "児童発達支援、就労継続支援B型、相談支援等の福祉サービスを提供する事業者",
+          "main_services": [
+            "児童発達支援",
+            "就労継続支援B型",
+            "就労移行支援",
+            "相談支援"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "就労継続支援B型事業所「ONEGAME我孫子」2026年2月オープン",
+            "date": "2026-02-01",
+            "summary": "我孫子に新たな就労継続支援B型事業所を開設",
+            "source_url": "https://onelife-inc.com/news/"
+          },
+          {
+            "title": "就労継続支援B型事業所「ONEGAME名古屋昭和」2026年1月オープン",
+            "date": "2026-01-05",
+            "summary": "名古屋昭和区に新たな就労継続支援B型事業所を開設",
+            "source_url": "https://onelife-inc.com/news/"
+          },
+          {
+            "title": "女性活躍推進法に基づく公表",
+            "date": "2026-01-08",
+            "summary": "女性活躍推進法に基づく情報を公表",
+            "source_url": "https://onelife-inc.com/news/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "全国展開による事業所ネットワーク",
+            "児童から成人まで幅広い福祉サービス提供"
+          ],
+          "market_position": "福祉サービス業界での事業拡大を積極的に推進",
+          "threat_to_sms": "1段階 - SMSとは異なる福祉サービス業界のため直接的脅威はなし"
+        },
+        "confidence": "medium",
+        "data_freshness": "2026-02-09"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:23:29.286394"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"ワンライフ\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": [
+            "市場シェア25%を超える強固なポジション"
+          ],
+          "market_position": "ZARA、H&Mなどが主要競合として位置する市場で展開",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:23:29.286398"
+    }
+  ]
+}

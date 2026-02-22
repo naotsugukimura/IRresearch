@@ -1,0 +1,82 @@
+{
+  "companyId": "saint_care",
+  "analyzedAt": "2026-02-22T21:12:51.505116",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": 60953,
+        "facility_count": 912,
+        "employee_count": 11536,
+        "other_kpis": [
+          {
+            "name": "事業展開都道府県数",
+            "value": 30,
+            "unit": "都道府県"
+          },
+          {
+            "name": "連続増収期間",
+            "value": 25,
+            "unit": "期"
+          },
+          {
+            "name": "女性管理職比率",
+            "value": 55.1,
+            "unit": "%"
+          },
+          {
+            "name": "有休消化率",
+            "value": 68.7,
+            "unit": "%"
+          },
+          {
+            "name": "介護福祉士数",
+            "value": 4712,
+            "unit": "人"
+          },
+          {
+            "name": "ケアマネージャー数",
+            "value": 985,
+            "unit": "人"
+          },
+          {
+            "name": "看護師数",
+            "value": 2398,
+            "unit": "人"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "介護サービス業界で国内施設数2位の地位を占める"
+      },
+      "ma_info": [
+        {
+          "target": "セントケアほっと株式会社",
+          "date": "2025年3月期",
+          "amount": null,
+          "synergy": null,
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": null
+      },
+      "fiscal_period": "2026年3月期第3四半期",
+      "summary": "セントケア・ホールディングは介護サービス事業を主力とし、2026年3月期第3四半期累計で売上高43,607百万円（前年同期比2.9%増）、営業利益1,921百万円（同5.2%減）を計上。全国912拠点で60,953人の顧客にサービスを提供している。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

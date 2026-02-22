@@ -1,0 +1,77 @@
+{
+  "companyId": "money_forward",
+  "analyzedAt": "2026-02-22T21:08:21.087369",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": 39333,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": 71,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "法人課金顧客数増加率",
+            "value": 21,
+            "unit": "%"
+          },
+          {
+            "name": "法人ARR成長率",
+            "value": 36,
+            "unit": "%"
+          },
+          {
+            "name": "SMB ARR成長率",
+            "value": 29,
+            "unit": "%"
+          },
+          {
+            "name": "調整後EBITDAマージン",
+            "value": 9.9,
+            "unit": "%"
+          },
+          {
+            "name": "第4四半期法人顧客純増数",
+            "value": 11000,
+            "unit": "社"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "バックオフィスAI領域への投資を集中、中小・中堅企業向けSaaSサービス市場で事業拡大"
+      },
+      "ma_info": [
+        {
+          "target": "SaaSマーケティングセグメント子会社",
+          "date": "2025年11月期中",
+          "amount": null,
+          "synergy": "特別利益を計上し最終黒字化に貢献",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "No.1 バックオフィスAIカンパニー戦略",
+        "period": "中長期",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "AI確定申告サービス",
+          "マネーフォワード おまかせ経理",
+          "AIエージェント機能開発",
+          "中堅規模顧客獲得強化"
+        ]
+      },
+      "fiscal_period": "2025年11月期（2024年12月1日～2025年11月30日）",
+      "summary": "マネーフォワードは2025年11月期に売上高503億円（前年比25%増）、創業以来初の最終黒字15億円を達成。法人向けサービスが好調で、SaaS ARRは39,333百万円（31%増）、調整後EBITDAは49億円と大幅改善。AI領域投資とバックオフィス自動化サービスで成長基盤を強化している。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

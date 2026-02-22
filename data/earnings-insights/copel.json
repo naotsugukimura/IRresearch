@@ -1,0 +1,55 @@
+{
+  "companyId": "copel",
+  "analyzedAt": "2026-02-22T21:00:31.262021",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "配当性向",
+            "value": 30,
+            "unit": "%"
+          },
+          {
+            "name": "配当予想",
+            "value": 2.78,
+            "unit": "円"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "語学関連事業では外国人材の活用支援、保育事業では知育・英語教育プログラム、介護事業では施設の積極的開設を計画"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "外国人材の活用支援",
+          "日本語学校の定員増",
+          "国際人材紹介事業の拡大",
+          "知育・英語教育プログラムの強化",
+          "介護施設の積極的開設"
+        ]
+      },
+      "fiscal_period": "2025年5月期",
+      "summary": "コペル（証券コード9726）は語学関連事業、保育事業、介護事業を展開。2025年5月期売上高26,455百万円、経常利益343百万円。決算期を5月末から2月末に変更予定で、2026年2月期は9ヶ月変則決算として売上高20,058百万円を見込む。配当性向30%を維持し、多様化する市場ニーズに対応した事業展開を推進。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

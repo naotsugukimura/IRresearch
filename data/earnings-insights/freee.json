@@ -1,0 +1,67 @@
+{
+  "companyId": "freee",
+  "analyzedAt": "2026-02-22T21:03:32.618346",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": 391510,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": 60900,
+        "cac": null,
+        "ltv": null,
+        "user_count": 643027,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "調整後営業利益",
+            "value": 1885,
+            "unit": "百万円"
+          },
+          {
+            "name": "調整後フリー・キャッシュ・フロー",
+            "value": 1381,
+            "unit": "百万円"
+          },
+          {
+            "name": "売上総利益率",
+            "value": null,
+            "unit": "%"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": 6600000,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "潜在顧客660万社、日本の総従業員数約5,700万人の7割超をスモールビジネスが占める"
+      },
+      "ma_info": [
+        {
+          "target": "GMOクリエイターズネットワーク（FREENANCE事業）",
+          "date": "2026年発表",
+          "amount": null,
+          "synergy": "ファイナンス領域のサービスラインナップ拡充、即日払いファクタリング等金融支援サービス提供",
+          "status": "announced"
+        }
+      ],
+      "midterm_plan": {
+        "name": "Rule of 40達成計画",
+        "period": "2028年6月期",
+        "revenue_target": null,
+        "profit_target": "Rule of 40達成（売上成長率＋調整後営業利益率＝40%以上）",
+        "key_strategies": [
+          "新規事業領域による収益貢献向上",
+          "プラットフォームARR拡大",
+          "顧客基盤拡大と生産性向上",
+          "AI活用によるプロダクト強化"
+        ]
+      },
+      "fiscal_period": "2026年6月期",
+      "summary": "freeeは2025年6月期に売上高33,270百万円（前年比30.8%増）、調整後営業利益1,885百万円で通期黒字化を達成。プラットフォームARRは391,510百万円（26.0%増）、有料課金ユーザー企業数は643,027件（13.3%増）と順調に成長。2026年6月期は売上高40,930-41,590百万円を見込む。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

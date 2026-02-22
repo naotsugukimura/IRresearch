@@ -1,0 +1,211 @@
+{
+  "companyId": "genda",
+  "analyzedAt": "2026-02-22T20:57:07.159507",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": "41社（連結子会社数）",
+        "employee_count": null,
+        "other_kpis": [
+          "アミューズメント施設：GiGO等の17店舗新規出店",
+          "Kiddleton式プライズゲーム機：1,111箇所で入替完了、168店舗で追加投入完了",
+          "カラオケ施設：34店舗取得",
+          "フォトスタジオ：109店舗（2025年10月末時点）"
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "インバウンド客の国内観光を支えるプラットフォーム事業、エンターテイメント業界でのM&A積極展開"
+      },
+      "ma_info": [
+        {
+          "target": "株式会社SMART EXCHANGE（旧アクトプロ）",
+          "date": "2025年3月3日",
+          "amount": "5,371百万円",
+          "synergy": "外貨両替機事業とアミューズメント施設等とのシナジー極大化",
+          "status": "completed"
+        },
+        {
+          "target": "Player One Amusement Group, Inc.",
+          "date": "2025年7月2日",
+          "amount": "25,647百万円",
+          "synergy": "米国ミニロケ事業の拡大、Kiddleton式プライズゲーム機の導入拡大",
+          "status": "completed"
+        },
+        {
+          "target": "株式会社キャラット",
+          "date": "2025年10月1日",
+          "amount": "5,437百万円",
+          "synergy": "フォトスタジオ事業とアミューズメント施設等との相互送客効果",
+          "status": "completed"
+        },
+        {
+          "target": "株式会社カジ・コーポレーション",
+          "date": "2025年11月4日",
+          "amount": null,
+          "synergy": "カラオケ機器ディーラー業界1位との統合によるシナジー効果",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": "2027年1月期：210,000百万円",
+        "profit_target": "償却前営業利益：28,000百万円、のれん償却前当期純利益：10,600百万円",
+        "key_strategies": [
+          "世界一のエンターテイメント企業を目指す（2040年目標）",
+          "M&Aを積極的に実行",
+          "エンタメ経済圏の構築",
+          "グローバル展開の加速"
+        ]
+      },
+      "fiscal_period": "2026年1月期第3四半期",
+      "summary": "GENDAの2026年1月期第3四半期決算。M&A19件実行により売上高119,610百万円（前年同期比54.0%増）。SMART EXCHANGE、Player One、キャラット等を連結化し新事業領域に進出。海外展開も加速し連結子会社41社に拡大。2027年1月期売上目標を210,000百万円に上方修正。",
+      "source_file": "00.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": "アミューズメント施設やカラオケ施設等を運営、連結子会社数は41社",
+        "employee_count": null,
+        "other_kpis": [
+          "償却前営業利益: 13,856百万円（前年同期比47.1％増）",
+          "のれん償却前営業利益: 7,578百万円（前年同期比20.6％増）",
+          "のれん償却前四半期純利益: 4,670百万円（前年同期比32.8％増）",
+          "M&A実行件数: 当第3四半期累計期間で19件"
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "エンタメ業界におけるM&A案件開拓と「世界中の人々の人生をより楽しく」というAspirationのもと、2040年に「世界一のエンターテイメント企業」を目指す"
+      },
+      "ma_info": [
+        {
+          "target": "株式会社SMART EXCHANGE",
+          "date": "2025年3月3日",
+          "amount": "5,371百万円",
+          "synergy": "外貨両替機事業とインバウンド客の多いアミューズメント施設等とのシナジー極大化",
+          "status": "completed"
+        },
+        {
+          "target": "Player One Amusement Group, Inc.",
+          "date": "2025年7月2日",
+          "amount": "25,647百万円",
+          "synergy": "米国ミニロケ事業の拡大、Kiddleton式プライズゲーム機の展開加速",
+          "status": "completed"
+        },
+        {
+          "target": "株式会社キャラット",
+          "date": "2025年10月1日",
+          "amount": "5,437百万円",
+          "synergy": "フォトスタジオ事業との連携強化、双方のエンターテイメント体験価値最大化",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": "2027年1月期: 210,000百万円（2025年12月12日上方修正）",
+        "profit_target": "2027年1月期償却前営業利益: 28,000百万円、のれん償却前当期純利益: 10,600百万円",
+        "key_strategies": [
+          "M&Aを積極的に実行",
+          "グローバル展開の加速",
+          "エンタメ経済圏の構築",
+          "グループシナジーの強化"
+        ]
+      },
+      "fiscal_period": "2026年1月期第3四半期",
+      "summary": "GENDAは2026年1月期第3四半期において売上高119,610百万円（前年同期比54.0％増）を達成。積極的なM&A戦略により19件の企業結合を実行し、連結子会社数は41社に拡大。海外展開も加速し、Player OneやBarberioの買収により米国事業を強化。エンタメ経済圏構築に向けた成長戦略を着実に推進している。",
+      "source_file": "00.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": "2025年10月末時点でアミューズメント施設約10,000箇所展開、カラオケ施設109店舗、フォトスタジオ109店舗",
+        "employee_count": null,
+        "other_kpis": [
+          "連結子会社数：41社（2025年10月末時点）",
+          "Kiddleton式プライズゲーム機の入替：累計1,111箇所",
+          "新規出店：アミューズメント17店舗"
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "エンタメ業界におけるM&A案件の開拓と実行、世界一のエンターテイメント企業を2040年に目指す"
+      },
+      "ma_info": [
+        {
+          "target": "株式会社SMART EXCHANGE",
+          "date": "2025年3月3日",
+          "amount": "5,371百万円",
+          "synergy": "外貨両替機事業とアミューズメント施設等とのシナジー極大化",
+          "status": "completed"
+        },
+        {
+          "target": "Player One Amusement Group, Inc.",
+          "date": "2025年7月2日",
+          "amount": "25,647百万円",
+          "synergy": "米国・カナダでのアミューズメント施設運営、機器販売・流通・サービス拡大",
+          "status": "completed"
+        },
+        {
+          "target": "株式会社キャラット",
+          "date": "2025年10月1日",
+          "amount": "5,437百万円",
+          "synergy": "フォトスタジオ事業とアミューズメント施設との相互送客効果",
+          "status": "completed"
+        },
+        {
+          "target": "株式会社カジ・コーポレーション",
+          "date": "2025年11月4日",
+          "amount": null,
+          "synergy": "カラオケ機器流通での営業エリア拡大とメンテナンスネットワーク補完",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "世界一のエンターテイメント企業",
+        "period": "2040年まで",
+        "revenue_target": "2027年1月期210,000百万円",
+        "profit_target": "2027年1月期のれん償却前当期純利益10,600百万円",
+        "key_strategies": [
+          "M&Aを積極的に実行",
+          "グローバル展開の加速",
+          "エンタメ経済圏の構築",
+          "グループシナジーの強化"
+        ]
+      },
+      "fiscal_period": "2026年1月期第3四半期",
+      "summary": "GENDAは2026年1月期第3四半期において積極的なM&Aを実行し、売上高119,610百万円（前年同期比54.0%増）を達成。当期は19件のM&Aを完了し連結子会社41社体制となった。米国Player One買収等により海外展開を本格化し、2040年の世界一エンターテイメント企業を目指す。",
+      "source_file": "00.pdf"
+    }
+  ]
+}

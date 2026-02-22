@@ -1,0 +1,71 @@
+{
+  "companyId": "ut_group",
+  "analyzedAt": "2026-02-22T21:18:43.940555",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "技術社員数",
+            "value": 33126,
+            "unit": "名"
+          },
+          {
+            "name": "登録会員数",
+            "value": 400000,
+            "unit": "人"
+          },
+          {
+            "name": "年間ユーザー数",
+            "value": 700000,
+            "unit": "人"
+          },
+          {
+            "name": "年間求人応募者数",
+            "value": 80000,
+            "unit": "人"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "製造業向け人材派遣市場において、非正規社員数が増加し続ける中で事業拡大。特に自動車業界向けの製造業人材サービスが好調"
+      },
+      "ma_info": [
+        {
+          "target": "ベトナム事業",
+          "date": "2025年3月",
+          "amount": null,
+          "synergy": "収益性改善のための売却",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "第5次中期経営計画",
+        "period": "2025年3月期目標",
+        "revenue_target": 270000,
+        "profit_target": "EBITDA 25000百万円",
+        "key_strategies": [
+          "収益性改善",
+          "採用手法の見直し",
+          "単価交渉による利益率向上"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期",
+      "summary": "UTグループは2026年3月期第3四半期累計で売上高1253億円（前年同期比8.4%減）、営業利益80億円（同22.8%増）。ベトナム事業売却により減収となったが、採用手法見直しや単価改善により収益性が大幅改善。モーター・エナジー事業は13.0%増収で好調を維持している。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

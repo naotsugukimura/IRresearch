@@ -1,0 +1,72 @@
+{
+  "companyId": "global_kids",
+  "analyzedAt": "2026-02-22T21:04:01.703493",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": 202,
+        "employee_count": 3600,
+        "other_kpis": [
+          {
+            "name": "認可保育所数",
+            "value": 168,
+            "unit": "施設"
+          },
+          {
+            "name": "学童クラブ・児童館数",
+            "value": 25,
+            "unit": "施設"
+          },
+          {
+            "name": "東京都認証保育所数",
+            "value": 3,
+            "unit": "施設"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "待機児童問題の解決に向けた保育需要の高まりがある一方、首都圏以外での事業収益性に課題があり、首都圏への集中戦略を推進"
+      },
+      "ma_info": [
+        {
+          "target": "めばえ保育ルーム事業",
+          "date": "2018年6月",
+          "amount": null,
+          "synergy": "企業主導型保育事業の拡充",
+          "status": "completed"
+        },
+        {
+          "target": "企業主導型保育事業",
+          "date": "2022年4月",
+          "amount": null,
+          "synergy": "事業譲渡により経営効率化",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "首都圏での中長期的に堅調な運営が見込まれる保育所等への経営資源集中",
+          "エリア特性や保育需要の見極めによる経営効率化"
+        ]
+      },
+      "fiscal_period": "2025年9月期",
+      "summary": "グローバルキッズCOMPANYは認可保育所168施設を含む202施設を運営する保育事業者。2025年9月期の売上高26,997百万円（前年比+2.1%）、営業利益858百万円を達成。2026年9月期は売上高33,000百万円を見込み、首都圏への事業集中により収益性向上を図る。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

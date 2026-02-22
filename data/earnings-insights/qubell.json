@@ -1,0 +1,73 @@
+{
+  "companyId": "qubell",
+  "analyzedAt": "2026-02-22T21:11:28.840407",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": 730.3,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": 639,
+        "other_kpis": [
+          {
+            "name": "Chatwork課金ID数",
+            "value": 838000,
+            "unit": "ID"
+          },
+          {
+            "name": "Chatwork導入実績",
+            "value": 953000,
+            "unit": "社"
+          },
+          {
+            "name": "EBITDA",
+            "value": 1371,
+            "unit": "百万円"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "国内最大級のビジネスチャットサービス市場で展開。中小企業の生産性向上とDX推進に特化したBPaaSサービスも提供"
+      },
+      "ma_info": [
+        {
+          "target": "kubellパートナーとミナジン",
+          "date": "2025年7月",
+          "amount": null,
+          "synergy": "BPaaS事業の成長スピード向上とグループ管理の効率化",
+          "status": "completed"
+        },
+        {
+          "target": "ペイトナー請求書事業",
+          "date": "2025年11月",
+          "amount": null,
+          "synergy": "経理業務DX支援の強化とFintech領域への参入",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "PLG戦略によるユーザー拡大",
+          "BPaaSサービス拡充",
+          "M&Aによる非連続成長"
+        ]
+      },
+      "fiscal_period": "2025年12月期",
+      "summary": "kubell（4448）は2025年12月期に売上高95.29億円（前期比12.5%増）、営業利益4.85億円（同400.8%増）を達成。ビジネスチャット「Chatwork」とBPaaS事業「タクシタ」を展開し、4期ぶりの営業黒字化と最終利益の黒字転換を実現した。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

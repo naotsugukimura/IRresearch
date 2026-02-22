@@ -1,0 +1,58 @@
+{
+  "companyId": "lifedrink",
+  "analyzedAt": "2026-02-22T21:06:16.825414",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "EBITDA",
+            "value": 5841,
+            "unit": "百万円（営業利益+減価償却費+のれん償却額、2025年3月期実績）"
+          },
+          {
+            "name": "楽天ショップ・オブ・ザ・イヤー総合賞",
+            "value": 6,
+            "unit": "位（2025年）"
+          },
+          {
+            "name": "楽天年間ランキング水・ソフトドリンクジャンル賞",
+            "value": 1,
+            "unit": "位（強炭酸水OZA SODA）"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "ミネラルウォーター・茶系飲料・炭酸飲料の製造販売。低価格戦略でPBや自社ECを中心とした「MAX生産・MAX販売」戦略により構造的なコスト優位性を築く"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "茶葉の垂直統合（鹿児島県・静岡県での荒茶工場運営・茶葉生産）",
+          "EC事業強化（楽天・Amazon等での販売拡大）",
+          "生産効率化（製造ライン切り替えロス最小化、ペットボトル内製化）"
+        ]
+      },
+      "fiscal_period": "2026年3月期",
+      "summary": "ライフドリンクカンパニーは2026年3月期第3四半期累計で売上高406.72億円（前年同期比17.7%増）、営業利益46.22億円（同9.7%増）を達成。通期予想は営業利益を65億円から52.2億円に下方修正したものの、低価格戦略とMAX生産・販売戦略により成長継続。EC事業も好調で楽天ショップ・オブ・ザ・イヤー総合6位を獲得。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

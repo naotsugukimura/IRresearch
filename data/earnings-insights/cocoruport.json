@@ -1,0 +1,54 @@
+{
+  "companyId": "cocoruport",
+  "analyzedAt": "2026-02-22T20:59:51.229591",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": 130,
+        "employee_count": 792,
+        "other_kpis": [
+          {
+            "name": "就労移行支援事業所数",
+            "value": 84,
+            "unit": "拠点"
+          },
+          {
+            "name": "自立訓練事業所数",
+            "value": 40,
+            "unit": "拠点"
+          },
+          {
+            "name": "指定計画相談支援事業所数",
+            "value": 5,
+            "unit": "拠点"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "生産年齢人口における障害者455.6万人、企業就労障害者数70.4万人、福祉的就労障害者数48.6万人。法定雇用率の段階的引き上げと精神障害者の急増により市場拡大が見込まれる"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": []
+      },
+      "fiscal_period": "2025年6月期",
+      "summary": "ココルポート（9346）は障害者総合支援法に基づく福祉サービス事業を展開。2025年6月期売上高6,377百万円（前年同期比10.9%増）、営業利益772百万円（同9.5%増）、当期純利益561百万円（同6.9%増）。2026年6月期予想は売上高7,306百万円、営業利益820百万円を見込む。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

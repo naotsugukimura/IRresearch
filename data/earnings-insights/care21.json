@@ -1,0 +1,140 @@
+{
+  "companyId": "care21",
+  "analyzedAt": "2026-02-22T20:56:30.567822",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": 648,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "在宅系介護事業所数",
+            "value": 338
+          },
+          {
+            "name": "施設系事業所数",
+            "value": 148
+          },
+          {
+            "name": "その他事業所数",
+            "value": 162
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": null
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "離職防止に向けた早期発見とケア体制を強化",
+          "営業力強化",
+          "ICT推進",
+          "入居促進部新設"
+        ]
+      },
+      "fiscal_period": "2025年第32期",
+      "summary": "ケア21グループの2025年第32期事業報告書。売上高は前年比6.1%増の481億58百万円、営業利益は7億84百万円となった。事業所数は648拠点で展開。離職防止、営業力強化、ICT推進、入居促進部新設などの重点施策を実施。新会社「ケア21ライフプラス」を設立し、福祉用具レンタル・販売事業に参入した。",
+      "source_file": "care21_businessreport2025_vol45.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": "18拠点の出店（在宅系介護事業7拠点、施設系介護事業5拠点、その他6拠点）",
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "入居率改善",
+            "description": "施設系介護事業で入居率が前年同期比／前四半期比で改善"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "急速な高齢化により介護ニーズが増加し、中長期的な市場拡大が期待される。企業間競争や人財獲得競争が激化している。"
+      },
+      "ma_info": [
+        {
+          "target": "株式会社ニューケアネット",
+          "date": "2025年10月期",
+          "amount": null,
+          "synergy": "連結範囲から除外",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "中期経営計画",
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "介護人財の安定的な確保と活用",
+          "生産性の改善",
+          "サービス品質の持続的な維持・強化",
+          "ICT・DXの推進",
+          "インクルーシブカンパニーの実現",
+          "海外事業展開（ベトナムでの有料老人ホーム開設予定）"
+        ]
+      },
+      "fiscal_period": "2025年10月期",
+      "summary": "株式会社ケア21の2025年10月期決算短信。売上高481億58百万円（6.1%増）、営業利益7億84百万円（前年は損失）と大幅改善。在宅系・施設系・その他事業で計18拠点を新設。人財確保、DX推進、海外展開等の成長戦略を推進中。",
+      "source_file": "care21_fr_results2025.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": []
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": null
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": []
+      },
+      "fiscal_period": "2025年7月期",
+      "summary": "株式会社ケア21の非上場親会社である株式会社浅科依田の2025年7月期決算情報。同社は創業家の資産管理会社で、有価証券の投資・運用等を事業とし、売上高0円ながら経常利益39,196千円、当期純利益34,736千円を計上。依田雅氏が100%株式を保有している。",
+      "source_file": "care21_ir251020_2.pdf"
+    }
+  ]
+}

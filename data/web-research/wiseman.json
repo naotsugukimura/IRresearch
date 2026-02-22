@@ -1,0 +1,177 @@
+{
+  "companyId": "wiseman",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"ワイズマン\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "1983年",
+          "employees": null,
+          "headquarters": "岩手県盛岡市盛岡駅西通2丁目",
+          "description": "医療・介護・福祉のICTシステム開発・販売を行うIT企業。業界トップクラスの導入実績を持つ。",
+          "main_services": [
+            "医療・介護・福祉向けシステム開発・販売",
+            "地域医療介護連携ソリューション",
+            "人材サービス",
+            "介護情報提供サイト運営"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": [
+            "61,200事業所超の導入実績（業界トップクラス）",
+            "介護保険制度施行以来の豊富なノウハウ",
+            "医療・介護・福祉の全サービスをカバーする包括的ソリューション",
+            "AIやIoT等最新技術の活用",
+            "地域包括ケアシステム対応"
+          ],
+          "market_position": "医療・介護・福祉ICTシステム分野の業界リーダー企業",
+          "threat_to_sms": "3 - 同じヘルスケアIT分野で豊富な実績を持つが、対象市場が異なる（中小病院・介護事業所 vs 大規模病院）"
+        },
+        "confidence": "high",
+        "data_freshness": "2023年6月"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:30:10.042643"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"ワイズマン\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2025年版"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:30:10.042663"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"ワイズマン\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "岩手県（盛岡名物の記載から推定）",
+          "description": "医療・介護・福祉分野向けの電子カルテシステムや介護ソフトの開発・販売を行う企業",
+          "main_services": [
+            "電子カルテシステムER",
+            "介護・福祉向けソフト",
+            "AIソリューション",
+            "保険代理店事業"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "音声記録AIが介護現場の記録業務とケアの質、両方の課題を解決",
+            "date": "2025-12-22",
+            "summary": "2026年3月リリース予定の音声記録AIを発表",
+            "source_url": "https://www.wiseman.co.jp/news/welfare/voicerecordingai/"
+          },
+          {
+            "title": "H.C.R.2025 出展のご案内",
+            "date": "2025年",
+            "summary": "介護現場にAI革命をもたらす最新ソリューションを展示",
+            "source_url": "https://www.wiseman.co.jp/news/welfare/news_hcr2025/"
+          },
+          {
+            "title": "電子カルテ情報共有サービス（HL7 FHIR実装）への対応",
+            "date": "2025-03-01",
+            "summary": "電子カルテシステムERが医療DX施策に対応開始",
+            "source_url": "https://www.wiseman.co.jp/news/medical/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "全国61200以上の介護・福祉施設での導入実績",
+            "AI技術の積極的な導入",
+            "医療・介護・福祉の包括的なソリューション提供"
+          ],
+          "market_position": "介護・福祉業界向けソフトウェア分野で高いシェアを持つ確立された企業",
+          "threat_to_sms": "3 - 介護・福祉分野でのAI活用とクラウドサービスの実績があり、類似分野での競合可能性がある"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-12-22"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:30:10.042668"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"ワイズマン\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": "1983年",
+          "employees": null,
+          "headquarters": "岩手県盛岡市",
+          "description": "医療・介護・福祉分野に特化したソフトウェアの企画から開発、販売、サポートまでワンストップで展開する企業",
+          "main_services": [
+            "ワイズマンシステムSP",
+            "すぐろくHome",
+            "メルタス"
+          ]
+        },
+        "funding": {
+          "total_raised": "資本金1億円",
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "New Relicを活用したオブザーバビリティプラットフォーム導入",
+            "date": null,
+            "summary": "サービス品質と顧客満足度向上のためのシステム監視強化",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000096.000109343.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "介護施設業界トップクラスのシェア（61,200事業所導入）",
+            "医療・介護・福祉の垂直統合型ソリューション",
+            "全国20拠点のサポート体制",
+            "老健施設の約4割導入実績",
+            "現場密着型の機能開発"
+          ],
+          "market_position": "介護ソフト市場で第2位（シェア22.4%）、NDソフトウェアと競合状態",
+          "threat_to_sms": "脅威度4 - 介護業界でのトップクラスシェアと包括的ソリューションによりSMSカイポケの強力な競合"
+        },
+        "confidence": "high",
+        "data_freshness": "2026年"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:30:10.042673"
+    }
+  ]
+}

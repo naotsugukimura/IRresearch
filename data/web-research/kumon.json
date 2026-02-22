@@ -1,0 +1,176 @@
+{
+  "companyId": "kumon",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"公文教育研究会\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "1958年",
+          "employees": 3626,
+          "headquarters": "大阪府大阪市淀川区西中島5丁目6番6号、東京都港区高輪4丁目10番18号",
+          "description": "算数・数学、英語、国語、フランス語、ドイツ語、日本語、書写、学習療法などの教育サービスを世界60以上の国と地域で展開する教育事業会社",
+          "main_services": [
+            "公文式学習法",
+            "学習療法",
+            "書写教育"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": [
+            "60余年の教育ノウハウ",
+            "世界60以上の国・地域での展開",
+            "355万人の学習者数"
+          ],
+          "market_position": "世界最大規模の学習塾・教育サービス企業の一つ",
+          "threat_to_sms": "1段階 - 教育業界のため直接的な脅威なし"
+        },
+        "confidence": "high",
+        "data_freshness": "2025-03-XX"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:16:04.035561"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"公文教育研究会\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "公文式学習法による教育サービスを提供する企業",
+          "main_services": [
+            "公文式学習指導",
+            "教育研究開発"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "経済同友会の成長戦略関連文書に池上秀徳社長が寄稿",
+            "date": "2016-07-12",
+            "summary": "代表取締役社長として経済同友会の政策提言書に参加",
+            "source_url": "https://www.doyukai.or.jp/policyproposals/2016/pdf/160712a.pdf"
+          }
+        ],
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2016-07-12"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:16:04.035604"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"公文教育研究会\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "日本",
+          "description": "公文式学習法を用いた教育サービスを提供する企業。算数・数学、英語、国語等の教科を個人別学習で指導",
+          "main_services": [
+            "公文式学習",
+            "Baby Kumon",
+            "企業・学校向け日本語教育"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "会費改定のご案内",
+            "date": "2026-01-29",
+            "summary": "2026年4月から月額会費を330円値上げ",
+            "source_url": "https://www.kumon.ne.jp/oshirase/2026011.html"
+          },
+          {
+            "title": "パキスタンで拡大する「公文式」、活動状況を代表（COO）に聞く",
+            "date": "2026-02-19",
+            "summary": "パキスタンで10教室を運営、2022年から進出",
+            "source_url": "https://www.jetro.go.jp/biznews/2026/02/dca5ee6e55633393.html"
+          },
+          {
+            "title": "公文､個人情報74万人漏洩　委託先へのランサム攻撃受け",
+            "date": null,
+            "summary": "委託先のサイバー攻撃により個人情報流出",
+            "source_url": null
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "海外展開（パキスタン等）",
+            "長年の実績とブランド力",
+            "個人別学習システム"
+          ],
+          "market_position": "日本の教育業界における老舗大手企業",
+          "threat_to_sms": "2 - 従来型の対面・紙ベース学習が中心でSMSとは異なる領域"
+        },
+        "confidence": "medium",
+        "data_freshness": "2026-02-19"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:16:04.035610"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"公文教育研究会\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "公文式教育法による学習塾を全国・海外展開。個人別・能力別の自学自習型指導を特徴とする教育サービス事業",
+          "main_services": [
+            "公文式教室",
+            "学習教材開発",
+            "指導法研究"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": [
+            "教材と指導原理への強み",
+            "理念への共感をベースとした人材採用",
+            "個人別・能力別の学習法",
+            "グローバル展開（欧州・アフリカで14万人の生徒）",
+            "自学自習とスモールステップの教授法"
+          ],
+          "market_position": "学習塾業界売上高トップ（約470億円）、市場シェア約10%。学研教室などと競合するも、独自の指導法で差別化を図る",
+          "threat_to_sms": "3段階 - 教育分野での強固なブランド力と独自の指導法を持つが、直接的なSMS事業への脅威は限定的"
+        },
+        "confidence": "medium",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:16:04.035615"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "companyId": "zyras",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"ザイラス\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "1989年8月1日",
+          "employees": 33,
+          "headquarters": "東京都千代田区九段北1-14-12 JP九段ビル6F",
+          "description": "保険業界向けソリューションサービス、システム開発事業を展開。ITを活用した業務効率向上とビジネスモデル構築支援を提供。",
+          "main_services": [
+            "LIPSAS Neo（保険代理店向けCRMシステム）",
+            "システムソリューション",
+            "データ分析",
+            "教育プログラム"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "生損保代理店向けLIPSAS Neoのリリース",
+            "date": "2023年頃",
+            "summary": "保険代理店向け営業支援システムの新版をリリース",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000001.000130554.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "保険業界特化の豊富な事例とノウハウ",
+            "世界基準のセキュリティレベル",
+            "生損保乗合など様々な業態に対応"
+          ],
+          "market_position": "保険業界向けソリューションのニッチ分野で専門性を発揮",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2023年11月"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:31:03.616423"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"ザイラス\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": "201億円",
+          "latest_round": "シリーズF",
+          "investors": [
+            "ウーブン・バイ・トヨタ株式会社",
+            "株式会社三井住友銀行",
+            "SBIグループ",
+            "野村不動産株式会社",
+            "B Dash Ventures株式会社",
+            "宇宙フロンティア2号ファンド",
+            "株式会社SMBC Edge",
+            "株式会社ジャパネットホールディングス"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "シリーズFで総額201億円の資金調達を完了しました",
+            "date": null,
+            "summary": "シリーズFで総額201億円の資金調達を完了",
+            "source_url": "https://www.istellartech.com/news/releases/11034"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "国内のリーディングカンパニーとして確かな技術力と実行力を有する",
+            "グローバル市場においても存在感を発揮できる期待"
+          ],
+          "market_position": "宇宙輸送分野における国内リーディングカンパニー",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2025年"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:31:03.616436"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"ザイラス\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "保険代理店向けシステムや福祉業界向けソリューションを提供するITサービス企業",
+          "main_services": [
+            "LIPSAS Neo（保険代理店システム）",
+            "SangaZ（福祉業界向けソリューション）"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "福祉ソリューション【SangaZ（サンガ）】アップデート",
+            "date": "2026-01-05",
+            "summary": "国保連請求機能が追加され、バージョンアップを実施",
+            "source_url": "https://www.zyrus.jp/"
+          },
+          {
+            "title": "保険代理店向けCRM「LIPSAS Neo」に画期的な損保満期更改自動化機能を実装",
+            "date": null,
+            "summary": "損保満期更改の自動化機能を新たに実装",
+            "source_url": "https://prtimes.jp/topics/keywords/%E4%BF%9D%E9%99%BA%E4%BB%A3%E7%90%86%E5%BA%97"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "保険業界特化のシステム開発",
+            "福祉業界への多角化"
+          ],
+          "market_position": "保険代理店システム市場における中堅プレイヤー",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2026-01-16"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:31:03.616439"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"ザイラス\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": [
+            "ファストファッション",
+            "迅速なサプライチェーン",
+            "低価格と高品質の両立",
+            "デザインから販売までの高速サイクル",
+            "強固なブランドアイデンティティ"
+          ],
+          "market_position": "ファストファッション業界での差別化戦略により競合優位性を確立",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:31:03.616441"
+    }
+  ]
+}

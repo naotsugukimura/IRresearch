@@ -1,0 +1,177 @@
+{
+  "companyId": "special_learning",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"Special Learning\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2014年",
+          "employees": "32名",
+          "headquarters": null,
+          "description": "障がい福祉支援者向けオンライン研修サービス「Special Learning」を提供し、障がい者への理解促進を目指す",
+          "main_services": [
+            "Special Learning",
+            "Special Learning for business",
+            "Special Shift",
+            "知的障がい支援士認定資格"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "障がい福祉に特化したeラーニング「Special Learning」に研修の提供・受講をサポートする新機能が登場！",
+            "date": null,
+            "summary": "研修計画機能で支援の質を高める人材育成を実現",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000038466.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "障がい福祉に特化したマイクロラーニング形式",
+            "1,300本以上の専門家監修動画コンテンツ",
+            "7,300以上の組織が利用",
+            "3分程度の短時間学習でスキマ時間活用可能"
+          ],
+          "market_position": "障がい福祉業界特化のeラーニング市場でのリーディングポジション",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:26:27.724245"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"Special Learning\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "知的障がい者支援に必要な知識を3分動画で学べるeラーニング「Special Learning」を開発・提供",
+          "main_services": [
+            "Special Learning"
+          ]
+        },
+        "funding": {
+          "total_raised": "約3億円",
+          "latest_round": "シリーズA",
+          "investors": [
+            "おおさか社会課題解決2号投資事業有限責任組合",
+            "京信イノベーションC2号投資事業有限責任組合",
+            "京銀輝く未来応援ファンド2号投資事業有限責任組合",
+            "三菱UFJキャピタル8号投資事業有限責任組合",
+            "松尾義清氏（株式会社農業総合研究所取締役）"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "累計調達額約3億円の資金調達完了",
+            "date": null,
+            "summary": "シリーズAラウンドで8,050万円を調達、累計約3億円に",
+            "source_url": "https://leanonme.co.jp/seriesaextension_finance/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "障がい福祉分野に特化したeラーニング",
+            "マイクロラーニング方式採用",
+            "200個以上の研修動画コンテンツ"
+          ],
+          "market_position": "障がい福祉分野のeラーニング市場でニーズが高まっている",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:26:27.724262"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"Special Learning\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "日本（推定）",
+          "description": "障がい福祉施設向けのオンライン研修サービス。3分程度の短いコンテンツを2,000本以上配信し、専門知識を提供。",
+          "main_services": [
+            "障がい福祉特化オンライン研修",
+            "専門家監修プログラム配信"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "Special Learning利用実績更新",
+            "date": "2025-12-31",
+            "summary": "累計利用者13.3万人、利用事業所7,300事業所、継続率98%達成",
+            "source_url": "https://special-learning.jp/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "障がい福祉特化の専門性",
+            "高い継続率98%",
+            "豊富なコンテンツ数2,000本以上",
+            "著名専門家との共同開発"
+          ],
+          "market_position": "障がい福祉分野でのオンライン研修におけるリーディングポジション（推定）",
+          "threat_to_sms": "2段階 - 特定業界特化のため直接的脅威は限定的だが、オンライン研修市場での成功モデルとして参考になる"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-12-31"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:26:27.724267"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"Special Learning\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": [
+            "価格競争の回避",
+            "高い利益率",
+            "差別化戦略による競争優位性",
+            "強いブランドポジショニング"
+          ],
+          "market_position": "独自の価値提案により市場シェアを確保し、価格以外の理由で顧客に選ばれるポジション",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:26:27.724270"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "companyId": "benesse",
+  "analyzedAt": "2026-02-22T20:58:58.865698",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "進研ゼミ・こどもちゃれんじ会員数",
+            "value": null,
+            "unit": "万人（減少傾向）"
+          },
+          {
+            "name": "ROE",
+            "value": 4.12,
+            "unit": "%（2024年3月期）"
+          },
+          {
+            "name": "ROA",
+            "value": null,
+            "unit": "%"
+          },
+          {
+            "name": "自己資本比率",
+            "value": 32.67,
+            "unit": "%（2024年3月期推定）"
+          },
+          {
+            "name": "営業利益率",
+            "value": 4.92,
+            "unit": "%（2024年3月期）"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "国内教育市場は少子化の影響を受けるが、シェア拡大による成長余地が存在。介護・保育事業はコロナ禍からの回復期"
+      },
+      "ma_info": [
+        {
+          "target": "ベネッセ進研ゼミ個別指導教室事業",
+          "date": "2025年4月1日",
+          "amount": null,
+          "synergy": "事業再編による効率化",
+          "status": "announced"
+        }
+      ],
+      "midterm_plan": {
+        "name": "変革事業計画",
+        "period": "2023-2025年度",
+        "revenue_target": "5000億円以上（2025年度）",
+        "profit_target": "400億円以上（2025年度）",
+        "key_strategies": [
+          "コア教育事業の変革",
+          "コア介護事業の変革",
+          "新領域（大学・社会人、海外）への挑戦",
+          "DX推進",
+          "Next GIGA構想対応投資"
+        ]
+      },
+      "fiscal_period": "2024年3月期実績、2025年2月期予想",
+      "summary": "ベネッセHDは2024年3月期に売上高4108億円、営業利益202億円を計上。進研ゼミ会員数減少も価格改定とコスト削減で吸収。変革事業計画により2025年度に売上5000億円、営業利益400億円を目標とし、教育・介護のコア事業変革と新領域への投資を推進。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

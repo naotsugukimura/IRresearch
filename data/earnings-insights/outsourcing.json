@@ -1,0 +1,70 @@
+{
+  "companyId": "outsourcing",
+  "analyzedAt": "2026-02-22T21:09:22.279353",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": 8923,
+        "other_kpis": [
+          {
+            "name": "年間採用人数（建設技術者領域）",
+            "value": 1382,
+            "unit": "名"
+          },
+          {
+            "name": "定着率（建設技術者領域）",
+            "value": 71.9,
+            "unit": "%"
+          },
+          {
+            "name": "正社員派遣稼働人数",
+            "value": 3925,
+            "unit": "名"
+          },
+          {
+            "name": "外国人雇用支援人数",
+            "value": 4331,
+            "unit": "名"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "IT人材需給に関する調査報告書（経済産業省2019年3月公表）を基に事業展開。人材アウトソーシングおよび広域行政BPOサービス市場で事業展開"
+      },
+      "ma_info": [
+        {
+          "target": "トータルサポート株式会社",
+          "date": "2025年10月31日",
+          "amount": null,
+          "synergy": "株式譲渡により連結対象から除外",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": "2026年3月期",
+        "revenue_target": "6800百万円（ITアウトソーシング事業）",
+        "profit_target": "30百万円（営業利益）",
+        "key_strategies": [
+          "ITアウトソーシング事業をメイン事業として経営資源を集中",
+          "複数の重点戦略から単一戦略への集約"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期",
+      "summary": "アウトソーシング関連企業群の業績情報。ITアウトソーシング事業が主力で売上高5309百万円（前年同期比63.3％増）、黒字転換を達成。人材アウトソーシング事業では従業員数8923名、外国人雇用支援人数4331名などのKPIを公表。複数事業から単一事業への集約戦略を推進中。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

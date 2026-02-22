@@ -1,0 +1,76 @@
+{
+  "companyId": "rakus",
+  "analyzedAt": "2026-02-22T21:11:59.793310",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": 22,
+        "employee_count": 3086,
+        "other_kpis": [
+          {
+            "name": "営業利益率",
+            "value": 32.9,
+            "unit": "%"
+          },
+          {
+            "name": "有給休暇取得率",
+            "value": null,
+            "unit": "%"
+          },
+          {
+            "name": "月平均残業時間",
+            "value": null,
+            "unit": "時間"
+          },
+          {
+            "name": "女性管理職比率",
+            "value": null,
+            "unit": "%"
+          },
+          {
+            "name": "社外取締役比率",
+            "value": null,
+            "unit": "%"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "企業のIT投資は堅調に推移、クラウド事業が成長を牽引"
+      },
+      "ma_info": [
+        {
+          "target": "カオナビ",
+          "date": "2025年12月頃",
+          "amount": null,
+          "synergy": "株式売却による特別利益計上",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "次期中期経営計画",
+        "period": "2027年3月期～2029年3月期",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "収益性と成長性の両立",
+          "クラウド事業への戦略的リソース投下",
+          "中期経営目標達成"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期",
+      "summary": "ラクス（3923）は2026年3月期第3四半期累計で売上高442億97百万円（前年同期比24.6%増）、営業利益125億円（同65.7%増）を達成。営業利益率は32.9%まで改善し、初めて30%を超えた。通期予想は売上高600億円、営業利益160億円を維持している。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

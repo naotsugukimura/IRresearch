@@ -1,0 +1,136 @@
+{
+  "companyId": "sompo_care",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"SOMPOケア\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "1997年",
+          "employees": 25225,
+          "headquarters": "東京都品川区東品川四丁目12番8号",
+          "description": "有料老人ホーム・サービス付き高齢者向け住宅・グループホームの運営、居宅サービス事業を展開する介護総合ブランド",
+          "main_services": [
+            "有料老人ホーム運営",
+            "居宅サービス事業",
+            "グループホーム運営",
+            "サービス付き高齢者向け住宅"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "SOMPOホールディングス（100%子会社）"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": null,
+            "date": null,
+            "summary": null,
+            "source_url": null
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "業界トップクラスの規模",
+            "SOMPOグループの支援",
+            "在宅から施設まで総合的なサービス展開",
+            "DX推進による効率化"
+          ],
+          "market_position": "介護業界のフロントランナーとして業界最大手クラスの地位",
+          "threat_to_sms": null
+        },
+        "confidence": "high",
+        "data_freshness": "2024年3月31日"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:25:31.690746"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"SOMPOケア\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "SOMPOホールディングス傘下の介護・ヘルスケアサービス事業会社",
+          "main_services": [
+            "介護サービス",
+            "ヘルスケアサービス"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "SOMPOホールディングス"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "SOMPOホールディングス第15回定時株主総会招集通知",
+            "date": "2025-05-23",
+            "summary": "株主総会での事業報告と取締役選任に関する通知",
+            "source_url": "https://www.sompo-hd.com/-/media/hd/files/ir/stock/meeting/pdf/sompo-hd20250523_1.pdf?la=ja-JP"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "SOMPOグループの資本力",
+            "保険事業とのシナジー"
+          ],
+          "market_position": "大手保険グループ傘下の介護事業者として安定した事業基盤を持つ",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2025-05-23"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:25:31.690768"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"SOMPOケア\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "SOMPOホールディングス傘下の介護事業会社。国内トップシェアを誇る介護サービスを提供",
+          "main_services": [
+            "介護サービス",
+            "デイサービス",
+            "訪問介護"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [],
+        "competitive_position": {
+          "strengths": [
+            "国内トップシェアの介護事業",
+            "質・量ともに圧倒的なリアルデータを保有",
+            "AIやIoTを活用したデータドリブン戦略",
+            "異種データ統合による独自のリスク指標導出",
+            "Palantirの強力なデータ統合・解析基盤の活用"
+          ],
+          "market_position": "国内介護サービス業界でトップシェア。データとAI技術を組み合わせた独自の競争優位性を確立",
+          "threat_to_sms": "3段階 - 介護業界特化だがデータ活用とAI技術の応用力は他業界への展開可能性あり"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025年"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:25:31.690773"
+    }
+  ]
+}

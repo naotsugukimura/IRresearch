@@ -1,0 +1,74 @@
+{
+  "companyId": "curebito",
+  "analyzedAt": "2026-02-22T21:01:27.071347",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": 51,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "支援先医療機関数",
+            "value": 113,
+            "unit": "拠点"
+          },
+          {
+            "name": "ホスピス施設定員数",
+            "value": 1733,
+            "unit": "床"
+          },
+          {
+            "name": "居宅訪問看護年間総ケア時間",
+            "value": 1065220,
+            "unit": "時間"
+          },
+          {
+            "name": "女性従業員比率",
+            "value": 63.3,
+            "unit": "%"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "医療機関支援、ホスピス運営、居宅訪問看護等の医療・介護サービス事業を展開"
+      },
+      "ma_info": [
+        {
+          "target": "米国足病事業",
+          "date": "2024年1月",
+          "amount": null,
+          "synergy": "海外売上収益の増加",
+          "status": "completed"
+        },
+        {
+          "target": "Vascular Specialists, LLC（イリノイ州）",
+          "date": "2026年2月",
+          "amount": null,
+          "synergy": "米国OBL事業の拡大",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": null
+      },
+      "fiscal_period": "2026年3月期",
+      "summary": "CUCグループは医療機関支援、ホスピス、居宅訪問看護事業を展開。2026年3月期通期予想は売上収益582.5億円、営業利益55億円。第3四半期時点では売上401.7億円（前年同期比16.2%増）、営業利益31.8億円（同30.5%減）。医療機関支援は堅調だが、ホスピス事業で新規施設の立ち上げコストが利益を圧迫している。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

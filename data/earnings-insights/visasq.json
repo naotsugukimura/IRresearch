@@ -1,0 +1,76 @@
+{
+  "companyId": "visasq",
+  "analyzedAt": "2026-02-22T21:19:46.956952",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": 700000,
+        "facility_count": null,
+        "employee_count": 614,
+        "other_kpis": [
+          {
+            "name": "クライアントアカウント数",
+            "value": 1500,
+            "unit": "アカウント"
+          },
+          {
+            "name": "世界拠点数",
+            "value": 7,
+            "unit": "拠点"
+          },
+          {
+            "name": "対象国数",
+            "value": 190,
+            "unit": "カ国"
+          },
+          {
+            "name": "調整後EBITDA（2026年2月期3Q）",
+            "value": 739,
+            "unit": "百万円"
+          },
+          {
+            "name": "1株当たり四半期純利益（2026年2月期3Q）",
+            "value": 32.68,
+            "unit": "円"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "ビジネス知見のナレッジシェアプラットフォーム市場で事業展開。世界190カ国でサービス提供し、東京、アメリカ、シンガポール、香港、ロンドンの7拠点でグローバル展開中"
+      },
+      "ma_info": [
+        {
+          "target": "Coleman Research Group, Inc.",
+          "date": "2021年11月",
+          "amount": null,
+          "synergy": "グローバル市場拡大、世界7拠点体制構築",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "国内市場の拡大",
+          "グローバル市場の拡大",
+          "多種多様な知見のマッチングサービス提供"
+        ]
+      },
+      "fiscal_period": "2026年2月期",
+      "summary": "ビザスクは知見マッチングプラットフォームを運営し、2026年2月期3Q累計で売上高7,288百万円（前年同期比0.3%減）、経常利益901百万円（同12.0%増）を計上。通期予想は売上高10,667百万円、経常利益1,035百万円。調整後EBITDAは739百万円と順調に成長している。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

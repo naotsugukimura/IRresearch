@@ -1,0 +1,199 @@
+{
+  "companyId": "miraiz",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"ミライズ\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2017年（推定）",
+          "employees": null,
+          "headquarters": "東京都港区芝浦4丁目12番38号",
+          "description": "AI・ビッグデータ技術を活用した金融サービス、個人資産形成支援、ライフプランシミュレーションを提供するフィンテック企業",
+          "main_services": [
+            "ライフプランシミュレーションツール",
+            "ファイナンシャルコンサルティング",
+            "金融リテラシー判定サービス",
+            "フィンテックコンサルティング"
+          ]
+        },
+        "funding": {
+          "total_raised": "16億7130万円（推定・資本金ベース）",
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [],
+        "competitive_position": {
+          "strengths": [
+            "AI・機械学習技術による金融データ解析",
+            "個人向けライフプランシミュレーション",
+            "フィンテック分野での総合的なコンサルティング能力",
+            "金融リテラシー教育事業"
+          ],
+          "market_position": "個人向け資産形成支援とフィンテックコンサルティングを軸とする成長段階の企業",
+          "threat_to_sms": "2段階 - 主に個人向け金融サービスに特化しており、企業向けコミュニケーション分野での直接的な競合関係は限定的"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025年1月"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:21:39.455378"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"ミライズ\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": "2009年4月",
+          "employees": null,
+          "headquarters": "東京都港区芝浦4-12-38",
+          "description": "英語学習サービス「ミライズ英会話」を運営。AI活用による完全パーソナライズ語学教材自動生成技術を開発。",
+          "main_services": [
+            "ミライズ英会話",
+            "AI語学教材自動生成技術"
+          ]
+        },
+        "funding": {
+          "total_raised": "104百万円（推定）",
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "ミライズ英会話、独自のAI活用「完全パーソナライズ語学教材自動生成技術」で特許取得",
+            "date": "2025-07-04",
+            "summary": "AI技術による語学教材自動生成で特許を取得",
+            "source_url": "https://initial.inc/companies/A-12968"
+          },
+          {
+            "title": "MeRISE株式会社がNB.ACADEMYが主催するアジア地域初の＜アジア甲子園＞のオフィシャルサプライヤーに参画",
+            "date": "2024-08-09",
+            "summary": "アジア甲子園のオフィシャルサプライヤーとして参画",
+            "source_url": "https://initial.inc/companies/A-12968"
+          },
+          {
+            "title": "株式会社UZUZとMeRISE株式会社がコラボして新サービスを提供",
+            "date": "2024-01-13",
+            "summary": "UZUZとの協業により新サービスを提供開始",
+            "source_url": "https://initial.inc/companies/A-12968"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "AI活用による完全パーソナライズ語学教材自動生成技術の特許取得",
+            "英語学習市場での実績"
+          ],
+          "market_position": "AI技術を活用した語学教育サービス分野でのポジション確立",
+          "threat_to_sms": "2段階 - 語学教育分野に特化しており、SMSの主要事業領域との直接的な競合は限定的"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-07-04"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:21:39.455405"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"ミライズ\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "愛知県名古屋市（推定）",
+          "description": "中部電力グループの電力小売事業会社。電気・ガス供給、脱炭素ソリューション、DXサービスを提供",
+          "main_services": [
+            "電力小売",
+            "都市ガス供給",
+            "脱炭素ソリューション",
+            "PPAサービス",
+            "見守りサービス"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "中部電力（親会社）"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "2026年4月から特別高圧・高圧の標準メニューを見直し、米ヘンリーハブを燃料価格指標に導入",
+            "date": "2025-12-27",
+            "summary": "電源調達構造変化に対応し燃料費調整制度を変更",
+            "source_url": "https://www.denkishimbun.com/sp/398939"
+          },
+          {
+            "title": "省エネ大賞2025年度製品・ビジネスモデル部門で審査委員会特別賞を受賞",
+            "date": "2025-12-01",
+            "summary": "省エネ関連の取り組みが評価される",
+            "source_url": "https://miraiz.chuden.co.jp/info/press/2025.html"
+          },
+          {
+            "title": "グリッドシェアジャパンへの出資により家庭用DRサービス拡大",
+            "date": "2025-12-01",
+            "summary": "デマンドレスポンス事業強化に向けた資本業務提携",
+            "source_url": "https://miraiz.chuden.co.jp/info/press/2025.html"
+          },
+          {
+            "title": "子会社ミライズエネチェンジのEV補助金水増し申請疑惑",
+            "date": "2026-02-18",
+            "summary": "中部電力ミライズが51%出資する合弁会社の不正疑惑",
+            "source_url": "https://kaikeinews.hatenablog.com/entry/2026/02/18/133127"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "中部電力グループの信頼性",
+            "脱炭素ソリューション",
+            "地域密着型サービス",
+            "PPAサービス",
+            "高齢者見守り等の付加価値サービス"
+          ],
+          "market_position": "中部地方の主要電力小売事業者として、脱炭素・DX分野でのサービス拡充を進める",
+          "threat_to_sms": "2段階：電力小売が主力でSMS事業との直接競合は限定的だが、DXソリューション分野での展開に注視が必要"
+        },
+        "confidence": "medium",
+        "data_freshness": "2026-02-18"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:21:39.455410"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"ミライズ\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": [
+            "差別化戦略による価格競争の回避",
+            "独自価値提案による高利益率の実現",
+            "市場シェア確保とブランディング確立"
+          ],
+          "market_position": "競合分析と差別化戦略を活用して競争優位性を構築する企業として位置づけられる",
+          "threat_to_sms": "情報不足のため評価不可"
+        },
+        "confidence": "low",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:21:39.455415"
+    }
+  ]
+}

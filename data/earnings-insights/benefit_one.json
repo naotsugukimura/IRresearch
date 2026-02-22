@@ -1,0 +1,153 @@
+{
+  "companyId": "benefit_one",
+  "analyzedAt": "2026-02-22T20:56:26.172923",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "会費収入",
+            "description": "福利厚生事業の主要収益源"
+          },
+          {
+            "name": "コロナワクチン接種支援事業売上",
+            "value": "前期比3,204百万円減収",
+            "description": "ヘルスケア事業の一部"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "主に国内における福利厚生代行サービスを中心とした会員制サービス事業を展開"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "中長期成長に向けた人材やシステムへの投資",
+          "旧JTBベネフィットのサービス統合による重複コスト削減"
+        ]
+      },
+      "fiscal_period": "2024年3月期",
+      "summary": "株式会社ベネフィット・ワンの2024年3月期決算。売上高38,962百万円（前期比8.1%減）、営業利益7,618百万円（前期比27.3%減）。福利厚生事業では会費収入が増加する一方、コロナワクチン接種支援事業が大幅減収。2024年5月20日に上場廃止予定のため、配当は無配とし、次期業績予想も非開示。",
+      "source_file": "20240508.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": "1,151万人（総会員数、2023年12月末）",
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "福利厚生会員数",
+            "value": "961万人",
+            "period": "2023年12月末"
+          },
+          {
+            "name": "健診受診件数",
+            "value": "15万件",
+            "period": "2023年第3四半期"
+          },
+          {
+            "name": "特定保健指導初回面談件数",
+            "value": "4万件",
+            "period": "2023年第3四半期"
+          },
+          {
+            "name": "コロナワクチン接種回数",
+            "value": "9万件",
+            "period": "2023年第3四半期"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": null
+      },
+      "ma_info": [
+        {
+          "target": "JTBベネフィット",
+          "date": null,
+          "amount": null,
+          "synergy": "人材・システムに係る支出増加を旧JTBベネフィットのサービス統合効果で一部吸収、営業利益率は改善",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": null
+      },
+      "fiscal_period": "2024年3月期",
+      "summary": "ベネフィット・ワンの2024年3月期第3四半期決算。福利厚生事業で会員拡大の遅れがあるものの、旧JTBベネフィットとの統合効果で営業利益率は改善。健診事業は堅調に推移し、保健指導事業は回復基調を継続。総会員数は1,151万人。通期業績予想は据え置き。",
+      "source_file": "202401311.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": "961万人",
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "給トク払い取扱流通額",
+            "value": "28百万円",
+            "period": "第3四半期"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": null
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": "中期経営計画",
+        "period": "2023年5月11日公表",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "会員基盤の拡大",
+          "決済事業の収益化"
+        ]
+      },
+      "fiscal_period": "2024年3月期",
+      "summary": "ベネフィット・ワンの2024年3月期第3四半期決算。売上高28,376百万円（前年同期比8.5％減）、営業利益5,820百万円（25.7％減）。会員数は961万人に拡大。中期経営計画の初年度として会員基盤拡大と決済事業収益化に注力。給トク払いサービスにNetflixを追加し利用拡大を推進。",
+      "source_file": "202401312.pdf"
+    }
+  ]
+}

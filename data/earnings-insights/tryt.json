@@ -1,0 +1,79 @@
+{
+  "companyId": "tryt",
+  "analyzedAt": "2026-02-22T21:17:09.144447",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": 2550000,
+        "facility_count": 90000,
+        "employee_count": 1590,
+        "other_kpis": [
+          {
+            "name": "累計登録求職者数",
+            "value": 2550000,
+            "unit": "人"
+          },
+          {
+            "name": "累計契約施設数",
+            "value": 90000,
+            "unit": "件"
+          },
+          {
+            "name": "営業社員数",
+            "value": 1590,
+            "unit": "人"
+          },
+          {
+            "name": "営業社員一人当たり期間平均売上",
+            "value": 3.6,
+            "unit": "百万円"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "介護報酬・診療報酬改定、こども家庭庁主導による保育業界の待遇改善、建設業界の人手不足深刻化により追い風環境"
+      },
+      "ma_info": [
+        {
+          "target": "メディクル社",
+          "date": "2025年",
+          "amount": null,
+          "synergy": "既存ユーザーベース活用によるマーケティング強化",
+          "status": "completed"
+        },
+        {
+          "target": "株式会社トライトエンジニアリング",
+          "date": "2026年3月1日",
+          "amount": null,
+          "synergy": "建設業界向け人材派遣・人材紹介サービスの強化",
+          "status": "announced"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": "FY26以降",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "競争環境に左右されにくい登録求職者獲得の仕組み構築",
+          "データベース活用施策の強化",
+          "医療福祉従事者とのタッチポイント増加",
+          "建設業界の若年層採用強化"
+        ]
+      },
+      "fiscal_period": "2025年12月期",
+      "summary": "トライトは医療福祉業界向け人材サービスを主力とする企業。2025年12月期第1四半期は売上収益が前年同期比8%増の128億円と堅調に成長。通期では売上収益643億円（12.6%増）、営業利益62億円（19.6%増）を見込む。累計登録求職者数は255万人、契約施設数は9万件に拡大し、M&Aによる事業強化も進めている。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

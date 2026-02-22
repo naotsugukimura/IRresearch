@@ -1,0 +1,155 @@
+{
+  "companyId": "hug",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"HUG（ネットアーツ）\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2001年3月",
+          "employees": "76名（パート・アルバイト含む）",
+          "headquarters": "愛知県名古屋市中区金山一丁目14番18号 A-PLACE金山 8F",
+          "description": "障がい福祉事業所向けクラウドサービス「HUG」の開発・販売、Webサイト制作、福祉事業所運営を行う",
+          "main_services": [
+            "施設運営システムHUG",
+            "Webサイト制作・システム開発",
+            "放課後等デイサービス・就労支援事業所運営"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "「HUG」が計画相談支援・障害児相談支援に対応",
+            "date": null,
+            "summary": "相談支援事業への対応アップデートを実施、国保連請求やアセスメント作成に対応",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000008.000057730.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "全国9,000施設以上の導入実績",
+            "自社での福祉事業所運営による現場ノウハウの蓄積",
+            "テクノロジーと福祉の融合"
+          ],
+          "market_position": "障がい福祉事業所向け施設運営システムの業界リーダー",
+          "threat_to_sms": "2段階 - ニッチな福祉分野特化のため直接競合しないが、システム開発力は評価すべき"
+        },
+        "confidence": "high",
+        "data_freshness": "2024年推定"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:13:08.528887"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"HUG（ネットアーツ）\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "ジュネーブ、スイス",
+          "description": "ジュネーブ大学病院群。医療サービス、研究、教育を提供する公的医療機関",
+          "main_services": [
+            "医療サービス",
+            "臨床研究",
+            "医学教育",
+            "救急医療"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "HUGが第5世代ダヴィンチ手術ロボット2台を導入",
+            "date": "2026-02-10",
+            "summary": "最新の外科手術ロボット技術を導入し医療の最前線に",
+            "source_url": "https://www.hug.ch/"
+          },
+          {
+            "title": "画像診断技術による治療と診断の向上",
+            "date": "2026-01-30",
+            "summary": "画像技術を活用した医療診断の革新について",
+            "source_url": "https://www.hug.ch/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "大学病院としての研究力",
+            "最新医療技術の導入",
+            "包括的医療サービス"
+          ],
+          "market_position": "スイス・ジュネーブ地域の主要公的医療機関",
+          "threat_to_sms": "1段階 - 公的医療機関であり、民間IT企業とは異なる事業領域"
+        },
+        "confidence": "low",
+        "data_freshness": "2026-02-10"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:13:08.528898"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"HUG（ネットアーツ）\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "愛知県名古屋市",
+          "description": "障がい福祉施設向けのシステム「HUG」を提供し、児童発達支援や放課後等デイサービス等の施設運営を支援する事業を展開",
+          "main_services": [
+            "施設運営システム「HUG」",
+            "障がい福祉施設運営"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "HUGがCareTEX東京'26に出展、就労移行・就労継続支援B型向けHUGを先行公開",
+            "date": "2026-01-20",
+            "summary": "CareTEX東京'26に出展し、4月リリース予定の就労支援向け新機能を先行デモ",
+            "source_url": "https://www.hugmate.net/index/t/HUG/1/"
+          },
+          {
+            "title": "愛知県西尾市に農福連携の新拠点「ココトモワークス西尾」が開設",
+            "date": "2026-01-28",
+            "summary": "就労継続支援B型事業所として農福連携の新拠点を2026年2月に開所",
+            "source_url": "https://www.atpress.ne.jp/news/5779118"
+          },
+          {
+            "title": "全国の放課後等デイサービスを対象とした経営実態調査2025実施",
+            "date": "2025-12-11",
+            "summary": "放課後等デイサービス事業者向けの経営実態調査を実施",
+            "source_url": "https://www.atpress.ne.jp/news/5779118"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "全国9,000施設以上への導入実績",
+            "自社でも福祉施設を運営する当事者視点",
+            "児童発達支援から就労支援まで幅広いサービス対応"
+          ],
+          "market_position": "障がい福祉施設向けシステムの大手プロバイダーとして全国47都道府県に展開",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2026-02-09"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:13:08.528900"
+    }
+  ]
+}

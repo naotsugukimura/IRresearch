@@ -1,0 +1,182 @@
+{
+  "companyId": "lifemap",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"ライフマップ\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2007年12月25日",
+          "employees": "42名（2024年11月）",
+          "headquarters": "東京都港区芝大門2-12-9 HF浜松町ビルディング 3階",
+          "description": "高校生の進路選択を支援する進学情報サービス「コレカラ進路.JP」を運営し、教育機関の学生募集広報をサポートする企業。",
+          "main_services": [
+            "コレカラ進路.JP（進学情報サイト）",
+            "LINEマーケティング事業",
+            "教育機関パートナー事業",
+            "プロモーション企画事業"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "株式会社ライフマップが経営体制を刷新。代表取締役社長に佐藤孝昭が就任",
+            "date": "2024年",
+            "summary": "経営体制を刷新し、代表取締役社長に佐藤孝昭が就任",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000059889.html"
+          },
+          {
+            "title": "ライフマップ、学校広報支援の新たな展開を目指し「LINEマーケティング事業」と「教育機関パートナー事業」を開始",
+            "date": "2024年11月",
+            "summary": "新規事業として2つの新事業を開始し、学校広報支援を拡大",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000016.000059889.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "20年以上の高校生進路支援ノウハウ",
+            "年間300万以上のページビューを誇るコレカラ進路.JP",
+            "全国5拠点（東京、大阪、名古屋、福岡、沖縄）の展開",
+            "徹底的な高校生目線のサービス設計"
+          ],
+          "market_position": "高校生向け進路情報サービスの専門企業として、大学・短大・専門学校の学生募集広報支援で地位確立",
+          "threat_to_sms": "1段階（低脅威）- 教育機関の学生募集支援に特化した企業で、SMSの事業領域とは異なる分野"
+        },
+        "confidence": "high",
+        "data_freshness": "2024年11月"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:18:08.172032"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"ライフマップ\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2025-02-12"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:18:08.172054"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"ライフマップ\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": "2004年（前身のアップデイト時）",
+          "employees": null,
+          "headquarters": "東京都港区",
+          "description": "高校生向け進学情報サイト「コレカラ進路.JP」を運営し、専門学校・大学検索やオンライン・オフラインでの進路選択支援を提供",
+          "main_services": [
+            "コレカラ進路.JP",
+            "すけぶ交流会",
+            "出張講座 放課後Manna be"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "株式会社ライフマップが経営体制を刷新。代表取締役社長に佐藤孝昭が就任",
+            "date": "2026-02-02",
+            "summary": "佐藤孝昭が新代表取締役社長に就任、石川太一郎は退任しグループ会社で新会社設立予定",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000059889.html"
+          },
+          {
+            "title": "高校生の約9割が日常では「自分らしくいられている」と回答するも、約5割が進路選択では「安定や周りの期待」を優先",
+            "date": null,
+            "summary": "ライフマップが実施した高校生の進路選択に関する調査結果",
+            "source_url": "https://edtechzine.jp/article/detail/13414"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "20年間の高校生向けサービス運営実績",
+            "徹底的な高校生目線でのサービス開発",
+            "オンライン・オフライン両面での進路支援"
+          ],
+          "market_position": "高校生向け進学情報サービス市場において専門学校・大学横断的なサービスを提供",
+          "threat_to_sms": "1段階 - 教育分野の特化型サービスでありSMSとの直接的な競合関係は低い"
+        },
+        "confidence": "medium",
+        "data_freshness": "2026-02-02"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:18:08.172059"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"ライフマップ\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "高校生向け進路支援サービスを提供。大学・専門学校の募集広報支援、進路情報サイト運営、AIによる進路相談を展開。",
+          "main_services": [
+            "コレカラ進路.JP",
+            "ドリームマップ",
+            "AI進路サポーターβ",
+            "募集広報支援"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "HubSpotとLINE連携でマーケティング強化",
+            "date": null,
+            "summary": "LITTLE HELP CONNECTを導入し、開封率20%から58%に改善、資料請求が月3件に増加",
+            "source_url": "https://www.littlehelp.co.jp/casestudy/lifemap"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "AIチャットボットによる24時間進路相談",
+            "高校生特化の進路支援ノウハウ",
+            "LINE活用による高いエンゲージメント",
+            "教育機関との強いパートナーシップ"
+          ],
+          "market_position": "高校生向け進路支援市場において、AI技術とLINE活用で差別化を図る専門企業",
+          "threat_to_sms": "2段階 - 教育分野に特化しており、SMSの汎用的なコミュニケーション市場とは異なる領域で事業展開"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-12-17"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:18:08.172063"
+    }
+  ]
+}

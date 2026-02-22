@@ -1,0 +1,68 @@
+{
+  "companyId": "sun_welfare",
+  "analyzedAt": "2026-02-22T21:16:10.230063",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": 52,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "既存施設入居率",
+            "value": 86,
+            "unit": "%"
+          },
+          {
+            "name": "新規施設入居率",
+            "value": 29,
+            "unit": "%"
+          },
+          {
+            "name": "採用者数",
+            "value": 637,
+            "unit": "名"
+          },
+          {
+            "name": "待機者数",
+            "value": 410,
+            "unit": "名"
+          },
+          {
+            "name": "離職率",
+            "value": 13.6,
+            "unit": "%"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "パーキンソン病専門施設「PDハウス」を中心とした医療・介護事業を展開"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "PDハウス施設の継続的な新規開設",
+          "コンプライアンス教育の強化",
+          "入居率改善に向けた営業活動強化"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期",
+      "summary": "サンウェルズは2026年3月期第3四半期に売上高20,734百万円（前年同期比2.2%増）を達成したが、営業損失1,192百万円、純損失2,055百万円と大幅な赤字転落。PDハウス6施設を新規開設し52施設体制となったが、既存施設入居率86%、新規施設入居率29%と集客に課題を抱える。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

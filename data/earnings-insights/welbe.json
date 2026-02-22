@@ -1,0 +1,63 @@
+{
+  "companyId": "welbe",
+  "analyzedAt": "2026-02-22T21:20:20.542405",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "疾患ソリューションサービス売上高",
+            "value": 337,
+            "unit": "百万円"
+          },
+          {
+            "name": "売上総利益率",
+            "value": 71.9,
+            "unit": "%"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "生活習慣病領域におけるPHR（Personal Health Record）サービス事業を展開。製薬企業、保険者（健康保険組合・市町村国保・共済組合・協会けんぽ）、医療機関向けソリューションを提供"
+      },
+      "ma_info": [
+        {
+          "target": "日本生命保険相互会社",
+          "date": "進行中",
+          "amount": "非開示",
+          "synergy": "かかりつけ医ネットワークを活用したPHRソリューションの普及推進、保険者・企業における健康経営・データヘルス推進",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "製薬企業向けの受注活動や既存PHRサービスの改修等の取組",
+          "製薬ドメイン以外の新規PHR事業者に対して当社基盤を提供する取組",
+          "保険者向けソリューションの事業拡大",
+          "プラットフォーム開発への投資",
+          "当社サービスの医療機関等への普及投資"
+        ]
+      },
+      "fiscal_period": "2025年12月期",
+      "summary": "Welby（証券コード4438）は2025年12月期の売上高635百万円、営業損失452百万円、最終損失539百万円となり、前期比で売上高は20.3%増加、赤字幅は縮小。PHRサービス事業において製薬企業向け受注活動や保険者向けソリューション拡大に注力するも、案件受注未達により疾患ソリューション売上は減収。2026年12月期の業績予想は非開示。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

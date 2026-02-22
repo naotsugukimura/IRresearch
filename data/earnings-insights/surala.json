@@ -1,0 +1,59 @@
+{
+  "companyId": "surala",
+  "analyzedAt": "2026-02-22T21:16:36.358972",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "導入校数（学校マーケット）",
+            "value": 1366,
+            "unit": "校"
+          },
+          {
+            "name": "ID課金数（学校マーケット）",
+            "value": 402045,
+            "unit": "ID"
+          },
+          {
+            "name": "導入校数（塾マーケット）",
+            "value": 1177,
+            "unit": "校"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "eラーニング市場で小中高生向けオンライン学習教材を提供。学校、学習塾、放課後デイサービス、BtoC市場に展開"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "次世代型LMS開発",
+          "NEXT GIGAに向けた新規提案強化",
+          "多様な学びの場への販路拡大",
+          "不登校・発達障がい市場へのブランディング強化"
+        ]
+      },
+      "fiscal_period": "2025年12月期",
+      "summary": "すららネットの2025年12月期は売上高19.32億円（前年同期比0.8%減）、営業利益65百万円（同69.0%減）、純利益は3百万円の赤字転落。次世代サービス開発等の将来成長投資により短期的に利益が圧迫。2026年12月期は売上高11.3%増を見込むが、成長基盤強化投資により損失計上を予想。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "companyId": "phc",
+  "analyzedAt": "2026-02-22T21:09:58.387849",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "売上高5年平均成長率",
+            "value": 5.8,
+            "unit": "%"
+          },
+          {
+            "name": "年間1株配当",
+            "value": 42.0,
+            "unit": "円"
+          },
+          {
+            "name": "予想配当利回り",
+            "value": 4.02,
+            "unit": "%"
+          },
+          {
+            "name": "女性管理職比率（連結）",
+            "value": 17.3,
+            "unit": "%"
+          },
+          {
+            "name": "障がい者雇用率",
+            "value": 2.6,
+            "unit": "%"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "糖尿病マネジメント、ヘルスケアソリューション、診断・ライフサイエンスの3つの事業セグメント"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "2040年までのカーボンニュートラル",
+          "DXの推進",
+          "健康経営の実践"
+        ]
+      },
+      "fiscal_period": "2026年3月期",
+      "summary": "PHCホールディングスの2026年3月期第3四半期は、売上収益2,692億円（前年同期比0.9%増）、営業利益171億円（0.5%増）と微増。しかし為替差損104億円の影響で税引前利益は25億円（80%減）、純利益は7億円（90.9%減）と大幅減益。通期予想も経常利益44億円に下方修正。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

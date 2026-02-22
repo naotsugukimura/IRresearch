@@ -1,0 +1,79 @@
+{
+  "companyId": "lancers",
+  "analyzedAt": "2026-02-22T21:05:41.807458",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "クライアント利用社数",
+            "value": 363,
+            "unit": "社"
+          },
+          {
+            "name": "クライアントあたり利用金額",
+            "value": 311,
+            "unit": "千円"
+          },
+          {
+            "name": "営業1人あたり契約決定数",
+            "value": null,
+            "unit": "件"
+          },
+          {
+            "name": "1人あたり売上高改善率",
+            "value": 10,
+            "unit": "%"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "フリーランスマッチング事業から隣接する新市場・顧客への事業拡大を推進"
+      },
+      "ma_info": [
+        {
+          "target": "ワンズパワー社",
+          "date": "2025年8月",
+          "amount": null,
+          "synergy": "売上高前年同期比+27%、採用・営業のグループ連携強化",
+          "status": "completed"
+        },
+        {
+          "target": "Lancers Strategic Consulting社",
+          "date": "2025年5月新設",
+          "amount": null,
+          "synergy": "採用計画の9割を充足、4Qから利益貢献予定",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "新成長戦略・AXカンパニー戦略",
+        "period": "2026年3月期以降",
+        "revenue_target": "5048百万円（2026年3月期予想）",
+        "profit_target": "200百万円（2026年3月期営業利益予想）",
+        "key_strategies": [
+          "AIによるマッチング自動化",
+          "プロセスの抜本的効率化",
+          "新市場・隣接領域への事業拡大",
+          "M&Aやアライアンスによる多角化"
+        ]
+      },
+      "fiscal_period": "2026年3月期第3四半期（累計）",
+      "summary": "ランサーズは2026年3月期第3四半期累計で売上高3925百万円（前年同期比+15.2%）、営業利益111百万円、純利益84百万円（同+27.95%）を達成。AIによるマッチング自動化とプロセス効率化により創業以来過去最高益を更新。通期予想は売上高5048百万円、営業利益200百万円。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

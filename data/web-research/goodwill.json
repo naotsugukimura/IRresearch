@@ -1,0 +1,126 @@
+{
+  "companyId": "goodwill",
+  "research": [
+    {
+      "type": "funding",
+      "queryTerms": "\"グッドウィルパートナーズ\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "ベンチャーキャピタルとして複数の企業への投資を実施し、グッドウィルグループなどへの投資実績を持つ",
+          "main_services": [
+            "ベンチャー投資",
+            "事業運営支援"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [],
+        "competitive_position": {
+          "strengths": [
+            "17社の株式上場実績",
+            "200億円超のキャピタルゲイン実績"
+          ],
+          "market_position": "主要企業への投資実績を持つベンチャーキャピタルとしての地位",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2023-12-01"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:09:41.812159"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"グッドウィルパートナーズ\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "広島県",
+          "description": "飲食料品製造業分野・外食業分野での登録支援機関として外国人労働者の支援事業を展開",
+          "main_services": [
+            "外国人労働者支援",
+            "登録支援機関サービス"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "グッドパートナーズ協同組合が登録支援機関として登録",
+            "date": "2025-08-28",
+            "summary": "農林水産省の登録支援機関として正式登録され、外国人労働者支援事業を開始",
+            "source_url": "https://www.maff.go.jp/j/shokusan/sanki/soumu/attach/pdf/kyougikai-185.pdf"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "政府認可の登録支援機関",
+            "飲食料品・外食業界特化"
+          ],
+          "market_position": "外国人労働者支援分野の新規参入事業者",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2026-01-31"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:09:41.812172"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"グッドウィルパートナーズ\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "人材派遣・人材サービス業界で事業展開する企業",
+          "main_services": [
+            "人材派遣サービス",
+            "人材紹介サービス"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "TUAD2025アントレプレナー認定の審査員・メンターに参画",
+            "date": null,
+            "summary": "東北芸術工科大学の起業支援プログラムで審査員・メンターを担当",
+            "source_url": "https://www.tuad-icl.jp/post-1001/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "フィールドサポーター（現場管理者）による現場管理能力",
+            "顧客との強固な関係構築",
+            "高品質なサービス提供",
+            "コンプライアンス体制"
+          ],
+          "market_position": "人材派遣業界において現場密着型のサービスで差別化を図る企業",
+          "threat_to_sms": "2段階 - 人材サービス業界での競合だが、事業規模や市場シェアの詳細が不明のため限定的な脅威と推定"
+        },
+        "confidence": "low",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:09:41.812175"
+    }
+  ]
+}

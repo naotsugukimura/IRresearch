@@ -1,0 +1,223 @@
+{
+  "companyId": "minnano_kaigo",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"みんなの介護（クーリエ）\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2011年",
+          "employees": null,
+          "headquarters": "東京都渋谷区恵比寿4-20-3 恵比寿ガーデンプレイスタワー9階",
+          "description": "介護・医療・福祉などの社会保障領域でデジタルプラットフォーム事業を展開。「みんなの介護」を中心とした情報提供サービス。",
+          "main_services": [
+            "みんなの介護（老人ホーム検索サイト）",
+            "みんジョブ（介護人材採用メディア）",
+            "みんなの介護マーケット",
+            "ケアスタディ（試験対策ツール）"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "これからの生活設計を支える新サービス「みんなの介護ライフサポート」を提供開始",
+            "date": null,
+            "summary": "入居支援から住まいの整理・売却までのトータルサポートを提供",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000222.000015597.html"
+          },
+          {
+            "title": "住まいの悩みに応える新サービス「みんなの介護 不動産サポート」",
+            "date": null,
+            "summary": "専門知識が必要な相続や手続き面のサポート体制を充実",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000209.000015597.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "業界No.1Webメディア「みんなの介護」",
+            "施設数No.1老人ホーム検索サイト",
+            "介護業界でのビッグデータ活用",
+            "テクノロジーによる情報の正確性と効率化"
+          ],
+          "market_position": "介護情報プラットフォーム市場でのリーディングポジション",
+          "threat_to_sms": "2段階 - 介護特化のプラットフォームであり、SMSの汎用的なコミュニケーションツールとは異なる領域での競合"
+        },
+        "confidence": "high",
+        "data_freshness": "2024-11"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:20:37.838893"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"みんなの介護（クーリエ）\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "東京都渋谷区恵比寿4-20-3 恵比寿ガーデンプレイスタワー９階",
+          "description": "物件数No.1の老人ホーム検索サイト「みんなの介護」を運営し、介護情報の総合ポータルサイトを展開",
+          "main_services": [
+            "みんなの介護",
+            "みんジョブ",
+            "ケアスタディ",
+            "みんなの介護コミュニティ"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": "シリーズA",
+          "investors": [
+            "個人投資家 坂野 哲平",
+            "ブラッククローキャピタル",
+            "クレディセゾングループ"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "施設MVPは「プレザングラン小金井」が受賞",
+            "date": null,
+            "summary": "クーリエが介護施設の表彰を実施",
+            "source_url": "https://www.courier.jpn.com/ism/newsrelease/award2025/"
+          },
+          {
+            "title": "入居一時金が高い「高級老人ホーム」ランキングTOP20発表",
+            "date": null,
+            "summary": "みんなの介護掲載施設から高級老人ホームランキングを発表",
+            "source_url": null
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "物件数No.1の老人ホーム検索サイト運営",
+            "介護分野の総合プラットフォーム展開",
+            "テクノロジーを活用した情報整理・提供"
+          ],
+          "market_position": "介護情報プラットフォームの主要プレイヤーとして、老人ホーム検索で業界トップの地位を確立",
+          "threat_to_sms": "3段階 - 介護分野に特化したプラットフォームとして独自のポジションを持つが、SMSとは事業領域が異なるため直接的な脅威は限定的"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025年"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:20:37.838904"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"みんなの介護（クーリエ）\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": "2011年",
+          "employees": 300,
+          "headquarters": "東京都渋谷区恵比寿４丁目２０番３号恵比寿ガーデンプレイスタワー９階",
+          "description": "物件数No.1の老人ホーム検索サイト「みんなの介護」を運営し、介護業界向けの各種サービスを提供する企業",
+          "main_services": [
+            "みんなの介護",
+            "みんなの介護求人",
+            "みんなの介護研究所",
+            "みんなの介護マーケット"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "介護事業者向けFAX広告サービス「みんなの介護からのおトクなお知らせFax」提供開始",
+            "date": "2025-10-01",
+            "summary": "介護事業者向けの新しいFAX広告サービスを開始",
+            "source_url": "https://www.courier.jpn.com/release/"
+          },
+          {
+            "title": "ケアマネジャー向け新サービス「みんなの介護 事業所検索」を提供開始",
+            "date": "2025年",
+            "summary": "地図と条件検索で事業所探しを効率化する新サービス",
+            "source_url": "https://www.courier.jpn.com/release/"
+          },
+          {
+            "title": "【統計データで見る】2026年を見据えた介護市場を読み解く",
+            "date": "2025年",
+            "summary": "2040年問題を見据えた持続可能な介護運営の指針を提供",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000227.000015597.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "物件数No.1の老人ホーム検索サイト運営",
+            "日本最大級の介護プラットフォーム",
+            "1st Party Dataを活用した市場分析",
+            "介護業界の総合的なサービス提供"
+          ],
+          "market_position": "介護業界のリーディングプラットフォームとして、検索サービスから求人、研修、市場分析まで幅広くサービス展開",
+          "threat_to_sms": "3段階 - 介護業界に特化したプラットフォームとして強固なポジションを持つが、SMSとは異なる業界フォーカスのため直接的な脅威は限定的"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-12-24"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:20:37.838906"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"みんなの介護（クーリエ）\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": "2011年",
+          "employees": "50名（推定）",
+          "headquarters": "東京都渋谷区恵比寿4-20-3 恵比寿ガーデンプレイスタワー9階",
+          "description": "介護施設検索ポータル「みんなの介護」を運営し、施設と利用者をマッチングするデジタルプラットフォーム事業を展開",
+          "main_services": [
+            "みんなの介護",
+            "みんなの介護求人",
+            "みんなの介護研究所",
+            "ケアスタディ"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "介護市場をデータで読み解き、持続可能な介護を社会全体で考える『みんなの介護研究所』サービス開始",
+            "date": "2025-12-26",
+            "summary": "業界レポート配信を開始、1st Party Dataを活用したEBPM分析",
+            "source_url": "https://www.courier.jpn.com/ism/newsrelease/lab/"
+          },
+          {
+            "title": "老人ホームの掲載数で8年連続業界No.1を獲得",
+            "date": null,
+            "summary": "全国の施設掲載数で競合他社を上回り市場リーダーの地位を確立",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000198.000015597.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "掲載施設数49,034件で業界No.1",
+            "マーケットシェア率50％以上",
+            "豊富な読み物コンテンツ",
+            "ブランド別比較機能",
+            "1st Party Dataの活用"
+          ],
+          "market_position": "老人ホーム検索ポータル市場でのリーディングプレイヤー、8年連続で掲載数業界No.1を維持",
+          "threat_to_sms": "3段階（中程度）- 介護施設検索に特化した強固なポジションを持つが、SMSとは事業領域が異なるため直接的脅威は限定的"
+        },
+        "confidence": "high",
+        "data_freshness": "2025-12-26"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:20:37.838909"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "companyId": "bright_vacation",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"ブライトヴァケーションズ\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [],
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:07:30.815884"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"ブライトヴァケーションズ\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:07:30.815917"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"ブライトヴァケーションズ\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "東京都港区南青山2-27-25 ヒューリック南青山ビル5F",
+          "description": "高級リゾート施設の開発・運営を手がける企業。温泉リゾートからラグジュアリーホテルまで幅広く展開。",
+          "main_services": [
+            "高級リゾート運営",
+            "温泉郷開発",
+            "シェア別荘事業"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "伊豆赤沢温泉郷が2026年春に「プレジャーリゾート 伊豆赤沢温泉」へ改称",
+            "date": "2025-12-16",
+            "summary": "伊豆の温泉リゾートのリブランディングを実施",
+            "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
+          },
+          {
+            "title": "「GLAMDAY STYLE HOTEL SUITE 山ノ麓」がシェア別荘として分譲開始",
+            "date": "2025-12-05",
+            "summary": "新たなシェア別荘事業の展開を開始",
+            "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
+          },
+          {
+            "title": "「ふふ 東京 銀座」が開業",
+            "date": "2025-11-16",
+            "summary": "銀座に新しいラグジュアリーホテルをオープン",
+            "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
+          },
+          {
+            "title": "2026年春、シリーズ5棟目となる「GLAMDAY STYLE TEITAKU 海ノ波音」が誕生",
+            "date": "2025-10-10",
+            "summary": "GLAMDAYシリーズの新施設を2026年春に開業予定",
+            "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "高級リゾート運営ノウハウ",
+            "多様な宿泊施設ブランド展開",
+            "健康経営への取り組み"
+          ],
+          "market_position": "国内高級リゾート市場において複数ブランドを展開する中規模事業者",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-12-16"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:07:30.815925"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"ブライトヴァケーションズ\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [],
+        "competitive_position": {
+          "strengths": [
+            "個別化された体験の提供",
+            "顧客サービス",
+            "広範囲なグローバルネットワーク"
+          ],
+          "market_position": "独自の旅行パッケージと顧客サービスにより強い市場シェアを持つ",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": null
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:07:30.815936"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "companyId": "reha_cloud",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"リハプラン（Rehab for JAPAN）\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2016年6月10日",
+          "employees": null,
+          "headquarters": "東京都千代田区麹町6-6-2 番町麹町ビルディング5F",
+          "description": "介護・リハビリ領域のSaaSプラットフォームを提供し、デイサービス向け科学的介護ソフトやオンラインリハビリサービスを展開",
+          "main_services": [
+            "リハブクラウド（科学的介護ソフト）",
+            "オンラインリハビリ事業",
+            "介護データ事業"
+          ]
+        },
+        "funding": {
+          "total_raised": "2億8千万円（推定）",
+          "latest_round": null,
+          "investors": [
+            "Lifetime Ventures",
+            "Capital Medica Ventures",
+            "SMBCベンチャーキャピタル",
+            "JPインベストメント",
+            "CYBERDYNE",
+            "小野薬品工業",
+            "MTG Ventures",
+            "オムロンベンチャーズ",
+            "三菱UFJキャピタル",
+            "KIRIN HEALTH INNOVATION FUND",
+            "マネックスベンチャーズ",
+            "Aflac Ventures"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "介護リハビリプログラムの自動立案に関する技術特許を取得",
+            "date": "2020-11-01",
+            "summary": "デイサービス向けクラウド機能訓練ソフト「リハプラン」の技術特許を取得",
+            "source_url": "https://rehabforjapan.com/news/202012071036/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "介護リハビリプログラム自動立案の特許技術",
+            "リハビリ専門職による徹底したカスタマーサポート",
+            "約2,500種類の運動マニュアル提供",
+            "現場目線のワンストップサービス"
+          ],
+          "market_position": "介護・リハビリ領域でのSaaSプラットフォーマーとして独自のポジションを確立",
+          "threat_to_sms": "2段階 - 介護特化領域のため直接的な競合ではないが、SaaS事業モデルとしての成長性は参考になる"
+        },
+        "confidence": "high",
+        "data_freshness": "2020-12-07"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:24:38.684963"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"リハプラン（Rehab for JAPAN）\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "東京都千代田区",
+          "description": "介護事業所向けにリハビリ支援ソフト「リハプラン」や科学的介護ソフト「Rehab Cloud」を提供する介護リハビリテックスタートアップ",
+          "main_services": [
+            "リハプラン",
+            "Rehab Cloud",
+            "Rehab Studio",
+            "Rehab Cloud レセプ"
+          ]
+        },
+        "funding": {
+          "total_raised": "31.3億円",
+          "latest_round": "シリーズDエクステンション",
+          "investors": [
+            "SMBCベンチャーキャピタル",
+            "JPインベストメント",
+            "東京ウェルネスインパクトファンド",
+            "小野デジタルヘルス投資合同会社"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "シリーズDエクステンションラウンドにて10億円を追加調達",
+            "date": "2024-02-XX",
+            "summary": "シリーズDの累計調達額は総額21.3億円に",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000101.000027102.html"
+          },
+          {
+            "title": "科学的介護の実現に向けて約11.3億円の資金調達を実施",
+            "date": "2023-02-01",
+            "summary": "シリーズDラウンドで11.3億円を調達",
+            "source_url": "https://rehabforjapan.com/news/202302011230/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "累計導入事業所数2,244社超",
+            "科学的介護の実現",
+            "約4年で10倍以上の成長"
+          ],
+          "market_position": "介護リハビリテック分野の主要プレイヤー、自立支援と科学的介護のトレンドを追い風に成長",
+          "threat_to_sms": null
+        },
+        "confidence": "high",
+        "data_freshness": "2024-02-XX"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:24:38.684980"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"リハプラン（Rehab for JAPAN）\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": "2016年6月10日",
+          "employees": "100人未満（2026年2月時点推定）",
+          "headquarters": "東京都千代田区麹町6-6-2 番町麹町ビルディング 5F",
+          "description": "介護施設向け科学的介護ソフト「Rehab Cloud」とオンラインリハビリサービス「Rehab Studio」を提供するヘルスケアテック企業",
+          "main_services": [
+            "Rehab Cloud（科学的介護ソフト）",
+            "Rehab Studio（オンラインリハビリサービス）"
+          ]
+        },
+        "funding": {
+          "total_raised": "11億3000万円（推定・直近ラウンドのみ確認）",
+          "latest_round": "シリーズDエクステンションラウンド",
+          "investors": [
+            "SMBCベンチャーキャピタル",
+            "JPインベストメント",
+            "小野デジタルヘルス投資",
+            "オムロンベンチャーズ",
+            "東京ウェルネスインパクトファンド"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "モニタリング報告書自動作成機能 モニタリング生成AI β版をリリース",
+            "date": "2025-11-05",
+            "summary": "AI活用でモニタリング報告書の自動作成機能を追加、介護職員の業務負担を軽減",
+            "source_url": "https://rehabforjapan.com/news/202511051220/"
+          },
+          {
+            "title": "エーザイ、日清医療食品との連携開始",
+            "date": "2025年推定",
+            "summary": "高齢者の低栄養と認知機能低下リスクの軽減を目指した企業連携を開始",
+            "source_url": null
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "累計導入事業所数3,531事業所（2025年9月時点）",
+            "15万人の高齢者生活データに基づくプラットフォーム構築",
+            "AI技術を活用した科学的介護の実現"
+          ],
+          "market_position": "介護リハビリテック分野でのリーディングカンパニー、データプラットフォーマーとしての地位を確立",
+          "threat_to_sms": "3段階 - 介護・ヘルスケア領域での成長が著しく、データ活用とAI技術で差別化を図っているが、直接的な競合関係は限定的"
+        },
+        "confidence": "high",
+        "data_freshness": "2025-11-05"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:24:38.684983"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"リハプラン（Rehab for JAPAN）\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": "2018年（推定）",
+          "employees": null,
+          "headquarters": "東京都",
+          "description": "デイサービス向けリハビリ支援ソフト「リハプラン（Rehab Cloud）」を開発・提供する科学的介護ソフト事業者",
+          "main_services": [
+            "リハプラン（Rehab Cloud）",
+            "タブレット記録アプリ",
+            "介護請求ソフト",
+            "AI動作分析ソフト"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "小野薬品工業株式会社"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "トライトキャリアとの業務提携開始",
+            "date": "2023-01-01",
+            "summary": "全国ネットワークを通じたリハプランの紹介・販売開始",
+            "source_url": "https://96ut.com/ipo/statement/mokuromi/2023055.pdf"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "使い勝手を徹底的に考えたプロダクトデザイン",
+            "丁寧な顧客伴走サポート",
+            "28万人の高齢者データ蓄積",
+            "科学的介護への特化"
+          ],
+          "market_position": "デイサービス向け科学的介護ソフト分野のリーディングプレイヤー。累計導入事業所数2700事業所を達成（2024年8月時点）",
+          "threat_to_sms": "3段階 - 介護・リハビリ分野での専門性とデータ蓄積により、類似領域への参入リスクがある"
+        },
+        "confidence": "medium",
+        "data_freshness": "2024-08-01"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:24:38.684986"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "companyId": "ai_inside",
+  "analyzedAt": "2026-02-22T20:55:13.055132",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": 0.62,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": 73159,
+        "facility_count": null,
+        "employee_count": 121,
+        "other_kpis": [
+          {
+            "name": "契約件数",
+            "value": 3149,
+            "unit": "件",
+            "growth_rate": 106.8
+          },
+          {
+            "name": "AI利用回数",
+            "value": 2.1,
+            "unit": "億回/月平均",
+            "growth_rate": 101.0
+          },
+          {
+            "name": "累計リクエスト数",
+            "value": 111,
+            "unit": "億回"
+          },
+          {
+            "name": "パートナー数",
+            "value": 122,
+            "unit": "社"
+          },
+          {
+            "name": "月平均読取項目数",
+            "value": null,
+            "unit": null,
+            "growth_rate": 125.3
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": "5.4兆円",
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "AIエージェント化戦略により、生成AI関連市場（1.7兆円）+AIエージェント市場（0.1兆円）+ソフトウェア市場（3.6兆円）へ対象市場領域を拡大。2024年度見込0.4兆円から2028年度予測5.4兆円"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": "2026年3月期重点事業戦略",
+        "period": "2026年3月期",
+        "revenue_target": "50.5億円",
+        "profit_target": "2.05億円（営業利益）",
+        "key_strategies": [
+          "DX SuiteのAIエージェント化",
+          "自社LLMの継続進化（Polysphere-3.0への進化）",
+          "Critic Intelligenceによるデータチェック自動化",
+          "新規サービスLeapnetの展開"
+        ]
+      },
+      "fiscal_period": "2026年3月期第2四半期",
+      "summary": "AI inside社の2026年3月期第2四半期決算。売上高23.1億円（前年同期比109.1%）、契約数3,149件、ユーザー数73,159と堅調に推移。DX SuiteのAIエージェント化とCritic Intelligence開発により完全自動化を実現。新サービスLeapnetを発表し、データ化からデータ活用へ事業領域を拡大している。",
+      "source_file": "140120251113596976.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": "低水準で推移（具体的な数値は非開示）",
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "DX Suite利用ライセンス数",
+            "value": "3,149件",
+            "period": "2025年9月期中間",
+            "previous_value": "2,949件"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "少子高齢化や人口減により生産年齢人口が減少する一方、人によるデータ入力に関する外部委託市場は今後も大きく成長していくことが予想される。企業の働き方改革やDX推進が加速している。"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": []
+      },
+      "fiscal_period": "2026年3月期",
+      "summary": "AI inside株式会社の2026年3月期第2四半期決算。売上高2,318百万円（前年同期比9.1%増）、営業利益224百万円（同39.6%増）、中間純利益161百万円（同173.0%増）と増収増益。主力製品「DX Suite」の利用ライセンス数は3,149件に増加し、チャーンレートは低水準を維持。マルチモーダルAI統合基盤「AnyData」等の新サービスも貢献。",
+      "source_file": "140120251113596977.pdf"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "companyId": "nichii",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"ニチイ学館\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "1973年",
+          "employees": 37185,
+          "headquarters": "東京都千代田区神田駿河台4-6 御茶ノ水ソラシティ",
+          "description": "医療関連サービス、介護サービス、保育サービス、教育事業を展開する総合生活支援企業。全国規模で医療機関や介護施設の運営支援を行う。",
+          "main_services": [
+            "医療関連サービス",
+            "介護サービス",
+            "保育サービス",
+            "資格系講座"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "日本生命保険相互会社"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [],
+        "competitive_position": {
+          "strengths": [
+            "全国約6000件の契約医療機関",
+            "約12万人の介護サービス利用者",
+            "全国約350カ所の保育サービス展開",
+            "医療・介護・保育の総合サービス提供"
+          ],
+          "market_position": "医療関連事業と介護事業で業界大手、日本生命グループとして安定基盤を持つ総合生活支援企業",
+          "threat_to_sms": null
+        },
+        "confidence": "high",
+        "data_freshness": "2024-03-31"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:22:42.602096"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"ニチイ学館\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": "東京都千代田区",
+          "description": "医療事務教育、介護サービス、ヘルスケア関連事業を展開する総合サービス企業",
+          "main_services": [
+            "医療事務教育",
+            "介護サービス",
+            "ヘルスケア関連サービス"
+          ]
+        },
+        "funding": {
+          "total_raised": "約990億円（MBO資金）",
+          "latest_round": "マネジメント・バイアウト（MBO）",
+          "investors": [
+            "Bain Capital Private Equity",
+            "三菱UFJ銀行",
+            "みずほ銀行",
+            "三井住友銀行",
+            "野村キャピタル・インベストメント"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "ベインキャピタルによるMBO実施・上場廃止",
+            "date": "2020-11-05",
+            "summary": "ベインキャピタルスポンサーのMBOにより上場廃止",
+            "source_url": "https://www.nichiigakkan.co.jp/topics/assets/d0cbbd7781eb0465e04b32936d0186d7c891eb13.pdf"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "医療事務教育での実績",
+            "介護サービス事業の展開",
+            "海外展開（香港、中国等）"
+          ],
+          "market_position": "ヘルスケア・教育分野の老舗企業として確立された地位",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2020-11-05"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:22:42.602120"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"ニチイ学館\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "医療・介護・保育・資格講座など幅広いヘルスケア関連事業を展開する総合サービス企業",
+          "main_services": [
+            "医療事務",
+            "介護サービス",
+            "保育事業",
+            "資格系講座",
+            "在宅医療支援"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "2025年度 ニチイグループQCサークル活動本社事例発表会開催",
+            "date": "2026-02-18",
+            "summary": "延べ参加数8,700超で医療機関・自治体の課題解決事例を全国に波及",
+            "source_url": "https://www.nichiigakkan.co.jp/topics/"
+          },
+          {
+            "title": "介護職の合同就職イベント「介護のお仕事マッチングフェア」熊本・岡山で初開催",
+            "date": "2026-02-05",
+            "summary": "介護業界5社が集結する就職イベントを2026年3月に開催",
+            "source_url": "https://prtimes.jp/main/html/rd/p/000000118.000080749.html"
+          },
+          {
+            "title": "令和8年度診療報酬改定リーディングセッション開催",
+            "date": "2025-11-17",
+            "summary": "2026年度診療報酬改定に向けた在宅医療領域のセミナーを開催",
+            "source_url": "https://medi.nichiigakkan.co.jp/news/2025/11_17_85c186834872ee78ce52525534ad2e49b5fb8c27/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "医療・介護分野での豊富な実績",
+            "QCサークル活動による継続的改善",
+            "資格講座から実務まで一貫したサービス提供"
+          ],
+          "market_position": "医療・介護業界の老舗企業として確固たる地位を築いている",
+          "threat_to_sms": "2（医療・介護特化のため直接的競合ではないが、ヘルスケア分野での影響力は大きい）"
+        },
+        "confidence": "medium",
+        "data_freshness": "2026-02-18"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:22:42.602126"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"ニチイ学館\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "在宅介護サービスを中心とした介護事業を展開。訪問介護からデイサービス、有料老人ホームまで幅広いサービスを提供。",
+          "main_services": [
+            "在宅介護サービス",
+            "訪問介護",
+            "デイサービス",
+            "有料老人ホーム"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [],
+        "competitive_position": {
+          "strengths": [
+            "豊富な人材と拠点網",
+            "幅広いサービスラインナップ",
+            "在宅介護サービスに特化",
+            "早期参入による知名度",
+            "大手ならではの信頼性とサービス品質の安定"
+          ],
+          "market_position": "介護事業売上高約1,538億円（推定）で業界第3位、営業利益率約10.3%（推定）。小規模事業者が乱立する分散市場において、SOMPO、ベネッセと競合する大手企業の一角",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2015"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:22:42.602135"
+    }
+  ]
+}

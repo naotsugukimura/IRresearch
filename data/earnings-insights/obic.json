@@ -1,0 +1,140 @@
+{
+  "companyId": "obic",
+  "analyzedAt": "2026-02-22T20:56:44.573812",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": []
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "企業のデジタル変革（DX）への取組を背景に、企業の生産性向上や業務効率化を目的としたシステムの更新投資需要は引き続き高い状態。先行き不透明な景況感の中で投資判断には慎重さが見られる。"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": []
+      },
+      "fiscal_period": "2026年3月期",
+      "summary": "オービックの2026年3月期第3四半期決算。売上高は1,001億13百万円（前年同期比11.6%増）、営業利益は662億65百万円（同13.1%増）。主力の統合業務ソフトウェア「OBIC7シリーズ」が好調で、大手・中堅企業への新規顧客開拓が進展。クラウドサービスも自社運営で対応し、安定した成長を継続している。",
+      "source_file": "593q.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "システムインテグレーション事業売上",
+            "value": "273億30百万円",
+            "growth_rate": "10.2%",
+            "period": "2026年3月期中間期"
+          },
+          {
+            "name": "システムサポート事業売上",
+            "value": "344億99百万円",
+            "growth_rate": "12.9%",
+            "period": "2026年3月期中間期"
+          },
+          {
+            "name": "オフィスオートメーション事業売上",
+            "value": "39億55百万円",
+            "growth_rate": "4.0%",
+            "period": "2026年3月期中間期"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "企業のデジタル変革（DX）への取組などを背景に、企業の生産性向上や業務効率化を目的としたシステムの更新投資需要は引き続き高い状態にあるものの、先行き不透明な景況感の中で投資判断には慎重さが見られる"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": null
+      },
+      "fiscal_period": "2026年3月期第2四半期",
+      "summary": "オービックの2026年3月期第2四半期決算は、売上高657億84百万円（前年同期比11.2％増）、営業利益436億55百万円（同13.0％増）と好調な業績を記録。主力の統合業務ソフトウェア「OBIC7シリーズ」が様々な業種・業界の大手・中堅企業に求められ、システムインテグレーション事業とシステムサポート事業が堅調に推移した。",
+      "source_file": "592q.pdf"
+    },
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "受注実績",
+            "value": "345億73百万円",
+            "period": "2026年3月期第1四半期",
+            "growth_rate": "11.6%"
+          },
+          {
+            "name": "システムサポート事業売上",
+            "value": "169億58百万円",
+            "period": "2026年3月期第1四半期",
+            "growth_rate": "12.9%"
+          },
+          {
+            "name": "システムインテグレーション事業売上",
+            "value": "135億51百万円",
+            "period": "2026年3月期第1四半期",
+            "growth_rate": "13.8%"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "企業のデジタル変革（DX）への取組などを背景に、企業の生産性向上や業務効率化を目的としたシステムの更新投資需要は引き続き高い状態"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": []
+      },
+      "fiscal_period": "2026年3月期第1四半期",
+      "summary": "株式会社オービックの2026年3月期第1四半期決算。売上高324億31百万円（12.7%増）、営業利益214億79百万円（15.2%増）。主力のOBIC7シリーズが好調で、システムサポート事業とシステムインテグレーション事業が2桁成長を達成。",
+      "source_file": "591q.pdf"
+    }
+  ]
+}

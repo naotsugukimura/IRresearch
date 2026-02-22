@@ -1,0 +1,77 @@
+{
+  "companyId": "aidemy",
+  "analyzedAt": "2026-02-22T20:58:06.061112",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": 280000,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "長期継続顧客数",
+            "value": 144,
+            "unit": "社"
+          },
+          {
+            "name": "エンタープライズ顧客比率",
+            "value": 95,
+            "unit": "%"
+          },
+          {
+            "name": "Fortune Global 500選出日本企業利用率",
+            "value": 79,
+            "unit": "%"
+          },
+          {
+            "name": "利用社数",
+            "value": 500,
+            "unit": "社"
+          },
+          {
+            "name": "過去12ヶ月の顧客企業数",
+            "value": 263,
+            "unit": "社"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "AI/DXに関するプロダクト・ソリューション事業を展開。エンタープライズ企業向けAI/デジタル教育サービスを中心に事業を運営"
+      },
+      "ma_info": [
+        {
+          "target": "ファクトリアル社",
+          "date": "2024年5月期第4四半期",
+          "amount": null,
+          "synergy": "売上の連結取り込み効果",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "AI開発事業への戦略的投資計画",
+        "period": "2026年5月期",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "顧客ニーズの深耕等に注力するマーケティング活動の活性化",
+          "生成AI関連を中心とするコンテンツ強化",
+          "AI及びAI Related App領域への事業投資",
+          "化学・素材業界への事業推進のための投資350百万円を計画"
+        ]
+      },
+      "fiscal_period": "2026年5月期第1四半期",
+      "summary": "アイデミーは2026年5月期第1四半期で売上高540百万円（前年同期比2.5%増）、営業利益34百万円を達成。M&Aによる売上連結効果と生産性改善により黒字を確保したが、TOB関連費用により当期純損失100百万円。通期予想は売上高1,950百万円、営業損失315百万円を見込む。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "companyId": "kanamic",
+  "analyzedAt": "2026-02-22T21:05:07.911135",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": 339319,
+        "facility_count": 52704,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "有料ユーザーID数",
+            "value": 221822,
+            "unit": "ID"
+          },
+          {
+            "name": "無料ユーザーID数",
+            "value": 117497,
+            "unit": "ID"
+          },
+          {
+            "name": "導入事業所数",
+            "value": 52704,
+            "unit": "事業所"
+          },
+          {
+            "name": "クラウドサービス導入地域数",
+            "value": 1346,
+            "unit": "地域"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "医療・介護・健康分野に特化した情報連携基盤事業、24時間営業フィットネスジムの運営・フランチャイズ展開"
+      },
+      "ma_info": [
+        {
+          "target": "アーバンフィット社",
+          "date": "2021年頃",
+          "amount": null,
+          "synergy": "売上高と利益に大きく貢献",
+          "status": "completed"
+        },
+        {
+          "target": "Ruby開発社",
+          "date": "2021年頃",
+          "amount": null,
+          "synergy": "売上高と利益に大きく貢献",
+          "status": "completed"
+        },
+        {
+          "target": "The World Management社",
+          "date": "2024年",
+          "amount": null,
+          "synergy": "営業利益に貢献、早期利益貢献を実現",
+          "status": "completed"
+        }
+      ],
+      "midterm_plan": {
+        "name": "Kanamic Vision 2035",
+        "period": "2030年・2035年",
+        "revenue_target": "2030年：100-120億円、2035年：200-300億円",
+        "profit_target": "2030年：営業利益35-40億円、2035年：営業利益80-120億円",
+        "key_strategies": [
+          "オーガニックグロースとM&A組み合わせ",
+          "営業利益率2030年：33.3-35%、2035年：40%",
+          "介護AISaaS AI100-Vision推進"
+        ]
+      },
+      "fiscal_period": "2025年9月期",
+      "summary": "カナミックネットワークは2025年9月期に売上高5500百万円（前年比9.9%増）、営業利益1606百万円（前年比11.6%増）で上場来最高売上・最高利益を更新。有料ユーザー22万人、無料ユーザー11.7万人と堅調に拡大。M&A効果も寄与し全セグメントで増収増益を達成。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

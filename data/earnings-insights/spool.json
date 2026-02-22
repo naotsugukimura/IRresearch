@@ -1,0 +1,58 @@
+{
+  "companyId": "spool",
+  "analyzedAt": "2026-02-22T21:15:40.932775",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": 100,
+        "employee_count": 1295,
+        "other_kpis": [
+          {
+            "name": "企業就労の障害者数",
+            "value": 704000,
+            "unit": "人"
+          },
+          {
+            "name": "福祉的就労の障害者数",
+            "value": 486000,
+            "unit": "人"
+          },
+          {
+            "name": "生産年齢人口における障害者数",
+            "value": 4556000,
+            "unit": "人"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "障がい者雇用市場において法定雇用率の段階的引き上げ、精神障害者の急増、福祉的就労から企業就労への移行等により市場拡大が見込まれる"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": "2026年11月期",
+        "revenue_target": 26844,
+        "profit_target": 2733,
+        "key_strategies": [
+          "障がい者雇用支援サービスの持続的成長確保",
+          "農園の付加価値向上",
+          "再成長に向けた抜本的基盤整備"
+        ]
+      },
+      "fiscal_period": "2025年11月期",
+      "summary": "エスプールの2025年11月期は売上収益26029百万円（前期比1.9%増）で過去最高を更新したが、営業利益2418百万円（同13.1%減）、当期利益1444百万円（同31.2%減）と一時的費用の発生等により減益。2026年11月期は障がい者雇用支援サービスを中心としたビジネスソリューション事業の拡大で増収増益を計画。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

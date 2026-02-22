@@ -1,0 +1,66 @@
+{
+  "companyId": "uzabase",
+  "analyzedAt": "2026-02-22T21:19:12.229459",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "SPEEDA契約ID数",
+            "value": null,
+            "unit": "件"
+          },
+          {
+            "name": "NewsPicks有料会員数",
+            "value": 102334,
+            "unit": "人"
+          },
+          {
+            "name": "NewsPicks会員ユーザー数",
+            "value": 4215000,
+            "unit": "人"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "SaaS事業とメディア事業を展開、AI活用による価値創出に注力"
+      },
+      "ma_info": [
+        {
+          "target": null,
+          "date": null,
+          "amount": null,
+          "synergy": "M&A担当を新たに配置し、シナジーが見込まれる買収案件の組成に向けた動きを具体化",
+          "status": "planned"
+        }
+      ],
+      "midterm_plan": {
+        "name": "新・中期経営計画",
+        "period": "2026-2028",
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "Big AI Shift",
+          "再上場に向けた成長戦略",
+          "人とテクノロジーの両輪による価値創出"
+        ]
+      },
+      "fiscal_period": "2025年3月期第2四半期",
+      "summary": "ユーザベースはSPEEDAなどのSaaS事業とNewsPicks事業を展開。SPEEDA事業は売上高21.5億円（前年同期比26.8%増）、セグメント利益6.96億円（前年同期比79.0%増）。NewsPicks事業は売上高18.9億円（前年同期比51.3%増）。AI活用による「Big AI Shift」を推進し、再上場を目指している。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

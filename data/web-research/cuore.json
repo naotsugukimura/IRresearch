@@ -1,0 +1,196 @@
+{
+  "companyId": "cuore",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"クオレ・シー・キューブ\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "1990年4月4日",
+          "employees": null,
+          "headquarters": "東京都千代田区神田錦町3-5-1 興和一橋ビル別館 5階",
+          "description": "ハラスメント防止及びメンタルヘルス問題、女性活躍推進・ダイバーシティに関する総合コンサルティングサービスを提供",
+          "main_services": [
+            "ハラスメント対策研修",
+            "社外相談窓口",
+            "教材制作・販売",
+            "実態調査"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": [
+            "パワハラという言葉を世に送り出した先駆者",
+            "25年以上の電話相談窓口実績",
+            "年間約750件の研修実績",
+            "のべ3000社以上のコンサルティング実績",
+            "厚生労働省委員として参画"
+          ],
+          "market_position": "ハラスメント対策分野のリーディングカンパニーとして確立された地位",
+          "threat_to_sms": null
+        },
+        "confidence": "high",
+        "data_freshness": "2024年"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:08:36.410518"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"クオレ・シー・キューブ\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "ハラスメント防止研修・eラーニング教材の監修を行う企業。パワハラの概念を最初に提唱・定義した岡田康子氏が代表を務める。",
+          "main_services": [
+            "ハラスメント防止eラーニング教材監修",
+            "職場環境改善コンサルティング"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "eラーニング『Q&Aで学ぶ 働きやすい職場づくり』監修",
+            "date": null,
+            "summary": "パソナセーフティネット社のハラスメント防止eラーニング教材を監修",
+            "source_url": "https://jinjibu.jp/article/detl/service/2247/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "パワハラ概念の第一人者による専門性",
+            "Q&A形式での実践的学習アプローチ"
+          ],
+          "market_position": "ハラスメント防止教育分野の専門企業として確立された地位",
+          "threat_to_sms": "1 - 異業種（教育・コンサルティング）のため直接的な脅威は低い"
+        },
+        "confidence": "low",
+        "data_freshness": "2023年頃（推定）"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:08:36.410537"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"クオレ・シー・キューブ\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "ハラスメント対策・防止研修を専門とする企業。企業向け研修、eラーニング、相談員養成などを提供",
+          "main_services": [
+            "ハラスメント防止研修",
+            "相談員養成講座",
+            "研修動画・eラーニング教材",
+            "社内インストラクター養成"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "東京プライド2025への協賛",
+            "date": "2025-01-XX",
+            "summary": "クオレ・シー・キューブが東京プライド2025に協賛",
+            "source_url": "https://www.cuorec3.co.jp/news/index.html"
+          },
+          {
+            "title": "相談員のためのリトリート研修を開発",
+            "date": "2024-XX-XX",
+            "summary": "ハラスメント対策担当者をサポートする新研修プログラム",
+            "source_url": "https://www.cuorec3.co.jp/index.html"
+          },
+          {
+            "title": "エデュテイメントプラネットとハラスメント防止e-ラーニング監修",
+            "date": "2025-12-29",
+            "summary": "全社員向けハラスメント防止教材を監修・提供",
+            "source_url": "https://ict-enews.net/2025/12/29all-e-support/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "パワハラ概念提唱者の岡田康子氏が会長",
+            "ハラスメント防止教育の第一人者として認知",
+            "豊富な研修実績とメディア露出"
+          ],
+          "market_position": "ハラスメント対策分野のリーディングカンパニー",
+          "threat_to_sms": "1 - 異なる事業領域のため直接的脅威は低い"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-01-XX"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:08:36.410542"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"クオレ・シー・キューブ\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": "推定50名以下",
+          "headquarters": null,
+          "description": "ハラスメント対策の総合コンサルティング、研修、調査サービスを提供する専門企業",
+          "main_services": [
+            "ハラスメント対策コンサルティング",
+            "ハラスメント防止研修",
+            "ハラスメント実態調査",
+            "女性活躍推進支援"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "くるみん認定取得",
+            "date": null,
+            "summary": "両立支援に関する取り組みが評価され厚生労働省からくるみん認定を取得",
+            "source_url": "https://www.cuorec3.co.jp/news/index.html"
+          },
+          {
+            "title": "ハラスメント判例勉強会開催",
+            "date": null,
+            "summary": "ハラスメント対策担当者を対象とした判例勉強会をオンラインで開催",
+            "source_url": "https://www.cuorec3.co.jp/news/index.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "パワハラ防止法の先駆的取り組み",
+            "ハラスメント分野の専門性",
+            "独自のパワハラ定義の確立",
+            "女性活躍推進との組み合わせサービス"
+          ],
+          "market_position": "ハラスメント対策のニッチ市場でのリーディングカンパニー的存在",
+          "threat_to_sms": "2段階 - 極めて特化された分野での事業展開のため、SMSとの直接競合は限定的"
+        },
+        "confidence": "medium",
+        "data_freshness": "2024年頃"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:08:36.410546"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "companyId": "nd_software",
+  "analyzedAt": "2026-02-22T21:08:49.784937",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "つながる家族導入数",
+            "value": null,
+            "unit": "件"
+          },
+          {
+            "name": "未来の介護導入施設数",
+            "value": 280,
+            "unit": "施設"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "医療情報システム・介護業界向けソリューション市場"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "つながる家族サービス展開",
+          "未来の介護システム導入拡大",
+          "品質・生産性向上"
+        ]
+      },
+      "fiscal_period": "2025年3月期",
+      "summary": "NDソフトウェアは損保ジャパングループの一員として、介護事業所向けソリューション事業を展開。「つながる家族」などの新商品を展開し、「未来の介護」システムの導入施設数は280施設に拡大。データ・テクノロジーを活用した業務改善により品質・生産性向上を図っている。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

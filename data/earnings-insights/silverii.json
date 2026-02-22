@@ -1,0 +1,63 @@
+{
+  "companyId": "silverii",
+  "analyzedAt": "2026-02-22T21:14:43.789106",
+  "documents": [
+    {
+      "business_kpis": {
+        "arr": null,
+        "mrr": null,
+        "churn_rate": null,
+        "arpu": null,
+        "cac": null,
+        "ltv": null,
+        "user_count": null,
+        "facility_count": null,
+        "employee_count": null,
+        "other_kpis": [
+          {
+            "name": "FC加盟店売上",
+            "value": 9361,
+            "unit": "百万円（2025年7月期実績）"
+          },
+          {
+            "name": "高齢者施設等売上",
+            "value": 1888,
+            "unit": "百万円（2025年7月期実績）"
+          },
+          {
+            "name": "直販・その他売上",
+            "value": 3668,
+            "unit": "百万円（2025年7月期実績）"
+          },
+          {
+            "name": "第1四半期売上成長率",
+            "value": 27.0,
+            "unit": "%（前年同期比）"
+          }
+        ]
+      },
+      "market_sizing": {
+        "tam": null,
+        "sam": null,
+        "som": null,
+        "market_growth_rate": null,
+        "market_notes": "冷凍弁当事業を中心とした高齢者向け食事宅配サービス市場で事業展開。FC加盟店、高齢者施設、EC販売（BtoC）の3つの販売チャネルを展開"
+      },
+      "ma_info": [],
+      "midterm_plan": {
+        "name": null,
+        "period": null,
+        "revenue_target": null,
+        "profit_target": null,
+        "key_strategies": [
+          "冷蔵食材の自社製造割合増加による売上原価率改善",
+          "高齢者施設等への営業強化",
+          "EC販売でのWEBプロモーション・SNS活用による販売促進"
+        ]
+      },
+      "fiscal_period": "2026年7月期第1四半期（2025年8月-10月期）",
+      "summary": "シルバーライフ（9262）は冷凍弁当を中心とした高齢者向け食事宅配サービス企業。2026年7月期第1四半期は売上高1,106百万円（前年同期比27.0%増）と好調。通期予想は売上高15,500百万円（3.9%増）、営業利益1,040百万円（22.4%増）を見込み、収益性の向上が期待される。",
+      "source_file": "tavily_web_search"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "companyId": "layerx",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"LayerX\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2018年8月1日",
+          "employees": null,
+          "headquarters": "東京都中央区築地1-13-1 銀座松竹スクエア 5階",
+          "description": "「すべての経済活動を、デジタル化する。」をミッションに掲げ、SaaS+Fintechを軸にAIを中心としたソフトウェア体験を社会実装するスタートアップ",
+          "main_services": [
+            "バクラク（法人支出管理サービス）",
+            "AI・LLM事業",
+            "Fintech事業"
+          ]
+        },
+        "funding": {
+          "total_raised": "132億6000万円（資本金・準備金含む）",
+          "latest_round": null,
+          "investors": [
+            "三井物産",
+            "SMBC日興証券",
+            "三井住友信託銀行"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "Ai Workforce事業、法務領域に進出。300ページ超の長文・複雑な契約書に対応する「Ai Workforce 契約書ソリューション」を提供開始",
+            "date": null,
+            "summary": "AI Workforceが法務領域に進出し、複雑な契約書処理ソリューションを提供開始",
+            "source_url": "https://layerx.co.jp/"
+          },
+          {
+            "title": "医療法人社団プラタナスが「バクラク」を導入。AIで請求書の受領やデータ管理がラクに",
+            "date": null,
+            "summary": "医療法人がバクラクを導入し、月次決算早期化・経営判断迅速化を実現",
+            "source_url": "https://layerx.co.jp/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "15,000社を超える導入実績",
+            "SaaS+Fintechの組み合わせ",
+            "民間から行政まで幅広い領域でのデジタル化支援",
+            "最先端のAI技術の組み込み"
+          ],
+          "market_position": "法人支出管理サービス分野でトップクラスの導入実績を持ち、AIを活用したUX向上で差別化",
+          "threat_to_sms": "3（中程度の脅威 - 企業の業務効率化領域で競合する可能性があるが、直接的な競合関係ではない）"
+        },
+        "confidence": "high",
+        "data_freshness": "2024年頃（推定）"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:17:10.482294"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"LayerX\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": "2018年",
+          "employees": "1000人（推定、2030年目標）",
+          "headquarters": "東京都中央区",
+          "description": "AIエージェント事業とSaaS型支出管理サービス「バクラク」を展開するFintech企業",
+          "main_services": [
+            "バクラク（支出管理サービス）",
+            "AIエージェント事業"
+          ]
+        },
+        "funding": {
+          "total_raised": "232億円（推定）",
+          "latest_round": "シリーズB",
+          "investors": [
+            "TCV",
+            "三菱UFJ銀行",
+            "三菱UFJイノベーション・パートナーズ",
+            "JICベンチャー・グロース・インベストメンツ",
+            "DIMENSION",
+            "Coreline Ventures"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "LayerX、シリーズBで150億円を調達。エンジニアの採用を強化し、AIエージェント事業をさらに加速",
+            "date": "2025-09-01",
+            "summary": "TCVをリード投資家としてシリーズBで150億円を調達",
+            "source_url": "https://layerx.co.jp/news/20250901-3/"
+          },
+          {
+            "title": "シリーズA累計で約82億円の資金調達を実施",
+            "date": "2023-06-13",
+            "summary": "シリーズAラウンドで累計82億円を調達完了",
+            "source_url": "https://layerx.co.jp/news/20230613/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "SaaS+Fintechの統合アプローチ",
+            "シリアル起業家による経営陣",
+            "LLMやブロックチェーンの高い技術力",
+            "三菱UFJ銀行との戦略的パートナーシップ"
+          ],
+          "market_position": "法人支出管理（BSM）マーケットでSaaS+Fintechの切り口から市場開拓を進める急成長企業",
+          "threat_to_sms": null
+        },
+        "confidence": "high",
+        "data_freshness": "2025-09-10"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:17:10.482316"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"LayerX\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": "2018年8月",
+          "employees": null,
+          "headquarters": "東京都中央区築地1-13-1 銀座松竹スクエア5階",
+          "description": "SaaS経費精算システム「バクラク」とエンタープライズ向けAIプラットフォーム「Ai Workforce」を提供するAI企業",
+          "main_services": [
+            "バクラク",
+            "Ai Workforce",
+            "三井物産デジタル・アセットマネジメント",
+            "オルタナ（ALTERNA）"
+          ]
+        },
+        "funding": {
+          "total_raised": "150億円（シリーズB）",
+          "latest_round": "シリーズB",
+          "investors": [
+            "三菱UFJ銀行"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "三菱UFJ銀行、提案資料作成の工数9割削減へ LayerXのAIプラットフォーム活用",
+            "date": "2026-02-19",
+            "summary": "AIエージェントデータ基盤および提案書自動生成機能を提供開始",
+            "source_url": "https://enterprisezine.jp/news/detail/23777"
+          },
+          {
+            "title": "LayerXが開発するAi Workforce、法務領域に進出",
+            "date": "2026-02-12",
+            "summary": "300ページ超の長文・複雑な契約書に対応する契約書ソリューション提供開始",
+            "source_url": "https://getaiworkforce.com/news/20260213"
+          },
+          {
+            "title": "元UiPath南哲夫氏がLayerXへ",
+            "date": "2026-01-01",
+            "summary": "Ai Workforce事業部のCROに就任、2030年度ARR1000億円目標",
+            "source_url": "https://enterprisezine.jp/article/detail/23615"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "メガバンクとの戦略的パートナーシップ",
+            "AIエージェント技術",
+            "エンタープライズ向け実績",
+            "法務領域への展開"
+          ],
+          "market_position": "SaaS企業からAI企業への転換を図り、エンタープライズAI市場でのポジション確立を目指している",
+          "threat_to_sms": "3段階 - エンタープライズ向けAIソリューションに特化しており、SMSの中小企業向け市場とは直接競合しないが、AI活用による業務効率化という点で参考になる技術力を持つ"
+        },
+        "confidence": "high",
+        "data_freshness": "2026-02-19"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:17:10.482321"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"LayerX\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "SaaS、フィンテック、AI技術を統合したコンパウンドスタートアップ。バクラクを筆頭に複数事業を同時展開。",
+          "main_services": [
+            "バクラク",
+            "オルタナ",
+            "Ai Workforce",
+            "Anonify"
+          ]
+        },
+        "funding": {
+          "total_raised": "133億円以上（推定）",
+          "latest_round": null,
+          "investors": [
+            "国内外のトップティアVC"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "海外ファンドなどから150億円調達",
+            "date": "2025-09-XX",
+            "summary": "9月に多額の資金調達を実施",
+            "source_url": "https://toyokeizai.net/articles/-/910529"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "コンパウンドスタートアップ戦略",
+            "複数プロダクト同時展開",
+            "AI・ブロックチェーン技術力",
+            "強力な経営チーム",
+            "金融サービスとの統合"
+          ],
+          "market_position": "2030年までにARR1,000億円達成を目標とし、国内SaaS企業のトップポジションを狙う",
+          "threat_to_sms": "3段階 - 経費管理・法人カード領域で競合する可能性があるが、現時点では異なる市場セグメント"
+        },
+        "confidence": "medium",
+        "data_freshness": "2025-11-09"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:17:10.482326"
+    }
+  ]
+}

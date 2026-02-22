@@ -1,0 +1,138 @@
+{
+  "companyId": "totalmobile",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"トータルモバイル\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2009年",
+          "employees": null,
+          "headquarters": null,
+          "description": "TDモバイルはトヨタグループのデンソーと豊田通商の携帯電話事業を統合した専門商社。モバイル機器販売とソリューション提供を行う。",
+          "main_services": [
+            "モバイル機器販売",
+            "法人向けモバイルソリューション"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": [
+            "株式会社デンソー",
+            "豊田通商株式会社"
+          ],
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "ビックカメラグループに参画",
+            "date": "2023-XX-XX",
+            "summary": "TDモバイルがビックカメラグループに参画し、さらなる躍進を続けている",
+            "source_url": "https://job.mynavi.jp/26/pc/search/corp100804/outline.html"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "高い安定性のあるモバイル事業",
+            "コンシューマと法人の両事業展開",
+            "トヨタグループの信頼性"
+          ],
+          "market_position": "モバイルコミュニケーションと情報通信サービスの専門商社として位置",
+          "threat_to_sms": "2段階 - モバイル機器販売が主体でSMS事業との直接競合は限定的"
+        },
+        "confidence": "medium",
+        "data_freshness": "2023年"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:27:59.381481"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"トータルモバイル\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2025-03-XX"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:27:59.381499"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"トータルモバイル\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2026-02-13"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:27:59.381503"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"トータルモバイル\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": null,
+          "main_services": null
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": null,
+          "market_position": null,
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2025年"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T20:27:59.381507"
+    }
+  ]
+}
