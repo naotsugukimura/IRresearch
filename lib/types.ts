@@ -579,6 +579,8 @@ export interface DailyScheduleItem {
   activity: string;
   who: string;
   detail: string;
+  conversation?: string;
+  mood?: string;
 }
 
 export interface RoleInfo {
@@ -589,6 +591,21 @@ export interface RoleInfo {
   count: string;
   qualification: string;
   keyTask: string;
+  annualSalary?: string;
+  ageRange?: string;
+  jobOpeningRatio?: string;
+  careerPath?: string;
+  motivation?: string;
+  challenges?: string[];
+}
+
+export interface StakeholderRelation {
+  name: string;
+  icon: string;
+  frequency: string;
+  description: string;
+  theirPerspective: string;
+  typicalInteractions: string[];
 }
 
 export interface ConversationExample {
@@ -596,12 +613,14 @@ export interface ConversationExample {
   context: string;
   topics: string[];
   insight: string;
+  dialogSample?: string[];
 }
 
 export interface OperationsStory {
   dailySchedule: DailyScheduleItem[];
   roles: RoleInfo[];
   typicalConversations: ConversationExample[];
+  stakeholders?: StakeholderRelation[];
 }
 
 // 月次事業計画テーブル

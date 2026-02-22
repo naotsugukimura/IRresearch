@@ -223,9 +223,10 @@ ANTHROPIC_API_KEY=...
 - `EntityDistributionChart.tsx` / `Inner` — BarChart + PieChart（法人格別: 株式会社54.9%が最多）
 - `OperatorScaleChart.tsx` / `Inner` — BarChart（単体65.9%/2-5/6-10/11+）
 - `FacilityGrowthChart.tsx` / `Inner` — 2タブ: 法人格別StackedArea + 事業所数×利用者数ComposedChart + 報酬改定ReferenceLine
-- `DailyTimeline.tsx` — CSS timeline（9:00-18:30の一日の流れ）
-- `RoleDiagram.tsx` — カードグリッド（管理者/児発管/指導員/保育士/ドライバー）
-- `ConversationCards.tsx` — 4シーン（保護者面談/スタッフMTG/関係機関連携/日次連絡）
+- `DailyTimeline.tsx` — 展開可能タイムライン（会話・雰囲気付き、serviceType動的タイトル）
+- `RoleDiagram.tsx` — 展開可能アコーディオン（年収/求人倍率/キャリアパス/想い/悩み）
+- `StakeholderMap.tsx` — 7関係者の展開可能カード（本音・関わり方表示）
+- `ConversationCards.tsx` — 6シーン（保護者面談/スタッフMTG/関係機関/日次連絡/担当者会議/行政指導）+ 会話サンプル展開
 - `PLWaterfall.tsx` / `Inner` — 売上BarChart + コストPieChart（年間約2,256万円）
 - `BonusTable.tsx` — 主要加算10個アコーディオン（カテゴリフィルタ/難易度/売上寄与バッジ/取得要件ガイド展開）
 - `MonthlyPLTable.tsx` — 12ヶ月月次PL表（折りたたみセクション/スパークライン/年次合計）
@@ -326,7 +327,39 @@ TAVILY_API_KEY=tvly-...
 - `houkago-day.json` — 全10加算に `requirementGuide` 追加（overview/steps[]/tips[]/commonMistakes[]）
 - `lib/types.ts`: `BonusRequirementStep` 型 + `BonusCatalogItem.requirementGuide` 追加
 
-### ★ 次にやること（Phase 11以降）
+## ★ Phase 11 完了（2026-02-22）: 事業所運営リアリティ大幅強化（放課後デイ先行）
+
+### Phase 11a: DailyTimeline刷新
+- `DailyTimeline.tsx` — 各時間帯に `conversation`（現場の会話）と `mood`（雰囲気）を展開表示
+  - 「現場の会話を見る」ボタンで展開可能なアコーディオン
+  - 発話者名を太字ハイライト、イタリック体でムード表示
+- **他サービスのタイトル修正**: ハードコード「放課後等デイサービスの〜」→ `serviceType` propsから動的生成
+- `DailyScheduleItem` 型拡張: `conversation?`, `mood?`
+
+### Phase 11b: RoleDiagram刷新
+- `RoleDiagram.tsx` — グリッド→展開可能アコーディオンにリライト
+  - 想定年収（Banknote）/ 有効求人倍率（TrendingUp）/ 年齢層 / キャリアパス / この仕事への想い（Sparkles）/ 日々の悩み・課題（AlertCircle）
+- `RoleInfo` 型拡張: `annualSalary?`, `ageRange?`, `jobOpeningRatio?`, `careerPath?`, `motivation?`, `challenges?`
+- **他サービスのタイトル修正**: `serviceType` propsから動的生成
+
+### Phase 11c: StakeholderMap新規作成
+- `StakeholderMap.tsx` — 新コンポーネント。事業所を取り巻く7関係者を展開可能カードで表示
+  - 利用児童 / 保護者 / 学校教員 / 相談支援専門員 / 市区町村 / 主治医・医療機関 / 近隣事業所
+  - 各関係者: 関わりの頻度、説明、本音（theirPerspective）、主な関わり方（typicalInteractions）
+- `StakeholderRelation` 型新規: `name`, `icon`, `frequency`, `description`, `theirPerspective`, `typicalInteractions[]`
+- `OperationsStory` 型拡張: `stakeholders?`
+
+### Phase 11d: ConversationCards強化
+- `ConversationCards.tsx` — 「会話の例を見る」ボタンで dialogSample 展開表示
+  - 4→6シーンに拡大（サービス担当者会議 / 行政実地指導 追加）
+- `ConversationExample` 型拡張: `dialogSample?`
+
+### Phase 11e: レイアウト変更
+- `FacilityDetailPage.tsx` — DailyTimeline・RoleDiagramをフルワイド化（2列→1列）
+  - StakeholderMapセクション追加（ConversationCardsの前）
+  - `serviceType` を DailyTimeline / RoleDiagram に伝搬
+
+### ★ 次にやること（Phase 12以降）
 - 全25社Tavilyリサーチ再実行（DNSエラー解消後）: `--all-private --no-db`
 - Supabase SQL Editorで `company_web_research` テーブル作成（DB永続化）
 - リタリコ深掘り: プラットフォーム事業構造、セグメント収益時系列、一店舗あたり事業計画

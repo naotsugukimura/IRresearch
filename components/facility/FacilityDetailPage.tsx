@@ -7,6 +7,7 @@ import { OperatorScaleChart } from "@/components/facility/OperatorScaleChart";
 import { FacilityGrowthChart } from "@/components/facility/FacilityGrowthChart";
 import { DailyTimeline } from "@/components/facility/DailyTimeline";
 import { RoleDiagram } from "@/components/facility/RoleDiagram";
+import { StakeholderMap } from "@/components/facility/StakeholderMap";
 import { ConversationCards } from "@/components/facility/ConversationCards";
 import { PLWaterfall } from "@/components/facility/PLWaterfall";
 import { BonusTable } from "@/components/facility/BonusTable";
@@ -57,14 +58,28 @@ export function FacilityDetailPage({ data, title }: Props) {
             />
           </section>
 
-          <div className="grid gap-4 lg:grid-cols-2">
-            <section id="operations">
-              <DailyTimeline schedule={data.operationsStory.dailySchedule} />
+          {/* Operations: Daily timeline (full width) */}
+          <section id="operations">
+            <DailyTimeline
+              schedule={data.operationsStory.dailySchedule}
+              serviceType={data.serviceType}
+            />
+          </section>
+
+          {/* Roles (full width for expanded content) */}
+          <section id="roles">
+            <RoleDiagram
+              roles={data.operationsStory.roles}
+              serviceType={data.serviceType}
+            />
+          </section>
+
+          {/* Stakeholders */}
+          {data.operationsStory.stakeholders && data.operationsStory.stakeholders.length > 0 && (
+            <section id="stakeholders">
+              <StakeholderMap stakeholders={data.operationsStory.stakeholders} />
             </section>
-            <section id="roles">
-              <RoleDiagram roles={data.operationsStory.roles} />
-            </section>
-          </div>
+          )}
 
           <section id="conversations">
             <ConversationCards conversations={data.operationsStory.typicalConversations} />
