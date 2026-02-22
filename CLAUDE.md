@@ -451,13 +451,57 @@ TAVILY_API_KEY=tvly-...
 - dynamic import (ssr: false) パターン
 - 企業詳細ページ経営分析セクションに配置
 
-### ★ 次にやること（Phase 15以降）
-- **Phase 15: マーケット補強**
-  - 15a 3プレイヤー文脈アノテーション
-- 全25社Tavilyリサーチ再実行
-- Supabase SQL Editorで `company_web_research` テーブル作成
-- 他社へのBS/CFデータ横展開（EDINET API自動取得 or 手動追加）
-- 詳細な設計計画: `.claude/plans/cuddly-sprouting-dream.md` 参照
+## ★ 事業ライフサイクル機能 完了（2026-02-22）
+
+### BusinessLifecycle コンポーネント（放課後デイ先行）
+- `components/facility/BusinessLifecycle.tsx`（"use client"、rechartsなし）
+- 4フェーズタブUI: 開業まで / 1年目 / 2-3年目 / 成長期・分岐
+- 各フェーズ: 課題(severity) / 成功vs失敗分岐 / 外部サービスニーズ(9カテゴリ) / 民間vs社福 / FC
+- Phase 0 は既存 `StartupFlow` を埋め込み表示
+- 後方互換: `businessLifecycle` がないサービスは `StartupFlow` にフォールバック
+- `FACILITY_SECTIONS`: `startup` → `lifecycle` に変更
+
+### 新しい型（lib/types.ts）
+- `BusinessLifecycle`, `LifecyclePhase`, `LifecyclePhaseId`
+- `LifecycleChallenge`, `SuccessFailureScenario`
+- `ExternalServiceNeed`, `ExternalServiceCategory`
+- `EntityTypeConsideration`, `FranchiseConsideration`
+- `FacilityAnalysisData` に `businessLifecycle?: BusinessLifecycle` 追加
+
+### デプロイ
+- `feature/dashboard-macro` → `main` マージ（Phase 12-14 + ライフサイクル、計12コミット）
+- プロダクションURL: `i-rapp.vercel.app`
+
+### ★ 次にやること
+- **事業ライフサイクル横展開**: 残り18サービスにPythonバッチで `businessLifecycle` データ追加
+- **企業データ横展開**: 他社BS/CFデータ追加、Tavily全25社リサーチ
+- Phase 15: マーケット文脈アノテーション（3プレイヤー「なぜ増えたか」）
+- Supabase `company_web_research` テーブル作成
+
+## 大量展開プロトコル（★次回セッション向け）
+横展開・大量ファイル生成時は以下のプロトコルに従う:
+1. **タスク分割**: 5-10件の独立した小タスクに分割
+2. **バックグラウンド実行**: `run_in_background: true` でPythonスクリプト並列実行
+3. **1分おき報告**: バックグラウンドタスクの進捗を1分ごとにユーザーに報告
+4. **遅延検知**: 2分以上応答がないタスクは即座に確認・リトライ
+5. **圧縮耐性設計**:
+   - 各タスクは自己完結（前のコンテキストに依存しない）
+   - NEXT_SESSION_PROMPT.mdに「今どこまで完了したか」を逐次更新
+   - Pythonスクリプトは冪等（再実行しても安全）
+   - 完了したタスクはコミット＆プッシュして確定
+6. **検証**: 各バッチ完了後に `npm run build` で即座にビルド確認
+
+## デジタル庁ダッシュボードガイドブック（★設計原則）
+参考: `20240531_resources_dashboard-guidebook_guidebook_01.pdf`（121ページ）
+IRkunの設計に常に適用すべきエッセンス:
+- **「誰が・いつ・何のために見るか」を明確に**: 新人キャッチアップ / 企画者の意思決定 / イベント駆動型閲覧
+- **マクロ→ミクロの情報階層**: 制度沿革 → 3プレイヤー → 事業所 → 企業
+- **KPIは最上部に**: 重要指標をカード型で配置、数値＋前年比＋スパークライン
+- **比較を可能にする**: 複数サービス・複数企業の横並び比較
+- **データの鮮度を示す**: lastUpdated/source/confidence（DataFreshnessBadge）
+- **アクション可能な情報**: 数値+「だからどうすべきか」のインサイト
+- **段階的開示**: 概要→詳細のドリルダウン（アコーディオン・タブ・リンク）
+- **色の意味を統一**: セマンティックカラー（profit=緑, cost=赤, bep=金）
 
 ## recharts動的読み込みパターン
 recharts使用コンポーネントは全てSSR無効化済み:
@@ -514,6 +558,7 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `add_phase13_data.py` — Phase 13データ追加: houkago-dayにuserJourney/startupGuide
 - `add_bonus_flow_data.py` — Phase 13d: bonusAcquisitionFlow追加（houkago-day）
 - `add_phase13_all_services.py` — Phase 13e: 全18サービスにuserJourney/startupGuide/bonusAcquisitionFlow横展開
+- `add_lifecycle_data.py` — 事業ライフサイクル: houkago-dayにbusinessLifecycle追加（パイロット）
 
 ## ビルド & デプロイ
 ```bash
