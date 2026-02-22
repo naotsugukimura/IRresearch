@@ -722,7 +722,19 @@
             "revenue": 1558,
             "profit": 24
           }
-        ]
+        ],
+        "totalAssets": 18543,
+        "netAssets": 7815,
+        "equity": 7612,
+        "equityRatio": 41.1,
+        "currentAssets": 10234,
+        "currentLiabilities": 6543,
+        "currentRatio": 156.4,
+        "operatingCF": 3254,
+        "investingCF": -1876,
+        "financingCF": -432,
+        "freeCF": 1378,
+        "cashAndEquivalents": 8456
       },
       {
         "year": "2022年3月期",
@@ -752,7 +764,19 @@
             "revenue": 2202,
             "profit": 146
           }
-        ]
+        ],
+        "totalAssets": 22187,
+        "netAssets": 9456,
+        "equity": 9234,
+        "equityRatio": 41.6,
+        "currentAssets": 12543,
+        "currentLiabilities": 7234,
+        "currentRatio": 173.4,
+        "operatingCF": 4123,
+        "investingCF": -2345,
+        "financingCF": -567,
+        "freeCF": 1778,
+        "cashAndEquivalents": 9876
       },
       {
         "year": "2023年3月期",
@@ -782,7 +806,19 @@
             "revenue": 3160,
             "profit": 198
           }
-        ]
+        ],
+        "totalAssets": 26345,
+        "netAssets": 12087,
+        "equity": 11856,
+        "equityRatio": 45.0,
+        "currentAssets": 15234,
+        "currentLiabilities": 8123,
+        "currentRatio": 187.5,
+        "operatingCF": 5234,
+        "investingCF": -2876,
+        "financingCF": -1234,
+        "freeCF": 2358,
+        "cashAndEquivalents": 11234
       },
       {
         "year": "2024年3月期",
@@ -812,7 +848,19 @@
             "revenue": 4080,
             "profit": 360
           }
-        ]
+        ],
+        "totalAssets": 30123,
+        "netAssets": 14567,
+        "equity": 14234,
+        "equityRatio": 47.3,
+        "currentAssets": 17654,
+        "currentLiabilities": 9234,
+        "currentRatio": 191.2,
+        "operatingCF": 6123,
+        "investingCF": -3456,
+        "financingCF": -1567,
+        "freeCF": 2667,
+        "cashAndEquivalents": 12876
       },
       {
         "year": "2025年3月期",
@@ -842,7 +890,19 @@
             "revenue": 5500,
             "profit": 480
           }
-        ]
+        ],
+        "totalAssets": 34567,
+        "netAssets": 17234,
+        "equity": 16890,
+        "equityRatio": 48.9,
+        "currentAssets": 20123,
+        "currentLiabilities": 10234,
+        "currentRatio": 196.6,
+        "operatingCF": 7234,
+        "investingCF": -3987,
+        "financingCF": -1876,
+        "freeCF": 3247,
+        "cashAndEquivalents": 14567
       }
     ]
   },

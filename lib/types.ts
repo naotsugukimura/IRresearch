@@ -67,6 +67,20 @@ export interface FiscalYear {
   users?: number;
   revenuePerEmployee?: number;
   segments?: SegmentFinancial[];
+  // BS fields (百万円)
+  totalAssets?: number;
+  netAssets?: number;
+  equity?: number;
+  equityRatio?: number; // 自己資本比率 (%)
+  currentAssets?: number;
+  currentLiabilities?: number;
+  currentRatio?: number; // 流動比率 (%)
+  // CF fields (百万円)
+  operatingCF?: number;
+  investingCF?: number;
+  financingCF?: number;
+  freeCF?: number; // 営業CF + 投資CF
+  cashAndEquivalents?: number;
 }
 
 export interface CompanyFinancials {

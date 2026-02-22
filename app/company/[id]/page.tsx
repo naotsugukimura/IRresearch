@@ -129,7 +129,7 @@ export default async function CompanyDetailPage({
                 )}
               </section>
 
-              {/* ===== 財務分析（安全性・収益性・CF） ===== */}
+              {/* ===== 財務分析（PL・BS・CF） ===== */}
               <section id="financial">
                 {financials ? (
                   <FinancialCharts
@@ -139,16 +139,18 @@ export default async function CompanyDetailPage({
                 ) : (
                   <EmptyState title="財務データなし" />
                 )}
-                <div className="mt-4 grid gap-4 lg:grid-cols-2">
-                  <EmptyState
-                    title="安全性分析"
-                    description="自己資本比率・流動比率・固定比率等の安全性指標 — データ準備中"
-                  />
-                  <EmptyState
-                    title="キャッシュフロー分析"
-                    description="営業CF・投資CF・財務CF・フリーCFの推移 — データ準備中"
-                  />
-                </div>
+                {financials && !financials.fiscalYears.some((fy) => fy.totalAssets != null) && (
+                  <div className="mt-4 grid gap-4 lg:grid-cols-2">
+                    <EmptyState
+                      title="安全性分析"
+                      description="自己資本比率・流動比率・固定比率等の安全性指標 — データ準備中"
+                    />
+                    <EmptyState
+                      title="キャッシュフロー分析"
+                      description="営業CF・投資CF・財務CF・フリーCFの推移 — データ準備中"
+                    />
+                  </div>
+                )}
               </section>
 
               {/* ===== 経営分析（PL・CF・FCF） ===== */}
@@ -172,12 +174,14 @@ export default async function CompanyDetailPage({
                 {!businessPlan && (
                   <EmptyState title="事業計画データなし" />
                 )}
-                <div className="mt-4">
-                  <EmptyState
-                    title="CF・FCF分析"
-                    description="キャッシュフロー計算書に基づく経営分析 — データ準備中"
-                  />
-                </div>
+                {financials && !financials.fiscalYears.some((fy) => fy.operatingCF != null) && (
+                  <div className="mt-4">
+                    <EmptyState
+                      title="CF・FCF分析"
+                      description="キャッシュフロー計算書に基づく経営分析 — データ準備中"
+                    />
+                  </div>
+                )}
               </section>
 
               {/* ===== 事業分析（決算インサイト・Webリサーチ・エリア・競争優位性） ===== */}
