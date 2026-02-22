@@ -11,6 +11,7 @@ import earningsInsightsData from "@/data/earnings-insights.json";
 import areaAnalysisData from "@/data/litalico-area-analysis.json";
 import marketOverviewData from "@/data/market-overview.json";
 import webResearchData from "@/data/web-research.json";
+import disabilityKnowledgeData from "@/data/disability-knowledge.json";
 import jidouHattatsuData from "@/data/facility-analysis/jidou-hattatsu.json";
 import iryougataJidouData from "@/data/facility-analysis/iryougata-jidou.json";
 import houkagoDayData from "@/data/facility-analysis/houkago-day.json";
@@ -47,6 +48,7 @@ import type {
   MarketOverviewData,
   FacilityAnalysisData,
   WebResearchData,
+  DisabilityKnowledgeData,
 } from "./types";
 
 // ============================================================
@@ -260,4 +262,12 @@ export function getFacilityAnalysis(serviceCode: string): FacilityAnalysisData |
 export function getWebResearch(companyId: string): WebResearchData | undefined {
   const all = webResearchData as unknown as WebResearchData[];
   return all.find((d) => d.companyId === companyId);
+}
+
+// ============================================================
+// 障害理解（Disability Knowledge）
+// ============================================================
+
+export function getDisabilityKnowledge(): DisabilityKnowledgeData {
+  return disabilityKnowledgeData as unknown as DisabilityKnowledgeData;
 }

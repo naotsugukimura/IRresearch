@@ -53,6 +53,7 @@ export const NAV_ITEMS: NavItem[] = [
     icon: "GraduationCap",
     children: [
       { href: "/learn", label: "用語集" },
+      { href: "/learn/disability", label: "障害理解" },
       { href: "/notes", label: "分析ノート" },
     ],
   },

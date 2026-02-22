@@ -844,3 +844,68 @@ export interface WebResearchData {
   companyId: string;
   research: WebResearchEntry[];
 }
+
+// ============================================================
+// 障害理解（Disability Knowledge）
+// ============================================================
+
+export interface DisabilitySubType {
+  name: string;
+  description: string;
+}
+
+export interface DisabilityStatistics {
+  totalPopulation: number;
+  populationNote: string;
+  prevalenceRate: number;
+  prevalenceNote: string;
+  trend: string;
+  trendData: { year: number; count: number }[];
+}
+
+export interface DiscoveryTrigger {
+  stage: string;
+  age: string;
+  trigger: string;
+  icon: string;
+}
+
+export interface Treatment {
+  category: string;
+  description: string;
+  notes: string;
+}
+
+export interface EmploymentInfo {
+  difficulties: string[];
+  workplaceSupport: string[];
+  employmentRate: number;
+  employmentRateNote: string;
+  averageSalary: number;
+  averageSalaryNote: string;
+}
+
+export interface DailyLifeInfo {
+  friendSupport: string;
+  communicationTips: string[];
+}
+
+export interface DisabilityCategory {
+  id: string;
+  title: string;
+  color: string;
+  icon: string;
+  overview: string;
+  subTypes: DisabilitySubType[];
+  statistics: DisabilityStatistics;
+  discoveryTriggers: DiscoveryTrigger[];
+  treatments: Treatment[];
+  employment: EmploymentInfo;
+  dailyLife: DailyLifeInfo;
+}
+
+export interface DisabilityKnowledgeData {
+  lastUpdated: string;
+  source: string;
+  categories: DisabilityCategory[];
+}
