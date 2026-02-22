@@ -12,6 +12,8 @@ import { ConversationCards } from "@/components/facility/ConversationCards";
 import { PLWaterfall } from "@/components/facility/PLWaterfall";
 import { BonusTable } from "@/components/facility/BonusTable";
 import { MonthlyPLTable } from "@/components/facility/MonthlyPLTable";
+import { UserJourneyFlow } from "@/components/facility/UserJourneyFlow";
+import { StartupFlow } from "@/components/facility/StartupFlow";
 import type { FacilityAnalysisData } from "@/lib/types";
 
 interface Props {
@@ -57,6 +59,20 @@ export function FacilityDetailPage({ data, title }: Props) {
               rewardRevisions={data.rewardRevisions}
             />
           </section>
+
+          {/* User Journey Flow */}
+          {data.userJourney && (
+            <section id="userJourney">
+              <UserJourneyFlow userJourney={data.userJourney} serviceType={data.serviceType} />
+            </section>
+          )}
+
+          {/* Startup Flow */}
+          {data.startupGuide && (
+            <section id="startup">
+              <StartupFlow startupGuide={data.startupGuide} serviceType={data.serviceType} />
+            </section>
+          )}
 
           {/* Operations: Daily timeline (full width) */}
           <section id="operations">

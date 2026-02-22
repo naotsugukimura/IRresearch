@@ -654,6 +654,37 @@ export interface MonthlyPL {
   glossary: MonthlyPLGlossary[];
 }
 
+// 利用者フロー（Phase 13a）
+export interface UserJourneyStep {
+  label: string;
+  description: string;
+  duration?: string;
+  keyActions?: string[];
+  who?: string;
+}
+
+export interface UserJourney {
+  dailyFlow: UserJourneyStep[];
+  lifecycleFlow: UserJourneyStep[];
+}
+
+// 開業フロー（Phase 13b）
+export interface StartupStep {
+  label: string;
+  description: string;
+  duration: string;
+  cost?: string;
+  documents?: string[];
+  tips?: string[];
+  warnings?: string[];
+}
+
+export interface StartupGuide {
+  totalCost: string;
+  totalDuration: string;
+  steps: StartupStep[];
+}
+
 export interface FacilityAnalysisData {
   serviceType: string;
   serviceCode: string;
@@ -668,6 +699,8 @@ export interface FacilityAnalysisData {
   bonusCatalog: BonusCatalogItem[];
   monthlyPL?: MonthlyPL;
   operationsStory: OperationsStory;
+  userJourney?: UserJourney;
+  startupGuide?: StartupGuide;
 }
 
 // ============================================================
