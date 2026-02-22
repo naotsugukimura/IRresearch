@@ -66,7 +66,9 @@ data/                   # 全データJSON（companies, financials, business-pla
     shukuhaku-kunren.json, shurou-ikou.json, shurou-a.json,
     shurou-b.json, shurou-teichaku.json, chiiki-ikou.json,
     chiiki-teichaku.json, keikaku-soudan.json, shougaiji-soudan.json
-scripts/                # Python — DB管理 / EDINET / IRスクレイパー
+  web-research.json     # 非上場企業Webリサーチ（全社集約）
+  web-research/         # 非上場企業Webリサーチ（企業別JSON）
+scripts/                # Python — DB管理 / EDINET / IRスクレイパー / Tavilyリサーチ
 ```
 
 ## 重要な型
@@ -102,7 +104,7 @@ Pythonスクリプト → Supabase DB（単一ソースオブトゥルース）
                  next build → Vercel
 ```
 
-### スキーマ（18テーブル）
+### スキーマ（19テーブル）
 `scripts/schema.sql` — Supabase SQL Editorで実行済み
 
 | テーブル | 対応JSON | レコード数 |
@@ -124,6 +126,7 @@ Pythonスクリプト → Supabase DB（単一ソースオブトゥルース）
 | `glossary` | glossary.json（JSONB一括） | 1 |
 | `earnings_documents` | earnings-insights/*.json | 12（5社分） |
 | `earnings_insights` | earnings-insights/*.json | ~50 |
+| `company_web_research` | web-research/*.json | 1（テスト） |
 
 ### Pythonスクリプト（DB関連）
 - `scripts/db.py` — httpxでPostgREST API直接叩く（supabase SDK不使用 ← Python 3.14非対応のため）
@@ -254,7 +257,43 @@ ANTHROPIC_API_KEY=...
 2. **スパークライン追加**: KPIカードの背景にSVGスパークライン（10年推移の薄い折れ線グラフ）
 3. **ドリルダウン導線**: MarketKpiCards「障害福祉事業所数」カードをクリック→`/facility`へ遷移
 
-### ★ 次にやること（Phase 9）
+## ★ Phase 9a 完了（2026-02-22）: Tavily Search APIによる非上場企業Webリサーチ
+
+### 概要
+82社中25社の非上場企業にはIR/EDINET情報がないため、Tavily Search APIでWeb公開情報を自動収集→Claude APIで構造化分析するパイプラインを構築。
+
+### 新規ファイル
+- `scripts/tavily_research.py` — Tavily検索→Claude分析→JSON/DB保存
+  - CLI: `--company kaien`, `--all-private`, `--type business_overview,funding`, `--export-json`, `--no-db`
+  - 4リサーチタイプ: business_overview / funding / news / competitive
+  - 25社の非上場企業ID一覧 (PRIVATE_COMPANY_IDS)
+  - Tavily `search_depth="advanced"` (2クレジット/回、月1,000無料枠)
+- `components/company/WebResearchSection.tsx` — 4タブUI
+  - 信頼度バッジ（high=緑/medium=黄/low=赤）
+  - BusinessOverview / FundingInfo / NewsList / CompetitiveAnalysis サブコンポーネント
+  - ソースURL折りたたみ表示
+- `data/web-research.json` — 全社集約JSON（data.tsから読み込み）
+- `data/web-research/{company_id}.json` — 企業別JSON
+
+### 変更ファイル
+- `scripts/schema.sql` — `company_web_research` テーブル追加（※Supabase SQL Editor未実行）
+- `scripts/db.py` — `upsert_company_web_research()` + `export_web_research_json()` 追加
+- `scripts/export_json.py` — web-research エクスポート追加
+- `lib/types.ts` — `WebResearchData`, `WebResearchEntry` 型追加
+- `lib/data.ts` — `getWebResearch()` 関数 + web-research.json import 追加
+- `app/company/[id]/page.tsx` — 非fullData企業にWebResearchSection表示、fullData企業にも事業分析セクションに表示
+
+### 環境変数（scripts/.env に追加）
+```
+TAVILY_API_KEY=tvly-...
+```
+
+### API利用量
+- 25社 × 4タイプ = 100検索 × 2クレジット = 200クレジット/月（無料枠1,000内）
+
+### ★ 次にやること（Phase 9b以降）
+- 全25社の非上場企業リサーチ実行: `--all-private`
+- Supabase SQL Editorで `company_web_research` テーブル作成（DB永続化）
 - リタリコ深掘り: プラットフォーム事業構造、セグメント収益時系列、一店舗あたり事業計画
 - WAMNETスクリプト汎用化（他社対応）
 - キャッシュフロー/安全性データ整備 → EmptyState埋め
@@ -307,6 +346,7 @@ recharts使用コンポーネントは全てSSR無効化済み:
 - `generate_facility_json.py` — 6サービス分の事業所分析JSONを一括生成（Part 1: 障害児通所系 + 居住系）
 - `generate_facility_json_part2.py` — 11サービス分の事業所分析JSON一括生成（Part 2: 訓練・就労・相談系）
 - `generate_facility_pages.py` — 17サービス分のNext.jsページファイル一括生成
+- `tavily_research.py` — Tavily Search API→Claude分析→非上場企業Webリサーチ (`--company X`, `--all-private`, `--no-db`)
 
 ## ビルド & デプロイ
 ```bash
@@ -321,4 +361,6 @@ python scripts/fetch_financials.py --export-json            # EDINET財務デー
 python scripts/fetch_earnings.py --all                      # 決算説明資料 取得→分析
 python scripts/export_json.py                               # DB→JSON全出力
 python scripts/export_json.py --only companies              # 特定テーブルのみ
+python scripts/tavily_research.py --company kaien --no-db   # 非上場企業Webリサーチ（1社テスト）
+python scripts/tavily_research.py --all-private --no-db     # 全25社一括実行
 ```
