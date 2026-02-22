@@ -3,10 +3,13 @@
 import {
   BarChart,
   Bar,
+  LineChart,
+  Line,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
+  Legend,
   ResponsiveContainer,
   Cell,
   LabelList,
@@ -536,6 +539,100 @@ function RevenueDriverTable({ drivers }: { drivers: RevenueDriver[] }) {
 }
 
 // ============================================================
+// セグメント月次売上推移
+// ============================================================
+
+const MONTHS = ["4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月", "1月", "2月", "3月"];
+
+function SegmentMonthlyTrend({ segmentPlans }: { segmentPlans: CompanyBusinessPlan[] }) {
+  // Build month-by-month data for each segment
+  const data = MONTHS.map((month, i) => {
+    const row: Record<string, unknown> = { name: month };
+    for (const sp of segmentPlans) {
+      const revenueRow = findRow(sp, (r) => r.label.includes("売上高") && !!r.isMonetary && !!r.isBold);
+      const segName = sp.segmentName || sp.segmentId || "不明";
+      row[segName] = revenueRow ? revenueRow.values[i] : 0;
+    }
+    return row;
+  });
+
+  const segNames = segmentPlans.map((p) => p.segmentName || p.segmentId || "不明");
+
+  return (
+    <Card>
+      <CardHeader className="pb-2">
+        <CardTitle className="text-sm">セグメント別月次売上推移</CardTitle>
+      </CardHeader>
+      <CardContent>
+        <div className="h-[280px]">
+          <ResponsiveContainer width="100%" height="100%">
+            <LineChart data={data} margin={{ top: 5, right: 5, left: 5, bottom: 0 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
+              <XAxis dataKey="name" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} />
+              <YAxis tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatPlanCurrency(v)} />
+              <Tooltip
+                contentStyle={{ backgroundColor: "#1F2937", border: "1px solid #374151", borderRadius: "8px", fontSize: "12px" }}
+                formatter={(value: number) => [formatPlanCurrency(value), undefined]}
+              />
+              <Legend wrapperStyle={{ fontSize: "11px" }} />
+              {segNames.map((name, i) => (
+                <Line key={name} type="monotone" dataKey={name} stroke={SEGMENT_COLORS[i % SEGMENT_COLORS.length]} strokeWidth={2} dot={{ r: 2 }} />
+              ))}
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
+
+// ============================================================
+// セグメント別コスト構造比較
+// ============================================================
+
+function SegmentCostStructure({ segmentPlans }: { segmentPlans: CompanyBusinessPlan[] }) {
+  const data = segmentPlans.map((sp) => {
+    const m = extractPLMetrics(sp);
+    const segName = sp.segmentName || sp.segmentId || "不明";
+    return {
+      name: segName,
+      人件費: m.personnel,
+      広告宣伝費: m.advertising,
+      その他販管費: m.otherSGA || (m.totalSGA - m.personnel - m.advertising),
+      売上原価: m.cogs,
+    };
+  });
+
+  return (
+    <Card>
+      <CardHeader className="pb-2">
+        <CardTitle className="text-sm">セグメント別コスト構造</CardTitle>
+      </CardHeader>
+      <CardContent>
+        <div className="h-[280px]">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={data} layout="vertical" margin={{ top: 5, right: 5, left: 80, bottom: 0 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
+              <XAxis type="number" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatPlanCurrency(v)} />
+              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} width={75} />
+              <Tooltip
+                contentStyle={{ backgroundColor: "#1F2937", border: "1px solid #374151", borderRadius: "8px", fontSize: "12px" }}
+                formatter={(value: number) => [formatPlanCurrency(value), undefined]}
+              />
+              <Legend wrapperStyle={{ fontSize: "11px" }} />
+              <Bar dataKey="売上原価" stackId="cost" fill="#6B7280" radius={[0, 0, 0, 0]} />
+              <Bar dataKey="人件費" stackId="cost" fill="#3B82F6" />
+              <Bar dataKey="広告宣伝費" stackId="cost" fill="#F59E0B" />
+              <Bar dataKey="その他販管費" stackId="cost" fill="#8B5CF6" radius={[0, 4, 4, 0]} />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
+
+// ============================================================
 // メインコンポーネント
 // ============================================================
 
@@ -562,6 +659,13 @@ export default function ProfitStructureInner({
 
       {segmentPlans.length > 0 && (
         <SegmentComparisonChart segmentPlans={segmentPlans} />
+      )}
+
+      {segmentPlans.length > 0 && (
+        <div className="grid gap-4 lg:grid-cols-2">
+          <SegmentMonthlyTrend segmentPlans={segmentPlans} />
+          <SegmentCostStructure segmentPlans={segmentPlans} />
+        </div>
       )}
 
       <RevenueDriverTable drivers={drivers} />
