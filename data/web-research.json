@@ -1,21 +1,591 @@
 [
   {
-    "companyId": "kaien",
+    "companyId": "atama_plus",
     "research": [
       {
         "type": "business_overview",
-        "queryTerms": "\"Kaien\" 事業内容 サービス 特徴 会社概要",
+        "queryTerms": "\"atama plus\" 事業内容 サービス 特徴 会社概要",
         "data": {
           "business_overview": {
-            "founded": "2009年9月",
-            "employees": 445,
-            "headquarters": "東京都新宿区西新宿6-2-3 新宿アイランドアネックス2階",
-            "description": "発達障害や精神障害を持つ人々を対象とした就労移行・就労定着支援、自立訓練、放課後等デイサービスを行う企業",
+            "founded": "2017年4月",
+            "employees": "約170名（推定）",
+            "headquarters": "東京都文京区後楽2-1-2 住友不動産飯田橋ビル5号館 1階",
+            "description": "AI教材「atama＋」を開発・提供し、一人ひとりに最適化された学習を全国の塾・予備校に提供する教育テック企業。",
             "main_services": [
-              "就労移行支援事業（Kaien）",
-              "放課後等デイサービス（ティーンズ）",
-              "人材紹介事業",
-              "大学生向け就職支援事業（ガクプロ）"
+              "AI教材「atama＋」",
+              "進学個別 atama＋塾",
+              "atama＋ オンライン塾",
+              "大学向け高大接続プログラム"
+            ]
+          },
+          "funding": {
+            "total_raised": "累計82億円",
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "atama plus、新プロダクトを学習塾向けに提供開始",
+              "date": null,
+              "summary": "生成AIを活用した新機能の開発・提供を開始",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000117.000037602.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "全国4,500教室以上への導入実績",
+              "AIによる個別最適化学習",
+              "累積解答数7億件のデータ蓄積",
+              "業界Top100塾の3割以上が導入"
+            ],
+            "market_position": "国内教育テック市場のリーダー企業として、塾・予備校向けAI教材で圧倒的シェア",
+            "threat_to_sms": "3段階 - 教育領域に特化しており直接的脅威は低いが、AI技術の応用力と急成長は注視が必要"
+          },
+          "confidence": "high",
+          "data_freshness": "2026-01-29"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:05:28.285666"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"atama plus\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": "2017年4月",
+            "employees": null,
+            "headquarters": "東京都文京区後楽2-1-2 住友不動産飯田橋ビル5号館1階",
+            "description": "AIがつまずきの根本原因を特定し、一人ひとりに合わせた学習塾向けAI教材「atama+」を展開する教育テック企業",
+            "main_services": [
+              "atama+（学習塾向けAI教材）",
+              "atama+オンライン塾"
+            ]
+          },
+          "funding": {
+            "total_raised": "約82億円（累計）",
+            "latest_round": "シリーズB",
+            "investors": [
+              "DCM",
+              "ジャフコグループ",
+              "Pavilion Capital",
+              "T. Rowe Price"
+            ],
+            "valuation_estimate": "約522億円（調達後評価額）"
+          },
+          "recent_news": [
+            {
+              "title": "atama plus、駿河台学園と提携 「atama＋オンライン塾」を本格展開",
+              "date": "2024-04-07",
+              "summary": "駿台と提携してオンライン塾サービスを本格展開",
+              "source_url": null
+            },
+            {
+              "title": "atama plus、シリーズBラウンドで約51億円の資金調達",
+              "date": "2021-07-21",
+              "summary": "シリーズBで約51億円調達、グローバル展開を目指す",
+              "source_url": "https://corp.atama.plus/news/2075/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "AI技術による個別最適化学習",
+              "学習塾との強いパートナーシップ",
+              "海外大手投資家からの資金調達実績"
+            ],
+            "market_position": "国内EdTech領域の有力企業として評価額ランキング20位にランクイン",
+            "threat_to_sms": "3（中程度）- 教育分野での個別最適化技術は異なる領域だが、AI活用によるパーソナライゼーション技術は参考になる可能性"
+          },
+          "confidence": "high",
+          "data_freshness": "2024-04-08"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:05:28.285679"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"atama plus\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "東京都文京区後楽2丁目1",
+            "description": "AI教材「atama＋」を提供し、生成AIを活用した質問対応プロダクトを学習塾向けに展開",
+            "main_services": [
+              "AI教材「atama＋」",
+              "atama＋ オンライン塾",
+              "生成AI質問対応プロダクト"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "atama plus、生成AIを活用した質問対応プロダクトを2026年3月提供開始",
+              "date": "2026-01-27",
+              "summary": "中高生向け11教科対応の生成AI質問対応サービスを学習塾向けに提供",
+              "source_url": "https://corp.atama.plus/news/3171/"
+            },
+            {
+              "title": "「atama＋ オンライン塾」で緊急支援を開始",
+              "date": "2026-02-15",
+              "summary": "メガスタ運営会社破産を受け、中高生向けに特別支援プログラムを提供",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000118.000037602.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "全国4,500教室以上への導入実績",
+              "生成AIと教育ノウハウの融合",
+              "11教科対応の幅広いカバレッジ"
+            ],
+            "market_position": "AI教材分野で確固たる地位を築き、生成AI活用で先行",
+            "threat_to_sms": "3段階 - 教育業界でのAI活用が加速しており、個別最適化学習の普及が進む可能性"
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-02-20"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:05:28.285682"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"atama plus\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": "2017年",
+            "employees": null,
+            "headquarters": null,
+            "description": "AI技術を活用した個別最適化学習システム「atama+」を全国の塾・予備校に提供するEdTechスタートアップ",
+            "main_services": [
+              "atama+（AI教材）",
+              "atama+Web版",
+              "atama+オンライン塾"
+            ]
+          },
+          "funding": {
+            "total_raised": "累計約51億円（2021年時点）",
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "学校法人駿河台学園と資本業務提携、オンライン塾展開開始",
+              "date": "2024-04-XX",
+              "summary": "駿台との提携によりAI個別オンライン塾サービスを開始",
+              "source_url": "https://thebridge.jp/2024/06/atama-plus-has-struggled-launching-new-business-for-2-years"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "独自のAI教育メソッド",
+              "プロダクト・アルゴリズム技術力",
+              "塾向けB2B市場での実績",
+              "教育に特化したカルチャー"
+            ],
+            "market_position": "全国約4,000教室に導入済み（5万教室中）、AI教材分野でのリーディングプレイヤー",
+            "threat_to_sms": "3段階 - 教育分野での技術革新とB2B展開実績があるが、SMS事業との直接競合は限定的"
+          },
+          "confidence": "medium",
+          "data_freshness": "2024-06-XX"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:05:28.285684"
+      }
+    ]
+  },
+  {
+    "companyId": "atgp",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"ゼネラルパートナーズ（atGP）\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2003年",
+            "employees": null,
+            "headquarters": "東京都千代田区内幸町2-1-1 飯野ビルディング9階",
+            "description": "障害者専門の就職・転職支援サービスを運営し、20年以上にわたり障害者雇用支援を専門とするソーシャルベンチャー企業",
+            "main_services": [
+              "atGPエージェント（人材紹介サービス）",
+              "atGPジョブトレ（就労移行支援サービス）",
+              "atGP転職（求人検索・スカウトサービス）"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "一般社団法人ソーシャルアントレプレナーズアソシエーション"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "人材紹介と求人媒体のハイブリッドサービス「atGPエージェント more+」",
+              "date": null,
+              "summary": "人材紹介と求人媒体の両方の強みを兼ね備えた新サービスを提供",
+              "source_url": "https://digitalpr.jp/r/107312"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "障害者転職サービス業界No.1の実績",
+              "15年以上の専門ノウハウ",
+              "障害別専門支援の提供",
+              "全国ネットワークによる幅広いカバー"
+            ],
+            "market_position": "障害者雇用支援サービスのパイオニアとして業界をリード",
+            "threat_to_sms": "1 - 障害者雇用という特化した分野でありSMSの主力である人材派遣・紹介とは市場が異なるため脅威度は低い"
+          },
+          "confidence": "high",
+          "data_freshness": "2024年頃（推定）"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:06:43.244193"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"ゼネラルパートナーズ（atGP）\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": "推定100-500人",
+            "headquarters": "東京都千代田区内幸町2-1-1 飯野ビルディング9階",
+            "description": "障害者雇用支援・福祉事業を展開する企業。atGPブランドで障害者向け転職支援サービスを提供。",
+            "main_services": [
+              "atGP（障害者転職支援サービス）",
+              "障害者雇用セミナー・研修事業"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "SEAソーシャルスタートアップファンド（LP参画として）"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "障害者雇用・福祉の未来を切り拓くスタートアップ支援を本格化",
+              "date": null,
+              "summary": "SEAソーシャルスタートアップファンドにLP参画し、社会実装を加速",
+              "source_url": "https://digitalpr.jp/r/119544"
+            },
+            {
+              "title": "障害者雇用の面接必勝法セミナーを3月4日に開催",
+              "date": "2025-03-04",
+              "summary": "atGPによるオンラインセミナー開催",
+              "source_url": "https://www.okinawatimes.co.jp/articles/-/1777591"
+            },
+            {
+              "title": "atGPサイト開設20周年記念「未来へつなげる面接会」を3月7日に開催",
+              "date": "2025-03-07",
+              "summary": "20周年記念イベントとして面接会を開催",
+              "source_url": null
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "障害者雇用分野での20年の実績",
+              "atGPブランドの認知度",
+              "企業向け研修事業の展開"
+            ],
+            "market_position": "障害者雇用支援分野のリーディングカンパニーとして確立",
+            "threat_to_sms": "1段階：SMSとは異なる社会課題解決領域に特化しており、直接的な競合関係にはない"
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-02-20"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:06:43.244205"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"ゼネラルパートナーズ（atGP）\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": "2003年",
+            "employees": null,
+            "headquarters": "東京都千代田区内幸町 2-1-1 飯野ビルディング 9階",
+            "description": "障害者専門の人材紹介・就労支援事業を中心に、雇用コンサルティング、教育研修、農業生産事業などを展開するソーシャルビジネス企業",
+            "main_services": [
+              "atGP（障害者専門人材紹介）",
+              "就労移行支援事業",
+              "企業向け障害者雇用コンサルティング",
+              "atGPジョブトレIT・Web"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "atGPサイト開設20周年記念「未来へつなげる面接会」を3月7日に開催",
+              "date": "2026-01-30",
+              "summary": "書類では伝わらない「良さ」を見てくれる企業20社以上との面接会を開催",
+              "source_url": "https://digitalpr.jp/c/1439"
+            },
+            {
+              "title": "東京都「共生社会の理念に賛同する企業・団体」に登録",
+              "date": "2025-12-19",
+              "summary": "7年連続障害者雇用率1位の実績と取り組みが評価される",
+              "source_url": "https://www.generalpartners.co.jp/news/"
+            },
+            {
+              "title": "atGPアスタネモデル第1号拠点『アスタネ西浦和』オープニングイベント開催",
+              "date": "2025-12-22",
+              "summary": "2026年1月10日に新拠点のオープニングイベントを開催",
+              "source_url": "https://www.generalpartners.co.jp/news/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "累計登録者数18万人以上",
+              "20年以上の障害者雇用支援実績",
+              "1万人以上の就職・転職サポート実績",
+              "全国対応",
+              "包括的サービス（人材紹介・BPO・定着支援）"
+            ],
+            "market_position": "障害者雇用支援市場における老舗企業として確固たる地位を確立",
+            "threat_to_sms": "SMSとは異なる専門特化領域のため直接的な脅威は低い（1段階）。ただし人材紹介事業における顧客基盤拡大は注視が必要"
+          },
+          "confidence": "high",
+          "data_freshness": "2026-01-30"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:06:43.244207"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"ゼネラルパートナーズ（atGP）\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": "2003年",
+            "employees": null,
+            "headquarters": "東京都千代田区内幸町2-1-1 飯野ビルディング9階",
+            "description": "障害者向けの就職・転職支援サービスや就労移行支援サービスを一貫して提供する障害者雇用のパイオニア企業",
+            "main_services": [
+              "atGP転職支援サービス",
+              "就労移行支援事業所atGPジョブトレ"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "【障害者雇用の面接必勝法】選ばれる理由と採用担当者の本音",
+              "date": "2026-02-18",
+              "summary": "atGP主催のオンラインセミナー開催",
+              "source_url": "https://digitalpr.jp/r/121780"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "障害者転職業界No.1",
+              "20年以上の支援実績とノウハウ",
+              "求人紹介から就労移行支援まで一貫したサービス提供",
+              "就職率97%・定着率91.4%の高い実績"
+            ],
+            "market_position": "障害者雇用支援の市場リーダーとして、業界初の転職サイト開設や合同面接会開催など革新的サービスを提供",
+            "threat_to_sms": "3段階 - 障害者雇用という特定領域に特化しており、一般的なSMSとは市場が異なるため直接的脅威は限定的"
+          },
+          "confidence": "high",
+          "data_freshness": "2025-10-21"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:06:43.244210"
+      }
+    ]
+  },
+  {
+    "companyId": "bright_vacation",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"ブライトヴァケーションズ\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [],
+          "competitive_position": {
+            "strengths": null,
+            "market_position": null,
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:07:30.815884"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"ブライトヴァケーションズ\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": null,
+            "market_position": null,
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:07:30.815917"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"ブライトヴァケーションズ\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "東京都港区南青山2-27-25 ヒューリック南青山ビル5F",
+            "description": "高級リゾート施設の開発・運営を手がける企業。温泉リゾートからラグジュアリーホテルまで幅広く展開。",
+            "main_services": [
+              "高級リゾート運営",
+              "温泉郷開発",
+              "シェア別荘事業"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "伊豆赤沢温泉郷が2026年春に「プレジャーリゾート 伊豆赤沢温泉」へ改称",
+              "date": "2025-12-16",
+              "summary": "伊豆の温泉リゾートのリブランディングを実施",
+              "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
+            },
+            {
+              "title": "「GLAMDAY STYLE HOTEL SUITE 山ノ麓」がシェア別荘として分譲開始",
+              "date": "2025-12-05",
+              "summary": "新たなシェア別荘事業の展開を開始",
+              "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
+            },
+            {
+              "title": "「ふふ 東京 銀座」が開業",
+              "date": "2025-11-16",
+              "summary": "銀座に新しいラグジュアリーホテルをオープン",
+              "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
+            },
+            {
+              "title": "2026年春、シリーズ5棟目となる「GLAMDAY STYLE TEITAKU 海ノ波音」が誕生",
+              "date": "2025-10-10",
+              "summary": "GLAMDAYシリーズの新施設を2026年春に開業予定",
+              "source_url": "http://www.kpg.gr.jp/news/cate-8b1zb/det-2n1zb.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "高級リゾート運営ノウハウ",
+              "多様な宿泊施設ブランド展開",
+              "健康経営への取り組み"
+            ],
+            "market_position": "国内高級リゾート市場において複数ブランドを展開する中規模事業者",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2025-12-16"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:07:30.815925"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"ブライトヴァケーションズ\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [],
+          "competitive_position": {
+            "strengths": [
+              "個別化された体験の提供",
+              "顧客サービス",
+              "広範囲なグローバルネットワーク"
+            ],
+            "market_position": "独自の旅行パッケージと顧客サービスにより強い市場シェアを持つ",
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:07:30.815936"
+      }
+    ]
+  },
+  {
+    "companyId": "cuore",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"クオレ・シー・キューブ\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "1990年4月4日",
+            "employees": null,
+            "headquarters": "東京都千代田区神田錦町3-5-1 興和一橋ビル別館 5階",
+            "description": "ハラスメント防止及びメンタルヘルス問題、女性活躍推進・ダイバーシティに関する総合コンサルティングサービスを提供",
+            "main_services": [
+              "ハラスメント対策研修",
+              "社外相談窓口",
+              "教材制作・販売",
+              "実態調査"
             ]
           },
           "funding": {
@@ -27,18 +597,4011 @@
           "recent_news": null,
           "competitive_position": {
             "strengths": [
-              "業界トップレベルの就職者数と就職後定着率",
-              "障害・特性を強みに変える独自アプローチ",
-              "首都圏に29拠点、関西地方に5拠点の幅広い展開"
+              "パワハラという言葉を世に送り出した先駆者",
+              "25年以上の電話相談窓口実績",
+              "年間約750件の研修実績",
+              "のべ3000社以上のコンサルティング実績",
+              "厚生労働省委員として参画"
             ],
-            "market_position": "発達障害者支援分野のリーディングカンパニー。創業15年目でニューロダイバーシティ社会の実現を目指す",
+            "market_position": "ハラスメント対策分野のリーディングカンパニーとして確立された地位",
             "threat_to_sms": null
           },
           "confidence": "high",
-          "data_freshness": "2025年4月"
+          "data_freshness": "2024年"
         },
         "sourceUrls": [],
-        "searchedAt": "2026-02-22T08:57:11.686652"
+        "searchedAt": "2026-02-22T20:08:36.410518"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"クオレ・シー・キューブ\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "ハラスメント防止研修・eラーニング教材の監修を行う企業。パワハラの概念を最初に提唱・定義した岡田康子氏が代表を務める。",
+            "main_services": [
+              "ハラスメント防止eラーニング教材監修",
+              "職場環境改善コンサルティング"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "eラーニング『Q&Aで学ぶ 働きやすい職場づくり』監修",
+              "date": null,
+              "summary": "パソナセーフティネット社のハラスメント防止eラーニング教材を監修",
+              "source_url": "https://jinjibu.jp/article/detl/service/2247/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "パワハラ概念の第一人者による専門性",
+              "Q&A形式での実践的学習アプローチ"
+            ],
+            "market_position": "ハラスメント防止教育分野の専門企業として確立された地位",
+            "threat_to_sms": "1 - 異業種（教育・コンサルティング）のため直接的な脅威は低い"
+          },
+          "confidence": "low",
+          "data_freshness": "2023年頃（推定）"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:08:36.410537"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"クオレ・シー・キューブ\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "ハラスメント対策・防止研修を専門とする企業。企業向け研修、eラーニング、相談員養成などを提供",
+            "main_services": [
+              "ハラスメント防止研修",
+              "相談員養成講座",
+              "研修動画・eラーニング教材",
+              "社内インストラクター養成"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "東京プライド2025への協賛",
+              "date": "2025-01-XX",
+              "summary": "クオレ・シー・キューブが東京プライド2025に協賛",
+              "source_url": "https://www.cuorec3.co.jp/news/index.html"
+            },
+            {
+              "title": "相談員のためのリトリート研修を開発",
+              "date": "2024-XX-XX",
+              "summary": "ハラスメント対策担当者をサポートする新研修プログラム",
+              "source_url": "https://www.cuorec3.co.jp/index.html"
+            },
+            {
+              "title": "エデュテイメントプラネットとハラスメント防止e-ラーニング監修",
+              "date": "2025-12-29",
+              "summary": "全社員向けハラスメント防止教材を監修・提供",
+              "source_url": "https://ict-enews.net/2025/12/29all-e-support/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "パワハラ概念提唱者の岡田康子氏が会長",
+              "ハラスメント防止教育の第一人者として認知",
+              "豊富な研修実績とメディア露出"
+            ],
+            "market_position": "ハラスメント対策分野のリーディングカンパニー",
+            "threat_to_sms": "1 - 異なる事業領域のため直接的脅威は低い"
+          },
+          "confidence": "medium",
+          "data_freshness": "2025-01-XX"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:08:36.410542"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"クオレ・シー・キューブ\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": "推定50名以下",
+            "headquarters": null,
+            "description": "ハラスメント対策の総合コンサルティング、研修、調査サービスを提供する専門企業",
+            "main_services": [
+              "ハラスメント対策コンサルティング",
+              "ハラスメント防止研修",
+              "ハラスメント実態調査",
+              "女性活躍推進支援"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "くるみん認定取得",
+              "date": null,
+              "summary": "両立支援に関する取り組みが評価され厚生労働省からくるみん認定を取得",
+              "source_url": "https://www.cuorec3.co.jp/news/index.html"
+            },
+            {
+              "title": "ハラスメント判例勉強会開催",
+              "date": null,
+              "summary": "ハラスメント対策担当者を対象とした判例勉強会をオンラインで開催",
+              "source_url": "https://www.cuorec3.co.jp/news/index.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "パワハラ防止法の先駆的取り組み",
+              "ハラスメント分野の専門性",
+              "独自のパワハラ定義の確立",
+              "女性活躍推進との組み合わせサービス"
+            ],
+            "market_position": "ハラスメント対策のニッチ市場でのリーディングカンパニー的存在",
+            "threat_to_sms": "2段階 - 極めて特化された分野での事業展開のため、SMSとの直接競合は限定的"
+          },
+          "confidence": "medium",
+          "data_freshness": "2024年頃"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:08:36.410546"
+      }
+    ]
+  },
+  {
+    "companyId": "decoboco",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"デコボコベース\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2014年7月",
+            "employees": "140人",
+            "headquarters": "東京都港区芝浦4-12-31 VORT芝浦 Water F",
+            "description": "発達障害のある児童から成人までの社会的自立支援を行う福祉×ITのソーシャルベンチャー企業",
+            "main_services": [
+              "児童発達支援・放課後等デイサービス",
+              "就労移行支援・自立訓練",
+              "福祉事業所検索サイト「凸凹ガイド」",
+              "福祉事業所向けシステム「凸凹システム」"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "障害者が働くハンバーガー店「BURGER TERRACE」事業開始",
+              "date": "2025-12-XX",
+              "summary": "新規事業としてハンバーガー飲食事業を追加",
+              "source_url": "https://note.com/decobocobase/n/n7987fff26207"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "フランチャイズモデルによる全国300事業所展開",
+              "児童から成人まで切れ目ない支援体制",
+              "福祉×ITによるDX化推進",
+              "利用者数10,000人超の実績"
+            ],
+            "market_position": "発達障害者支援分野で全国最大規模のフランチャイズ展開を実現",
+            "threat_to_sms": "2段階 - 障害福祉分野に特化しており、SMSの事業領域との直接競合は限定的"
+          },
+          "confidence": "high",
+          "data_freshness": "2025-12-22"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T09:17:56.758880"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"デコボコベース\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": "2014年7月",
+            "employees": 137,
+            "headquarters": "東京都港区芝浦4-12-31 VORT芝浦 WaterFront6階",
+            "description": "発達障害のある子どもと大人の社会参加を支援する障害福祉サービスを提供。インパクト測定・マネジメントを活用した事業展開。",
+            "main_services": [
+              "バーガーテラス（就労継続支援A型）",
+              "凸凹エージェント",
+              "凸凹システム",
+              "凸凹ガイド"
+            ]
+          },
+          "funding": {
+            "total_raised": "1億円以上（推定）",
+            "latest_round": "シリーズA（推定）",
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "B Corp認証を障害福祉業界で初取得",
+              "date": "2025-08-01",
+              "summary": "持続可能で公正な社会実現に向けた国際認証を取得",
+              "source_url": "https://decoboco-base.com/information/information_20250801/"
+            },
+            {
+              "title": "バーガーテラス大宮店がグランドオープン",
+              "date": "2025-12-10",
+              "summary": "福祉×本格バーガーで就労支援サービスを開始",
+              "source_url": "https://www.wantedly.com/companies/decoboco-base"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "障害福祉業界でのDX推進",
+              "B Corp認証取得による社会的信頼性",
+              "インパクト測定・マネジメントの活用"
+            ],
+            "market_position": "障害福祉業界において革新的なサービスを提供するリーディング企業",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2025-12-10"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T09:17:56.758952"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"デコボコベース\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": "2014年7月",
+            "employees": "推定300名以上",
+            "headquarters": "東京都港区芝浦4-12-31 VORT芝浦 Water Front 6F",
+            "description": "発達障害や障害者向けの支援施設を全国展開するソーシャルフランチャイズ事業。教育と福祉でゆたかさを広める理念を掲げる。",
+            "main_services": [
+              "ハッピーテラス（放課後等デイサービス）",
+              "ディーキャリア（就労移行支援）",
+              "凸凹ガイド（施設検索サイト）",
+              "バーガーテラス（就労継続支援A型）"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "バーガーテラス大宮店オープン - 障がい者就労支援×地域共生の世界初チェーンモデル",
+              "date": "2025-12-10",
+              "summary": "就労継続支援A型事業所として一般顧客向け高品質バーガー店を開業",
+              "source_url": "https://fukushijinji.com/disabilitynews/"
+            },
+            {
+              "title": "B Corp認証を障害福祉業界で初取得",
+              "date": "2025-07-29",
+              "summary": "社会貢献企業としての第三者認証を業界初で獲得",
+              "source_url": "https://decoboco-base.com/category/information/"
+            },
+            {
+              "title": "Passion Leaders AWARD 2025準大賞を受賞",
+              "date": "2025-08-20",
+              "summary": "社会起業家表彰制度で準大賞を受賞",
+              "source_url": "https://decoboco-base.com/category/information/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "全国371事業所・カバー率91%の圧倒的規模",
+              "ソーシャルフランチャイズによる迅速な展開力",
+              "B Corp認証など社会的信頼性"
+            ],
+            "market_position": "障害福祉業界のリーディングカンパニー。2026年7月の法定雇用率2.7%引き上げを控え成長期待大。2026年度500事業所・全国100%カバー目標",
+            "threat_to_sms": "3段階 - 直接競合ではないが、障害者雇用支援分野で強力なプラットフォームを構築しており、企業の人事・雇用関連ニーズで間接的に競合する可能性"
+          },
+          "confidence": "high",
+          "data_freshness": "2025-12-10"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T09:17:56.758963"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"デコボコベース\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": null,
+            "market_position": null,
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T09:17:56.758970"
+      }
+    ]
+  },
+  {
+    "companyId": "goodwill",
+    "research": [
+      {
+        "type": "funding",
+        "queryTerms": "\"グッドウィルパートナーズ\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "ベンチャーキャピタルとして複数の企業への投資を実施し、グッドウィルグループなどへの投資実績を持つ",
+            "main_services": [
+              "ベンチャー投資",
+              "事業運営支援"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [],
+          "competitive_position": {
+            "strengths": [
+              "17社の株式上場実績",
+              "200億円超のキャピタルゲイン実績"
+            ],
+            "market_position": "主要企業への投資実績を持つベンチャーキャピタルとしての地位",
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2023-12-01"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:09:41.812159"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"グッドウィルパートナーズ\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "広島県",
+            "description": "飲食料品製造業分野・外食業分野での登録支援機関として外国人労働者の支援事業を展開",
+            "main_services": [
+              "外国人労働者支援",
+              "登録支援機関サービス"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "グッドパートナーズ協同組合が登録支援機関として登録",
+              "date": "2025-08-28",
+              "summary": "農林水産省の登録支援機関として正式登録され、外国人労働者支援事業を開始",
+              "source_url": "https://www.maff.go.jp/j/shokusan/sanki/soumu/attach/pdf/kyougikai-185.pdf"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "政府認可の登録支援機関",
+              "飲食料品・外食業界特化"
+            ],
+            "market_position": "外国人労働者支援分野の新規参入事業者",
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2026-01-31"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:09:41.812172"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"グッドウィルパートナーズ\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "人材派遣・人材サービス業界で事業展開する企業",
+            "main_services": [
+              "人材派遣サービス",
+              "人材紹介サービス"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "TUAD2025アントレプレナー認定の審査員・メンターに参画",
+              "date": null,
+              "summary": "東北芸術工科大学の起業支援プログラムで審査員・メンターを担当",
+              "source_url": "https://www.tuad-icl.jp/post-1001/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "フィールドサポーター（現場管理者）による現場管理能力",
+              "顧客との強固な関係構築",
+              "高品質なサービス提供",
+              "コンプライアンス体制"
+            ],
+            "market_position": "人材派遣業界において現場密着型のサービスで差別化を図る企業",
+            "threat_to_sms": "2段階 - 人材サービス業界での競合だが、事業規模や市場シェアの詳細が不明のため限定的な脅威と推定"
+          },
+          "confidence": "low",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:09:41.812175"
+      }
+    ]
+  },
+  {
+    "companyId": "hug",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"HUG（ネットアーツ）\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2001年3月",
+            "employees": "76名（パート・アルバイト含む）",
+            "headquarters": "愛知県名古屋市中区金山一丁目14番18号 A-PLACE金山 8F",
+            "description": "障がい福祉事業所向けクラウドサービス「HUG」の開発・販売、Webサイト制作、福祉事業所運営を行う",
+            "main_services": [
+              "施設運営システムHUG",
+              "Webサイト制作・システム開発",
+              "放課後等デイサービス・就労支援事業所運営"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "「HUG」が計画相談支援・障害児相談支援に対応",
+              "date": null,
+              "summary": "相談支援事業への対応アップデートを実施、国保連請求やアセスメント作成に対応",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000008.000057730.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "全国9,000施設以上の導入実績",
+              "自社での福祉事業所運営による現場ノウハウの蓄積",
+              "テクノロジーと福祉の融合"
+            ],
+            "market_position": "障がい福祉事業所向け施設運営システムの業界リーダー",
+            "threat_to_sms": "2段階 - ニッチな福祉分野特化のため直接競合しないが、システム開発力は評価すべき"
+          },
+          "confidence": "high",
+          "data_freshness": "2024年推定"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:13:08.528887"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"HUG（ネットアーツ）\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "ジュネーブ、スイス",
+            "description": "ジュネーブ大学病院群。医療サービス、研究、教育を提供する公的医療機関",
+            "main_services": [
+              "医療サービス",
+              "臨床研究",
+              "医学教育",
+              "救急医療"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "HUGが第5世代ダヴィンチ手術ロボット2台を導入",
+              "date": "2026-02-10",
+              "summary": "最新の外科手術ロボット技術を導入し医療の最前線に",
+              "source_url": "https://www.hug.ch/"
+            },
+            {
+              "title": "画像診断技術による治療と診断の向上",
+              "date": "2026-01-30",
+              "summary": "画像技術を活用した医療診断の革新について",
+              "source_url": "https://www.hug.ch/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "大学病院としての研究力",
+              "最新医療技術の導入",
+              "包括的医療サービス"
+            ],
+            "market_position": "スイス・ジュネーブ地域の主要公的医療機関",
+            "threat_to_sms": "1段階 - 公的医療機関であり、民間IT企業とは異なる事業領域"
+          },
+          "confidence": "low",
+          "data_freshness": "2026-02-10"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:13:08.528898"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"HUG（ネットアーツ）\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "愛知県名古屋市",
+            "description": "障がい福祉施設向けのシステム「HUG」を提供し、児童発達支援や放課後等デイサービス等の施設運営を支援する事業を展開",
+            "main_services": [
+              "施設運営システム「HUG」",
+              "障がい福祉施設運営"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "HUGがCareTEX東京'26に出展、就労移行・就労継続支援B型向けHUGを先行公開",
+              "date": "2026-01-20",
+              "summary": "CareTEX東京'26に出展し、4月リリース予定の就労支援向け新機能を先行デモ",
+              "source_url": "https://www.hugmate.net/index/t/HUG/1/"
+            },
+            {
+              "title": "愛知県西尾市に農福連携の新拠点「ココトモワークス西尾」が開設",
+              "date": "2026-01-28",
+              "summary": "就労継続支援B型事業所として農福連携の新拠点を2026年2月に開所",
+              "source_url": "https://www.atpress.ne.jp/news/5779118"
+            },
+            {
+              "title": "全国の放課後等デイサービスを対象とした経営実態調査2025実施",
+              "date": "2025-12-11",
+              "summary": "放課後等デイサービス事業者向けの経営実態調査を実施",
+              "source_url": "https://www.atpress.ne.jp/news/5779118"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "全国9,000施設以上への導入実績",
+              "自社でも福祉施設を運営する当事者視点",
+              "児童発達支援から就労支援まで幅広いサービス対応"
+            ],
+            "market_position": "障がい福祉施設向けシステムの大手プロバイダーとして全国47都道府県に展開",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-02-09"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:13:08.528900"
+      }
+    ]
+  },
+  {
+    "companyId": "kaien",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"Kaien\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2009年9月",
+            "employees": 445,
+            "headquarters": "東京都新宿区西新宿6-2-3 新宿アイランドアネックス2階",
+            "description": "発達障害者に特化した就労支援事業を運営。障害・特性を強みに変える人材マッチングサービスを提供し、企業向け・個人向け両方のサービスを展開。",
+            "main_services": [
+              "就労移行支援事業",
+              "人材紹介事業",
+              "放課後等デイサービス「ティーンズ」",
+              "障害者雇用コンサルティング"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "起業10年で累計13億5,552万円 障害支援事業の社会的価値を測り続ける",
+              "date": "2020-06-26",
+              "summary": "創業以来10年で13億円を超える社会的価値を提供したと発表",
+              "source_url": "https://prtimes.jp/story/detail/ArYpldc14xG"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "発達障害者支援の専門性",
+              "ユニバーサル管理法による企業支援",
+              "首都圏・全国展開（直営20拠点、パートナー20超拠点）",
+              "対等な立場での就労支援アプローチ"
+            ],
+            "market_position": "発達障害者就労支援分野のリーディング企業として首都圏を中心に展開",
+            "threat_to_sms": "1 - 障害者就労支援という特定分野に特化しており、SMSの主力事業領域との直接競合は限定的"
+          },
+          "confidence": "high",
+          "data_freshness": "2025-04-01"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:14:19.303186"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"Kaien\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": "2009年",
+            "employees": "1000人未満",
+            "headquarters": "東京都新宿区西新宿６丁目２番３号新宿アイランドアネックス２０７号室",
+            "description": "障害者向けの就労支援サービス「Kaien」「ガクプロ」などを運営する企業。",
+            "main_services": [
+              "Kaien",
+              "ガクプロ"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": [
+              "障害者就労支援事業での専門性",
+              "17年の事業実績"
+            ],
+            "market_position": "障害者就労支援サービス分野での専門企業",
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2020-11-26"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:14:19.303208"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"Kaien\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "発達障害・精神障害のある方の就労支援、自立訓練、復職支援等を行う障害者支援事業",
+            "main_services": [
+              "就労移行支援・自立訓練",
+              "復職支援（こころのリワークセンター）",
+              "求人サイト「マイナーリーグ」",
+              "学生向け「ガクプロ」",
+              "小中高生向け「ティーンズ」"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "2026年4月に東京神田にリワークセンターがオープン予定",
+              "date": "2026-01-28",
+              "summary": "東京神田での新拠点開設発表",
+              "source_url": "https://www.kaien-lab.com/information/"
+            },
+            {
+              "title": "2026年4月に埼玉川越に自立訓練（生活訓練）の事業所がオープン予定",
+              "date": "2026-01-28",
+              "summary": "埼玉川越での新拠点開設発表",
+              "source_url": "https://www.kaien-lab.com/information/"
+            },
+            {
+              "title": "Kaien公式キャラクター、黒猫の「エンちゃん」が誕生",
+              "date": "2026-01-23",
+              "summary": "創業以来初の公式キャラクター誕生",
+              "source_url": "https://www.kaien-lab.com/information/"
+            },
+            {
+              "title": "2026年6月に名古屋事業所の開所計画",
+              "date": "2025-12-30",
+              "summary": "名古屋への事業拡大を計画中",
+              "source_url": "https://www.facebook.com/KaienJp/videos/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "ニューロダイバーシティ分野での専門性",
+              "多様なサービス展開（就労支援から復職支援まで）",
+              "積極的な事業拡大"
+            ],
+            "market_position": "障害者就労支援分野での専門事業者として全国展開中",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-02-10"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:14:19.303213"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"Kaien\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "ポルシェの高級SUVブランド「カイエン」。走行性能とブランド力を強みとする。",
+            "main_services": [
+              "高級SUV販売",
+              "クーペタイプSUV"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "ポルシェが2030年までに新車販売の8割をEV化へ",
+              "date": null,
+              "summary": "カーボンニュートラル実現とEV化戦略を発表",
+              "source_url": "https://www.beyondmag.jp/posts/421"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "911のエレメントを取り入れた走行性能",
+              "強力なブランド力による差別化",
+              "クーペタイプも展開し走りへのこだわり"
+            ],
+            "market_position": "競合ひしめくSUVマーケットでポルシェブランド力により差別化を実現。SUVより販売台数の多いクーペタイプも展開",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:14:19.303219"
+      }
+    ]
+  },
+  {
+    "companyId": "knowbe",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"knowbe（ノウビー）\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2025年8月",
+            "employees": null,
+            "headquarters": "東京都港区虎ノ門1-23-1（登記住所）、東京都千代田区内幸町2-1-6 日比谷パークフロント 17F（事業者住所）",
+            "description": "障害福祉に特化したクラウド型請求・記録業務支援サービスを提供。請求と記録を一気通貫で管理し、業務効率化を実現。",
+            "main_services": [
+              "knowbe（障害福祉特化クラウドサービス）",
+              "請求・記録業務支援"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "株式会社リクルート"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "障がい福祉事業所に特化した請求・記録クラウドサービス『knowbe』",
+              "date": "2023-06-01",
+              "summary": "障がい福祉事業所向けクラウドサービスの調査レポート発表",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000002528.000011414.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "業務工数90％削減実績",
+              "利用継続率99％",
+              "初期費用・サポート費用無料",
+              "全国47都道府県導入実績",
+              "累計利用者数220,000人突破"
+            ],
+            "market_position": "障害福祉分野に特化したクラウド型業務支援サービスのリーディングカンパニー",
+            "threat_to_sms": "3段階 - 障害福祉という特化領域でのニッチ市場のため、SMSの主力事業への直接的脅威は限定的だが、クラウド型業務支援という点で競合の可能性"
+          },
+          "confidence": "medium",
+          "data_freshness": "2023-06-01"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:15:06.101064"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"knowbe（ノウビー）\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": "2017年",
+            "employees": null,
+            "headquarters": "東京都千代田区",
+            "description": "障害福祉事業所向けの請求・記録業務を効率化するクラウドサービス。業務負荷を約90％削減し、利用継続率99％を実現。",
+            "main_services": [
+              "障害福祉請求・記録システム",
+              "業務支援ソフト"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "株式会社リクルート"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "累計利用者数が14万人を突破",
+              "date": "2022-12-XX",
+              "summary": "前々年比200％増の成長を実現",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000001968.000011414.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "利用継続率99％",
+              "業務負荷約90％削減",
+              "シンプルな操作画面",
+              "クラウド対応"
+            ],
+            "market_position": "障害福祉ソフト市場において高い継続率を誇る主要プレイヤー",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2025-XX-XX"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:15:06.101086"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"knowbe（ノウビー）\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "Tampa Bay, FL（KnowBe4）、日本（knowbe）",
+            "description": "KnowBe4はサイバーセキュリティ教育プラットフォーム、knowbeは障害福祉に特化した運営支援ソフト",
+            "main_services": [
+              "セキュリティ意識向上トレーニング",
+              "フィッシング対策",
+              "インシデント対応",
+              "障害福祉運営支援"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "リクルート（knowbe事業推進部）"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "KnowBe4 Predicts the Agentic AI Revolution Will Reshape Cybersecurity in 2026",
+              "date": "2025-12-02",
+              "summary": "2026年のサイバーセキュリティ予測を発表、AI革命の影響を予想",
+              "source_url": "https://www.knowbe4.com/press/knowbe4-predicts-the-agentic-ai-revolution-will-reshape-cybersecurity-in-2026"
+            },
+            {
+              "title": "KnowBe4 Named Leader in G2 Grid Fall 2025 Report",
+              "date": "2025-XX-XX",
+              "summary": "G2レポートでセキュリティ意識トレーニング部門1位を6年連続維持",
+              "source_url": "https://www.knowbe4.com/press/knowbe4-named-leader-in-g2-grid-fall-2025-report-in-multiple-human-risk-management-categories"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "市場リーダーポジション（20四半期連続1位）",
+              "AI技術への先進的取り組み",
+              "包括的なヒューマンリスク管理",
+              "業務効率化（90%削減実績）"
+            ],
+            "market_position": "セキュリティ意識トレーニング分野の世界的リーダー、障害福祉支援ソフト分野でも展開",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2025-12-02"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:15:06.101092"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"knowbe（ノウビー）\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "日本（株式会社リクルート）",
+            "description": "障害福祉に特化した運営支援ソフト。記録、給付費請求、工賃・給与計算の業務効率化から就労支援まで事業所の運営・経営をサポート",
+            "main_services": [
+              "障害福祉運営支援ソフト",
+              "給付費請求",
+              "工賃・給与計算",
+              "就労支援"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "累計利用者14万人を突破！障害福祉に特化した業務効率化サービス『knowbe』が生まれるまで",
+              "date": "2023-07-16",
+              "summary": "累計利用者数14万人突破を達成",
+              "source_url": "https://fukushijinji.com/disabilitynews8/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "利用継続率99％",
+              "累計利用者14万人",
+              "リクルートの運営による信頼性",
+              "障害福祉に特化した専門性"
+            ],
+            "market_position": "障害福祉業界の主要プレイヤーとして、HUGパス、ポチパス、ほのぼのmoreなどと競合",
+            "threat_to_sms": "3段階 - 障害福祉という特化領域での強みがあり、リクルートの資本力とブランド力を背景とした安定した競合他社"
+          },
+          "confidence": "medium",
+          "data_freshness": "2023-07-16"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:15:06.101096"
+      }
+    ]
+  },
+  {
+    "companyId": "kumon",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"公文教育研究会\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "1958年",
+            "employees": 3626,
+            "headquarters": "大阪府大阪市淀川区西中島5丁目6番6号、東京都港区高輪4丁目10番18号",
+            "description": "算数・数学、英語、国語、フランス語、ドイツ語、日本語、書写、学習療法などの教育サービスを世界60以上の国と地域で展開する教育事業会社",
+            "main_services": [
+              "公文式学習法",
+              "学習療法",
+              "書写教育"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": [
+              "60余年の教育ノウハウ",
+              "世界60以上の国・地域での展開",
+              "355万人の学習者数"
+            ],
+            "market_position": "世界最大規模の学習塾・教育サービス企業の一つ",
+            "threat_to_sms": "1段階 - 教育業界のため直接的な脅威なし"
+          },
+          "confidence": "high",
+          "data_freshness": "2025-03-XX"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:16:04.035561"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"公文教育研究会\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "公文式学習法による教育サービスを提供する企業",
+            "main_services": [
+              "公文式学習指導",
+              "教育研究開発"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "経済同友会の成長戦略関連文書に池上秀徳社長が寄稿",
+              "date": "2016-07-12",
+              "summary": "代表取締役社長として経済同友会の政策提言書に参加",
+              "source_url": "https://www.doyukai.or.jp/policyproposals/2016/pdf/160712a.pdf"
+            }
+          ],
+          "competitive_position": {
+            "strengths": null,
+            "market_position": null,
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2016-07-12"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:16:04.035604"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"公文教育研究会\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "日本",
+            "description": "公文式学習法を用いた教育サービスを提供する企業。算数・数学、英語、国語等の教科を個人別学習で指導",
+            "main_services": [
+              "公文式学習",
+              "Baby Kumon",
+              "企業・学校向け日本語教育"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "会費改定のご案内",
+              "date": "2026-01-29",
+              "summary": "2026年4月から月額会費を330円値上げ",
+              "source_url": "https://www.kumon.ne.jp/oshirase/2026011.html"
+            },
+            {
+              "title": "パキスタンで拡大する「公文式」、活動状況を代表（COO）に聞く",
+              "date": "2026-02-19",
+              "summary": "パキスタンで10教室を運営、2022年から進出",
+              "source_url": "https://www.jetro.go.jp/biznews/2026/02/dca5ee6e55633393.html"
+            },
+            {
+              "title": "公文､個人情報74万人漏洩　委託先へのランサム攻撃受け",
+              "date": null,
+              "summary": "委託先のサイバー攻撃により個人情報流出",
+              "source_url": null
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "海外展開（パキスタン等）",
+              "長年の実績とブランド力",
+              "個人別学習システム"
+            ],
+            "market_position": "日本の教育業界における老舗大手企業",
+            "threat_to_sms": "2 - 従来型の対面・紙ベース学習が中心でSMSとは異なる領域"
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-02-19"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:16:04.035610"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"公文教育研究会\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "公文式教育法による学習塾を全国・海外展開。個人別・能力別の自学自習型指導を特徴とする教育サービス事業",
+            "main_services": [
+              "公文式教室",
+              "学習教材開発",
+              "指導法研究"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": [
+              "教材と指導原理への強み",
+              "理念への共感をベースとした人材採用",
+              "個人別・能力別の学習法",
+              "グローバル展開（欧州・アフリカで14万人の生徒）",
+              "自学自習とスモールステップの教授法"
+            ],
+            "market_position": "学習塾業界売上高トップ（約470億円）、市場シェア約10%。学研教室などと競合するも、独自の指導法で差別化を図る",
+            "threat_to_sms": "3段階 - 教育分野での強固なブランド力と独自の指導法を持つが、直接的なSMS事業への脅威は限定的"
+          },
+          "confidence": "medium",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:16:04.035615"
+      }
+    ]
+  },
+  {
+    "companyId": "layerx",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"LayerX\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2018年8月1日",
+            "employees": null,
+            "headquarters": "東京都中央区築地1-13-1 銀座松竹スクエア 5階",
+            "description": "「すべての経済活動を、デジタル化する。」をミッションに掲げ、SaaS+Fintechを軸にAIを中心としたソフトウェア体験を社会実装するスタートアップ",
+            "main_services": [
+              "バクラク（法人支出管理サービス）",
+              "AI・LLM事業",
+              "Fintech事業"
+            ]
+          },
+          "funding": {
+            "total_raised": "132億6000万円（資本金・準備金含む）",
+            "latest_round": null,
+            "investors": [
+              "三井物産",
+              "SMBC日興証券",
+              "三井住友信託銀行"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "Ai Workforce事業、法務領域に進出。300ページ超の長文・複雑な契約書に対応する「Ai Workforce 契約書ソリューション」を提供開始",
+              "date": null,
+              "summary": "AI Workforceが法務領域に進出し、複雑な契約書処理ソリューションを提供開始",
+              "source_url": "https://layerx.co.jp/"
+            },
+            {
+              "title": "医療法人社団プラタナスが「バクラク」を導入。AIで請求書の受領やデータ管理がラクに",
+              "date": null,
+              "summary": "医療法人がバクラクを導入し、月次決算早期化・経営判断迅速化を実現",
+              "source_url": "https://layerx.co.jp/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "15,000社を超える導入実績",
+              "SaaS+Fintechの組み合わせ",
+              "民間から行政まで幅広い領域でのデジタル化支援",
+              "最先端のAI技術の組み込み"
+            ],
+            "market_position": "法人支出管理サービス分野でトップクラスの導入実績を持ち、AIを活用したUX向上で差別化",
+            "threat_to_sms": "3（中程度の脅威 - 企業の業務効率化領域で競合する可能性があるが、直接的な競合関係ではない）"
+          },
+          "confidence": "high",
+          "data_freshness": "2024年頃（推定）"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:17:10.482294"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"LayerX\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": "2018年",
+            "employees": "1000人（推定、2030年目標）",
+            "headquarters": "東京都中央区",
+            "description": "AIエージェント事業とSaaS型支出管理サービス「バクラク」を展開するFintech企業",
+            "main_services": [
+              "バクラク（支出管理サービス）",
+              "AIエージェント事業"
+            ]
+          },
+          "funding": {
+            "total_raised": "232億円（推定）",
+            "latest_round": "シリーズB",
+            "investors": [
+              "TCV",
+              "三菱UFJ銀行",
+              "三菱UFJイノベーション・パートナーズ",
+              "JICベンチャー・グロース・インベストメンツ",
+              "DIMENSION",
+              "Coreline Ventures"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "LayerX、シリーズBで150億円を調達。エンジニアの採用を強化し、AIエージェント事業をさらに加速",
+              "date": "2025-09-01",
+              "summary": "TCVをリード投資家としてシリーズBで150億円を調達",
+              "source_url": "https://layerx.co.jp/news/20250901-3/"
+            },
+            {
+              "title": "シリーズA累計で約82億円の資金調達を実施",
+              "date": "2023-06-13",
+              "summary": "シリーズAラウンドで累計82億円を調達完了",
+              "source_url": "https://layerx.co.jp/news/20230613/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "SaaS+Fintechの統合アプローチ",
+              "シリアル起業家による経営陣",
+              "LLMやブロックチェーンの高い技術力",
+              "三菱UFJ銀行との戦略的パートナーシップ"
+            ],
+            "market_position": "法人支出管理（BSM）マーケットでSaaS+Fintechの切り口から市場開拓を進める急成長企業",
+            "threat_to_sms": null
+          },
+          "confidence": "high",
+          "data_freshness": "2025-09-10"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:17:10.482316"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"LayerX\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": "2018年8月",
+            "employees": null,
+            "headquarters": "東京都中央区築地1-13-1 銀座松竹スクエア5階",
+            "description": "SaaS経費精算システム「バクラク」とエンタープライズ向けAIプラットフォーム「Ai Workforce」を提供するAI企業",
+            "main_services": [
+              "バクラク",
+              "Ai Workforce",
+              "三井物産デジタル・アセットマネジメント",
+              "オルタナ（ALTERNA）"
+            ]
+          },
+          "funding": {
+            "total_raised": "150億円（シリーズB）",
+            "latest_round": "シリーズB",
+            "investors": [
+              "三菱UFJ銀行"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "三菱UFJ銀行、提案資料作成の工数9割削減へ LayerXのAIプラットフォーム活用",
+              "date": "2026-02-19",
+              "summary": "AIエージェントデータ基盤および提案書自動生成機能を提供開始",
+              "source_url": "https://enterprisezine.jp/news/detail/23777"
+            },
+            {
+              "title": "LayerXが開発するAi Workforce、法務領域に進出",
+              "date": "2026-02-12",
+              "summary": "300ページ超の長文・複雑な契約書に対応する契約書ソリューション提供開始",
+              "source_url": "https://getaiworkforce.com/news/20260213"
+            },
+            {
+              "title": "元UiPath南哲夫氏がLayerXへ",
+              "date": "2026-01-01",
+              "summary": "Ai Workforce事業部のCROに就任、2030年度ARR1000億円目標",
+              "source_url": "https://enterprisezine.jp/article/detail/23615"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "メガバンクとの戦略的パートナーシップ",
+              "AIエージェント技術",
+              "エンタープライズ向け実績",
+              "法務領域への展開"
+            ],
+            "market_position": "SaaS企業からAI企業への転換を図り、エンタープライズAI市場でのポジション確立を目指している",
+            "threat_to_sms": "3段階 - エンタープライズ向けAIソリューションに特化しており、SMSの中小企業向け市場とは直接競合しないが、AI活用による業務効率化という点で参考になる技術力を持つ"
+          },
+          "confidence": "high",
+          "data_freshness": "2026-02-19"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:17:10.482321"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"LayerX\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "SaaS、フィンテック、AI技術を統合したコンパウンドスタートアップ。バクラクを筆頭に複数事業を同時展開。",
+            "main_services": [
+              "バクラク",
+              "オルタナ",
+              "Ai Workforce",
+              "Anonify"
+            ]
+          },
+          "funding": {
+            "total_raised": "133億円以上（推定）",
+            "latest_round": null,
+            "investors": [
+              "国内外のトップティアVC"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "海外ファンドなどから150億円調達",
+              "date": "2025-09-XX",
+              "summary": "9月に多額の資金調達を実施",
+              "source_url": "https://toyokeizai.net/articles/-/910529"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "コンパウンドスタートアップ戦略",
+              "複数プロダクト同時展開",
+              "AI・ブロックチェーン技術力",
+              "強力な経営チーム",
+              "金融サービスとの統合"
+            ],
+            "market_position": "2030年までにARR1,000億円達成を目標とし、国内SaaS企業のトップポジションを狙う",
+            "threat_to_sms": "3段階 - 経費管理・法人カード領域で競合する可能性があるが、現時点では異なる市場セグメント"
+          },
+          "confidence": "medium",
+          "data_freshness": "2025-11-09"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:17:10.482326"
+      }
+    ]
+  },
+  {
+    "companyId": "lifemap",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"ライフマップ\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2007年12月25日",
+            "employees": "42名（2024年11月）",
+            "headquarters": "東京都港区芝大門2-12-9 HF浜松町ビルディング 3階",
+            "description": "高校生の進路選択を支援する進学情報サービス「コレカラ進路.JP」を運営し、教育機関の学生募集広報をサポートする企業。",
+            "main_services": [
+              "コレカラ進路.JP（進学情報サイト）",
+              "LINEマーケティング事業",
+              "教育機関パートナー事業",
+              "プロモーション企画事業"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "株式会社ライフマップが経営体制を刷新。代表取締役社長に佐藤孝昭が就任",
+              "date": "2024年",
+              "summary": "経営体制を刷新し、代表取締役社長に佐藤孝昭が就任",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000059889.html"
+            },
+            {
+              "title": "ライフマップ、学校広報支援の新たな展開を目指し「LINEマーケティング事業」と「教育機関パートナー事業」を開始",
+              "date": "2024年11月",
+              "summary": "新規事業として2つの新事業を開始し、学校広報支援を拡大",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000016.000059889.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "20年以上の高校生進路支援ノウハウ",
+              "年間300万以上のページビューを誇るコレカラ進路.JP",
+              "全国5拠点（東京、大阪、名古屋、福岡、沖縄）の展開",
+              "徹底的な高校生目線のサービス設計"
+            ],
+            "market_position": "高校生向け進路情報サービスの専門企業として、大学・短大・専門学校の学生募集広報支援で地位確立",
+            "threat_to_sms": "1段階（低脅威）- 教育機関の学生募集支援に特化した企業で、SMSの事業領域とは異なる分野"
+          },
+          "confidence": "high",
+          "data_freshness": "2024年11月"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:18:08.172032"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"ライフマップ\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": null,
+            "market_position": null,
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2025-02-12"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:18:08.172054"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"ライフマップ\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": "2004年（前身のアップデイト時）",
+            "employees": null,
+            "headquarters": "東京都港区",
+            "description": "高校生向け進学情報サイト「コレカラ進路.JP」を運営し、専門学校・大学検索やオンライン・オフラインでの進路選択支援を提供",
+            "main_services": [
+              "コレカラ進路.JP",
+              "すけぶ交流会",
+              "出張講座 放課後Manna be"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "株式会社ライフマップが経営体制を刷新。代表取締役社長に佐藤孝昭が就任",
+              "date": "2026-02-02",
+              "summary": "佐藤孝昭が新代表取締役社長に就任、石川太一郎は退任しグループ会社で新会社設立予定",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000059889.html"
+            },
+            {
+              "title": "高校生の約9割が日常では「自分らしくいられている」と回答するも、約5割が進路選択では「安定や周りの期待」を優先",
+              "date": null,
+              "summary": "ライフマップが実施した高校生の進路選択に関する調査結果",
+              "source_url": "https://edtechzine.jp/article/detail/13414"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "20年間の高校生向けサービス運営実績",
+              "徹底的な高校生目線でのサービス開発",
+              "オンライン・オフライン両面での進路支援"
+            ],
+            "market_position": "高校生向け進学情報サービス市場において専門学校・大学横断的なサービスを提供",
+            "threat_to_sms": "1段階 - 教育分野の特化型サービスでありSMSとの直接的な競合関係は低い"
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-02-02"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:18:08.172059"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"ライフマップ\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "高校生向け進路支援サービスを提供。大学・専門学校の募集広報支援、進路情報サイト運営、AIによる進路相談を展開。",
+            "main_services": [
+              "コレカラ進路.JP",
+              "ドリームマップ",
+              "AI進路サポーターβ",
+              "募集広報支援"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "HubSpotとLINE連携でマーケティング強化",
+              "date": null,
+              "summary": "LITTLE HELP CONNECTを導入し、開封率20%から58%に改善、資料請求が月3件に増加",
+              "source_url": "https://www.littlehelp.co.jp/casestudy/lifemap"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "AIチャットボットによる24時間進路相談",
+              "高校生特化の進路支援ノウハウ",
+              "LINE活用による高いエンゲージメント",
+              "教育機関との強いパートナーシップ"
+            ],
+            "market_position": "高校生向け進路支援市場において、AI技術とLINE活用で差別化を図る専門企業",
+            "threat_to_sms": "2段階 - 教育分野に特化しており、SMSの汎用的なコミュニケーション市場とは異なる領域で事業展開"
+          },
+          "confidence": "medium",
+          "data_freshness": "2025-12-17"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:18:08.172063"
+      }
+    ]
+  },
+  {
+    "companyId": "manpower",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"マンパワーグループ\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "1966年11月30日",
+            "employees": 4392,
+            "headquarters": "東京都港区芝浦三丁目1番1号 田町ステーションタワーN 30階",
+            "description": "世界70カ国・地域に展開する人材サービスのグローバルカンパニー。日本初の人材派遣会社として設立され、総合人材サービスを提供。",
+            "main_services": [
+              "人材派遣・人材紹介",
+              "アウトソーシング",
+              "ITソリューション",
+              "人事コンサルティング",
+              "再就職支援"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "ManpowerGroup（米国）100%出資"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [],
+          "competitive_position": {
+            "strengths": [
+              "世界70カ国・地域のグローバルネットワーク",
+              "日本初の人材派遣会社としての50年超の実績",
+              "派遣登録スタッフ数68万人",
+              "全国158拠点のサービスネットワーク"
+            ],
+            "market_position": "日本の人材派遣・人材紹介業界のリーディングカンパニーとして圧倒的な地位を確立",
+            "threat_to_sms": "2段階 - 人材派遣・紹介が主力でSMSとは事業領域が異なるが、ITソリューション事業で一部競合の可能性"
+          },
+          "confidence": "high",
+          "data_freshness": "2025年4月現在"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:19:17.440184"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"マンパワーグループ\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "複数スタッフで複数店舗運営を可能にするシステム『RURA』を提供。受付業務の無人化・効率化サービス",
+            "main_services": [
+              "RURA（無人受付システム）"
+            ]
+          },
+          "funding": {
+            "total_raised": "1.8億円（推定）",
+            "latest_round": "シード",
+            "investors": [
+              "ジャフコ"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "シードラウンドで総額1.8億円の資金調達を実施",
+              "date": "2021-03-XX",
+              "summary": "タイムリープがジャフコ等から1.8億円をシード調達",
+              "source_url": "https://www.jafco.co.jp/andjafco-post/2021-08-12-000154/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "複数スタッフで複数店舗対応可能",
+              "20人で100店舗運営可能",
+              "4分の1の人数で運営実現"
+            ],
+            "market_position": "コワーキングスペース、ホテル、カラオケ等の受付業務効率化で実績",
+            "threat_to_sms": "2 - 受付業務に特化したニッチ領域での展開のため、SMSの主力事業への直接的影響は限定的"
+          },
+          "confidence": "medium",
+          "data_freshness": "2021-08-12"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:19:17.440195"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"マンパワーグループ\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "東京都港区",
+            "description": "世界最大級の総合人材サービス会社。人材派遣・紹介、アウトソーシング、キャリア開発支援等を提供。41カ国・地域で事業展開。",
+            "main_services": [
+              "人材派遣・人材紹介",
+              "業務委託・アウトソーシング",
+              "ITソリューション",
+              "人事コンサルティング",
+              "キャリア開発支援"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "2026年第1四半期雇用予測調査結果を発表 - 雇用意欲が前四半期比+5ポイント",
+              "date": "2025-12-09",
+              "summary": "純雇用予測+18％、前四半期比+5ポイント、前年同期比+4ポイントの結果",
+              "source_url": "https://www.manpowergroup.jp/company/press/2025/20251209.html"
+            },
+            {
+              "title": "労働白書「キャリアの新原則」を発表",
+              "date": "2025-12-26",
+              "summary": "世界8カ国約3,000人対象のキャリア開発における意識ギャップ調査",
+              "source_url": "https://mpg.rightmanagement.jp/news/newsrelease/251226.html"
+            },
+            {
+              "title": "日本の労働者意識：仕事におけるAIとの関わり方が今後の焦点に",
+              "date": "2026-01-20",
+              "summary": "世界19カ国の労働者13,918人を対象としたAI時代の働き方調査結果",
+              "source_url": "https://www.manpowergroup.jp/company/press/2026/20260120.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "60年以上の歴史がある世界的雇用予測調査",
+              "41カ国・地域での事業展開",
+              "英国銀行や米連邦準備銀行が指標として採用",
+              "AI時代の人材開発への先進的取り組み"
+            ],
+            "market_position": "世界最大級の総合人材サービス会社として、労働市場の動向予測と人材サービスの両面でリーダーシップを発揮",
+            "threat_to_sms": "1 - 人材サービス分野での活動が主であり、SMS事業への直接的な脅威は低い"
+          },
+          "confidence": "high",
+          "data_freshness": "2026-01-20"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:19:17.440201"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"マンパワーグループ\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "世界70ヵ国・地域で総合人材サービスを提供。採用、評価、育成、管理に関わる包括的なソリューションを展開",
+            "main_services": [
+              "人材派遣",
+              "人材紹介",
+              "人材育成・組織開発",
+              "採用ブランディング"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "2025年 労働市場動向に関するレポートを発表",
+              "date": null,
+              "summary": "労働市場の動向分析レポートを公表",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000266.000009974.html"
+            },
+            {
+              "title": "働く世界のグリーン化展望に関する労働白書発表",
+              "date": "2023-11-16",
+              "summary": "グリーンエコノミーと労働力に関する調査結果を公表",
+              "source_url": "https://mpg.rightmanagement.jp/news/newsrelease/231116.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "70年近い実績と世界70ヵ国での展開",
+              "専門性の高いデータベースとソリューション",
+              "2025年に16回目となる「世界で最も倫理的な企業」受賞",
+              "ダイバーシティ&インクルージョンの評価"
+            ],
+            "market_position": "大手総合人材サービス企業として、アデコ、リクルートスタッフィング、パソナなどと競合。専門性と広範なサービス展開で差別化を図る",
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2025-10-22"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:19:17.440204"
+      }
+    ]
+  },
+  {
+    "companyId": "minnano_kaigo",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"みんなの介護（クーリエ）\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2011年",
+            "employees": null,
+            "headquarters": "東京都渋谷区恵比寿4-20-3 恵比寿ガーデンプレイスタワー9階",
+            "description": "介護・医療・福祉などの社会保障領域でデジタルプラットフォーム事業を展開。「みんなの介護」を中心とした情報提供サービス。",
+            "main_services": [
+              "みんなの介護（老人ホーム検索サイト）",
+              "みんジョブ（介護人材採用メディア）",
+              "みんなの介護マーケット",
+              "ケアスタディ（試験対策ツール）"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "これからの生活設計を支える新サービス「みんなの介護ライフサポート」を提供開始",
+              "date": null,
+              "summary": "入居支援から住まいの整理・売却までのトータルサポートを提供",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000222.000015597.html"
+            },
+            {
+              "title": "住まいの悩みに応える新サービス「みんなの介護 不動産サポート」",
+              "date": null,
+              "summary": "専門知識が必要な相続や手続き面のサポート体制を充実",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000209.000015597.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "業界No.1Webメディア「みんなの介護」",
+              "施設数No.1老人ホーム検索サイト",
+              "介護業界でのビッグデータ活用",
+              "テクノロジーによる情報の正確性と効率化"
+            ],
+            "market_position": "介護情報プラットフォーム市場でのリーディングポジション",
+            "threat_to_sms": "2段階 - 介護特化のプラットフォームであり、SMSの汎用的なコミュニケーションツールとは異なる領域での競合"
+          },
+          "confidence": "high",
+          "data_freshness": "2024-11"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:20:37.838893"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"みんなの介護（クーリエ）\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "東京都渋谷区恵比寿4-20-3 恵比寿ガーデンプレイスタワー９階",
+            "description": "物件数No.1の老人ホーム検索サイト「みんなの介護」を運営し、介護情報の総合ポータルサイトを展開",
+            "main_services": [
+              "みんなの介護",
+              "みんジョブ",
+              "ケアスタディ",
+              "みんなの介護コミュニティ"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": "シリーズA",
+            "investors": [
+              "個人投資家 坂野 哲平",
+              "ブラッククローキャピタル",
+              "クレディセゾングループ"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "施設MVPは「プレザングラン小金井」が受賞",
+              "date": null,
+              "summary": "クーリエが介護施設の表彰を実施",
+              "source_url": "https://www.courier.jpn.com/ism/newsrelease/award2025/"
+            },
+            {
+              "title": "入居一時金が高い「高級老人ホーム」ランキングTOP20発表",
+              "date": null,
+              "summary": "みんなの介護掲載施設から高級老人ホームランキングを発表",
+              "source_url": null
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "物件数No.1の老人ホーム検索サイト運営",
+              "介護分野の総合プラットフォーム展開",
+              "テクノロジーを活用した情報整理・提供"
+            ],
+            "market_position": "介護情報プラットフォームの主要プレイヤーとして、老人ホーム検索で業界トップの地位を確立",
+            "threat_to_sms": "3段階 - 介護分野に特化したプラットフォームとして独自のポジションを持つが、SMSとは事業領域が異なるため直接的な脅威は限定的"
+          },
+          "confidence": "medium",
+          "data_freshness": "2025年"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:20:37.838904"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"みんなの介護（クーリエ）\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": "2011年",
+            "employees": 300,
+            "headquarters": "東京都渋谷区恵比寿４丁目２０番３号恵比寿ガーデンプレイスタワー９階",
+            "description": "物件数No.1の老人ホーム検索サイト「みんなの介護」を運営し、介護業界向けの各種サービスを提供する企業",
+            "main_services": [
+              "みんなの介護",
+              "みんなの介護求人",
+              "みんなの介護研究所",
+              "みんなの介護マーケット"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "介護事業者向けFAX広告サービス「みんなの介護からのおトクなお知らせFax」提供開始",
+              "date": "2025-10-01",
+              "summary": "介護事業者向けの新しいFAX広告サービスを開始",
+              "source_url": "https://www.courier.jpn.com/release/"
+            },
+            {
+              "title": "ケアマネジャー向け新サービス「みんなの介護 事業所検索」を提供開始",
+              "date": "2025年",
+              "summary": "地図と条件検索で事業所探しを効率化する新サービス",
+              "source_url": "https://www.courier.jpn.com/release/"
+            },
+            {
+              "title": "【統計データで見る】2026年を見据えた介護市場を読み解く",
+              "date": "2025年",
+              "summary": "2040年問題を見据えた持続可能な介護運営の指針を提供",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000227.000015597.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "物件数No.1の老人ホーム検索サイト運営",
+              "日本最大級の介護プラットフォーム",
+              "1st Party Dataを活用した市場分析",
+              "介護業界の総合的なサービス提供"
+            ],
+            "market_position": "介護業界のリーディングプラットフォームとして、検索サービスから求人、研修、市場分析まで幅広くサービス展開",
+            "threat_to_sms": "3段階 - 介護業界に特化したプラットフォームとして強固なポジションを持つが、SMSとは異なる業界フォーカスのため直接的な脅威は限定的"
+          },
+          "confidence": "medium",
+          "data_freshness": "2025-12-24"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:20:37.838906"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"みんなの介護（クーリエ）\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": "2011年",
+            "employees": "50名（推定）",
+            "headquarters": "東京都渋谷区恵比寿4-20-3 恵比寿ガーデンプレイスタワー9階",
+            "description": "介護施設検索ポータル「みんなの介護」を運営し、施設と利用者をマッチングするデジタルプラットフォーム事業を展開",
+            "main_services": [
+              "みんなの介護",
+              "みんなの介護求人",
+              "みんなの介護研究所",
+              "ケアスタディ"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "介護市場をデータで読み解き、持続可能な介護を社会全体で考える『みんなの介護研究所』サービス開始",
+              "date": "2025-12-26",
+              "summary": "業界レポート配信を開始、1st Party Dataを活用したEBPM分析",
+              "source_url": "https://www.courier.jpn.com/ism/newsrelease/lab/"
+            },
+            {
+              "title": "老人ホームの掲載数で8年連続業界No.1を獲得",
+              "date": null,
+              "summary": "全国の施設掲載数で競合他社を上回り市場リーダーの地位を確立",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000198.000015597.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "掲載施設数49,034件で業界No.1",
+              "マーケットシェア率50％以上",
+              "豊富な読み物コンテンツ",
+              "ブランド別比較機能",
+              "1st Party Dataの活用"
+            ],
+            "market_position": "老人ホーム検索ポータル市場でのリーディングプレイヤー、8年連続で掲載数業界No.1を維持",
+            "threat_to_sms": "3段階（中程度）- 介護施設検索に特化した強固なポジションを持つが、SMSとは事業領域が異なるため直接的脅威は限定的"
+          },
+          "confidence": "high",
+          "data_freshness": "2025-12-26"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:20:37.838909"
+      }
+    ]
+  },
+  {
+    "companyId": "miraiz",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"ミライズ\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2017年（推定）",
+            "employees": null,
+            "headquarters": "東京都港区芝浦4丁目12番38号",
+            "description": "AI・ビッグデータ技術を活用した金融サービス、個人資産形成支援、ライフプランシミュレーションを提供するフィンテック企業",
+            "main_services": [
+              "ライフプランシミュレーションツール",
+              "ファイナンシャルコンサルティング",
+              "金融リテラシー判定サービス",
+              "フィンテックコンサルティング"
+            ]
+          },
+          "funding": {
+            "total_raised": "16億7130万円（推定・資本金ベース）",
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [],
+          "competitive_position": {
+            "strengths": [
+              "AI・機械学習技術による金融データ解析",
+              "個人向けライフプランシミュレーション",
+              "フィンテック分野での総合的なコンサルティング能力",
+              "金融リテラシー教育事業"
+            ],
+            "market_position": "個人向け資産形成支援とフィンテックコンサルティングを軸とする成長段階の企業",
+            "threat_to_sms": "2段階 - 主に個人向け金融サービスに特化しており、企業向けコミュニケーション分野での直接的な競合関係は限定的"
+          },
+          "confidence": "medium",
+          "data_freshness": "2025年1月"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:21:39.455378"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"ミライズ\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": "2009年4月",
+            "employees": null,
+            "headquarters": "東京都港区芝浦4-12-38",
+            "description": "英語学習サービス「ミライズ英会話」を運営。AI活用による完全パーソナライズ語学教材自動生成技術を開発。",
+            "main_services": [
+              "ミライズ英会話",
+              "AI語学教材自動生成技術"
+            ]
+          },
+          "funding": {
+            "total_raised": "104百万円（推定）",
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "ミライズ英会話、独自のAI活用「完全パーソナライズ語学教材自動生成技術」で特許取得",
+              "date": "2025-07-04",
+              "summary": "AI技術による語学教材自動生成で特許を取得",
+              "source_url": "https://initial.inc/companies/A-12968"
+            },
+            {
+              "title": "MeRISE株式会社がNB.ACADEMYが主催するアジア地域初の＜アジア甲子園＞のオフィシャルサプライヤーに参画",
+              "date": "2024-08-09",
+              "summary": "アジア甲子園のオフィシャルサプライヤーとして参画",
+              "source_url": "https://initial.inc/companies/A-12968"
+            },
+            {
+              "title": "株式会社UZUZとMeRISE株式会社がコラボして新サービスを提供",
+              "date": "2024-01-13",
+              "summary": "UZUZとの協業により新サービスを提供開始",
+              "source_url": "https://initial.inc/companies/A-12968"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "AI活用による完全パーソナライズ語学教材自動生成技術の特許取得",
+              "英語学習市場での実績"
+            ],
+            "market_position": "AI技術を活用した語学教育サービス分野でのポジション確立",
+            "threat_to_sms": "2段階 - 語学教育分野に特化しており、SMSの主要事業領域との直接的な競合は限定的"
+          },
+          "confidence": "medium",
+          "data_freshness": "2025-07-04"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:21:39.455405"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"ミライズ\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "愛知県名古屋市（推定）",
+            "description": "中部電力グループの電力小売事業会社。電気・ガス供給、脱炭素ソリューション、DXサービスを提供",
+            "main_services": [
+              "電力小売",
+              "都市ガス供給",
+              "脱炭素ソリューション",
+              "PPAサービス",
+              "見守りサービス"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "中部電力（親会社）"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "2026年4月から特別高圧・高圧の標準メニューを見直し、米ヘンリーハブを燃料価格指標に導入",
+              "date": "2025-12-27",
+              "summary": "電源調達構造変化に対応し燃料費調整制度を変更",
+              "source_url": "https://www.denkishimbun.com/sp/398939"
+            },
+            {
+              "title": "省エネ大賞2025年度製品・ビジネスモデル部門で審査委員会特別賞を受賞",
+              "date": "2025-12-01",
+              "summary": "省エネ関連の取り組みが評価される",
+              "source_url": "https://miraiz.chuden.co.jp/info/press/2025.html"
+            },
+            {
+              "title": "グリッドシェアジャパンへの出資により家庭用DRサービス拡大",
+              "date": "2025-12-01",
+              "summary": "デマンドレスポンス事業強化に向けた資本業務提携",
+              "source_url": "https://miraiz.chuden.co.jp/info/press/2025.html"
+            },
+            {
+              "title": "子会社ミライズエネチェンジのEV補助金水増し申請疑惑",
+              "date": "2026-02-18",
+              "summary": "中部電力ミライズが51%出資する合弁会社の不正疑惑",
+              "source_url": "https://kaikeinews.hatenablog.com/entry/2026/02/18/133127"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "中部電力グループの信頼性",
+              "脱炭素ソリューション",
+              "地域密着型サービス",
+              "PPAサービス",
+              "高齢者見守り等の付加価値サービス"
+            ],
+            "market_position": "中部地方の主要電力小売事業者として、脱炭素・DX分野でのサービス拡充を進める",
+            "threat_to_sms": "2段階：電力小売が主力でSMS事業との直接競合は限定的だが、DXソリューション分野での展開に注視が必要"
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-02-18"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:21:39.455410"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"ミライズ\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": [
+              "差別化戦略による価格競争の回避",
+              "独自価値提案による高利益率の実現",
+              "市場シェア確保とブランディング確立"
+            ],
+            "market_position": "競合分析と差別化戦略を活用して競争優位性を構築する企業として位置づけられる",
+            "threat_to_sms": "情報不足のため評価不可"
+          },
+          "confidence": "low",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:21:39.455415"
+      }
+    ]
+  },
+  {
+    "companyId": "nichii",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"ニチイ学館\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "1973年",
+            "employees": 37185,
+            "headquarters": "東京都千代田区神田駿河台4-6 御茶ノ水ソラシティ",
+            "description": "医療関連サービス、介護サービス、保育サービス、教育事業を展開する総合生活支援企業。全国規模で医療機関や介護施設の運営支援を行う。",
+            "main_services": [
+              "医療関連サービス",
+              "介護サービス",
+              "保育サービス",
+              "資格系講座"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "日本生命保険相互会社"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [],
+          "competitive_position": {
+            "strengths": [
+              "全国約6000件の契約医療機関",
+              "約12万人の介護サービス利用者",
+              "全国約350カ所の保育サービス展開",
+              "医療・介護・保育の総合サービス提供"
+            ],
+            "market_position": "医療関連事業と介護事業で業界大手、日本生命グループとして安定基盤を持つ総合生活支援企業",
+            "threat_to_sms": null
+          },
+          "confidence": "high",
+          "data_freshness": "2024-03-31"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:22:42.602096"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"ニチイ学館\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "東京都千代田区",
+            "description": "医療事務教育、介護サービス、ヘルスケア関連事業を展開する総合サービス企業",
+            "main_services": [
+              "医療事務教育",
+              "介護サービス",
+              "ヘルスケア関連サービス"
+            ]
+          },
+          "funding": {
+            "total_raised": "約990億円（MBO資金）",
+            "latest_round": "マネジメント・バイアウト（MBO）",
+            "investors": [
+              "Bain Capital Private Equity",
+              "三菱UFJ銀行",
+              "みずほ銀行",
+              "三井住友銀行",
+              "野村キャピタル・インベストメント"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "ベインキャピタルによるMBO実施・上場廃止",
+              "date": "2020-11-05",
+              "summary": "ベインキャピタルスポンサーのMBOにより上場廃止",
+              "source_url": "https://www.nichiigakkan.co.jp/topics/assets/d0cbbd7781eb0465e04b32936d0186d7c891eb13.pdf"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "医療事務教育での実績",
+              "介護サービス事業の展開",
+              "海外展開（香港、中国等）"
+            ],
+            "market_position": "ヘルスケア・教育分野の老舗企業として確立された地位",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2020-11-05"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:22:42.602120"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"ニチイ学館\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "医療・介護・保育・資格講座など幅広いヘルスケア関連事業を展開する総合サービス企業",
+            "main_services": [
+              "医療事務",
+              "介護サービス",
+              "保育事業",
+              "資格系講座",
+              "在宅医療支援"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "2025年度 ニチイグループQCサークル活動本社事例発表会開催",
+              "date": "2026-02-18",
+              "summary": "延べ参加数8,700超で医療機関・自治体の課題解決事例を全国に波及",
+              "source_url": "https://www.nichiigakkan.co.jp/topics/"
+            },
+            {
+              "title": "介護職の合同就職イベント「介護のお仕事マッチングフェア」熊本・岡山で初開催",
+              "date": "2026-02-05",
+              "summary": "介護業界5社が集結する就職イベントを2026年3月に開催",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000118.000080749.html"
+            },
+            {
+              "title": "令和8年度診療報酬改定リーディングセッション開催",
+              "date": "2025-11-17",
+              "summary": "2026年度診療報酬改定に向けた在宅医療領域のセミナーを開催",
+              "source_url": "https://medi.nichiigakkan.co.jp/news/2025/11_17_85c186834872ee78ce52525534ad2e49b5fb8c27/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "医療・介護分野での豊富な実績",
+              "QCサークル活動による継続的改善",
+              "資格講座から実務まで一貫したサービス提供"
+            ],
+            "market_position": "医療・介護業界の老舗企業として確固たる地位を築いている",
+            "threat_to_sms": "2（医療・介護特化のため直接的競合ではないが、ヘルスケア分野での影響力は大きい）"
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-02-18"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:22:42.602126"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"ニチイ学館\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "在宅介護サービスを中心とした介護事業を展開。訪問介護からデイサービス、有料老人ホームまで幅広いサービスを提供。",
+            "main_services": [
+              "在宅介護サービス",
+              "訪問介護",
+              "デイサービス",
+              "有料老人ホーム"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [],
+          "competitive_position": {
+            "strengths": [
+              "豊富な人材と拠点網",
+              "幅広いサービスラインナップ",
+              "在宅介護サービスに特化",
+              "早期参入による知名度",
+              "大手ならではの信頼性とサービス品質の安定"
+            ],
+            "market_position": "介護事業売上高約1,538億円（推定）で業界第3位、営業利益率約10.3%（推定）。小規模事業者が乱立する分散市場において、SOMPO、ベネッセと競合する大手企業の一角",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2015"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:22:42.602135"
+      }
+    ]
+  },
+  {
+    "companyId": "onelife",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"ワンライフ\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2014年",
+            "employees": null,
+            "headquarters": "愛知県名古屋市",
+            "description": "障がい者支援事業を中心に、放課後等デイサービス、eスポーツ事業、保護動物支援等の福祉サービスを展開",
+            "main_services": [
+              "放課後等デイサービス",
+              "就労継続支援B型事業所",
+              "eスポーツ×障がい福祉",
+              "保護犬・猫×障がい福祉"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [],
+          "competitive_position": {
+            "strengths": [
+              "eスポーツと障がい福祉の組み合わせという新しいビジネスモデル",
+              "公費収益とペット事業の二本柱による安定したストック型収益",
+              "フランチャイズ展開による事業拡大"
+            ],
+            "market_position": "障がい者支援業界で革新的なアプローチを取る成長企業",
+            "threat_to_sms": "1 - SMSとは全く異なる福祉・支援事業領域のため直接的な競合関係はない"
+          },
+          "confidence": "medium",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:23:29.286366"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"ワンライフ\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": null,
+            "market_position": null,
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2024-10-24"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:23:29.286388"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"ワンライフ\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "〒371-0812　群馬県前橋市広瀬町3-18-15",
+            "description": "児童発達支援、就労継続支援B型、相談支援等の福祉サービスを提供する事業者",
+            "main_services": [
+              "児童発達支援",
+              "就労継続支援B型",
+              "就労移行支援",
+              "相談支援"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "就労継続支援B型事業所「ONEGAME我孫子」2026年2月オープン",
+              "date": "2026-02-01",
+              "summary": "我孫子に新たな就労継続支援B型事業所を開設",
+              "source_url": "https://onelife-inc.com/news/"
+            },
+            {
+              "title": "就労継続支援B型事業所「ONEGAME名古屋昭和」2026年1月オープン",
+              "date": "2026-01-05",
+              "summary": "名古屋昭和区に新たな就労継続支援B型事業所を開設",
+              "source_url": "https://onelife-inc.com/news/"
+            },
+            {
+              "title": "女性活躍推進法に基づく公表",
+              "date": "2026-01-08",
+              "summary": "女性活躍推進法に基づく情報を公表",
+              "source_url": "https://onelife-inc.com/news/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "全国展開による事業所ネットワーク",
+              "児童から成人まで幅広い福祉サービス提供"
+            ],
+            "market_position": "福祉サービス業界での事業拡大を積極的に推進",
+            "threat_to_sms": "1段階 - SMSとは異なる福祉サービス業界のため直接的脅威はなし"
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-02-09"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:23:29.286394"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"ワンライフ\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": [
+              "市場シェア25%を超える強固なポジション"
+            ],
+            "market_position": "ZARA、H&Mなどが主要競合として位置する市場で展開",
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:23:29.286398"
+      }
+    ]
+  },
+  {
+    "companyId": "reha_cloud",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"リハプラン（Rehab for JAPAN）\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2016年6月10日",
+            "employees": null,
+            "headquarters": "東京都千代田区麹町6-6-2 番町麹町ビルディング5F",
+            "description": "介護・リハビリ領域のSaaSプラットフォームを提供し、デイサービス向け科学的介護ソフトやオンラインリハビリサービスを展開",
+            "main_services": [
+              "リハブクラウド（科学的介護ソフト）",
+              "オンラインリハビリ事業",
+              "介護データ事業"
+            ]
+          },
+          "funding": {
+            "total_raised": "2億8千万円（推定）",
+            "latest_round": null,
+            "investors": [
+              "Lifetime Ventures",
+              "Capital Medica Ventures",
+              "SMBCベンチャーキャピタル",
+              "JPインベストメント",
+              "CYBERDYNE",
+              "小野薬品工業",
+              "MTG Ventures",
+              "オムロンベンチャーズ",
+              "三菱UFJキャピタル",
+              "KIRIN HEALTH INNOVATION FUND",
+              "マネックスベンチャーズ",
+              "Aflac Ventures"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "介護リハビリプログラムの自動立案に関する技術特許を取得",
+              "date": "2020-11-01",
+              "summary": "デイサービス向けクラウド機能訓練ソフト「リハプラン」の技術特許を取得",
+              "source_url": "https://rehabforjapan.com/news/202012071036/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "介護リハビリプログラム自動立案の特許技術",
+              "リハビリ専門職による徹底したカスタマーサポート",
+              "約2,500種類の運動マニュアル提供",
+              "現場目線のワンストップサービス"
+            ],
+            "market_position": "介護・リハビリ領域でのSaaSプラットフォーマーとして独自のポジションを確立",
+            "threat_to_sms": "2段階 - 介護特化領域のため直接的な競合ではないが、SaaS事業モデルとしての成長性は参考になる"
+          },
+          "confidence": "high",
+          "data_freshness": "2020-12-07"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:24:38.684963"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"リハプラン（Rehab for JAPAN）\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "東京都千代田区",
+            "description": "介護事業所向けにリハビリ支援ソフト「リハプラン」や科学的介護ソフト「Rehab Cloud」を提供する介護リハビリテックスタートアップ",
+            "main_services": [
+              "リハプラン",
+              "Rehab Cloud",
+              "Rehab Studio",
+              "Rehab Cloud レセプ"
+            ]
+          },
+          "funding": {
+            "total_raised": "31.3億円",
+            "latest_round": "シリーズDエクステンション",
+            "investors": [
+              "SMBCベンチャーキャピタル",
+              "JPインベストメント",
+              "東京ウェルネスインパクトファンド",
+              "小野デジタルヘルス投資合同会社"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "シリーズDエクステンションラウンドにて10億円を追加調達",
+              "date": "2024-02-XX",
+              "summary": "シリーズDの累計調達額は総額21.3億円に",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000101.000027102.html"
+            },
+            {
+              "title": "科学的介護の実現に向けて約11.3億円の資金調達を実施",
+              "date": "2023-02-01",
+              "summary": "シリーズDラウンドで11.3億円を調達",
+              "source_url": "https://rehabforjapan.com/news/202302011230/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "累計導入事業所数2,244社超",
+              "科学的介護の実現",
+              "約4年で10倍以上の成長"
+            ],
+            "market_position": "介護リハビリテック分野の主要プレイヤー、自立支援と科学的介護のトレンドを追い風に成長",
+            "threat_to_sms": null
+          },
+          "confidence": "high",
+          "data_freshness": "2024-02-XX"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:24:38.684980"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"リハプラン（Rehab for JAPAN）\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": "2016年6月10日",
+            "employees": "100人未満（2026年2月時点推定）",
+            "headquarters": "東京都千代田区麹町6-6-2 番町麹町ビルディング 5F",
+            "description": "介護施設向け科学的介護ソフト「Rehab Cloud」とオンラインリハビリサービス「Rehab Studio」を提供するヘルスケアテック企業",
+            "main_services": [
+              "Rehab Cloud（科学的介護ソフト）",
+              "Rehab Studio（オンラインリハビリサービス）"
+            ]
+          },
+          "funding": {
+            "total_raised": "11億3000万円（推定・直近ラウンドのみ確認）",
+            "latest_round": "シリーズDエクステンションラウンド",
+            "investors": [
+              "SMBCベンチャーキャピタル",
+              "JPインベストメント",
+              "小野デジタルヘルス投資",
+              "オムロンベンチャーズ",
+              "東京ウェルネスインパクトファンド"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "モニタリング報告書自動作成機能 モニタリング生成AI β版をリリース",
+              "date": "2025-11-05",
+              "summary": "AI活用でモニタリング報告書の自動作成機能を追加、介護職員の業務負担を軽減",
+              "source_url": "https://rehabforjapan.com/news/202511051220/"
+            },
+            {
+              "title": "エーザイ、日清医療食品との連携開始",
+              "date": "2025年推定",
+              "summary": "高齢者の低栄養と認知機能低下リスクの軽減を目指した企業連携を開始",
+              "source_url": null
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "累計導入事業所数3,531事業所（2025年9月時点）",
+              "15万人の高齢者生活データに基づくプラットフォーム構築",
+              "AI技術を活用した科学的介護の実現"
+            ],
+            "market_position": "介護リハビリテック分野でのリーディングカンパニー、データプラットフォーマーとしての地位を確立",
+            "threat_to_sms": "3段階 - 介護・ヘルスケア領域での成長が著しく、データ活用とAI技術で差別化を図っているが、直接的な競合関係は限定的"
+          },
+          "confidence": "high",
+          "data_freshness": "2025-11-05"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:24:38.684983"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"リハプラン（Rehab for JAPAN）\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": "2018年（推定）",
+            "employees": null,
+            "headquarters": "東京都",
+            "description": "デイサービス向けリハビリ支援ソフト「リハプラン（Rehab Cloud）」を開発・提供する科学的介護ソフト事業者",
+            "main_services": [
+              "リハプラン（Rehab Cloud）",
+              "タブレット記録アプリ",
+              "介護請求ソフト",
+              "AI動作分析ソフト"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "小野薬品工業株式会社"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "トライトキャリアとの業務提携開始",
+              "date": "2023-01-01",
+              "summary": "全国ネットワークを通じたリハプランの紹介・販売開始",
+              "source_url": "https://96ut.com/ipo/statement/mokuromi/2023055.pdf"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "使い勝手を徹底的に考えたプロダクトデザイン",
+              "丁寧な顧客伴走サポート",
+              "28万人の高齢者データ蓄積",
+              "科学的介護への特化"
+            ],
+            "market_position": "デイサービス向け科学的介護ソフト分野のリーディングプレイヤー。累計導入事業所数2700事業所を達成（2024年8月時点）",
+            "threat_to_sms": "3段階 - 介護・リハビリ分野での専門性とデータ蓄積により、類似領域への参入リスクがある"
+          },
+          "confidence": "medium",
+          "data_freshness": "2024-08-01"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:24:38.684986"
+      }
+    ]
+  },
+  {
+    "companyId": "sompo_care",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"SOMPOケア\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "1997年",
+            "employees": 25225,
+            "headquarters": "東京都品川区東品川四丁目12番8号",
+            "description": "有料老人ホーム・サービス付き高齢者向け住宅・グループホームの運営、居宅サービス事業を展開する介護総合ブランド",
+            "main_services": [
+              "有料老人ホーム運営",
+              "居宅サービス事業",
+              "グループホーム運営",
+              "サービス付き高齢者向け住宅"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "SOMPOホールディングス（100%子会社）"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": null,
+              "date": null,
+              "summary": null,
+              "source_url": null
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "業界トップクラスの規模",
+              "SOMPOグループの支援",
+              "在宅から施設まで総合的なサービス展開",
+              "DX推進による効率化"
+            ],
+            "market_position": "介護業界のフロントランナーとして業界最大手クラスの地位",
+            "threat_to_sms": null
+          },
+          "confidence": "high",
+          "data_freshness": "2024年3月31日"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:25:31.690746"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"SOMPOケア\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "SOMPOホールディングス傘下の介護・ヘルスケアサービス事業会社",
+            "main_services": [
+              "介護サービス",
+              "ヘルスケアサービス"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "SOMPOホールディングス"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "SOMPOホールディングス第15回定時株主総会招集通知",
+              "date": "2025-05-23",
+              "summary": "株主総会での事業報告と取締役選任に関する通知",
+              "source_url": "https://www.sompo-hd.com/-/media/hd/files/ir/stock/meeting/pdf/sompo-hd20250523_1.pdf?la=ja-JP"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "SOMPOグループの資本力",
+              "保険事業とのシナジー"
+            ],
+            "market_position": "大手保険グループ傘下の介護事業者として安定した事業基盤を持つ",
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2025-05-23"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:25:31.690768"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"SOMPOケア\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "SOMPOホールディングス傘下の介護事業会社。国内トップシェアを誇る介護サービスを提供",
+            "main_services": [
+              "介護サービス",
+              "デイサービス",
+              "訪問介護"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [],
+          "competitive_position": {
+            "strengths": [
+              "国内トップシェアの介護事業",
+              "質・量ともに圧倒的なリアルデータを保有",
+              "AIやIoTを活用したデータドリブン戦略",
+              "異種データ統合による独自のリスク指標導出",
+              "Palantirの強力なデータ統合・解析基盤の活用"
+            ],
+            "market_position": "国内介護サービス業界でトップシェア。データとAI技術を組み合わせた独自の競争優位性を確立",
+            "threat_to_sms": "3段階 - 介護業界特化だがデータ活用とAI技術の応用力は他業界への展開可能性あり"
+          },
+          "confidence": "medium",
+          "data_freshness": "2025年"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:25:31.690773"
+      }
+    ]
+  },
+  {
+    "companyId": "special_learning",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"Special Learning\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2014年",
+            "employees": "32名",
+            "headquarters": null,
+            "description": "障がい福祉支援者向けオンライン研修サービス「Special Learning」を提供し、障がい者への理解促進を目指す",
+            "main_services": [
+              "Special Learning",
+              "Special Learning for business",
+              "Special Shift",
+              "知的障がい支援士認定資格"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "障がい福祉に特化したeラーニング「Special Learning」に研修の提供・受講をサポートする新機能が登場！",
+              "date": null,
+              "summary": "研修計画機能で支援の質を高める人材育成を実現",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000038466.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "障がい福祉に特化したマイクロラーニング形式",
+              "1,300本以上の専門家監修動画コンテンツ",
+              "7,300以上の組織が利用",
+              "3分程度の短時間学習でスキマ時間活用可能"
+            ],
+            "market_position": "障がい福祉業界特化のeラーニング市場でのリーディングポジション",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:26:27.724245"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"Special Learning\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "知的障がい者支援に必要な知識を3分動画で学べるeラーニング「Special Learning」を開発・提供",
+            "main_services": [
+              "Special Learning"
+            ]
+          },
+          "funding": {
+            "total_raised": "約3億円",
+            "latest_round": "シリーズA",
+            "investors": [
+              "おおさか社会課題解決2号投資事業有限責任組合",
+              "京信イノベーションC2号投資事業有限責任組合",
+              "京銀輝く未来応援ファンド2号投資事業有限責任組合",
+              "三菱UFJキャピタル8号投資事業有限責任組合",
+              "松尾義清氏（株式会社農業総合研究所取締役）"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "累計調達額約3億円の資金調達完了",
+              "date": null,
+              "summary": "シリーズAラウンドで8,050万円を調達、累計約3億円に",
+              "source_url": "https://leanonme.co.jp/seriesaextension_finance/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "障がい福祉分野に特化したeラーニング",
+              "マイクロラーニング方式採用",
+              "200個以上の研修動画コンテンツ"
+            ],
+            "market_position": "障がい福祉分野のeラーニング市場でニーズが高まっている",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:26:27.724262"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"Special Learning\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "日本（推定）",
+            "description": "障がい福祉施設向けのオンライン研修サービス。3分程度の短いコンテンツを2,000本以上配信し、専門知識を提供。",
+            "main_services": [
+              "障がい福祉特化オンライン研修",
+              "専門家監修プログラム配信"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "Special Learning利用実績更新",
+              "date": "2025-12-31",
+              "summary": "累計利用者13.3万人、利用事業所7,300事業所、継続率98%達成",
+              "source_url": "https://special-learning.jp/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "障がい福祉特化の専門性",
+              "高い継続率98%",
+              "豊富なコンテンツ数2,000本以上",
+              "著名専門家との共同開発"
+            ],
+            "market_position": "障がい福祉分野でのオンライン研修におけるリーディングポジション（推定）",
+            "threat_to_sms": "2段階 - 特定業界特化のため直接的脅威は限定的だが、オンライン研修市場での成功モデルとして参考になる"
+          },
+          "confidence": "medium",
+          "data_freshness": "2025-12-31"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:26:27.724267"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"Special Learning\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": [
+              "価格競争の回避",
+              "高い利益率",
+              "差別化戦略による競争優位性",
+              "強いブランドポジショニング"
+            ],
+            "market_position": "独自の価値提案により市場シェアを確保し、価格以外の理由で顧客に選ばれるポジション",
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:26:27.724270"
+      }
+    ]
+  },
+  {
+    "companyId": "startline",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"スタートライン\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2009年",
+            "employees": null,
+            "headquarters": "東京都三鷹市上連雀1-12-17三鷹ビジネスパーク1号館3F",
+            "description": "障害者雇用支援のパイオニアとして企業向けコンサルティングや各種支援サービスを提供し、障害者の採用から定着までをサポート",
+            "main_services": [
+              "障害者雇用総合コンサルティングサービス",
+              "サポート付きサテライトオフィスINCLU",
+              "屋内農園型障害者雇用支援サービスIBUKI",
+              "ロースタリー型障害者雇用支援サービスBYSN"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "応対品質向上型障害者雇用支援サービスRESQWO開始",
+              "date": "2025-04-XX",
+              "summary": "WOWOWコミュニケーションズと共同開発したサービスを開始",
+              "source_url": "https://holistic-r.org/c_info/477a/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "障害者雇用支援の先駆者として豊富な実績とノウハウ",
+              "東証グロース市場上場企業としての信頼性",
+              "コンサルティングから具体的な支援サービスまでワンストップ提供",
+              "全国展開によるカバレッジ"
+            ],
+            "market_position": "障害者雇用支援市場のパイオニア企業として、法定雇用率引き上げの追い風を受けて成長中",
+            "threat_to_sms": "1段階 - 障害者雇用支援という特化した領域でSMSとは事業領域が大きく異なるため脅威は低い"
+          },
+          "confidence": "high",
+          "data_freshness": "2025年頃"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:27:21.827750"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"スタートライン\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": null,
+            "market_position": null,
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2025-12-19"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:27:21.827776"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"スタートライン\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "東京都三鷹市",
+            "description": "障害者雇用支援サービスを提供。コーヒー焙煎や屋内農園などの付加価値業務を開発し、企業の障害者雇用を支援する。",
+            "main_services": [
+              "ロースタリー型障害者雇用支援サービス「BYSN」",
+              "屋内農園型障害者雇用支援サービス「IBUKI」",
+              "コンサルティングサービス"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": "IPO",
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "2025年4-12月期決算発表、税引き利益1億1100万円",
+              "date": "2026-02-13",
+              "summary": "第3四半期累計で売上高39.91億円、営業利益2.47億円と堅調に推移",
+              "source_url": "https://www.nikkei.com/article/DGXZRST0561568T10C26A2000000/"
+            },
+            {
+              "title": "東京証券取引所グロース市場に上場",
+              "date": "2025-12-22",
+              "summary": "初値935円で上場、公開価格から94.79%上昇",
+              "source_url": "https://diamond.jp/zai/articles/-/1059471"
+            },
+            {
+              "title": "法定雇用率2.7%時代のイベント開催",
+              "date": "2026-02-12",
+              "summary": "雇用の質をテーマにした対話型イベント「コークリテラス2026 早春」を開催",
+              "source_url": "https://start-line.jp/news/cocr202602/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "科学的根拠に基づく支援力",
+              "付加価値のある業務開発（コーヒー焙煎、屋内農園）",
+              "コンサルティングから実務まで包括的サービス"
+            ],
+            "market_position": "障害者雇用支援分野で独自の付加価値型サービスを展開する上場企業として市場をリード",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-02-13"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:27:21.827781"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"スタートライン\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": null,
+          "funding": null,
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": null,
+            "market_position": "検索結果では「スタートライン」は競争戦略の文脈で、最低限の基準や前提条件として言及されている。競合との差別化においては、単なる品質や実績は選ばれる理由ではなく競争の土俵に立つための基準に過ぎないとされている。",
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:27:21.827786"
+      }
+    ]
+  },
+  {
+    "companyId": "totalmobile",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"トータルモバイル\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2009年",
+            "employees": null,
+            "headquarters": null,
+            "description": "TDモバイルはトヨタグループのデンソーと豊田通商の携帯電話事業を統合した専門商社。モバイル機器販売とソリューション提供を行う。",
+            "main_services": [
+              "モバイル機器販売",
+              "法人向けモバイルソリューション"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [
+              "株式会社デンソー",
+              "豊田通商株式会社"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "ビックカメラグループに参画",
+              "date": "2023-XX-XX",
+              "summary": "TDモバイルがビックカメラグループに参画し、さらなる躍進を続けている",
+              "source_url": "https://job.mynavi.jp/26/pc/search/corp100804/outline.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "高い安定性のあるモバイル事業",
+              "コンシューマと法人の両事業展開",
+              "トヨタグループの信頼性"
+            ],
+            "market_position": "モバイルコミュニケーションと情報通信サービスの専門商社として位置",
+            "threat_to_sms": "2段階 - モバイル機器販売が主体でSMS事業との直接競合は限定的"
+          },
+          "confidence": "medium",
+          "data_freshness": "2023年"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:27:59.381481"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"トータルモバイル\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": null,
+            "market_position": null,
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2025-03-XX"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:27:59.381499"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"トータルモバイル\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": null,
+            "market_position": null,
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2026-02-13"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:27:59.381503"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"トータルモバイル\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": null,
+            "market_position": null,
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2025年"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:27:59.381507"
+      }
+    ]
+  },
+  {
+    "companyId": "valt",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"VALT JAPAN\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "2014年8月1日",
+            "employees": 45,
+            "headquarters": "東京都千代田区丸の内2-2-1 岸本ビル7F",
+            "description": "就労困難者特化型BPOプラットフォーム「NEXT HERO」を運営し、障がい者雇用支援とデジタル就労支援を提供する企業",
+            "main_services": [
+              "NEXT HERO（障がい者特化型BPO事業）",
+              "障がい者雇用支援事業"
+            ]
+          },
+          "funding": {
+            "total_raised": "7.4億円",
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "鎌倉市の就労困難者特化型BPO事業を受託し、新たなデジタル就労支援を開始",
+              "date": null,
+              "summary": "「デジタル就労支援センターKAMAKURA」を鎌倉市内に開設",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000020.000013618.html"
+            },
+            {
+              "title": "「落とし物クラウドfind」と就労困難者特化型BPOプラットフォームのVALT JAPAN、落とし物対応業務で連携",
+              "date": "2025-06-25",
+              "summary": "株式会社findと落とし物対応業務で連携開始",
+              "source_url": "https://www.finds.co.jp/news/detail/202506261000"
+            },
+            {
+              "title": "三菱地所と「デジタルイノベーションセンター丸の内 supported by 三菱地所」を開設",
+              "date": null,
+              "summary": "東京都千代田区新大手町ビルに新センターを開設",
+              "source_url": null
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "全国15,000の就労継続支援事業所との連携",
+              "独自のクオリティコントロールチーム",
+              "多拠点展開（東京・仙台・大阪・福岡）"
+            ],
+            "market_position": "就労困難者特化型BPO市場におけるリーディングプレイヤー",
+            "threat_to_sms": "1（脅威度低） - 障がい者雇用支援という特化分野であり、SMS事業とは異なる領域"
+          },
+          "confidence": "high",
+          "data_freshness": "2025-06-25"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:29:11.180785"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"VALT JAPAN\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": "2014年（推定）",
+            "employees": null,
+            "headquarters": "東京都千代田区",
+            "description": "就労困難者特化型DXプラットフォーム「NEXT HERO」を運営し、障がい者や難病患者等の就労機会を提供する社会課題解決型企業",
+            "main_services": [
+              "NEXT HERO",
+              "就労継続支援事業"
+            ]
+          },
+          "funding": {
+            "total_raised": "約14億円",
+            "latest_round": "プレシリーズB 2ndラウンド",
+            "investors": [
+              "Spiral Innovation Partners",
+              "ゆうちょ Spiral Regional Innovation Fund",
+              "T&D Innovation Fund",
+              "Value Chain Innovation Fund",
+              "三井住友海上キャピタル",
+              "BRICKS FUND TOKYO",
+              "エムスリー",
+              "NOBUNAGAキャピタルビレッジ"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "プレシリーズBで2ndラウンド3億円の資金調達が決定",
+              "date": "2024年4月頃（推定）",
+              "summary": "累積調達額約14億円に到達、就労困難者ゼロ社会実現に向けた事業拡大",
+              "source_url": "https://www.valt-japan.com/news/3448/"
+            },
+            {
+              "title": "プレシリーズBで1stラウンド3.6億円を資金調達",
+              "date": "2024年1月頃（推定）",
+              "summary": "累積調達額約11億円、新規事業投資と採用強化に活用",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000013618.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "就労困難者特化という明確なニッチ市場",
+              "取引社数累計370社、就労継続支援事業所ネットワーク2,000超",
+              "平均工賃200%以上向上の実績",
+              "全国6自治体との連携事業"
+            ],
+            "market_position": "就労困難者支援のDXプラットフォーム領域でのリーディングポジション",
+            "threat_to_sms": "2段階 - ニッチ市場に特化した社会課題解決型事業であり、SMSの主力事業領域とは重複が少ない"
+          },
+          "confidence": "high",
+          "data_freshness": "2024年4月"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:29:11.180796"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"VALT JAPAN\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": "50人未満（推定）",
+            "headquarters": null,
+            "description": "就労困難者特化型DXプラットフォーム「NEXT HERO」を運営し、就労支援事業所と企業をマッチングするBPOプラットフォーム事業",
+            "main_services": [
+              "NEXT HERO（就労困難者特化型DXプラットフォーム）",
+              "就労困難者向けBPOサービス"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "日経BP「ヒューマンキャピタル Online」にて代表小野貴也のインタビュー記事が掲載",
+              "date": "2026-02-19",
+              "summary": "代表のインタビュー記事がメディアに掲載された",
+              "source_url": "https://www.valt-japan.com/news/"
+            },
+            {
+              "title": "代表小野が東京都主催「TCiN DEMO DAY」に登壇",
+              "date": "2026-02-16",
+              "summary": "東京都主催のイベントに代表が登壇した",
+              "source_url": "https://www.valt-japan.com/news/"
+            },
+            {
+              "title": "日経ビジネス特集「AIファースト経営」にてVALT JAPANが取材",
+              "date": "2025-12-26",
+              "summary": "日経ビジネスのAI特集で同社の取り組みが紹介された",
+              "source_url": "https://www.valt-japan.com/news/"
+            },
+            {
+              "title": "パーソルビジネスプロセスデザインとの業務可視化アプリ開発",
+              "date": null,
+              "summary": "愛媛県の就労支援事業所向けアプリ開発で協業",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000150.000124841.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "就労困難者支援という社会課題解決への特化",
+              "全国の就労継続支援事業所との連携ネットワーク",
+              "データを活用した最適な仕事分配システム"
+            ],
+            "market_position": "就労困難者支援のDX化分野でのパイオニア的存在",
+            "threat_to_sms": "2段階：ニッチ市場に特化しており直接的競合ではないが、BPO領域での新たなアプローチとして注目される存在"
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-02-19"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:29:11.180799"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"VALT JAPAN\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "東京都中央区",
+            "description": "障がい者等の就労困難者に特化した仕事受発注プラットフォーム「NEXT HERO」を運営し、企業のサステナビリティ経営と障がい者の就労支援を両立",
+            "main_services": [
+              "NEXT HERO（仕事受発注プラットフォーム）",
+              "NEXT HERO DIC（就労継続支援A型事業所）"
+            ]
+          },
+          "funding": {
+            "total_raised": "7.4億円",
+            "latest_round": null,
+            "investors": [
+              "Headline Asia",
+              "三井住友海上キャピタル",
+              "鎌倉投信",
+              "フューチャーベンチャーキャピタル",
+              "三菱UFJキャピタル",
+              "みずほキャピタル",
+              "SMBCベンチャーキャピタル",
+              "村上誠典氏（シニフィアン共同代表）"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "VALT JAPAN株式会社 第11期決算分析",
+              "date": "2026-01-25",
+              "summary": "SWOT分析による競争優位性と課題の整理が公開",
+              "source_url": "https://ryo-nakamura1.hatenablog.jp/entry/2026/01/25/120000_1"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "15,000箇所の事業所ネットワーク",
+              "業務切り出しのノウハウ",
+              "三菱地所やエムスリー、メガバンク系VCなど強力な株主・パートナー陣",
+              "全国2000以上の就労継続支援所との連携",
+              "蓄積データに基づく最適な業務受発注システム"
+            ],
+            "market_position": "障がい者特化型の仕事受発注プラットフォーム領域でのリーディングプレイヤー。2024年問題による人手不足を商機として、AI開発のアノテーション業務やECバックエンド業務などデジタル業務需要の拡大を背景に成長",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-01-25"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:29:11.180801"
+      }
+    ]
+  },
+  {
+    "companyId": "wiseman",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"ワイズマン\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "1983年",
+            "employees": null,
+            "headquarters": "岩手県盛岡市盛岡駅西通2丁目",
+            "description": "医療・介護・福祉のICTシステム開発・販売を行うIT企業。業界トップクラスの導入実績を持つ。",
+            "main_services": [
+              "医療・介護・福祉向けシステム開発・販売",
+              "地域医療介護連携ソリューション",
+              "人材サービス",
+              "介護情報提供サイト運営"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": [
+              "61,200事業所超の導入実績（業界トップクラス）",
+              "介護保険制度施行以来の豊富なノウハウ",
+              "医療・介護・福祉の全サービスをカバーする包括的ソリューション",
+              "AIやIoT等最新技術の活用",
+              "地域包括ケアシステム対応"
+            ],
+            "market_position": "医療・介護・福祉ICTシステム分野の業界リーダー企業",
+            "threat_to_sms": "3 - 同じヘルスケアIT分野で豊富な実績を持つが、対象市場が異なる（中小病院・介護事業所 vs 大規模病院）"
+          },
+          "confidence": "high",
+          "data_freshness": "2023年6月"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:30:10.042643"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"ワイズマン\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": null,
+            "market_position": null,
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2025年版"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:30:10.042663"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"ワイズマン\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": "岩手県（盛岡名物の記載から推定）",
+            "description": "医療・介護・福祉分野向けの電子カルテシステムや介護ソフトの開発・販売を行う企業",
+            "main_services": [
+              "電子カルテシステムER",
+              "介護・福祉向けソフト",
+              "AIソリューション",
+              "保険代理店事業"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": [],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "音声記録AIが介護現場の記録業務とケアの質、両方の課題を解決",
+              "date": "2025-12-22",
+              "summary": "2026年3月リリース予定の音声記録AIを発表",
+              "source_url": "https://www.wiseman.co.jp/news/welfare/voicerecordingai/"
+            },
+            {
+              "title": "H.C.R.2025 出展のご案内",
+              "date": "2025年",
+              "summary": "介護現場にAI革命をもたらす最新ソリューションを展示",
+              "source_url": "https://www.wiseman.co.jp/news/welfare/news_hcr2025/"
+            },
+            {
+              "title": "電子カルテ情報共有サービス（HL7 FHIR実装）への対応",
+              "date": "2025-03-01",
+              "summary": "電子カルテシステムERが医療DX施策に対応開始",
+              "source_url": "https://www.wiseman.co.jp/news/medical/"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "全国61200以上の介護・福祉施設での導入実績",
+              "AI技術の積極的な導入",
+              "医療・介護・福祉の包括的なソリューション提供"
+            ],
+            "market_position": "介護・福祉業界向けソフトウェア分野で高いシェアを持つ確立された企業",
+            "threat_to_sms": "3 - 介護・福祉分野でのAI活用とクラウドサービスの実績があり、類似分野での競合可能性がある"
+          },
+          "confidence": "medium",
+          "data_freshness": "2025-12-22"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:30:10.042668"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"ワイズマン\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": "1983年",
+            "employees": null,
+            "headquarters": "岩手県盛岡市",
+            "description": "医療・介護・福祉分野に特化したソフトウェアの企画から開発、販売、サポートまでワンストップで展開する企業",
+            "main_services": [
+              "ワイズマンシステムSP",
+              "すぐろくHome",
+              "メルタス"
+            ]
+          },
+          "funding": {
+            "total_raised": "資本金1億円",
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "New Relicを活用したオブザーバビリティプラットフォーム導入",
+              "date": null,
+              "summary": "サービス品質と顧客満足度向上のためのシステム監視強化",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000096.000109343.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "介護施設業界トップクラスのシェア（61,200事業所導入）",
+              "医療・介護・福祉の垂直統合型ソリューション",
+              "全国20拠点のサポート体制",
+              "老健施設の約4割導入実績",
+              "現場密着型の機能開発"
+            ],
+            "market_position": "介護ソフト市場で第2位（シェア22.4%）、NDソフトウェアと競合状態",
+            "threat_to_sms": "脅威度4 - 介護業界でのトップクラスシェアと包括的ソリューションによりSMSカイポケの強力な競合"
+          },
+          "confidence": "high",
+          "data_freshness": "2026年"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:30:10.042673"
+      }
+    ]
+  },
+  {
+    "companyId": "zyras",
+    "research": [
+      {
+        "type": "business_overview",
+        "queryTerms": "\"ザイラス\" 事業内容 サービス 特徴 会社概要",
+        "data": {
+          "business_overview": {
+            "founded": "1989年8月1日",
+            "employees": 33,
+            "headquarters": "東京都千代田区九段北1-14-12 JP九段ビル6F",
+            "description": "保険業界向けソリューションサービス、システム開発事業を展開。ITを活用した業務効率向上とビジネスモデル構築支援を提供。",
+            "main_services": [
+              "LIPSAS Neo（保険代理店向けCRMシステム）",
+              "システムソリューション",
+              "データ分析",
+              "教育プログラム"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "生損保代理店向けLIPSAS Neoのリリース",
+              "date": "2023年頃",
+              "summary": "保険代理店向け営業支援システムの新版をリリース",
+              "source_url": "https://prtimes.jp/main/html/rd/p/000000001.000130554.html"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "保険業界特化の豊富な事例とノウハウ",
+              "世界基準のセキュリティレベル",
+              "生損保乗合など様々な業態に対応"
+            ],
+            "market_position": "保険業界向けソリューションのニッチ分野で専門性を発揮",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2023年11月"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:31:03.616423"
+      },
+      {
+        "type": "funding",
+        "queryTerms": "\"ザイラス\" 資金調達 出資 投資 ラウンド 評価額",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": "201億円",
+            "latest_round": "シリーズF",
+            "investors": [
+              "ウーブン・バイ・トヨタ株式会社",
+              "株式会社三井住友銀行",
+              "SBIグループ",
+              "野村不動産株式会社",
+              "B Dash Ventures株式会社",
+              "宇宙フロンティア2号ファンド",
+              "株式会社SMBC Edge",
+              "株式会社ジャパネットホールディングス"
+            ],
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "シリーズFで総額201億円の資金調達を完了しました",
+              "date": null,
+              "summary": "シリーズFで総額201億円の資金調達を完了",
+              "source_url": "https://www.istellartech.com/news/releases/11034"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "国内のリーディングカンパニーとして確かな技術力と実行力を有する",
+              "グローバル市場においても存在感を発揮できる期待"
+            ],
+            "market_position": "宇宙輸送分野における国内リーディングカンパニー",
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": "2025年"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:31:03.616436"
+      },
+      {
+        "type": "news",
+        "queryTerms": "\"ザイラス\" 最新 ニュース 2025 2026 動向",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": "保険代理店向けシステムや福祉業界向けソリューションを提供するITサービス企業",
+            "main_services": [
+              "LIPSAS Neo（保険代理店システム）",
+              "SangaZ（福祉業界向けソリューション）"
+            ]
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": [
+            {
+              "title": "福祉ソリューション【SangaZ（サンガ）】アップデート",
+              "date": "2026-01-05",
+              "summary": "国保連請求機能が追加され、バージョンアップを実施",
+              "source_url": "https://www.zyrus.jp/"
+            },
+            {
+              "title": "保険代理店向けCRM「LIPSAS Neo」に画期的な損保満期更改自動化機能を実装",
+              "date": null,
+              "summary": "損保満期更改の自動化機能を新たに実装",
+              "source_url": "https://prtimes.jp/topics/keywords/%E4%BF%9D%E9%99%BA%E4%BB%A3%E7%90%86%E5%BA%97"
+            }
+          ],
+          "competitive_position": {
+            "strengths": [
+              "保険業界特化のシステム開発",
+              "福祉業界への多角化"
+            ],
+            "market_position": "保険代理店システム市場における中堅プレイヤー",
+            "threat_to_sms": null
+          },
+          "confidence": "medium",
+          "data_freshness": "2026-01-16"
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:31:03.616439"
+      },
+      {
+        "type": "competitive",
+        "queryTerms": "\"ザイラス\" 競合 市場シェア 強み 差別化",
+        "data": {
+          "business_overview": {
+            "founded": null,
+            "employees": null,
+            "headquarters": null,
+            "description": null,
+            "main_services": null
+          },
+          "funding": {
+            "total_raised": null,
+            "latest_round": null,
+            "investors": null,
+            "valuation_estimate": null
+          },
+          "recent_news": null,
+          "competitive_position": {
+            "strengths": [
+              "ファストファッション",
+              "迅速なサプライチェーン",
+              "低価格と高品質の両立",
+              "デザインから販売までの高速サイクル",
+              "強固なブランドアイデンティティ"
+            ],
+            "market_position": "ファストファッション業界での差別化戦略により競合優位性を確立",
+            "threat_to_sms": null
+          },
+          "confidence": "low",
+          "data_freshness": null
+        },
+        "sourceUrls": [],
+        "searchedAt": "2026-02-22T20:31:03.616441"
       }
     ]
   }

@@ -2,11 +2,18 @@ import { Sidebar, MobileNav } from "@/components/layout/Sidebar";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { CompanyList } from "@/components/company/CompanyList";
-import { getCompanies, getFinancialsMap } from "@/lib/data";
+import { getCompanies, getFinancialsMap, getAllEarningsInsights, getWebResearch } from "@/lib/data";
 
 export default function CompanyIndexPage() {
   const companies = getCompanies();
   const financialsMap = getFinancialsMap();
+  const earningsIds = getAllEarningsInsights().map((e) => e.companyId);
+  const webResearchIds = companies
+    .filter((c) => {
+      const wr = getWebResearch(c.id);
+      return wr && wr.research.length > 0;
+    })
+    .map((c) => c.id);
 
   return (
     <div className="flex h-screen">
@@ -25,7 +32,12 @@ export default function CompanyIndexPage() {
           </div>
         </div>
         <div className="p-4 md:p-6">
-          <CompanyList companies={companies} financialsMap={financialsMap} />
+          <CompanyList
+            companies={companies}
+            financialsMap={financialsMap}
+            earningsInsightIds={earningsIds}
+            webResearchIds={webResearchIds}
+          />
         </div>
       </main>
     </div>

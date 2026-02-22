@@ -23,6 +23,8 @@ function getFaviconUrl(company: Company): string | null {
 interface CompanyListProps {
   companies: Company[];
   financialsMap: Record<string, FiscalYear | null>;
+  earningsInsightIds?: string[];
+  webResearchIds?: string[];
 }
 
 type SortKey =
@@ -69,7 +71,7 @@ const COLUMNS: { key: SortKey; label: string; className: string }[] = [
   { key: "lastUpdated", label: "直近の動向", className: "min-w-[180px]" },
 ];
 
-export function CompanyList({ companies, financialsMap }: CompanyListProps) {
+export function CompanyList({ companies, financialsMap, earningsInsightIds, webResearchIds }: CompanyListProps) {
   const [filter, setFilter] = useState<CompanyCategory | "all">("all");
   const [search, setSearch] = useState("");
   const [sortKey, setSortKey] = useState<SortKey>("category");
@@ -246,6 +248,16 @@ export function CompanyList({ companies, financialsMap }: CompanyListProps) {
                         {company.stockCode && (
                           <span className="ml-1.5 text-[10px] text-muted-foreground">
                             {company.stockCode}
+                          </span>
+                        )}
+                        {earningsInsightIds?.includes(company.id) && (
+                          <span className="ml-1 inline-block rounded px-1 py-0 text-[9px] font-medium bg-blue-500/15 text-blue-400">
+                            IR
+                          </span>
+                        )}
+                        {webResearchIds?.includes(company.id) && (
+                          <span className="ml-0.5 inline-block rounded px-1 py-0 text-[9px] font-medium bg-amber-500/15 text-amber-400">
+                            Web
                           </span>
                         )}
                       </div>

@@ -84,12 +84,19 @@ export default async function CompanyDetailPage({
         {!company.hasFullData ? (
           <div className="p-4 md:p-6 space-y-4">
             <CompanyOverview company={company} />
-            {webResearch && webResearch.research.length > 0 ? (
+            {earningsInsights && (
+              <EarningsInsightsSection
+                data={earningsInsights}
+                companyName={company.name}
+              />
+            )}
+            {webResearch && webResearch.research.length > 0 && (
               <WebResearchSection data={webResearch} />
-            ) : (
+            )}
+            {!earningsInsights && !(webResearch && webResearch.research.length > 0) && (
               <EmptyState
                 title="詳細データ未整備"
-                description={`${company.name}の詳細IR分析データはまだ整備されていません。data/ディレクトリの各JSONファイルにcompanyId: "${company.id}" のデータを追加してください。`}
+                description={`${company.name}の詳細IR分析データはまだ整備されていません。`}
               />
             )}
           </div>

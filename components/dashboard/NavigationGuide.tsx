@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Globe, Building, Building2, ArrowRight } from "lucide-react";
+import { Globe, Building, Building2, BookOpen, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const GUIDE_CARDS = [
@@ -30,6 +30,15 @@ const GUIDE_CARDS = [
     color: "#8B5CF6",
     tags: ["82社", "財務分析", "事業戦略", "決算分析"],
   },
+  {
+    icon: BookOpen,
+    title: "業界知識を深める",
+    description:
+      "障害特性と必要なサポート、業界用語、KPI/PLの読み方など、障害福祉ビジネスの基礎知識を習得する",
+    href: "/learn/disability",
+    color: "#EC4899",
+    tags: ["障害理解", "用語集", "支援方法", "就労配慮"],
+  },
 ];
 
 export function NavigationGuide() {
@@ -43,7 +52,7 @@ export function NavigationGuide() {
           マクロ環境 → 事業所の現場 → 競合企業 の順で、業界の全体像から個別企業まで段階的に理解できます
         </p>
       </div>
-      <div className="grid gap-3 md:grid-cols-3">
+      <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-4">
         {GUIDE_CARDS.map((card, idx) => (
           <Link key={card.href} href={card.href} className="group">
             <Card className="h-full transition-colors hover:border-foreground/20">
