@@ -420,6 +420,50 @@ def update_company_has_full_data(company_id: str, has_full_data: bool = True) ->
 
 
 # ============================================================
+# Web Research（Tavily Search API結果）
+# ============================================================
+
+def upsert_company_web_research(
+    company_id: str,
+    research_type: str,
+    query_terms: str,
+    source_urls: list,
+    data: dict,
+) -> int:
+    """Webリサーチ結果をUPSERT。同一(company_id, research_type)は上書き。返り値はid"""
+    row = {
+        "company_id": company_id,
+        "research_type": research_type,
+        "query_terms": query_terms,
+        "source_urls": json.dumps(source_urls, ensure_ascii=False),
+        "data": json.dumps(data, ensure_ascii=False),
+    }
+    result = _upsert("company_web_research", row, on_conflict="company_id,research_type")
+    return result[0]["id"]
+
+
+def export_web_research_json() -> dict[str, dict]:
+    """company_web_research を企業別JSONエクスポート"""
+    research = _select("company_web_research", params={"order": "company_id,id"})
+
+    results: dict[str, dict] = {}
+    for r in research:
+        cid = r["company_id"]
+        if cid not in results:
+            results[cid] = {"companyId": cid, "research": []}
+
+        results[cid]["research"].append({
+            "type": r["research_type"],
+            "queryTerms": r["query_terms"],
+            "data": _parse_jsonb(r["data"]),
+            "sourceUrls": _parse_jsonb(r["source_urls"]),
+            "searchedAt": r.get("searched_at", ""),
+        })
+
+    return results
+
+
+# ============================================================
 # エクスポート: DB → JSON（/data/*.json）
 # ============================================================
 
@@ -815,6 +859,14 @@ def export_all_json() -> None:
         insights_dir.mkdir(parents=True, exist_ok=True)
         for company_id, data in ei_data.items():
             _write_json(insights_dir / f"{company_id}.json", data)
+
+    # Web research（企業別ファイル）
+    wr_data = export_web_research_json()
+    if wr_data:
+        wr_dir = DATA_DIR / "web-research"
+        wr_dir.mkdir(parents=True, exist_ok=True)
+        for company_id, data in wr_data.items():
+            _write_json(wr_dir / f"{company_id}.json", data)
 
     print("\n=== エクスポート完了 ===")
 

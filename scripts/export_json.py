@@ -24,6 +24,7 @@ from db import (
     export_notes_json,
     export_glossary_json,
     export_earnings_insights_json,
+    export_web_research_json,
     _write_json,
 )
 
@@ -39,6 +40,7 @@ EXPORT_STEPS = {
     "notes": ("notes.json", export_notes_json),
     "glossary": ("glossary.json", export_glossary_json),
     "earnings-insights": (None, export_earnings_insights_json),  # 企業別ファイル
+    "web-research": (None, export_web_research_json),  # 企業別ファイル
 }
 
 
@@ -52,6 +54,18 @@ def _export_earnings_insights(data: dict) -> None:
     for company_id, company_data in data.items():
         _write_json(insights_dir / f"{company_id}.json", company_data)
     print(f"  [OK] earnings-insights/ ({len(data)}社)")
+
+
+def _export_company_files(data: dict, subdir: str) -> None:
+    """企業別JSONファイルを汎用出力"""
+    if not data:
+        print(f"  [OK] {subdir}/ (0社)")
+        return
+    out_dir = DATA_DIR / subdir
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for company_id, company_data in data.items():
+        _write_json(out_dir / f"{company_id}.json", company_data)
+    print(f"  [OK] {subdir}/ ({len(data)}社)")
 
 
 def main():
@@ -75,6 +89,8 @@ def main():
         data = export_fn()
         if args.only == "earnings-insights":
             _export_earnings_insights(data)
+        elif args.only == "web-research":
+            _export_company_files(data, "web-research")
         else:
             _write_json(DATA_DIR / filename, data)
     else:
@@ -82,6 +98,8 @@ def main():
             data = export_fn()
             if step_name == "earnings-insights":
                 _export_earnings_insights(data)
+            elif step_name == "web-research":
+                _export_company_files(data, "web-research")
             else:
                 _write_json(DATA_DIR / filename, data)
 

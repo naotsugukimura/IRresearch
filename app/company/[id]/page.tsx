@@ -14,6 +14,7 @@ import { EarningsInsightsSection } from "@/components/company/EarningsInsightsSe
 import { ProfitStructureSection } from "@/components/company/ProfitStructureSection";
 import { AreaAnalysisSection } from "@/components/company/AreaAnalysisSection";
 import { EmptyState } from "@/components/shared/EmptyState";
+import { WebResearchSection } from "@/components/company/WebResearchSection";
 import {
   getCompanies,
   getCompanyById,
@@ -25,6 +26,7 @@ import {
   getBusinessPlansByCompanyId,
   getEarningsInsightsByCompanyId,
   getAreaAnalysisByCompanyId,
+  getWebResearch,
 } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -65,6 +67,7 @@ export default async function CompanyDetailPage({
   const allBusinessPlans = getBusinessPlansByCompanyId(id);
   const earningsInsights = getEarningsInsightsByCompanyId(id);
   const areaAnalysis = getAreaAnalysisByCompanyId(id);
+  const webResearch = getWebResearch(id);
 
   return (
     <div className="flex h-screen">
@@ -80,10 +83,14 @@ export default async function CompanyDetailPage({
         {!company.hasFullData ? (
           <div className="p-4 md:p-6 space-y-4">
             <CompanyOverview company={company} />
-            <EmptyState
-              title="詳細データ未整備"
-              description={`${company.name}の詳細IR分析データはまだ整備されていません。data/ディレクトリの各JSONファイルにcompanyId: "${company.id}" のデータを追加してください。`}
-            />
+            {webResearch && webResearch.research.length > 0 ? (
+              <WebResearchSection data={webResearch} />
+            ) : (
+              <EmptyState
+                title="詳細データ未整備"
+                description={`${company.name}の詳細IR分析データはまだ整備されていません。data/ディレクトリの各JSONファイルにcompanyId: "${company.id}" のデータを追加してください。`}
+              />
+            )}
           </div>
         ) : (
           <>
@@ -173,13 +180,18 @@ export default async function CompanyDetailPage({
                 </div>
               </section>
 
-              {/* ===== 事業分析（決算インサイト・エリア・競争優位性） ===== */}
+              {/* ===== 事業分析（決算インサイト・Webリサーチ・エリア・競争優位性） ===== */}
               <section id="business">
                 {earningsInsights && (
                   <EarningsInsightsSection
                     data={earningsInsights}
                     companyName={company.name}
                   />
+                )}
+                {webResearch && webResearch.research.length > 0 && (
+                  <div className="mt-4">
+                    <WebResearchSection data={webResearch} />
+                  </div>
                 )}
                 {areaAnalysis && (
                   <div className="mt-4">

@@ -580,3 +580,21 @@ export interface FacilityAnalysisData {
   monthlyPL?: MonthlyPL;
   operationsStory: OperationsStory;
 }
+
+// ============================================================
+// Webリサーチ（Tavily Search API）
+// ============================================================
+
+export interface WebResearchEntry {
+  type: "business_overview" | "funding" | "news" | "competitive";
+  queryTerms: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  data: Record<string, any>;
+  sourceUrls: string[];
+  searchedAt: string;
+}
+
+export interface WebResearchData {
+  companyId: string;
+  research: WebResearchEntry[];
+}

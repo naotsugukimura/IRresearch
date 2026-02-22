@@ -10,6 +10,7 @@ import glossaryData from "@/data/glossary.json";
 import earningsInsightsData from "@/data/earnings-insights.json";
 import areaAnalysisData from "@/data/litalico-area-analysis.json";
 import marketOverviewData from "@/data/market-overview.json";
+import webResearchData from "@/data/web-research.json";
 import jidouHattatsuData from "@/data/facility-analysis/jidou-hattatsu.json";
 import iryougataJidouData from "@/data/facility-analysis/iryougata-jidou.json";
 import houkagoDayData from "@/data/facility-analysis/houkago-day.json";
@@ -45,6 +46,7 @@ import type {
   CompanyAreaAnalysis,
   MarketOverviewData,
   FacilityAnalysisData,
+  WebResearchData,
 } from "./types";
 
 // ============================================================
@@ -253,4 +255,13 @@ export function getFacilityAnalysis(serviceCode: string): FacilityAnalysisData |
 
 export function getHoukagoDayAnalysis(): FacilityAnalysisData {
   return houkagoDayData as unknown as FacilityAnalysisData;
+}
+
+// ============================================================
+// Webリサーチ（Tavily Search API）
+// ============================================================
+
+export function getWebResearch(companyId: string): WebResearchData | undefined {
+  const all = webResearchData as unknown as WebResearchData[];
+  return all.find((d) => d.companyId === companyId);
 }

@@ -1,0 +1,43 @@
+{
+  "companyId": "kaien",
+  "research": [
+    {
+      "type": "business_overview",
+      "queryTerms": "\"Kaien\" 事業内容 サービス 特徴 会社概要",
+      "data": {
+        "business_overview": {
+          "founded": "2009年9月",
+          "employees": 445,
+          "headquarters": "東京都新宿区西新宿6-2-3 新宿アイランドアネックス2階",
+          "description": "発達障害や精神障害を持つ人々を対象とした就労移行・就労定着支援、自立訓練、放課後等デイサービスを行う企業",
+          "main_services": [
+            "就労移行支援事業（Kaien）",
+            "放課後等デイサービス（ティーンズ）",
+            "人材紹介事業",
+            "大学生向け就職支援事業（ガクプロ）"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": null,
+        "competitive_position": {
+          "strengths": [
+            "業界トップレベルの就職者数と就職後定着率",
+            "障害・特性を強みに変える独自アプローチ",
+            "首都圏に29拠点、関西地方に5拠点の幅広い展開"
+          ],
+          "market_position": "発達障害者支援分野のリーディングカンパニー。創業15年目でニューロダイバーシティ社会の実現を目指す",
+          "threat_to_sms": null
+        },
+        "confidence": "high",
+        "data_freshness": "2025年4月"
+      },
+      "sourceUrls": [],
+      "searchedAt": "2026-02-22T08:57:11.686652"
+    }
+  ]
+}

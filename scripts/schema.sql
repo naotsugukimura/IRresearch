@@ -221,6 +221,19 @@ CREATE TABLE IF NOT EXISTS earnings_insights (
   created_at TIMESTAMPTZ DEFAULT now()
 );
 
+-- ★ Tavily Search APIによるWebリサーチ結果
+CREATE TABLE IF NOT EXISTS company_web_research (
+  id SERIAL PRIMARY KEY,
+  company_id TEXT NOT NULL REFERENCES companies(id) ON DELETE CASCADE,
+  research_type TEXT NOT NULL,
+  query_terms TEXT NOT NULL,
+  source_urls JSONB NOT NULL DEFAULT '[]',
+  data JSONB NOT NULL DEFAULT '{}',
+  searched_at TIMESTAMPTZ DEFAULT now(),
+  created_at TIMESTAMPTZ DEFAULT now(),
+  UNIQUE(company_id, research_type)
+);
+
 -- ============================================================
 -- updated_at 自動更新トリガー
 -- ============================================================
