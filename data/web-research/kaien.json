@@ -11,10 +11,10 @@
           "headquarters": "東京都新宿区西新宿6-2-3 新宿アイランドアネックス2階",
           "description": "発達障害や精神障害を持つ人々を対象とした就労移行・就労定着支援、自立訓練、放課後等デイサービスを行う企業",
           "main_services": [
-            "就労移行支援事業（Kaien）",
-            "放課後等デイサービス（ティーンズ）",
+            "就労支援事業",
             "人材紹介事業",
-            "大学生向け就職支援事業（ガクプロ）"
+            "教育事業",
+            "啓発事業"
           ]
         },
         "funding": {
@@ -26,18 +26,194 @@
         "recent_news": null,
         "competitive_position": {
           "strengths": [
-            "業界トップレベルの就職者数と就職後定着率",
             "障害・特性を強みに変える独自アプローチ",
-            "首都圏に29拠点、関西地方に5拠点の幅広い展開"
+            "ユニバーサルな管理法の提案",
+            "最大3年半の定着支援"
           ],
-          "market_position": "発達障害者支援分野のリーディングカンパニー。創業15年目でニューロダイバーシティ社会の実現を目指す",
+          "market_position": "発達障害者向け就労支援の専門企業として特化したポジション",
           "threat_to_sms": null
         },
         "confidence": "high",
-        "data_freshness": "2025年4月"
+        "data_freshness": "2025年4月現在"
       },
-      "sourceUrls": [],
-      "searchedAt": "2026-02-22T08:57:11.686652"
+      "sourceUrls": [
+        "https://ja.wikipedia.org/wiki/Kaien",
+        "https://corp.kaien-lab.com/company/profile",
+        "https://corp.kaien-lab.com/company/philosophy-business",
+        "https://xbusiness.jp/post/284",
+        "https://xn--pckua2a7gp15o89zb.com/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-%E6%B4%BE%E9%81%A3%E4%BC%9A%E7%A4%BE%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF%E9%A7%85",
+        "https://xn--pckua2a7gp15o89zb.com/%E4%BA%8B%E6%A5%AD%E4%BC%9A%E7%A4%BE-%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%81%AE%E4%BB%95%E4%BA%8B-%E3%81%A4%E3%81%8F%E3%81%B0%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%82%B9",
+        "https://xn--pckua2a7gp15o89zb.com/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%96%E3%83%AA%E3%83%83%E3%82%B8%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF%E9%A7%85",
+        "https://xn--pckua2a7gp15o89zb.com/%E5%B0%B1%E5%8A%B4%E6%94%AF%E6%8F%B4%E5%93%A1-%E8%81%B7%E6%A5%AD%E6%8C%87%E5%B0%8E%E5%93%A1%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%A8%AA%E6%B5%9C%E5%B8%82%E9%B6%B4%E8%A6%8B%E5%8C%BA"
+      ],
+      "searchedAt": "2026-02-22T17:52:12.073707"
+    },
+    {
+      "type": "funding",
+      "queryTerms": "\"Kaien\" 資金調達 出資 投資 ラウンド 評価額",
+      "data": {
+        "business_overview": {
+          "founded": "2009年",
+          "employees": "1,000人未満（推定）",
+          "headquarters": "東京都新宿区西新宿６丁目２番３号新宿アイランドアネックス２０７号室",
+          "description": "障害者向けの就労支援サービス「Kaien」「ガクプロ」などを運営する企業。発達障害者の就職支援に特化。",
+          "main_services": [
+            "Kaien",
+            "ガクプロ"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [],
+        "competitive_position": {
+          "strengths": [
+            "障害者就労支援の専門性",
+            "17年の事業実績"
+          ],
+          "market_position": "障害者向け就労支援サービスのニッチ市場でのプレイヤー",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": "2020-11-26"
+      },
+      "sourceUrls": [
+        "https://startup-db.com/companies/PmW5plqUwjoZrdaq",
+        "https://lp.startup-db.com/media/articles/valuation-ranking-202110",
+        "https://en.wikipedia.org/wiki/Facebook",
+        "https://apps.apple.com/us/app/facebook/id284882215",
+        "https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en-US",
+        "https://www.jetro.go.jp/ext_images/jfile/report/05000416/05000416_001_BUP_0.pdf",
+        "https://play.google.com/store/apps/details?id=com.facebook.lite&hl=en-US",
+        "https://www.jfc.go.jp/n/findings/pdf/gttupou_index.xlsx"
+      ],
+      "searchedAt": "2026-02-22T17:52:12.073707"
+    },
+    {
+      "type": "news",
+      "queryTerms": "\"Kaien\" 最新 ニュース 2025 2026 動向",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "発達障害の方に特化した就労支援事業を展開。精神・発達障害者向けの就職活動支援や企業向け障害者雇用コンサルティングを提供。",
+          "main_services": [
+            "就労支援事業",
+            "ガクプロ（大学生・院生向け就職活動支援）",
+            "企業向け障害者雇用コンサルティング"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "【2026年4月】東京神田にリワークセンターがオープン予定",
+            "date": "2026-01-28",
+            "summary": "東京神田に新たなリワークセンターを開設予定",
+            "source_url": "https://www.kaien-lab.com/information/"
+          },
+          {
+            "title": "【2026年4月】埼玉川越に自立訓練（生活訓練）の事業所がオープン予定",
+            "date": "2026-01-28",
+            "summary": "埼玉川越に自立訓練事業所を新設予定",
+            "source_url": "https://www.kaien-lab.com/information/"
+          },
+          {
+            "title": "Kaien公式キャラクター、黒猫の「エンちゃん」が誕生",
+            "date": "2026-01-23",
+            "summary": "公式キャラクター「エンちゃん」を新たに導入",
+            "source_url": "https://www.kaien-lab.com/information/"
+          },
+          {
+            "title": "「電通報」にて当社代表・鈴木の対談が公開",
+            "date": "2026-01-29",
+            "summary": "『AIが拡張する、ニューロダイバーシティの可能性』をテーマとした対談",
+            "source_url": "https://www.kaien-lab.com/information/"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "発達障害・精神障害支援の16年の専門知識",
+            "企業向け障害者雇用コンサルティング",
+            "独自の見極めノウハウ"
+          ],
+          "market_position": "発達障害者就労支援分野の専門企業として、個人向け支援と企業向けコンサルティングの両面でサービス展開",
+          "threat_to_sms": null
+        },
+        "confidence": "medium",
+        "data_freshness": "2026-02-13"
+      },
+      "sourceUrls": [
+        "https://www.kaien-lab.com/information/",
+        "https://startup-db.com/companies/PmW5plqUwjoZrdaq",
+        "https://www.jiji.com/jc/article?k=000000019.000060005&g=prt",
+        "https://prtimes.jp/main/html/rd/p/000000014.000060005.html",
+        "https://biz.kaien-lab.com/know-how/employment_rate/",
+        "https://response.jp/article/2025/10/31/402847.html",
+        "https://www.instagram.com/p/DOGEkNWEg5b/",
+        "https://corp.kaien-lab.com/media"
+      ],
+      "searchedAt": "2026-02-22T17:52:12.073707"
+    },
+    {
+      "type": "competitive",
+      "queryTerms": "\"Kaien\" 競合 市場シェア 強み 差別化",
+      "data": {
+        "business_overview": {
+          "founded": null,
+          "employees": null,
+          "headquarters": null,
+          "description": "ポルシェのSUVモデル「カイエン」。高性能とラグジュアリーを兼ね備えた高級SUVとして展開",
+          "main_services": [
+            "高級SUV製造・販売"
+          ]
+        },
+        "funding": {
+          "total_raised": null,
+          "latest_round": null,
+          "investors": null,
+          "valuation_estimate": null
+        },
+        "recent_news": [
+          {
+            "title": "ポルシェが描くスポーツカーの未来",
+            "date": null,
+            "summary": "EV化戦略とマーケティングについてポルシェジャパンが言及",
+            "source_url": "https://www.beyondmag.jp/posts/421"
+          }
+        ],
+        "competitive_position": {
+          "strengths": [
+            "高性能技術",
+            "強力なブランドイメージ",
+            "先進技術搭載",
+            "911と並ぶポルシェの屋台骨"
+          ],
+          "market_position": "高級SUV市場での競争優位性を持つ。中型SUV輸入車では最も人気の車種で、他ブランドがベンチマークとする存在",
+          "threat_to_sms": null
+        },
+        "confidence": "low",
+        "data_freshness": null
+      },
+      "sourceUrls": [
+        "https://www.fortunebusinessinsights.com/jp/%E3%83%81%E3%83%AA%E3%83%95%E3%83%AC%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88-112111",
+        "https://www.beyondmag.jp/posts/421",
+        "https://merc.e.u-tokyo.ac.jp/mmrc/dp/pdf/MMRC476_2015.pdf",
+        "https://lanchester.or.jp/seasonal-seminar/archives/",
+        "https://business.nikkei.com/atcl/seminar/19/00105/00196/",
+        "https://blog.evsmart.net/electric-vehicles/automaker-supplier-relationship-with-catl/",
+        "https://cms.goodpatch.com/blog/2026-02-suzuki",
+        "https://icobench.com/jp/wp-json/wp/v2/posts/28389"
+      ],
+      "searchedAt": "2026-02-22T17:52:12.073707"
     }
   ]
 }
