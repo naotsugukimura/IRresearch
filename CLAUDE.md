@@ -377,14 +377,38 @@ TAVILY_API_KEY=tvly-...
 - `make_stakeholders()` 共通ヘルパーで基本7関係者生成 + `custom_overrides` でサービス固有カスタマイズ
 - 全19サービス × 111ページのビルド成功確認済み
 
-### ★ 次にやること（Phase 12以降）
-- 全25社Tavilyリサーチ再実行（DNSエラー解消後）: `--all-private --no-db`
-- Supabase SQL Editorで `company_web_research` テーブル作成（DB永続化）
-- リタリコ深掘り: プラットフォーム事業構造、セグメント収益時系列、一店舗あたり事業計画
-- WAMNETスクリプト汎用化（他社対応）
+## ★ Phase 12 完了（2026-02-22）: ナビゲーション再構築
+
+### Phase 12a: サイドバー階層化
+- `NAV_ITEMS` をフラット8項目 → 折りたたみ5グループに再構成
+- `NavItem` 型に `children?: {href, label}[]` 追加
+- `Sidebar.tsx` に `NavGroup` コンポーネント（ChevronRight展開/折り畳み、左ボーダーインデント）
+- 不要になったアイコン（GitCompareArrows, TrendingUp, StickyNote）を削除
+
+### Phase 12b: ホームページリデザイン
+- `app/page.tsx` タイトル変更（ダッシュボード→ホーム）
+- `NavigationGuide.tsx` 新規: マクロ→ミクロ3ステップ導線カード（STEP1: マクロ / STEP2: 事業所 / STEP3: 企業）
+
+### Phase 12c: 情報鮮度バッジ
+- `DataFreshnessBadge.tsx` 新規: lastUpdated/source/sourceUrl/confidence を統一表示する共通コンポーネント
+
+### ★ 次にやること（Phase 13以降）
+- **Phase 13: 事業所分析深堀り**（放課後デイで先行）
+  - 13a 利用者フロー図（UserJourneyFlow.tsx）
+  - 13b 開業フロー図（StartupFlow.tsx）
+  - 13c ステークホルダー図式化（SVG関係図）
+  - 13d 加算取得フロー深堀り（BonusFlowChart.tsx）
+  - 13e 全19サービス横展開
+- **Phase 14: 企業分析強化**（リタリコで先行）
+  - 14a BS/PL/CF時系列（EDINET追加取得 + FinancialCharts拡張）
+  - 14b セグメント管理会計ビュー
+  - 14c 収支シミュレーション（PLSimulator.tsx）
+- **Phase 15: マーケット補強**
+  - 15a 3プレイヤー文脈アノテーション
+- 全25社Tavilyリサーチ再実行
+- Supabase SQL Editorで `company_web_research` テーブル作成
 - キャッシュフロー/安全性データ整備 → EmptyState埋め
-- IRサイトJS動的ロード対策（Playwright検討）
-- e-Stat API自動取得の将来検討
+- 詳細な設計計画: `.claude/plans/cuddly-sprouting-dream.md` 参照
 
 ## recharts動的読み込みパターン
 recharts使用コンポーネントは全てSSR無効化済み:

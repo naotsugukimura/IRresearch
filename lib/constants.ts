@@ -12,15 +12,50 @@ import type {
 // ナビゲーション
 // ============================================================
 
-export const NAV_ITEMS = [
-  { href: "/", label: "ダッシュボード", icon: "LayoutDashboard" as const },
-  { href: "/market", label: "総合ダッシュボード", icon: "Globe" as const },
-  { href: "/facility", label: "事業所分析", icon: "Building" as const },
-  { href: "/company", label: "企業分析", icon: "Building2" as const },
-  { href: "/compare", label: "企業比較", icon: "GitCompareArrows" as const },
-  { href: "/trends", label: "業界トレンド", icon: "TrendingUp" as const },
-  { href: "/notes", label: "分析ノート", icon: "StickyNote" as const },
-  { href: "/learn", label: "学習サポート", icon: "GraduationCap" as const },
+export type NavItem = {
+  href: string;
+  label: string;
+  icon: string;
+  children?: { href: string; label: string }[];
+};
+
+export const NAV_ITEMS: NavItem[] = [
+  { href: "/", label: "ホーム", icon: "LayoutDashboard" },
+  {
+    href: "/market",
+    label: "マクロ環境",
+    icon: "Globe",
+    children: [
+      { href: "/market", label: "市場ダッシュボード" },
+      { href: "/trends", label: "業界トレンド" },
+    ],
+  },
+  {
+    href: "/facility",
+    label: "事業所分析",
+    icon: "Building",
+    children: [
+      { href: "/facility", label: "サービス種別一覧" },
+    ],
+  },
+  {
+    href: "/company",
+    label: "企業分析",
+    icon: "Building2",
+    children: [
+      { href: "/company", label: "企業一覧" },
+      { href: "/compare", label: "企業比較" },
+    ],
+  },
+  {
+    href: "/learn",
+    label: "ナレッジ",
+    icon: "GraduationCap",
+    children: [
+      { href: "/learn", label: "用語集" },
+      { href: "/notes", label: "分析ノート" },
+    ],
+  },
 ];
 
 // ============================================================

@@ -7,15 +7,13 @@ import {
   Globe,
   Building,
   Building2,
-  GitCompareArrows,
-  TrendingUp,
-  StickyNote,
   GraduationCap,
   Menu,
+  ChevronRight,
 } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
-import { NAV_ITEMS } from "@/lib/constants";
+import { NAV_ITEMS, type NavItem } from "@/lib/constants";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -26,11 +24,98 @@ const ICON_MAP = {
   Globe,
   Building,
   Building2,
-  GitCompareArrows,
-  TrendingUp,
-  StickyNote,
   GraduationCap,
 } as const;
+
+function NavGroup({
+  item,
+  pathname,
+  onNavigate,
+}: {
+  item: NavItem;
+  pathname: string;
+  onNavigate?: () => void;
+}) {
+  const isGroupActive = item.children
+    ? item.children.some((c) =>
+        c.href === "/" ? pathname === "/" : pathname.startsWith(c.href)
+      ) ||
+      (item.href !== "/" && pathname.startsWith(item.href))
+    : pathname === item.href;
+  const [open, setOpen] = useState(isGroupActive);
+  const Icon = ICON_MAP[item.icon as keyof typeof ICON_MAP];
+
+  // No children — simple link
+  if (!item.children) {
+    return (
+      <Link
+        href={item.href}
+        onClick={onNavigate}
+        className={cn(
+          "flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
+          pathname === item.href
+            ? "bg-accent text-accent-foreground"
+            : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
+        )}
+      >
+        {Icon && <Icon className="h-4 w-4 shrink-0" />}
+        {item.label}
+      </Link>
+    );
+  }
+
+  // With children — collapsible group
+  return (
+    <div>
+      <button
+        onClick={() => setOpen(!open)}
+        className={cn(
+          "flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
+          isGroupActive
+            ? "text-accent-foreground"
+            : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
+        )}
+      >
+        {Icon && <Icon className="h-4 w-4 shrink-0" />}
+        <span className="flex-1 text-left">{item.label}</span>
+        <ChevronRight
+          className={cn(
+            "h-3.5 w-3.5 shrink-0 transition-transform duration-200",
+            open && "rotate-90"
+          )}
+        />
+      </button>
+      {open && (
+        <div className="ml-4 flex flex-col gap-0.5 border-l border-border pl-3 pt-0.5">
+          {item.children.map((child) => {
+            const isExactMatch =
+              child.href === "/market" ||
+              child.href === "/facility" ||
+              child.href === "/company";
+            const isChildActive = isExactMatch
+              ? pathname === child.href
+              : pathname.startsWith(child.href);
+            return (
+              <Link
+                key={child.href}
+                href={child.href}
+                onClick={onNavigate}
+                className={cn(
+                  "rounded-md px-2 py-1.5 text-xs font-medium transition-colors",
+                  isChildActive
+                    ? "bg-accent text-accent-foreground"
+                    : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
+                )}
+              >
+                {child.label}
+              </Link>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
 
 function NavContent({ onNavigate }: { onNavigate?: () => void }) {
   const pathname = usePathname();
@@ -48,30 +133,15 @@ function NavContent({ onNavigate }: { onNavigate?: () => void }) {
       </div>
       <Separator />
       <ScrollArea className="flex-1 px-2 py-3">
-        <nav className="flex flex-col gap-1">
-          {NAV_ITEMS.map((item) => {
-            const Icon = ICON_MAP[item.icon as keyof typeof ICON_MAP];
-            const isActive =
-              item.href === "/"
-                ? pathname === "/"
-                : pathname.startsWith(item.href);
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={onNavigate}
-                className={cn(
-                  "flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
-                  isActive
-                    ? "bg-accent text-accent-foreground"
-                    : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
-                )}
-              >
-                <Icon className="h-4 w-4 shrink-0" />
-                {item.label}
-              </Link>
-            );
-          })}
+        <nav className="flex flex-col gap-0.5">
+          {NAV_ITEMS.map((item) => (
+            <NavGroup
+              key={item.href}
+              item={item}
+              pathname={pathname}
+              onNavigate={onNavigate}
+            />
+          ))}
         </nav>
       </ScrollArea>
       <Separator />
