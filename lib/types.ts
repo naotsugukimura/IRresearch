@@ -574,6 +574,21 @@ export interface BonusCatalogItem {
   };
 }
 
+export interface BonusFlowNode {
+  id: string;
+  label: string;
+  description: string;
+  units?: string;
+  difficulty: DifficultyLevel;
+  prerequisites?: string[];
+}
+
+export interface BonusAcquisitionFlow {
+  title: string;
+  description: string;
+  nodes: BonusFlowNode[];
+}
+
 export interface DailyScheduleItem {
   time: string;
   activity: string;
@@ -697,6 +712,7 @@ export interface FacilityAnalysisData {
   rewardRevisions?: RewardRevision[];
   facilityPL: FacilityPL;
   bonusCatalog: BonusCatalogItem[];
+  bonusAcquisitionFlow?: BonusAcquisitionFlow;
   monthlyPL?: MonthlyPL;
   operationsStory: OperationsStory;
   userJourney?: UserJourney;

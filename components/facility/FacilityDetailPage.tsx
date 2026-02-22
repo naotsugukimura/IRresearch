@@ -14,6 +14,7 @@ import { BonusTable } from "@/components/facility/BonusTable";
 import { MonthlyPLTable } from "@/components/facility/MonthlyPLTable";
 import { UserJourneyFlow } from "@/components/facility/UserJourneyFlow";
 import { StartupFlow } from "@/components/facility/StartupFlow";
+import { BonusFlowChart } from "@/components/facility/BonusFlowChart";
 import type { FacilityAnalysisData } from "@/lib/types";
 
 interface Props {
@@ -108,6 +109,13 @@ export function FacilityDetailPage({ data, title }: Props) {
           {data.monthlyPL && (
             <section id="monthlyPL">
               <MonthlyPLTable data={data.monthlyPL} />
+            </section>
+          )}
+
+          {/* Bonus Acquisition Flow */}
+          {data.bonusAcquisitionFlow && (
+            <section id="bonusFlow">
+              <BonusFlowChart flow={data.bonusAcquisitionFlow} />
             </section>
           )}
 
