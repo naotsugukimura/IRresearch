@@ -410,6 +410,48 @@ export interface RecruitmentMethod {
   description: string;
 }
 
+export interface WelfareHistoryEvent {
+  year: number;
+  title: string;
+  category: "law" | "system" | "milestone" | "international";
+  description: string;
+  impact?: string;
+}
+
+export interface CareComparisonItem {
+  dimension: string;
+  disability: string;
+  care: string;
+  insight: string;
+}
+
+export interface InternationalCase {
+  country: string;
+  countryEn: string;
+  flag: string;
+  system: string;
+  keyFeatures: string[];
+  strengths: string[];
+  weaknesses: string[];
+  lessonForJapan: string;
+}
+
+export interface EmploymentRateHistory {
+  year: number;
+  legalRate: number;
+  actualRate: number;
+  event?: string;
+}
+
+export interface RecentPolicyChange {
+  year: number;
+  month?: number;
+  title: string;
+  category: "employment" | "reward" | "system";
+  description: string;
+  impact: string;
+}
+
 export interface MarketOverviewData {
   lastUpdated: string;
   sources: string[];
@@ -418,6 +460,11 @@ export interface MarketOverviewData {
   facilityCountsByType: ServiceFacilityCount[];
   news: MarketNews[];
   recruitmentMethods: RecruitmentMethod[];
+  welfareHistory?: WelfareHistoryEvent[];
+  careComparison?: CareComparisonItem[];
+  internationalCases?: InternationalCase[];
+  employmentRateHistory?: EmploymentRateHistory[];
+  recentPolicyChanges?: RecentPolicyChange[];
 }
 
 // ============================================================
@@ -452,6 +499,17 @@ export interface OperatorScale {
 export interface YearCount {
   year: number;
   count: number;
+  byEntity?: Record<string, number>;
+}
+
+export interface RewardRevision {
+  year: number;
+  title: string;
+  type: "creation" | "revision";
+  description: string;
+  impact: string;
+  baseReward: string;
+  keyChanges: string[];
 }
 
 export interface FacilityRevenueItem {
@@ -496,6 +554,11 @@ export interface FacilityPL {
 export type DifficultyLevel = "low" | "medium" | "high";
 export type RevenueImpactLevel = "low" | "medium" | "high";
 
+export interface BonusRequirementStep {
+  step: string;
+  detail: string;
+}
+
 export interface BonusCatalogItem {
   name: string;
   category: string;
@@ -503,6 +566,12 @@ export interface BonusCatalogItem {
   requirement: string;
   difficulty: DifficultyLevel;
   revenueImpact: RevenueImpactLevel;
+  requirementGuide?: {
+    overview: string;
+    steps: BonusRequirementStep[];
+    tips: string[];
+    commonMistakes?: string[];
+  };
 }
 
 export interface DailyScheduleItem {
@@ -575,6 +644,7 @@ export interface FacilityAnalysisData {
   operatorScale: OperatorScale;
   facilityTimeSeries: YearCount[];
   userTimeSeries: YearCount[];
+  rewardRevisions?: RewardRevision[];
   facilityPL: FacilityPL;
   bonusCatalog: BonusCatalogItem[];
   monthlyPL?: MonthlyPL;

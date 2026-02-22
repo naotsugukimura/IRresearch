@@ -53,6 +53,7 @@ export function FacilityDetailPage({ data, title }: Props) {
             <FacilityGrowthChart
               facilityData={data.facilityTimeSeries}
               userData={data.userTimeSeries}
+              rewardRevisions={data.rewardRevisions}
             />
           </section>
 

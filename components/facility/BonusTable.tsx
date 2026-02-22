@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Award } from "lucide-react";
+import { Award, ChevronDown, ChevronUp, CheckCircle, AlertTriangle, Lightbulb } from "lucide-react";
 import type { BonusCatalogItem } from "@/lib/types";
 
 interface Props {
@@ -24,6 +24,7 @@ const CATEGORIES = ["すべて", "人員配置", "処遇改善", "サービス",
 
 export function BonusTable({ bonuses }: Props) {
   const [categoryFilter, setCategoryFilter] = useState<string>("すべて");
+  const [expandedBonus, setExpandedBonus] = useState<string | null>(null);
 
   const filtered =
     categoryFilter === "すべて"
@@ -35,9 +36,9 @@ export function BonusTable({ bonuses }: Props) {
       <div className="mb-4 flex items-center gap-2">
         <Award className="h-4 w-4 text-muted-foreground" />
         <div>
-          <h3 className="text-sm font-bold">主要加算一覧</h3>
+          <h3 className="text-sm font-bold">主要加算一覧と取得要件ガイド</h3>
           <p className="text-xs text-muted-foreground">
-            放課後等デイサービスの報酬加算と売上への寄与度
+            報酬加算の取得要件・手順・よくあるミスまで
           </p>
         </div>
       </div>
@@ -58,56 +59,115 @@ export function BonusTable({ bonuses }: Props) {
         ))}
       </div>
 
-      <div className="overflow-x-auto">
-        <table className="w-full text-xs">
-          <thead>
-            <tr className="border-b border-border text-left text-muted-foreground">
-              <th className="pb-2 pr-3 font-medium">加算名</th>
-              <th className="pb-2 pr-3 font-medium">カテゴリ</th>
-              <th className="pb-2 pr-3 font-medium">単位</th>
-              <th className="pb-2 pr-3 font-medium">取得難易度</th>
-              <th className="pb-2 font-medium">売上寄与</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filtered.map((bonus) => (
-              <tr key={bonus.name} className="border-b border-border/50 hover:bg-muted/20">
-                <td className="py-2.5 pr-3">
-                  <div>
-                    <span className="font-medium">{bonus.name}</span>
-                    <p className="mt-0.5 text-[10px] text-muted-foreground leading-relaxed">
-                      {bonus.requirement}
-                    </p>
+      <div className="space-y-2">
+        {filtered.map((bonus) => {
+          const isExpanded = expandedBonus === bonus.name;
+          const hasGuide = !!bonus.requirementGuide;
+
+          return (
+            <div key={bonus.name} className="rounded-lg border border-border/50 transition-colors hover:bg-muted/10">
+              {/* Header row */}
+              <button
+                onClick={() => hasGuide && setExpandedBonus(isExpanded ? null : bonus.name)}
+                className="flex w-full items-center gap-3 p-3 text-left"
+              >
+                <div className="flex-1">
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-medium">{bonus.name}</span>
+                    <span className="rounded-full bg-muted/40 px-1.5 py-0.5 text-[9px]">
+                      {bonus.category}
+                    </span>
                   </div>
-                </td>
-                <td className="py-2.5 pr-3">
-                  <span className="rounded-full bg-muted/40 px-1.5 py-0.5 text-[10px]">
-                    {bonus.category}
-                  </span>
-                </td>
-                <td className="py-2.5 pr-3 font-mono text-[10px]">{bonus.units}</td>
-                <td className="py-2.5 pr-3">
+                  <p className="mt-0.5 text-[10px] text-muted-foreground">{bonus.requirement}</p>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <span className="font-mono text-[10px] text-muted-foreground">{bonus.units}</span>
                   <span
                     className={`rounded-full px-1.5 py-0.5 text-[10px] font-medium ${
                       DIFFICULTY_CONFIG[bonus.difficulty].bgClass
                     }`}
                   >
-                    {DIFFICULTY_CONFIG[bonus.difficulty].label}
+                    難{DIFFICULTY_CONFIG[bonus.difficulty].label}
                   </span>
-                </td>
-                <td className="py-2.5">
                   <span
                     className={`rounded-full px-1.5 py-0.5 text-[10px] font-medium ${
                       IMPACT_CONFIG[bonus.revenueImpact].bgClass
                     }`}
                   >
-                    {IMPACT_CONFIG[bonus.revenueImpact].label}
+                    寄与{IMPACT_CONFIG[bonus.revenueImpact].label}
                   </span>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+                  {hasGuide && (
+                    isExpanded ? (
+                      <ChevronUp className="h-3.5 w-3.5 text-muted-foreground" />
+                    ) : (
+                      <ChevronDown className="h-3.5 w-3.5 text-muted-foreground" />
+                    )
+                  )}
+                </div>
+              </button>
+
+              {/* Expanded guide */}
+              {isExpanded && bonus.requirementGuide && (
+                <div className="border-t border-border/30 p-4">
+                  <p className="text-[11px] leading-relaxed text-muted-foreground">
+                    {bonus.requirementGuide.overview}
+                  </p>
+
+                  {/* Steps */}
+                  <div className="mt-3">
+                    <p className="flex items-center gap-1 text-[10px] font-bold text-foreground">
+                      <CheckCircle className="h-3 w-3 text-emerald-400" />
+                      取得手順
+                    </p>
+                    <div className="mt-2 space-y-2">
+                      {bonus.requirementGuide.steps.map((step, i) => (
+                        <div key={i} className="rounded-md bg-muted/10 p-2">
+                          <p className="text-[10px] font-medium text-foreground">{step.step}</p>
+                          <p className="mt-0.5 text-[10px] leading-relaxed text-muted-foreground">{step.detail}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Tips */}
+                  <div className="mt-3">
+                    <p className="flex items-center gap-1 text-[10px] font-bold text-foreground">
+                      <Lightbulb className="h-3 w-3 text-amber-400" />
+                      ポイント
+                    </p>
+                    <ul className="mt-1 space-y-0.5">
+                      {bonus.requirementGuide.tips.map((tip, i) => (
+                        <li key={i} className="flex items-start gap-1.5 text-[10px] text-muted-foreground">
+                          <span className="mt-1 h-1 w-1 flex-shrink-0 rounded-full bg-amber-400" />
+                          {tip}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {/* Common Mistakes */}
+                  {bonus.requirementGuide.commonMistakes && bonus.requirementGuide.commonMistakes.length > 0 && (
+                    <div className="mt-3">
+                      <p className="flex items-center gap-1 text-[10px] font-bold text-foreground">
+                        <AlertTriangle className="h-3 w-3 text-red-400" />
+                        よくあるミス
+                      </p>
+                      <ul className="mt-1 space-y-0.5">
+                        {bonus.requirementGuide.commonMistakes.map((mistake, i) => (
+                          <li key={i} className="flex items-start gap-1.5 text-[10px] text-red-400/80">
+                            <span className="mt-1 h-1 w-1 flex-shrink-0 rounded-full bg-red-400" />
+                            {mistake}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

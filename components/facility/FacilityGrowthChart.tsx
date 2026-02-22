@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import type { YearCount } from "@/lib/types";
+import type { YearCount, RewardRevision } from "@/lib/types";
 
 const FacilityGrowthChartInner = dynamic(
   () => import("./FacilityGrowthChartInner"),
@@ -16,6 +16,7 @@ const FacilityGrowthChartInner = dynamic(
 interface Props {
   facilityData: YearCount[];
   userData: YearCount[];
+  rewardRevisions?: RewardRevision[];
 }
 
 export function FacilityGrowthChart(props: Props) {

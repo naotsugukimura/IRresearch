@@ -4,9 +4,21 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Search, ArrowUpDown, ArrowUp, ArrowDown } from "lucide-react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { CATEGORY_CONFIG } from "@/lib/constants";
 import type { Company, CompanyCategory, FiscalYear } from "@/lib/types";
+
+function getFaviconUrl(company: Company): string | null {
+  const url = company.officialUrl || company.irUrl;
+  if (!url) return null;
+  try {
+    const domain = new URL(url).hostname;
+    return `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+  } catch {
+    return null;
+  }
+}
 
 interface CompanyListProps {
   companies: Company[];
@@ -203,17 +215,41 @@ export function CompanyList({ companies, financialsMap }: CompanyListProps) {
 
                   {/* Company name */}
                   <td className="px-3 py-2.5">
-                    <Link
-                      href={`/company/${company.id}`}
-                      className="font-medium text-foreground hover:text-blue-400 hover:underline"
-                    >
-                      {company.name}
-                    </Link>
-                    {company.stockCode && (
-                      <span className="ml-1.5 text-[10px] text-muted-foreground">
-                        {company.stockCode}
-                      </span>
-                    )}
+                    <div className="flex items-center gap-2">
+                      {(() => {
+                        const favicon = getFaviconUrl(company);
+                        return favicon ? (
+                          <Image
+                            src={favicon}
+                            alt=""
+                            width={16}
+                            height={16}
+                            className="h-4 w-4 flex-shrink-0 rounded-sm"
+                            unoptimized
+                          />
+                        ) : (
+                          <span
+                            className="flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-sm text-[8px] font-bold text-white"
+                            style={{ backgroundColor: company.brandColor || "#6B7280" }}
+                          >
+                            {company.name.charAt(0)}
+                          </span>
+                        );
+                      })()}
+                      <div>
+                        <Link
+                          href={`/company/${company.id}`}
+                          className="font-medium text-foreground hover:text-blue-400 hover:underline"
+                        >
+                          {company.name}
+                        </Link>
+                        {company.stockCode && (
+                          <span className="ml-1.5 text-[10px] text-muted-foreground">
+                            {company.stockCode}
+                          </span>
+                        )}
+                      </div>
+                    </div>
                   </td>
 
                   {/* Market cap */}
