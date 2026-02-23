@@ -635,14 +635,45 @@ TAVILY_API_KEY=tvly-...
 - `lib/constants.ts` — マクロ環境childrenに「海外制度比較」追加
 - `components/market/InternationalCasesSection.tsx` — 詳細ページへのリンク追加
 
+## ★ Phase 20 完了（2026-02-23）: 業界カオスマップ
+
+### 新規ページ `/company/chaos-map`
+- `components/company/ChaosMap.tsx` — 80社を6カテゴリで俯瞰するインタラクティブマップ
+  - **マップビュー**: カテゴリ別カード内に企業チップ配置（脅威レベルでサイズ変動、市場区分でグルーピング）
+  - **リストビュー**: テーブル表示（企業名/カテゴリ/市場/脅威/優先度/主要サービス）
+  - カテゴリフィルター + マップ/リスト切替
+  - KPIカード4枚（総企業数/カテゴリ数/上場企業/高脅威企業）
+  - 各企業クリックで `/company/[id]` へ遷移
+- `app/company/chaos-map/page.tsx` — ページファイル
+- `lib/constants.ts` — NAV_ITEMS企業分析に「カオスマップ」追加
+
+## ★ Phase 22 完了（2026-02-23）: BPMN風サービス利用フロー図
+
+### 新規ページ `/facility/flow`
+- **React Flow** (@xyflow/react v12) を導入
+- 障害福祉サービスの利用フロー全体をBPMN風プロセスフロー図で可視化
+  - **4レーン**: 利用者/相談支援/市区町村/事業所
+  - **カスタムノード**: StartEnd(丸型)/Process(角丸)/Gateway(ひし形)/Lane(縦書きラベル)
+  - ズーム・スクロール・コントロール付きインタラクティブ図
+- フェーズ概要カード4枚（相談・計画 → 申請・審査 → 契約・利用開始 → モニタリング）
+- 補足情報: 障害支援区分/セルフプラン/モニタリング頻度
+
+### 新規ファイル
+- `components/facility/ServiceFlowChart.tsx` — React Flowベースのフローチャート実装
+- `components/facility/ServiceFlowChartSection.tsx` — dynamic importラッパー(ssr:false)
+- `app/facility/flow/page.tsx` — ページファイル
+
+### 変更ファイル
+- `lib/constants.ts` — NAV_ITEMS事業所分析に「利用フロー図」追加
+- `package.json` — `@xyflow/react` 依存追加
+
 ### ★ 次にやること（優先度順）
 
-#### Phase 20: 業界カオスマップ（企業分析）
-- `/company` 配下に新ページ `/company/chaos-map` を作成
-- 82社を業界カテゴリ × ポジション（大手/中堅/スタートアップ等）でマッピング
-- 視覚的なカオスマップ表示（カテゴリ別の領域に企業ロゴ/名前を配置）
-- 既存の `companies.json` のカテゴリ情報を活用
-- クリックで企業詳細ページへ遷移
+#### サブタイプ詳細ページ レビュー待ち
+- **精神障害(mental)で先行実装済み**: 統合失調症/気分障害/不安障害/PTSD/てんかん（5ページ）
+- レビュー後、残り13障害カテゴリに横展開予定
+- `SubTypeDetailPage.tsx` 共通コンポーネント + `DisabilityDetailPage.tsx` テーブル追加済み
+- データ: `data/disability-subtypes/mental.json`
 
 #### Phase 21: 事業所分析の拡張（地域分析 + 複数サービス分析）
 - **地域分析**: 都道府県別の事業所分布・シェア（WAMNET CSVデータを活用）
@@ -651,13 +682,6 @@ TAVILY_API_KEY=tvly-...
 - **複数サービス分析**: 法人の兼業パターン分析
   - 同一法人が運営する複数サービスの組み合わせ（放デイ+児発、GH+B型 等）
   - クロス集計テーブル or サンキーダイアグラム
-
-#### Phase 22: BPMN図（React Flow導入）
-- **React Flow（本格派）** でプロセスフロー図を実装
-- `npm install reactflow` が必要
-- 対象: 障害福祉サービスの利用フロー（相談→受給者証→契約→利用開始→モニタリング）
-- 事業所分析の各サービスページに組み込み or 独立セクション
-- `dynamic(() => import(...), { ssr: false })` パターンで読み込み（recharts同様）
 
 #### その他（継続タスク）
 - **全82社IR分析一括実行**: NEXT_SESSION_PROMPT.md参照（Step 1-5の手順あり、API費用~$32）
