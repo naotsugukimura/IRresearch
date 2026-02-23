@@ -18,7 +18,6 @@ import { MonthlyPLTable } from "@/components/facility/MonthlyPLTable";
 import { UserJourneyFlow } from "@/components/facility/UserJourneyFlow";
 import { StartupFlow } from "@/components/facility/StartupFlow";
 import { BusinessLifecycle } from "@/components/facility/BusinessLifecycle";
-import { BonusFlowChart } from "@/components/facility/BonusFlowChart";
 import { ServiceBlueprintSection } from "@/components/facility/ServiceBlueprintSection";
 import { RewardUnitTable } from "@/components/facility/RewardUnitTable";
 import { FacilityRegionalChart } from "@/components/facility/FacilityRegionalChart";
@@ -213,11 +212,6 @@ export function FacilityDetailPage({ data, title }: Props) {
               )}
 
               <section id="bonuses">
-                {data.bonusAcquisitionFlow && (
-                  <div className="mb-4">
-                    <BonusFlowChart flow={data.bonusAcquisitionFlow} />
-                  </div>
-                )}
                 <BonusTable bonuses={data.bonusCatalog} />
               </section>
             </>
@@ -238,6 +232,8 @@ export function FacilityDetailPage({ data, title }: Props) {
                   schedule={data.operationsStory.dailySchedule}
                   serviceType={data.serviceType}
                   conversations={data.operationsStory.typicalConversations}
+                  monthlySchedule={data.operationsStory.monthlySchedule}
+                  annualSchedule={data.operationsStory.annualSchedule}
                 />
               </section>
 

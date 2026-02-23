@@ -35,6 +35,105 @@ const ENTITY_COLORS: Record<string, string> = {
 
 const ENTITY_KEYS = ["株式会社", "合同会社", "NPO法人", "一般社団法人", "社会福祉法人", "医療法人", "その他"];
 
+/* ── Custom Tooltip with law reform context ── */
+function ReformTooltip({
+  active,
+  payload,
+  label,
+  revisionMap,
+  mode,
+}: {
+  active?: boolean;
+  payload?: Array<{ name: string; value: number; color: string }>;
+  label?: string;
+  revisionMap: Record<string, RewardRevision>;
+  mode: "stacked" | "line";
+}) {
+  if (!active || !payload || payload.length === 0) return null;
+
+  const rev = label ? revisionMap[label] : null;
+
+  return (
+    <div
+      style={{
+        backgroundColor: "hsl(var(--card))",
+        border: "1px solid hsl(var(--border))",
+        borderRadius: 8,
+        padding: "10px 12px",
+        fontSize: 12,
+        color: "hsl(var(--foreground))",
+        maxWidth: 360,
+      }}
+    >
+      <p style={{ fontWeight: 700, marginBottom: 4 }}>{label}年</p>
+
+      {/* Data values */}
+      {payload.map((entry, i) => {
+        let displayVal: string;
+        if (mode === "line" && entry.name === "利用者数") {
+          displayVal = `${(entry.value / 10000).toFixed(1)}万人`;
+        } else {
+          displayVal = entry.value.toLocaleString();
+        }
+        return (
+          <div key={i} style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 2 }}>
+            <span style={{ width: 8, height: 8, borderRadius: "50%", backgroundColor: entry.color, flexShrink: 0 }} />
+            <span style={{ color: "hsl(var(--muted-foreground))" }}>{entry.name}:</span>
+            <span style={{ fontFamily: "var(--font-mono, monospace)", fontWeight: 600 }}>{displayVal}</span>
+          </div>
+        );
+      })}
+
+      {/* Law reform context */}
+      {rev && (
+        <div
+          style={{
+            marginTop: 8,
+            paddingTop: 8,
+            borderTop: "1px solid hsl(var(--border))",
+          }}
+        >
+          <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 4 }}>
+            <span
+              style={{
+                display: "inline-block",
+                padding: "1px 6px",
+                borderRadius: 4,
+                backgroundColor: "rgba(245,158,11,0.2)",
+                color: "#F59E0B",
+                fontSize: 10,
+                fontWeight: 700,
+              }}
+            >
+              {rev.type === "creation" ? "制度化" : "報酬改定"}
+            </span>
+            <span style={{ fontSize: 11, fontWeight: 600 }}>{rev.title}</span>
+          </div>
+          <p style={{ fontSize: 10, color: "hsl(var(--muted-foreground))", lineHeight: 1.5, marginBottom: 4 }}>
+            {rev.baseReward}
+          </p>
+          <p style={{ fontSize: 10, color: "hsl(var(--muted-foreground))", lineHeight: 1.5 }}>
+            {rev.description}
+          </p>
+          <div
+            style={{
+              marginTop: 6,
+              padding: "4px 8px",
+              borderRadius: 4,
+              backgroundColor: "rgba(59,130,246,0.1)",
+            }}
+          >
+            <p style={{ fontSize: 10, fontWeight: 600, color: "#60A5FA", marginBottom: 2 }}>
+              市場への影響
+            </p>
+            <p style={{ fontSize: 10, color: "#93C5FD", lineHeight: 1.5 }}>{rev.impact}</p>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function FacilityGrowthChartInner({ facilityData, userData, rewardRevisions, serviceType }: Props) {
   const [view, setView] = useState<"stacked" | "line">("stacked");
   const hasEntityData = facilityData.some((f) => f.byEntity);
@@ -60,13 +159,19 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
 
   const revisionYears = rewardRevisions?.map((r) => r.year) ?? [];
 
+  // Build year→revision lookup for custom tooltip
+  const revisionMap: Record<string, RewardRevision> = {};
+  for (const rev of rewardRevisions ?? []) {
+    revisionMap[`${rev.year}`] = rev;
+  }
+
   return (
     <div className="rounded-lg border border-border bg-card p-5">
       <div className="mb-4 flex items-center justify-between">
         <div>
           <h3 className="text-sm font-bold">事業所数・利用者数の推移</h3>
           <p className="text-xs text-muted-foreground">
-            {serviceType ?? "放課後等デイサービス"}の時系列推移（{facilityData[0]?.year ?? ""}年〜）{rewardRevisions && rewardRevisions.length > 0 ? " — 報酬改定と市場変化" : ""}
+            {serviceType ?? "放課後等デイサービス"}の時系列推移（{facilityData[0]?.year ?? ""}年〜）{rewardRevisions && rewardRevisions.length > 0 ? " — 改定年にカーソルを合わせると法改正の詳細を表示" : ""}
           </p>
         </div>
         {hasEntityData && (
@@ -104,15 +209,7 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
               tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
             />
             <Tooltip
-              contentStyle={{
-                backgroundColor: "hsl(var(--card))",
-                border: "1px solid hsl(var(--border))",
-                borderRadius: 8,
-                fontSize: 12,
-                color: "hsl(var(--foreground))",
-              }}
-              formatter={(value: number, name: string) => [value.toLocaleString(), name]}
-              labelFormatter={(label) => `${label}年`}
+              content={<ReformTooltip revisionMap={revisionMap} mode="stacked" />}
             />
             <Legend wrapperStyle={{ fontSize: 11 }} />
             {ENTITY_KEYS.map((key) => (
@@ -164,18 +261,7 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
               tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
             />
             <Tooltip
-              contentStyle={{
-                backgroundColor: "hsl(var(--card))",
-                border: "1px solid hsl(var(--border))",
-                borderRadius: 8,
-                fontSize: 12,
-                color: "hsl(var(--foreground))",
-              }}
-              formatter={(value: number, name: string) => {
-                if (name === "事業所数") return [value.toLocaleString(), name];
-                return [`${(value / 10000).toFixed(1)}万人`, name];
-              }}
-              labelFormatter={(label) => `${label}年`}
+              content={<ReformTooltip revisionMap={revisionMap} mode="line" />}
             />
             <Legend wrapperStyle={{ fontSize: 12 }} />
             <Area

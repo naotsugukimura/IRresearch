@@ -637,11 +637,6 @@ export interface FacilityPL {
 export type DifficultyLevel = "low" | "medium" | "high";
 export type RevenueImpactLevel = "low" | "medium" | "high";
 
-export interface BonusRequirementStep {
-  step: string;
-  detail: string;
-}
-
 export interface BonusCatalogItem {
   name: string;
   category: string;
@@ -649,27 +644,6 @@ export interface BonusCatalogItem {
   requirement: string;
   difficulty: DifficultyLevel;
   revenueImpact: RevenueImpactLevel;
-  requirementGuide?: {
-    overview: string;
-    steps: BonusRequirementStep[];
-    tips: string[];
-    commonMistakes?: string[];
-  };
-}
-
-export interface BonusFlowNode {
-  id: string;
-  label: string;
-  description: string;
-  units?: string;
-  difficulty: DifficultyLevel;
-  prerequisites?: string[];
-}
-
-export interface BonusAcquisitionFlow {
-  title: string;
-  description: string;
-  nodes: BonusFlowNode[];
 }
 
 export interface DailyScheduleItem {
@@ -714,8 +688,30 @@ export interface ConversationExample {
   dialogSample?: string[];
 }
 
+export interface MonthlyScheduleItem {
+  period: string;
+  activity: string;
+  who: string;
+  detail: string;
+  deadline?: string;
+  importance: "critical" | "high" | "medium";
+}
+
+export interface AnnualScheduleItem {
+  month: number;
+  events: {
+    title: string;
+    category: "compliance" | "training" | "planning" | "operations" | "seasonal";
+    detail: string;
+    deadline?: string;
+    penalty?: string;
+  }[];
+}
+
 export interface OperationsStory {
   dailySchedule: DailyScheduleItem[];
+  monthlySchedule?: MonthlyScheduleItem[];
+  annualSchedule?: AnnualScheduleItem[];
   roles: RoleInfo[];
   typicalConversations: ConversationExample[];
   stakeholders?: StakeholderRelation[];
@@ -916,7 +912,6 @@ export interface FacilityAnalysisData {
   rewardRevisions?: RewardRevision[];
   facilityPL: FacilityPL;
   bonusCatalog: BonusCatalogItem[];
-  bonusAcquisitionFlow?: BonusAcquisitionFlow;
   monthlyPL?: MonthlyPL;
   operationsStory: OperationsStory;
   userJourney?: UserJourney;
