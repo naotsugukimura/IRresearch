@@ -27,6 +27,7 @@ export const NAV_ITEMS: NavItem[] = [
     icon: "Globe",
     children: [
       { href: "/market", label: "市場ダッシュボード" },
+      { href: "/market/international", label: "海外制度比較" },
       { href: "/trends", label: "業界トレンド" },
       { href: "/reward-revision", label: "報酬改定" },
     ],

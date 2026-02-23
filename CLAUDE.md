@@ -22,9 +22,15 @@ Vercelにデプロイして使用（`output: "export"`）。
 
 ## ディレクトリ構成
 ```
-app/                    # ページ（43ページ）
+app/                    # ページ（49ページ）
   page.tsx              # ダッシュボード（/）
   market/page.tsx       # 総合ダッシュボード（/market）
+  market/international/ # 海外制度比較インデックス + 5カ国詳細（/market/international）
+  market/international/usa/    # アメリカ（ADA + Medicaid Waiver）
+  market/international/denmark/ # デンマーク（BPA制度）
+  market/international/sweden/  # スウェーデン（LSS法）
+  market/international/uk/      # イギリス（パーソナルバジェット）
+  market/international/germany/ # ドイツ（BTHG）
   reward-revision/page.tsx # 報酬改定タイムライン（/reward-revision）
   disability/page.tsx   # 障害理解インデックス（/disability） — 4グループ14障害種別
   disability/physical/  # 身体障害
@@ -72,7 +78,7 @@ components/
   dashboard/            # ダッシュボードKPI
   compare/              # 比較テーブル・チャート
   trends/               # トレンド表示
-  market/               # 総合ダッシュボード（MarketKpiCards, PopulationChart, EmploymentChart, ContextAnnotations等）
+  market/               # 総合ダッシュボード（MarketKpiCards, PopulationChart, EmploymentChart, ContextAnnotations, CountryDetailPage等）
   facility/             # 事業所分析（FacilityDetailPage, EntityDistribution, DailyTimeline, PLWaterfall, MonthlyPLTable, RewardUnitTable等）
   reward/               # 報酬改定（CrossServiceTimeline, ServiceRevisionDetail）
   layout/               # Sidebar, Breadcrumb, PageHeader
@@ -94,6 +100,7 @@ data/                   # 全データJSON（companies, financials, business-pla
     shurou-b.json, shurou-teichaku.json, chiiki-ikou.json,
     chiiki-teichaku.json, keikaku-soudan.json, shougaiji-soudan.json
   disability-knowledge.json # 障害理解（14障害種別の詳細データ）
+  international-welfare.json # 海外制度比較（5カ国の詳細データ）
   web-research.json     # 非上場企業Webリサーチ（全社集約）
   web-research/         # 非上場企業Webリサーチ（企業別JSON）
 scripts/                # Python — DB管理 / EDINET / IRスクレイパー / Tavilyリサーチ
@@ -594,6 +601,39 @@ TAVILY_API_KEY=tvly-...
 - `lib/constants.ts` — NAV_ITEMSに「障害理解」追加、ナレッジから削除
 - `components/layout/Sidebar.tsx` — Heartアイコン追加
 - `app/learn/disability/page.tsx` — `/disability` へリダイレクト
+
+## ★ Phase 19 完了（2026-02-23）: 海外5カ国 障害福祉制度 詳細ページ
+
+### 概要
+`/market` ページ内のセクションとして表示されていた海外5カ国の障害福祉制度を、
+国ごとの独立詳細ページに拡張。マクロ環境配下に `/market/international` を新設。
+
+### URL構造
+```
+/market/international          ← 5カ国一覧（テーブル + KPI比較カード）
+/market/international/usa      ← アメリカ（ADA + Medicaid Waiver）
+/market/international/denmark  ← デンマーク（BPA制度）
+/market/international/sweden   ← スウェーデン（LSS法）
+/market/international/uk       ← イギリス（パーソナルバジェット）
+/market/international/germany  ← ドイツ（BTHG）
+```
+
+### 各国ページの構成（9セクション）
+概要・システム名 → 統計KPI(6項目) → 主要法制度(アコーディオン) → 制度の変遷(タイムライン) →
+サービス体系(6分野) → 強み・課題(2カラム) → 日本との比較(テーブル6軸) →
+日本への示唆(適用性バッジ付き) → 最近の動向・出典
+
+### 新規ファイル
+- `data/international-welfare.json` — 5カ国分の詳細データ
+- `components/market/CountryDetailPage.tsx` — 共通詳細ページコンポーネント
+- `app/market/international/page.tsx` — indexページ
+- `app/market/international/{usa,denmark,sweden,uk,germany}/page.tsx` — 各国詳細
+
+### 変更ファイル
+- `lib/types.ts` — `InternationalWelfareDetail` + `InternationalWelfareData` 型追加
+- `lib/data.ts` — `getInternationalWelfareData()` + `getInternationalWelfareCountry()` 追加
+- `lib/constants.ts` — マクロ環境childrenに「海外制度比較」追加
+- `components/market/InternationalCasesSection.tsx` — 詳細ページへのリンク追加
 
 ### ★ 次にやること
 - **全82社IR分析一括実行**: NEXT_SESSION_PROMPT.md参照（Step 1-5の手順あり、API費用~$32）

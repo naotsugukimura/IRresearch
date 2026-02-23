@@ -12,6 +12,7 @@ import areaAnalysisData from "@/data/litalico-area-analysis.json";
 import marketOverviewData from "@/data/market-overview.json";
 import webResearchData from "@/data/web-research.json";
 import disabilityKnowledgeData from "@/data/disability-knowledge.json";
+import internationalWelfareData from "@/data/international-welfare.json";
 import jidouHattatsuData from "@/data/facility-analysis/jidou-hattatsu.json";
 import iryougataJidouData from "@/data/facility-analysis/iryougata-jidou.json";
 import houkagoDayData from "@/data/facility-analysis/houkago-day.json";
@@ -51,6 +52,8 @@ import type {
   DisabilityKnowledgeData,
   DisabilityCategory,
   RewardRevisionPageData,
+  InternationalWelfareData,
+  InternationalWelfareDetail,
 } from "./types";
 
 // ============================================================
@@ -277,6 +280,19 @@ export function getDisabilityKnowledge(): DisabilityKnowledgeData {
 export function getDisabilityCategory(id: string): DisabilityCategory | undefined {
   const data = getDisabilityKnowledge();
   return data.categories.find((c) => c.id === id);
+}
+
+// ============================================================
+// 海外制度
+// ============================================================
+
+export function getInternationalWelfareData(): InternationalWelfareData {
+  return internationalWelfareData as unknown as InternationalWelfareData;
+}
+
+export function getInternationalWelfareCountry(id: string): InternationalWelfareDetail | undefined {
+  const data = getInternationalWelfareData();
+  return data.countries.find((c) => c.id === id);
 }
 
 // ============================================================

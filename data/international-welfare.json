@@ -1,0 +1,417 @@
+{
+  "lastUpdated": "2026-02-23",
+  "countries": [
+    {
+      "id": "usa",
+      "country": "アメリカ",
+      "countryEn": "USA",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "color": "#3B82F6",
+      "overview": "ADA（障害を持つアメリカ人法）を柱とする権利ベースのアプローチ。連邦制のため州ごとにサービス水準が大きく異なる。Medicaid Waiverによる在宅サービスが拡大中だが、待機者リストが深刻な課題。",
+      "systemName": "ADA + Medicaid Waiver",
+      "systemDescription": "1990年制定のADA（Americans with Disabilities Act）が差別禁止の法的基盤。サービス給付はMedicaid（低所得者向け医療保険）のWaiver制度を通じて州が運営。連邦政府は基準設定と資金の一部を負担し、州が独自にプログラムを設計・運営する分権型。",
+      "keyLaws": [
+        { "name": "リハビリテーション法 Section 504", "year": 1973, "description": "連邦資金を受ける機関での障害者差別を禁止。ADAの前身となった画期的な法律" },
+        { "name": "障害者教育法 (IDEA)", "year": 1975, "description": "障害児に無償で適切な公教育を保障。個別教育計画(IEP)の策定を義務化" },
+        { "name": "ADA（障害を持つアメリカ人法）", "year": 1990, "description": "雇用・公共サービス・交通・通信での障害者差別を包括的に禁止。合理的配慮の提供を義務化" },
+        { "name": "Olmstead判決", "year": 1999, "description": "最高裁が不必要な施設入所は差別と判示。地域移行（脱施設化）を大きく後押し" },
+        { "name": "WIOA（労働力革新機会法）", "year": 2014, "description": "障害者の競争的統合雇用を優先。施設内就労への偏重を是正する方向転換" }
+      ],
+      "timeline": [
+        { "year": 1935, "event": "社会保障法制定", "significance": "連邦社会保障制度の基盤。後の障害年金(SSDI/SSI)の土台" },
+        { "year": 1963, "event": "地域精神保健法", "significance": "ケネディ大統領が精神科の脱施設化を推進。地域精神保健センターの設置" },
+        { "year": 1973, "event": "リハビリテーション法", "significance": "初の障害者差別禁止の連邦法。障害者権利運動の法的基盤" },
+        { "year": 1975, "event": "全障害児教育法(EHA)", "significance": "障害児のインクルーシブ教育を法制化。後のIDEAの前身" },
+        { "year": 1990, "event": "ADA制定", "significance": "世界で最も包括的な障害者差別禁止法。50カ国以上の法制に影響" },
+        { "year": 1999, "event": "Olmstead判決", "significance": "地域生活への権利を確立。全米の脱施設化を加速" },
+        { "year": 2010, "event": "ACA（医療保険改革法）", "significance": "既往症による保険加入拒否を禁止。障害者の医療アクセスを改善" },
+        { "year": 2014, "event": "WIOA制定", "significance": "障害者の競争的統合雇用を連邦政策として明確化" }
+      ],
+      "serviceSystem": [
+        { "category": "所得保障", "services": ["SSDI（社会保障障害保険）", "SSI（補足的保障所得）", "SNAP（食料支援）"], "description": "連邦政府による現金給付。SSDIは就労歴ベース、SSIは資力調査ベース" },
+        { "category": "医療・リハビリ", "services": ["Medicaid", "Medicare", "州リハビリテーション局(VR)"], "description": "Medicaidが最大の障害福祉サービス資金源。VRが就労支援を提供" },
+        { "category": "在宅・地域サービス", "services": ["HCBS Waiver", "パーソナルケア", "デイプログラム"], "description": "Medicaid Waiverにより施設に代わる地域サービスを州が設計・運営" },
+        { "category": "就労支援", "services": ["Supported Employment", "カスタマイズ就労", "AbilityOne"], "description": "ジョブコーチ付き一般就労支援が主流。カスタマイズ就労は個別ニーズに合わせた職務設計" },
+        { "category": "教育", "services": ["IDEA（個別教育計画）", "トランジション計画", "大学障害学生支援"], "description": "IEPにより3歳から21歳まで個別支援計画を策定。16歳から成人移行計画を開始" },
+        { "category": "住居", "services": ["Section 8バウチャー", "グループホーム", "サポーテッドリビング"], "description": "連邦住宅バウチャーは長い待機リスト。州による支援付き住居の拡大が課題" }
+      ],
+      "statistics": [
+        { "label": "障害者人口", "value": "約6,100万人", "note": "成人の26%（CDC, 2023）" },
+        { "label": "障害者雇用率", "value": "22.5%", "note": "非障害者の65.8%と大きな格差（BLS, 2023）" },
+        { "label": "Medicaid HCBS利用者", "value": "約480万人", "note": "施設から地域へのシフト進行中" },
+        { "label": "HCBS待機者", "value": "約65万人", "note": "州間格差が大きい（KFF, 2023）" },
+        { "label": "ADA雇用差別申立て", "value": "年間約22,000件", "note": "EEOC受理（2022年度）" },
+        { "label": "障害関連支出/GDP比", "value": "約2.4%", "note": "OECD平均2.1%をやや上回る" }
+      ],
+      "strengths": [
+        { "title": "権利ベースの法体系", "description": "ADAにより民間事業者を含む包括的な差別禁止。訴訟による権利救済が機能" },
+        { "title": "テクノロジー活用", "description": "AT（支援技術）産業が世界最大。シリコンバレー企業のアクセシビリティ投資が活発" },
+        { "title": "自己決定・エンパワメント", "description": "当事者運動が強く「Nothing About Us Without Us」の理念が浸透" },
+        { "title": "Olmstead判決の影響力", "description": "地域移行を権利として確立。施設から地域へのシフトを法的に裏付け" }
+      ],
+      "challenges": [
+        { "title": "州間格差", "description": "50州でサービス水準が大きく異なる。地域によってはHCBS Waiverの待機が数年に及ぶ" },
+        { "title": "医療保険の断片化", "description": "民間保険・Medicaid・Medicareの複雑な制度。無保険の障害者も存在" },
+        { "title": "低い雇用率", "description": "ADA制定後30年以上経ても障害者の雇用率は非障害者の3分の1程度" },
+        { "title": "直接支援人材不足", "description": "HCBS直接支援従事者の低賃金・高離職率が深刻。年間離職率45%超" }
+      ],
+      "comparisonWithJapan": [
+        { "dimension": "法的枠組み", "thisCountry": "差別禁止法（ADA）中心。権利侵害は訴訟で救済", "japan": "障害者総合支援法による給付制度中心。差別解消法は努力義務が多い" },
+        { "dimension": "サービス財源", "thisCountry": "Medicaid（連邦+州の共同負担）。州が運営", "japan": "自立支援給付（国50%+都道府県25%+市町村25%）" },
+        { "dimension": "就労支援", "thisCountry": "一般就労（Supported Employment）優先。最低賃金保障の議論", "japan": "就労継続A型/B型という福祉的就労が主流。B型は工賃月1.6万円" },
+        { "dimension": "脱施設化", "thisCountry": "Olmstead判決で地域移行が権利。グループホーム中心", "japan": "入所施設の定員削減は緩やか。地域移行支援の拡充途上" },
+        { "dimension": "障害者雇用義務", "thisCountry": "義務雇用率なし。ADAの差別禁止+合理的配慮で対応", "japan": "法定雇用率2.5%（2024年〜）。雇用納付金制度あり" },
+        { "dimension": "教育", "thisCountry": "IDEA：最も制限の少ない環境（LRE）原則。インクルーシブ教育が進展", "japan": "特別支援学校・学級が中心。インクルーシブ教育の推進は途上" }
+      ],
+      "lessonsForJapan": [
+        { "title": "権利救済メカニズムの強化", "description": "ADAのように障害者差別を訴訟で争える実効的な仕組み。日本の差別解消法は相談・あっせんが中心で救済力が弱い", "applicability": "medium" },
+        { "title": "Olmstead的な地域生活権の確立", "description": "不必要な施設入所を差別とする法的原則。日本でも地域移行を権利として位置づける議論が必要", "applicability": "high" },
+        { "title": "カスタマイズ就労の導入", "description": "個人の強みに合わせた職務設計。画一的なB型作業所の代替として日本でも応用可能", "applicability": "high" },
+        { "title": "直接支援人材の処遇改善", "description": "米国もHCBS人材不足に苦慮。日本の福祉人材確保策に反面教師としての示唆", "applicability": "medium" }
+      ],
+      "recentTrends": [
+        "HCBS Access Act（2023年提出）：在宅サービスへの連邦投資を大幅増額する法案",
+        "DSP（直接支援専門職）の連邦認定・処遇改善の議論が活発化",
+        "セルフダイレクション（自己管理型サービス）の全州展開が進行中",
+        "AI・テクノロジーを活用した就労支援プログラムの拡大",
+        "14(c)証明書（最低賃金未満の障害者就労許可）廃止の動き"
+      ],
+      "sources": [
+        "CDC - Disability and Health Data System (2023)",
+        "Bureau of Labor Statistics - Persons with a Disability (2023)",
+        "Kaiser Family Foundation - Medicaid HCBS (2023)",
+        "National Council on Disability - Annual Reports",
+        "EEOC - ADA Charge Statistics"
+      ]
+    },
+    {
+      "id": "denmark",
+      "country": "デンマーク",
+      "countryEn": "Denmark",
+      "flag": "\ud83c\udde9\ud83c\uddf0",
+      "color": "#DC2626",
+      "overview": "ノーマライゼーション発祥の地。税財源による包括的福祉。市町村（コムーネ）が障害福祉サービスの責任主体で、個人予算(BPA)制度により重度障害者が自ら支援者を雇用できる先進的な仕組みを持つ。",
+      "systemName": "社会サービス法 + BPA制度",
+      "systemDescription": "社会サービス法（Serviceloven）を基盤に市町村が障害福祉を一元的に運営。BPA（Borgerstyret Personlig Assistance）制度で重度障害者が最大24時間の個人アシスタントを自ら雇用・管理。財源は全額税金で利用者負担なし。",
+      "keyLaws": [
+        { "name": "1959年知的障害者法", "year": 1959, "description": "バンク＝ミケルセンがノーマライゼーション原理を法制化。世界初の理念的転換" },
+        { "name": "社会サービス法", "year": 1998, "description": "障害者の地域生活・自己決定を保障する包括的法律。全サービスの法的根拠" },
+        { "name": "BPA制度導入", "year": 2009, "description": "重度障害者が個人アシスタントを自ら雇用・管理できる自己管理型支援制度" },
+        { "name": "障害者権利条約批准", "year": 2009, "description": "国連障害者権利条約を批准。国内法との整合性を継続的に検証" },
+        { "name": "フレックスジョブ改革", "year": 2013, "description": "賃金補助制度を改革。労働能力に応じた補助で障害者の就労促進を強化" }
+      ],
+      "timeline": [
+        { "year": 1959, "event": "ノーマライゼーション法制化", "significance": "バンク＝ミケルセンが知的障害者法にノーマライゼーション原理を明記。世界的思潮の起点" },
+        { "year": 1980, "event": "脱施設化完了宣言", "significance": "大規模入所施設を原則廃止。地域のグループホーム・個人住居に移行完了" },
+        { "year": 1998, "event": "社会サービス法施行", "significance": "障害種別を問わない統合的サービス法。自己決定と地域生活の権利を明確化" },
+        { "year": 2007, "event": "市町村改革", "significance": "271自治体を98コムーネに再編。障害福祉の専門性確保と効率化を両立" },
+        { "year": 2009, "event": "BPA制度開始", "significance": "重度障害者の個人アシスタント制度。自己管理・自己決定の具現化" },
+        { "year": 2013, "event": "フレックスジョブ改革", "significance": "障害者就労支援制度を刷新。賃金補助の仕組みを労働能力連動型に" }
+      ],
+      "serviceSystem": [
+        { "category": "個人アシスタント", "services": ["BPA（自己管理型）", "ヘルパー制度（市町村管理型）"], "description": "重度障害者向け24時間支援。BPAは本人が雇用主となり、市町村管理型は自治体が手配" },
+        { "category": "就労支援", "services": ["フレックスジョブ", "スキャネジョブ", "リバリデリング"], "description": "フレックスジョブは労働能力に応じた賃金補助。リバリデリングは職業リハビリテーション" },
+        { "category": "住居", "services": ["自己所有住居+支援", "ボーフェレスカブ（共同住居）", "ボテルブド（支援付住居）"], "description": "施設ではなく住居+支援の組み合わせ。本人の選択に基づく住居形態" },
+        { "category": "教育", "services": ["インクルーシブ教育", "特別学校（STU）", "成人教育"], "description": "2012年からインクルーシブ教育を強化。96%の障害児が通常学校に在籍" },
+        { "category": "補装具・福祉機器", "services": ["無償貸与制度", "住宅改修", "移動支援"], "description": "生活に必要な福祉機器は全額公費。補聴器・車椅子から住宅改修まで" },
+        { "category": "経済保障", "services": ["障害年金", "早期退職年金", "各種手当"], "description": "稼得能力の3分の2以上を喪失した場合に障害年金。手厚い所得保障" }
+      ],
+      "statistics": [
+        { "label": "障害者人口", "value": "約67万人", "note": "人口580万人の約11.5%（DST, 2023）" },
+        { "label": "障害者雇用率", "value": "47.8%", "note": "非障害者の79%との差は31ポイント" },
+        { "label": "BPA利用者", "value": "約2,000人", "note": "重度身体障害者が対象" },
+        { "label": "フレックスジョブ利用者", "value": "約7.8万人", "note": "障害・慢性疾患のある就労者" },
+        { "label": "障害関連支出/GDP比", "value": "約4.1%", "note": "OECD中で最高水準" },
+        { "label": "施設入所者", "value": "ほぼゼロ", "note": "1980年代に脱施設化完了" }
+      ],
+      "strengths": [
+        { "title": "ノーマライゼーションの徹底", "description": "理念の発祥地として脱施設化を早期に達成。地域生活が当然の前提" },
+        { "title": "BPA制度による自己決定", "description": "障害者自身が雇用主として支援者を選び、管理する。自己決定の最高水準" },
+        { "title": "利用者負担ゼロ", "description": "障害福祉サービスは全額税財源。利用者の経済状況に関わらずアクセス保障" },
+        { "title": "高い障害者雇用率", "description": "フレックスジョブ等の柔軟な就労支援で、OECD諸国中トップクラスの雇用率" }
+      ],
+      "challenges": [
+        { "title": "財政的持続可能性", "description": "GDP比4.1%の障害関連支出。高齢化と人口減少の中での持続性が議論の対象" },
+        { "title": "コムーネ間格差", "description": "98市町村間でサービス水準に差。小規模自治体の専門性確保が課題" },
+        { "title": "精神障害者支援の遅れ", "description": "身体障害中心に制度設計。精神障害者のBPA利用やフレックスジョブ参加が相対的に低い" },
+        { "title": "インクルーシブ教育の質", "description": "96%が通常学校在籍だが、適切な個別支援が伴わない「ダンピング」の指摘あり" }
+      ],
+      "comparisonWithJapan": [
+        { "dimension": "財源", "thisCountry": "全額税金。利用者負担なし", "japan": "保険+税。応能負担（原則1割）" },
+        { "dimension": "脱施設化", "thisCountry": "1980年代に完了。施設入所はほぼゼロ", "japan": "入所施設に約12万人。地域移行は緩やか" },
+        { "dimension": "個人アシスタント", "thisCountry": "BPA：本人が雇用主。24時間利用可能", "japan": "重度訪問介護。ヘルパー事業所が雇用・派遣" },
+        { "dimension": "就労支援", "thisCountry": "フレックスジョブ：一般企業で能力に応じた補助", "japan": "就労継続A型/B型が中心。B型は福祉的就労" },
+        { "dimension": "障害者雇用率", "thisCountry": "47.8%（フレックスジョブ含む）", "japan": "2.3%（法定雇用率ベース、実雇用率）" },
+        { "dimension": "教育", "thisCountry": "96%が通常学校。インクルーシブ原則", "japan": "特別支援学校・学級が増加傾向" }
+      ],
+      "lessonsForJapan": [
+        { "title": "BPA的な自己管理型支援の導入", "description": "重度障害者が自ら支援者を選び管理する仕組み。日本の重度訪問介護を拡張する形で応用可能", "applicability": "high" },
+        { "title": "フレックスジョブ型の段階的就労", "description": "労働能力に応じた賃金補助。A型事業所の発展形として、一般企業での部分就労を支援", "applicability": "high" },
+        { "title": "脱施設化のロードマップ", "description": "40年かけて達成した脱施設化の段階的プロセス。日本の地域移行計画の参考に", "applicability": "medium" },
+        { "title": "コムーネ改革の教訓", "description": "98自治体への再編で専門性を確保。日本の市町村の障害福祉計画にも同様の課題", "applicability": "medium" }
+      ],
+      "recentTrends": [
+        "デジタル・アクセシビリティ法の施行（EU指令の国内実施）",
+        "BPA制度の対象拡大議論（精神障害者・知的障害者への適用）",
+        "グリーン・トランジションと障害者雇用の接点（環境分野の新規就労機会）",
+        "コムーネ間協力による専門支援の広域化",
+        "高齢障害者（二重ニーズ）への統合的支援モデルの開発"
+      ],
+      "sources": [
+        "Danmarks Statistik - Living Conditions Survey (2023)",
+        "VIVE (Danish Center for Social Science Research)",
+        "Social- og Boligstyrelsen (Danish Social and Housing Agency)",
+        "OECD - Disability, Work and Inclusion (2023)",
+        "European Commission - Country Report Denmark"
+      ]
+    },
+    {
+      "id": "sweden",
+      "country": "スウェーデン",
+      "countryEn": "Sweden",
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "color": "#EAB308",
+      "overview": "LSS法（特定の機能障害を持つ人への支援とサービスに関する法律）による世界最先端のパーソナルアシスタンス制度。当事者の権利と自己決定を最重視し、重度障害者への手厚い個人支援が特徴。",
+      "systemName": "LSS法 + パーソナルアシスタンス",
+      "systemDescription": "1994年施行のLSS法が障害福祉の中核。社会サービス法（SoL）と併用される。パーソナルアシスタンスは保険庁（Forsakringskassan）が週20時間超を、市町村が20時間以下を担当。利用者負担は原則なし。",
+      "keyLaws": [
+        { "name": "LSS法（特定障害者支援法）", "year": 1994, "description": "3つの対象グループに10種類の権利としてのサービスを保障。個人の自己決定を法的に確立" },
+        { "name": "LASS法（アシスタンス給付法）", "year": 1994, "description": "パーソナルアシスタンスの費用を保険庁が負担する仕組み。LSS法と同時施行" },
+        { "name": "差別禁止法", "year": 2009, "description": "障害を含む7つの差別事由を禁止。雇用・教育・サービスでの差別禁止と合理的配慮" },
+        { "name": "患者法", "year": 2015, "description": "患者の自己決定権と情報へのアクセスを強化。障害者の医療における権利を拡充" },
+        { "name": "LSS法改正", "year": 2023, "description": "パーソナルアシスタンスの対象を拡大。従来外されていた精神障害者等への適用を議論" }
+      ],
+      "timeline": [
+        { "year": 1968, "event": "ノーマライゼーション原理の発展", "significance": "ベンクト＝ニーリエがノーマライゼーション8原則を体系化。世界的な障害者福祉思想に" },
+        { "year": 1985, "event": "脱施設化の決定", "significance": "全ての大規模入所施設の閉鎖を国会決議。1999年までに完了" },
+        { "year": 1994, "event": "LSS法・LASS法施行", "significance": "障害者の権利としてのサービスを法制化。パーソナルアシスタンスの法的基盤" },
+        { "year": 1999, "event": "大規模施設閉鎖完了", "significance": "全ての入所施設を閉鎖。グループホーム・個人住居+支援に完全移行" },
+        { "year": 2009, "event": "差別禁止法施行", "significance": "包括的差別禁止と合理的配慮の義務化。障害者オンブズマンの権限強化" },
+        { "year": 2016, "event": "アシスタンス給付の引き締め", "significance": "保険庁が判定を厳格化。利用者数が減少し、大きな論争に" },
+        { "year": 2023, "event": "LSS法見直し", "significance": "対象拡大と利用者の権利強化を含む法改正議論。精神障害者等への適用拡大" }
+      ],
+      "serviceSystem": [
+        { "category": "パーソナルアシスタンス", "services": ["保険庁管轄（週20時間超）", "市町村管轄（週20時間以下）", "アシスタンス企業"], "description": "重度障害者向けマンツーマン支援。本人が支援内容・時間・支援者を決定" },
+        { "category": "LSS10権利", "services": ["助言・支援", "コンタクトパーソン", "ショートステイ", "短期外出支援", "デイリー活動", "グループ住居", "サービス住居"], "description": "LSS法が定める10種類の権利。申請により市町村が提供義務を負う" },
+        { "category": "就労支援", "services": ["Samhall（国営就労支援企業）", "賃金補助付き雇用", "保護的雇用"], "description": "Samhallが約2万人の障害者を雇用。一般企業への賃金補助も充実" },
+        { "category": "教育", "services": ["通常学校+支援", "特別学校(sarskola)", "成人教育(Komvux)"], "description": "原則インクルーシブ教育。知的障害児は特別学校(sarskola)を選択可能" },
+        { "category": "住居", "services": ["グループ住居（gruppbostad）", "サービス住居（servicebostad）", "一般住居+LSS支援"], "description": "施設ではなく「自分の住居」が原則。グループ住居も最大6人の小規模" },
+        { "category": "経済保障", "services": ["活動補償金（若年層）", "病気補償金", "障害手当"], "description": "19-29歳の活動補償金制度で若年障害者の生活を保障。就労インセンティブとの両立を工夫" }
+      ],
+      "statistics": [
+        { "label": "LSS対象者", "value": "約7.4万人", "note": "人口1,050万人の約0.7%" },
+        { "label": "PA（パーソナルアシスタンス）利用者", "value": "約1.4万人", "note": "保険庁+市町村合計" },
+        { "label": "Samhall雇用者", "value": "約2.1万人", "note": "国営就労支援企業" },
+        { "label": "障害者雇用率", "value": "52.2%", "note": "非障害者の81%との差は29ポイント" },
+        { "label": "障害関連支出/GDP比", "value": "約3.8%", "note": "OECD平均の約1.8倍" },
+        { "label": "施設入所者", "value": "ゼロ", "note": "1999年に全施設を閉鎖" }
+      ],
+      "strengths": [
+        { "title": "LSS法による権利保障", "description": "サービスを「権利」として法定。行政裁判で不服申立てが可能な強い権利性" },
+        { "title": "パーソナルアシスタンスの先進性", "description": "本人主導の支援モデル。支援者の選択・管理を障害者自身が行う世界最先端の仕組み" },
+        { "title": "完全な脱施設化", "description": "1999年に全入所施設を閉鎖。グループ住居も最大6人の小規模で地域に統合" },
+        { "title": "高い雇用率", "description": "Samhall等の手厚い就労支援。障害者雇用率52%はOECDトップクラス" }
+      ],
+      "challenges": [
+        { "title": "PA判定の厳格化", "description": "2016年以降の保険庁による判定厳格化で利用者が減少。本来の権利保障理念との乖離が問題に" },
+        { "title": "精神障害者の対象外問題", "description": "LSS法の3グループに精神障害が直接含まれない。適用拡大が長年の課題" },
+        { "title": "アシスタンス企業の質", "description": "民間アシスタンス企業の不正請求問題が発覚。規制と利用者の自由のバランスが課題" },
+        { "title": "移民障害者への対応", "description": "移民・難民の障害者への言語・文化対応。多文化社会における障害福祉の課題" }
+      ],
+      "comparisonWithJapan": [
+        { "dimension": "法的性質", "thisCountry": "LSS法：申請に基づく「権利」としてのサービス", "japan": "障害者総合支援法：支給決定に基づく「給付」" },
+        { "dimension": "パーソナルアシスタンス", "thisCountry": "本人が支援者を雇用・管理。最大24時間", "japan": "重度訪問介護。事業所のヘルパーが訪問" },
+        { "dimension": "施設", "thisCountry": "1999年に全廃。グループ住居は最大6人", "japan": "入所施設に約12万人。GH平均定員も大きい" },
+        { "dimension": "就労", "thisCountry": "Samhall（2.1万人雇用）+ 賃金補助", "japan": "就労移行支援＋就労継続A/B型" },
+        { "dimension": "利用者負担", "thisCountry": "原則無料（税財源100%）", "japan": "応能負担（原則1割、上限あり）" },
+        { "dimension": "障害者雇用率", "thisCountry": "52.2%", "japan": "2.3%（実雇用率）" }
+      ],
+      "lessonsForJapan": [
+        { "title": "権利としてのサービス保障", "description": "LSS法のようにサービスを権利として法定し、不服申立てを保障する仕組み。日本の支給決定の透明性向上に応用可能", "applicability": "high" },
+        { "title": "パーソナルアシスタンスの自己管理型", "description": "本人が支援者を選び管理するモデル。重度訪問介護の発展形として導入可能性がある", "applicability": "medium" },
+        { "title": "Samhall型の公的就労支援企業", "description": "国営企業が障害者を直接雇用し、一般企業への移行も支援。日本のA型事業所の発展モデルとして参考に", "applicability": "high" },
+        { "title": "小規模グループ住居の徹底", "description": "最大6人の小規模化。日本のGHの大規模化傾向への警鐘として重要", "applicability": "high" }
+      ],
+      "recentTrends": [
+        "LSS法の全面見直し作業（2023年〜）：対象グループの拡大と権利の強化",
+        "デジタルヘルスケアとAT（支援技術）の統合",
+        "パーソナルアシスタンスの質の確保に関する新規制の導入",
+        "障害者の政治参加促進（投票アクセシビリティの改善）",
+        "気候変動と障害者の脆弱性に関する研究・政策"
+      ],
+      "sources": [
+        "Forsakringskassan (Swedish Social Insurance Agency)",
+        "Socialstyrelsen (National Board of Health and Welfare)",
+        "SCB (Statistics Sweden)",
+        "OECD - Disability, Work and Inclusion (2023)",
+        "Samhall Annual Report 2023"
+      ]
+    },
+    {
+      "id": "uk",
+      "country": "イギリス",
+      "countryEn": "UK",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "color": "#6366F1",
+      "overview": "ダイレクトペイメント（直接支払い）とパーソナルバジェット（個人予算）による利用者主導のサービス購入モデルが特徴。NHSによる医療と地方自治体による社会的ケアの二元体制で、緊縮財政下でのサービス削減が大きな課題。",
+      "systemName": "ケア法2014 + パーソナルバジェット",
+      "systemDescription": "2014年ケア法が成人社会的ケアの統合的法律。地方自治体がニーズ評価を行い、パーソナルバジェットを割り当て。利用者はダイレクトペイメントで自らサービスを購入するか、自治体に手配を委ねるか選択。NHSは医療を、自治体は社会的ケアを担当。",
+      "keyLaws": [
+        { "name": "障害者差別禁止法 (DDA)", "year": 1995, "description": "雇用・サービス・教育での障害者差別を禁止。2010年に平等法に統合" },
+        { "name": "コミュニティケア（ダイレクトペイメント）法", "year": 1996, "description": "障害者が現金給付を受けて自らサービスを購入できる仕組みを導入" },
+        { "name": "平等法 (Equality Act)", "year": 2010, "description": "DDAを含む9つの差別禁止法を統合。合理的調整(reasonable adjustments)の義務" },
+        { "name": "ケア法 (Care Act)", "year": 2014, "description": "成人社会的ケアの統合法。ウェルビーイング原則・ニーズ評価・パーソナルバジェットを法定" },
+        { "name": "ダウン症法", "year": 2022, "description": "ダウン症のある人への特別なガイダンス策定を政府に義務付け。当事者運動の成果" }
+      ],
+      "timeline": [
+        { "year": 1948, "event": "NHS設立", "significance": "国民保健サービス発足。障害者を含む全国民に無料の医療を保障" },
+        { "year": 1970, "event": "慢性疾患・障害者法", "significance": "地方自治体に障害者の把握とサービス提供を義務化" },
+        { "year": 1990, "event": "NHSコミュニティケア法", "significance": "施設から地域へ。自治体がケアマネジメントを実施する仕組みに" },
+        { "year": 1996, "event": "ダイレクトペイメント導入", "significance": "障害者が現金を受け取りサービスを自ら購入。利用者主導の始まり" },
+        { "year": 2007, "event": "パーソナルバジェット政策開始", "significance": "全ての社会的ケア利用者にパーソナルバジェットを導入する方針" },
+        { "year": 2010, "event": "平等法施行", "significance": "包括的差別禁止。合理的調整の義務が全分野に" },
+        { "year": 2014, "event": "ケア法施行", "significance": "ウェルビーイング原則に基づく包括的社会的ケア法制" },
+        { "year": 2022, "event": "障害者行動計画", "significance": "政府が障害者の生活改善に向けた包括的行動計画を策定" }
+      ],
+      "serviceSystem": [
+        { "category": "社会的ケア", "services": ["パーソナルバジェット", "ダイレクトペイメント", "自治体手配サービス"], "description": "ニーズ評価→パーソナルバジェット割当て→本人がサービス購入方法を選択" },
+        { "category": "就労支援", "services": ["Access to Work", "ジョブセンタープラス", "Disability Confident"], "description": "Access to Workは職場での合理的配慮費用を政府が補助。Disability Confidentは雇用主の認証制度" },
+        { "category": "所得保障", "services": ["PIP（個人自立支払い）", "ESA（雇用・支援手当）", "ユニバーサルクレジット"], "description": "PIPが障害による追加費用を補填。ESAは就労困難な人への所得保障" },
+        { "category": "住居", "services": ["サポーテッドリビング", "シェアドライブズ", "Extra Care住居"], "description": "自分のテナンシー（賃借権）を持ちながら支援を受ける形態が主流" },
+        { "category": "医療", "services": ["NHS（無料医療）", "地域精神保健チーム", "リハビリテーション"], "description": "NHSにより障害者の医療は無料。待機時間の長さが課題" },
+        { "category": "教育", "services": ["EHCP（教育・保健・ケア計画）", "SEN支援", "大学DSA（障害学生手当）"], "description": "EHCPで25歳まで包括的な教育支援計画。大学ではDSAが個別支援を保障" }
+      ],
+      "statistics": [
+        { "label": "障害者人口", "value": "約1,490万人", "note": "人口の22%（Family Resources Survey, 2022/23）" },
+        { "label": "障害者雇用率", "value": "52.7%", "note": "非障害者の82.5%との差は29.8ポイント" },
+        { "label": "PIP受給者", "value": "約350万人", "note": "月額最大698ポンド" },
+        { "label": "パーソナルバジェット利用者", "value": "約55万人", "note": "うちダイレクトペイメントは約27%" },
+        { "label": "障害関連支出/GDP比", "value": "約2.5%", "note": "給付中心で現物サービスの比率は低い" },
+        { "label": "Access to Work利用者", "value": "年間約4万人", "note": "職場の合理的配慮に政府補助" }
+      ],
+      "strengths": [
+        { "title": "パーソナルバジェットの先駆性", "description": "利用者が予算の使い方を決定。ダイレクトペイメントで自らサービスを購入可能" },
+        { "title": "Access to Workの効果", "description": "職場環境整備・通勤支援・ジョブコーチ費用を政府が補助。雇用主の合理的配慮を促進" },
+        { "title": "EHCPの包括性", "description": "教育・保健・ケアを統合した計画で25歳まで切れ目ない支援。日本の「縦割り」への示唆" },
+        { "title": "Disability Confident制度", "description": "障害者雇用に積極的な企業を3段階で認証。企業の自主的取り組みを促進" }
+      ],
+      "challenges": [
+        { "title": "社会的ケアの資金不足", "description": "緊縮財政で地方自治体のケア予算が大幅削減。ニーズを満たせない利用者が増加" },
+        { "title": "ニーズ評価の厳格化", "description": "予算削減により支給基準が厳しくなり、パーソナルバジェットの減額が問題に" },
+        { "title": "NHSとの連携不足", "description": "医療（NHS）と社会的ケア（自治体）の二元体制。情報共有・連携が不十分" },
+        { "title": "PIP評価への不満", "description": "障害者団体からPIP（給付）の評価プロセスが不適切との批判が強い。不服申立て率が高い" }
+      ],
+      "comparisonWithJapan": [
+        { "dimension": "サービス購入方式", "thisCountry": "パーソナルバジェット。本人がサービスを選び購入", "japan": "事業所に報酬が支払われる代理受領方式" },
+        { "dimension": "就労支援", "thisCountry": "Access to Work（政府が合理的配慮費用を補助）", "japan": "障害者雇用納付金制度（企業間の調整金）" },
+        { "dimension": "教育支援", "thisCountry": "EHCP：25歳まで教育・保健・ケア統合計画", "japan": "個別の教育支援計画。福祉との連携は限定的" },
+        { "dimension": "障害認定", "thisCountry": "ニーズベース（社会モデル寄り）。診断名より生活困難度", "japan": "手帳制度（医学モデル寄り）。診断名・等級で判定" },
+        { "dimension": "財源", "thisCountry": "NHS（税）+ 地方自治体（税+利用者負担）の二元体制", "japan": "国・都道府県・市町村の三層負担" },
+        { "dimension": "介護との統合", "thisCountry": "ケア法で高齢者・障害者の社会的ケアを統合", "japan": "介護保険と障害福祉は別制度。65歳問題あり" }
+      ],
+      "lessonsForJapan": [
+        { "title": "パーソナルバジェットの導入可能性", "description": "利用者がサービスを選び予算を管理する仕組み。日本の代理受領方式からの転換の参考に", "applicability": "medium" },
+        { "title": "Access to Work型の職場環境整備補助", "description": "企業の合理的配慮コストを政府が直接補助。日本の納付金制度との併用で雇用促進", "applicability": "high" },
+        { "title": "EHCP的な切れ目ない支援計画", "description": "教育・保健・福祉を統合した25歳までの計画。日本の縦割り行政の克服に示唆", "applicability": "high" },
+        { "title": "ニーズベース評価への移行", "description": "診断名・等級ではなく生活困難度でサービス量を決定。社会モデルの実践として参考に", "applicability": "medium" }
+      ],
+      "recentTrends": [
+        "社会的ケアの抜本改革議論（資金調達・上限制度の導入検討）",
+        "PIP評価プロセスの見直し（当事者参加型の再設計）",
+        "NHSと社会的ケアの統合ケアシステム（ICS）の展開",
+        "障害者雇用格差の縮小に向けた新戦略",
+        "テクノロジー活用による自立生活支援（スマートホーム・AIアシスタント）"
+      ],
+      "sources": [
+        "Department for Work and Pensions - Family Resources Survey 2022/23",
+        "NHS Digital - Adult Social Care Statistics",
+        "Office for National Statistics - Disability data",
+        "Disability Rights UK - Reports",
+        "Care Quality Commission (CQC) - State of Care Report"
+      ]
+    },
+    {
+      "id": "germany",
+      "country": "ドイツ",
+      "countryEn": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "color": "#16A34A",
+      "overview": "社会法典第IX編（SGB IX）とBTHG（連邦参加法）による包括的なリハビリテーション・参加保障体制。2020年施行のBTHGは障害者の「参加」を中心概念に据え、施設から地域へ、医学モデルから社会モデルへの転換を推進中。",
+      "systemName": "SGB IX + BTHG（連邦参加法）",
+      "systemDescription": "社会法典第IX編（SGB IX）がリハビリテーションと障害者の参加を規定。2016年成立・2020年全面施行のBTHG（Bundesteilhabegesetz）が大改革。入力統合給付を社会扶助から分離し、参加給付として再編。5つの社会保険制度（年金・医療・労災・失業・介護）が分野別にリハビリテーションを提供。",
+      "keyLaws": [
+        { "name": "基本法（Grundgesetz）第3条3項", "year": 1994, "description": "憲法に障害者差別禁止を明記（1994年改正追加）。最高法規レベルでの権利保障" },
+        { "name": "SGB IX（社会法典第9編）", "year": 2001, "description": "リハビリテーションと障害者の参加に関する統合法。複数制度を横断する法的基盤" },
+        { "name": "一般平等待遇法 (AGG)", "year": 2006, "description": "雇用分野での障害者差別禁止を含む包括的差別禁止法" },
+        { "name": "BTHG（連邦参加法）", "year": 2016, "description": "障害者の「参加」を中心に据える大改革法。2017年〜2023年にかけて段階施行" },
+        { "name": "アクセシビリティ強化法", "year": 2021, "description": "EU指令の国内実施。デジタル・物理環境のバリアフリー義務を強化" }
+      ],
+      "timeline": [
+        { "year": 1920, "event": "重度障害者雇用法", "significance": "第一次大戦傷痍軍人の雇用保護。現在の義務雇用制度の起源" },
+        { "year": 1961, "event": "連邦社会扶助法", "significance": "障害者への入力統合給付を社会扶助として規定。施設入所中心の支援" },
+        { "year": 1994, "event": "基本法改正", "significance": "憲法に「何人も障害を理由に差別されてはならない」を追加" },
+        { "year": 2001, "event": "SGB IX施行", "significance": "リハビリテーションと参加に関する統合法。複数制度の連携を法制化" },
+        { "year": 2009, "event": "障害者権利条約批准", "significance": "国連CRPDを批准。国内法の条約適合性に関する議論が活発化" },
+        { "year": 2016, "event": "BTHG成立", "significance": "入力統合給付を社会扶助から分離。「参加」概念中心の大転換" },
+        { "year": 2020, "event": "BTHG全面施行", "significance": "第3段階施行。入力統合給付の新体系が本格稼働" },
+        { "year": 2023, "event": "BTHG第4段階施行", "significance": "資力調査の廃止。障害者の所得・資産による給付制限を大幅緩和" }
+      ],
+      "serviceSystem": [
+        { "category": "入力統合給付", "services": ["社会参加支援", "就労参加支援", "教育参加支援", "医療リハビリ"], "description": "BTHG改革の核心。4分野の参加を支援。社会扶助から独立した給付体系に" },
+        { "category": "就労支援", "services": ["障害者作業所（WfbM）", "予算による就労（Budget fur Arbeit）", "インクルーシブ企業"], "description": "WfbMに約30万人。Budget fur Arbeitで一般企業就労を促進する新制度" },
+        { "category": "リハビリテーション", "services": ["医療リハビリ", "職業リハビリ", "社会リハビリ", "教育リハビリ"], "description": "5つの社会保険がそれぞれリハビリを提供。統合支援計画で連携を確保" },
+        { "category": "住居", "services": ["自立生活+アシスタンス", "共同生活（WG）", "支援付き住居"], "description": "BTHGにより施設入所から地域の住居+支援への転換を推進" },
+        { "category": "教育", "services": ["インクルーシブ教育", "フェルダーシューレ", "統合クラス"], "description": "州により制度が異なる。インクルーシブ教育の進展度に大きな州間格差" },
+        { "category": "雇用義務", "services": ["義務雇用率5%", "補償金（Ausgleichsabgabe）", "インテグレーション事務所"], "description": "従業員20人以上の事業所に5%の義務。未達成は月額補償金（最大720EUR/人）" }
+      ],
+      "statistics": [
+        { "label": "重度障害者認定者", "value": "約790万人", "note": "人口の9.4%（Statistisches Bundesamt, 2023）" },
+        { "label": "障害者雇用率", "value": "51.3%", "note": "非障害者の79%との差は28ポイント" },
+        { "label": "WfbM利用者", "value": "約30万人", "note": "障害者作業所。福祉的就労" },
+        { "label": "義務雇用達成率", "value": "4.1%（全体平均）", "note": "法定5%に対し未達成。公的部門は6.6%" },
+        { "label": "障害関連支出/GDP比", "value": "約2.8%", "note": "社会保険制度を通じた支出が大きい" },
+        { "label": "Budget fur Arbeit利用者", "value": "約5,000人", "note": "2018年導入の新制度。急速に拡大中" }
+      ],
+      "strengths": [
+        { "title": "BTHG改革の包括性", "description": "参加概念を中心にした大転換。社会扶助からの分離により障害者の尊厳を法的に確保" },
+        { "title": "義務雇用率5%", "description": "OECD諸国で最高水準の法定雇用率。補償金制度により実効性を確保" },
+        { "title": "社会保険による安定的リハビリ", "description": "5つの社会保険がリハビリを分担。安定的な財源と専門性のある支援体制" },
+        { "title": "統合支援計画の制度化", "description": "BTHGにより複数機関が関わる統合支援計画の策定を法定。縦割りの克服を目指す" }
+      ],
+      "challenges": [
+        { "title": "WfbMからの脱却が遅い", "description": "30万人が障害者作業所に留まる。Budget fur Arbeitは始まったばかりで利用者5,000人" },
+        { "title": "BTHG実施の複雑さ", "description": "16州での実施に大きな差。新制度への移行で自治体の事務負担が増大" },
+        { "title": "インクルーシブ教育の州間格差", "description": "16州の教育制度がバラバラ。通常学校在籍率は州により30%〜90%と大差" },
+        { "title": "精神障害者の参加困難", "description": "BTHGの参加概念が身体・知的障害中心に設計。精神障害者のニーズとのずれ" }
+      ],
+      "comparisonWithJapan": [
+        { "dimension": "法的枠組み", "thisCountry": "SGB IX + BTHG：参加保障の統合法。社会扶助から独立", "japan": "障害者総合支援法：自立支援給付体系" },
+        { "dimension": "義務雇用率", "thisCountry": "5%（従業員20人以上）。月額最大720EUR/人の補償金", "japan": "2.5%（従業員40人以上）。月額5万円の納付金" },
+        { "dimension": "福祉的就労", "thisCountry": "WfbM（約30万人）。Budget fur Arbeitで一般就労移行を推進", "japan": "就労継続A型（約8万人）・B型（約30万人）。一般就労移行率は低い" },
+        { "dimension": "リハビリ", "thisCountry": "5つの社会保険がそれぞれ提供。職業リハビリが充実", "japan": "障害者総合支援法と医療保険。職業リハビリは地域格差大" },
+        { "dimension": "参加概念", "thisCountry": "BTHGで「参加」を中心概念に。ICFベースのニーズ評価", "japan": "支援区分（1-6）による画一的評価。ICF理念は浸透途上" },
+        { "dimension": "財源", "thisCountry": "社会保険+税+補償金の複合型", "japan": "国+都道府県+市町村の税財源中心" }
+      ],
+      "lessonsForJapan": [
+        { "title": "BTHG的な参加概念の導入", "description": "「自立」から「参加」への概念転換。ICFベースのニーズ評価による支給決定。日本の支援区分制度の見直しに直接的な示唆", "applicability": "high" },
+        { "title": "Budget fur Arbeit型の一般就労支援", "description": "作業所から一般企業への移行を賃金補助で支援。日本のB型→一般就労の移行率改善に応用可能", "applicability": "high" },
+        { "title": "義務雇用率の引き上げ", "description": "5%の義務と高額補償金の組み合わせ。日本の2.5%→段階的引き上げの参考に", "applicability": "medium" },
+        { "title": "統合支援計画の制度化", "description": "複数機関横断の統合計画策定を法定。日本の縦割り行政（医療・福祉・教育・雇用）の連携強化に", "applicability": "high" }
+      ],
+      "recentTrends": [
+        "BTHG第4段階施行による資力調査撤廃の影響検証",
+        "Budget fur Arbeitの全国拡大と利用促進キャンペーン",
+        "デジタルアクセシビリティの法的義務強化（BFSG施行）",
+        "インクルーシブ教育の連邦統一基準策定の議論",
+        "障害者の気候行動への参加（バリアフリーな避難計画等）"
+      ],
+      "sources": [
+        "Statistisches Bundesamt - Schwerbehinderte Menschen (2023)",
+        "Bundesagentur fur Arbeit - Arbeitsmarkt fur Schwerbehinderte",
+        "BMAS - Teilhabebericht der Bundesregierung",
+        "OECD - Disability, Work and Inclusion (2023)",
+        "Bundesarbeitsgemeinschaft der Werkstatten (BAG WfbM)"
+      ]
+    }
+  ]
+}

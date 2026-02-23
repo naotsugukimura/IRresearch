@@ -1,8 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { Globe, ChevronDown, ChevronUp, Check, X } from "lucide-react";
+import Link from "next/link";
+import { Globe, ChevronDown, ChevronUp, Check, X, ArrowRight } from "lucide-react";
 import type { InternationalCase } from "@/lib/types";
+
+const COUNTRY_SLUG_MAP: Record<string, string> = {
+  USA: "usa",
+  Denmark: "denmark",
+  Sweden: "sweden",
+  UK: "uk",
+  Germany: "germany",
+};
 
 interface Props {
   data: InternationalCase[];
@@ -13,14 +22,23 @@ export function InternationalCasesSection({ data }: Props) {
 
   return (
     <div className="rounded-lg border border-border bg-card p-5">
-      <div className="mb-4 flex items-center gap-2">
-        <Globe className="h-4 w-4 text-muted-foreground" />
-        <div>
-          <h3 className="text-sm font-bold">海外の障害福祉制度</h3>
-          <p className="text-xs text-muted-foreground">
-            主要5カ国の制度比較 — 日本への示唆
-          </p>
+      <div className="mb-4 flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <Globe className="h-4 w-4 text-muted-foreground" />
+          <div>
+            <h3 className="text-sm font-bold">海外の障害福祉制度</h3>
+            <p className="text-xs text-muted-foreground">
+              主要5カ国の制度比較 — 日本への示唆
+            </p>
+          </div>
         </div>
+        <Link
+          href="/market/international"
+          className="flex items-center gap-1 text-[10px] text-muted-foreground hover:text-foreground transition-colors"
+        >
+          詳細比較ページ
+          <ArrowRight className="h-3 w-3" />
+        </Link>
       </div>
 
       <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
@@ -97,6 +115,17 @@ export function InternationalCasesSection({ data }: Props) {
                       {country.lessonForJapan}
                     </p>
                   </div>
+
+                  {/* Detail link */}
+                  {COUNTRY_SLUG_MAP[country.countryEn] && (
+                    <Link
+                      href={`/market/international/${COUNTRY_SLUG_MAP[country.countryEn]}`}
+                      className="mt-2 flex items-center gap-1 text-[10px] text-blue-400 hover:text-blue-300 transition-colors"
+                    >
+                      詳しく見る
+                      <ArrowRight className="h-2.5 w-2.5" />
+                    </Link>
+                  )}
                 </div>
               )}
             </div>

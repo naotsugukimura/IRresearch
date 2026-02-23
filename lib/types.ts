@@ -450,6 +450,63 @@ export interface InternationalCase {
   lessonForJapan: string;
 }
 
+// 海外制度詳細ページ用
+export interface InternationalWelfareDetail {
+  id: string;
+  country: string;
+  countryEn: string;
+  flag: string;
+  color: string;
+  overview: string;
+  systemName: string;
+  systemDescription: string;
+  keyLaws: {
+    name: string;
+    year: number;
+    description: string;
+  }[];
+  timeline: {
+    year: number;
+    event: string;
+    significance: string;
+  }[];
+  serviceSystem: {
+    category: string;
+    services: string[];
+    description: string;
+  }[];
+  statistics: {
+    label: string;
+    value: string;
+    note?: string;
+  }[];
+  strengths: {
+    title: string;
+    description: string;
+  }[];
+  challenges: {
+    title: string;
+    description: string;
+  }[];
+  comparisonWithJapan: {
+    dimension: string;
+    thisCountry: string;
+    japan: string;
+  }[];
+  lessonsForJapan: {
+    title: string;
+    description: string;
+    applicability: "high" | "medium" | "low";
+  }[];
+  recentTrends: string[];
+  sources: string[];
+}
+
+export interface InternationalWelfareData {
+  lastUpdated: string;
+  countries: InternationalWelfareDetail[];
+}
+
 export interface EmploymentRateHistory {
   year: number;
   legalRate: number;
