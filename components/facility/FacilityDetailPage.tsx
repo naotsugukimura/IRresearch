@@ -1,3 +1,5 @@
+"use client";
+
 import { Sidebar, MobileNav } from "@/components/layout/Sidebar";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -20,8 +22,10 @@ import { BonusFlowChart } from "@/components/facility/BonusFlowChart";
 import { ServiceBlueprintSection } from "@/components/facility/ServiceBlueprintSection";
 import { RewardUnitTable } from "@/components/facility/RewardUnitTable";
 import { SectionNav } from "@/components/layout/SectionNav";
-import { FACILITY_SECTION_GROUPS, type FacilitySectionGroup } from "@/lib/constants";
+import { FACILITY_SECTION_GROUPS } from "@/lib/constants";
 import type { FacilityAnalysisData } from "@/lib/types";
+import { useState } from "react";
+import { cn } from "@/lib/utils";
 
 interface Props {
   data: FacilityAnalysisData;
@@ -40,19 +44,23 @@ const OPTIONAL_SECTION_CHECKS: Record<string, (d: FacilityAnalysisData) => boole
   rewardHistory: (d) => (d.rewardRevisions?.length ?? 0) > 0,
 };
 
-function CategoryHeader({ label, color }: { label: string; color: string }) {
-  return (
-    <div className="flex items-center gap-2 pt-6 pb-2">
-      <div className="w-1 h-5 rounded-full" style={{ backgroundColor: color }} />
-      <h2 className="text-sm font-bold text-foreground tracking-wide">{label}</h2>
-      <div className="flex-1 h-px bg-border" />
-    </div>
-  );
-}
+// Tab icon/label config
+const TAB_ICONS: Record<string, string> = {
+  market: "\u{1F4CA}",
+  history: "\u{1F4DC}",
+  management: "\u{1F4B0}",
+  operations: "\u{1F527}",
+};
+const TAB_SHORT: Record<string, string> = {
+  market: "\u5E02\u5834",
+  history: "\u6CBF\u9769",
+  management: "\u7D4C\u55B6",
+  operations: "\u696D\u52D9",
+};
 
 export function FacilityDetailPage({ data, title }: Props) {
-  // Filter out groups/sections where data doesn't exist
-  const activeGroups: FacilitySectionGroup[] = FACILITY_SECTION_GROUPS
+  // Filter groups/sections based on available data
+  const activeGroups = FACILITY_SECTION_GROUPS
     .map((group) => ({
       ...group,
       sections: group.sections.filter((s) => {
@@ -62,10 +70,14 @@ export function FacilityDetailPage({ data, title }: Props) {
     }))
     .filter((group) => group.sections.length > 0);
 
+  const [activeTab, setActiveTab] = useState(activeGroups[0]?.groupId ?? "market");
+  const currentGroup = activeGroups.find((g) => g.groupId === activeTab);
+
   return (
     <div className="flex h-screen">
       <Sidebar />
       <main className="flex-1 overflow-y-auto">
+        {/* Header */}
         <div className="sticky top-0 z-20 border-b-0 bg-background/95 px-4 py-3 backdrop-blur md:px-6">
           <div className="flex items-center gap-3">
             <MobileNav />
@@ -73,151 +85,179 @@ export function FacilityDetailPage({ data, title }: Props) {
               <Breadcrumb />
               <PageHeader
                 title={title}
-                description="事業所分析 — 参入法人・運営実態・収支構造の深掘り"
+                description="\u4E8B\u696D\u6240\u5206\u6790 \u2014 \u53C2\u5165\u6CD5\u4EBA\u30FB\u904B\u55B6\u5B9F\u614B\u30FB\u53CE\u652F\u69CB\u9020\u306E\u6DF1\u6398\u308A"
               />
             </div>
           </div>
         </div>
-        <SectionNav groups={activeGroups} />
+
+        {/* ===== Category Tab Bar ===== */}
+        <div className="sticky top-0 z-10 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+          <div className="flex">
+            {activeGroups.map((group) => {
+              const isActive = activeTab === group.groupId;
+              return (
+                <button
+                  key={group.groupId}
+                  onClick={() => setActiveTab(group.groupId)}
+                  className={cn(
+                    "relative flex-1 flex items-center justify-center gap-1.5 px-3 py-2.5 text-xs font-medium transition-colors",
+                    isActive
+                      ? "text-foreground"
+                      : "text-muted-foreground hover:text-foreground/70"
+                  )}
+                >
+                  <span className="text-sm">{TAB_ICONS[group.groupId]}</span>
+                  <span className="hidden sm:inline">{group.groupLabel}</span>
+                  <span className="sm:hidden">{TAB_SHORT[group.groupId]}</span>
+                  <span className="ml-1 rounded-full bg-muted px-1.5 py-0.5 text-[9px] font-mono text-muted-foreground">
+                    {group.sections.length}
+                  </span>
+                  {isActive && (
+                    <span
+                      className="absolute bottom-0 left-2 right-2 h-0.5 rounded-full"
+                      style={{ backgroundColor: group.groupColor }}
+                    />
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* ===== Section Nav (within active tab) ===== */}
+        {currentGroup && currentGroup.sections.length > 1 && (
+          <SectionNav sections={currentGroup.sections} />
+        )}
+
+        {/* ===== Tab Content ===== */}
         <div className="space-y-4 p-4 md:p-6">
 
-          {/* ========================================== */}
-          {/* 市場系                                      */}
-          {/* ========================================== */}
-          <CategoryHeader label="市場系" color="#3B82F6" />
-
-          <section id="overview">
-            <FacilityKpiCards data={data} />
-          </section>
-
-          <div className="grid gap-4 lg:grid-cols-2">
-            <section id="entities">
-              <EntityDistributionChart data={data.entityDistribution} />
-            </section>
-            <section id="scale">
-              <OperatorScaleChart data={data.operatorScale} />
-            </section>
-          </div>
-
-          <section id="timeseries">
-            <FacilityGrowthChart
-              facilityData={data.facilityTimeSeries}
-              userData={data.userTimeSeries}
-              rewardRevisions={data.rewardRevisions}
-              serviceType={data.serviceType}
-            />
-          </section>
-
-          {/* ========================================== */}
-          {/* 沿革系                                      */}
-          {/* ========================================== */}
-          {data.rewardRevisions && data.rewardRevisions.length > 0 && (
+          {/* ===== Market ===== */}
+          {activeTab === "market" && (
             <>
-              <CategoryHeader label="沿革系" color="#F59E0B" />
-              <section id="rewardHistory">
-                <RewardHistorySection
-                  revisions={data.rewardRevisions}
+              <section id="overview">
+                <FacilityKpiCards data={data} />
+              </section>
+
+              <div className="grid gap-4 lg:grid-cols-2">
+                <section id="entities">
+                  <EntityDistributionChart data={data.entityDistribution} />
+                </section>
+                <section id="scale">
+                  <OperatorScaleChart data={data.operatorScale} />
+                </section>
+              </div>
+
+              <section id="timeseries">
+                <FacilityGrowthChart
+                  facilityData={data.facilityTimeSeries}
+                  userData={data.userTimeSeries}
+                  rewardRevisions={data.rewardRevisions}
                   serviceType={data.serviceType}
                 />
               </section>
             </>
           )}
 
-          {/* ========================================== */}
-          {/* 経営系                                      */}
-          {/* ========================================== */}
-          <CategoryHeader label="経営系" color="#10B981" />
-
-          {/* Business Lifecycle / Startup Flow */}
-          {data.businessLifecycle ? (
-            <section id="lifecycle">
-              <BusinessLifecycle
-                lifecycle={data.businessLifecycle}
-                startupGuide={data.startupGuide}
-                serviceType={data.serviceType}
-              />
-            </section>
-          ) : data.startupGuide ? (
-            <section id="lifecycle">
-              <StartupFlow startupGuide={data.startupGuide} serviceType={data.serviceType} />
-            </section>
-          ) : null}
-
-          <section id="pl">
-            <PLWaterfall data={data.facilityPL} />
-          </section>
-
-          {data.rewardUnitTable && (
-            <section id="rewardTable">
-              <RewardUnitTable data={data.rewardUnitTable} />
-            </section>
-          )}
-
-          {data.monthlyPL && (
-            <section id="monthlyPL">
-              <MonthlyPLTable data={data.monthlyPL} />
-            </section>
-          )}
-
-          {/* Bonus Acquisition Flow */}
-          {data.bonusAcquisitionFlow && (
-            <section id="bonusFlow">
-              <BonusFlowChart flow={data.bonusAcquisitionFlow} />
-            </section>
-          )}
-
-          <section id="bonuses">
-            <BonusTable bonuses={data.bonusCatalog} />
-          </section>
-
-          {/* ========================================== */}
-          {/* 業務プロセス理解                              */}
-          {/* ========================================== */}
-          <CategoryHeader label="業務プロセス理解" color="#8B5CF6" />
-
-          {/* User Journey Flow */}
-          {data.userJourney && (
-            <section id="userJourney">
-              <UserJourneyFlow userJourney={data.userJourney} serviceType={data.serviceType} />
-            </section>
-          )}
-
-          {/* Service Blueprint */}
-          {data.serviceBlueprint && (
-            <section id="blueprint">
-              <ServiceBlueprintSection
-                blueprint={data.serviceBlueprint}
+          {/* ===== History ===== */}
+          {activeTab === "history" && data.rewardRevisions && data.rewardRevisions.length > 0 && (
+            <section id="rewardHistory">
+              <RewardHistorySection
+                revisions={data.rewardRevisions}
                 serviceType={data.serviceType}
               />
             </section>
           )}
 
-          {/* Operations: Daily timeline */}
-          <section id="operations">
-            <DailyTimeline
-              schedule={data.operationsStory.dailySchedule}
-              serviceType={data.serviceType}
-            />
-          </section>
+          {/* ===== Management ===== */}
+          {activeTab === "management" && (
+            <>
+              {data.businessLifecycle ? (
+                <section id="lifecycle">
+                  <BusinessLifecycle
+                    lifecycle={data.businessLifecycle}
+                    startupGuide={data.startupGuide}
+                    serviceType={data.serviceType}
+                  />
+                </section>
+              ) : data.startupGuide ? (
+                <section id="lifecycle">
+                  <StartupFlow startupGuide={data.startupGuide} serviceType={data.serviceType} />
+                </section>
+              ) : null}
 
-          {/* Roles */}
-          <section id="roles">
-            <RoleDiagram
-              roles={data.operationsStory.roles}
-              serviceType={data.serviceType}
-            />
-          </section>
+              <section id="pl">
+                <PLWaterfall data={data.facilityPL} />
+              </section>
 
-          {/* Stakeholders */}
-          {data.operationsStory.stakeholders && data.operationsStory.stakeholders.length > 0 && (
-            <section id="stakeholders">
-              <StakeholderMap stakeholders={data.operationsStory.stakeholders} />
-            </section>
+              {data.rewardUnitTable && (
+                <section id="rewardTable">
+                  <RewardUnitTable data={data.rewardUnitTable} />
+                </section>
+              )}
+
+              {data.monthlyPL && (
+                <section id="monthlyPL">
+                  <MonthlyPLTable data={data.monthlyPL} />
+                </section>
+              )}
+
+              {data.bonusAcquisitionFlow && (
+                <section id="bonusFlow">
+                  <BonusFlowChart flow={data.bonusAcquisitionFlow} />
+                </section>
+              )}
+
+              <section id="bonuses">
+                <BonusTable bonuses={data.bonusCatalog} />
+              </section>
+            </>
           )}
 
-          <section id="conversations">
-            <ConversationCards conversations={data.operationsStory.typicalConversations} />
-          </section>
+          {/* ===== Operations ===== */}
+          {activeTab === "operations" && (
+            <>
+              {data.userJourney && (
+                <section id="userJourney">
+                  <UserJourneyFlow userJourney={data.userJourney} serviceType={data.serviceType} />
+                </section>
+              )}
+
+              {data.serviceBlueprint && (
+                <section id="blueprint">
+                  <ServiceBlueprintSection
+                    blueprint={data.serviceBlueprint}
+                    serviceType={data.serviceType}
+                  />
+                </section>
+              )}
+
+              <section id="operations">
+                <DailyTimeline
+                  schedule={data.operationsStory.dailySchedule}
+                  serviceType={data.serviceType}
+                />
+              </section>
+
+              <section id="roles">
+                <RoleDiagram
+                  roles={data.operationsStory.roles}
+                  serviceType={data.serviceType}
+                />
+              </section>
+
+              {data.operationsStory.stakeholders && data.operationsStory.stakeholders.length > 0 && (
+                <section id="stakeholders">
+                  <StakeholderMap stakeholders={data.operationsStory.stakeholders} />
+                </section>
+              )}
+
+              <section id="conversations">
+                <ConversationCards conversations={data.operationsStory.typicalConversations} />
+              </section>
+            </>
+          )}
 
         </div>
       </main>
