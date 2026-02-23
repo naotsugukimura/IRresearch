@@ -46,6 +46,7 @@ export const NAV_ITEMS: NavItem[] = [
     icon: "Building",
     children: [
       { href: "/facility", label: "サービス種別一覧" },
+      { href: "/facility/flow", label: "利用フロー図" },
     ],
   },
   {
