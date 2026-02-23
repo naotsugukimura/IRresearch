@@ -22,10 +22,25 @@ Vercelにデプロイして使用（`output: "export"`）。
 
 ## ディレクトリ構成
 ```
-app/                    # ページ（28ページ）
+app/                    # ページ（43ページ）
   page.tsx              # ダッシュボード（/）
   market/page.tsx       # 総合ダッシュボード（/market）
   reward-revision/page.tsx # 報酬改定タイムライン（/reward-revision）
+  disability/page.tsx   # 障害理解インデックス（/disability） — 4グループ14障害種別
+  disability/physical/  # 身体障害
+  disability/intellectual/ # 知的障害
+  disability/mental/    # 精神障害
+  disability/developmental/ # 発達障害
+  disability/acquired-brain/ # 高次脳機能障害
+  disability/intractable/ # 難病
+  disability/severe-multiple/ # 重症心身障害
+  disability/challenging-behavior/ # 強度行動障害
+  disability/addiction/ # 依存症
+  disability/dementia/  # 認知症（若年性含む）
+  disability/multiple/  # 重複障害
+  disability/medical-care-child/ # 医療的ケア児
+  disability/justice-involved/ # 触法障害者
+  disability/social-withdrawal/ # 社会的ひきこもり
   facility/page.tsx     # 事業所分析インデックス（/facility） — 4カテゴリ19サービス
   facility/houkago-day/ # 放課後等デイサービス
   facility/jidou-hattatsu/ # 児童発達支援
@@ -52,6 +67,7 @@ app/                    # ページ（28ページ）
   notes/page.tsx        # 分析ノート
 components/
   company/              # 企業詳細の各セクション
+  disability/           # 障害理解（DisabilityDetailPage — 14障害種別の共通詳細レイアウト）
   plan/                 # 事業計画PL（SummaryCards, PlChart, MonthlyTable）
   dashboard/            # ダッシュボードKPI
   compare/              # 比較テーブル・チャート
@@ -77,6 +93,7 @@ data/                   # 全データJSON（companies, financials, business-pla
     shukuhaku-kunren.json, shurou-ikou.json, shurou-a.json,
     shurou-b.json, shurou-teichaku.json, chiiki-ikou.json,
     chiiki-teichaku.json, keikaku-soudan.json, shougaiji-soudan.json
+  disability-knowledge.json # 障害理解（14障害種別の詳細データ）
   web-research.json     # 非上場企業Webリサーチ（全社集約）
   web-research/         # 非上場企業Webリサーチ（企業別JSON）
 scripts/                # Python — DB管理 / EDINET / IRスクレイパー / Tavilyリサーチ
@@ -547,6 +564,36 @@ TAVILY_API_KEY=tvly-...
 
 ## ★ 事業ライフサイクル横展開 完了（2026-02-22）
 - `scripts/generate_lifecycle.py` 実行済み: 全17サービスにbusinessLifecycleデータ追加済み
+
+## ★ Phase 18 完了（2026-02-23）: 障害理解セクション トップレベル昇格 + 14障害種別
+
+### 概要
+ナレッジ配下のサブページだった `/learn/disability`（4カテゴリのタブUI）を、
+サイドバーのトップレベルセクションに昇格。事業所分析（19サービス個別ページ）と同じ構造パターンで
+14障害種別を独立ページとして実装。
+
+### サイドバー構造（変更後）
+```
+ホーム → マクロ環境 → 障害理解★NEW → 事業所分析 → 企業分析 → ナレッジ
+```
+
+### 14障害種別（4グループ）
+- **三障害（手帳制度）**: 身体障害 / 知的障害 / 精神障害 / 発達障害
+- **専門領域**: 高次脳機能障害 / 難病 / 依存症 / 認知症（若年性含む）
+- **複合・重度**: 重症心身障害 / 強度行動障害 / 重複障害 / 医療的ケア児
+- **社会的課題**: 触法障害者 / 社会的ひきこもり
+
+### 新規ファイル
+- `app/disability/page.tsx` — indexページ（カテゴリ別テーブル一覧、/facility と同パターン）
+- `app/disability/[14種]/page.tsx` — 各障害種別の詳細ページ（各9行）
+- `components/disability/DisabilityDetailPage.tsx` — 詳細ページ共通コンポーネント（KPI/発覚タイムライン/治療/就労サポート）
+
+### 変更ファイル
+- `data/disability-knowledge.json` — 4→14カテゴリ（+10種、+約800行）
+- `lib/data.ts` — `getDisabilityCategory(id)` 関数追加
+- `lib/constants.ts` — NAV_ITEMSに「障害理解」追加、ナレッジから削除
+- `components/layout/Sidebar.tsx` — Heartアイコン追加
+- `app/learn/disability/page.tsx` — `/disability` へリダイレクト
 
 ### ★ 次にやること
 - **全82社IR分析一括実行**: NEXT_SESSION_PROMPT.md参照（Step 1-5の手順あり、API費用~$32）

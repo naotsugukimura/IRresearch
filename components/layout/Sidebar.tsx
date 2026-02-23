@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import {
   LayoutDashboard,
   Globe,
+  Heart,
   Building,
   Building2,
   GraduationCap,
@@ -22,6 +23,7 @@ import { Separator } from "@/components/ui/separator";
 const ICON_MAP = {
   LayoutDashboard,
   Globe,
+  Heart,
   Building,
   Building2,
   GraduationCap,

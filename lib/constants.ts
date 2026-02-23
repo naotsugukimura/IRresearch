@@ -32,6 +32,14 @@ export const NAV_ITEMS: NavItem[] = [
     ],
   },
   {
+    href: "/disability",
+    label: "障害理解",
+    icon: "Heart",
+    children: [
+      { href: "/disability", label: "障害種別一覧" },
+    ],
+  },
+  {
     href: "/facility",
     label: "事業所分析",
     icon: "Building",
@@ -54,7 +62,6 @@ export const NAV_ITEMS: NavItem[] = [
     icon: "GraduationCap",
     children: [
       { href: "/learn", label: "用語集" },
-      { href: "/learn/disability", label: "障害理解" },
       { href: "/notes", label: "分析ノート" },
     ],
   },

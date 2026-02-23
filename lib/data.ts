@@ -49,6 +49,7 @@ import type {
   FacilityAnalysisData,
   WebResearchData,
   DisabilityKnowledgeData,
+  DisabilityCategory,
   RewardRevisionPageData,
 } from "./types";
 
@@ -271,6 +272,11 @@ export function getWebResearch(companyId: string): WebResearchData | undefined {
 
 export function getDisabilityKnowledge(): DisabilityKnowledgeData {
   return disabilityKnowledgeData as unknown as DisabilityKnowledgeData;
+}
+
+export function getDisabilityCategory(id: string): DisabilityCategory | undefined {
+  const data = getDisabilityKnowledge();
+  return data.categories.find((c) => c.id === id);
 }
 
 // ============================================================
