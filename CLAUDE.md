@@ -700,6 +700,32 @@ TAVILY_API_KEY=tvly-...
 - `scripts/generate_subtypes.py` — Claude APIでサブタイプデータ生成（13カテゴリ並列）
 - `scripts/generate_subtype_pages.py` — JSONからNext.jsページファイル一括生成
 
+## ★ Phase 23 完了（2026-02-23）: 事業所分析ページ4カテゴリ再編成
+
+### 概要
+事業所分析の各サービス詳細ページ（全19ページ）のセクションを4つの論理カテゴリに分類し、
+SectionNavにカテゴリグループ表示を導入。情報の整理度と閲覧性が大幅に向上。
+
+### 4カテゴリ構成
+1. **市場系**（青）: 概要KPI / 参入法人 / 事業規模 / 推移
+2. **沿革系**（黄）: 報酬改定の歴史と市場への影響（新規セクション）
+3. **経営系**（緑）: 事業ライフサイクル / PL / 報酬単位 / 月次収支 / 加算フロー / 加算一覧
+4. **業務プロセス理解**（紫）: 利用者フロー / 業務プロセス / 一日の流れ / 登場人物 / 関係者マップ / 現場の声
+
+### 新規ファイル
+- `components/facility/RewardHistorySection.tsx` — 報酬改定タイムラインUI（展開可能アコーディオン）
+
+### 変更ファイル
+- `lib/constants.ts` — `FACILITY_SECTION_GROUPS`（4グループ定義）+ `FacilitySectionGroup` 型エクスポート
+- `components/layout/SectionNav.tsx` — `groups` prop追加、カラードット付きカテゴリラベル + セパレーター表示
+- `components/facility/FacilityDetailPage.tsx` — `CategoryHeader`コンポーネント + セクション順序再配置
+
+### 設計ポイント
+- `FACILITY_SECTIONS`はflatMap後方互換で維持（他で参照される場合に備え）
+- `SectionNav`は `groups` propが渡されればグループ表示、`sections` のみならフラット表示（企業分析等に影響なし）
+- `OPTIONAL_SECTION_CHECKS` に `rewardHistory` を追加（rewardRevisionsデータがない場合は沿革系セクション自体を非表示）
+- 各グループはIntersectionObserverでスクロール連動ハイライト
+
 ### ★ 次にやること（優先度順）
 
 #### Phase 21: 事業所分析の拡張（地域分析 + 複数サービス分析）
