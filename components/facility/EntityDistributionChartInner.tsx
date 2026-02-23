@@ -67,6 +67,7 @@ export default function EntityDistributionChartInner({ data }: Props) {
                   border: "1px solid hsl(var(--border))",
                   borderRadius: 8,
                   fontSize: 12,
+                  color: "hsl(var(--foreground))",
                 }}
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 formatter={(value: number, _name: string, entry: any) => [
@@ -105,6 +106,7 @@ export default function EntityDistributionChartInner({ data }: Props) {
                   border: "1px solid hsl(var(--border))",
                   borderRadius: 8,
                   fontSize: 12,
+                  color: "hsl(var(--foreground))",
                 }}
                 formatter={(value: number) => [`${value}%`, "シェア"]}
               />

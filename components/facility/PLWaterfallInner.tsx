@@ -89,6 +89,7 @@ export default function PLWaterfallInner({ data }: Props) {
                   border: "1px solid hsl(var(--border))",
                   borderRadius: 8,
                   fontSize: 12,
+                  color: "hsl(var(--foreground))",
                 }}
                 formatter={(value: number) => [`¥${value.toLocaleString()}/月`, "金額"]}
               />

@@ -46,6 +46,7 @@ export const NAV_ITEMS: NavItem[] = [
     icon: "Building",
     children: [
       { href: "/facility", label: "サービス種別一覧" },
+      { href: "/facility/lifecycle", label: "事業所ライフサイクル" },
       { href: "/facility/flow", label: "利用フロー図" },
     ],
   },
@@ -57,15 +58,6 @@ export const NAV_ITEMS: NavItem[] = [
       { href: "/company/chaos-map", label: "カオスマップ" },
       { href: "/company", label: "企業一覧" },
       { href: "/compare", label: "企業比較" },
-    ],
-  },
-  {
-    href: "/learn",
-    label: "ナレッジ",
-    icon: "GraduationCap",
-    children: [
-      { href: "/learn", label: "用語集" },
-      { href: "/notes", label: "分析ノート" },
     ],
   },
 ];

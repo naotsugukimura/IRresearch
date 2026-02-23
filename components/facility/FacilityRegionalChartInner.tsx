@@ -93,25 +93,26 @@ export default function FacilityRegionalChartInner({ data, serviceType }: Props)
                 layout="vertical"
                 margin={{ top: 5, right: 30, left: 60, bottom: 5 }}
               >
-                <XAxis type="number" tick={{ fontSize: 10, fill: "#9CA3AF" }} />
+                <XAxis type="number" tick={{ fontSize: 10, fill: "hsl(var(--muted-foreground))" }} />
                 <YAxis
                   dataKey="name"
                   type="category"
-                  tick={{ fontSize: 11, fill: "#D1D5DB" }}
+                  tick={{ fontSize: 11, fill: "hsl(var(--foreground))" }}
                   width={55}
                 />
                 <Tooltip
                   contentStyle={{
-                    backgroundColor: "#1f2937",
-                    border: "1px solid #374151",
+                    backgroundColor: "hsl(var(--card))",
+                    border: "1px solid hsl(var(--border))",
                     borderRadius: "8px",
                     fontSize: "11px",
+                    color: "hsl(var(--foreground))",
                   }}
                   formatter={(value: number) => [
                     `${value.toLocaleString()} 事業所`,
                     "",
                   ]}
-                  labelStyle={{ color: "#D1D5DB", fontWeight: "bold" }}
+                  labelStyle={{ color: "hsl(var(--muted-foreground))", fontWeight: "bold" }}
                 />
                 <Bar dataKey="count" radius={[0, 4, 4, 0]}>
                   {data.top10.map((_, idx) => (
@@ -142,9 +143,11 @@ export default function FacilityRegionalChartInner({ data, serviceType }: Props)
                     innerRadius={60}
                     outerRadius={120}
                     paddingAngle={2}
-                    label={({ name, share }: { name: string; share: number }) =>
-                      `${name} ${share}%`
-                    }
+                    label={({ name, share, x, y }: { name: string; share: number; x: number; y: number }) => (
+                      <text x={x} y={y} fill="hsl(var(--foreground))" fontSize={11} textAnchor="middle">
+                        {`${name} ${share}%`}
+                      </text>
+                    )}
                     labelLine={false}
                   >
                     {data.byRegion.map((_, idx) => (
@@ -153,10 +156,11 @@ export default function FacilityRegionalChartInner({ data, serviceType }: Props)
                   </Pie>
                   <Tooltip
                     contentStyle={{
-                      backgroundColor: "#1f2937",
-                      border: "1px solid #374151",
+                      backgroundColor: "hsl(var(--card))",
+                      border: "1px solid hsl(var(--border))",
                       borderRadius: "8px",
                       fontSize: "11px",
+                      color: "hsl(var(--foreground))",
                     }}
                     formatter={(value: number) => [`${value.toLocaleString()} 事業所`, ""]}
                   />

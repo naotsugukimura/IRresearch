@@ -109,6 +109,7 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
                 border: "1px solid hsl(var(--border))",
                 borderRadius: 8,
                 fontSize: 12,
+                color: "hsl(var(--foreground))",
               }}
               formatter={(value: number, name: string) => [value.toLocaleString(), name]}
               labelFormatter={(label) => `${label}年`}
@@ -168,6 +169,7 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
                 border: "1px solid hsl(var(--border))",
                 borderRadius: 8,
                 fontSize: 12,
+                color: "hsl(var(--foreground))",
               }}
               formatter={(value: number, name: string) => {
                 if (name === "事業所数") return [value.toLocaleString(), name];

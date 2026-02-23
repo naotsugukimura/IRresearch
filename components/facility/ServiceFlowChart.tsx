@@ -54,7 +54,7 @@ function ProcessNode({ data }: NodeProps) {
         {label}
       </div>
       {description && (
-        <div className="text-[8px] text-gray-400 leading-tight">
+        <div className="text-[8px] text-muted-foreground leading-tight">
           {description}
         </div>
       )}
@@ -183,7 +183,7 @@ export function ServiceFlowChart() {
     () => ({
       style: { strokeWidth: 1.5, stroke: "#6B7280" },
       labelStyle: { fill: "#9CA3AF", fontSize: 9, fontWeight: 500 },
-      labelBgStyle: { fill: "#0a0a0a", fillOpacity: 0.8 },
+      labelBgStyle: { fill: "#1f2937", fillOpacity: 0.9 },
       labelBgPadding: [4, 2] as [number, number],
       labelBgBorderRadius: 3,
     }),
@@ -195,7 +195,7 @@ export function ServiceFlowChart() {
   }, []);
 
   return (
-    <div className="w-full h-[600px] rounded-lg border border-border overflow-hidden bg-[#0a0a0a]">
+    <div className="w-full h-[600px] rounded-lg border border-border overflow-hidden bg-background">
       <ReactFlow
         nodes={SERVICE_FLOW_NODES}
         edges={SERVICE_FLOW_EDGES}
