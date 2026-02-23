@@ -728,12 +728,32 @@ TAVILY_API_KEY=tvly-...
 - `FACILITY_SECTIONS`はflatMap後方互換で維持
 - `OPTIONAL_SECTION_CHECKS` に `rewardHistory` 追加（データなし→沿革タブ自体を非表示）
 
+## ★ Phase 21a 完了（2026-02-23）: 事業所地域分析（都道府県別分布）
+
+### 概要
+WAMNET Open Data (2025/09) から全サービスの都道府県別事業所数を自動集計。
+11/18サービスで地域分析データを取得し、市場系タブ内「地域分布」セクションとして表示。
+
+### 新規ファイル
+- `scripts/analyze_wamnet_all.py` — 全サービスWAMNET分析バッチスクリプト
+- `components/facility/FacilityRegionalChart.tsx` — dynamic importラッパー
+- `components/facility/FacilityRegionalChartInner.tsx` — 3ビューUI（Top10棒グラフ/地域別円グラフ/全都道府県テーブル）
+
+### 変更ファイル
+- `lib/types.ts` — `FacilityRegionalData`, `PrefectureData`, `RegionData` 型追加
+- `lib/constants.ts` — 市場系セクションに `{ id: "regional", label: "地域分布" }` 追加
+- `components/facility/FacilityDetailPage.tsx` — regionalセクション追加 + OPTIONAL_SECTION_CHECKS
+- `data/facility-analysis/*.json` — 11ファイルに `regionalData` フィールド追加
+
+### データ取得状況
+- **取得成功 (11)**: houkago-day, jidou-hattatsu, iryougata-jidou, kyotaku-houmon, hoikusho-houmon, seikatsu-kunren, shurou-b, shurou-teichaku, keikaku-soudan, chiiki-ikou, chiiki-teichaku
+- **404エラー (7)**: group-home, jiritsu-seikatsu, shurou-ikou, shurou-a, kinou-kunren, shougaiji-soudan, shukuhaku-kunren
+  - WAMNETのサービスコード体系が一部異なる可能性あり（要調査）
+
 ### ★ 次にやること（優先度順）
 
-#### Phase 21: 事業所分析の拡張（地域分析 + 複数サービス分析）
-- **地域分析**: 都道府県別の事業所分布・シェア（WAMNET CSVデータを活用）
-  - `/facility/area` のような新ページ or 各サービスページ内にセクション追加
-  - 既存 `scripts/analyze_wamnet.py` のパターンを19サービスに横展開
+#### Phase 21b: 残り7サービスの地域分析 + 複数サービス分析
+- WAMNETの正しいサービスコードを調査して残り7サービスのデータ取得
 - **複数サービス分析**: 法人の兼業パターン分析
   - 同一法人が運営する複数サービスの組み合わせ（放デイ+児発、GH+B型 等）
   - クロス集計テーブル or サンキーダイアグラム
