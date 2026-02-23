@@ -35,9 +35,9 @@ const GUIDE_CARDS = [
     title: "業界知識を深める",
     description:
       "障害特性と必要なサポート、業界用語、KPI/PLの読み方など、障害福祉ビジネスの基礎知識を習得する",
-    href: "/learn/disability",
+    href: "/disability",
     color: "#EC4899",
-    tags: ["障害理解", "用語集", "支援方法", "就労配慮"],
+    tags: ["14カテゴリ", "67サブタイプ", "支援方法", "就労配慮"],
   },
 ];
 

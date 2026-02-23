@@ -76,7 +76,9 @@
     "brandColor": "#FF6B6B",
     "irUrl": "https://aidemy.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4",
+    "subCategory": "EdTech"
   },
   {
     "id": "ami",
@@ -116,7 +118,9 @@
     "brandColor": "#FF7043",
     "irUrl": "https://ami-da.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "atama_plus",
@@ -150,7 +154,9 @@
     "monitoringReason": "AI個別最適化学習の先駆者。障害児の学習支援へのAI活用の参考モデルとして監視。",
     "brandColor": "#FFC107",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4",
+    "subCategory": "EdTech"
   },
   {
     "id": "atgp",
@@ -187,7 +193,7 @@
     "threatLevel": 3,
     "monitoringReason": "障害者向け求人プラットフォームで高い認知度。LITALICO仕事ナビとの競合動向を監視。",
     "brandColor": "#4CAF50",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q1",
     "subCategory": "人材紹介"
@@ -230,7 +236,9 @@
     "brandColor": "#F39C12",
     "irUrl": "https://corp.benefit-one.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "HR/メディア"
   },
   {
     "id": "benesse",
@@ -272,7 +280,9 @@
     "brandColor": "#EE2737",
     "irUrl": "https://www.benesse-hd.co.jp/ja/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "bright_vacation",
@@ -306,7 +316,9 @@
     "monitoringReason": "障害者GHのFC展開モデル。日中サービス支援型GHの普及と制度改正の影響を監視。",
     "brandColor": "#26C6DA",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1",
+    "subCategory": "事業所運営"
   },
   {
     "id": "care21",
@@ -341,7 +353,7 @@
     "monitoringReason": "関西圏での障害福祉サービス展開動向。地域密着型のサービス展開戦略を監視。",
     "irUrl": "https://www.care21.co.jp/ir/",
     "brandColor": "#C62828",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q3",
     "subCategory": "介護"
@@ -384,7 +396,9 @@
     "brandColor": "#2196F3",
     "irUrl": "https://www.carenet.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "医療"
   },
   {
     "id": "charm_care",
@@ -420,7 +434,9 @@
     "brandColor": "#8E24AA",
     "irUrl": "https://www.charmcc.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "cocoruport",
@@ -501,7 +517,7 @@
     "threatLevel": 3,
     "monitoringReason": "FCモデルによる児童発達支援拠点の急拡大。児童福祉領域でのシェア拡大と品質管理の動向を監視。",
     "brandColor": "#FF9900",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q2",
     "subCategory": "事業所向け"
@@ -544,7 +560,9 @@
     "brandColor": "#2C3E50",
     "irUrl": "https://crowdworks.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "HR/メディア"
   },
   {
     "id": "cuore",
@@ -578,7 +596,9 @@
     "monitoringReason": "企業向け障害者雇用コンサルティング市場の動向。研修需要とコンプライアンス対応の変化を監視。",
     "brandColor": "#5C6BC0",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2",
+    "subCategory": "企業向け"
   },
   {
     "id": "curebito",
@@ -618,7 +638,9 @@
     "brandColor": "#00695C",
     "irUrl": "https://cuc-group.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "医療"
   },
   {
     "id": "cybozu",
@@ -660,7 +682,9 @@
     "brandColor": "#002C6E",
     "irUrl": "https://cybozu.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "SaaS"
   },
   {
     "id": "decoboco",
@@ -691,8 +715,10 @@
     "threatLevel": 2,
     "monitoringReason": "FCモデルによる児童福祉事業の拡大動向。多ブランド戦略と拠点数の成長を監視。",
     "brandColor": "#00BCD4",
-    "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "hasFullData": true,
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2",
+    "subCategory": "企業向け"
   },
   {
     "id": "dip",
@@ -729,7 +755,9 @@
     "brandColor": "#FF6600",
     "irUrl": "https://www.dip-net.co.jp/ir",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "HR/メディア"
   },
   {
     "id": "en_japan",
@@ -774,7 +802,9 @@
     "brandColor": "#FBC02D",
     "irUrl": "https://corp.en-japan.com/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "HR/メディア"
   },
   {
     "id": "ewell",
@@ -814,7 +844,9 @@
     "brandColor": "#00B894",
     "irUrl": "https://e-well.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2",
+    "subCategory": "企業向け"
   },
   {
     "id": "freee",
@@ -856,7 +888,9 @@
     "brandColor": "#6920CE",
     "irUrl": "https://corp.freee.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "SaaS"
   },
   {
     "id": "genda",
@@ -897,7 +931,9 @@
     "brandColor": "#FF1744",
     "irUrl": "https://genda.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4",
+    "subCategory": "AI/BPO"
   },
   {
     "id": "global_kids",
@@ -937,7 +973,9 @@
     "brandColor": "#FDCB6E",
     "irUrl": "https://www.gkids.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2",
+    "subCategory": "保育・児童"
   },
   {
     "id": "goodwill",
@@ -971,7 +1009,9 @@
     "monitoringReason": "就労継続支援の多拠点展開モデル。工賃向上策と企業連携の動向を監視。",
     "brandColor": "#6C5CE7",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1",
+    "subCategory": "事業所運営"
   },
   {
     "id": "hug",
@@ -1004,7 +1044,7 @@
     "threatLevel": 2,
     "monitoringReason": "放課後デイ向けSaaSでニッチなポジション。児童福祉SaaS市場での動向を監視。",
     "brandColor": "#E91E63",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q1",
     "subCategory": "SaaS"
@@ -1053,7 +1093,9 @@
     "brandColor": "#00838F",
     "irUrl": "https://www.jmdc.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "医療"
   },
   {
     "id": "kaien",
@@ -1089,7 +1131,7 @@
     "threatLevel": 3,
     "monitoringReason": "発達障害特化の就労支援で独自ポジション。専門性の高い支援モデルとIPO可能性を監視。",
     "brandColor": "#3F51B5",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q2",
     "subCategory": "事業所向け"
@@ -1131,8 +1173,10 @@
     "monitoringReason": "介護・医療のクラウドプラットフォームから障害福祉への展開可能性を監視。",
     "irUrl": "https://www.kanamic.net/ir/",
     "brandColor": "#1565C0",
-    "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "hasFullData": true,
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1",
+    "subCategory": "SaaS"
   },
   {
     "id": "knowbe",
@@ -1165,7 +1209,7 @@
     "threatLevel": 2,
     "monitoringReason": "就労支援特化型SaaSとして、カイポケ障害福祉版と直接競合。機能開発・価格戦略を監視。",
     "brandColor": "#FF5722",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q1",
     "subCategory": "SaaS"
@@ -1211,7 +1255,9 @@
     "monitoringReason": "障害児向け学習支援の動向。インクルーシブ教育市場への影響を監視。",
     "brandColor": "#0072BC",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4",
+    "subCategory": "EdTech"
   },
   {
     "id": "lancers",
@@ -1251,7 +1297,9 @@
     "brandColor": "#0089FF",
     "irUrl": "https://www.lancers.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "HR/メディア"
   },
   {
     "id": "layerx",
@@ -1285,7 +1333,7 @@
     "threatLevel": 1,
     "monitoringReason": "AI/LLM活用SaaSのベンチマーク企業。AI-OCR技術・プロダクト開発速度の参考として監視。",
     "brandColor": "#2196F3",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q4",
     "subCategory": "AI/BPO"
@@ -1322,7 +1370,9 @@
     "brandColor": "#0097A7",
     "irUrl": "https://lifedrink.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2",
+    "subCategory": "独自路線"
   },
   {
     "id": "lifemap",
@@ -1356,7 +1406,9 @@
     "monitoringReason": "スマホファーストの福祉記録システムとして差別化。カイポケ障害福祉版との競合動向を監視。",
     "brandColor": "#7E57C2",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2",
+    "subCategory": "事業所向け"
   },
   {
     "id": "litalico",
@@ -1494,8 +1546,10 @@
     "threatLevel": 2,
     "monitoringReason": "グローバル人材大手の日本における障害者雇用支援の拡大動向を監視。",
     "brandColor": "#1976D2",
-    "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "hasFullData": true,
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "HR/メディア"
   },
   {
     "id": "medley",
@@ -1535,7 +1589,7 @@
     "monitoringReason": "医療・介護DXのベンチマーク企業。プロダクト戦略・UI/UX・成長モデルの参考として監視。",
     "irUrl": "https://www.medley.jp/ir/",
     "brandColor": "#1A237E",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q3",
     "subCategory": "介護"
@@ -1578,7 +1632,9 @@
     "brandColor": "#43A047",
     "irUrl": "https://medpeer.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "医療"
   },
   {
     "id": "minnano_kaigo",
@@ -1612,7 +1668,9 @@
     "monitoringReason": "介護施設検索から障害福祉施設検索への展開動向。LITALICO仕事ナビとの競合可能性を監視。",
     "brandColor": "#4CAF50",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "miraiz",
@@ -1645,7 +1703,9 @@
     "monitoringReason": "IT特化の就労移行支援で差別化。専門領域での競合動向を監視。",
     "brandColor": "#0984E3",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1",
+    "subCategory": "事業所運営"
   },
   {
     "id": "money_forward",
@@ -1691,7 +1751,9 @@
     "brandColor": "#5E35B1",
     "irUrl": "https://corp.moneyforward.com/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "SaaS"
   },
   {
     "id": "nd_software",
@@ -1729,7 +1791,7 @@
     "threatLevel": 3,
     "monitoringReason": "障害福祉向け業務ソフトで高シェア。カイポケの障害福祉SaaSと直接競合するため、機能拡張・価格戦略を監視。",
     "brandColor": "#2E7D32",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q1",
     "subCategory": "SaaS"
@@ -1775,7 +1837,9 @@
     "monitoringReason": "介護最大手の障害福祉参入動向。全国の事業基盤を活用した障害福祉サービス展開を監視。",
     "brandColor": "#D32F2F",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "obic",
@@ -1816,7 +1880,9 @@
     "brandColor": "#1B5E20",
     "irUrl": "https://www.obic.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "SaaS"
   },
   {
     "id": "onelife",
@@ -1851,7 +1917,9 @@
     "monitoringReason": "特色ある療育プログラムによる放課後デイの差別化戦略。プログラミング教育×福祉の動向を監視。",
     "brandColor": "#E040FB",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1",
+    "subCategory": "事業所運営"
   },
   {
     "id": "outsourcing",
@@ -1896,7 +1964,9 @@
     "brandColor": "#0277BD",
     "irUrl": "https://www.outsourcing.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "HR/メディア"
   },
   {
     "id": "pasona",
@@ -1934,8 +2004,10 @@
     "monitoringReason": "パソナハートフルを通じた障害者雇用支援の動向。淡路島での障害者雇用モデル等の独自施策にも注目。",
     "irUrl": "https://www.pasonagroup.co.jp/ir/",
     "brandColor": "#003399",
-    "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "hasFullData": true,
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "HR/メディア"
   },
   {
     "id": "persol",
@@ -1973,7 +2045,7 @@
     "monitoringReason": "パーソルチャレンジを通じた障害者雇用支援の拡大動向を監視。大手人材企業の資本力による参入拡大リスク。",
     "irUrl": "https://www.persol-group.co.jp/ir/",
     "brandColor": "#0066CC",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q1",
     "subCategory": "人材紹介"
@@ -2017,7 +2089,9 @@
     "brandColor": "#0D47A1",
     "irUrl": "https://www.phchd.com/jp/ir",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "医療"
   },
   {
     "id": "progrit",
@@ -2057,7 +2131,9 @@
     "brandColor": "#1A1A2E",
     "irUrl": "https://about.progrit.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4",
+    "subCategory": "EdTech"
   },
   {
     "id": "proto",
@@ -2097,7 +2173,9 @@
     "brandColor": "#E53935",
     "irUrl": "https://www.proto-g.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "HR/メディア"
   },
   {
     "id": "qubell",
@@ -2138,7 +2216,9 @@
     "brandColor": "#6C5CE7",
     "irUrl": "https://qubell.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1",
+    "subCategory": "事業所運営"
   },
   {
     "id": "rakus",
@@ -2176,7 +2256,9 @@
     "brandColor": "#1565C0",
     "irUrl": "https://www.rakus.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "SaaS"
   },
   {
     "id": "recruit",
@@ -2217,7 +2299,7 @@
     "monitoringReason": "HR・SaaS領域の最大手ベンチマーク。プラットフォーム戦略・AI活用・M&A動向の参考として監視。",
     "irUrl": "https://recruit-holdings.com/ja/ir/",
     "brandColor": "#FF0000",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q3",
     "subCategory": "SaaS"
@@ -2255,7 +2337,9 @@
     "monitoringReason": "介護・福祉向けAI活用SaaSの新興勢力。LIFE対応SaaSの動向と障害福祉領域への展開可能性を監視。",
     "brandColor": "#FF7043",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2",
+    "subCategory": "事業所向け"
   },
   {
     "id": "saint_care",
@@ -2294,8 +2378,10 @@
     "monitoringReason": "在宅介護大手の障害福祉参入動向。居宅介護・重度訪問介護での事業拡大を監視。",
     "irUrl": "https://www.saint-care.com/ir/",
     "brandColor": "#00695C",
-    "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "hasFullData": true,
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "sakura_cs",
@@ -2335,7 +2421,9 @@
     "brandColor": "#2D3436",
     "irUrl": "https://www.sakura-kcs.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "SaaS"
   },
   {
     "id": "sansan",
@@ -2377,7 +2465,9 @@
     "brandColor": "#004E98",
     "irUrl": "https://jp.corp-sansan.com/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "SaaS"
   },
   {
     "id": "shift",
@@ -2419,7 +2509,9 @@
     "brandColor": "#D32F2F",
     "irUrl": "https://www.shiftinc.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4",
+    "subCategory": "AI/BPO"
   },
   {
     "id": "silverii",
@@ -2456,7 +2548,9 @@
     "brandColor": "#F57C00",
     "irUrl": "https://www.silver-life.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "sms",
@@ -2549,7 +2643,9 @@
     "monitoringReason": "保険大手グループの介護DX戦略。テクノロジー活用の介護・福祉サービスモデルの参考として監視。",
     "brandColor": "#00529B",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "sorust",
@@ -2589,8 +2685,10 @@
     "monitoringReason": "M&Aを活用した障害福祉事業の拡大動向。医療・介護からの領域拡張戦略を監視。",
     "irUrl": "https://www.solasto.co.jp/ir/",
     "brandColor": "#7B1FA2",
-    "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "hasFullData": true,
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "special_learning",
@@ -2623,8 +2721,10 @@
     "threatLevel": 1,
     "monitoringReason": "障害福祉事業所向け研修市場でのポジション。SaaS連携や事業所管理ツールへの展開可能性を監視。",
     "brandColor": "#FF8F00",
-    "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "hasFullData": true,
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2",
+    "subCategory": "事業所向け"
   },
   {
     "id": "spool",
@@ -2706,7 +2806,7 @@
     "threatLevel": 3,
     "monitoringReason": "サテライトオフィス型障害者雇用で競合するエスプールとの競争動向。IPO可能性にも注目。",
     "brandColor": "#009688",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q2",
     "subCategory": "企業向け"
@@ -2750,7 +2850,9 @@
     "brandColor": "#26A69A",
     "irUrl": "https://sunwels.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "surala",
@@ -2791,7 +2893,9 @@
     "brandColor": "#00BFA5",
     "irUrl": "https://surala.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4",
+    "subCategory": "EdTech"
   },
   {
     "id": "totalmobile",
@@ -2825,7 +2929,9 @@
     "monitoringReason": "訪問系福祉サービスのDXツール。居宅介護・重度訪問介護の業務効率化動向の参考として監視。",
     "brandColor": "#5D4037",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2",
+    "subCategory": "事業所向け"
   },
   {
     "id": "tryt",
@@ -2866,7 +2972,9 @@
     "brandColor": "#E17055",
     "irUrl": "https://tryt-group.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "HR/メディア"
   },
   {
     "id": "tsukui",
@@ -2907,7 +3015,9 @@
     "brandColor": "#388E3C",
     "irUrl": "https://www.tsukui.net/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "unimat",
@@ -2941,8 +3051,10 @@
     "threatLevel": 2,
     "monitoringReason": "介護施設運営大手の障害福祉領域への展開。障害者グループホーム市場への参入動向を監視。",
     "brandColor": "#4E342E",
-    "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "hasFullData": true,
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "ut_group",
@@ -2982,7 +3094,9 @@
     "brandColor": "#1E88E5",
     "irUrl": "https://www.ut-g.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3",
+    "subCategory": "HR/メディア"
   },
   {
     "id": "uzabase",
@@ -3024,7 +3138,9 @@
     "brandColor": "#FFCC00",
     "irUrl": "https://www.uzabase.com/jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4",
+    "subCategory": "AI/BPO"
   },
   {
     "id": "valt",
@@ -3058,7 +3174,9 @@
     "monitoringReason": "障害者テレワーク就労のBPOモデル。就労支援事業所との連携による新しい工賃モデルを監視。",
     "brandColor": "#3949AB",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2",
+    "subCategory": "企業向け"
   },
   {
     "id": "visasq",
@@ -3094,7 +3212,9 @@
     "brandColor": "#2962FF",
     "irUrl": "https://visasq.co.jp/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4",
+    "subCategory": "AI/BPO"
   },
   {
     "id": "visional",
@@ -3130,7 +3250,7 @@
     "monitoringReason": "HR×SaaSのベンチマーク企業。プラットフォーム戦略・プロダクト開発手法の参考として監視。",
     "irUrl": "https://www.visional.inc/ja/ir.html",
     "brandColor": "#212121",
-    "hasFullData": false,
+    "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "quadrant": "Q4",
     "subCategory": "HR・メディア"
@@ -3218,8 +3338,10 @@
     "threatLevel": 3,
     "monitoringReason": "障害福祉向けソフトで高い導入実績。既存顧客基盤の大きさからSaaS移行時の動向が重要。",
     "brandColor": "#455A64",
-    "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "hasFullData": true,
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1",
+    "subCategory": "SaaS"
   },
   {
     "id": "zyras",
@@ -3252,7 +3374,9 @@
     "threatLevel": 2,
     "monitoringReason": "中小事業所向け障害福祉ソフトで一定のシェア。価格競争力のある製品動向を監視。",
     "brandColor": "#795548",
-    "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "hasFullData": true,
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2",
+    "subCategory": "事業所向け"
   }
 ]
