@@ -28,7 +28,6 @@ export const NAV_ITEMS: NavItem[] = [
     children: [
       { href: "/market", label: "市場ダッシュボード" },
       { href: "/market/international", label: "海外制度比較" },
-      { href: "/trends", label: "業界トレンド" },
       { href: "/reward-revision", label: "報酬改定" },
     ],
   },
@@ -250,14 +249,59 @@ export const MARKET_SECTIONS = [
   { id: "news", label: "ニュース" },
 ] as const;
 
-export type FacilitySectionGroup = {
+export type SectionGroup = {
   groupId: string;
   groupLabel: string;
   groupColor: string;
   sections: readonly { id: string; label: string }[];
 };
 
-export const FACILITY_SECTION_GROUPS: readonly FacilitySectionGroup[] = [
+/** @deprecated Use SectionGroup instead */
+export type FacilitySectionGroup = SectionGroup;
+
+export const MARKET_SECTION_GROUPS: readonly SectionGroup[] = [
+  {
+    groupId: "overview",
+    groupLabel: "市場概況",
+    groupColor: "#3B82F6",
+    sections: [
+      { id: "summary", label: "概要" },
+      { id: "demand", label: "障害者人口" },
+      { id: "facilities", label: "事業所数" },
+    ],
+  },
+  {
+    groupId: "employment",
+    groupLabel: "雇用",
+    groupColor: "#10B981",
+    sections: [
+      { id: "employment", label: "雇用推移" },
+      { id: "recruitment", label: "採用方法" },
+      { id: "employment-policy", label: "法定雇用率" },
+    ],
+  },
+  {
+    groupId: "system",
+    groupLabel: "制度",
+    groupColor: "#F59E0B",
+    sections: [
+      { id: "history", label: "制度沿革" },
+      { id: "care-comparison", label: "介護比較" },
+      { id: "international", label: "海外事例" },
+    ],
+  },
+  {
+    groupId: "trends",
+    groupLabel: "動向",
+    groupColor: "#8B5CF6",
+    sections: [
+      { id: "news", label: "ニュース" },
+      { id: "industry-trends", label: "業界トレンド" },
+    ],
+  },
+];
+
+export const FACILITY_SECTION_GROUPS: readonly SectionGroup[] = [
   {
     groupId: "market",
     groupLabel: "市場系",

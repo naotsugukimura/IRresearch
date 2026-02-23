@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import { Sidebar, MobileNav } from "@/components/layout/Sidebar";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -11,17 +14,38 @@ import { WelfareHistoryTimeline } from "@/components/market/WelfareHistoryTimeli
 import { CareComparisonTable } from "@/components/market/CareComparisonTable";
 import { InternationalCasesSection } from "@/components/market/InternationalCasesSection";
 import { EmploymentPolicySection } from "@/components/market/EmploymentPolicySection";
+import { IndustryTrendsSection } from "@/components/market/IndustryTrendsSection";
 import { SectionNav } from "@/components/layout/SectionNav";
-import { MARKET_SECTIONS } from "@/lib/constants";
-import { getMarketOverview } from "@/lib/data";
+import { MARKET_SECTION_GROUPS } from "@/lib/constants";
+import { getMarketOverview, getCompanies, getAllTrends } from "@/lib/data";
+import { cn } from "@/lib/utils";
+
+const TAB_ICONS: Record<string, string> = {
+  overview: "\u{1F4CA}",
+  employment: "\u{1F465}",
+  system: "\u{1F4DC}",
+  trends: "\u{1F4F0}",
+};
+const TAB_SHORT: Record<string, string> = {
+  overview: "\u5E02\u5834",
+  employment: "\u96C7\u7528",
+  system: "\u5236\u5EA6",
+  trends: "\u52D5\u5411",
+};
 
 export default function MarketPage() {
   const data = getMarketOverview();
+  const companies = getCompanies();
+  const trends = getAllTrends();
+
+  const [activeTab, setActiveTab] = useState(MARKET_SECTION_GROUPS[0]?.groupId ?? "overview");
+  const currentGroup = MARKET_SECTION_GROUPS.find((g) => g.groupId === activeTab);
 
   return (
     <div className="flex h-screen">
       <Sidebar />
       <main className="flex-1 overflow-y-auto">
+        {/* Header */}
         <div className="sticky top-0 z-20 border-b-0 bg-background/95 px-4 py-3 backdrop-blur md:px-6">
           <div className="flex items-center gap-3">
             <MobileNav />
@@ -34,77 +58,136 @@ export default function MarketPage() {
             </div>
           </div>
         </div>
-        <SectionNav sections={MARKET_SECTIONS} />
-        <div className="space-y-4 p-4 md:p-6">
-          {/* KPIサマリー */}
-          <section id="summary">
-            <MarketKpiCards data={data} />
-          </section>
 
-          {/* 需要側: 障害者人口 */}
-          <section id="demand">
-            <DisabilityPopulationChart
-              data={data.disabilityPopulation}
-              annotations={data.contextAnnotations?.filter((a) => a.chartId === "population")}
-            />
-          </section>
-
-          {/* 供給側: 雇用 + 事業所 */}
-          <div className="grid gap-4 lg:grid-cols-2">
-            <section id="employment">
-              <EmploymentTrendsChart
-                data={data.disabilityEmployment}
-                annotations={data.contextAnnotations?.filter((a) => a.chartId === "employment")}
-              />
-            </section>
-            <section id="recruitment">
-              <RecruitmentBreakdown data={data.recruitmentMethods} />
-            </section>
+        {/* ===== Category Tab Bar ===== */}
+        <div className="sticky top-0 z-10 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+          <div className="flex">
+            {MARKET_SECTION_GROUPS.map((group) => {
+              const isActive = activeTab === group.groupId;
+              return (
+                <button
+                  key={group.groupId}
+                  onClick={() => setActiveTab(group.groupId)}
+                  className={cn(
+                    "relative flex-1 flex items-center justify-center gap-1.5 px-3 py-2.5 text-xs font-medium transition-colors",
+                    isActive
+                      ? "text-foreground"
+                      : "text-muted-foreground hover:text-foreground/70"
+                  )}
+                >
+                  <span className="text-sm">{TAB_ICONS[group.groupId]}</span>
+                  <span className="hidden sm:inline">{group.groupLabel}</span>
+                  <span className="sm:hidden">{TAB_SHORT[group.groupId]}</span>
+                  <span className="ml-1 rounded-full bg-muted px-1.5 py-0.5 text-[9px] font-mono text-muted-foreground">
+                    {group.sections.length}
+                  </span>
+                  {isActive && (
+                    <span
+                      className="absolute bottom-0 left-2 right-2 h-0.5 rounded-full"
+                      style={{ backgroundColor: group.groupColor }}
+                    />
+                  )}
+                </button>
+              );
+            })}
           </div>
+        </div>
 
-          {/* 事業所数 */}
-          <section id="facilities">
-            <FacilityCountChart
-              data={data.facilityCountsByType}
-              annotations={data.contextAnnotations?.filter((a) => a.chartId === "facilities")}
-            />
-          </section>
+        {/* ===== Section Nav (within active tab) ===== */}
+        {currentGroup && currentGroup.sections.length > 1 && (
+          <SectionNav sections={currentGroup.sections} />
+        )}
 
-          {/* ④-D: 法定雇用率と近年の制度改正 */}
-          {data.employmentRateHistory && data.recentPolicyChanges && (
-            <section id="employment-policy">
-              <EmploymentPolicySection
-                employmentHistory={data.employmentRateHistory}
-                policyChanges={data.recentPolicyChanges}
-              />
-            </section>
+        {/* ===== Tab Content ===== */}
+        <div className="space-y-4 p-4 md:p-6">
+
+          {/* ===== Market Overview ===== */}
+          {activeTab === "overview" && (
+            <>
+              <section id="summary">
+                <MarketKpiCards data={data} />
+              </section>
+
+              <section id="demand">
+                <DisabilityPopulationChart
+                  data={data.disabilityPopulation}
+                  annotations={data.contextAnnotations?.filter((a) => a.chartId === "population")}
+                />
+              </section>
+
+              <section id="facilities">
+                <FacilityCountChart
+                  data={data.facilityCountsByType}
+                  annotations={data.contextAnnotations?.filter((a) => a.chartId === "facilities")}
+                />
+              </section>
+            </>
           )}
 
-          {/* ④-A: 障害福祉の歴史 */}
-          {data.welfareHistory && (
-            <section id="history">
-              <WelfareHistoryTimeline data={data.welfareHistory} />
-            </section>
+          {/* ===== Employment ===== */}
+          {activeTab === "employment" && (
+            <>
+              <section id="employment">
+                <EmploymentTrendsChart
+                  data={data.disabilityEmployment}
+                  annotations={data.contextAnnotations?.filter((a) => a.chartId === "employment")}
+                />
+              </section>
+
+              <section id="recruitment">
+                <RecruitmentBreakdown data={data.recruitmentMethods} />
+              </section>
+
+              {data.employmentRateHistory && data.recentPolicyChanges && (
+                <section id="employment-policy">
+                  <EmploymentPolicySection
+                    employmentHistory={data.employmentRateHistory}
+                    policyChanges={data.recentPolicyChanges}
+                  />
+                </section>
+              )}
+            </>
           )}
 
-          {/* ④-B: 介護との比較 */}
-          {data.careComparison && (
-            <section id="care-comparison">
-              <CareComparisonTable data={data.careComparison} />
-            </section>
+          {/* ===== System ===== */}
+          {activeTab === "system" && (
+            <>
+              {data.welfareHistory && (
+                <section id="history">
+                  <WelfareHistoryTimeline data={data.welfareHistory} />
+                </section>
+              )}
+
+              {data.careComparison && (
+                <section id="care-comparison">
+                  <CareComparisonTable data={data.careComparison} />
+                </section>
+              )}
+
+              {data.internationalCases && (
+                <section id="international">
+                  <InternationalCasesSection data={data.internationalCases} />
+                </section>
+              )}
+            </>
           )}
 
-          {/* ④-C: 海外事例 */}
-          {data.internationalCases && (
-            <section id="international">
-              <InternationalCasesSection data={data.internationalCases} />
-            </section>
+          {/* ===== Trends ===== */}
+          {activeTab === "trends" && (
+            <>
+              <section id="news">
+                <MarketNewsFeed news={data.news} />
+              </section>
+
+              <section id="industry-trends">
+                <IndustryTrendsSection
+                  trends={trends}
+                  companies={companies}
+                />
+              </section>
+            </>
           )}
 
-          {/* ニュース */}
-          <section id="news">
-            <MarketNewsFeed news={data.news} />
-          </section>
         </div>
       </main>
     </div>

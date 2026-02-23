@@ -2,11 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
-import { COMPANY_SECTIONS, type FacilitySectionGroup } from "@/lib/constants";
+import { COMPANY_SECTIONS, type SectionGroup } from "@/lib/constants";
 
 interface Props {
   sections?: readonly { id: string; label: string }[];
-  groups?: readonly FacilitySectionGroup[];
+  groups?: readonly SectionGroup[];
 }
 
 export function SectionNav({ sections, groups }: Props) {
