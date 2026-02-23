@@ -12,7 +12,6 @@ import { RecruitmentBreakdown } from "@/components/market/RecruitmentBreakdown";
 import { MarketNewsFeed } from "@/components/market/MarketNewsFeed";
 import { WelfareHistoryTimeline } from "@/components/market/WelfareHistoryTimeline";
 import { CareComparisonTable } from "@/components/market/CareComparisonTable";
-import { InternationalCasesSection } from "@/components/market/InternationalCasesSection";
 import { EmploymentPolicySection } from "@/components/market/EmploymentPolicySection";
 import { IndustryTrendsSection } from "@/components/market/IndustryTrendsSection";
 import { SectionNav } from "@/components/layout/SectionNav";
@@ -164,11 +163,6 @@ export default function MarketPage() {
                 </section>
               )}
 
-              {data.internationalCases && (
-                <section id="international">
-                  <InternationalCasesSection data={data.internationalCases} />
-                </section>
-              )}
             </>
           )}
 

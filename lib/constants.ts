@@ -353,7 +353,6 @@ export const MARKET_SECTION_GROUPS: readonly SectionGroup[] = [
     sections: [
       { id: "history", label: "制度沿革" },
       { id: "care-comparison", label: "介護比較" },
-      { id: "international", label: "海外事例" },
     ],
   },
   {
