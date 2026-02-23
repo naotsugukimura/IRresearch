@@ -635,7 +635,31 @@ TAVILY_API_KEY=tvly-...
 - `lib/constants.ts` — マクロ環境childrenに「海外制度比較」追加
 - `components/market/InternationalCasesSection.tsx` — 詳細ページへのリンク追加
 
-### ★ 次にやること
+### ★ 次にやること（優先度順）
+
+#### Phase 20: 業界カオスマップ（企業分析）
+- `/company` 配下に新ページ `/company/chaos-map` を作成
+- 82社を業界カテゴリ × ポジション（大手/中堅/スタートアップ等）でマッピング
+- 視覚的なカオスマップ表示（カテゴリ別の領域に企業ロゴ/名前を配置）
+- 既存の `companies.json` のカテゴリ情報を活用
+- クリックで企業詳細ページへ遷移
+
+#### Phase 21: 事業所分析の拡張（地域分析 + 複数サービス分析）
+- **地域分析**: 都道府県別の事業所分布・シェア（WAMNET CSVデータを活用）
+  - `/facility/area` のような新ページ or 各サービスページ内にセクション追加
+  - 既存 `scripts/analyze_wamnet.py` のパターンを19サービスに横展開
+- **複数サービス分析**: 法人の兼業パターン分析
+  - 同一法人が運営する複数サービスの組み合わせ（放デイ+児発、GH+B型 等）
+  - クロス集計テーブル or サンキーダイアグラム
+
+#### Phase 22: BPMN図（React Flow導入）
+- **React Flow（本格派）** でプロセスフロー図を実装
+- `npm install reactflow` が必要
+- 対象: 障害福祉サービスの利用フロー（相談→受給者証→契約→利用開始→モニタリング）
+- 事業所分析の各サービスページに組み込み or 独立セクション
+- `dynamic(() => import(...), { ssr: false })` パターンで読み込み（recharts同様）
+
+#### その他（継続タスク）
 - **全82社IR分析一括実行**: NEXT_SESSION_PROMPT.md参照（Step 1-5の手順あり、API費用~$32）
 - **非上場企業Webリサーチ**: 残り17社分（tavily_research.py実行中 or 完了）
 - Supabase `company_web_research` テーブル作成（SQL Editor手動実行が必要）
