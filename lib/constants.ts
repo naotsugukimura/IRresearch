@@ -54,6 +54,7 @@ export const NAV_ITEMS: NavItem[] = [
     icon: "Building2",
     children: [
       { href: "/company", label: "企業一覧" },
+      { href: "/company/chaos-map", label: "カオスマップ" },
       { href: "/compare", label: "企業比較" },
     ],
   },
