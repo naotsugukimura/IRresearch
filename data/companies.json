@@ -34,7 +34,8 @@
     "brandColor": "#000000",
     "irUrl": "https://inside.ai/ir/",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4"
   },
   {
     "id": "aidemy",
@@ -186,7 +187,8 @@
     "monitoringReason": "障害者向け求人プラットフォームで高い認知度。LITALICO仕事ナビとの競合動向を監視。",
     "brandColor": "#4CAF50",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1"
   },
   {
     "id": "benefit_one",
@@ -338,7 +340,8 @@
     "irUrl": "https://www.care21.co.jp/ir/",
     "brandColor": "#C62828",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3"
   },
   {
     "id": "care_net",
@@ -460,7 +463,8 @@
     "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "marketCap": 150,
-    "recentTrend": "就労移行支援を中心に全国拡大中。2025年度は新規10拠点開設"
+    "recentTrend": "就労移行支援を中心に全国拡大中。2025年度は新規10拠点開設",
+    "quadrant": "Q1"
   },
   {
     "id": "copel",
@@ -494,7 +498,8 @@
     "monitoringReason": "FCモデルによる児童発達支援拠点の急拡大。児童福祉領域でのシェア拡大と品質管理の動向を監視。",
     "brandColor": "#FF9900",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2"
   },
   {
     "id": "crowd_works",
@@ -995,7 +1000,8 @@
     "monitoringReason": "放課後デイ向けSaaSでニッチなポジション。児童福祉SaaS市場での動向を監視。",
     "brandColor": "#E91E63",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1"
   },
   {
     "id": "jmdc",
@@ -1078,7 +1084,8 @@
     "monitoringReason": "発達障害特化の就労支援で独自ポジション。専門性の高い支援モデルとIPO可能性を監視。",
     "brandColor": "#3F51B5",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2"
   },
   {
     "id": "kanamic",
@@ -1152,7 +1159,8 @@
     "monitoringReason": "就労支援特化型SaaSとして、カイポケ障害福祉版と直接競合。機能開発・価格戦略を監視。",
     "brandColor": "#FF5722",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1"
   },
   {
     "id": "kumon",
@@ -1270,7 +1278,8 @@
     "monitoringReason": "AI/LLM活用SaaSのベンチマーク企業。AI-OCR技術・プロダクト開発速度の参考として監視。",
     "brandColor": "#2196F3",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4"
   },
   {
     "id": "lifedrink",
@@ -1389,7 +1398,8 @@
     "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "marketCap": 2800,
-    "recentTrend": "プラットフォーム事業が成長ドライバー。LITALICOワークス/仕事ナビが好調"
+    "recentTrend": "プラットフォーム事業が成長ドライバー。LITALICOワークス/仕事ナビが好調",
+    "quadrant": "Q1"
   },
   {
     "id": "m3",
@@ -1435,7 +1445,8 @@
     "brandColor": "#E50012",
     "irUrl": "https://corporate.m3.com/ir",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3"
   },
   {
     "id": "manpower",
@@ -1514,7 +1525,8 @@
     "irUrl": "https://www.medley.jp/ir/",
     "brandColor": "#1A237E",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3"
   },
   {
     "id": "medpeer",
@@ -1706,7 +1718,8 @@
     "monitoringReason": "障害福祉向け業務ソフトで高シェア。カイポケの障害福祉SaaSと直接競合するため、機能拡張・価格戦略を監視。",
     "brandColor": "#2E7D32",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1"
   },
   {
     "id": "nichii",
@@ -1948,7 +1961,8 @@
     "irUrl": "https://www.persol-group.co.jp/ir/",
     "brandColor": "#0066CC",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q1"
   },
   {
     "id": "phc",
@@ -2190,7 +2204,8 @@
     "irUrl": "https://recruit-holdings.com/ja/ir/",
     "brandColor": "#FF0000",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q3"
   },
   {
     "id": "reha_cloud",
@@ -2478,7 +2493,8 @@
     "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "marketCap": 3200,
-    "recentTrend": "カイポケの解約率改善。介護DXと海外事業が成長牽引"
+    "recentTrend": "カイポケの解約率改善。介護DXと海外事業が成長牽引",
+    "quadrant": "Q3"
   },
   {
     "id": "sompo_care",
@@ -2641,7 +2657,8 @@
     "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "marketCap": 450,
-    "recentTrend": "障害者雇用支援（わーくはぴねす農園）が主力。ESG需要で安定成長"
+    "recentTrend": "障害者雇用支援（わーくはぴねす農園）が主力。ESG需要で安定成長",
+    "quadrant": "Q2"
   },
   {
     "id": "startline",
@@ -2673,7 +2690,8 @@
     "monitoringReason": "サテライトオフィス型障害者雇用で競合するエスプールとの競争動向。IPO可能性にも注目。",
     "brandColor": "#009688",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q2"
   },
   {
     "id": "sun_welfare",
@@ -3095,7 +3113,8 @@
     "irUrl": "https://www.visional.inc/ja/ir.html",
     "brandColor": "#212121",
     "hasFullData": false,
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-15",
+    "quadrant": "Q4"
   },
   {
     "id": "welbe",
@@ -3141,7 +3160,8 @@
     "hasFullData": true,
     "lastUpdated": "2025-05-15",
     "marketCap": 350,
-    "recentTrend": "就労移行支援の最大手。M&Aで児童発達支援にも進出"
+    "recentTrend": "就労移行支援の最大手。M&Aで児童発達支援にも進出",
+    "quadrant": "Q1"
   },
   {
     "id": "wiseman",

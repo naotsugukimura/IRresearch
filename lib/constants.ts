@@ -1,5 +1,6 @@
 import type {
   CompanyCategory,
+  Quadrant,
   ThreatLevel,
   HistoryCategory,
   GrowthDriverType,
@@ -53,8 +54,8 @@ export const NAV_ITEMS: NavItem[] = [
     label: "企業分析",
     icon: "Building2",
     children: [
-      { href: "/company", label: "企業一覧" },
       { href: "/company/chaos-map", label: "カオスマップ" },
+      { href: "/company", label: "企業一覧" },
       { href: "/compare", label: "企業比較" },
     ],
   },
@@ -113,6 +114,71 @@ export const CATEGORY_CONFIG: Record<
     color: "#10B981",
     bgClass: "bg-category-f",
   },
+};
+
+// ============================================================
+// 4象限（業界×提供価値マトリクス）
+// ============================================================
+
+export interface QuadrantConfig {
+  label: string;
+  slug: string;
+  color: string;
+  icon: string;
+  description: string;
+  purpose: string;
+  industryAxis: string;
+  valueAxis: string;
+}
+
+export const QUADRANT_CONFIG: Record<Quadrant, QuadrantConfig> = {
+  Q1: {
+    label: "直接競合",
+    slug: "direct-competitor",
+    color: "#EF4444",
+    icon: "Target",
+    description: "障害福祉業界で同じサービスを提供している企業",
+    purpose: "OPS・売上・人員体制まで深く知り、差別化ポイントを見つける",
+    industryAxis: "同じ業界",
+    valueAxis: "同じ価値",
+  },
+  Q2: {
+    label: "市場探索",
+    slug: "market-explorer",
+    color: "#F59E0B",
+    icon: "Compass",
+    description: "障害福祉業界で異なる価値を提供している企業",
+    purpose: "事業開発として新市場を発見し、参入機会を評価する",
+    industryAxis: "同じ業界",
+    valueAxis: "異なる価値",
+  },
+  Q3: {
+    label: "OPS深化",
+    slug: "ops-deepdive",
+    color: "#3B82F6",
+    icon: "Cog",
+    description: "異なる業界で同じ価値（SaaS・人材・メディア）を提供している企業",
+    purpose: "介護・保育・医療等の隣接業界から運営ノウハウを学ぶ",
+    industryAxis: "異なる業界",
+    valueAxis: "同じ価値",
+  },
+  Q4: {
+    label: "技術キャッチアップ",
+    slug: "tech-catchup",
+    color: "#8B5CF6",
+    icon: "Zap",
+    description: "異なる業界で異なる価値を提供しているが、技術面で参考にしたい企業",
+    purpose: "AIBPO時代に備え、AI/DXの最新技術をキャッチアップする",
+    industryAxis: "異なる業界",
+    valueAxis: "異なる価値",
+  },
+};
+
+export const QUADRANT_SLUG_MAP: Record<string, Quadrant> = {
+  "direct-competitor": "Q1",
+  "market-explorer": "Q2",
+  "ops-deepdive": "Q3",
+  "tech-catchup": "Q4",
 };
 
 // ============================================================

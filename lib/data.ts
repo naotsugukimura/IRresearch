@@ -56,6 +56,7 @@ import type {
   IndustryTrend,
   AnalysisNote,
   CompanyCategory,
+  Quadrant,
   CompanyBusinessPlan,
   Glossary,
   CompanyEarningsInsights,
@@ -86,6 +87,10 @@ export function getCompanyById(id: string): Company | undefined {
 
 export function getCompaniesByCategory(category: CompanyCategory): Company[] {
   return getCompanies().filter((c) => c.category === category);
+}
+
+export function getCompaniesByQuadrant(quadrant: Quadrant): Company[] {
+  return getCompanies().filter((c) => c.quadrant === quadrant);
 }
 
 export function getCompaniesWithFullData(): Company[] {

@@ -3,6 +3,7 @@
 // ============================================================
 
 export type CompanyCategory = "A" | "B" | "C" | "D" | "E" | "F";
+export type Quadrant = "Q1" | "Q2" | "Q3" | "Q4";
 export type ThreatLevel = 1 | 2 | 3 | 4 | 5;
 export type MarketType = "プライム" | "スタンダード" | "グロース" | "非上場";
 export type PriorityRank = "S" | "A" | "B" | "C";
@@ -23,6 +24,7 @@ export interface Company {
   stockCode?: string;
   market: MarketType;
   category: CompanyCategory;
+  quadrant?: Quadrant; // 4象限分類（業界×提供価値）
   priorityRank: PriorityRank;
   founded?: string;
   headquarters?: string;
