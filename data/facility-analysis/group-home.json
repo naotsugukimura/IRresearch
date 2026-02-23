@@ -444,24 +444,24 @@
       "category": "体制",
       "requirement": "看護職員を配置し、医療機関との連携体制を構築",
       "units": "39単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "入院時支援特別加算",
       "category": "支援",
       "requirement": "利用者の入院時に継続的な相談援助を実施",
       "units": "320単位/日",
-      "difficulty": "低",
-      "revenueImpact": "中"
+      "difficulty": "low",
+      "revenueImpact": "medium"
     },
     {
       "name": "地域生活移行個別支援特別加算",
       "category": "支援",
       "requirement": "施設等からの地域移行者に対する個別支援計画を作成・実施",
       "units": "500単位/日",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     }
   ],
   "monthlyPL": {

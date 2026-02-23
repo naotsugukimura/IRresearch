@@ -270,48 +270,48 @@
       "category": "人員",
       "requirement": "社会福祉士、精神保健福祉士、公認心理師等の福祉専門職員を常勤換算で1名以上配置",
       "units": "15単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "個別支援計画加算",
       "category": "支援",
       "requirement": "個別支援計画を作成し、定期的な見直しを実施、多職種連携による支援を提供",
       "units": "50単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "家庭連携加算",
       "category": "支援",
       "requirement": "保護者への支援技術の指導や家庭環境の調整等を月2回以上実施",
       "units": "100単位/月",
-      "difficulty": "低",
-      "revenueImpact": "低"
+      "difficulty": "low",
+      "revenueImpact": "low"
     },
     {
       "name": "医療的ケア対応加算",
       "category": "体制",
       "requirement": "医療的ケア児の支援に必要な看護師等の配置と医療機関との連携体制を整備",
       "units": "300単位/日",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     },
     {
       "name": "緊急時支援加算",
       "category": "体制",
       "requirement": "緊急時の支援体制を整備し、24時間対応可能な連絡体制を構築",
       "units": "50単位/回",
-      "difficulty": "中",
-      "revenueImpact": "低"
+      "difficulty": "medium",
+      "revenueImpact": "low"
     },
     {
       "name": "重症心身障害児支援加算",
       "category": "支援",
       "requirement": "重症心身障害児に対する専門的支援を提供、理学療法士等の専門職を配置",
       "units": "184単位/日",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     }
   ],
   "monthlyPL": {

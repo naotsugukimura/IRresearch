@@ -226,7 +226,7 @@ export function DailyTimeline({ schedule, serviceType, conversations, monthlySch
                       <div className="mt-2">
                         <p className="text-[10px] font-medium text-muted-foreground">主な話題:</p>
                         <div className="mt-1 flex flex-wrap gap-1">
-                          {conv.topics.map((topic) => (
+                          {(conv.topics ?? []).map((topic) => (
                             <span key={topic} className="rounded-full bg-muted/40 px-2 py-0.5 text-[10px]">{topic}</span>
                           ))}
                         </div>

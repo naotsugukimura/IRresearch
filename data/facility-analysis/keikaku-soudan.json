@@ -301,40 +301,40 @@
       "category": "体制",
       "requirement": "相談支援専門員を常勤換算で3人以上配置し、地域移行・定着の実績を有する",
       "units": "200単位/月",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     },
     {
       "name": "初回加算",
       "category": "支援",
       "requirement": "新規利用者に対して初回のサービス等利用計画作成を行う",
       "units": "300単位/回",
-      "difficulty": "低",
-      "revenueImpact": "中"
+      "difficulty": "low",
+      "revenueImpact": "medium"
     },
     {
       "name": "行動障害支援体制加算",
       "category": "人員",
       "requirement": "強度行動障害支援者養成研修修了者を配置し、行動障害者への支援を実施",
       "units": "35単位/月",
-      "difficulty": "中",
-      "revenueImpact": "低"
+      "difficulty": "medium",
+      "revenueImpact": "low"
     },
     {
       "name": "地域移行加算",
       "category": "支援",
       "requirement": "入所施設や精神科病院からの地域移行支援を実施",
       "units": "500単位/回",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     },
     {
       "name": "緊急時支援加算",
       "category": "支援",
       "requirement": "緊急時における相談支援を24時間体制で実施",
       "units": "100単位/回",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     }
   ],
   "monthlyPL": {

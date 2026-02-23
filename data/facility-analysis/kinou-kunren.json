@@ -232,48 +232,48 @@
       "category": "人員",
       "requirement": "理学療法士、作業療法士等の専門職員を常勤で配置",
       "units": "15単位/日",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     },
     {
       "name": "個別支援計画作成加算",
       "category": "支援",
       "requirement": "個別支援計画の定期的な見直しと評価を実施",
       "units": "42単位/月",
-      "difficulty": "中",
-      "revenueImpact": "低"
+      "difficulty": "medium",
+      "revenueImpact": "low"
     },
     {
       "name": "送迎加算",
       "category": "基本",
       "requirement": "利用者の送迎を実施",
       "units": "54単位/片道",
-      "difficulty": "低",
-      "revenueImpact": "中"
+      "difficulty": "low",
+      "revenueImpact": "medium"
     },
     {
       "name": "福祉専門職員配置等加算",
       "category": "人員",
       "requirement": "サービス管理責任者を常勤専従で配置し、従業者の資格要件を満たす",
       "units": "10単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "視覚・聴覚言語障害者支援体制加算",
       "category": "体制",
       "requirement": "視覚・聴覚・言語機能に重度の障害を有する者への専門的支援体制を整備",
       "units": "41単位/日",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     },
     {
       "name": "欠席時対応加算",
       "category": "その他",
       "requirement": "利用予定日に急遽欠席した利用者に対し連絡・相談支援を実施",
       "units": "94単位/日",
-      "difficulty": "低",
-      "revenueImpact": "低"
+      "difficulty": "low",
+      "revenueImpact": "low"
     }
   ],
   "monthlyPL": {

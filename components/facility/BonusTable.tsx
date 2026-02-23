@@ -76,17 +76,17 @@ export function BonusTable({ bonuses }: Props) {
                 <span className="font-mono text-[10px] text-muted-foreground">{bonus.units}</span>
                 <span
                   className={`rounded-full px-1.5 py-0.5 text-[10px] font-medium ${
-                    DIFFICULTY_CONFIG[bonus.difficulty].bgClass
+                    (DIFFICULTY_CONFIG[bonus.difficulty as keyof typeof DIFFICULTY_CONFIG] ?? DIFFICULTY_CONFIG.medium).bgClass
                   }`}
                 >
-                  難{DIFFICULTY_CONFIG[bonus.difficulty].label}
+                  難{(DIFFICULTY_CONFIG[bonus.difficulty as keyof typeof DIFFICULTY_CONFIG] ?? DIFFICULTY_CONFIG.medium).label}
                 </span>
                 <span
                   className={`rounded-full px-1.5 py-0.5 text-[10px] font-medium ${
-                    IMPACT_CONFIG[bonus.revenueImpact].bgClass
+                    (IMPACT_CONFIG[bonus.revenueImpact as keyof typeof IMPACT_CONFIG] ?? IMPACT_CONFIG.medium).bgClass
                   }`}
                 >
-                  寄与{IMPACT_CONFIG[bonus.revenueImpact].label}
+                  寄与{(IMPACT_CONFIG[bonus.revenueImpact as keyof typeof IMPACT_CONFIG] ?? IMPACT_CONFIG.medium).label}
                 </span>
               </div>
             </div>

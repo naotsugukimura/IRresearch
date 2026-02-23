@@ -342,40 +342,40 @@
       "category": "人員",
       "requirement": "社会福祉士、精神保健福祉士等の福祉専門職員を配置",
       "units": "15単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "目標工賃達成加算",
       "category": "支援",
       "requirement": "前年度の平均工賃が地域の最低賃金の3分の1以上",
       "units": "18単位/日",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     },
     {
       "name": "職場適応援助者養成研修修了者配置加算",
       "category": "人員",
       "requirement": "ジョブコーチ養成研修修了者を配置し支援を実施",
       "units": "11単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "定着支援連携促進加算",
       "category": "体制",
       "requirement": "就労定着支援事業所と連携し定期的な情報共有を実施",
       "units": "8単位/日",
-      "difficulty": "低",
-      "revenueImpact": "低"
+      "difficulty": "low",
+      "revenueImpact": "low"
     },
     {
       "name": "重度者支援体制加算",
       "category": "体制",
       "requirement": "障害支援区分4以上の利用者が利用者全体の50%以上",
       "units": "26単位/日",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     }
   ],
   "monthlyPL": {

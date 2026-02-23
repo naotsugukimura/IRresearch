@@ -190,56 +190,56 @@
       "category": "体制",
       "requirement": "精神科病院等との連携体制を構築し、月1回以上の情報共有を実施",
       "units": "300単位/月",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "集中支援加算",
       "category": "支援",
       "requirement": "月4回以上の面接又は同行支援を実施し、集中的な地域移行支援を提供",
       "units": "500単位/月",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     },
     {
       "name": "体験宿泊支援加算",
       "category": "支援",
       "requirement": "地域移行に向けた体験宿泊の機会を提供し、必要な支援を実施",
       "units": "200単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "専門職員配置加算",
       "category": "人員",
       "requirement": "精神保健福祉士又は社会福祉士を専任で1名以上配置",
       "units": "15%加算",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     },
     {
       "name": "家族支援加算",
       "category": "支援",
       "requirement": "本人の同意を得て家族への相談支援及び情報提供を月1回以上実施",
       "units": "150単位/月",
-      "difficulty": "低",
-      "revenueImpact": "低"
+      "difficulty": "low",
+      "revenueImpact": "low"
     },
     {
       "name": "地域移行実績加算",
       "category": "その他",
       "requirement": "過去1年間に3名以上の地域移行を実現した実績を有する",
       "units": "10%加算",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     },
     {
       "name": "夜間休日対応加算",
       "category": "体制",
       "requirement": "夜間・休日における緊急時の相談対応体制を整備",
       "units": "100単位/月",
-      "difficulty": "中",
-      "revenueImpact": "低"
+      "difficulty": "medium",
+      "revenueImpact": "low"
     }
   ],
   "monthlyPL": {

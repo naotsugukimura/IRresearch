@@ -343,40 +343,40 @@
       "category": "人員",
       "requirement": "社会福祉士、精神保健福祉士等の福祉専門職員を配置",
       "units": "15単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "視覚・聴覚言語障害者支援体制加算",
       "category": "支援",
       "requirement": "視覚障害者等への専門的支援体制を整備",
       "units": "41単位/日",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     },
     {
       "name": "精神障害者地域移行特別加算",
       "category": "支援",
       "requirement": "精神科病院等から地域移行した利用者への支援",
       "units": "100単位/日",
-      "difficulty": "中",
-      "revenueImpact": "高"
+      "difficulty": "medium",
+      "revenueImpact": "high"
     },
     {
       "name": "施設外就労加算",
       "category": "体制",
       "requirement": "企業での実習等施設外就労を実施",
       "units": "100単位/日",
-      "difficulty": "中",
-      "revenueImpact": "高"
+      "difficulty": "medium",
+      "revenueImpact": "high"
     },
     {
       "name": "欠席時対応加算",
       "category": "支援",
       "requirement": "利用者の欠席時に連絡調整や相談援助を実施",
       "units": "94単位/日",
-      "difficulty": "低",
-      "revenueImpact": "中"
+      "difficulty": "low",
+      "revenueImpact": "medium"
     }
   ],
   "monthlyPL": {

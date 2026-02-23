@@ -248,56 +248,56 @@
       "category": "人員",
       "requirement": "社会福祉士、精神保健福祉士等の配置",
       "units": "15単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "就労定着実績加算",
       "category": "支援",
       "requirement": "6か月以上の就労定着率が70%以上",
       "units": "42単位/日",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     },
     {
       "name": "精神障害者支援体制加算",
       "category": "体制",
       "requirement": "精神保健福祉士の配置と精神障害者支援体制の整備",
       "units": "41単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "地域連携活動加算",
       "category": "支援",
       "requirement": "地域の就労支援機関等との連携体制構築",
       "units": "10単位/日",
-      "difficulty": "低",
-      "revenueImpact": "低"
+      "difficulty": "low",
+      "revenueImpact": "low"
     },
     {
       "name": "土日等日中支援加算",
       "category": "その他",
       "requirement": "土曜日、日曜日、祝日における支援の実施",
       "units": "30単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "欠席時対応加算",
       "category": "支援",
       "requirement": "利用予定日に欠席した場合の適切な対応",
       "units": "94単位/日",
-      "difficulty": "低",
-      "revenueImpact": "中"
+      "difficulty": "low",
+      "revenueImpact": "medium"
     },
     {
       "name": "重度者支援体制加算",
       "category": "体制",
       "requirement": "障害支援区分4以上の者への専門的支援体制",
       "units": "28単位/日",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     }
   ],
   "monthlyPL": {

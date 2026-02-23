@@ -243,48 +243,48 @@
       "category": "支援",
       "requirement": "医療的ケアが必要な利用者への専門的支援",
       "units": "28単位/日",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     },
     {
       "name": "地域移行支援体制加算",
       "category": "体制",
       "requirement": "地域生活への移行実績と支援体制の整備",
       "units": "41単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "視覚・聴覚言語障害者支援体制加算",
       "category": "体制",
       "requirement": "感覚障害者への専門的支援体制の確保",
       "units": "41単位/日",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     },
     {
       "name": "福祉専門職員配置等加算",
       "category": "人員",
       "requirement": "社会福祉士等の専門資格者の配置",
       "units": "15単位/日",
-      "difficulty": "中",
-      "revenueImpact": "低"
+      "difficulty": "medium",
+      "revenueImpact": "low"
     },
     {
       "name": "欠席時対応加算",
       "category": "支援",
       "requirement": "利用者欠席時の連絡確認と相談支援",
       "units": "94単位/日",
-      "difficulty": "低",
-      "revenueImpact": "中"
+      "difficulty": "low",
+      "revenueImpact": "medium"
     },
     {
       "name": "精神障害者地域移行特別加算",
       "category": "支援",
       "requirement": "精神科病院からの地域移行者への集中的支援",
       "units": "200単位/日",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     }
   ],
   "monthlyPL": {

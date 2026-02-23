@@ -431,8 +431,8 @@
       "category": "支援",
       "requirement": "理学療法士、作業療法士、言語聴覚士等の専門職による個別支援を実施",
       "units": "187単位/日",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     }
   ],
   "monthlyPL": {

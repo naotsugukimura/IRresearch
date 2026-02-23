@@ -206,56 +206,56 @@
       "category": "体制",
       "requirement": "地域移行支援計画の策定と関係機関との連携体制を整備",
       "units": "41単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "精神障害者支援体制加算",
       "category": "支援",
       "requirement": "精神保健福祉士等の配置と個別支援計画の実施",
       "units": "26単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "夜間支援等体制加算",
       "category": "体制",
       "requirement": "夜間及び深夜の支援体制を整備し職員を配置",
       "units": "76単位/日",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     },
     {
       "name": "短期滞在加算",
       "category": "支援",
       "requirement": "30日以内の短期利用者への集中的支援の実施",
       "units": "60単位/日",
-      "difficulty": "低",
-      "revenueImpact": "中"
+      "difficulty": "low",
+      "revenueImpact": "medium"
     },
     {
       "name": "栄養士配置加算",
       "category": "人員",
       "requirement": "管理栄養士又は栄養士を配置し栄養管理を実施",
       "units": "12単位/日",
-      "difficulty": "中",
-      "revenueImpact": "低"
+      "difficulty": "medium",
+      "revenueImpact": "low"
     },
     {
       "name": "医療連携体制加算",
       "category": "体制",
       "requirement": "医療機関との連携により看護職員による健康管理を実施",
       "units": "39単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "福祉専門職員配置等加算",
       "category": "人員",
       "requirement": "社会福祉士等の福祉専門職員を常勤で配置",
       "units": "15単位/日",
-      "difficulty": "中",
-      "revenueImpact": "低"
+      "difficulty": "medium",
+      "revenueImpact": "low"
     }
   ],
   "monthlyPL": {

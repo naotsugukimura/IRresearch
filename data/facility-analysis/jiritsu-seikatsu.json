@@ -254,56 +254,56 @@
       "category": "人員",
       "requirement": "キャリアパス要件の一部を満たし、職場環境等要件を満たす",
       "units": "所定単位数の2.7%加算",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "特定処遇改善加算（I）",
       "category": "人員",
       "requirement": "処遇改善加算（I）を取得し、経験・技能のある職員への重点的配分を実施",
       "units": "所定単位数の1.8%加算",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     },
     {
       "name": "夜間支援等体制加算",
       "category": "体制",
       "requirement": "夜間・深夜時間帯に緊急時の連絡・対応体制を確保",
       "units": "25単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "医療連携体制加算",
       "category": "体制",
       "requirement": "医療機関との連携により医療的ケアが必要な利用者に対応",
       "units": "39単位/日",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     },
     {
       "name": "福祉専門職員配置等加算",
       "category": "人員",
       "requirement": "サービス管理責任者又は生活支援員のうち社会福祉士等の有資格者を配置",
       "units": "15単位/日",
-      "difficulty": "中",
-      "revenueImpact": "低"
+      "difficulty": "medium",
+      "revenueImpact": "low"
     },
     {
       "name": "個別支援計画未作成減算",
       "category": "支援",
       "requirement": "個別支援計画の作成を適切に行っていない場合",
       "units": "所定単位数の70/100",
-      "difficulty": "低",
-      "revenueImpact": "高"
+      "difficulty": "low",
+      "revenueImpact": "high"
     },
     {
       "name": "初回加算",
       "category": "支援",
       "requirement": "利用開始から起算して30日以内の期間",
       "units": "300単位/日",
-      "difficulty": "低",
-      "revenueImpact": "中"
+      "difficulty": "low",
+      "revenueImpact": "medium"
     }
   ],
   "monthlyPL": {

@@ -349,40 +349,40 @@
       "category": "人員",
       "requirement": "社会福祉士、精神保健福祉士等の福祉専門職員を配置",
       "units": "15単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "栄養マネジメント加算",
       "category": "支援",
       "requirement": "管理栄養士による栄養ケア計画の作成・実施",
       "units": "12単位/日",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     },
     {
       "name": "就労移行支援体制加算",
       "category": "体制",
       "requirement": "前年度の一般就労移行者が所定の人数以上",
       "units": "42単位/日",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     },
     {
       "name": "利用者負担上限額管理加算",
       "category": "その他",
       "requirement": "利用者負担の上限額管理を適切に実施",
       "units": "150単位/月",
-      "difficulty": "低",
-      "revenueImpact": "低"
+      "difficulty": "low",
+      "revenueImpact": "low"
     },
     {
       "name": "視覚・聴覚言語障害者支援体制加算",
       "category": "体制",
       "requirement": "視覚・聴覚・言語機能障害者への専門的支援体制を整備",
       "units": "41単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     }
   ],
   "monthlyPL": {

@@ -190,56 +190,56 @@
       "category": "人員",
       "requirement": "社会福祉士、精神保健福祉士等の専門職員を配置",
       "units": "15単位/月",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "地域体制強化共同支援加算",
       "category": "体制",
       "requirement": "複数事業所との連携体制を構築し共同支援を実施",
       "units": "50単位/月",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     },
     {
       "name": "医療連携体制加算",
       "category": "体制",
       "requirement": "医療機関との連携体制を整備し定期的な情報共有を実施",
       "units": "39単位/月",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "重度障害者支援加算",
       "category": "支援",
       "requirement": "重度の障害により特に手厚い支援が必要な利用者への対応",
       "units": "26単位/月",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     },
     {
       "name": "夜間支援等体制加算",
       "category": "体制",
       "requirement": "夜間や休日における緊急時対応体制を整備",
       "units": "18単位/日",
-      "difficulty": "中",
-      "revenueImpact": "高"
+      "difficulty": "medium",
+      "revenueImpact": "high"
     },
     {
       "name": "地域移行実績加算",
       "category": "支援",
       "requirement": "入院・入所からの地域移行支援実績を有する事業所",
       "units": "12単位/月",
-      "difficulty": "低",
-      "revenueImpact": "低"
+      "difficulty": "low",
+      "revenueImpact": "low"
     },
     {
       "name": "初回加算",
       "category": "基本",
       "requirement": "新規利用者に対する初回支援時の詳細なアセスメント実施",
       "units": "300単位/回",
-      "difficulty": "低",
-      "revenueImpact": "低"
+      "difficulty": "low",
+      "revenueImpact": "low"
     }
   ],
   "monthlyPL": {

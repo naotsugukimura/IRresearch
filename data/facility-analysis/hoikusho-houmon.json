@@ -323,48 +323,48 @@
       "category": "支援",
       "requirement": "言語聴覚士、作業療法士、理学療法士等の専門職による支援を実施",
       "units": "187単位/日",
-      "difficulty": "高",
-      "revenueImpact": "高"
+      "difficulty": "high",
+      "revenueImpact": "high"
     },
     {
       "name": "連携加算",
       "category": "体制",
       "requirement": "保育所等と児童発達支援事業所等が密接な連携体制を構築",
       "units": "100単位/日",
-      "difficulty": "中",
-      "revenueImpact": "中"
+      "difficulty": "medium",
+      "revenueImpact": "medium"
     },
     {
       "name": "福祉専門職員配置加算",
       "category": "人員",
       "requirement": "社会福祉士、精神保健福祉士等の福祉専門職員を配置",
       "units": "15単位/日",
-      "difficulty": "中",
-      "revenueImpact": "低"
+      "difficulty": "medium",
+      "revenueImpact": "low"
     },
     {
       "name": "集団支援加算",
       "category": "支援",
       "requirement": "保育所等において集団への支援を同時に実施",
       "units": "46単位/日",
-      "difficulty": "低",
-      "revenueImpact": "中"
+      "difficulty": "low",
+      "revenueImpact": "medium"
     },
     {
       "name": "家族支援加算",
       "category": "支援",
       "requirement": "家族への相談支援や助言指導を月2回以上実施",
       "units": "62単位/月",
-      "difficulty": "低",
-      "revenueImpact": "低"
+      "difficulty": "low",
+      "revenueImpact": "low"
     },
     {
       "name": "研修実施加算",
       "category": "その他",
       "requirement": "保育所等職員向けの専門研修を年4回以上開催",
       "units": "20単位/日",
-      "difficulty": "中",
-      "revenueImpact": "低"
+      "difficulty": "medium",
+      "revenueImpact": "low"
     }
   ],
   "monthlyPL": {

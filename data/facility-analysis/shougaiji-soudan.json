@@ -243,48 +243,48 @@
       "category": "支援",
       "requirement": "医療的ケアが必要な障害児や重症心身障害児への専門的相談支援",
       "units": "187単位/月",
-      "difficulty": "高",
-      "revenueImpact": "中"
+      "difficulty": "high",
+      "revenueImpact": "medium"
     },
     {
       "name": "専門相談員配置加算",
       "category": "人員",
       "requirement": "社会福祉士、精神保健福祉士等の専門資格者を常勤配置",
       "units": "40単位/月",
-      "difficulty": "中",
-      "revenueImpact": "低"
+      "difficulty": "medium",
+      "revenueImpact": "low"
     },
     {
       "name": "連携強化加算",
       "category": "体制",
       "requirement": "関係機関との連携会議を月1回以上実施し記録保管",
       "units": "100単位/月",
-      "difficulty": "低",
-      "revenueImpact": "中"
+      "difficulty": "low",
+      "revenueImpact": "medium"
     },
     {
       "name": "初回加算",
       "category": "基本",
       "requirement": "新規利用者に対する初回の相談支援計画作成",
       "units": "300単位/回",
-      "difficulty": "低",
-      "revenueImpact": "中"
+      "difficulty": "low",
+      "revenueImpact": "medium"
     },
     {
       "name": "継続サービス利用支援加算",
       "category": "支援",
       "requirement": "継続的な支援を要する利用者への月2回以上の面談実施",
       "units": "150単位/月",
-      "difficulty": "中",
-      "revenueImpact": "高"
+      "difficulty": "medium",
+      "revenueImpact": "high"
     },
     {
       "name": "土日祝日対応加算",
       "category": "その他",
       "requirement": "土日祝日における緊急時相談対応体制の整備",
       "units": "25%加算",
-      "difficulty": "中",
-      "revenueImpact": "高"
+      "difficulty": "medium",
+      "revenueImpact": "high"
     }
   ],
   "monthlyPL": {
