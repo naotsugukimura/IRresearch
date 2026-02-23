@@ -129,6 +129,12 @@ export interface QuadrantConfig {
   purpose: string;
   industryAxis: string;
   valueAxis: string;
+  /** この象限で知りたいこと（戦略的な情報ニーズ） */
+  knowItems: string[];
+  /** サービスカテゴリ（Q1: 人材紹介/SaaS/メディア、Q3: 介護/医療/SaaS 等） */
+  subCategories: { label: string; description: string }[];
+  /** この象限の企業を見る際の視点・問い */
+  keyQuestions: string[];
 }
 
 export const QUADRANT_CONFIG: Record<Quadrant, QuadrantConfig> = {
@@ -141,6 +147,23 @@ export const QUADRANT_CONFIG: Record<Quadrant, QuadrantConfig> = {
     purpose: "OPS・売上・人員体制まで深く知り、差別化ポイントを見つける",
     industryAxis: "同じ業界",
     valueAxis: "同じ価値",
+    knowItems: [
+      "売上・顧客数・利益率",
+      "人員体制・組織構成",
+      "広告の出し方・営業手法",
+      "サポート体制・お客さんの声",
+      "ビジネスモデル（ステークホルダー×サービスのやり取り）",
+    ],
+    subCategories: [
+      { label: "人材紹介", description: "dodaチャレンジ、atGP等 — 支援員・障害者雇用枠の両面" },
+      { label: "SaaS", description: "のうびー、HUG、NDソフト等 — 福祉事業所向けソフトウェア" },
+      { label: "メディア", description: "リタリコ仕事ナビ等 — 求職者・事業所マッチング" },
+    ],
+    keyQuestions: [
+      "自社と同じ市場で、どの企業がどれだけシェアを持っているか？",
+      "競合のOPS（営業→受注→サポート）はどう設計されているか？",
+      "差別化の余地はどこにあるか？",
+    ],
   },
   Q2: {
     label: "市場探索",
@@ -151,6 +174,22 @@ export const QUADRANT_CONFIG: Record<Quadrant, QuadrantConfig> = {
     purpose: "事業開発として新市場を発見し、参入機会を評価する",
     industryAxis: "同じ業界",
     valueAxis: "異なる価値",
+    knowItems: [
+      "誰の・何のニーズに刺しているか",
+      "市場規模（TAM/SAM/SOM）",
+      "ビジネスモデル（課金モデル/顧客セグメント/チャネル）",
+      "参入障壁と成功要因",
+    ],
+    subCategories: [
+      { label: "事業所向け", description: "キモチプラス、Lean on Me、AI支援さん、ファクタリング、コンサルFC" },
+      { label: "企業向け", description: "エスプール（サテライトオフィス・農園）等" },
+      { label: "独自路線", description: "ヘラルボニー、ローランズ等 — 新しい障害福祉の形" },
+    ],
+    keyQuestions: [
+      "この市場にSMS/AIBPOが参入する余地はあるか？",
+      "顧客は誰で、どんなペインを持っているか？",
+      "既存の自社アセットを活かせるか？",
+    ],
   },
   Q3: {
     label: "OPS深化",
@@ -161,6 +200,23 @@ export const QUADRANT_CONFIG: Record<Quadrant, QuadrantConfig> = {
     purpose: "介護・保育・医療等の隣接業界から運営ノウハウを学ぶ",
     industryAxis: "異なる業界",
     valueAxis: "同じ価値",
+    knowItems: [
+      "組織運営のやり方・OPSの作り方",
+      "事業立ち上げから現在の土俵を築くまでの変遷",
+      "市場規模と業界内の勢力図",
+      "ホリゾンタル/バーティカルSaaSの戦略",
+    ],
+    subCategories: [
+      { label: "介護", description: "SMS、ケア21、ツクイ、ニチイ等 — 準市場の先輩" },
+      { label: "医療", description: "エムスリー、JMDC、メドレー等 — プラットフォーム型" },
+      { label: "SaaS", description: "freee、サイボウズ等 — ホリゾンタルSaaSの成功モデル" },
+      { label: "HR/メディア", description: "リクルート等 — メディア×HRの大規模運営" },
+    ],
+    keyQuestions: [
+      "隣接業界で成功しているOPSモデルは、障害福祉に転用できるか？",
+      "事業規模をスケールさせた企業は、どの段階で何をしたか？",
+      "業界別の市場構造（寡占 vs 分散）はどうなっているか？",
+    ],
   },
   Q4: {
     label: "技術キャッチアップ",
@@ -171,6 +227,21 @@ export const QUADRANT_CONFIG: Record<Quadrant, QuadrantConfig> = {
     purpose: "AIBPO時代に備え、AI/DXの最新技術をキャッチアップする",
     industryAxis: "異なる業界",
     valueAxis: "異なる価値",
+    knowItems: [
+      "どのAI/DX技術を採用しているか",
+      "技術をどうビジネスに変えているか",
+      "自社（SMS/AIBPO）への適用可能性",
+    ],
+    subCategories: [
+      { label: "AI/BPO", description: "LayerX、AI inside等 — AIを事業の中核に据えた企業" },
+      { label: "営業AI", description: "営業プロセスをAIで変革する企業" },
+      { label: "EdTech", description: "Aidemy、atama plus等 — 学習・教育のDX" },
+    ],
+    keyQuestions: [
+      "AIBPOが到来する中で、何の技術を最優先でキャッチアップすべきか？",
+      "この技術を障害福祉の文脈に当てはめるとどう使えるか？",
+      "技術導入のROIはどの程度か？",
+    ],
   },
 };
 
