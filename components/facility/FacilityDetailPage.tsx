@@ -5,6 +5,7 @@ import { FacilityKpiCards } from "@/components/facility/FacilityKpiCards";
 import { EntityDistributionChart } from "@/components/facility/EntityDistributionChart";
 import { OperatorScaleChart } from "@/components/facility/OperatorScaleChart";
 import { FacilityGrowthChart } from "@/components/facility/FacilityGrowthChart";
+import { RewardHistorySection } from "@/components/facility/RewardHistorySection";
 import { DailyTimeline } from "@/components/facility/DailyTimeline";
 import { RoleDiagram } from "@/components/facility/RoleDiagram";
 import { StakeholderMap } from "@/components/facility/StakeholderMap";
@@ -19,7 +20,7 @@ import { BonusFlowChart } from "@/components/facility/BonusFlowChart";
 import { ServiceBlueprintSection } from "@/components/facility/ServiceBlueprintSection";
 import { RewardUnitTable } from "@/components/facility/RewardUnitTable";
 import { SectionNav } from "@/components/layout/SectionNav";
-import { FACILITY_SECTIONS } from "@/lib/constants";
+import { FACILITY_SECTION_GROUPS, type FacilitySectionGroup } from "@/lib/constants";
 import type { FacilityAnalysisData } from "@/lib/types";
 
 interface Props {
@@ -27,6 +28,7 @@ interface Props {
   title: string;
 }
 
+// Checks for optional sections — if check returns false, section is hidden
 const OPTIONAL_SECTION_CHECKS: Record<string, (d: FacilityAnalysisData) => boolean> = {
   userJourney: (d) => !!d.userJourney,
   lifecycle: (d) => !!d.businessLifecycle || !!d.startupGuide,
@@ -35,13 +37,30 @@ const OPTIONAL_SECTION_CHECKS: Record<string, (d: FacilityAnalysisData) => boole
   rewardTable: (d) => !!d.rewardUnitTable,
   monthlyPL: (d) => !!d.monthlyPL,
   bonusFlow: (d) => !!d.bonusAcquisitionFlow,
+  rewardHistory: (d) => (d.rewardRevisions?.length ?? 0) > 0,
 };
 
+function CategoryHeader({ label, color }: { label: string; color: string }) {
+  return (
+    <div className="flex items-center gap-2 pt-6 pb-2">
+      <div className="w-1 h-5 rounded-full" style={{ backgroundColor: color }} />
+      <h2 className="text-sm font-bold text-foreground tracking-wide">{label}</h2>
+      <div className="flex-1 h-px bg-border" />
+    </div>
+  );
+}
+
 export function FacilityDetailPage({ data, title }: Props) {
-  const activeSections = FACILITY_SECTIONS.filter((s) => {
-    const check = OPTIONAL_SECTION_CHECKS[s.id];
-    return check ? check(data) : true;
-  });
+  // Filter out groups/sections where data doesn't exist
+  const activeGroups: FacilitySectionGroup[] = FACILITY_SECTION_GROUPS
+    .map((group) => ({
+      ...group,
+      sections: group.sections.filter((s) => {
+        const check = OPTIONAL_SECTION_CHECKS[s.id];
+        return check ? check(data) : true;
+      }),
+    }))
+    .filter((group) => group.sections.length > 0);
 
   return (
     <div className="flex h-screen">
@@ -59,8 +78,14 @@ export function FacilityDetailPage({ data, title }: Props) {
             </div>
           </div>
         </div>
-        <SectionNav sections={activeSections} />
+        <SectionNav groups={activeGroups} />
         <div className="space-y-4 p-4 md:p-6">
+
+          {/* ========================================== */}
+          {/* 市場系                                      */}
+          {/* ========================================== */}
+          <CategoryHeader label="市場系" color="#3B82F6" />
+
           <section id="overview">
             <FacilityKpiCards data={data} />
           </section>
@@ -83,12 +108,25 @@ export function FacilityDetailPage({ data, title }: Props) {
             />
           </section>
 
-          {/* User Journey Flow */}
-          {data.userJourney && (
-            <section id="userJourney">
-              <UserJourneyFlow userJourney={data.userJourney} serviceType={data.serviceType} />
-            </section>
+          {/* ========================================== */}
+          {/* 沿革系                                      */}
+          {/* ========================================== */}
+          {data.rewardRevisions && data.rewardRevisions.length > 0 && (
+            <>
+              <CategoryHeader label="沿革系" color="#F59E0B" />
+              <section id="rewardHistory">
+                <RewardHistorySection
+                  revisions={data.rewardRevisions}
+                  serviceType={data.serviceType}
+                />
+              </section>
+            </>
           )}
+
+          {/* ========================================== */}
+          {/* 経営系                                      */}
+          {/* ========================================== */}
+          <CategoryHeader label="経営系" color="#10B981" />
 
           {/* Business Lifecycle / Startup Flow */}
           {data.businessLifecycle ? (
@@ -104,43 +142,6 @@ export function FacilityDetailPage({ data, title }: Props) {
               <StartupFlow startupGuide={data.startupGuide} serviceType={data.serviceType} />
             </section>
           ) : null}
-
-          {/* Service Blueprint */}
-          {data.serviceBlueprint && (
-            <section id="blueprint">
-              <ServiceBlueprintSection
-                blueprint={data.serviceBlueprint}
-                serviceType={data.serviceType}
-              />
-            </section>
-          )}
-
-          {/* Operations: Daily timeline (full width) */}
-          <section id="operations">
-            <DailyTimeline
-              schedule={data.operationsStory.dailySchedule}
-              serviceType={data.serviceType}
-            />
-          </section>
-
-          {/* Roles (full width for expanded content) */}
-          <section id="roles">
-            <RoleDiagram
-              roles={data.operationsStory.roles}
-              serviceType={data.serviceType}
-            />
-          </section>
-
-          {/* Stakeholders */}
-          {data.operationsStory.stakeholders && data.operationsStory.stakeholders.length > 0 && (
-            <section id="stakeholders">
-              <StakeholderMap stakeholders={data.operationsStory.stakeholders} />
-            </section>
-          )}
-
-          <section id="conversations">
-            <ConversationCards conversations={data.operationsStory.typicalConversations} />
-          </section>
 
           <section id="pl">
             <PLWaterfall data={data.facilityPL} />
@@ -168,6 +169,56 @@ export function FacilityDetailPage({ data, title }: Props) {
           <section id="bonuses">
             <BonusTable bonuses={data.bonusCatalog} />
           </section>
+
+          {/* ========================================== */}
+          {/* 業務プロセス理解                              */}
+          {/* ========================================== */}
+          <CategoryHeader label="業務プロセス理解" color="#8B5CF6" />
+
+          {/* User Journey Flow */}
+          {data.userJourney && (
+            <section id="userJourney">
+              <UserJourneyFlow userJourney={data.userJourney} serviceType={data.serviceType} />
+            </section>
+          )}
+
+          {/* Service Blueprint */}
+          {data.serviceBlueprint && (
+            <section id="blueprint">
+              <ServiceBlueprintSection
+                blueprint={data.serviceBlueprint}
+                serviceType={data.serviceType}
+              />
+            </section>
+          )}
+
+          {/* Operations: Daily timeline */}
+          <section id="operations">
+            <DailyTimeline
+              schedule={data.operationsStory.dailySchedule}
+              serviceType={data.serviceType}
+            />
+          </section>
+
+          {/* Roles */}
+          <section id="roles">
+            <RoleDiagram
+              roles={data.operationsStory.roles}
+              serviceType={data.serviceType}
+            />
+          </section>
+
+          {/* Stakeholders */}
+          {data.operationsStory.stakeholders && data.operationsStory.stakeholders.length > 0 && (
+            <section id="stakeholders">
+              <StakeholderMap stakeholders={data.operationsStory.stakeholders} />
+            </section>
+          )}
+
+          <section id="conversations">
+            <ConversationCards conversations={data.operationsStory.typicalConversations} />
+          </section>
+
         </div>
       </main>
     </div>

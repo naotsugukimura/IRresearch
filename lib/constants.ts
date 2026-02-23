@@ -250,24 +250,65 @@ export const MARKET_SECTIONS = [
   { id: "news", label: "ニュース" },
 ] as const;
 
-export const FACILITY_SECTIONS = [
-  { id: "overview", label: "概要" },
-  { id: "entities", label: "参入法人" },
-  { id: "scale", label: "事業規模" },
-  { id: "timeseries", label: "推移" },
-  { id: "userJourney", label: "利用者フロー" },
-  { id: "lifecycle", label: "事業ライフサイクル" },
-  { id: "blueprint", label: "業務プロセス" },
-  { id: "operations", label: "事業所運営" },
-  { id: "roles", label: "登場人物" },
-  { id: "stakeholders", label: "関係者マップ" },
-  { id: "conversations", label: "現場の声" },
-  { id: "pl", label: "収支構造" },
-  { id: "rewardTable", label: "報酬単位" },
-  { id: "monthlyPL", label: "月次収支" },
-  { id: "bonusFlow", label: "加算フロー" },
-  { id: "bonuses", label: "加算一覧" },
+export type FacilitySectionGroup = {
+  groupId: string;
+  groupLabel: string;
+  groupColor: string;
+  sections: readonly { id: string; label: string }[];
+};
+
+export const FACILITY_SECTION_GROUPS: readonly FacilitySectionGroup[] = [
+  {
+    groupId: "market",
+    groupLabel: "市場系",
+    groupColor: "#3B82F6",
+    sections: [
+      { id: "overview", label: "概要" },
+      { id: "entities", label: "参入法人" },
+      { id: "scale", label: "事業規模" },
+      { id: "timeseries", label: "推移" },
+    ],
+  },
+  {
+    groupId: "history",
+    groupLabel: "沿革系",
+    groupColor: "#F59E0B",
+    sections: [
+      { id: "rewardHistory", label: "報酬改定の歴史" },
+    ],
+  },
+  {
+    groupId: "management",
+    groupLabel: "経営系",
+    groupColor: "#10B981",
+    sections: [
+      { id: "lifecycle", label: "事業ライフサイクル" },
+      { id: "pl", label: "収支構造" },
+      { id: "rewardTable", label: "報酬単位" },
+      { id: "monthlyPL", label: "月次収支" },
+      { id: "bonusFlow", label: "加算フロー" },
+      { id: "bonuses", label: "加算一覧" },
+    ],
+  },
+  {
+    groupId: "operations",
+    groupLabel: "業務プロセス理解",
+    groupColor: "#8B5CF6",
+    sections: [
+      { id: "userJourney", label: "利用者フロー" },
+      { id: "blueprint", label: "業務プロセス" },
+      { id: "operations", label: "一日の流れ" },
+      { id: "roles", label: "登場人物" },
+      { id: "stakeholders", label: "関係者マップ" },
+      { id: "conversations", label: "現場の声" },
+    ],
+  },
 ] as const;
+
+// Flat list for backward compatibility
+export const FACILITY_SECTIONS = FACILITY_SECTION_GROUPS.flatMap(
+  (g) => g.sections
+);
 
 export const COMPANY_SECTIONS = [
   { id: "overview", label: "概要" },
