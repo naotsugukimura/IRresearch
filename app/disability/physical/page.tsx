@@ -1,13 +1,14 @@
 import { Sidebar, MobileNav } from "@/components/layout/Sidebar";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { getDisabilityCategory } from "@/lib/data";
+import { getDisabilityCategory, getDisabilitySubTypes } from "@/lib/data";
 import { DisabilityDetailPage } from "@/components/disability/DisabilityDetailPage";
 import { notFound } from "next/navigation";
 
 export default function PhysicalPage() {
   const data = getDisabilityCategory("physical");
   if (!data) return notFound();
+  const subTypeData = getDisabilitySubTypes("physical");
 
   return (
     <div className="flex h-screen">
@@ -26,7 +27,7 @@ export default function PhysicalPage() {
           </div>
         </div>
         <div className="p-4 md:p-6">
-          <DisabilityDetailPage data={data} />
+          <DisabilityDetailPage data={data} subTypeData={subTypeData} />
         </div>
       </main>
     </div>

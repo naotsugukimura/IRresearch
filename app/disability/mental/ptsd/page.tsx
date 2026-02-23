@@ -5,7 +5,7 @@ import { SubTypeDetailPage } from "@/components/disability/SubTypeDetailPage";
 import { getDisabilitySubType } from "@/lib/data";
 import { notFound } from "next/navigation";
 
-export default function PTSDPage() {
+export default function PtsdPage() {
   const data = getDisabilitySubType("mental", "ptsd");
   if (!data) return notFound();
 

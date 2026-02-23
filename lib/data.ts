@@ -13,7 +13,20 @@ import marketOverviewData from "@/data/market-overview.json";
 import webResearchData from "@/data/web-research.json";
 import disabilityKnowledgeData from "@/data/disability-knowledge.json";
 import internationalWelfareData from "@/data/international-welfare.json";
+import physicalSubTypesData from "@/data/disability-subtypes/physical.json";
+import intellectualSubTypesData from "@/data/disability-subtypes/intellectual.json";
 import mentalSubTypesData from "@/data/disability-subtypes/mental.json";
+import developmentalSubTypesData from "@/data/disability-subtypes/developmental.json";
+import acquiredBrainSubTypesData from "@/data/disability-subtypes/acquired-brain.json";
+import intractableSubTypesData from "@/data/disability-subtypes/intractable.json";
+import severeMultipleSubTypesData from "@/data/disability-subtypes/severe-multiple.json";
+import challengingBehaviorSubTypesData from "@/data/disability-subtypes/challenging-behavior.json";
+import addictionSubTypesData from "@/data/disability-subtypes/addiction.json";
+import dementiaSubTypesData from "@/data/disability-subtypes/dementia.json";
+import multipleSubTypesData from "@/data/disability-subtypes/multiple.json";
+import medicalCareChildSubTypesData from "@/data/disability-subtypes/medical-care-child.json";
+import justiceInvolvedSubTypesData from "@/data/disability-subtypes/justice-involved.json";
+import socialWithdrawalSubTypesData from "@/data/disability-subtypes/social-withdrawal.json";
 import jidouHattatsuData from "@/data/facility-analysis/jidou-hattatsu.json";
 import iryougataJidouData from "@/data/facility-analysis/iryougata-jidou.json";
 import houkagoDayData from "@/data/facility-analysis/houkago-day.json";
@@ -290,7 +303,20 @@ export function getDisabilityCategory(id: string): DisabilityCategory | undefine
 // ============================================================
 
 const SUB_TYPE_DATA_MAP: Record<string, unknown> = {
+  physical: physicalSubTypesData,
+  intellectual: intellectualSubTypesData,
   mental: mentalSubTypesData,
+  developmental: developmentalSubTypesData,
+  "acquired-brain": acquiredBrainSubTypesData,
+  intractable: intractableSubTypesData,
+  "severe-multiple": severeMultipleSubTypesData,
+  "challenging-behavior": challengingBehaviorSubTypesData,
+  addiction: addictionSubTypesData,
+  dementia: dementiaSubTypesData,
+  multiple: multipleSubTypesData,
+  "medical-care-child": medicalCareChildSubTypesData,
+  "justice-involved": justiceInvolvedSubTypesData,
+  "social-withdrawal": socialWithdrawalSubTypesData,
 };
 
 export function getDisabilitySubTypes(parentId: string): DisabilitySubTypeData | undefined {

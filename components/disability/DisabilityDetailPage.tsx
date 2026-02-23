@@ -405,10 +405,13 @@ export function DisabilityDetailPage({ data, subTypeData }: { data: DisabilityCa
     <div className="space-y-4">
       <SummarySection cat={data} subTypeData={subTypeData} />
 
-      <div className="grid lg:grid-cols-2 gap-4">
-        <DiscoveryTimeline cat={data} />
-        <TreatmentSection cat={data} />
-      </div>
+      {/* サブタイプ詳細がある場合、ライフステージ・治療は個別ページに任せる */}
+      {!subTypeData && (
+        <div className="grid lg:grid-cols-2 gap-4">
+          <DiscoveryTimeline cat={data} />
+          <TreatmentSection cat={data} />
+        </div>
+      )}
 
       <EmploymentSection cat={data} />
     </div>
