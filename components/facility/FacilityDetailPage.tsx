@@ -11,7 +11,7 @@ import { RewardHistorySection } from "@/components/facility/RewardHistorySection
 import { DailyTimeline } from "@/components/facility/DailyTimeline";
 import { RoleDiagram } from "@/components/facility/RoleDiagram";
 import { StakeholderMap } from "@/components/facility/StakeholderMap";
-import { ConversationCards } from "@/components/facility/ConversationCards";
+// ConversationCards removed — conversations integrated into DailyTimeline
 import { PLWaterfall } from "@/components/facility/PLWaterfall";
 import { BonusTable } from "@/components/facility/BonusTable";
 import { MonthlyPLTable } from "@/components/facility/MonthlyPLTable";
@@ -41,7 +41,6 @@ const OPTIONAL_SECTION_CHECKS: Record<string, (d: FacilityAnalysisData) => boole
   stakeholders: (d) => (d.operationsStory.stakeholders?.length ?? 0) > 0,
   rewardTable: (d) => !!d.rewardUnitTable,
   monthlyPL: (d) => !!d.monthlyPL,
-  bonusFlow: (d) => !!d.bonusAcquisitionFlow,
   rewardHistory: (d) => (d.rewardRevisions?.length ?? 0) > 0,
   regional: (d) => !!d.regionalData,
 };
@@ -87,7 +86,6 @@ export function FacilityDetailPage({ data, title }: Props) {
               <Breadcrumb />
               <PageHeader
                 title={title}
-                description="\u4E8B\u696D\u6240\u5206\u6790 \u2014 \u53C2\u5165\u6CD5\u4EBA\u30FB\u904B\u55B6\u5B9F\u614B\u30FB\u53CE\u652F\u69CB\u9020\u306E\u6DF1\u6398\u308A"
               />
             </div>
           </div>
@@ -181,9 +179,19 @@ export function FacilityDetailPage({ data, title }: Props) {
             </section>
           )}
 
-          {/* ===== Management ===== */}
+          {/* ===== Management (PL→月次→ライフサイクル→報酬単位→加算) ===== */}
           {activeTab === "management" && (
             <>
+              <section id="pl">
+                <PLWaterfall data={data.facilityPL} />
+              </section>
+
+              {data.monthlyPL && (
+                <section id="monthlyPL">
+                  <MonthlyPLTable data={data.monthlyPL} />
+                </section>
+              )}
+
               {data.businessLifecycle ? (
                 <section id="lifecycle">
                   <BusinessLifecycle
@@ -198,42 +206,40 @@ export function FacilityDetailPage({ data, title }: Props) {
                 </section>
               ) : null}
 
-              <section id="pl">
-                <PLWaterfall data={data.facilityPL} />
-              </section>
-
               {data.rewardUnitTable && (
                 <section id="rewardTable">
                   <RewardUnitTable data={data.rewardUnitTable} />
                 </section>
               )}
 
-              {data.monthlyPL && (
-                <section id="monthlyPL">
-                  <MonthlyPLTable data={data.monthlyPL} />
-                </section>
-              )}
-
-              {data.bonusAcquisitionFlow && (
-                <section id="bonusFlow">
-                  <BonusFlowChart flow={data.bonusAcquisitionFlow} />
-                </section>
-              )}
-
               <section id="bonuses">
+                {data.bonusAcquisitionFlow && (
+                  <div className="mb-4">
+                    <BonusFlowChart flow={data.bonusAcquisitionFlow} />
+                  </div>
+                )}
                 <BonusTable bonuses={data.bonusCatalog} />
               </section>
             </>
           )}
 
-          {/* ===== Operations ===== */}
+          {/* ===== Operations (登場人物→一日の流れ→業務プロセス→利用者→関係者) ===== */}
           {activeTab === "operations" && (
             <>
-              {data.userJourney && (
-                <section id="userJourney">
-                  <UserJourneyFlow userJourney={data.userJourney} serviceType={data.serviceType} />
-                </section>
-              )}
+              <section id="roles">
+                <RoleDiagram
+                  roles={data.operationsStory.roles}
+                  serviceType={data.serviceType}
+                />
+              </section>
+
+              <section id="dailyFlow">
+                <DailyTimeline
+                  schedule={data.operationsStory.dailySchedule}
+                  serviceType={data.serviceType}
+                  conversations={data.operationsStory.typicalConversations}
+                />
+              </section>
 
               {data.serviceBlueprint && (
                 <section id="blueprint">
@@ -244,29 +250,17 @@ export function FacilityDetailPage({ data, title }: Props) {
                 </section>
               )}
 
-              <section id="operations">
-                <DailyTimeline
-                  schedule={data.operationsStory.dailySchedule}
-                  serviceType={data.serviceType}
-                />
-              </section>
-
-              <section id="roles">
-                <RoleDiagram
-                  roles={data.operationsStory.roles}
-                  serviceType={data.serviceType}
-                />
-              </section>
+              {data.userJourney && (
+                <section id="userJourney">
+                  <UserJourneyFlow userJourney={data.userJourney} serviceType={data.serviceType} />
+                </section>
+              )}
 
               {data.operationsStory.stakeholders && data.operationsStory.stakeholders.length > 0 && (
                 <section id="stakeholders">
                   <StakeholderMap stakeholders={data.operationsStory.stakeholders} />
                 </section>
               )}
-
-              <section id="conversations">
-                <ConversationCards conversations={data.operationsStory.typicalConversations} />
-              </section>
             </>
           )}
 
