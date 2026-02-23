@@ -1006,6 +1006,49 @@ export interface DisabilityKnowledgeData {
   categories: DisabilityCategory[];
 }
 
+// 障害サブタイプ詳細ページ用
+export interface DisabilitySubTypeDetail {
+  id: string;
+  name: string;
+  parentId: string;
+  color: string;
+  overview: string;
+  estimatedPopulation: string;
+  prevalence: string;
+  onsetAge: string;
+  symptoms: {
+    category: string;
+    items: string[];
+  }[];
+  dailyChallenges: string[];
+  treatments: {
+    type: string;
+    description: string;
+    effectiveness: string;
+  }[];
+  progression: {
+    stage: string;
+    description: string;
+  }[];
+  livingWith: {
+    tip: string;
+    description: string;
+  }[];
+  relatedServices: string[];
+  misconceptions: {
+    myth: string;
+    reality: string;
+  }[];
+  sources: string[];
+}
+
+export interface DisabilitySubTypeData {
+  parentId: string;
+  parentTitle: string;
+  lastUpdated: string;
+  subTypes: DisabilitySubTypeDetail[];
+}
+
 // ============================================================
 // 報酬改定タイムライン
 // ============================================================

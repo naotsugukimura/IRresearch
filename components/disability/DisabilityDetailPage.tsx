@@ -33,8 +33,10 @@ import {
   Syringe,
   Scale,
   Home,
+  ArrowRight,
 } from "lucide-react";
-import type { DisabilityCategory } from "@/lib/types";
+import Link from "next/link";
+import type { DisabilityCategory, DisabilitySubTypeData } from "@/lib/types";
 
 const ICON_MAP: Record<string, React.ElementType> = {
   Baby,
@@ -92,7 +94,70 @@ function Sparkline({ data, color }: { data: { year: number; count: number }[]; c
   );
 }
 
-function SummarySection({ cat }: { cat: DisabilityCategory }) {
+function SubTypeTable({ cat, subTypeData }: { cat: DisabilityCategory; subTypeData: DisabilitySubTypeData }) {
+  return (
+    <Card>
+      <CardHeader className="pb-3">
+        <CardTitle className="text-sm flex items-center gap-2">
+          <Users className="h-4 w-4" style={{ color: cat.color }} />
+          サブタイプ詳細
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="pt-0">
+        <div className="overflow-x-auto rounded-lg border border-border">
+          <table className="w-full text-left">
+            <thead>
+              <tr className="border-b border-border bg-muted/30">
+                <th className="px-3 py-2 text-[11px] font-medium text-muted-foreground">障害名</th>
+                <th className="px-3 py-2 text-[11px] font-medium text-muted-foreground">推定人数</th>
+                <th className="px-3 py-2 text-[11px] font-medium text-muted-foreground">有病率</th>
+                <th className="px-3 py-2 text-[11px] font-medium text-muted-foreground">好発年齢</th>
+                <th className="px-3 py-2 text-[11px] font-medium text-muted-foreground w-8"></th>
+              </tr>
+            </thead>
+            <tbody>
+              {subTypeData.subTypes.map((st) => (
+                <tr
+                  key={st.id}
+                  className="border-b border-border/50 last:border-b-0 hover:bg-muted/10 transition-colors"
+                >
+                  <td className="px-3 py-2.5">
+                    <Link
+                      href={`/disability/${cat.id}/${st.id}`}
+                      className="text-xs font-semibold hover:underline"
+                      style={{ color: cat.color }}
+                    >
+                      {st.name}
+                    </Link>
+                  </td>
+                  <td className="px-3 py-2.5 text-xs text-muted-foreground font-mono">
+                    {st.estimatedPopulation}
+                  </td>
+                  <td className="px-3 py-2.5 text-xs text-muted-foreground font-mono">
+                    {st.prevalence}
+                  </td>
+                  <td className="px-3 py-2.5 text-xs text-muted-foreground">
+                    {st.onsetAge}
+                  </td>
+                  <td className="px-3 py-2.5">
+                    <Link
+                      href={`/disability/${cat.id}/${st.id}`}
+                      className="text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                      <ArrowRight className="h-3.5 w-3.5" />
+                    </Link>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
+
+function SummarySection({ cat, subTypeData }: { cat: DisabilityCategory; subTypeData?: DisabilitySubTypeData }) {
   const growth =
     cat.statistics.trendData.length >= 2
       ? (
@@ -107,22 +172,27 @@ function SummarySection({ cat }: { cat: DisabilityCategory }) {
     <div className="space-y-4">
       <p className="text-sm leading-relaxed">{cat.overview}</p>
 
-      <div className="flex flex-wrap gap-2">
-        {cat.subTypes.map((st) => (
-          <div key={st.name} className="group relative">
-            <Badge
-              variant="outline"
-              className="cursor-default text-xs"
-              style={{ borderColor: cat.color, color: cat.color }}
-            >
-              {st.name}
-            </Badge>
-            <div className="absolute z-10 bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block w-64 p-2 rounded-lg border bg-popover text-popover-foreground text-xs shadow-md">
-              {st.description}
+      {/* subTypeData がある場合はテーブル表示、ない場合はバッジ表示 */}
+      {subTypeData ? (
+        <SubTypeTable cat={cat} subTypeData={subTypeData} />
+      ) : (
+        <div className="flex flex-wrap gap-2">
+          {cat.subTypes.map((st) => (
+            <div key={st.name} className="group relative">
+              <Badge
+                variant="outline"
+                className="cursor-default text-xs"
+                style={{ borderColor: cat.color, color: cat.color }}
+              >
+                {st.name}
+              </Badge>
+              <div className="absolute z-10 bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block w-64 p-2 rounded-lg border bg-popover text-popover-foreground text-xs shadow-md">
+                {st.description}
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         <Card className="border-border/50">
@@ -330,10 +400,10 @@ function EmploymentSection({ cat }: { cat: DisabilityCategory }) {
   );
 }
 
-export function DisabilityDetailPage({ data }: { data: DisabilityCategory }) {
+export function DisabilityDetailPage({ data, subTypeData }: { data: DisabilityCategory; subTypeData?: DisabilitySubTypeData }) {
   return (
     <div className="space-y-4">
-      <SummarySection cat={data} />
+      <SummarySection cat={data} subTypeData={subTypeData} />
 
       <div className="grid lg:grid-cols-2 gap-4">
         <DiscoveryTimeline cat={data} />

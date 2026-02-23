@@ -13,6 +13,7 @@ import marketOverviewData from "@/data/market-overview.json";
 import webResearchData from "@/data/web-research.json";
 import disabilityKnowledgeData from "@/data/disability-knowledge.json";
 import internationalWelfareData from "@/data/international-welfare.json";
+import mentalSubTypesData from "@/data/disability-subtypes/mental.json";
 import jidouHattatsuData from "@/data/facility-analysis/jidou-hattatsu.json";
 import iryougataJidouData from "@/data/facility-analysis/iryougata-jidou.json";
 import houkagoDayData from "@/data/facility-analysis/houkago-day.json";
@@ -54,6 +55,8 @@ import type {
   RewardRevisionPageData,
   InternationalWelfareData,
   InternationalWelfareDetail,
+  DisabilitySubTypeData,
+  DisabilitySubTypeDetail,
 } from "./types";
 
 // ============================================================
@@ -280,6 +283,26 @@ export function getDisabilityKnowledge(): DisabilityKnowledgeData {
 export function getDisabilityCategory(id: string): DisabilityCategory | undefined {
   const data = getDisabilityKnowledge();
   return data.categories.find((c) => c.id === id);
+}
+
+// ============================================================
+// 障害サブタイプ詳細
+// ============================================================
+
+const SUB_TYPE_DATA_MAP: Record<string, unknown> = {
+  mental: mentalSubTypesData,
+};
+
+export function getDisabilitySubTypes(parentId: string): DisabilitySubTypeData | undefined {
+  const raw = SUB_TYPE_DATA_MAP[parentId];
+  if (!raw) return undefined;
+  return raw as unknown as DisabilitySubTypeData;
+}
+
+export function getDisabilitySubType(parentId: string, subTypeId: string): DisabilitySubTypeDetail | undefined {
+  const data = getDisabilitySubTypes(parentId);
+  if (!data) return undefined;
+  return data.subTypes.find((s) => s.id === subTypeId);
 }
 
 // ============================================================

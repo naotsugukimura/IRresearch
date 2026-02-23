@@ -1,14 +1,13 @@
 import { Sidebar, MobileNav } from "@/components/layout/Sidebar";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { getDisabilityCategory, getDisabilitySubTypes } from "@/lib/data";
-import { DisabilityDetailPage } from "@/components/disability/DisabilityDetailPage";
+import { SubTypeDetailPage } from "@/components/disability/SubTypeDetailPage";
+import { getDisabilitySubType } from "@/lib/data";
 import { notFound } from "next/navigation";
 
-export default function MentalPage() {
-  const data = getDisabilityCategory("mental");
+export default function AnxietyDisordersPage() {
+  const data = getDisabilitySubType("mental", "anxiety-disorders");
   if (!data) return notFound();
-  const subTypeData = getDisabilitySubTypes("mental");
 
   return (
     <div className="flex h-screen">
@@ -20,14 +19,14 @@ export default function MentalPage() {
             <div>
               <Breadcrumb />
               <PageHeader
-                title={data.title}
-                description={data.overview.substring(0, 80) + "..."}
+                title={data.name}
+                description={`精神障害 > ${data.name}`}
               />
             </div>
           </div>
         </div>
         <div className="p-4 md:p-6">
-          <DisabilityDetailPage data={data} subTypeData={subTypeData} />
+          <SubTypeDetailPage data={data} />
         </div>
       </main>
     </div>
