@@ -125,7 +125,7 @@ export default function PlChartInner({ plan, companyColor }: PlChartInnerProps) 
                   x2={MONTHS[investEnd]}
                   fill={PHASE_INVEST}
                   fillOpacity={1}
-                  label={{ value: "初期投資期", position: "insideTopLeft", fontSize: 10, fill: "#7890b0" }}
+                  label={{ value: "初期投資期", position: "insideTopLeft", fontSize: 13, fill: "#7890b0" }}
                 />
               )}
               {growthEnd > investEnd && (
@@ -134,7 +134,7 @@ export default function PlChartInner({ plan, companyColor }: PlChartInnerProps) 
                   x2={MONTHS[growthEnd]}
                   fill={PHASE_GROWTH}
                   fillOpacity={1}
-                  label={{ value: "成長加速期", position: "insideTopLeft", fontSize: 10, fill: "#6ec5a0" }}
+                  label={{ value: "成長加速期", position: "insideTopLeft", fontSize: 13, fill: "#6ec5a0" }}
                 />
               )}
               {growthEnd < 11 && (
@@ -143,25 +143,25 @@ export default function PlChartInner({ plan, companyColor }: PlChartInnerProps) 
                   x2={MONTHS[11]}
                   fill={PHASE_STABLE}
                   fillOpacity={1}
-                  label={{ value: "安定期", position: "insideTopLeft", fontSize: 10, fill: "#b8a050" }}
+                  label={{ value: "安定期", position: "insideTopLeft", fontSize: 13, fill: "#b8a050" }}
                 />
               )}
 
               <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.07)" />
-              <XAxis dataKey="month" tick={{ fontSize: 11, fill: "#9CA3AF", fontFamily: "var(--font-jetbrains-mono)" }} />
-              <YAxis tickFormatter={formatYAxis} tick={{ fontSize: 11, fill: "#9CA3AF", fontFamily: "var(--font-jetbrains-mono)" }} />
+              <XAxis dataKey="month" tick={{ fontSize: 14, fill: "#9CA3AF", fontFamily: "var(--font-jetbrains-mono)" }} />
+              <YAxis tickFormatter={formatYAxis} tick={{ fontSize: 14, fill: "#9CA3AF", fontFamily: "var(--font-jetbrains-mono)" }} />
               <Tooltip
                 formatter={formatTooltip}
                 contentStyle={{
                   backgroundColor: "#1F2937",
                   border: "1px solid rgba(255,255,255,0.1)",
                   borderRadius: "8px",
-                  fontSize: "12px",
+                  fontSize: "15px",
                   fontFamily: "var(--font-jetbrains-mono)",
                 }}
                 labelStyle={{ color: "#9CA3AF" }}
               />
-              <Legend wrapperStyle={{ fontSize: "12px" }} />
+              <Legend wrapperStyle={{ fontSize: "15px" }} />
 
               {/* BEP Line */}
               <ReferenceLine y={0} stroke={BEP_COLOR} strokeWidth={2} strokeDasharray="6 3">

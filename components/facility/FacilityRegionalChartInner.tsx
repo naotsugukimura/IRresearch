@@ -93,11 +93,11 @@ export default function FacilityRegionalChartInner({ data, serviceType }: Props)
                 layout="vertical"
                 margin={{ top: 5, right: 30, left: 60, bottom: 5 }}
               >
-                <XAxis type="number" tick={{ fontSize: 10, fill: "hsl(var(--muted-foreground))" }} />
+                <XAxis type="number" tick={{ fontSize: 13, fill: "hsl(var(--muted-foreground))" }} />
                 <YAxis
                   dataKey="name"
                   type="category"
-                  tick={{ fontSize: 11, fill: "hsl(var(--foreground))" }}
+                  tick={{ fontSize: 14, fill: "hsl(var(--foreground))" }}
                   width={55}
                 />
                 <Tooltip
@@ -105,7 +105,7 @@ export default function FacilityRegionalChartInner({ data, serviceType }: Props)
                     backgroundColor: "hsl(var(--card))",
                     border: "1px solid hsl(var(--border))",
                     borderRadius: "8px",
-                    fontSize: "11px",
+                    fontSize: "14px",
                     color: "hsl(var(--foreground))",
                   }}
                   formatter={(value: number) => [
@@ -159,7 +159,7 @@ export default function FacilityRegionalChartInner({ data, serviceType }: Props)
                       backgroundColor: "hsl(var(--card))",
                       border: "1px solid hsl(var(--border))",
                       borderRadius: "8px",
-                      fontSize: "11px",
+                      fontSize: "14px",
                       color: "hsl(var(--foreground))",
                     }}
                     formatter={(value: number) => [`${value.toLocaleString()} 事業所`, ""]}

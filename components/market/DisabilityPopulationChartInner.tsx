@@ -51,23 +51,23 @@ export default function DisabilityPopulationChartInner({ data, annotations }: Pr
           <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
           <XAxis
             dataKey="year"
-            tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
           />
           <YAxis
             tickFormatter={formatManNin}
-            tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
           />
           <Tooltip
             contentStyle={{
               backgroundColor: "hsl(var(--card))",
               border: "1px solid hsl(var(--border))",
               borderRadius: 8,
-              fontSize: 12,
+              fontSize: 15,
             }}
             formatter={(value: number, name: string) => [formatManNin(value), name]}
             labelFormatter={(label) => `${label}年`}
           />
-          <Legend wrapperStyle={{ fontSize: 12 }} />
+          <Legend wrapperStyle={{ fontSize: 15 }} />
           {LINES.map((line) => (
             <Line
               key={line.key}

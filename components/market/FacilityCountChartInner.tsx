@@ -90,18 +90,18 @@ export default function FacilityCountChartInner({ data, annotations }: Props) {
           <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
           <XAxis
             dataKey="year"
-            tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
           />
           <YAxis
             tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}k`}
-            tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
           />
           <Tooltip
             contentStyle={{
               backgroundColor: "hsl(var(--card))",
               border: "1px solid hsl(var(--border))",
               borderRadius: 8,
-              fontSize: 11,
+              fontSize: 14,
             }}
             formatter={(value: number, name: string) => [
               value.toLocaleString() + "事業所",
@@ -109,7 +109,7 @@ export default function FacilityCountChartInner({ data, annotations }: Props) {
             ]}
             labelFormatter={(label) => `${label}年`}
           />
-          <Legend wrapperStyle={{ fontSize: 10 }} />
+          <Legend wrapperStyle={{ fontSize: 13 }} />
           {services
             .filter((svc) => activeServices.has(svc))
             .map((svc) => (

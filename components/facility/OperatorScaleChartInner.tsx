@@ -37,18 +37,18 @@ export default function OperatorScaleChartInner({ data }: Props) {
           <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
           <XAxis
             dataKey="name"
-            tick={{ fontSize: 10, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 13, fill: "hsl(var(--muted-foreground))" }}
           />
           <YAxis
             tickFormatter={(v: number) => v.toLocaleString()}
-            tick={{ fontSize: 10, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 13, fill: "hsl(var(--muted-foreground))" }}
           />
           <Tooltip
             contentStyle={{
               backgroundColor: "hsl(var(--card))",
               border: "1px solid hsl(var(--border))",
               borderRadius: 8,
-              fontSize: 12,
+              fontSize: 15,
               color: "hsl(var(--foreground))",
             }}
             // eslint-disable-next-line @typescript-eslint/no-explicit-any

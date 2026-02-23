@@ -34,14 +34,14 @@ export default function MarketSizeChartInner() {
           <ResponsiveContainer width="100%" height="100%">
             <AreaChart data={marketData} margin={{ top: 5, right: 5, left: 5, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
-              <XAxis dataKey="year" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} />
-              <YAxis tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} />
+              <XAxis dataKey="year" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} />
+              <YAxis tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} />
               <Tooltip
                 contentStyle={{
                   backgroundColor: "#1F2937",
                   border: "1px solid #374151",
                   borderRadius: "8px",
-                  fontSize: "12px",
+                  fontSize: "15px",
                 }}
               />
               <Area

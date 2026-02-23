@@ -181,12 +181,12 @@ function PrefectureChart({
             margin={{ top: 0, right: 60, left: 0, bottom: 0 }}
           >
             <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
-            <XAxis type="number" tick={{ fontSize: 11 }} />
+            <XAxis type="number" tick={{ fontSize: 14 }} />
             <YAxis
               type="category"
               dataKey="prefecture"
               width={70}
-              tick={{ fontSize: 11 }}
+              tick={{ fontSize: 14 }}
             />
             <Tooltip
               formatter={(value: number, name: string) => [
@@ -197,7 +197,7 @@ function PrefectureChart({
                 const row = chartData.find((r) => r.prefecture === label);
                 return row ? `${label}（シェア ${row.marketShare}%）` : label;
               }}
-              contentStyle={{ fontSize: 12, backgroundColor: "hsl(var(--card))", border: "1px solid hsl(var(--border))" }}
+              contentStyle={{ fontSize: 15, backgroundColor: "hsl(var(--card))", border: "1px solid hsl(var(--border))" }}
             />
             <Legend
               formatter={(value: string) =>
@@ -284,15 +284,15 @@ function ServiceBreakdownChart({
             margin={{ top: 0, right: 40, left: 0, bottom: 0 }}
           >
             <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
-            <XAxis type="number" tick={{ fontSize: 11 }} />
+            <XAxis type="number" tick={{ fontSize: 14 }} />
             <YAxis
               type="category"
               dataKey="prefecture"
               width={70}
-              tick={{ fontSize: 11 }}
+              tick={{ fontSize: 14 }}
             />
             <Tooltip
-              contentStyle={{ fontSize: 12, backgroundColor: "hsl(var(--card))", border: "1px solid hsl(var(--border))" }}
+              contentStyle={{ fontSize: 15, backgroundColor: "hsl(var(--card))", border: "1px solid hsl(var(--border))" }}
             />
             <Legend />
             {serviceNames.map((name) => (

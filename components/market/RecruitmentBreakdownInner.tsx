@@ -67,7 +67,7 @@ export default function RecruitmentBreakdownInner({ data }: Props) {
                   backgroundColor: "hsl(var(--card))",
                   border: "1px solid hsl(var(--border))",
                   borderRadius: 8,
-                  fontSize: 12,
+                  fontSize: 15,
                 }}
                 formatter={(value: number) => [`${value}%`, "シェア"]}
               />

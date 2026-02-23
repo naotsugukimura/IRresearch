@@ -50,7 +50,7 @@ export default function SegmentPieChartInner({ segments }: Props) {
                   backgroundColor: "#1F2937",
                   border: "1px solid #374151",
                   borderRadius: "8px",
-                  fontSize: "12px",
+                  fontSize: "15px",
                 }}
                 formatter={(value: number) => [`${value}%`, undefined]}
               />

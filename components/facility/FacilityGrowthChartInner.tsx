@@ -60,7 +60,7 @@ function ReformTooltip({
         border: "1px solid hsl(var(--border))",
         borderRadius: 8,
         padding: "10px 12px",
-        fontSize: 12,
+        fontSize: 15,
         color: "hsl(var(--foreground))",
         maxWidth: 360,
       }}
@@ -101,18 +101,18 @@ function ReformTooltip({
                 borderRadius: 4,
                 backgroundColor: "rgba(245,158,11,0.2)",
                 color: "#F59E0B",
-                fontSize: 10,
+                fontSize: 13,
                 fontWeight: 700,
               }}
             >
               {rev.type === "creation" ? "制度化" : "報酬改定"}
             </span>
-            <span style={{ fontSize: 11, fontWeight: 600 }}>{rev.title}</span>
+            <span style={{ fontSize: 14, fontWeight: 600 }}>{rev.title}</span>
           </div>
-          <p style={{ fontSize: 10, color: "hsl(var(--muted-foreground))", lineHeight: 1.5, marginBottom: 4 }}>
+          <p style={{ fontSize: 13, color: "hsl(var(--muted-foreground))", lineHeight: 1.5, marginBottom: 4 }}>
             {rev.baseReward}
           </p>
-          <p style={{ fontSize: 10, color: "hsl(var(--muted-foreground))", lineHeight: 1.5 }}>
+          <p style={{ fontSize: 13, color: "hsl(var(--muted-foreground))", lineHeight: 1.5 }}>
             {rev.description}
           </p>
           <div
@@ -123,10 +123,10 @@ function ReformTooltip({
               backgroundColor: "rgba(59,130,246,0.1)",
             }}
           >
-            <p style={{ fontSize: 10, fontWeight: 600, color: "#60A5FA", marginBottom: 2 }}>
+            <p style={{ fontSize: 13, fontWeight: 600, color: "#60A5FA", marginBottom: 2 }}>
               市場への影響
             </p>
-            <p style={{ fontSize: 10, color: "#93C5FD", lineHeight: 1.5 }}>{rev.impact}</p>
+            <p style={{ fontSize: 13, color: "#93C5FD", lineHeight: 1.5 }}>{rev.impact}</p>
           </div>
         </div>
       )}
@@ -202,16 +202,16 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
             <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
             <XAxis
               dataKey="year"
-              tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             />
             <YAxis
               tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}k`}
-              tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             />
             <Tooltip
               content={<ReformTooltip revisionMap={revisionMap} mode="stacked" />}
             />
-            <Legend wrapperStyle={{ fontSize: 11 }} />
+            <Legend wrapperStyle={{ fontSize: 14 }} />
             {ENTITY_KEYS.map((key) => (
               <Area
                 key={key}
@@ -235,7 +235,7 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
                   value: `改定`,
                   position: "top",
                   fill: "#F59E0B",
-                  fontSize: 9,
+                  fontSize: 12,
                 }}
               />
             ))}
@@ -247,23 +247,23 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
             <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
             <XAxis
               dataKey="year"
-              tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             />
             <YAxis
               yAxisId="facilities"
               tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}k`}
-              tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             />
             <YAxis
               yAxisId="users"
               orientation="right"
               tickFormatter={(v: number) => `${(v / 10000).toFixed(0)}万`}
-              tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             />
             <Tooltip
               content={<ReformTooltip revisionMap={revisionMap} mode="line" />}
             />
-            <Legend wrapperStyle={{ fontSize: 12 }} />
+            <Legend wrapperStyle={{ fontSize: 15 }} />
             <Area
               yAxisId="users"
               type="monotone"

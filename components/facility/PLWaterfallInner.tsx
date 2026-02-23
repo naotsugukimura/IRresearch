@@ -74,21 +74,21 @@ export default function PLWaterfallInner({ data }: Props) {
               <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
               <XAxis
                 dataKey="name"
-                tick={{ fontSize: 8, fill: "hsl(var(--muted-foreground))" }}
+                tick={{ fontSize: 10, fill: "hsl(var(--muted-foreground))" }}
                 angle={-30}
                 textAnchor="end"
                 height={60}
               />
               <YAxis
                 tickFormatter={(v: number) => formatYen(v)}
-                tick={{ fontSize: 10, fill: "hsl(var(--muted-foreground))" }}
+                tick={{ fontSize: 13, fill: "hsl(var(--muted-foreground))" }}
               />
               <Tooltip
                 contentStyle={{
                   backgroundColor: "hsl(var(--card))",
                   border: "1px solid hsl(var(--border))",
                   borderRadius: 8,
-                  fontSize: 12,
+                  fontSize: 15,
                   color: "hsl(var(--foreground))",
                 }}
                 formatter={(value: number) => [`¥${value.toLocaleString()}/月`, "金額"]}
@@ -133,7 +133,7 @@ export default function PLWaterfallInner({ data }: Props) {
                     backgroundColor: "hsl(var(--card))",
                     border: "1px solid hsl(var(--border))",
                     borderRadius: 8,
-                    fontSize: 12,
+                    fontSize: 15,
                   }}
                   // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   formatter={(value: number, _name: string, entry: any) => [

@@ -53,20 +53,20 @@ export default function EntityDistributionChartInner({ data }: Props) {
               <XAxis
                 type="number"
                 tickFormatter={(v: number) => v.toLocaleString()}
-                tick={{ fontSize: 10, fill: "hsl(var(--muted-foreground))" }}
+                tick={{ fontSize: 13, fill: "hsl(var(--muted-foreground))" }}
               />
               <YAxis
                 type="category"
                 dataKey="name"
                 width={100}
-                tick={{ fontSize: 10, fill: "hsl(var(--muted-foreground))" }}
+                tick={{ fontSize: 13, fill: "hsl(var(--muted-foreground))" }}
               />
               <Tooltip
                 contentStyle={{
                   backgroundColor: "hsl(var(--card))",
                   border: "1px solid hsl(var(--border))",
                   borderRadius: 8,
-                  fontSize: 12,
+                  fontSize: 15,
                   color: "hsl(var(--foreground))",
                 }}
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -105,7 +105,7 @@ export default function EntityDistributionChartInner({ data }: Props) {
                   backgroundColor: "hsl(var(--card))",
                   border: "1px solid hsl(var(--border))",
                   borderRadius: 8,
-                  fontSize: 12,
+                  fontSize: 15,
                   color: "hsl(var(--foreground))",
                 }}
                 formatter={(value: number) => [`${value}%`, "シェア"]}

@@ -144,7 +144,7 @@ function BpmnCanvas({ model }: { model: BpmnModel }) {
                     y={my + 3}
                     textAnchor="middle"
                     fill={color}
-                    fontSize={9}
+                    fontSize={12}
                     fontWeight="bold"
                   >
                     {edge.label}
@@ -174,7 +174,7 @@ function BpmnCanvas({ model }: { model: BpmnModel }) {
                     y={node.y + 24}
                     textAnchor="middle"
                     fill={style.text}
-                    fontSize={11}
+                    fontSize={14}
                     fontWeight={node.type === "platform" ? "bold" : "normal"}
                   >
                     {node.label}

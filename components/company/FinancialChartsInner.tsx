@@ -25,7 +25,7 @@ const tooltipStyle = {
   backgroundColor: "#1F2937",
   border: "1px solid #374151",
   borderRadius: "8px",
-  fontSize: "12px",
+  fontSize: "15px",
 };
 
 interface Props {
@@ -53,10 +53,10 @@ function PLCharts({ data, companyColor }: { data: Record<string, unknown>[]; com
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={data} margin={{ top: 5, right: 5, left: 5, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
-                <XAxis dataKey="name" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} />
-                <YAxis tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatRevenue(v)} />
+                <XAxis dataKey="name" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} />
+                <YAxis tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatRevenue(v)} />
                 <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatRevenue(value), undefined]} />
-                <Legend wrapperStyle={{ fontSize: "11px" }} />
+                <Legend wrapperStyle={{ fontSize: "14px" }} />
                 <Line type="monotone" dataKey="売上高" stroke={companyColor} strokeWidth={2} dot={{ r: 3 }} />
                 <Line type="monotone" dataKey="営業利益" stroke="#10B981" strokeWidth={2} dot={{ r: 3 }} />
                 <Line type="monotone" dataKey="当期純利益" stroke="#F59E0B" strokeWidth={2} dot={{ r: 3 }} />
@@ -75,8 +75,8 @@ function PLCharts({ data, companyColor }: { data: Record<string, unknown>[]; com
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={data} margin={{ top: 5, right: 5, left: 5, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
-                <XAxis dataKey="name" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} />
-                <YAxis tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatPercent(v)} />
+                <XAxis dataKey="name" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} />
+                <YAxis tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatPercent(v)} />
                 <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatPercent(value), undefined]} />
                 <Area type="monotone" dataKey="営業利益率" stroke={companyColor} fill={companyColor} fillOpacity={0.15} strokeWidth={2} />
               </AreaChart>
@@ -100,10 +100,10 @@ function BSCharts({ data, companyColor }: { data: Record<string, unknown>[]; com
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={data} margin={{ top: 5, right: 5, left: 5, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
-                <XAxis dataKey="name" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} />
-                <YAxis tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatRevenue(v)} />
+                <XAxis dataKey="name" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} />
+                <YAxis tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatRevenue(v)} />
                 <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatRevenue(value), undefined]} />
-                <Legend wrapperStyle={{ fontSize: "11px" }} />
+                <Legend wrapperStyle={{ fontSize: "14px" }} />
                 <Bar dataKey="総資産" fill={companyColor} opacity={0.4} radius={[4, 4, 0, 0]} />
                 <Bar dataKey="純資産" fill="#10B981" radius={[4, 4, 0, 0]} />
               </BarChart>
@@ -121,11 +121,11 @@ function BSCharts({ data, companyColor }: { data: Record<string, unknown>[]; com
             <ResponsiveContainer width="100%" height="100%">
               <ComposedChart data={data} margin={{ top: 5, right: 5, left: 5, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
-                <XAxis dataKey="name" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} />
-                <YAxis yAxisId="left" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => `${v}%`} domain={[0, 60]} />
-                <YAxis yAxisId="right" orientation="right" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => `${v}%`} domain={[100, 250]} />
+                <XAxis dataKey="name" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} />
+                <YAxis yAxisId="left" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => `${v}%`} domain={[0, 60]} />
+                <YAxis yAxisId="right" orientation="right" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => `${v}%`} domain={[100, 250]} />
                 <Tooltip contentStyle={tooltipStyle} formatter={(value: number, name: string) => [`${value.toFixed(1)}%`, name]} />
-                <Legend wrapperStyle={{ fontSize: "11px" }} />
+                <Legend wrapperStyle={{ fontSize: "14px" }} />
                 <Bar yAxisId="left" dataKey="自己資本比率" fill={companyColor} opacity={0.6} radius={[4, 4, 0, 0]} />
                 <Line yAxisId="right" type="monotone" dataKey="流動比率" stroke="#F59E0B" strokeWidth={2} dot={{ r: 3 }} />
               </ComposedChart>
@@ -149,10 +149,10 @@ function CFCharts({ data, companyColor }: { data: Record<string, unknown>[]; com
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={data} margin={{ top: 5, right: 5, left: 5, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
-                <XAxis dataKey="name" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} />
-                <YAxis tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatRevenue(v)} />
+                <XAxis dataKey="name" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} />
+                <YAxis tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatRevenue(v)} />
                 <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatRevenue(value), undefined]} />
-                <Legend wrapperStyle={{ fontSize: "11px" }} />
+                <Legend wrapperStyle={{ fontSize: "14px" }} />
                 <ReferenceLine y={0} stroke="#6B7280" strokeDasharray="3 3" />
                 <Bar dataKey="営業CF" fill="#10B981" radius={[4, 4, 0, 0]} />
                 <Bar dataKey="投資CF" fill="#EF4444" radius={[4, 4, 0, 0]} />
@@ -172,10 +172,10 @@ function CFCharts({ data, companyColor }: { data: Record<string, unknown>[]; com
             <ResponsiveContainer width="100%" height="100%">
               <ComposedChart data={data} margin={{ top: 5, right: 5, left: 5, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
-                <XAxis dataKey="name" tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} />
-                <YAxis tick={{ fontSize: 10, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatRevenue(v)} />
+                <XAxis dataKey="name" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} />
+                <YAxis tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatRevenue(v)} />
                 <Tooltip contentStyle={tooltipStyle} formatter={(value: number) => [formatRevenue(value), undefined]} />
-                <Legend wrapperStyle={{ fontSize: "11px" }} />
+                <Legend wrapperStyle={{ fontSize: "14px" }} />
                 <ReferenceLine y={0} stroke="#6B7280" strokeDasharray="3 3" />
                 <Bar dataKey="フリーCF" fill={companyColor} radius={[4, 4, 0, 0]} />
                 <Line type="monotone" dataKey="現金同等物" stroke="#F59E0B" strokeWidth={2} dot={{ r: 3 }} />

@@ -76,19 +76,19 @@ export default function EmploymentPolicySectionInner({ employmentHistory, policy
               <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
               <XAxis
                 dataKey="year"
-                tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+                tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
               />
               <YAxis
                 domain={[0, 3]}
                 tickFormatter={(v: number) => `${v}%`}
-                tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+                tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
               />
               <Tooltip
                 contentStyle={{
                   backgroundColor: "hsl(var(--card))",
                   border: "1px solid hsl(var(--border))",
                   borderRadius: 8,
-                  fontSize: 12,
+                  fontSize: 15,
                 }}
                 formatter={(value, name) => {
                   if (value === null || value === undefined) return ["未達成", String(name)];
@@ -96,7 +96,7 @@ export default function EmploymentPolicySectionInner({ employmentHistory, policy
                 }}
                 labelFormatter={(label) => `${label}年`}
               />
-              <Legend wrapperStyle={{ fontSize: 12 }} />
+              <Legend wrapperStyle={{ fontSize: 15 }} />
               <Bar
                 dataKey="legalRate"
                 name="法定雇用率"
