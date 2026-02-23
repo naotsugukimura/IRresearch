@@ -2511,5 +2511,237 @@
       "リハビリテーション関連加算（理学療法・作業療法・言語聴覚療法）が充実",
       "処遇改善加算は基本報酬＋各加算の合計に対する割合で算定"
     ]
+  },
+  "regionalData": {
+    "totalFacilities": 39,
+    "prefectureCount": 21,
+    "source": "WAMNET Open Data (2025/09)",
+    "byPrefecture": [
+      {
+        "code": "01",
+        "name": "北海道",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "02",
+        "name": "青森県",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "07",
+        "name": "福島県",
+        "count": 1,
+        "share": 2.6
+      },
+      {
+        "code": "12",
+        "name": "千葉県",
+        "count": 4,
+        "share": 10.3
+      },
+      {
+        "code": "13",
+        "name": "東京都",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "14",
+        "name": "神奈川県",
+        "count": 4,
+        "share": 10.3
+      },
+      {
+        "code": "15",
+        "name": "新潟県",
+        "count": 1,
+        "share": 2.6
+      },
+      {
+        "code": "19",
+        "name": "山梨県",
+        "count": 1,
+        "share": 2.6
+      },
+      {
+        "code": "22",
+        "name": "静岡県",
+        "count": 1,
+        "share": 2.6
+      },
+      {
+        "code": "23",
+        "name": "愛知県",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "27",
+        "name": "大阪府",
+        "count": 6,
+        "share": 15.4
+      },
+      {
+        "code": "28",
+        "name": "兵庫県",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "31",
+        "name": "鳥取県",
+        "count": 1,
+        "share": 2.6
+      },
+      {
+        "code": "33",
+        "name": "岡山県",
+        "count": 1,
+        "share": 2.6
+      },
+      {
+        "code": "34",
+        "name": "広島県",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "35",
+        "name": "山口県",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "39",
+        "name": "高知県",
+        "count": 1,
+        "share": 2.6
+      },
+      {
+        "code": "40",
+        "name": "福岡県",
+        "count": 1,
+        "share": 2.6
+      },
+      {
+        "code": "43",
+        "name": "熊本県",
+        "count": 1,
+        "share": 2.6
+      },
+      {
+        "code": "44",
+        "name": "大分県",
+        "count": 1,
+        "share": 2.6
+      },
+      {
+        "code": "47",
+        "name": "沖縄県",
+        "count": 1,
+        "share": 2.6
+      }
+    ],
+    "byRegion": [
+      {
+        "name": "北海道・東北",
+        "count": 5,
+        "share": 12.8
+      },
+      {
+        "name": "関東",
+        "count": 10,
+        "share": 25.6
+      },
+      {
+        "name": "中部",
+        "count": 5,
+        "share": 12.8
+      },
+      {
+        "name": "近畿",
+        "count": 8,
+        "share": 20.5
+      },
+      {
+        "name": "中国・四国",
+        "count": 7,
+        "share": 17.9
+      },
+      {
+        "name": "九州・沖縄",
+        "count": 4,
+        "share": 10.3
+      }
+    ],
+    "top10": [
+      {
+        "code": "27",
+        "name": "大阪府",
+        "count": 6,
+        "share": 15.4
+      },
+      {
+        "code": "12",
+        "name": "千葉県",
+        "count": 4,
+        "share": 10.3
+      },
+      {
+        "code": "14",
+        "name": "神奈川県",
+        "count": 4,
+        "share": 10.3
+      },
+      {
+        "code": "01",
+        "name": "北海道",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "02",
+        "name": "青森県",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "13",
+        "name": "東京都",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "23",
+        "name": "愛知県",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "28",
+        "name": "兵庫県",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "34",
+        "name": "広島県",
+        "count": 2,
+        "share": 5.1
+      },
+      {
+        "code": "35",
+        "name": "山口県",
+        "count": 2,
+        "share": 5.1
+      }
+    ],
+    "concentration": {
+      "top3Share": 36.0,
+      "top5Share": 46.2,
+      "top10Share": 71.7
+    }
   }
 }

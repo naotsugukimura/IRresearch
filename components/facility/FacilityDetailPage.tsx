@@ -21,6 +21,7 @@ import { BusinessLifecycle } from "@/components/facility/BusinessLifecycle";
 import { BonusFlowChart } from "@/components/facility/BonusFlowChart";
 import { ServiceBlueprintSection } from "@/components/facility/ServiceBlueprintSection";
 import { RewardUnitTable } from "@/components/facility/RewardUnitTable";
+import { FacilityRegionalChart } from "@/components/facility/FacilityRegionalChart";
 import { SectionNav } from "@/components/layout/SectionNav";
 import { FACILITY_SECTION_GROUPS } from "@/lib/constants";
 import type { FacilityAnalysisData } from "@/lib/types";
@@ -42,6 +43,7 @@ const OPTIONAL_SECTION_CHECKS: Record<string, (d: FacilityAnalysisData) => boole
   monthlyPL: (d) => !!d.monthlyPL,
   bonusFlow: (d) => !!d.bonusAcquisitionFlow,
   rewardHistory: (d) => (d.rewardRevisions?.length ?? 0) > 0,
+  regional: (d) => !!d.regionalData,
 };
 
 // Tab icon/label config
@@ -157,6 +159,15 @@ export function FacilityDetailPage({ data, title }: Props) {
                   serviceType={data.serviceType}
                 />
               </section>
+
+              {data.regionalData && (
+                <section id="regional">
+                  <FacilityRegionalChart
+                    data={data.regionalData}
+                    serviceType={data.serviceType}
+                  />
+                </section>
+              )}
             </>
           )}
 

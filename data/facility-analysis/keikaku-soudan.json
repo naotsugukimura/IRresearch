@@ -2337,5 +2337,393 @@
       "令和6年度改定で地域共生社会の実現に向けた支援体制の強化が図られた",
       "基本報酬に各種加算を組み合わせて算定し、処遇改善加算は合計に対する割合で算定"
     ]
+  },
+  "regionalData": {
+    "totalFacilities": 19909,
+    "prefectureCount": 47,
+    "source": "WAMNET Open Data (2025/09)",
+    "byPrefecture": [
+      {
+        "code": "01",
+        "name": "北海道",
+        "count": 1459,
+        "share": 7.3
+      },
+      {
+        "code": "02",
+        "name": "青森県",
+        "count": 277,
+        "share": 1.4
+      },
+      {
+        "code": "03",
+        "name": "岩手県",
+        "count": 231,
+        "share": 1.2
+      },
+      {
+        "code": "04",
+        "name": "宮城県",
+        "count": 357,
+        "share": 1.8
+      },
+      {
+        "code": "05",
+        "name": "秋田県",
+        "count": 162,
+        "share": 0.8
+      },
+      {
+        "code": "06",
+        "name": "山形県",
+        "count": 195,
+        "share": 1.0
+      },
+      {
+        "code": "07",
+        "name": "福島県",
+        "count": 288,
+        "share": 1.4
+      },
+      {
+        "code": "08",
+        "name": "茨城県",
+        "count": 454,
+        "share": 2.3
+      },
+      {
+        "code": "09",
+        "name": "栃木県",
+        "count": 310,
+        "share": 1.6
+      },
+      {
+        "code": "10",
+        "name": "群馬県",
+        "count": 246,
+        "share": 1.2
+      },
+      {
+        "code": "11",
+        "name": "埼玉県",
+        "count": 702,
+        "share": 3.5
+      },
+      {
+        "code": "12",
+        "name": "千葉県",
+        "count": 610,
+        "share": 3.1
+      },
+      {
+        "code": "13",
+        "name": "東京都",
+        "count": 1063,
+        "share": 5.3
+      },
+      {
+        "code": "14",
+        "name": "神奈川県",
+        "count": 786,
+        "share": 3.9
+      },
+      {
+        "code": "15",
+        "name": "新潟県",
+        "count": 331,
+        "share": 1.7
+      },
+      {
+        "code": "16",
+        "name": "富山県",
+        "count": 152,
+        "share": 0.8
+      },
+      {
+        "code": "17",
+        "name": "石川県",
+        "count": 168,
+        "share": 0.8
+      },
+      {
+        "code": "18",
+        "name": "福井県",
+        "count": 149,
+        "share": 0.7
+      },
+      {
+        "code": "19",
+        "name": "山梨県",
+        "count": 152,
+        "share": 0.8
+      },
+      {
+        "code": "20",
+        "name": "長野県",
+        "count": 365,
+        "share": 1.8
+      },
+      {
+        "code": "21",
+        "name": "岐阜県",
+        "count": 352,
+        "share": 1.8
+      },
+      {
+        "code": "22",
+        "name": "静岡県",
+        "count": 569,
+        "share": 2.9
+      },
+      {
+        "code": "23",
+        "name": "愛知県",
+        "count": 1103,
+        "share": 5.5
+      },
+      {
+        "code": "24",
+        "name": "三重県",
+        "count": 333,
+        "share": 1.7
+      },
+      {
+        "code": "25",
+        "name": "滋賀県",
+        "count": 220,
+        "share": 1.1
+      },
+      {
+        "code": "26",
+        "name": "京都府",
+        "count": 409,
+        "share": 2.1
+      },
+      {
+        "code": "27",
+        "name": "大阪府",
+        "count": 1994,
+        "share": 10.0
+      },
+      {
+        "code": "28",
+        "name": "兵庫県",
+        "count": 1038,
+        "share": 5.2
+      },
+      {
+        "code": "29",
+        "name": "奈良県",
+        "count": 243,
+        "share": 1.2
+      },
+      {
+        "code": "30",
+        "name": "和歌山県",
+        "count": 195,
+        "share": 1.0
+      },
+      {
+        "code": "31",
+        "name": "鳥取県",
+        "count": 173,
+        "share": 0.9
+      },
+      {
+        "code": "32",
+        "name": "島根県",
+        "count": 151,
+        "share": 0.8
+      },
+      {
+        "code": "33",
+        "name": "岡山県",
+        "count": 361,
+        "share": 1.8
+      },
+      {
+        "code": "34",
+        "name": "広島県",
+        "count": 458,
+        "share": 2.3
+      },
+      {
+        "code": "35",
+        "name": "山口県",
+        "count": 195,
+        "share": 1.0
+      },
+      {
+        "code": "36",
+        "name": "徳島県",
+        "count": 112,
+        "share": 0.6
+      },
+      {
+        "code": "37",
+        "name": "香川県",
+        "count": 150,
+        "share": 0.8
+      },
+      {
+        "code": "38",
+        "name": "愛媛県",
+        "count": 277,
+        "share": 1.4
+      },
+      {
+        "code": "39",
+        "name": "高知県",
+        "count": 138,
+        "share": 0.7
+      },
+      {
+        "code": "40",
+        "name": "福岡県",
+        "count": 882,
+        "share": 4.4
+      },
+      {
+        "code": "41",
+        "name": "佐賀県",
+        "count": 185,
+        "share": 0.9
+      },
+      {
+        "code": "42",
+        "name": "長崎県",
+        "count": 314,
+        "share": 1.6
+      },
+      {
+        "code": "43",
+        "name": "熊本県",
+        "count": 271,
+        "share": 1.4
+      },
+      {
+        "code": "44",
+        "name": "大分県",
+        "count": 280,
+        "share": 1.4
+      },
+      {
+        "code": "45",
+        "name": "宮崎県",
+        "count": 176,
+        "share": 0.9
+      },
+      {
+        "code": "46",
+        "name": "鹿児島県",
+        "count": 460,
+        "share": 2.3
+      },
+      {
+        "code": "47",
+        "name": "沖縄県",
+        "count": 413,
+        "share": 2.1
+      }
+    ],
+    "byRegion": [
+      {
+        "name": "北海道・東北",
+        "count": 2969,
+        "share": 14.9
+      },
+      {
+        "name": "関東",
+        "count": 4171,
+        "share": 21.0
+      },
+      {
+        "name": "中部",
+        "count": 3341,
+        "share": 16.8
+      },
+      {
+        "name": "近畿",
+        "count": 4432,
+        "share": 22.3
+      },
+      {
+        "name": "中国・四国",
+        "count": 2015,
+        "share": 10.1
+      },
+      {
+        "name": "九州・沖縄",
+        "count": 2981,
+        "share": 15.0
+      }
+    ],
+    "top10": [
+      {
+        "code": "27",
+        "name": "大阪府",
+        "count": 1994,
+        "share": 10.0
+      },
+      {
+        "code": "01",
+        "name": "北海道",
+        "count": 1459,
+        "share": 7.3
+      },
+      {
+        "code": "23",
+        "name": "愛知県",
+        "count": 1103,
+        "share": 5.5
+      },
+      {
+        "code": "13",
+        "name": "東京都",
+        "count": 1063,
+        "share": 5.3
+      },
+      {
+        "code": "28",
+        "name": "兵庫県",
+        "count": 1038,
+        "share": 5.2
+      },
+      {
+        "code": "40",
+        "name": "福岡県",
+        "count": 882,
+        "share": 4.4
+      },
+      {
+        "code": "14",
+        "name": "神奈川県",
+        "count": 786,
+        "share": 3.9
+      },
+      {
+        "code": "11",
+        "name": "埼玉県",
+        "count": 702,
+        "share": 3.5
+      },
+      {
+        "code": "12",
+        "name": "千葉県",
+        "count": 610,
+        "share": 3.1
+      },
+      {
+        "code": "22",
+        "name": "静岡県",
+        "count": 569,
+        "share": 2.9
+      }
+    ],
+    "concentration": {
+      "top3Share": 22.8,
+      "top5Share": 33.3,
+      "top10Share": 51.1
+    }
   }
 }

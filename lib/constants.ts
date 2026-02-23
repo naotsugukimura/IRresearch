@@ -267,6 +267,7 @@ export const FACILITY_SECTION_GROUPS: readonly FacilitySectionGroup[] = [
       { id: "entities", label: "参入法人" },
       { id: "scale", label: "事業規模" },
       { id: "timeseries", label: "推移" },
+      { id: "regional", label: "地域分布" },
     ],
   },
   {

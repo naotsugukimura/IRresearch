@@ -921,6 +921,38 @@ export interface FacilityAnalysisData {
   businessLifecycle?: BusinessLifecycle;
   serviceBlueprint?: ServiceBlueprint;
   rewardUnitTable?: RewardUnitTableData;
+  regionalData?: FacilityRegionalData;
+}
+
+// ============================================================
+// 地域分析（WAMNET Open Data）
+// ============================================================
+
+export interface PrefectureData {
+  code: string;
+  name: string;
+  count: number;
+  share: number;
+}
+
+export interface RegionData {
+  name: string;
+  count: number;
+  share: number;
+}
+
+export interface FacilityRegionalData {
+  totalFacilities: number;
+  prefectureCount: number;
+  source: string;
+  byPrefecture: PrefectureData[];
+  byRegion: RegionData[];
+  top10: PrefectureData[];
+  concentration: {
+    top3Share: number;
+    top5Share: number;
+    top10Share: number;
+  };
 }
 
 // ============================================================
