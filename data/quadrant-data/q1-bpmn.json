@@ -1,0 +1,712 @@
+[
+  {
+    "companyId": "atgp",
+    "companyName": "ゼネラルパートナーズ（atGP）",
+    "subCategory": "人材紹介",
+    "summary": "障害者向け人材紹介と就労移行支援の一気通貫モデル",
+    "nodes": [
+      {
+        "id": "job_seeker",
+        "label": "障害者求職者",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 300
+      },
+      {
+        "id": "atgp_platform",
+        "label": "atGP",
+        "type": "platform",
+        "x": 250,
+        "y": 200
+      },
+      {
+        "id": "training_center",
+        "label": "atGPジョブトレ",
+        "type": "service",
+        "x": 250,
+        "y": 100
+      },
+      {
+        "id": "employer",
+        "label": "採用企業",
+        "type": "stakeholder",
+        "x": 450,
+        "y": 200
+      },
+      {
+        "id": "municipality",
+        "label": "自治体",
+        "type": "stakeholder",
+        "x": 450,
+        "y": 50
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "source": "job_seeker",
+        "target": "atgp_platform",
+        "label": "転職支援登録",
+        "type": "service"
+      },
+      {
+        "id": "e2",
+        "source": "job_seeker",
+        "target": "training_center",
+        "label": "就労移行支援利用",
+        "type": "service"
+      },
+      {
+        "id": "e3",
+        "source": "atgp_platform",
+        "target": "employer",
+        "label": "人材マッチング",
+        "type": "service"
+      },
+      {
+        "id": "e4",
+        "source": "employer",
+        "target": "atgp_platform",
+        "label": "紹介料支払い",
+        "type": "money"
+      },
+      {
+        "id": "e5",
+        "source": "municipality",
+        "target": "training_center",
+        "label": "給付費支払い",
+        "type": "money"
+      },
+      {
+        "id": "e6",
+        "source": "training_center",
+        "target": "municipality",
+        "label": "給付費請求",
+        "type": "information"
+      }
+    ]
+  },
+  {
+    "companyId": "cocoruport",
+    "companyName": "ココルポート",
+    "subCategory": "メディア・就労支援",
+    "summary": "個別支援計画による就労移行支援と生活訓練の提供",
+    "nodes": [
+      {
+        "id": "users",
+        "label": "障害者利用者",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 300
+      },
+      {
+        "id": "cocoruport_center",
+        "label": "ココルポート事業所",
+        "type": "platform",
+        "x": 250,
+        "y": 200
+      },
+      {
+        "id": "support_coordinator",
+        "label": "相談支援事業所",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 150
+      },
+      {
+        "id": "employer",
+        "label": "就職先企業",
+        "type": "stakeholder",
+        "x": 450,
+        "y": 250
+      },
+      {
+        "id": "municipality",
+        "label": "自治体",
+        "type": "stakeholder",
+        "x": 450,
+        "y": 50
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "source": "users",
+        "target": "cocoruport_center",
+        "label": "訓練参加",
+        "type": "service"
+      },
+      {
+        "id": "e2",
+        "source": "cocoruport_center",
+        "target": "users",
+        "label": "個別支援提供",
+        "type": "service"
+      },
+      {
+        "id": "e3",
+        "source": "support_coordinator",
+        "target": "users",
+        "label": "支援計画作成",
+        "type": "service"
+      },
+      {
+        "id": "e4",
+        "source": "cocoruport_center",
+        "target": "employer",
+        "label": "就職マッチング",
+        "type": "service"
+      },
+      {
+        "id": "e5",
+        "source": "municipality",
+        "target": "cocoruport_center",
+        "label": "給付費支払い",
+        "type": "money"
+      },
+      {
+        "id": "e6",
+        "source": "cocoruport_center",
+        "target": "municipality",
+        "label": "給付費請求",
+        "type": "information"
+      }
+    ]
+  },
+  {
+    "companyId": "hug",
+    "companyName": "HUG（ネットアーツ）",
+    "subCategory": "SaaS",
+    "summary": "放課後等デイサービス特化クラウド業務支援システム",
+    "nodes": [
+      {
+        "id": "daycare_center",
+        "label": "放デイ事業所",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 200
+      },
+      {
+        "id": "hug_system",
+        "label": "HUGシステム",
+        "type": "platform",
+        "x": 300,
+        "y": 200
+      },
+      {
+        "id": "children",
+        "label": "児童・保護者",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 300
+      },
+      {
+        "id": "municipality",
+        "label": "自治体",
+        "type": "stakeholder",
+        "x": 550,
+        "y": 100
+      },
+      {
+        "id": "kokuho_ren",
+        "label": "国保連",
+        "type": "stakeholder",
+        "x": 550,
+        "y": 200
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "source": "daycare_center",
+        "target": "hug_system",
+        "label": "SaaS利用料",
+        "type": "money"
+      },
+      {
+        "id": "e2",
+        "source": "hug_system",
+        "target": "daycare_center",
+        "label": "業務支援サービス",
+        "type": "service"
+      },
+      {
+        "id": "e3",
+        "source": "daycare_center",
+        "target": "children",
+        "label": "児童発達支援",
+        "type": "service"
+      },
+      {
+        "id": "e4",
+        "source": "children",
+        "target": "hug_system",
+        "label": "利用記録データ",
+        "type": "information"
+      },
+      {
+        "id": "e5",
+        "source": "hug_system",
+        "target": "kokuho_ren",
+        "label": "給付費請求代行",
+        "type": "information"
+      },
+      {
+        "id": "e6",
+        "source": "municipality",
+        "target": "daycare_center",
+        "label": "給付費支払い",
+        "type": "money"
+      }
+    ]
+  },
+  {
+    "companyId": "knowbe",
+    "companyName": "knowbe（ノウビー）",
+    "subCategory": "SaaS",
+    "summary": "就労支援事業所向け記録・請求一元管理SaaS",
+    "nodes": [
+      {
+        "id": "employment_center",
+        "label": "就労支援事業所",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 200
+      },
+      {
+        "id": "knowbe_system",
+        "label": "knowbeシステム",
+        "type": "platform",
+        "x": 300,
+        "y": 200
+      },
+      {
+        "id": "users",
+        "label": "障害者利用者",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 300
+      },
+      {
+        "id": "municipality",
+        "label": "自治体",
+        "type": "stakeholder",
+        "x": 550,
+        "y": 100
+      },
+      {
+        "id": "kokuho_ren",
+        "label": "国保連",
+        "type": "stakeholder",
+        "x": 550,
+        "y": 200
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "source": "employment_center",
+        "target": "knowbe_system",
+        "label": "SaaS利用料",
+        "type": "money"
+      },
+      {
+        "id": "e2",
+        "source": "knowbe_system",
+        "target": "employment_center",
+        "label": "業務支援サービス",
+        "type": "service"
+      },
+      {
+        "id": "e3",
+        "source": "employment_center",
+        "target": "users",
+        "label": "就労訓練提供",
+        "type": "service"
+      },
+      {
+        "id": "e4",
+        "source": "users",
+        "target": "knowbe_system",
+        "label": "支援記録データ",
+        "type": "information"
+      },
+      {
+        "id": "e5",
+        "source": "knowbe_system",
+        "target": "kokuho_ren",
+        "label": "給付費請求代行",
+        "type": "information"
+      },
+      {
+        "id": "e6",
+        "source": "municipality",
+        "target": "employment_center",
+        "label": "給付費支払い",
+        "type": "money"
+      }
+    ]
+  },
+  {
+    "companyId": "litalico",
+    "companyName": "LITALICO",
+    "subCategory": "メディア・就労支援",
+    "summary": "直営事業所運営とプラットフォーム事業の複合モデル",
+    "nodes": [
+      {
+        "id": "users",
+        "label": "障害者利用者",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 300
+      },
+      {
+        "id": "litalico_center",
+        "label": "LITALICO事業所",
+        "type": "service",
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": "litalico_platform",
+        "label": "LITALICOナビ",
+        "type": "platform",
+        "x": 400,
+        "y": 200
+      },
+      {
+        "id": "employer",
+        "label": "企業",
+        "type": "stakeholder",
+        "x": 600,
+        "y": 250
+      },
+      {
+        "id": "municipality",
+        "label": "自治体",
+        "type": "stakeholder",
+        "x": 400,
+        "y": 50
+      },
+      {
+        "id": "other_centers",
+        "label": "他事業所",
+        "type": "stakeholder",
+        "x": 600,
+        "y": 150
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "source": "users",
+        "target": "litalico_center",
+        "label": "サービス利用",
+        "type": "service"
+      },
+      {
+        "id": "e2",
+        "source": "users",
+        "target": "litalico_platform",
+        "label": "情報検索・相談",
+        "type": "information"
+      },
+      {
+        "id": "e3",
+        "source": "litalico_center",
+        "target": "employer",
+        "label": "就職マッチング",
+        "type": "service"
+      },
+      {
+        "id": "e4",
+        "source": "municipality",
+        "target": "litalico_center",
+        "label": "給付費支払い",
+        "type": "money"
+      },
+      {
+        "id": "e5",
+        "source": "other_centers",
+        "target": "litalico_platform",
+        "label": "掲載料",
+        "type": "money"
+      },
+      {
+        "id": "e6",
+        "source": "employer",
+        "target": "litalico_platform",
+        "label": "求人掲載料",
+        "type": "money"
+      }
+    ]
+  },
+  {
+    "companyId": "nd_software",
+    "companyName": "NDソフトウェア",
+    "subCategory": "SaaS",
+    "summary": "介護・障害福祉向け業務支援ソフト「ほのぼの」提供",
+    "nodes": [
+      {
+        "id": "welfare_center",
+        "label": "福祉事業所",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 200
+      },
+      {
+        "id": "honobono_system",
+        "label": "ほのぼのシステム",
+        "type": "platform",
+        "x": 300,
+        "y": 200
+      },
+      {
+        "id": "users",
+        "label": "サービス利用者",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 300
+      },
+      {
+        "id": "municipality",
+        "label": "自治体",
+        "type": "stakeholder",
+        "x": 550,
+        "y": 100
+      },
+      {
+        "id": "kokuho_ren",
+        "label": "国保連",
+        "type": "stakeholder",
+        "x": 550,
+        "y": 200
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "source": "welfare_center",
+        "target": "honobono_system",
+        "label": "ライセンス料",
+        "type": "money"
+      },
+      {
+        "id": "e2",
+        "source": "honobono_system",
+        "target": "welfare_center",
+        "label": "業務支援ソフト",
+        "type": "service"
+      },
+      {
+        "id": "e3",
+        "source": "welfare_center",
+        "target": "users",
+        "label": "福祉サービス提供",
+        "type": "service"
+      },
+      {
+        "id": "e4",
+        "source": "users",
+        "target": "honobono_system",
+        "label": "利用記録データ",
+        "type": "information"
+      },
+      {
+        "id": "e5",
+        "source": "honobono_system",
+        "target": "kokuho_ren",
+        "label": "給付費請求",
+        "type": "information"
+      },
+      {
+        "id": "e6",
+        "source": "municipality",
+        "target": "welfare_center",
+        "label": "給付費支払い",
+        "type": "money"
+      }
+    ]
+  },
+  {
+    "companyId": "persol",
+    "companyName": "パーソルホールディングス",
+    "subCategory": "人材紹介",
+    "summary": "総合人材サービスとのシナジーによる障害者雇用支援",
+    "nodes": [
+      {
+        "id": "job_seeker",
+        "label": "障害者求職者",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 300
+      },
+      {
+        "id": "persol_challenge",
+        "label": "パーソルチャレンジ",
+        "type": "platform",
+        "x": 250,
+        "y": 200
+      },
+      {
+        "id": "doda_platform",
+        "label": "doda等求人サイト",
+        "type": "platform",
+        "x": 250,
+        "y": 100
+      },
+      {
+        "id": "employer",
+        "label": "企業",
+        "type": "stakeholder",
+        "x": 450,
+        "y": 200
+      },
+      {
+        "id": "support_center",
+        "label": "就労支援事業所",
+        "type": "service",
+        "x": 450,
+        "y": 300
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "source": "job_seeker",
+        "target": "persol_challenge",
+        "label": "転職支援登録",
+        "type": "service"
+      },
+      {
+        "id": "e2",
+        "source": "job_seeker",
+        "target": "doda_platform",
+        "label": "求人検索",
+        "type": "information"
+      },
+      {
+        "id": "e3",
+        "source": "persol_challenge",
+        "target": "employer",
+        "label": "人材紹介",
+        "type": "service"
+      },
+      {
+        "id": "e4",
+        "source": "employer",
+        "target": "persol_challenge",
+        "label": "紹介料支払い",
+        "type": "money"
+      },
+      {
+        "id": "e5",
+        "source": "employer",
+        "target": "doda_platform",
+        "label": "求人掲載料",
+        "type": "money"
+      },
+      {
+        "id": "e6",
+        "source": "support_center",
+        "target": "persol_challenge",
+        "label": "連携・紹介",
+        "type": "service"
+      }
+    ]
+  },
+  {
+    "companyId": "welbe",
+    "companyName": "ウェルビー",
+    "subCategory": "メディア・就労支援",
+    "summary": "就労移行支援全国展開と児童発達支援の多角化経営",
+    "nodes": [
+      {
+        "id": "adult_users",
+        "label": "成人障害者",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 250
+      },
+      {
+        "id": "welbe_center",
+        "label": "ウェルビー事業所",
+        "type": "service",
+        "x": 250,
+        "y": 200
+      },
+      {
+        "id": "habii_center",
+        "label": "ハビー（児童）",
+        "type": "service",
+        "x": 250,
+        "y": 300
+      },
+      {
+        "id": "children",
+        "label": "児童・保護者",
+        "type": "stakeholder",
+        "x": 50,
+        "y": 350
+      },
+      {
+        "id": "employer",
+        "label": "就職先企業",
+        "type": "stakeholder",
+        "x": 450,
+        "y": 200
+      },
+      {
+        "id": "municipality",
+        "label": "自治体",
+        "type": "stakeholder",
+        "x": 450,
+        "y": 100
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "source": "adult_users",
+        "target": "welbe_center",
+        "label": "就労移行支援利用",
+        "type": "service"
+      },
+      {
+        "id": "e2",
+        "source": "children",
+        "target": "habii_center",
+        "label": "児童発達支援利用",
+        "type": "service"
+      },
+      {
+        "id": "e3",
+        "source": "welbe_center",
+        "target": "employer",
+        "label": "就職マッチング",
+        "type": "service"
+      },
+      {
+        "id": "e4",
+        "source": "municipality",
+        "target": "welbe_center",
+        "label": "給付費支払い",
+        "type": "money"
+      },
+      {
+        "id": "e5",
+        "source": "municipality",
+        "target": "habii_center",
+        "label": "給付費支払い",
+        "type": "money"
+      },
+      {
+        "id": "e6",
+        "source": "welbe_center",
+        "target": "adult_users",
+        "label": "定着支援",
+        "type": "service"
+      }
+    ]
+  }
+]

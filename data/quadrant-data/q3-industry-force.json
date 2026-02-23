@@ -1,0 +1,226 @@
+[
+  {
+    "industry": "介護",
+    "marketSize": "約13兆円",
+    "marketSizeYear": 2024,
+    "growthRate": "CAGR 4.2%",
+    "structure": "分散型",
+    "structureNote": "多数の中小事業者が存在、大手による集約化が進行中",
+    "keyPlayers": [
+      {
+        "name": "SMS",
+        "companyId": "sms",
+        "revenue": "約800億円",
+        "marketShare": "約0.6%",
+        "position": "主要プレイヤー",
+        "note": "情報インフラ・SaaS特化"
+      },
+      {
+        "name": "ケア21",
+        "companyId": "care21",
+        "revenue": "約400億円",
+        "marketShare": "約0.3%",
+        "position": "主要プレイヤー",
+        "note": "関西圏中心の介護事業者"
+      },
+      {
+        "name": "ニチイ学館",
+        "companyId": null,
+        "revenue": "約2,000億円",
+        "marketShare": "約1.5%",
+        "position": "首位",
+        "note": "全国展開・教育事業併設"
+      },
+      {
+        "name": "SOMPOケア",
+        "companyId": null,
+        "revenue": "約1,500億円",
+        "marketShare": "約1.2%",
+        "position": "2位",
+        "note": "保険会社系・DX推進"
+      },
+      {
+        "name": "ベネッセスタイルケア",
+        "companyId": null,
+        "revenue": "約800億円",
+        "marketShare": "約0.6%",
+        "position": "主要プレイヤー",
+        "note": "有料老人ホーム特化"
+      },
+      {
+        "name": "メドレー",
+        "companyId": "medley",
+        "revenue": "約150億円",
+        "marketShare": null,
+        "position": "主要プレイヤー",
+        "note": "介護DX・求人プラットフォーム"
+      }
+    ],
+    "relevanceToWelfare": "介護と障害福祉は類似制度・運営課題を持つ。情報システム、人材確保、品質管理のノウハウが共通",
+    "confidence": "high"
+  },
+  {
+    "industry": "医療",
+    "marketSize": "約47兆円",
+    "marketSizeYear": 2024,
+    "growthRate": "CAGR 2.8%",
+    "structure": "寡占型",
+    "structureNote": "医療機関は分散、医療IT・製薬は大手寡占",
+    "keyPlayers": [
+      {
+        "name": "エムスリー",
+        "companyId": "m3",
+        "revenue": "約2,000億円",
+        "marketShare": null,
+        "position": "首位",
+        "note": "医師プラットフォーム首位"
+      },
+      {
+        "name": "JMDC",
+        "companyId": null,
+        "revenue": "約300億円",
+        "marketShare": null,
+        "position": "主要プレイヤー",
+        "note": "医療ビッグデータ分析"
+      },
+      {
+        "name": "メドレー",
+        "companyId": "medley",
+        "revenue": "約150億円",
+        "marketShare": null,
+        "position": "主要プレイヤー",
+        "note": "オンライン診療・求人"
+      },
+      {
+        "name": "メドピア",
+        "companyId": null,
+        "revenue": "約80億円",
+        "marketShare": null,
+        "position": "主要プレイヤー",
+        "note": "医師コミュニティ運営"
+      },
+      {
+        "name": "日本調剤",
+        "companyId": null,
+        "revenue": "約7,000億円",
+        "marketShare": "約1.5%",
+        "position": "主要プレイヤー",
+        "note": "調剤薬局チェーン最大手"
+      }
+    ],
+    "relevanceToWelfare": "医療と障害福祉の連携強化が進む中、医療DX・データ活用・多職種連携の仕組みが参考になる",
+    "confidence": "high"
+  },
+  {
+    "industry": "SaaS",
+    "marketSize": "約1.2兆円",
+    "marketSizeYear": 2024,
+    "growthRate": "CAGR 12.5%",
+    "structure": "新興成長型",
+    "structureNote": "急成長市場、領域別に複数プレイヤーが競合",
+    "keyPlayers": [
+      {
+        "name": "freee",
+        "companyId": null,
+        "revenue": "約200億円",
+        "marketShare": "約17%",
+        "position": "首位",
+        "note": "会計・人事労務SaaS"
+      },
+      {
+        "name": "サイボウズ",
+        "companyId": null,
+        "revenue": "約200億円",
+        "marketShare": "約17%",
+        "position": "2位",
+        "note": "グループウェア老舗"
+      },
+      {
+        "name": "ラクス",
+        "companyId": null,
+        "revenue": "約150億円",
+        "marketShare": "約12%",
+        "position": "3位",
+        "note": "メール配信・経費精算"
+      },
+      {
+        "name": "チームスピリット",
+        "companyId": null,
+        "revenue": "約60億円",
+        "marketShare": "約5%",
+        "position": "主要プレイヤー",
+        "note": "勤怠・工数管理"
+      },
+      {
+        "name": "リクルート（Airシリーズ）",
+        "companyId": "recruit",
+        "revenue": "約300億円",
+        "marketShare": "約25%",
+        "position": "主要プレイヤー",
+        "note": "店舗向けSaaS群"
+      },
+      {
+        "name": "SMS（カイポケ）",
+        "companyId": "sms",
+        "revenue": "約200億円",
+        "marketShare": null,
+        "position": "主要プレイヤー",
+        "note": "介護・障害福祉特化SaaS"
+      }
+    ],
+    "relevanceToWelfare": "バーティカルSaaSとしてのカイポケの成功モデルが、他業界特化SaaSの参考事例となる",
+    "confidence": "high"
+  },
+  {
+    "industry": "HR・メディア",
+    "marketSize": "約7兆円",
+    "marketSizeYear": 2024,
+    "growthRate": "CAGR 3.8%",
+    "structure": "寡占型",
+    "structureNote": "大手数社が市場を支配、デジタル化で競争激化",
+    "keyPlayers": [
+      {
+        "name": "リクルートホールディングス",
+        "companyId": "recruit",
+        "revenue": "約2.8兆円",
+        "marketShare": "約40%",
+        "position": "首位",
+        "note": "世界最大級HR企業"
+      },
+      {
+        "name": "パーソルホールディングス",
+        "companyId": null,
+        "revenue": "約1.0兆円",
+        "marketShare": "約14%",
+        "position": "2位",
+        "note": "人材派遣・求人メディア"
+      },
+      {
+        "name": "エン・ジャパン",
+        "companyId": null,
+        "revenue": "約700億円",
+        "marketShare": "約10%",
+        "position": "3位",
+        "note": "転職・採用支援サービス"
+      },
+      {
+        "name": "dip",
+        "companyId": null,
+        "revenue": "約400億円",
+        "marketShare": "約6%",
+        "position": "主要プレイヤー",
+        "note": "バイトル運営"
+      },
+      {
+        "name": "メドレー（ジョブメドレー）",
+        "companyId": "medley",
+        "revenue": "約80億円",
+        "marketShare": "約1%",
+        "position": "主要プレイヤー",
+        "note": "医療・介護特化求人"
+      }
+    ],
+    "relevanceToWelfare": "人材不足が深刻な障害福祉業界において、効果的な採用・定着戦略とHRテック活用が重要",
+    "confidence": "high"
+  }
+]

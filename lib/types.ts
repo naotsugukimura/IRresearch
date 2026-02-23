@@ -25,6 +25,7 @@ export interface Company {
   market: MarketType;
   category: CompanyCategory;
   quadrant?: Quadrant; // 4象限分類（業界×提供価値）
+  subCategory?: string; // 象限内のサブカテゴリ（人材紹介/SaaS/介護等）
   priorityRank: PriorityRank;
   founded?: string;
   headquarters?: string;
@@ -1099,4 +1100,86 @@ export interface RewardRevisionPageData {
   lastUpdated: string;
   source: string;
   services: ServiceRevisionEntry[];
+}
+
+// ============================================================
+// 象限データ（Quadrant Data）
+// ============================================================
+
+export interface Q1OpsData {
+  companyId: string;
+  companyName: string;
+  subCategory: string;
+  salesMethod: string;
+  salesDetail: string;
+  supportStructure: string;
+  supportDetail: string;
+  customerCount: string | null;
+  staffCount: string | null;
+  advertisingMethod: string;
+  keyStrength: string;
+  confidence: "low" | "medium" | "high";
+}
+
+export interface Q2BusinessModel {
+  companyId: string;
+  companyName: string;
+  subCategory: string;
+  tam: string;
+  tamBasis: string;
+  pricingModel: string;
+  unitEconomics: string | null;
+  targetCustomer: string;
+  channels: string[];
+  customerNeeds: string[];
+  entryBarrier: string;
+  smsApplicability: "high" | "medium" | "low";
+  smsNote: string;
+  confidence: "low" | "medium" | "high";
+}
+
+export interface Q3IndustryPlayer {
+  name: string;
+  companyId: string | null;
+  revenue: string;
+  marketShare: string | null;
+  position: string;
+  note: string;
+}
+
+export interface Q3IndustryForce {
+  industry: string;
+  marketSize: string;
+  marketSizeYear: number;
+  growthRate: string;
+  structure: string;
+  structureNote: string;
+  keyPlayers: Q3IndustryPlayer[];
+  relevanceToWelfare: string;
+  confidence: "low" | "medium" | "high";
+}
+
+export interface BpmnNode {
+  id: string;
+  label: string;
+  type: "stakeholder" | "service" | "platform";
+  x: number;
+  y: number;
+}
+
+export interface BpmnEdge {
+  id: string;
+  source: string;
+  target: string;
+  label: string;
+  type: "money" | "service" | "information" | "contract";
+}
+
+export interface BpmnModel {
+  companyId: string;
+  companyName: string;
+  subCategory: string;
+  summary: string;
+  nodes: BpmnNode[];
+  edges: BpmnEdge[];
 }

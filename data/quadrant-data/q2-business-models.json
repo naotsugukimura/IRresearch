@@ -1,0 +1,98 @@
+[
+  {
+    "companyId": "copel",
+    "companyName": "コペル",
+    "subCategory": "児童発達支援FC事業",
+    "tam": "約300億円",
+    "tamBasis": "児童発達支援市場規模×FC加盟料・ロイヤリティ",
+    "pricingModel": "FC加盟料＋月額ロイヤリティ",
+    "unitEconomics": "加盟料200万円＋月額売上の8%",
+    "targetCustomer": "児童発達支援事業への新規参入企業・個人",
+    "channels": [
+      "FC本部直営業",
+      "Web集客",
+      "説明会・セミナー"
+    ],
+    "customerNeeds": [
+      "確立された療育メソッド",
+      "開業・運営ノウハウ",
+      "ブランド力"
+    ],
+    "entryBarrier": "独自療育メソッド開発と実績・FC管理体制",
+    "smsApplicability": "medium",
+    "smsNote": "カイポケ利用FC加盟者への療育メソッド提供で相乗効果",
+    "confidence": "medium"
+  },
+  {
+    "companyId": "kaien",
+    "companyName": "Kaien",
+    "subCategory": "発達障害特化就労支援",
+    "tam": "約150億円",
+    "tamBasis": "就労移行支援市場×発達障害者割合＋企業研修",
+    "pricingModel": "給付費＋企業向けコンサル・研修費",
+    "unitEconomics": "利用者単価月15万円＋企業研修50万円",
+    "targetCustomer": "発達障害者・障害者雇用を進める企業",
+    "channels": [
+      "医療機関連携",
+      "企業直接営業",
+      "Web集客"
+    ],
+    "customerNeeds": [
+      "IT・事務スキル習得",
+      "企業とのマッチング",
+      "職場定着支援"
+    ],
+    "entryBarrier": "発達障害専門ノウハウと企業ネットワーク",
+    "smsApplicability": "high",
+    "smsNote": "カイポケ連携で就労支援事業所向けプログラム提供可能",
+    "confidence": "high"
+  },
+  {
+    "companyId": "spool",
+    "companyName": "エスプール",
+    "subCategory": "企業向け障害者雇用支援",
+    "tam": "約800億円",
+    "tamBasis": "法定雇用率対象企業×不足雇用数×年間人件費",
+    "pricingModel": "月額人材派遣・業務委託料",
+    "unitEconomics": "障害者1名あたり月額20-25万円",
+    "targetCustomer": "法定雇用率達成が必要な中堅・大企業",
+    "channels": [
+      "直接営業",
+      "代理店",
+      "紹介・リファラル"
+    ],
+    "customerNeeds": [
+      "法定雇用率達成",
+      "安定した雇用環境",
+      "管理負荷軽減"
+    ],
+    "entryBarrier": "農園運営ノウハウと初期投資・拠点展開力",
+    "smsApplicability": "low",
+    "smsNote": "SMSの事業領域とは異なるが障害者雇用で連携余地",
+    "confidence": "high"
+  },
+  {
+    "companyId": "startline",
+    "companyName": "スタートライン",
+    "subCategory": "企業向け障害者雇用支援",
+    "tam": "約800億円",
+    "tamBasis": "法定雇用率対象企業×不足雇用数×年間人件費",
+    "pricingModel": "月額人材派遣・サテライトオフィス利用料",
+    "unitEconomics": "障害者1名あたり月額18-23万円",
+    "targetCustomer": "法定雇用率達成が必要な中堅・大企業",
+    "channels": [
+      "直接営業",
+      "セミナー・イベント",
+      "Web集客"
+    ],
+    "customerNeeds": [
+      "法定雇用率達成",
+      "オフィス型安定雇用",
+      "コンプライアンス対応"
+    ],
+    "entryBarrier": "サテライトオフィス運営と障害者雇用専門性",
+    "smsApplicability": "low",
+    "smsNote": "SMSの事業領域とは異なるが企業向けサービスで連携可能性",
+    "confidence": "high"
+  }
+]

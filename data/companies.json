@@ -35,7 +35,8 @@
     "irUrl": "https://inside.ai/ir/",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q4"
+    "quadrant": "Q4",
+    "subCategory": "AI/BPO"
   },
   {
     "id": "aidemy",
@@ -188,7 +189,8 @@
     "brandColor": "#4CAF50",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q1"
+    "quadrant": "Q1",
+    "subCategory": "人材紹介"
   },
   {
     "id": "benefit_one",
@@ -341,7 +343,8 @@
     "brandColor": "#C62828",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q3"
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "care_net",
@@ -464,7 +467,8 @@
     "lastUpdated": "2025-05-15",
     "marketCap": 150,
     "recentTrend": "就労移行支援を中心に全国拡大中。2025年度は新規10拠点開設",
-    "quadrant": "Q1"
+    "quadrant": "Q1",
+    "subCategory": "メディア・就労支援"
   },
   {
     "id": "copel",
@@ -499,7 +503,8 @@
     "brandColor": "#FF9900",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q2"
+    "quadrant": "Q2",
+    "subCategory": "事業所向け"
   },
   {
     "id": "crowd_works",
@@ -1001,7 +1006,8 @@
     "brandColor": "#E91E63",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q1"
+    "quadrant": "Q1",
+    "subCategory": "SaaS"
   },
   {
     "id": "jmdc",
@@ -1085,7 +1091,8 @@
     "brandColor": "#3F51B5",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q2"
+    "quadrant": "Q2",
+    "subCategory": "事業所向け"
   },
   {
     "id": "kanamic",
@@ -1160,7 +1167,8 @@
     "brandColor": "#FF5722",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q1"
+    "quadrant": "Q1",
+    "subCategory": "SaaS"
   },
   {
     "id": "kumon",
@@ -1279,7 +1287,8 @@
     "brandColor": "#2196F3",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q4"
+    "quadrant": "Q4",
+    "subCategory": "AI/BPO"
   },
   {
     "id": "lifedrink",
@@ -1399,7 +1408,8 @@
     "lastUpdated": "2025-05-15",
     "marketCap": 2800,
     "recentTrend": "プラットフォーム事業が成長ドライバー。LITALICOワークス/仕事ナビが好調",
-    "quadrant": "Q1"
+    "quadrant": "Q1",
+    "subCategory": "メディア・就労支援"
   },
   {
     "id": "m3",
@@ -1446,7 +1456,8 @@
     "irUrl": "https://corporate.m3.com/ir",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q3"
+    "quadrant": "Q3",
+    "subCategory": "医療"
   },
   {
     "id": "manpower",
@@ -1526,7 +1537,8 @@
     "brandColor": "#1A237E",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q3"
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "medpeer",
@@ -1719,7 +1731,8 @@
     "brandColor": "#2E7D32",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q1"
+    "quadrant": "Q1",
+    "subCategory": "SaaS"
   },
   {
     "id": "nichii",
@@ -1962,7 +1975,8 @@
     "brandColor": "#0066CC",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q1"
+    "quadrant": "Q1",
+    "subCategory": "人材紹介"
   },
   {
     "id": "phc",
@@ -2205,7 +2219,8 @@
     "brandColor": "#FF0000",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q3"
+    "quadrant": "Q3",
+    "subCategory": "SaaS"
   },
   {
     "id": "reha_cloud",
@@ -2494,7 +2509,8 @@
     "lastUpdated": "2025-05-15",
     "marketCap": 3200,
     "recentTrend": "カイポケの解約率改善。介護DXと海外事業が成長牽引",
-    "quadrant": "Q3"
+    "quadrant": "Q3",
+    "subCategory": "介護"
   },
   {
     "id": "sompo_care",
@@ -2658,7 +2674,8 @@
     "lastUpdated": "2025-05-15",
     "marketCap": 450,
     "recentTrend": "障害者雇用支援（わーくはぴねす農園）が主力。ESG需要で安定成長",
-    "quadrant": "Q2"
+    "quadrant": "Q2",
+    "subCategory": "企業向け"
   },
   {
     "id": "startline",
@@ -2691,7 +2708,8 @@
     "brandColor": "#009688",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q2"
+    "quadrant": "Q2",
+    "subCategory": "企業向け"
   },
   {
     "id": "sun_welfare",
@@ -3114,7 +3132,8 @@
     "brandColor": "#212121",
     "hasFullData": false,
     "lastUpdated": "2025-05-15",
-    "quadrant": "Q4"
+    "quadrant": "Q4",
+    "subCategory": "HR・メディア"
   },
   {
     "id": "welbe",
@@ -3161,7 +3180,8 @@
     "lastUpdated": "2025-05-15",
     "marketCap": 350,
     "recentTrend": "就労移行支援の最大手。M&Aで児童発達支援にも進出",
-    "quadrant": "Q1"
+    "quadrant": "Q1",
+    "subCategory": "メディア・就労支援"
   },
   {
     "id": "wiseman",

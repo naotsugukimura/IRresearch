@@ -71,6 +71,10 @@ import type {
   InternationalWelfareDetail,
   DisabilitySubTypeData,
   DisabilitySubTypeDetail,
+  Q1OpsData,
+  Q2BusinessModel,
+  Q3IndustryForce,
+  BpmnModel,
 } from "./types";
 
 // ============================================================
@@ -354,7 +358,31 @@ export function getInternationalWelfareCountry(id: string): InternationalWelfare
 // ============================================================
 
 import rewardRevisionsData from "@/data/reward-revisions.json";
+import q1OpsData from "@/data/quadrant-data/q1-ops.json";
+import q2BizData from "@/data/quadrant-data/q2-business-models.json";
+import q3IndustryData from "@/data/quadrant-data/q3-industry-force.json";
+import q1BpmnData from "@/data/quadrant-data/q1-bpmn.json";
 
 export function getRewardRevisions(): RewardRevisionPageData {
   return rewardRevisionsData as unknown as RewardRevisionPageData;
+}
+
+// ============================================================
+// 象限データ
+// ============================================================
+
+export function getQ1OpsData(): Q1OpsData[] {
+  return q1OpsData as unknown as Q1OpsData[];
+}
+
+export function getQ2BusinessModels(): Q2BusinessModel[] {
+  return q2BizData as unknown as Q2BusinessModel[];
+}
+
+export function getQ3IndustryForce(): Q3IndustryForce[] {
+  return q3IndustryData as unknown as Q3IndustryForce[];
+}
+
+export function getQ1BpmnModels(): BpmnModel[] {
+  return q1BpmnData as unknown as BpmnModel[];
 }

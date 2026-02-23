@@ -8,17 +8,25 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, HelpCircle, Eye, Layers } from "lucide-react";
-import type { Company, Quadrant, ThreatLevel, FiscalYear } from "@/lib/types";
+import type { Company, Quadrant, ThreatLevel, FiscalYear, Q1OpsData, Q2BusinessModel, Q3IndustryForce, BpmnModel } from "@/lib/types";
 import type { QuadrantConfig } from "@/lib/constants";
 import { THREAT_LEVEL_CONFIG, PRIORITY_RANK_CONFIG } from "@/lib/constants";
 import { formatCurrency } from "@/lib/utils";
 import { cn } from "@/lib/utils";
+import { Q1OpsTable } from "./Q1OpsTable";
+import { Q2BusinessCards } from "./Q2BusinessCards";
+import { Q3IndustryMap } from "./Q3IndustryMap";
+import { BpmnDiagram } from "./BpmnDiagram";
 
 interface Props {
   quadrant: Quadrant;
   config: QuadrantConfig;
   companies: Company[];
   financialsMap: Record<string, FiscalYear | null>;
+  q1OpsData?: Q1OpsData[];
+  q2BizData?: Q2BusinessModel[];
+  q3IndustryData?: Q3IndustryForce[];
+  q1BpmnData?: BpmnModel[];
 }
 
 // ─── 象限コンテキストカード ───────────────────────
@@ -272,69 +280,29 @@ function CompanyCard({ company, fiscal }: { company: Company; fiscal: FiscalYear
   );
 }
 
-// ─── サブカテゴリ分類ロジック ────────────────────────
-// Q1: サービス別（人材紹介 / SaaS / メディア+就労支援）
-const Q1_CLASSIFY: { label: string; keywords: string[] }[] = [
-  { label: "人材紹介", keywords: ["人材紹介", "人材派遣", "求人", "dodaチャレンジ", "atGP"] },
-  { label: "SaaS", keywords: ["SaaS", "クラウド", "ソフト", "システム", "請求管理", "支援記録"] },
-  { label: "メディア・就労支援", keywords: ["就労移行", "就労定着", "放課後", "児童発達", "メディア", "仕事ナビ"] },
-];
-
-// Q3: 業界別（介護 / 医療 / SaaS / HR・メディア）
-const Q3_CLASSIFY: { label: string; keywords: string[] }[] = [
-  { label: "介護", keywords: ["介護", "ケア", "グループホーム", "カイポケ"] },
-  { label: "医療", keywords: ["m3.com", "MR", "治験", "CLINICS", "医療", "JMDC"] },
-  { label: "SaaS", keywords: ["freee", "サイボウズ", "会計", "業務", "SaaS"] },
-  { label: "HR・メディア", keywords: ["Indeed", "リクナビ", "ビズリーチ", "ジョブメドレー", "Airシリーズ", "人材"] },
-];
-
-function classifyCompany(
-  company: Company,
-  rules: { label: string; keywords: string[] }[]
-): string {
-  const text = [
-    company.name,
-    company.description,
-    ...(company.mainServices ?? []),
-  ].join(" ");
-  for (const rule of rules) {
-    if (rule.keywords.some((kw) => text.includes(kw))) {
-      return rule.label;
-    }
-  }
-  return "その他";
-}
-
 // ─── サブカテゴリ別タブビュー ────────────────────────
 function SubCategoryTabs({
   companies,
   financialsMap,
   config,
-  classifyRules,
 }: {
   companies: Company[];
   financialsMap: Record<string, FiscalYear | null>;
   config: QuadrantConfig;
-  classifyRules: { label: string; keywords: string[] }[];
 }) {
-  const categories = classifyRules.map((r) => r.label);
   const [activeCategory, setActiveCategory] = useState<string>("全て");
 
-  // 各企業をカテゴリに分類
-  const companyCategories = new Map<string, string>();
+  // company.subCategory からカテゴリ一覧を生成
+  const categorySet = new Set<string>();
   for (const c of companies) {
-    companyCategories.set(c.id, classifyCompany(c, classifyRules));
+    categorySet.add(c.subCategory ?? "その他");
   }
+  const categories = [...categorySet];
 
   // カテゴリ別カウント
   const categoryCounts: Record<string, number> = { "全て": companies.length };
   for (const cat of categories) {
-    categoryCounts[cat] = companies.filter((c) => companyCategories.get(c.id) === cat).length;
-  }
-  const otherCount = companies.filter((c) => companyCategories.get(c.id) === "その他").length;
-  if (otherCount > 0) {
-    categoryCounts["その他"] = otherCount;
-    categories.push("その他");
+    categoryCounts[cat] = companies.filter((c) => (c.subCategory ?? "その他") === cat).length;
   }
 
   const allCategories = ["全て", ...categories];
@@ -342,7 +310,7 @@ function SubCategoryTabs({
   const filtered =
     activeCategory === "全て"
       ? companies
-      : companies.filter((c) => companyCategories.get(c.id) === activeCategory);
+      : companies.filter((c) => (c.subCategory ?? "その他") === activeCategory);
 
   const sorted = [...filtered].sort((a, b) => {
     const fa = financialsMap[a.id];
@@ -392,7 +360,7 @@ function SubCategoryTabs({
                 className="absolute -top-1 -left-1 z-10 text-[8px] py-0 px-1"
                 style={{ borderColor: `${config.color}40`, color: config.color, backgroundColor: "var(--background)" }}
               >
-                {companyCategories.get(c.id)}
+                {c.subCategory ?? "その他"}
               </Badge>
             )}
             <CompanyCard company={c} fiscal={financialsMap[c.id]} />
@@ -468,14 +436,17 @@ export function QuadrantDetailPage({
   config,
   companies,
   financialsMap,
+  q1OpsData,
+  q2BizData,
+  q3IndustryData,
+  q1BpmnData,
 }: Props) {
   const sorted = [...companies].sort(
     (a, b) => (b.threatLevel as number) - (a.threatLevel as number)
   );
 
-  // 象限ごとの分類ルール
-  const hasSubCategoryTabs = quadrant === "Q1" || quadrant === "Q3";
-  const classifyRules = quadrant === "Q1" ? Q1_CLASSIFY : quadrant === "Q3" ? Q3_CLASSIFY : [];
+  // 全象限でサブカテゴリタブを使用（company.subCategory がある企業は全てタブ表示）
+  const hasSubCategoryTabs = companies.some((c) => c.subCategory);
 
   return (
     <div className="flex h-screen">
@@ -499,8 +470,24 @@ export function QuadrantDetailPage({
           {/* 象限コンテキスト */}
           <QuadrantContext config={config} />
 
-          {/* Q2固有: ビジネスモデル着眼点 */}
+          {/* Q1固有: OPS比較表 + BPMNビジネスモデル図 */}
+          {quadrant === "Q1" && q1OpsData && q1OpsData.length > 0 && (
+            <Q1OpsTable data={q1OpsData} />
+          )}
+          {quadrant === "Q1" && q1BpmnData && q1BpmnData.length > 0 && (
+            <BpmnDiagram data={q1BpmnData} />
+          )}
+
+          {/* Q2固有: ビジネスモデル着眼点 + ビジネスモデルカード */}
           {quadrant === "Q2" && <Q2BusinessModelHint companies={companies} />}
+          {quadrant === "Q2" && q2BizData && q2BizData.length > 0 && (
+            <Q2BusinessCards data={q2BizData} />
+          )}
+
+          {/* Q3固有: 業界別勢力図 */}
+          {quadrant === "Q3" && q3IndustryData && q3IndustryData.length > 0 && (
+            <Q3IndustryMap data={q3IndustryData} />
+          )}
 
           {/* Q4固有: 技術キャッチアップ着眼点 */}
           {quadrant === "Q4" && <Q4TechHint />}
@@ -515,7 +502,6 @@ export function QuadrantDetailPage({
                 companies={companies}
                 financialsMap={financialsMap}
                 config={config}
-                classifyRules={classifyRules}
               />
             </div>
           ) : (

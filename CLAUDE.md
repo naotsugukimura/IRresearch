@@ -59,14 +59,12 @@ SMS/AIBPOは障害福祉業界で以下の3事業 + 事業開発を行ってい�
 ### 実装状態（2026-02-23時点）
 - ✅ カオスマップ: 4象限マトリクス表示（`/company/chaos-map`）
 - ✅ 象限別ページ: コンテキストカード + ランキング表 + 企業カード一覧
-- ✅ Q1/Q3: サブカテゴリ別フィルタ（キーワードマッチベース）
-- ✅ Q2: 市場探索の着眼点カード（ニーズ/市場規模/ビジネスモデル）
+- ✅ 全象限: サブカテゴリ別フィルタ（`company.subCategory`フィールドベース）
+- ✅ Q1: OPS比較表（営業手法/サポート体制/顧客数/人員/差別化の横並び比較）
+- ✅ Q1: SVGベースBPMN風ビジネスモデル図（ステークホルダー関係図）
+- ✅ Q2: 市場探索の着眼点カード + ビジネスモデルカード（TAM/課金モデル/SMS適用性）
+- ✅ Q3: 業界別勢力図（介護/医療/SaaS/HR — 各業界5-8社のプレイヤー表）
 - ✅ Q4: 技術キャッチアップの着眼点カード（採用技術/事業化手法/適用可能性）
-- 🔲 Q1: OPS比較表（売上・営業方法の横並び比較）
-- 🔲 Q1: BPMN風ビジネスモデル図（React Flow活用）
-- 🔲 Q3: 業界別勢力図
-- 🔲 Q2: ビジネスモデルカード（企業別のTAM/課金/ニーズ情報）
-- 🔲 全象限: 企業データにサブカテゴリフィールドを追加（現在はキーワードマッチ）
 
 ## 事業所分析の設計思想（★新規参加者は必読）
 
@@ -721,6 +719,38 @@ TAVILY_API_KEY=tvly-...
 - `lib/constants.ts` — マクロ環境childrenに「海外制度比較」追加
 - `components/market/InternationalCasesSection.tsx` — 詳細ページへのリンク追加
 
+## ★ Phase 25 完了（2026-02-23）: 象限別データ統合 + 4新コンポーネント
+
+### データ生成基盤
+- `scripts/generate_quadrant_data.py` — Claude APIで象限別構造化データを一括生成
+  - `--type q1-ops` / `q2-biz` / `q3-industry` / `q1-bpmn` / `--all`
+  - companies.jsonから対象企業を自動抽出 → Claude API → JSON保存
+- `scripts/add_subcategory.py` — 20社にsubCategoryフィールドを自動追加
+  - Q1/Q3: キーワードマッチ分類をデータ化、Q2/Q4: 手動マッピング
+
+### データファイル（`data/quadrant-data/`）
+- `q1-ops.json` — Q1直接競合8社のOPS比較データ
+- `q2-business-models.json` — Q2市場探索4社のビジネスモデル分析
+- `q3-industry-force.json` — 4業界（介護/医療/SaaS/HR）の勢力図
+- `q1-bpmn.json` — Q1の8社のBPMNステークホルダー関係図
+
+### 新規コンポーネント
+- `components/company/Q1OpsTable.tsx` — ソート可能OPS比較表（営業手法/サポート/顧客数/人員/差別化）
+- `components/company/Q2BusinessCards.tsx` — TAMファネル+課金モデル+SMS適用性カード
+- `components/company/Q3IndustryMap.tsx` — 業界別タブ+プレイヤーランキング表
+- `components/company/BpmnDiagram.tsx` — SVGベースのビジネスモデル関係図（ノード+エッジ+凡例）
+
+### 型定義（`lib/types.ts`）
+- `Q1OpsData` — OPS比較データ（salesMethod/supportStructure/customerCount等）
+- `Q2BusinessModel` — ビジネスモデルカード（tam/pricingModel/smsApplicability等）
+- `Q3IndustryForce` + `Q3IndustryPlayer` — 業界勢力図（marketSize/keyPlayers等）
+- `BpmnModel` + `BpmnNode` + `BpmnEdge` — BPMN図データ
+
+### 変更点
+- `Company.subCategory?: string` 追加 — キーワードマッチを廃止しデータ化
+- `QuadrantDetailPage.tsx` — classifyCompany関数削除 → company.subCategory直参照
+- 全象限でサブカテゴリタブ表示（subCategoryがある企業は自動でタブ化）
+
 ## ★ Phase 20 完了（2026-02-23）: カオスマップ4象限化 + 象限別詳細ページ
 
 ### カオスマップ `/company/chaos-map` — 4象限マトリクス（業界×提供価値）
@@ -773,12 +803,13 @@ TAVILY_API_KEY=tvly-...
 - 技術トレンドマップ
 
 ### ★ 今後の実装ロードマップ（象限ページ）
-1. **Phase 24a**: 全象限共通 — ランキング表（売上/脅威/優先度でソート）+ 象限定義カード改善
-2. **Phase 24b**: Q1直接競合 — サービス別（人材紹介/SaaS/メディア）タブ + OPS比較表
-3. **Phase 24c**: Q3 OPS深化 — 業界別（介護/医療/SaaS）タブ + 勢力図
-4. **Phase 24d**: Q2市場探索 — ビジネスモデルカード（TAM/課金/ニーズ）
-5. **Phase 24e**: Q4技術 — 技術カテゴリ別整理
-6. **将来**: Q1にBPMN風ビジネスモデル図（React Flow活用）
+- ✅ **Phase 24a**: 全象限共通 — ランキング表 + 象限定義カード（完了）
+- ✅ **Phase 24b**: Q1直接競合 — サブカテゴリタブ + OPS比較表 + BPMN図（完了）
+- ✅ **Phase 24c**: Q3 OPS深化 — 業界別勢力図（完了）
+- ✅ **Phase 24d**: Q2市場探索 — ビジネスモデルカード（完了）
+- ✅ **Phase 25**: サブカテゴリフィールド追加 + 全象限データ統合（完了）
+- 🔲 **Phase 24e**: Q4技術 — 技術トレンドマップ
+- 🔲 **将来**: 未分類62社の象限分類拡大
 
 ## ★ Phase 22 完了（2026-02-23）: BPMN風サービス利用フロー図
 
@@ -885,14 +916,13 @@ WAMNET Open Data (2025/09) から全サービスの都道府県別事業所数�
 
 ### ★ 次にやること（優先度順）
 
-#### Phase 24: 象限別ページ深化（★最優先）
-- **24a**: 全象限共通 — ランキング表（売上/脅威/優先度ソート）+ 象限コンテキストカード強化
-- **24b**: Q1直接競合 — サービス別タブ（人材紹介/SaaS/メディア）+ OPS比較表
-- **24c**: Q3 OPS深化 — 業界別タブ（介護/医療/SaaS）+ 勢力図
-- **24d**: Q2市場探索 — ビジネスモデルカード
-- **24e**: Q4技術 — 技術トレンドマップ
-- **将来**: BPMN風ビジネスモデル図（Q1/Q2向け）
-- → 詳細は「Phase 20 完了」セクションの「★ 各象限ページで見たい情報」参照
+#### Phase 24e: Q4技術トレンドマップ
+- Q4技術キャッチアップページに技術カテゴリ別整理を追加
+- AI/BPO、営業AI、EdTech等の技術動向を可視化
+
+#### 未分類62社の象限分類拡大
+- 現在20社分類済み → 82社全体に拡大
+- `scripts/add_subcategory.py` を拡張して新規分類を追加
 
 #### Phase 21b: 残り7サービスの地域分析 + 複数サービス分析
 - WAMNETの正しいサービスコードを調査して残り7サービスのデータ取得
