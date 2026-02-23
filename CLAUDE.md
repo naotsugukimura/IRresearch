@@ -667,13 +667,40 @@ TAVILY_API_KEY=tvly-...
 - `lib/constants.ts` — NAV_ITEMS事業所分析に「利用フロー図」追加
 - `package.json` — `@xyflow/react` 依存追加
 
-### ★ 次にやること（優先度順）
+## ★ 障害サブタイプ詳細ページ 全14カテゴリ横展開 完了（2026-02-23）
 
-#### サブタイプ詳細ページ レビュー待ち
-- **精神障害(mental)で先行実装済み**: 統合失調症/気分障害/不安障害/PTSD/てんかん（5ページ）
-- レビュー後、残り13障害カテゴリに横展開予定
-- `SubTypeDetailPage.tsx` 共通コンポーネント + `DisabilityDetailPage.tsx` テーブル追加済み
-- データ: `data/disability-subtypes/mental.json`
+### 概要
+精神障害で先行実装した「サブタイプ詳細ページ」パターンを全14障害カテゴリ・67ページに横展開。
+各カテゴリトップページにサブタイプ一覧テーブル（推定人数/有病率/好発年齢）を表示し、
+クリックで個別詳細ページ（症状/困難さ/治療/経過/共に生きるヒント/誤解と実際）へ遷移。
+
+### URL構造
+```
+/disability/{category}              ← カテゴリトップ（サブタイプテーブル付き）
+/disability/{category}/{sub-type}   ← サブタイプ詳細（67ページ）
+```
+
+### フィードバック反映
+- **カテゴリトップから「ライフステージと発覚のきっかけ」「医療とアプローチ」を削除**
+  - これらは個別の障害に紐づくものであり、カテゴリ全体のフローではないため
+  - `subTypeData` がある場合は非表示、ない場合は従来表示（後方互換）
+
+### 新規ファイル
+- `data/disability-subtypes/{14ファイル}.json` — 各カテゴリのサブタイプ詳細データ
+- `components/disability/SubTypeDetailPage.tsx` — サブタイプ詳細共通コンポーネント（9セクション）
+- `app/disability/{category}/{sub-type}/page.tsx` — 67ページ
+
+### 変更ファイル
+- `lib/data.ts` — 14カテゴリ分のimport + `SUB_TYPE_DATA_MAP` 拡張
+- `lib/types.ts` — `DisabilitySubTypeDetail` + `DisabilitySubTypeData` 型
+- `components/disability/DisabilityDetailPage.tsx` — サブタイプテーブル追加 + 条件付きセクション非表示
+- `app/disability/*/page.tsx` — 14ページ全てに `subTypeData` props追加
+
+### 生成スクリプト
+- `scripts/generate_subtypes.py` — Claude APIでサブタイプデータ生成（13カテゴリ並列）
+- `scripts/generate_subtype_pages.py` — JSONからNext.jsページファイル一括生成
+
+### ★ 次にやること（優先度順）
 
 #### Phase 21: 事業所分析の拡張（地域分析 + 複数サービス分析）
 - **地域分析**: 都道府県別の事業所分布・シェア（WAMNET CSVデータを活用）
