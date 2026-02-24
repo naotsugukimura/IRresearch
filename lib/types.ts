@@ -872,6 +872,22 @@ export interface ServiceBlueprint {
 }
 
 // ============================================================
+// 詳細業務プロセスマップ（DetailedProcessMap）
+// ============================================================
+
+export interface DetailedProcessMap {
+  id: string;
+  name: string;
+  icon: string;
+  description: string;
+  frequency: string;
+  keyPerson: string;
+  riskLevel: "high" | "medium" | "low";
+  penaltyIfFailed?: string;
+  phases: BlueprintPhase[];
+}
+
+// ============================================================
 // 報酬単位表（RewardUnitTable）
 // ============================================================
 
@@ -918,6 +934,7 @@ export interface FacilityAnalysisData {
   startupGuide?: StartupGuide;
   businessLifecycle?: BusinessLifecycle;
   serviceBlueprint?: ServiceBlueprint;
+  detailedProcessMaps?: DetailedProcessMap[];
   rewardUnitTable?: RewardUnitTableData;
   regionalData?: FacilityRegionalData;
 }

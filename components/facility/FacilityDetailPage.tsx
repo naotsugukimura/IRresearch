@@ -19,6 +19,7 @@ import { UserJourneyFlow } from "@/components/facility/UserJourneyFlow";
 import { StartupFlow } from "@/components/facility/StartupFlow";
 import { BusinessLifecycle } from "@/components/facility/BusinessLifecycle";
 import { ServiceBlueprintSection } from "@/components/facility/ServiceBlueprintSection";
+import { DetailedProcessMapSection } from "@/components/facility/DetailedProcessMapSection";
 import { RewardUnitTable } from "@/components/facility/RewardUnitTable";
 import { FacilityRegionalChart } from "@/components/facility/FacilityRegionalChart";
 import { SectionNav } from "@/components/layout/SectionNav";
@@ -37,6 +38,7 @@ const OPTIONAL_SECTION_CHECKS: Record<string, (d: FacilityAnalysisData) => boole
   userJourney: (d) => !!d.userJourney,
   lifecycle: (d) => !!d.businessLifecycle || !!d.startupGuide,
   blueprint: (d) => !!d.serviceBlueprint,
+  detailedProcess: (d) => (d.detailedProcessMaps?.length ?? 0) > 0,
   stakeholders: (d) => (d.operationsStory.stakeholders?.length ?? 0) > 0,
   rewardTable: (d) => !!d.rewardUnitTable,
   monthlyPL: (d) => !!d.monthlyPL,
@@ -241,6 +243,15 @@ export function FacilityDetailPage({ data, title }: Props) {
                 <section id="blueprint">
                   <ServiceBlueprintSection
                     blueprint={data.serviceBlueprint}
+                    serviceType={data.serviceType}
+                  />
+                </section>
+              )}
+
+              {data.detailedProcessMaps && data.detailedProcessMaps.length > 0 && (
+                <section id="detailedProcess">
+                  <DetailedProcessMapSection
+                    processMaps={data.detailedProcessMaps}
                     serviceType={data.serviceType}
                   />
                 </section>

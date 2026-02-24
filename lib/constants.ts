@@ -470,6 +470,7 @@ export const FACILITY_SECTION_GROUPS: readonly SectionGroup[] = [
       { id: "roles", label: "登場人物" },
       { id: "dailyFlow", label: "一日の流れ" },
       { id: "blueprint", label: "業務プロセス" },
+      { id: "detailedProcess", label: "詳細業務マップ" },
       { id: "userJourney", label: "利用者フロー" },
       { id: "stakeholders", label: "関係者マップ" },
     ],
