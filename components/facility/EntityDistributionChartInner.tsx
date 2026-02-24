@@ -49,25 +49,25 @@ export default function EntityDistributionChartInner({ data }: Props) {
         <div className="lg:col-span-3">
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={barData} layout="vertical" margin={{ top: 5, right: 20, bottom: 5, left: 5 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+              <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
               <XAxis
                 type="number"
                 tickFormatter={(v: number) => v.toLocaleString()}
-                tick={{ fontSize: 13, fill: "hsl(var(--muted-foreground))" }}
+                tick={{ fontSize: 13, fill: "#9CA3AF" }}
               />
               <YAxis
                 type="category"
                 dataKey="name"
                 width={100}
-                tick={{ fontSize: 13, fill: "hsl(var(--muted-foreground))" }}
+                tick={{ fontSize: 13, fill: "#9CA3AF" }}
               />
               <Tooltip
                 contentStyle={{
-                  backgroundColor: "hsl(var(--card))",
-                  border: "1px solid hsl(var(--border))",
+                  backgroundColor: "#1F2937",
+                  border: "1px solid #374151",
                   borderRadius: 8,
                   fontSize: 15,
-                  color: "hsl(var(--foreground))",
+                  color: "#E5E7EB",
                 }}
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 formatter={(value: number, _name: string, entry: any) => [
@@ -102,11 +102,11 @@ export default function EntityDistributionChartInner({ data }: Props) {
               </Pie>
               <Tooltip
                 contentStyle={{
-                  backgroundColor: "hsl(var(--card))",
-                  border: "1px solid hsl(var(--border))",
+                  backgroundColor: "#1F2937",
+                  border: "1px solid #374151",
                   borderRadius: 8,
                   fontSize: 15,
-                  color: "hsl(var(--foreground))",
+                  color: "#E5E7EB",
                 }}
                 formatter={(value: number) => [`${value}%`, "シェア"]}
               />

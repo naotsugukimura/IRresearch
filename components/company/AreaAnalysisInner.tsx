@@ -181,12 +181,12 @@ function PrefectureChart({
             margin={{ top: 0, right: 60, left: 0, bottom: 0 }}
           >
             <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
-            <XAxis type="number" tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }} />
+            <XAxis type="number" tick={{ fontSize: 14, fill: "#9CA3AF" }} />
             <YAxis
               type="category"
               dataKey="prefecture"
               width={70}
-              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "#9CA3AF" }}
             />
             <Tooltip
               formatter={(value: number, name: string) => [
@@ -197,7 +197,7 @@ function PrefectureChart({
                 const row = chartData.find((r) => r.prefecture === label);
                 return row ? `${label}（シェア ${row.marketShare}%）` : label;
               }}
-              contentStyle={{ fontSize: 15, backgroundColor: "hsl(var(--card))", border: "1px solid hsl(var(--border))", color: "#E5E7EB" }}
+              contentStyle={{ fontSize: 15, backgroundColor: "#1F2937", border: "1px solid #374151", color: "#E5E7EB" }}
             />
             <Legend
               wrapperStyle={{ fontSize: 14, color: "#D1D5DB" }}
@@ -206,9 +206,9 @@ function PrefectureChart({
               }
             />
             <Bar dataKey="litalicoFacilities" stackId="a" fill={companyColor} radius={[0, 0, 0, 0]} />
-            <Bar dataKey="otherFacilities" stackId="a" fill="hsl(var(--muted))" radius={[0, 4, 4, 0]}>
+            <Bar dataKey="otherFacilities" stackId="a" fill="#374151" radius={[0, 4, 4, 0]}>
               {chartData.map((entry) => (
-                <Cell key={entry.prefecture} fill="hsl(var(--muted))" />
+                <Cell key={entry.prefecture} fill="#374151" />
               ))}
             </Bar>
           </BarChart>
@@ -285,15 +285,15 @@ function ServiceBreakdownChart({
             margin={{ top: 0, right: 40, left: 0, bottom: 0 }}
           >
             <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
-            <XAxis type="number" tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }} />
+            <XAxis type="number" tick={{ fontSize: 14, fill: "#9CA3AF" }} />
             <YAxis
               type="category"
               dataKey="prefecture"
               width={70}
-              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "#9CA3AF" }}
             />
             <Tooltip
-              contentStyle={{ fontSize: 15, backgroundColor: "hsl(var(--card))", border: "1px solid hsl(var(--border))", color: "#E5E7EB" }}
+              contentStyle={{ fontSize: 15, backgroundColor: "#1F2937", border: "1px solid #374151", color: "#E5E7EB" }}
             />
             <Legend wrapperStyle={{ fontSize: 14, color: "#D1D5DB" }} />
             {serviceNames.map((name) => (

@@ -39,7 +39,7 @@ export default function SegmentPieChartInner({ segments }: Props) {
                 outerRadius={80}
                 dataKey="value"
                 strokeWidth={2}
-                stroke="hsl(var(--background))"
+                stroke="#0A0A0A"
               >
                 {data.map((_, i) => (
                   <Cell key={i} fill={COLORS[i % COLORS.length]} />

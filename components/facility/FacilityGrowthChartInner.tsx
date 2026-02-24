@@ -56,12 +56,12 @@ function ReformTooltip({
   return (
     <div
       style={{
-        backgroundColor: "hsl(var(--card))",
-        border: "1px solid hsl(var(--border))",
+        backgroundColor: "#1F2937",
+        border: "1px solid #374151",
         borderRadius: 8,
         padding: "10px 12px",
         fontSize: 15,
-        color: "hsl(var(--foreground))",
+        color: "#E5E7EB",
         maxWidth: 360,
       }}
     >
@@ -78,7 +78,7 @@ function ReformTooltip({
         return (
           <div key={i} style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 2 }}>
             <span style={{ width: 8, height: 8, borderRadius: "50%", backgroundColor: entry.color, flexShrink: 0 }} />
-            <span style={{ color: "hsl(var(--muted-foreground))" }}>{entry.name}:</span>
+            <span style={{ color: "#9CA3AF" }}>{entry.name}:</span>
             <span style={{ fontFamily: "var(--font-mono, monospace)", fontWeight: 600 }}>{displayVal}</span>
           </div>
         );
@@ -90,7 +90,7 @@ function ReformTooltip({
           style={{
             marginTop: 8,
             paddingTop: 8,
-            borderTop: "1px solid hsl(var(--border))",
+            borderTop: "1px solid #374151",
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 4 }}>
@@ -109,10 +109,10 @@ function ReformTooltip({
             </span>
             <span style={{ fontSize: 14, fontWeight: 600 }}>{rev.title}</span>
           </div>
-          <p style={{ fontSize: 13, color: "hsl(var(--muted-foreground))", lineHeight: 1.5, marginBottom: 4 }}>
+          <p style={{ fontSize: 13, color: "#9CA3AF", lineHeight: 1.5, marginBottom: 4 }}>
             {rev.baseReward}
           </p>
-          <p style={{ fontSize: 13, color: "hsl(var(--muted-foreground))", lineHeight: 1.5 }}>
+          <p style={{ fontSize: 13, color: "#9CA3AF", lineHeight: 1.5 }}>
             {rev.description}
           </p>
           <div
@@ -199,14 +199,14 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
       {view === "stacked" && hasEntityData ? (
         <ResponsiveContainer width="100%" height={380}>
           <AreaChart data={stackedData} margin={{ top: 5, right: 20, bottom: 5, left: 10 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+            <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
             <XAxis
               dataKey="year"
-              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "#9CA3AF" }}
             />
             <YAxis
               tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}k`}
-              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "#9CA3AF" }}
             />
             <Tooltip
               content={<ReformTooltip revisionMap={revisionMap} mode="stacked" />}
@@ -244,21 +244,21 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
       ) : (
         <ResponsiveContainer width="100%" height={380}>
           <ComposedChart data={lineData} margin={{ top: 5, right: 20, bottom: 5, left: 10 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+            <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
             <XAxis
               dataKey="year"
-              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "#9CA3AF" }}
             />
             <YAxis
               yAxisId="facilities"
               tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}k`}
-              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "#9CA3AF" }}
             />
             <YAxis
               yAxisId="users"
               orientation="right"
               tickFormatter={(v: number) => `${(v / 10000).toFixed(0)}万`}
-              tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
+              tick={{ fontSize: 14, fill: "#9CA3AF" }}
             />
             <Tooltip
               content={<ReformTooltip revisionMap={revisionMap} mode="line" />}

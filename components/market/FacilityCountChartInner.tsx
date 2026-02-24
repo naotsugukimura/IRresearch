@@ -87,18 +87,18 @@ export default function FacilityCountChartInner({ data, annotations }: Props) {
       </div>
       <ResponsiveContainer width="100%" height={400}>
         <BarChart data={chartData} margin={{ top: 5, right: 20, bottom: 5, left: 10 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+          <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
           <XAxis
             dataKey="year"
-            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "#9CA3AF" }}
           />
           <YAxis
             tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}k`}
-            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "#9CA3AF" }}
           />
           <Tooltip
-            contentStyle={{ backgroundColor: "hsl(var(--card))",
-              border: "1px solid hsl(var(--border))",
+            contentStyle={{ backgroundColor: "#1F2937",
+              border: "1px solid #374151",
               borderRadius: 8,
               fontSize: 14, color: "#E5E7EB" }}
             formatter={(value: number, name: string) => [

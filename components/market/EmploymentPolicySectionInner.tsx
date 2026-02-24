@@ -73,19 +73,19 @@ export default function EmploymentPolicySectionInner({ employmentHistory, policy
         <>
           <ResponsiveContainer width="100%" height={350}>
             <ComposedChart data={chartData} margin={{ top: 5, right: 20, bottom: 5, left: 10 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+              <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
               <XAxis
                 dataKey="year"
-                tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
+                tick={{ fontSize: 14, fill: "#9CA3AF" }}
               />
               <YAxis
                 domain={[0, 3]}
                 tickFormatter={(v: number) => `${v}%`}
-                tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
+                tick={{ fontSize: 14, fill: "#9CA3AF" }}
               />
               <Tooltip
-                contentStyle={{ backgroundColor: "hsl(var(--card))",
-                  border: "1px solid hsl(var(--border))",
+                contentStyle={{ backgroundColor: "#1F2937",
+                  border: "1px solid #374151",
                   borderRadius: 8,
                   fontSize: 15, color: "#E5E7EB" }}
                 formatter={(value, name) => {
