@@ -200,6 +200,7 @@ function PrefectureChart({
               contentStyle={{ fontSize: 15, backgroundColor: "hsl(var(--card))", border: "1px solid hsl(var(--border))", color: "#E5E7EB" }}
             />
             <Legend
+              wrapperStyle={{ fontSize: 14, color: "#D1D5DB" }}
               formatter={(value: string) =>
                 value === "litalicoFacilities" ? "LITALICO" : "その他"
               }
@@ -294,7 +295,7 @@ function ServiceBreakdownChart({
             <Tooltip
               contentStyle={{ fontSize: 15, backgroundColor: "hsl(var(--card))", border: "1px solid hsl(var(--border))", color: "#E5E7EB" }}
             />
-            <Legend />
+            <Legend wrapperStyle={{ fontSize: 14, color: "#D1D5DB" }} />
             {serviceNames.map((name) => (
               <Bar
                 key={name}

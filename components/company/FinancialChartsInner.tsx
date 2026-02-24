@@ -26,6 +26,7 @@ const tooltipStyle = {
   border: "1px solid #374151",
   borderRadius: "8px",
   fontSize: "15px",
+  color: "#E5E7EB",
 };
 
 interface Props {
