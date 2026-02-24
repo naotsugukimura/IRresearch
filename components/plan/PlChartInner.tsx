@@ -148,20 +148,18 @@ export default function PlChartInner({ plan, companyColor }: PlChartInnerProps) 
               )}
 
               <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.07)" />
-              <XAxis dataKey="month" tick={{ fontSize: 14, fill: "#9CA3AF", fontFamily: "var(--font-jetbrains-mono)" }} />
-              <YAxis tickFormatter={formatYAxis} tick={{ fontSize: 14, fill: "#9CA3AF", fontFamily: "var(--font-jetbrains-mono)" }} />
+              <XAxis dataKey="month" tick={{ fontSize: 14, fill: "#D1D5DB", fontFamily: "var(--font-jetbrains-mono)" }} />
+              <YAxis tickFormatter={formatYAxis} tick={{ fontSize: 14, fill: "#D1D5DB", fontFamily: "var(--font-jetbrains-mono)" }} />
               <Tooltip
                 formatter={formatTooltip}
-                contentStyle={{
-                  backgroundColor: "#1F2937",
+                contentStyle={{ backgroundColor: "#1F2937",
                   border: "1px solid rgba(255,255,255,0.1)",
                   borderRadius: "8px",
                   fontSize: "15px",
-                  fontFamily: "var(--font-jetbrains-mono)",
-                }}
+                  fontFamily: "var(--font-jetbrains-mono)", color: "#E5E7EB" }}
                 labelStyle={{ color: "#9CA3AF" }}
               />
-              <Legend wrapperStyle={{ fontSize: "15px" }} />
+              <Legend wrapperStyle={{ fontSize: "15px", color: "#D1D5DB" }} />
 
               {/* BEP Line */}
               <ReferenceLine y={0} stroke={BEP_COLOR} strokeWidth={2} strokeDasharray="6 3">

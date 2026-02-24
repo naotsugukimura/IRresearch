@@ -63,12 +63,10 @@ export default function RecruitmentBreakdownInner({ data }: Props) {
                 ))}
               </Pie>
               <Tooltip
-                contentStyle={{
-                  backgroundColor: "hsl(var(--card))",
+                contentStyle={{ backgroundColor: "hsl(var(--card))",
                   border: "1px solid hsl(var(--border))",
                   borderRadius: 8,
-                  fontSize: 15,
-                }}
+                  fontSize: 15, color: "#E5E7EB" }}
                 formatter={(value: number) => [`${value}%`, "シェア"]}
               />
             </PieChart>

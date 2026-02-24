@@ -58,16 +58,14 @@ export default function DisabilityPopulationChartInner({ data, annotations }: Pr
             tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
           />
           <Tooltip
-            contentStyle={{
-              backgroundColor: "hsl(var(--card))",
+            contentStyle={{ backgroundColor: "hsl(var(--card))",
               border: "1px solid hsl(var(--border))",
               borderRadius: 8,
-              fontSize: 15,
-            }}
+              fontSize: 15, color: "#E5E7EB" }}
             formatter={(value: number, name: string) => [formatManNin(value), name]}
             labelFormatter={(label) => `${label}年`}
           />
-          <Legend wrapperStyle={{ fontSize: 15 }} />
+          <Legend wrapperStyle={{ fontSize: 15, color: "#D1D5DB" }} />
           {LINES.map((line) => (
             <Line
               key={line.key}

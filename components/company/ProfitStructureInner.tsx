@@ -225,13 +225,13 @@ function WaterfallChart({
               />
               <XAxis
                 dataKey="name"
-                tick={{ fontSize: 13, fill: "#9CA3AF" }}
+                tick={{ fontSize: 13, fill: "#D1D5DB" }}
               />
               <YAxis
                 tickFormatter={formatYAxis}
                 tick={{
                   fontSize: 13,
-                  fill: "#9CA3AF",
+                  fill: "#D1D5DB",
                   fontFamily: "var(--font-jetbrains-mono)",
                 }}
               />
@@ -241,13 +241,11 @@ function WaterfallChart({
                   formatPlanCurrency(props?.payload?.rawValue ?? _value),
                   "",
                 ]}
-                contentStyle={{
-                  backgroundColor: "#1F2937",
+                contentStyle={{ backgroundColor: "#1F2937",
                   border: "1px solid rgba(255,255,255,0.1)",
                   borderRadius: "8px",
                   fontSize: "15px",
-                  fontFamily: "var(--font-jetbrains-mono)",
-                }}
+                  fontFamily: "var(--font-jetbrains-mono)", color: "#E5E7EB" }}
                 labelStyle={{ color: "#9CA3AF" }}
               />
               <Bar dataKey="value" radius={[4, 4, 0, 0]}>
@@ -268,7 +266,7 @@ function WaterfallChart({
                   formatter={(v: number) => formatPlanCurrency(v)}
                   style={{
                     fontSize: 12,
-                    fill: "#9CA3AF",
+                    fill: "#D1D5DB",
                     fontFamily: "var(--font-jetbrains-mono)",
                   }}
                 />
@@ -350,7 +348,7 @@ function SegmentComparisonChart({
                   tickFormatter={formatYAxis}
                   tick={{
                     fontSize: 13,
-                    fill: "#9CA3AF",
+                    fill: "#D1D5DB",
                     fontFamily: "var(--font-jetbrains-mono)",
                   }}
                 />
@@ -365,12 +363,10 @@ function SegmentComparisonChart({
                     formatPlanCurrency(value),
                     "売上高",
                   ]}
-                  contentStyle={{
-                    backgroundColor: "#1F2937",
+                  contentStyle={{ backgroundColor: "#1F2937",
                     border: "1px solid rgba(255,255,255,0.1)",
                     borderRadius: "8px",
-                    fontSize: "15px",
-                  }}
+                    fontSize: "15px", color: "#E5E7EB" }}
                 />
                 <Bar dataKey="売上高" radius={[0, 4, 4, 0]}>
                   {data.map((_, i) => (
@@ -385,7 +381,7 @@ function SegmentComparisonChart({
                     formatter={(v: number) => formatPlanCurrency(v)}
                     style={{
                       fontSize: 13,
-                      fill: "#9CA3AF",
+                      fill: "#D1D5DB",
                       fontFamily: "var(--font-jetbrains-mono)",
                     }}
                   />
@@ -416,7 +412,7 @@ function SegmentComparisonChart({
                   type="number"
                   tick={{
                     fontSize: 13,
-                    fill: "#9CA3AF",
+                    fill: "#D1D5DB",
                     fontFamily: "var(--font-jetbrains-mono)",
                   }}
                   unit="%"
@@ -432,12 +428,10 @@ function SegmentComparisonChart({
                     `${value.toFixed(1)}%`,
                     name,
                   ]}
-                  contentStyle={{
-                    backgroundColor: "#1F2937",
+                  contentStyle={{ backgroundColor: "#1F2937",
                     border: "1px solid rgba(255,255,255,0.1)",
                     borderRadius: "8px",
-                    fontSize: "15px",
-                  }}
+                    fontSize: "15px", color: "#E5E7EB" }}
                 />
                 <Bar dataKey="粗利率" fill="#10B981" radius={[0, 4, 4, 0]}>
                   <LabelList
@@ -464,7 +458,7 @@ function SegmentComparisonChart({
                     formatter={(v: number) => `${v}%`}
                     style={{
                       fontSize: 13,
-                      fill: "#9CA3AF",
+                      fill: "#D1D5DB",
                       fontFamily: "var(--font-jetbrains-mono)",
                     }}
                   />
@@ -568,13 +562,13 @@ function SegmentMonthlyTrend({ segmentPlans }: { segmentPlans: CompanyBusinessPl
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={data} margin={{ top: 5, right: 5, left: 5, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
-              <XAxis dataKey="name" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} />
-              <YAxis tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatPlanCurrency(v)} />
+              <XAxis dataKey="name" tick={{ fontSize: 13, fill: "#D1D5DB" }} axisLine={false} />
+              <YAxis tick={{ fontSize: 13, fill: "#D1D5DB" }} axisLine={false} tickFormatter={(v: number) => formatPlanCurrency(v)} />
               <Tooltip
-                contentStyle={{ backgroundColor: "#1F2937", border: "1px solid #374151", borderRadius: "8px", fontSize: "15px" }}
+                contentStyle={{ backgroundColor: "#1F2937", border: "1px solid #374151", borderRadius: "8px", fontSize: "15px", color: "#E5E7EB" }}
                 formatter={(value: number) => [formatPlanCurrency(value), undefined]}
               />
-              <Legend wrapperStyle={{ fontSize: "14px" }} />
+              <Legend wrapperStyle={{ fontSize: "14px", color: "#D1D5DB" }} />
               {segNames.map((name, i) => (
                 <Line key={name} type="monotone" dataKey={name} stroke={SEGMENT_COLORS[i % SEGMENT_COLORS.length]} strokeWidth={2} dot={{ r: 2 }} />
               ))}
@@ -613,13 +607,13 @@ function SegmentCostStructure({ segmentPlans }: { segmentPlans: CompanyBusinessP
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={data} layout="vertical" margin={{ top: 5, right: 5, left: 80, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
-              <XAxis type="number" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatPlanCurrency(v)} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} width={75} />
+              <XAxis type="number" tick={{ fontSize: 13, fill: "#D1D5DB" }} axisLine={false} tickFormatter={(v: number) => formatPlanCurrency(v)} />
+              <YAxis type="category" dataKey="name" tick={{ fontSize: 13, fill: "#D1D5DB" }} axisLine={false} width={75} />
               <Tooltip
-                contentStyle={{ backgroundColor: "#1F2937", border: "1px solid #374151", borderRadius: "8px", fontSize: "15px" }}
+                contentStyle={{ backgroundColor: "#1F2937", border: "1px solid #374151", borderRadius: "8px", fontSize: "15px", color: "#E5E7EB" }}
                 formatter={(value: number) => [formatPlanCurrency(value), undefined]}
               />
-              <Legend wrapperStyle={{ fontSize: "14px" }} />
+              <Legend wrapperStyle={{ fontSize: "14px", color: "#D1D5DB" }} />
               <Bar dataKey="売上原価" stackId="cost" fill="#6B7280" radius={[0, 0, 0, 0]} />
               <Bar dataKey="人件費" stackId="cost" fill="#3B82F6" />
               <Bar dataKey="広告宣伝費" stackId="cost" fill="#F59E0B" />

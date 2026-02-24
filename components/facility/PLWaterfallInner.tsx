@@ -129,12 +129,10 @@ export default function PLWaterfallInner({ data }: Props) {
                   ))}
                 </Pie>
                 <Tooltip
-                  contentStyle={{
-                    backgroundColor: "hsl(var(--card))",
+                  contentStyle={{ backgroundColor: "hsl(var(--card))",
                     border: "1px solid hsl(var(--border))",
                     borderRadius: 8,
-                    fontSize: 15,
-                  }}
+                    fontSize: 15, color: "#E5E7EB" }}
                   // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   formatter={(value: number, _name: string, entry: any) => [
                     `${value}% (¥${(entry?.payload?.amount ?? 0).toLocaleString()}/月)`,

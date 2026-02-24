@@ -84,19 +84,17 @@ export default function EmploymentPolicySectionInner({ employmentHistory, policy
                 tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
               />
               <Tooltip
-                contentStyle={{
-                  backgroundColor: "hsl(var(--card))",
+                contentStyle={{ backgroundColor: "hsl(var(--card))",
                   border: "1px solid hsl(var(--border))",
                   borderRadius: 8,
-                  fontSize: 15,
-                }}
+                  fontSize: 15, color: "#E5E7EB" }}
                 formatter={(value, name) => {
                   if (value === null || value === undefined) return ["未達成", String(name)];
                   return [`${value}%`, String(name)];
                 }}
                 labelFormatter={(label) => `${label}年`}
               />
-              <Legend wrapperStyle={{ fontSize: 15 }} />
+              <Legend wrapperStyle={{ fontSize: 15, color: "#D1D5DB" }} />
               <Bar
                 dataKey="legalRate"
                 name="法定雇用率"

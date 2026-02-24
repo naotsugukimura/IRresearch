@@ -280,10 +280,10 @@ function SimulatorUI({ params, companyColor }: { params: SimParam[]; companyColo
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={sensitivityData} layout="vertical" margin={{ top: 5, right: 5, left: 80, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
-                <XAxis type="number" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickFormatter={(v: number) => formatPlanCurrency(v)} />
-                <YAxis type="category" dataKey="name" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} width={75} />
+                <XAxis type="number" tick={{ fontSize: 13, fill: "#D1D5DB" }} axisLine={false} tickFormatter={(v: number) => formatPlanCurrency(v)} />
+                <YAxis type="category" dataKey="name" tick={{ fontSize: 13, fill: "#D1D5DB" }} axisLine={false} width={75} />
                 <Tooltip
-                  contentStyle={{ backgroundColor: "#1F2937", border: "1px solid #374151", borderRadius: "8px", fontSize: "15px" }}
+                  contentStyle={{ backgroundColor: "#1F2937", border: "1px solid #374151", borderRadius: "8px", fontSize: "15px", color: "#E5E7EB" }}
                   formatter={(value: number) => [formatPlanCurrency(value), "影響額"]}
                 />
                 <ReferenceLine x={0} stroke="#6B7280" strokeDasharray="3 3" />

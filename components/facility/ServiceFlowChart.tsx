@@ -182,7 +182,7 @@ export function ServiceFlowChart() {
   const defaultEdgeOptions = useMemo(
     () => ({
       style: { strokeWidth: 1.5, stroke: "#6B7280" },
-      labelStyle: { fill: "#9CA3AF", fontSize: 12, fontWeight: 500 },
+      labelStyle: { fill: "#D1D5DB", fontSize: 12, fontWeight: 500 },
       labelBgStyle: { fill: "#1f2937", fillOpacity: 0.9 },
       labelBgPadding: [4, 2] as [number, number],
       labelBgBorderRadius: 3,

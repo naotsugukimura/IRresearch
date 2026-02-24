@@ -97,19 +97,17 @@ export default function FacilityCountChartInner({ data, annotations }: Props) {
             tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
           />
           <Tooltip
-            contentStyle={{
-              backgroundColor: "hsl(var(--card))",
+            contentStyle={{ backgroundColor: "hsl(var(--card))",
               border: "1px solid hsl(var(--border))",
               borderRadius: 8,
-              fontSize: 14,
-            }}
+              fontSize: 14, color: "#E5E7EB" }}
             formatter={(value: number, name: string) => [
               value.toLocaleString() + "事業所",
               name,
             ]}
             labelFormatter={(label) => `${label}年`}
           />
-          <Legend wrapperStyle={{ fontSize: 13 }} />
+          <Legend wrapperStyle={{ fontSize: 13, color: "#D1D5DB" }} />
           {services
             .filter((svc) => activeServices.has(svc))
             .map((svc) => (

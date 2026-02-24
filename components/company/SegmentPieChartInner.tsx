@@ -46,12 +46,10 @@ export default function SegmentPieChartInner({ segments }: Props) {
                 ))}
               </Pie>
               <Tooltip
-                contentStyle={{
-                  backgroundColor: "#1F2937",
+                contentStyle={{ backgroundColor: "#1F2937",
                   border: "1px solid #374151",
                   borderRadius: "8px",
-                  fontSize: "15px",
-                }}
+                  fontSize: "15px", color: "#E5E7EB" }}
                 formatter={(value: number) => [`${value}%`, undefined]}
               />
             </PieChart>

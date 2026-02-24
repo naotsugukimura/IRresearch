@@ -41,13 +41,13 @@ export default function KpiComparisonChartInner({ companies, financials }: Props
         <div className="h-[280px]">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={revenueData} margin={{ top: 10, right: 10, left: 10, bottom: 0 }}>
-              <XAxis dataKey="name" tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickLine={false} />
-              <YAxis tick={{ fontSize: 13, fill: "#9CA3AF" }} axisLine={false} tickLine={false} tickFormatter={(v: number) => formatRevenue(v)} />
+              <XAxis dataKey="name" tick={{ fontSize: 13, fill: "#D1D5DB" }} axisLine={false} tickLine={false} />
+              <YAxis tick={{ fontSize: 13, fill: "#D1D5DB" }} axisLine={false} tickLine={false} tickFormatter={(v: number) => formatRevenue(v)} />
               <Tooltip
-                contentStyle={{ backgroundColor: "#1F2937", border: "1px solid #374151", borderRadius: "8px", fontSize: "15px" }}
+                contentStyle={{ backgroundColor: "#1F2937", border: "1px solid #374151", borderRadius: "8px", fontSize: "15px", color: "#E5E7EB" }}
                 formatter={(value: number) => [`${formatRevenue(value)}`, undefined]}
               />
-              <Legend wrapperStyle={{ fontSize: "14px" }} />
+              <Legend wrapperStyle={{ fontSize: "14px", color: "#D1D5DB" }} />
               <Bar dataKey="売上高" fill="#3B82F6" radius={[4, 4, 0, 0]} />
               <Bar dataKey="営業利益" fill="#10B981" radius={[4, 4, 0, 0]} />
             </BarChart>

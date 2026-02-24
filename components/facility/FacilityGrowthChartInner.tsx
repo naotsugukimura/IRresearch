@@ -211,7 +211,7 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
             <Tooltip
               content={<ReformTooltip revisionMap={revisionMap} mode="stacked" />}
             />
-            <Legend wrapperStyle={{ fontSize: 14 }} />
+            <Legend wrapperStyle={{ fontSize: 14, color: "#D1D5DB" }} />
             {ENTITY_KEYS.map((key) => (
               <Area
                 key={key}
@@ -263,7 +263,7 @@ export default function FacilityGrowthChartInner({ facilityData, userData, rewar
             <Tooltip
               content={<ReformTooltip revisionMap={revisionMap} mode="line" />}
             />
-            <Legend wrapperStyle={{ fontSize: 15 }} />
+            <Legend wrapperStyle={{ fontSize: 15, color: "#D1D5DB" }} />
             <Area
               yAxisId="users"
               type="monotone"
