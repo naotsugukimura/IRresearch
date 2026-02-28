@@ -16,8 +16,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "競合IR分析ダッシュボード",
-  description: "SMS障害福祉支援部 競合企業IR深掘り分析サイト",
+  title: "IRリサーチ - 企業分析・マクロ環境",
+  description: "SMS障害福祉支援部 競合企業IR分析・マクロ環境分析サイト",
 };
 
 export default function RootLayout({

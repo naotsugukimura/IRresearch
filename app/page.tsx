@@ -21,7 +21,7 @@ export default function DashboardPage() {
           <MobileNav />
           <PageHeader
             title="ホーム"
-            description="障害福祉支援部 競合IR分析ダッシュボード"
+            description="IRリサーチ - 企業分析・マクロ環境"
           />
         </div>
         <div className="space-y-6 p-4 md:p-6">

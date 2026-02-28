@@ -1,8 +1,17 @@
 import Link from "next/link";
-import { Globe, Building, Building2, BookOpen, ArrowRight } from "lucide-react";
+import { Globe, Building2, FileText, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const GUIDE_CARDS = [
+  {
+    icon: Building2,
+    title: "企業を分析する",
+    description:
+      "上場企業のIR分析、財務時系列、セグメント別PL、決算インサイト。非上場企業のWebリサーチも含め82社をカバー",
+    href: "/company",
+    color: "#8B5CF6",
+    tags: ["82社", "財務分析", "事業戦略", "決算分析"],
+  },
   {
     icon: Globe,
     title: "マクロ環境を知る",
@@ -13,31 +22,13 @@ const GUIDE_CARDS = [
     tags: ["制度沿革", "市場規模", "雇用統計", "海外比較"],
   },
   {
-    icon: Building,
-    title: "事業所の現場を知る",
+    icon: FileText,
+    title: "分析を記録する",
     description:
-      "全19サービスの事業所分析。参入法人、一日の流れ、登場人物、ステークホルダー、収支構造、加算一覧を深堀り",
-    href: "/facility",
+      "決算分析、中計分析、競合比較など、リサーチの成果をノートとして蓄積・共有する",
+    href: "/notes",
     color: "#10B981",
-    tags: ["19サービス種", "法人分布", "現場の声", "加算"],
-  },
-  {
-    icon: Building2,
-    title: "競合企業を知る",
-    description:
-      "上場企業のIR分析、財務時系列、セグメント別PL、決算インサイト。非上場企業のWebリサーチも含め82社をカバー",
-    href: "/company",
-    color: "#8B5CF6",
-    tags: ["82社", "財務分析", "事業戦略", "決算分析"],
-  },
-  {
-    icon: BookOpen,
-    title: "業界知識を深める",
-    description:
-      "障害特性と必要なサポート、業界用語、KPI/PLの読み方など、障害福祉ビジネスの基礎知識を習得する",
-    href: "/disability",
-    color: "#EC4899",
-    tags: ["14カテゴリ", "67サブタイプ", "支援方法", "就労配慮"],
+    tags: ["決算分析", "中計分析", "競合比較", "自由記述"],
   },
 ];
 
@@ -46,13 +37,13 @@ export function NavigationGuide() {
     <div>
       <div className="mb-4">
         <h2 className="text-base font-semibold">
-          障害福祉業界を理解する
+          IRリサーチ
         </h2>
         <p className="mt-1 text-xs text-muted-foreground">
-          マクロ環境 → 事業所の現場 → 競合企業 の順で、業界の全体像から個別企業まで段階的に理解できます
+          企業分析 → マクロ環境 → 分析記録 の流れで、競合企業とマクロ環境を深掘りリサーチ
         </p>
       </div>
-      <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-3 md:grid-cols-3">
         {GUIDE_CARDS.map((card, idx) => (
           <Link key={card.href} href={card.href} className="group">
             <Card className="h-full transition-colors hover:border-foreground/20">

@@ -5,10 +5,8 @@ import { usePathname } from "next/navigation";
 import {
   LayoutDashboard,
   Globe,
-  Heart,
-  Building,
   Building2,
-  GraduationCap,
+  FileText,
   Menu,
   ChevronRight,
 } from "lucide-react";
@@ -23,10 +21,8 @@ import { Separator } from "@/components/ui/separator";
 const ICON_MAP = {
   LayoutDashboard,
   Globe,
-  Heart,
-  Building,
   Building2,
-  GraduationCap,
+  FileText,
 } as const;
 
 function NavGroup({
@@ -92,7 +88,6 @@ function NavGroup({
           {item.children.map((child) => {
             const isExactMatch =
               child.href === "/market" ||
-              child.href === "/facility" ||
               child.href === "/company";
             const isChildActive = isExactMatch
               ? pathname === child.href

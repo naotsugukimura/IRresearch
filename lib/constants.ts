@@ -23,34 +23,6 @@ export type NavItem = {
 export const NAV_ITEMS: NavItem[] = [
   { href: "/", label: "ホーム", icon: "LayoutDashboard" },
   {
-    href: "/market",
-    label: "マクロ環境",
-    icon: "Globe",
-    children: [
-      { href: "/market", label: "市場ダッシュボード" },
-      { href: "/market/international", label: "海外制度比較" },
-      { href: "/reward-revision", label: "報酬改定" },
-    ],
-  },
-  {
-    href: "/disability",
-    label: "障害理解",
-    icon: "Heart",
-    children: [
-      { href: "/disability", label: "障害種別一覧" },
-    ],
-  },
-  {
-    href: "/facility",
-    label: "事業所分析",
-    icon: "Building",
-    children: [
-      { href: "/facility", label: "サービス種別一覧" },
-      { href: "/facility/lifecycle", label: "事業所ライフサイクル" },
-      { href: "/facility/flow", label: "利用フロー図" },
-    ],
-  },
-  {
     href: "/company",
     label: "企業分析",
     icon: "Building2",
@@ -60,6 +32,18 @@ export const NAV_ITEMS: NavItem[] = [
       { href: "/compare", label: "企業比較" },
     ],
   },
+  {
+    href: "/market",
+    label: "マクロ環境",
+    icon: "Globe",
+    children: [
+      { href: "/market", label: "市場ダッシュボード" },
+      { href: "/market/international", label: "海外制度比較" },
+      { href: "/reward-revision", label: "報酬改定" },
+      { href: "/trends", label: "業界トレンド" },
+    ],
+  },
+  { href: "/notes", label: "分析ノート", icon: "FileText" },
 ];
 
 // ============================================================
@@ -385,8 +369,6 @@ export type SectionGroup = {
   sections: readonly { id: string; label: string }[];
 };
 
-/** @deprecated Use SectionGroup instead */
-export type FacilitySectionGroup = SectionGroup;
 
 export const MARKET_SECTION_GROUPS: readonly SectionGroup[] = [
   {
@@ -429,58 +411,6 @@ export const MARKET_SECTION_GROUPS: readonly SectionGroup[] = [
   },
 ];
 
-export const FACILITY_SECTION_GROUPS: readonly SectionGroup[] = [
-  {
-    groupId: "market",
-    groupLabel: "市場系",
-    groupColor: "#3B82F6",
-    sections: [
-      { id: "overview", label: "概要" },
-      { id: "entities", label: "参入法人" },
-      { id: "scale", label: "事業規模" },
-      { id: "timeseries", label: "推移" },
-      { id: "regional", label: "地域分布" },
-    ],
-  },
-  {
-    groupId: "history",
-    groupLabel: "沿革系",
-    groupColor: "#F59E0B",
-    sections: [
-      { id: "rewardHistory", label: "報酬改定の歴史" },
-    ],
-  },
-  {
-    groupId: "management",
-    groupLabel: "経営系",
-    groupColor: "#10B981",
-    sections: [
-      { id: "pl", label: "収支構造" },
-      { id: "monthlyPL", label: "月次収支" },
-      { id: "lifecycle", label: "事業ライフサイクル" },
-      { id: "rewardTable", label: "報酬単位" },
-      { id: "bonuses", label: "加算一覧" },
-    ],
-  },
-  {
-    groupId: "operations",
-    groupLabel: "業務プロセス理解",
-    groupColor: "#8B5CF6",
-    sections: [
-      { id: "roles", label: "登場人物" },
-      { id: "dailyFlow", label: "一日の流れ" },
-      { id: "blueprint", label: "業務プロセス" },
-      { id: "detailedProcess", label: "詳細業務マップ" },
-      { id: "userJourney", label: "利用者フロー" },
-      { id: "stakeholders", label: "関係者マップ" },
-    ],
-  },
-] as const;
-
-// Flat list for backward compatibility
-export const FACILITY_SECTIONS = FACILITY_SECTION_GROUPS.flatMap(
-  (g) => g.sections
-);
 
 export const COMPANY_SECTIONS = [
   { id: "overview", label: "概要" },
@@ -492,25 +422,6 @@ export const COMPANY_SECTIONS = [
   { id: "insights", label: "SMSへの示唆" },
 ] as const;
 
-// ============================================================
-// 用語集カテゴリ（学習サポートページ）
-// ============================================================
-
-export const GLOSSARY_CATEGORY_COLORS: Record<string, string> = {
-  common: "#6B7280",
-  retail: "#F59E0B",
-  saas: "#3B82F6",
-  recruitment: "#10B981",
-  media: "#8B5CF6",
-};
-
-export const GLOSSARY_CATEGORY_ICONS: Record<string, string> = {
-  common: "\u{1F6E1}\uFE0F",
-  retail: "\u{1F3EA}",
-  saas: "\u{1F4BB}",
-  recruitment: "\u{1F91D}",
-  media: "\u{1F310}",
-};
 
 // ============================================================
 // インパクトレベル
